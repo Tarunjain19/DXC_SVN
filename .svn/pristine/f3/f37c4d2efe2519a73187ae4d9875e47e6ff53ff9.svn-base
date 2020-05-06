@@ -1,0 +1,20 @@
+##################################################################################
+# 
+# CS_OpenWithinTAT_Disconnect_PP.properties file
+# 
+##################################################################################
+
+
+########################
+# Dialog Name
+########################
+
+dialogName = CS_OpenWithinTAT_Disconnect_PP
+isAnnouncement = true
+announceID = PA_0014
+
+
+########################
+# Prompt & Collect
+########################
+initialPrompt = 44228.wav

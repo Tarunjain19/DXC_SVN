@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<phraseset audiolocation="external" filename="RCOM_GPON" version="1.0">
+    <phrase version="1.0">
+        <displayname>45000</displayname>
+        <talent/>
+        <phrasetext>Welcome to Reliance</phrasetext>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>45000.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>45001</displayname>
+        <talent/>
+        <phrasetext>Sorry ,you have not entered any input</phrasetext>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>45001.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>45002</displayname>
+        <talent/>
+        <phrasetext>Please try again</phrasetext>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>45002.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>45003</displayname>
+        <talent/>
+        <phrasetext>that was an invalid entry&#13;
+that was an invalid entry&#13;
+that was an invalid entry</phrasetext>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>45003.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>45004</displayname>
+        <talent/>
+        <phrasetext>To continue in</phrasetext>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>45004.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>45005</displayname>
+        <talent/>
+        <phrasetext>Please wait while we transfer your call to one of our customer service representatives</phrasetext>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>45005.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>45006</displayname>
+        <talent/>
+        <phrasetext>Thank you for calling Reliance</phrasetext>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>45006.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>45100</displayname>
+        <talent/>
+        <phrasetext>Press 0</phrasetext>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>45100.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>45101</displayname>
+        <talent/>
+        <phrasetext>Press1</phrasetext>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>45101.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>45102</displayname>
+        <talent/>
+        <phrasetext>Press2 </phrasetext>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>45102.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>45103</displayname>
+        <talent/>
+        <phrasetext>Press 3</phrasetext>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>45103.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>45104</displayname>
+        <talent/>
+        <phrasetext>Press4</phrasetext>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>45104.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>45105</displayname>
+        <talent/>
+        <phrasetext>Press 5</phrasetext>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>45105.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>45106</displayname>
+        <talent/>
+        <phrasetext>Press 6</phrasetext>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>45106.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>45107</displayname>
+        <talent/>
+        <phrasetext>Press 7</phrasetext>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>45107.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>45108</displayname>
+        <talent/>
+        <phrasetext>Press 8</phrasetext>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>45108.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>45109</displayname>
+        <talent/>
+        <phrasetext>Press 9&#13;
+</phrasetext>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>45109.wav</audiofile>
+    </phrase>
+</phraseset>

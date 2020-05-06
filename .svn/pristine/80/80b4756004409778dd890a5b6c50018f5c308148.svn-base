@@ -1,0 +1,1414 @@
+12/05/2015 21:28:34:049  INFO - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : SCESession bound to HttpSession 20B0520739225E5EA22070203DCD7645
+12/05/2015 21:28:34:049  INFO - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : Browser Version 2.1.4, terminationURL enabled : true
+12/05/2015 21:28:35:252  WARN - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : Problem simulating platform values (Connection refused: connect)
+12/05/2015 21:28:35:252  INFO - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : Using SCESession 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR servlet : Start
+12/05/2015 21:28:40:198  INFO - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : ** Pushed Stack Frame [/RCOM_CF_DND_1909_IVR]
+12/05/2015 21:28:40:402  INFO - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : Storing :session___sessionid to complex: session:sessionid  as [mpp-2015132155116-16]
+12/05/2015 21:28:40:495  INFO - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : runtime_platform : Desktop
+12/05/2015 21:28:40:495  INFO - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : runtime_asr : Desktop Microsoft Speech SAPI
+12/05/2015 21:28:40:495 DEBUG - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : Acquiring initial License
+12/05/2015 21:28:40:495  INFO - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : Acquiring Desktop runtime license
+12/05/2015 21:28:40:495  INFO - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : Runtime :true
+12/05/2015 21:28:40:495  INFO - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : IC :true
+12/05/2015 21:28:40:495  INFO - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : CTI :true
+12/05/2015 21:28:40:682 DEBUG - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : Grace Period timer cleared
+12/05/2015 21:28:40:682 DEBUG - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : License refresh timer started
+12/05/2015 21:28:40:682  INFO - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : MessageType is speech
+12/05/2015 21:28:40:745 DEBUG - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : *** Reply for [/RCOM_CF_DND_1909_IVR/Start] ***
+12/05/2015 21:28:40:745 DEBUG - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : 0:<?xml version="1.0" encoding="UTF-8"?> 
+1:<vxml version="2.1" xmlns="http://www.w3.org/2001/vxml" xml:lang="en-us"> 
+2:<meta name="author" content="Avaya Aura Orchestration Designer"/> 
+3:<meta name="runtime-version" content="07.01.08.04"/> 
+4:<meta name="runtimecommon-version" content="07.01.08.04"/> 
+5:<meta name="copyright" content="Copyright (c) 2002-2011, Avaya"/> 
+6:<script> 
+7:function getnbest(  item, nbest ) { 
+8:    var len = application.lastresult$.length; 
+9:    var result = ""; 
+10:     
+11:    if ( len &gt; nbest) { 
+12:        len = nbest; 
+13:    } 
+14:    for (var i = 0; i &lt; len; i++) { 
+15:        if (i &gt; 0) { 
+16:            result += " |"; 
+17:        } 
+18:        var temp  =  "application.lastresult$[" + i + "]." + item; 
+19:        result += extractprops( "", eval(temp)); 
+20:    } 
+21:    return result; 
+22:} 
+23: 
+24:function getnbestnmni(  item, nbest ) { 
+25:    var len = application.lastresult$.length; 
+26:    var result = ""; 
+27:     
+28:    if ( len &gt; nbest) { 
+29:        len = nbest; 
+30:    } 
+31:    for (var i = 0; i &lt; len; i++) { 
+32:        if (i &gt; 0) { 
+33:            result += " |"; 
+34:        } 
+35:        result += item; 
+36:    } 
+37:    return result; 
+38:} 
+39: 
+40:function extractprops ( parent, obj ) { 
+41:    var prop, name, result = ""; 
+42:    var count = 1; 
+43:    if ( typeof ( obj ) == "object" ) { 
+44:        for ( prop in obj ) { 
+45:            name = parent + prop; 
+46:            if ( typeof ( obj [ prop ] ) == "object" ) { 
+47:                result += extractprops( name+".", obj [ prop ] ); 
+48:            } else { 
+49:                if (count == 1) { 
+50:                    result = obj [ prop ]; 
+51:                } else { 
+52:                    result += " " + obj [ prop ]; 
+53:                } 
+54:            } 
+55:            count = count + 1; 
+56:        } 
+57:    } else { 
+58:        if (obj == undefined ) { 
+59:            result +=  "undefined"; 
+60:        } else { 
+61:            result +=  obj; 
+62:        } 
+63:    } 
+64:    return result; 
+65:} 
+66: 
+67:function startswith ( value, startwith ) { 
+68:    var index; 
+69:    index = value.indexOf(startwith, 0); 
+70:    if ( index == 0 ) { 
+71:       return true; 
+72:    } else { 
+73:       return false; 
+74:    } 
+75:} 
+76: 
+77:function containsUndefined ( value ) { 
+78:    var index; 
+79:    index = value.indexOf('undefined', 0); 
+80:    if ( index == -1 ) { 
+81:       return false; 
+82:    } else { 
+83:       return true; 
+84:    } 
+85:} 
+86: 
+87:</script> 
+88:<script> 
+89:function objectToString(  obj ) { 
+90:    try { 
+91:    var result = ""; 
+92:    result += getobjectprops( "", obj); 
+93:    if (result.charAt(0) == '|' ) { 
+94:        result = result.substring(1); 
+95:    }  
+96:    } catch (errMsg) { 
+97:        return("undefined"); 
+98:    } 
+99:    return result; 
+100:} 
+101: 
+102:function getobjectprops ( parent, obj ) { 
+103:    var prop, name, result = ""; 
+104:    if ( typeof ( obj ) == "object" ) {  
+105:        for ( prop in obj ) {  
+106:            name = parent + prop; 
+107:            if ( typeof ( obj [ prop ] ) == "object" ) { 
+108:                result += extractprops( name+".", obj [ prop ] ); 
+109:            } else {  
+110:                result +=   "|"  + obj [ prop ];  
+111:            }  
+112:        }  
+113:    } else {  
+114:        if (obj == undefined ) {  
+115:           result +=  "undefined";  
+116:        } else {  
+117:           result +=  obj;  
+118:        }  
+119:    }  
+120:    return result; 
+121:} 
+122:</script> 
+123:<var name="_avayaExitReason" expr="''"/> 
+124:<var name="_avayaExitInfo1" expr="''"/> 
+125:<var name="_avayaExitInfo2" expr="''"/> 
+126:<var name="_avayaExitCustomerId" expr="''"/> 
+127:<var name="_avayaExitPreferredPath" expr="'1'"/> 
+128:<var name="_avayaExitTopic" expr="''"/> 
+129:<var name="_avayaNoinputCounter" expr="0"/> 
+130:<var name="_avayaNomatchCounter" expr="0"/> 
+131:<catch event="connection.disconnect"> 
+132:<goto  next="SetDisposition?___DDSESSIONID=20B0520739225E5EA22070203DCD7645%3A%2FRCOM_CF_DND_1909_IVR"/> 
+133:</catch> 
+134:<catch event="error.grammar"> 
+135:<goto  next="CallEnd?___DDSESSIONID=20B0520739225E5EA22070203DCD7645%3A%2FRCOM_CF_DND_1909_IVR"/> 
+136:</catch> 
+137:<catch event="error.noresource"> 
+138:<goto  next="CallEnd?___DDSESSIONID=20B0520739225E5EA22070203DCD7645%3A%2FRCOM_CF_DND_1909_IVR"/> 
+139:</catch> 
+140:<catch event="error.semantic"> 
+141:<goto  next="CallEnd?___DDSESSIONID=20B0520739225E5EA22070203DCD7645%3A%2FRCOM_CF_DND_1909_IVR"/> 
+142:</catch> 
+143:<catch event="errot.badfetch"> 
+144:<goto  next="CallEnd?___DDSESSIONID=20B0520739225E5EA22070203DCD7645%3A%2FRCOM_CF_DND_1909_IVR"/> 
+145:</catch> 
+146:<catch event="error"> 
+147:<goto  next="CallEnd?___DDSESSIONID=20B0520739225E5EA22070203DCD7645%3A%2FRCOM_CF_DND_1909_IVR"/> 
+148:</catch> 
+149:<meta name="marker" content="Avaya Aura Orchestration Designer Root End"/> 
+150:<form id="Start"> 
+151:<script> 
+152:function getArray( arrayName, item ) { 
+153:    try { 
+154:        var len = eval( arrayName +'.length;'); 
+155:        var result = ""; 
+156:     
+157:        for (var i = 0; i &lt; len; i++) { 
+158:            if (i &gt; 0) { 
+159:                result += " |"; 
+160:            } 
+161:            var temp  =  arrayName + "[" + i + "]." + item; 
+162:            result += eval(temp); 
+163:        } 
+164:        return result; 
+165:    } catch (errMsg) { 
+166:            return('unknown'); 
+167:    } 
+168:} 
+169:function getRedirect( item ) { 
+170:    return(getArray('session.connection.redirect', item)); 
+171:} 
+172:function getShareduui( item ) { 
+173:    return(getArray('session.avaya.uui.shared', item)); 
+174:} 
+175:function getScriptItem( item ) { 
+176:    try { 
+177:        var result = ""; 
+178:        result += eval(item); 
+179:        return result; 
+180:    } catch (errMsg) { 
+181:        return('unknown'); 
+182:    } 
+183:} 
+184:function getSIPCallID() { 
+185:    try { 
+186:        var protocol = getScriptItem( 'session.connection.protocol.name' ); 
+187:        if ( protocol == 'sip'  || protocol == 'SIP' ) { 
+188:            var temp = getScriptItem( 'session.connection.protocol.sip.callid' ); 
+189:            return(temp); 
+190:        } else { 
+191:            return('unknown'); 
+192:        } 
+193:    } catch (errMsg) { 
+194:            return('unknown'); 
+195:    } 
+196:} 
+197:</script> 
+198:<var name="session___aai" expr="getScriptItem( 'session.connection.aai' )"/> 
+199:<var name="session___ani" expr="getScriptItem( 'session.connection.remote.uri' )"/> 
+200:<var name="session___dnis" expr="getScriptItem( 'session.connection.local.uri' )"/> 
+201:<var name="session___protocolname" expr="getScriptItem( 'session.connection.protocol.name' )"/> 
+202:<var name="session___protocolversion" expr="getScriptItem( 'session.connection.protocol.version' )"/> 
+203:<var name="session___uui" expr="'unknown'"/> 
+204:<var name="session___calltag" expr="'unknown'"/> 
+205:<var name="session___channel" expr="getScriptItem( 'session.avaya.telephone.channel' )"/> 
+206:<var name="session___vpcalledextension" expr="'unknown'"/> 
+207:<var name="session___vpcoveragereason" expr="'unknown'"/> 
+208:<var name="session___vpcoveragetype" expr="'unknown'"/> 
+209:<var name="session___vprdnis" expr="'unknown'"/> 
+210:<var name="redirectinfo___uri" expr="getRedirect('uri')"/> 
+211:<var name="redirectinfo___presentationinfo" expr="getRedirect('pi')"/> 
+212:<var name="redirectinfo___screeninginfo" expr="getRedirect('si')"/> 
+213:<var name="redirectinfo___reason" expr="getRedirect('reason')"/> 
+214:<var name="session___sharedmode" expr="getScriptItem( 'session.avaya.uui.mode' )"/> 
+215:<var name="shareduui___id" expr="getShareduui('id')"/> 
+216:<var name="shareduui___value" expr="getShareduui('value')"/> 
+217:<var name="session___sessionlabel" expr="getScriptItem( 'session.avaya.ucid' )"/> 
+218:<var name="_sipcallid" expr="getSIPCallID()"/> 
+219:<var name="session___mediatype" expr="getScriptItem( 'session.connection.protocol.sip.media[1].type' )"/> 
+220:<var name="session___videoenabled" expr="getScriptItem( 'session.connection.video.enabled' )"/> 
+221:<var name="session___videocodec" expr="getScriptItem( 'session.connection.video.codec' )"/> 
+222:<var name="session___videoformat" expr="getScriptItem( 'session.connection.video.format' )"/> 
+223:<var name="session___videowidth" expr="getScriptItem( 'session.connection.video.width' )"/> 
+224:<var name="session___videoheight" expr="getScriptItem( 'session.connection.video.height' )"/> 
+225:<var name="session___videofps" expr="getScriptItem( 'session.connection.video.fps' )"/> 
+226:<var name="session___videobitrate" expr="getScriptItem( 'session.connection.video.bitrate' )"/> 
+227:<var name="session___videonearfmtp" expr="getScriptItem( 'session.connection.video.nearfmtp' )"/> 
+228:<var name="session___videofarfmtp" expr="getScriptItem( 'session.connection.video.farfmtp' )"/> 
+229:<var name="session___ucid" expr="getScriptItem( 'session.avaya.ucid' )"/> 
+230:<var name="session___conversefirst" expr="'unknown'"/> 
+231:<var name="session___conversesecond" expr="'unknown'"/> 
+232:<block> 
+233:<submit next="CallStart?___DDSESSIONID=20B0520739225E5EA22070203DCD7645%3A%2FRCOM_CF_DND_1909_IVR" namelist="session___aai session___ani session___dnis session___protocolname session___protocolversion session___uui session___calltag session___channel session___vpcalledextension session___vpcoveragereason session___vpcoveragetype session___vprdnis redirectinfo___uri redirectinfo___presentationinfo redirectinfo___screeninginfo redirectinfo___reason session___sharedmode shareduui___id shareduui___value session___sessionlabel _sipcallid session___mediatype session___videoenabled session___videocodec session___videoformat session___videowidth session___videoheight session___videofps session___videobitrate session___videonearfmtp session___videofarfmtp session___ucid session___conversefirst session___conversesecond" method="post"/> 
+234:</block> 
+235:</form> 
+236:</vxml> 
+237:
+
+12/05/2015 21:28:40:885  INFO - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : Using SCESession 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR servlet : CallStart
+12/05/2015 21:28:40:885  INFO - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : Storing :session___videofps to complex: session:videofps  as [unknown]
+12/05/2015 21:28:40:885  INFO - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : Storing :session___protocolname to complex: session:protocolname  as [H323]
+12/05/2015 21:28:40:885  INFO - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : Storing :session___vprdnis to complex: session:vprdnis  as [unknown]
+12/05/2015 21:28:40:885  INFO - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : Storing :session___vpcoveragereason to complex: session:vpcoveragereason  as [unknown]
+12/05/2015 21:28:40:885  INFO - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : Storing :session___videocodec to complex: session:videocodec  as [unknown]
+12/05/2015 21:28:40:885  INFO - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : Storing :session___videobitrate to complex: session:videobitrate  as [unknown]
+12/05/2015 21:28:40:885  INFO - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : Storing :session___channel to complex: session:channel  as [139]
+12/05/2015 21:28:40:885  INFO - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : Storing :session___protocolversion to complex: session:protocolversion  as [1.0]
+12/05/2015 21:28:40:885  INFO - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : Storing :session___videonearfmtp to complex: session:videonearfmtp  as [unknown]
+12/05/2015 21:28:40:885  INFO - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : Storing :session___uui to complex: session:uui  as [unknown]
+12/05/2015 21:28:40:885  INFO - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : Storing :session___aai to complex: session:aai  as []
+12/05/2015 21:28:40:885  INFO - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : Storing :session___conversesecond to complex: session:conversesecond  as [unknown]
+12/05/2015 21:28:40:885  INFO - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : Storing :session___conversefirst to complex: session:conversefirst  as [unknown]
+12/05/2015 21:28:40:885  INFO - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : Storing :session___calltag to complex: session:calltag  as [unknown]
+12/05/2015 21:28:40:885  INFO - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : Storing :redirectinfo___uri to complex: redirectinfo:uri  as []
+12/05/2015 21:28:40:885  INFO - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : Storing :session___ucid to complex: session:ucid  as [10000006801431445876]
+12/05/2015 21:28:40:885  INFO - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : Storing :session___videoformat to complex: session:videoformat  as [unknown]
+12/05/2015 21:28:40:885  INFO - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : Storing :session___vpcalledextension to complex: session:vpcalledextension  as [unknown]
+12/05/2015 21:28:40:885  INFO - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : Storing :session___videowidth to complex: session:videowidth  as [unknown]
+12/05/2015 21:28:40:885  INFO - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : Storing :session___videoenabled to complex: session:videoenabled  as [unknown]
+12/05/2015 21:28:40:885  INFO - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : Storing :_sipcallid to simple: _sipcallid  as [unknown]
+12/05/2015 21:28:40:885  INFO - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : Storing :session___videofarfmtp to complex: session:videofarfmtp  as [unknown]
+12/05/2015 21:28:40:885  INFO - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : Storing :session___ani to complex: session:ani  as [4553]
+12/05/2015 21:28:40:885  INFO - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : Storing :session___sessionlabel to complex: session:sessionlabel  as [10000006801431445876]
+12/05/2015 21:28:40:885  INFO - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : Storing :session___dnis to complex: session:dnis  as [52535]
+12/05/2015 21:28:40:885  INFO - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : Storing :session___videoheight to complex: session:videoheight  as [unknown]
+12/05/2015 21:28:40:885  INFO - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : Storing :redirectinfo___reason to complex: redirectinfo:reason  as []
+12/05/2015 21:28:40:885  INFO - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : Storing :redirectinfo___screeninginfo to complex: redirectinfo:screeninginfo  as []
+12/05/2015 21:28:40:885  INFO - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : Storing :redirectinfo___presentationinfo to complex: redirectinfo:presentationinfo  as []
+12/05/2015 21:28:40:885  INFO - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : Storing :session___mediatype to complex: session:mediatype  as [unknown]
+12/05/2015 21:28:40:885  INFO - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : Storing :session___sharedmode to complex: session:sharedmode  as [serviceprovider]
+12/05/2015 21:28:40:885  INFO - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : Storing :shareduui___value to complex: shareduui:value  as [unknown]
+12/05/2015 21:28:40:885  INFO - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : Storing :session___vpcoveragetype to complex: session:vpcoveragetype  as [unknown]
+12/05/2015 21:28:40:885  INFO - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : Storing :shareduui___id to complex: shareduui:id  as [unknown]
+12/05/2015 21:28:40:885 DEBUG - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : SESSION ID : 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR
+12/05/2015 21:28:40:885 DEBUG - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : ANI : 4553
+12/05/2015 21:28:40:885 DEBUG - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : DNIS : 52535
+12/05/2015 21:28:40:885 DEBUG - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : Application Name:: NA
+12/05/2015 21:28:41:026  INFO - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : [expression1] Expression [session:ani] Is Empty
+12/05/2015 21:28:41:026  INFO - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : [expression2] Expression [session:dnis] Is Empty
+12/05/2015 21:28:41:088  INFO - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : Using SCESession 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR servlet : DND_PA_0001
+12/05/2015 21:28:41:150  INFO - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : ** Pushed Stack Frame [/DM]
+12/05/2015 21:28:41:150 DEBUG - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : *** Reply for [/RCOM_CF_DND_1909_IVR/DND_PA_0001] ***
+12/05/2015 21:28:41:150 DEBUG - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : 0:<?xml version="1.0" encoding="UTF-8"?> 
+1:<vxml version="2.1" xmlns="http://www.w3.org/2001/vxml" xml:lang="en-us"> 
+2:<meta name="author" content="Avaya Aura Orchestration Designer"/> 
+3:<meta name="runtime-version" content="07.01.08.04"/> 
+4:<meta name="runtimecommon-version" content="07.01.08.04"/> 
+5:<meta name="copyright" content="Copyright (c) 2002-2011, Avaya"/> 
+6:<form id="DND_PA_0001"> 
+7:<var name="DND_PA_0001___ReturnCode"/> 
+8:<var name="DND_PA_0001___Value"/> 
+9:<var name="DND_PA_0001___Utterance"/> 
+10:<var name="DND_PA_0001___Recorded_Utterance"/> 
+11:<var name="DND_PA_0001___OtherSlot"/> 
+12:<var name="DND_PA_0001___NomatchRemaining"/> 
+13:<var name="DND_PA_0001___NoinputRemaining"/> 
+14:<var name="DND_PA_0001___nBestValues"/> 
+15:<var name="DND_PA_0001___InputType"/> 
+16:<var name="DND_PA_0001___ConfirmationRemaining"/> 
+17:<var name="DND_PA_0001___Confidence"/> 
+18:<var name="DND_PA_0001___MenuID"/> 
+19:<var name="DND_PA_0001___MenuStartTime"/> 
+20:<var name="DND_PA_0001___MenuEndTime"/> 
+21:<var name="DND_PA_0001___SpecificSlot"/> 
+22:<var name="DND_PA_0001___AnnounceID"/> 
+23:<var name="DND_PA_0001___DialogName"/> 
+24:<subdialog name="DND_PA_0001" src="/DM/Start?___DDSESSIONID=20B0520739225E5EA22070203DCD7645%3A%2FRCOM_CF_DND_1909_IVR&amp;sagecall=english" method="get"> 
+25:<param name="input_propertiesLocation" value=""/> 
+26:<param name="input_globalPropertyFileName" value="global.properties"/> 
+27:<param name="input_propertyFileName" value="WelcomeMessage.properties"/> 
+28:<param name="input_language" value="DEFAULT"/> 
+29:<param name="input_isDTMF" value="DEFAULT"/> 
+30:<param name="input_customAudioLocation" value="DEFAULT"/> 
+31:<param name="input_standardAudioLocation" value="DEFAULT"/> 
+32:<param name="input_grammarLocation" value="DEFAULT"/> 
+33:<param name="input_isAnnouncement" value="DEFAULT"/> 
+34:<param name="input_specificSlots" value="DEFAULT"/> 
+35:<param name="input_initialPrompt" value="DEFAULT"/> 
+36:<param name="input_maxNoMatchCount" value="DEFAULT"/> 
+37:<param name="input_maxNoInputCount" value="DEFAULT"/> 
+38:<param name="input_noMatchPrompt" value="DEFAULT"/> 
+39:<param name="input_builtInGrammarFlag" value="DEFAULT"/> 
+40:<param name="input_builtInGrammar" value="DEFAULT"/> 
+41:<param name="input_noInputPrompt" value="DEFAULT"/> 
+42:<param name="input_noInputMaxTryPrompt" value="DEFAULT"/> 
+43:<param name="input_noMatchMaxTryPrompt" value="DEFAULT"/> 
+44:<param name="input_helpPrompt" value="DEFAULT"/> 
+45:<param name="input_successPrompt" value="DEFAULT"/> 
+46:<param name="input_dtmfGlobalGrammar" value="DEFAULT"/> 
+47:<param name="input_dtmfGrammar" value="DEFAULT"/> 
+48:<param name="input_voiceGlobalGrammar" value="DEFAULT"/> 
+49:<param name="input_voiceGrammar" value="DEFAULT"/> 
+50:<param name="input_confirmationMaxCount" value="DEFAULT"/> 
+51:<param name="input_confirmationInitialPrompt" value="DEFAULT"/> 
+52:<param name="input_confirmationMaxTryPrompt" value="DEFAULT"/> 
+53:<param name="input_confirmationNoInputPrompt" value="DEFAULT"/> 
+54:<param name="input_confirmationNoMatchPrompt" value="DEFAULT"/> 
+55:<param name="input_confirmationReprompt" value="DEFAULT"/> 
+56:<param name="input_confirmationSpecificPrompt" value="DEFAULT"/> 
+57:<param name="input_confirmationDeniedMaxCount" value="DEFAULT"/> 
+58:<param name="input_confirmationDeniedApologyRandom" value="DEFAULT"/> 
+59:<param name="input_confirmationDeniedApology" value="DEFAULT"/> 
+60:<param name="input_confirmationDeniedMaxTryPrompt" value="DEFAULT"/> 
+61:<param name="input_confirmationDtmfGrammar" value="DEFAULT"/> 
+62:<param name="input_confirmationVoiceGrammar" value="DEFAULT"/> 
+63:<param name="input_rePromptNoInput" value="DEFAULT"/> 
+64:<param name="input_rePromptNoMatch" value="DEFAULT"/> 
+65:<param name="input_ss_Number" value="DEFAULT"/> 
+66:<param name="input_ss_NumberValues" value="DEFAULT"/> 
+67:<param name="input_ss_Digits" value="DEFAULT"/> 
+68:<param name="input_ss_DigitsValues" value="DEFAULT"/> 
+69:<param name="input_ss_Date" value="DEFAULT"/> 
+70:<param name="input_ss_DateValues" value="DEFAULT"/> 
+71:<param name="input_ss_Time" value="DEFAULT"/> 
+72:<param name="input_ss_TimeValues" value="DEFAULT"/> 
+73:<param name="input_ss_Currency" value="DEFAULT"/> 
+74:<param name="input_ss_CurrencyValues" value="DEFAULT"/> 
+75:<param name="input_tts_Number" value="DEFAULT"/> 
+76:<param name="input_tts_NumberValues" value="DEFAULT"/> 
+77:<param name="input_tts_Digits" value="DEFAULT"/> 
+78:<param name="input_tts_DigitsValues" value="DEFAULT"/> 
+79:<param name="input_tts_Date" value="DEFAULT"/> 
+80:<param name="input_tts_DateValues" value="DEFAULT"/> 
+81:<param name="input_tts_Time" value="DEFAULT"/> 
+82:<param name="input_tts_TimeValues" value="DEFAULT"/> 
+83:<param name="input_tts_Currency" value="DEFAULT"/> 
+84:<param name="input_tts_CurrencyValues" value="DEFAULT"/> 
+85:<param name="input_tts_Name" value="DEFAULT"/> 
+86:<param name="input_tts_NameValues" value="DEFAULT"/> 
+87:<param name="input_tts_Telephone" value="DEFAULT"/> 
+88:<param name="input_tts_TelephoneValues" value="DEFAULT"/> 
+89:<param name="input_tts_Address" value="DEFAULT"/> 
+90:<param name="input_tts_AddressValues" value="DEFAULT"/> 
+91:<param name="input_nbest" value="DEFAULT"/> 
+92:<param name="input_disallowList" value="DEFAULT"/> 
+93:<param name="input_menuOptions" value="DEFAULT"/> 
+94:<param name="input_moreOptionFlag" value="DEFAULT"/> 
+95:<param name="input_moreOptionCount" value="DEFAULT"/> 
+96:<param name="input_moreOptionPreviousMenuFlag" value="DEFAULT"/> 
+97:<param name="input_moreOptionDTMFGrammar" value="DEFAULT"/> 
+98:<param name="input_moreOptionVoiceGrammar" value="DEFAULT"/> 
+99:<param name="input_moreOptionDynamicValues" value="DEFAULT"/> 
+100:<param name="input_dynamicConstraintListValues" value="DEFAULT"/> 
+101:<param name="input_dynamicConstraintListFlag" value="false"/> 
+102:<param name="input_dynamicConstraintListCounterFlag" value="false"/> 
+103:<param name="input_dynamicConstraintListCounter" value="DEFAULT"/> 
+104:<param name="input_dynamicConstraintListPrompts" value="DEFAULT"/> 
+105:<param name="input_oneTimeFlag" value="DEFAULT"/> 
+106:<param name="input_privateData" value="DEFAULT"/> 
+107:<param name="input_reEntry" value="DEFAULT"/> 
+108:<param name="input_menuID" value="DEFAULT"/> 
+109:<param name="input_AnnounceID" value="DEFAULT"/> 
+110:<param name="input_DialogName" value="DEFAULT"/> 
+111:<param name="input_ConfirmationMode" value="DEFAULT"/> 
+112:<param name="input_NINMCounter" value="DEFAULT"/> 
+113:<param name="input_LoggerName" value="DEFAULT"/> 
+114:<param name="input_LoggingEnabled" value="DEFAULT"/> 
+115:<param name="input_RepeatCounter" value="DEFAULT"/> 
+116:<param name="input_StaticConstraintList" value="DEFAULT"/> 
+117:<param name="input_SuccessPromptOnlyForConfirmation" value="DEFAULT"/> 
+118:<param name="input_DTMFGrammaruseSlots" value="DEFAULT"/> 
+119:<param name="input_noMatchRandom" value="DEFAULT"/> 
+120:<param name="input_noInputRandom" value="DEFAULT"/> 
+121:<param name="input_CompleteTimeout" value="DEFAULT"/> 
+122:<param name="input_incompleteTimeout" value="DEFAULT"/> 
+123:<param name="input_interdigitTimeout" value="DEFAULT"/> 
+124:<param name="input_terminatingTimeout" value="DEFAULT"/> 
+125:<param name="input_initialTimeout" value="DEFAULT"/> 
+126:<param name="input_highConfidenceLevel" value="DEFAULT"/> 
+127:<param name="input_lowConfidenceLevel" value="DEFAULT"/> 
+128:<param name="input_bargeIn" value="DEFAULT"/> 
+129:<param name="input_manageRepeat" value="DEFAULT"/> 
+130:<param name="input_reportEnabled" value="DEFAULT"/> 
+131:<param name="input_terminatingChar" value="DEFAULT"/> 
+132:<param name="input_mediaTypeDTMF" value="DEFAULT"/> 
+133:<param name="input_mediaTypeVoice" value="DEFAULT"/> 
+134:<param name="input_BargeInType" value="DEFAULT"/> 
+135:<param name="input_confirmationValueFlag" value="DEFAULT"/> 
+136:<param name="input_globalPrompt" value="DEFAULT"/> 
+137:<param name="input_repeatPrompt" value="DEFAULT"/> 
+138:<param name="input_repeatMaxTryPrompt" value="DEFAULT"/> 
+139:<filled> 
+140:<assign name="DND_PA_0001___ReturnCode" expr="DND_PA_0001.ReturnCode"/> 
+141:<assign name="DND_PA_0001___Value" expr="DND_PA_0001.Value"/> 
+142:<assign name="DND_PA_0001___Utterance" expr="DND_PA_0001.Utterance"/> 
+143:<assign name="DND_PA_0001___Recorded_Utterance" expr="DND_PA_0001.Recorded_Utterance"/> 
+144:<assign name="DND_PA_0001___OtherSlot" expr="DND_PA_0001.OtherSlot"/> 
+145:<assign name="DND_PA_0001___NomatchRemaining" expr="DND_PA_0001.NomatchRemaining"/> 
+146:<assign name="DND_PA_0001___NoinputRemaining" expr="DND_PA_0001.NoinputRemaining"/> 
+147:<assign name="DND_PA_0001___nBestValues" expr="DND_PA_0001.nBestValues"/> 
+148:<assign name="DND_PA_0001___InputType" expr="DND_PA_0001.InputType"/> 
+149:<assign name="DND_PA_0001___ConfirmationRemaining" expr="DND_PA_0001.ConfirmationRemaining"/> 
+150:<assign name="DND_PA_0001___Confidence" expr="DND_PA_0001.Confidence"/> 
+151:<assign name="DND_PA_0001___MenuID" expr="DND_PA_0001.MenuID"/> 
+152:<assign name="DND_PA_0001___MenuStartTime" expr="DND_PA_0001.MenuStartTime"/> 
+153:<assign name="DND_PA_0001___MenuEndTime" expr="DND_PA_0001.MenuEndTime"/> 
+154:<assign name="DND_PA_0001___SpecificSlot" expr="DND_PA_0001.SpecificSlot"/> 
+155:<assign name="DND_PA_0001___AnnounceID" expr="DND_PA_0001.AnnounceID"/> 
+156:<assign name="DND_PA_0001___DialogName" expr="DND_PA_0001.DialogName"/> 
+157:</filled> 
+158:</subdialog> 
+159:<block> 
+160:<submit next="Set_DND_MN_0001?___DDSESSIONID=20B0520739225E5EA22070203DCD7645%3A%2FRCOM_CF_DND_1909_IVR" namelist="DND_PA_0001___ReturnCode DND_PA_0001___Value DND_PA_0001___Utterance DND_PA_0001___Recorded_Utterance DND_PA_0001___OtherSlot DND_PA_0001___NomatchRemaining DND_PA_0001___NoinputRemaining DND_PA_0001___nBestValues DND_PA_0001___InputType DND_PA_0001___ConfirmationRemaining DND_PA_0001___Confidence DND_PA_0001___MenuID DND_PA_0001___MenuStartTime DND_PA_0001___MenuEndTime DND_PA_0001___SpecificSlot DND_PA_0001___AnnounceID DND_PA_0001___DialogName" method="post"/> 
+161:</block> 
+162:</form> 
+163:</vxml> 
+164:
+
+12/05/2015 21:28:41:696  INFO - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : Using SCESession 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR servlet : Start
+12/05/2015 21:28:42:197 DEBUG - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : *** Reply for [/DM/Start] ***
+12/05/2015 21:28:42:197 DEBUG - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : 0:<?xml version="1.0" encoding="UTF-8"?> 
+1:<vxml version="2.1" xmlns="http://www.w3.org/2001/vxml" xml:lang="en-us"> 
+2:<meta name="author" content="Avaya Aura Orchestration Designer"/> 
+3:<meta name="runtime-version" content="07.01.08.04"/> 
+4:<meta name="runtimecommon-version" content="07.01.08.04"/> 
+5:<meta name="copyright" content="Copyright (c) 2002-2011, Avaya"/> 
+6:<script> 
+7:function getnbest(  item, nbest ) { 
+8:    var len = application.lastresult$.length; 
+9:    var result = ""; 
+10:     
+11:    if ( len &gt; nbest) { 
+12:        len = nbest; 
+13:    } 
+14:    for (var i = 0; i &lt; len; i++) { 
+15:        if (i &gt; 0) { 
+16:            result += " |"; 
+17:        } 
+18:        var temp  =  "application.lastresult$[" + i + "]." + item; 
+19:        result += extractprops( "", eval(temp)); 
+20:    } 
+21:    return result; 
+22:} 
+23: 
+24:function getnbestnmni(  item, nbest ) { 
+25:    var len = application.lastresult$.length; 
+26:    var result = ""; 
+27:     
+28:    if ( len &gt; nbest) { 
+29:        len = nbest; 
+30:    } 
+31:    for (var i = 0; i &lt; len; i++) { 
+32:        if (i &gt; 0) { 
+33:            result += " |"; 
+34:        } 
+35:        result += item; 
+36:    } 
+37:    return result; 
+38:} 
+39: 
+40:function extractprops ( parent, obj ) { 
+41:    var prop, name, result = ""; 
+42:    var count = 1; 
+43:    if ( typeof ( obj ) == "object" ) { 
+44:        for ( prop in obj ) { 
+45:            name = parent + prop; 
+46:            if ( typeof ( obj [ prop ] ) == "object" ) { 
+47:                result += extractprops( name+".", obj [ prop ] ); 
+48:            } else { 
+49:                if (count == 1) { 
+50:                    result = obj [ prop ]; 
+51:                } else { 
+52:                    result += " " + obj [ prop ]; 
+53:                } 
+54:            } 
+55:            count = count + 1; 
+56:        } 
+57:    } else { 
+58:        if (obj == undefined ) { 
+59:            result +=  "undefined"; 
+60:        } else { 
+61:            result +=  obj; 
+62:        } 
+63:    } 
+64:    return result; 
+65:} 
+66: 
+67:function startswith ( value, startwith ) { 
+68:    var index; 
+69:    index = value.indexOf(startwith, 0); 
+70:    if ( index == 0 ) { 
+71:       return true; 
+72:    } else { 
+73:       return false; 
+74:    } 
+75:} 
+76: 
+77:function containsUndefined ( value ) { 
+78:    var index; 
+79:    index = value.indexOf('undefined', 0); 
+80:    if ( index == -1 ) { 
+81:       return false; 
+82:    } else { 
+83:       return true; 
+84:    } 
+85:} 
+86: 
+87:</script> 
+88:<script> 
+89:function objectToString(  obj ) { 
+90:    try { 
+91:    var result = ""; 
+92:    result += getobjectprops( "", obj); 
+93:    if (result.charAt(0) == '|' ) { 
+94:        result = result.substring(1); 
+95:    }  
+96:    } catch (errMsg) { 
+97:        return("undefined"); 
+98:    } 
+99:    return result; 
+100:} 
+101: 
+102:function getobjectprops ( parent, obj ) { 
+103:    var prop, name, result = ""; 
+104:    if ( typeof ( obj ) == "object" ) {  
+105:        for ( prop in obj ) {  
+106:            name = parent + prop; 
+107:            if ( typeof ( obj [ prop ] ) == "object" ) { 
+108:                result += extractprops( name+".", obj [ prop ] ); 
+109:            } else {  
+110:                result +=   "|"  + obj [ prop ];  
+111:            }  
+112:        }  
+113:    } else {  
+114:        if (obj == undefined ) {  
+115:           result +=  "undefined";  
+116:        } else {  
+117:           result +=  obj;  
+118:        }  
+119:    }  
+120:    return result; 
+121:} 
+122:</script> 
+123:<var name="_avayaExitReason" expr="''"/> 
+124:<var name="_avayaExitInfo1" expr="''"/> 
+125:<var name="_avayaExitInfo2" expr="''"/> 
+126:<var name="_avayaExitCustomerId" expr="''"/> 
+127:<var name="_avayaExitPreferredPath" expr="'1'"/> 
+128:<var name="_avayaExitTopic" expr="''"/> 
+129:<var name="_avayaNoinputCounter" expr="0"/> 
+130:<var name="_avayaNomatchCounter" expr="0"/> 
+131:<catch event="connection.disconnect.hangup"> 
+132:<return event="connection.disconnect.hangup"/> 
+133:</catch> 
+134:<catch event="connection.disconnect"> 
+135:<return event="connection.disconnect"/> 
+136:</catch> 
+137:<catch event="error.noresource.asr"> 
+138:<return event="error.noresource.asr"/> 
+139:</catch> 
+140:<catch event="error.noresource.tts"> 
+141:<return event="error.noresource.tts"/> 
+142:</catch> 
+143:<catch event="error.unsupported"> 
+144:<return event="error.unsupported"/> 
+145:</catch> 
+146:<catch event="error.semantic"> 
+147:<return event="error.semantic"/> 
+148:</catch> 
+149:<meta name="marker" content="Avaya Aura Orchestration Designer Root End"/> 
+150:<form id="Start"> 
+151:<var name="input_propertiesLocation"/> 
+152:<var name="input_globalPropertyFileName"/> 
+153:<var name="input_propertyFileName"/> 
+154:<var name="input_language"/> 
+155:<var name="input_isDTMF"/> 
+156:<var name="input_customAudioLocation"/> 
+157:<var name="input_standardAudioLocation"/> 
+158:<var name="input_grammarLocation"/> 
+159:<var name="input_isAnnouncement"/> 
+160:<var name="input_specificSlots"/> 
+161:<var name="input_initialPrompt"/> 
+162:<var name="input_maxNoMatchCount"/> 
+163:<var name="input_maxNoInputCount"/> 
+164:<var name="input_noMatchPrompt"/> 
+165:<var name="input_builtInGrammarFlag"/> 
+166:<var name="input_builtInGrammar"/> 
+167:<var name="input_noInputPrompt"/> 
+168:<var name="input_noInputMaxTryPrompt"/> 
+169:<var name="input_noMatchMaxTryPrompt"/> 
+170:<var name="input_helpPrompt"/> 
+171:<var name="input_globalPrompt"/> 
+172:<var name="input_successPrompt"/> 
+173:<var name="input_dtmfGlobalGrammar"/> 
+174:<var name="input_dtmfGrammar"/> 
+175:<var name="input_voiceGlobalGrammar"/> 
+176:<var name="input_voiceGrammar"/> 
+177:<var name="input_confirmationMaxCount"/> 
+178:<var name="input_confirmationInitialPrompt"/> 
+179:<var name="input_confirmationMaxTryPrompt"/> 
+180:<var name="input_confirmationNoInputPrompt"/> 
+181:<var name="input_confirmationNoMatchPrompt"/> 
+182:<var name="input_confirmationReprompt"/> 
+183:<var name="input_confirmationSpecificPrompt"/> 
+184:<var name="input_confirmationDeniedMaxCount"/> 
+185:<var name="input_confirmationDeniedApologyRandom"/> 
+186:<var name="input_confirmationDeniedApology"/> 
+187:<var name="input_confirmationDeniedMaxTryPrompt"/> 
+188:<var name="input_repeatPrompt"/> 
+189:<var name="input_confirmationDtmfGrammar"/> 
+190:<var name="input_confirmationVoiceGrammar"/> 
+191:<var name="input_rePromptNoInput"/> 
+192:<var name="input_rePromptNoMatch"/> 
+193:<var name="input_ss_Number"/> 
+194:<var name="input_ss_NumberValues"/> 
+195:<var name="input_ss_Digits"/> 
+196:<var name="input_ss_DigitsValues"/> 
+197:<var name="input_ss_Date"/> 
+198:<var name="input_ss_DateValues"/> 
+199:<var name="input_ss_Time"/> 
+200:<var name="input_ss_TimeValues"/> 
+201:<var name="input_ss_Currency"/> 
+202:<var name="input_ss_CurrencyValues"/> 
+203:<var name="input_tts_Number"/> 
+204:<var name="input_tts_NumberValues"/> 
+205:<var name="input_tts_Digits"/> 
+206:<var name="input_tts_DigitsValues"/> 
+207:<var name="input_tts_Date"/> 
+208:<var name="input_tts_DateValues"/> 
+209:<var name="input_tts_Time"/> 
+210:<var name="input_tts_TimeValues"/> 
+211:<var name="input_tts_Currency"/> 
+212:<var name="input_tts_CurrencyValues"/> 
+213:<var name="input_tts_Name"/> 
+214:<var name="input_tts_NameValues"/> 
+215:<var name="input_tts_Telephone"/> 
+216:<var name="input_tts_TelephoneValues"/> 
+217:<var name="input_tts_Address"/> 
+218:<var name="input_tts_AddressValues"/> 
+219:<var name="input_nbest"/> 
+220:<var name="input_disallowList"/> 
+221:<var name="input_menuOptions"/> 
+222:<var name="input_moreOptionFlag"/> 
+223:<var name="input_moreOptionCount"/> 
+224:<var name="input_moreOptionPreviousMenuFlag"/> 
+225:<var name="input_moreOptionDTMFGrammar"/> 
+226:<var name="input_moreOptionVoiceGrammar"/> 
+227:<var name="input_moreOptionDynamicValues"/> 
+228:<var name="input_dynamicConstraintListValues"/> 
+229:<var name="input_dynamicConstraintListFlag"/> 
+230:<var name="input_dynamicConstraintListCounterFlag"/> 
+231:<var name="input_dynamicConstraintListCounter"/> 
+232:<var name="input_dynamicConstraintListPrompts"/> 
+233:<var name="input_oneTimeFlag"/> 
+234:<var name="input_privateData"/> 
+235:<var name="input_reEntry"/> 
+236:<var name="input_menuID"/> 
+237:<var name="input_AnnounceID"/> 
+238:<var name="input_DialogName"/> 
+239:<var name="input_ConfirmationMode"/> 
+240:<var name="input_NINMCounter"/> 
+241:<var name="input_LoggerName"/> 
+242:<var name="input_LoggingEnabled"/> 
+243:<var name="input_RepeatCounter"/> 
+244:<var name="input_StaticConstraintList"/> 
+245:<var name="input_SuccessPromptOnlyForConfirmation"/> 
+246:<var name="input_DTMFGrammaruseSlots"/> 
+247:<var name="input_noMatchRandom"/> 
+248:<var name="input_noInputRandom"/> 
+249:<var name="input_CompleteTimeout"/> 
+250:<var name="input_incompleteTimeout"/> 
+251:<var name="input_interdigitTimeout"/> 
+252:<var name="input_terminatingTimeout"/> 
+253:<var name="input_initialTimeout"/> 
+254:<var name="input_highConfidenceLevel"/> 
+255:<var name="input_lowConfidenceLevel"/> 
+256:<var name="input_bargeIn"/> 
+257:<var name="input_manageRepeat"/> 
+258:<var name="input_reportEnabled"/> 
+259:<var name="input_terminatingChar"/> 
+260:<var name="input_mediaTypeDTMF"/> 
+261:<var name="input_mediaTypeVoice"/> 
+262:<var name="input_repeatMaxTryPrompt"/> 
+263:<var name="input_BargeInType"/> 
+264:<var name="input_confirmationValueFlag"/> 
+265:<block> 
+266:<submit next="GetInputParams?___DDSESSIONID=20B0520739225E5EA22070203DCD7645%3A%2FRCOM_CF_DND_1909_IVR" namelist="input_propertiesLocation input_globalPropertyFileName input_propertyFileName input_language input_isDTMF input_customAudioLocation input_standardAudioLocation input_grammarLocation input_isAnnouncement input_specificSlots input_initialPrompt input_maxNoMatchCount input_maxNoInputCount input_noMatchPrompt input_builtInGrammarFlag input_builtInGrammar input_noInputPrompt input_noInputMaxTryPrompt input_noMatchMaxTryPrompt input_helpPrompt input_globalPrompt input_successPrompt input_dtmfGlobalGrammar input_dtmfGrammar input_voiceGlobalGrammar input_voiceGrammar input_confirmationMaxCount input_confirmationInitialPrompt input_confirmationMaxTryPrompt input_confirmationNoInputPrompt input_confirmationNoMatchPrompt input_confirmationReprompt input_confirmationSpecificPrompt input_confirmationDeniedMaxCount input_confirmationDeniedApologyRandom input_confirmationDeniedApology input_confirmationDeniedMaxTryPrompt input_repeatPrompt input_confirmationDtmfGrammar input_confirmationVoiceGrammar input_rePromptNoInput input_rePromptNoMatch input_ss_Number input_ss_NumberValues input_ss_Digits input_ss_DigitsValues input_ss_Date input_ss_DateValues input_ss_Time input_ss_TimeValues input_ss_Currency input_ss_CurrencyValues input_tts_Number input_tts_NumberValues input_tts_Digits input_tts_DigitsValues input_tts_Date input_tts_DateValues input_tts_Time input_tts_TimeValues input_tts_Currency input_tts_CurrencyValues input_tts_Name input_tts_NameValues input_tts_Telephone input_tts_TelephoneValues input_tts_Address input_tts_AddressValues input_nbest input_disallowList input_menuOptions input_moreOptionFlag input_moreOptionCount input_moreOptionPreviousMenuFlag input_moreOptionDTMFGrammar input_moreOptionVoiceGrammar input_moreOptionDynamicValues input_dynamicConstraintListValues input_dynamicConstraintListFlag input_dynamicConstraintListCounterFlag input_dynamicConstraintListCounter input_dynamicConstraintListPrompts input_oneTimeFlag input_privateData input_reEntry input_menuID input_AnnounceID input_DialogName input_ConfirmationMode input_NINMCounter input_LoggerName input_LoggingEnabled input_RepeatCounter input_StaticConstraintList input_SuccessPromptOnlyForConfirmation input_DTMFGrammaruseSlots input_noMatchRandom input_noInputRandom input_CompleteTimeout input_incompleteTimeout input_interdigitTimeout input_terminatingTimeout input_initialTimeout input_highConfidenceLevel input_lowConfidenceLevel input_bargeIn input_manageRepeat input_reportEnabled input_terminatingChar input_mediaTypeDTMF input_mediaTypeVoice input_repeatMaxTryPrompt input_BargeInType input_confirmationValueFlag" method="post"/> 
+267:</block> 
+268:</form> 
+269:</vxml> 
+270:
+
+12/05/2015 21:28:42:228  INFO - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : Using SCESession 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR servlet : GetInputParams
+12/05/2015 21:28:42:228  INFO - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : Storing :input_tts_Telephone to simple: input_tts_Telephone  as [DEFAULT]
+12/05/2015 21:28:42:228  INFO - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : Storing :input_noMatchRandom to simple: input_noMatchRandom  as [DEFAULT]
+12/05/2015 21:28:42:228  INFO - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : Storing :input_dynamicConstraintListFlag to simple: input_dynamicConstraintListFlag  as [false]
+12/05/2015 21:28:42:228  INFO - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : Storing :input_voiceGlobalGrammar to simple: input_voiceGlobalGrammar  as [DEFAULT]
+12/05/2015 21:28:42:228  INFO - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : Storing :input_builtInGrammar to simple: input_builtInGrammar  as [DEFAULT]
+12/05/2015 21:28:42:228  INFO - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : Storing :input_DialogName to simple: input_DialogName  as [DEFAULT]
+12/05/2015 21:28:42:228  INFO - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : Storing :input_isAnnouncement to simple: input_isAnnouncement  as [DEFAULT]
+12/05/2015 21:28:42:228  INFO - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : Storing :input_menuID to simple: input_menuID  as [DEFAULT]
+12/05/2015 21:28:42:228  INFO - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : Storing :input_menuOptions to simple: input_menuOptions  as [DEFAULT]
+12/05/2015 21:28:42:228  INFO - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : Storing :input_initialPrompt to simple: input_initialPrompt  as [DEFAULT]
+12/05/2015 21:28:42:228  INFO - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : Storing :input_confirmationDeniedApologyRandom to simple: input_confirmationDeniedApologyRandom  as [DEFAULT]
+12/05/2015 21:28:42:228  INFO - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : Storing :input_noInputRandom to simple: input_noInputRandom  as [DEFAULT]
+12/05/2015 21:28:42:228  INFO - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : Storing :input_confirmationDeniedApology to simple: input_confirmationDeniedApology  as [DEFAULT]
+12/05/2015 21:28:42:228  INFO - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : Storing :input_oneTimeFlag to simple: input_oneTimeFlag  as [DEFAULT]
+12/05/2015 21:28:42:228  INFO - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : Storing :input_dynamicConstraintListValues to simple: input_dynamicConstraintListValues  as [DEFAULT]
+12/05/2015 21:28:42:228  INFO - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : Storing :input_terminatingChar to simple: input_terminatingChar  as [DEFAULT]
+12/05/2015 21:28:42:228  INFO - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : Storing :input_voiceGrammar to simple: input_voiceGrammar  as [DEFAULT]
+12/05/2015 21:28:42:228  INFO - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : Storing :input_tts_DigitsValues to simple: input_tts_DigitsValues  as [DEFAULT]
+12/05/2015 21:28:42:228  INFO - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : Storing :input_incompleteTimeout to simple: input_incompleteTimeout  as [DEFAULT]
+12/05/2015 21:28:42:228  INFO - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : Storing :input_propertyFileName to simple: input_propertyFileName  as [WelcomeMessage.properties]
+12/05/2015 21:28:42:228  INFO - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : Storing :input_LoggerName to simple: input_LoggerName  as [DEFAULT]
+12/05/2015 21:28:42:228  INFO - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : Storing :input_nbest to simple: input_nbest  as [DEFAULT]
+12/05/2015 21:28:42:228  INFO - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : Storing :input_privateData to simple: input_privateData  as [DEFAULT]
+12/05/2015 21:28:42:228  INFO - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : Storing :input_ss_Date to simple: input_ss_Date  as [DEFAULT]
+12/05/2015 21:28:42:228  INFO - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : Storing :input_ss_DateValues to simple: input_ss_DateValues  as [DEFAULT]
+12/05/2015 21:28:42:228  INFO - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : Storing :input_dtmfGrammar to simple: input_dtmfGrammar  as [DEFAULT]
+12/05/2015 21:28:42:228  INFO - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : Storing :input_tts_Currency to simple: input_tts_Currency  as [DEFAULT]
+12/05/2015 21:28:42:228  INFO - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : Storing :input_confirmationInitialPrompt to simple: input_confirmationInitialPrompt  as [DEFAULT]
+12/05/2015 21:28:42:228  INFO - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : Storing :input_dynamicConstraintListPrompts to simple: input_dynamicConstraintListPrompts  as [DEFAULT]
+12/05/2015 21:28:42:228  INFO - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : Storing :input_initialTimeout to simple: input_initialTimeout  as [DEFAULT]
+12/05/2015 21:28:42:228  INFO - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : Storing :input_moreOptionCount to simple: input_moreOptionCount  as [DEFAULT]
+12/05/2015 21:28:42:228  INFO - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : Storing :input_ss_Time to simple: input_ss_Time  as [DEFAULT]
+12/05/2015 21:28:42:228  INFO - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : Storing :input_tts_Number to simple: input_tts_Number  as [DEFAULT]
+12/05/2015 21:28:42:228  INFO - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : Storing :input_dtmfGlobalGrammar to simple: input_dtmfGlobalGrammar  as [DEFAULT]
+12/05/2015 21:28:42:228  INFO - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : Storing :input_mediaTypeDTMF to simple: input_mediaTypeDTMF  as [DEFAULT]
+12/05/2015 21:28:42:228  INFO - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : Storing :input_tts_Address to simple: input_tts_Address  as [DEFAULT]
+12/05/2015 21:28:42:228  INFO - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : Storing :input_confirmationDeniedMaxCount to simple: input_confirmationDeniedMaxCount  as [DEFAULT]
+12/05/2015 21:28:42:228  INFO - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : Storing :input_lowConfidenceLevel to simple: input_lowConfidenceLevel  as [DEFAULT]
+12/05/2015 21:28:42:228  INFO - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : Storing :input_interdigitTimeout to simple: input_interdigitTimeout  as [DEFAULT]
+12/05/2015 21:28:42:228  INFO - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : Storing :input_bargeIn to simple: input_bargeIn  as [DEFAULT]
+12/05/2015 21:28:42:228  INFO - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : Storing :input_grammarLocation to simple: input_grammarLocation  as [DEFAULT]
+12/05/2015 21:28:42:228  INFO - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : Storing :input_rePromptNoMatch to simple: input_rePromptNoMatch  as [DEFAULT]
+12/05/2015 21:28:42:228  INFO - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : Storing :input_ss_Number to simple: input_ss_Number  as [DEFAULT]
+12/05/2015 21:28:42:228  INFO - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : Storing :input_ss_DigitsValues to simple: input_ss_DigitsValues  as [DEFAULT]
+12/05/2015 21:28:42:228  INFO - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : Storing :input_ss_TimeValues to simple: input_ss_TimeValues  as [DEFAULT]
+12/05/2015 21:28:42:228  INFO - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : Storing :input_LoggingEnabled to simple: input_LoggingEnabled  as [DEFAULT]
+12/05/2015 21:28:42:228  INFO - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : Storing :input_NINMCounter to simple: input_NINMCounter  as [DEFAULT]
+12/05/2015 21:28:42:228  INFO - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : Storing :input_maxNoMatchCount to simple: input_maxNoMatchCount  as [DEFAULT]
+12/05/2015 21:28:42:228  INFO - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : Storing :input_isDTMF to simple: input_isDTMF  as [DEFAULT]
+12/05/2015 21:28:42:228  INFO - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : Storing :input_dynamicConstraintListCounter to simple: input_dynamicConstraintListCounter  as [DEFAULT]
+12/05/2015 21:28:42:228  INFO - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : Storing :input_tts_CurrencyValues to simple: input_tts_CurrencyValues  as [DEFAULT]
+12/05/2015 21:28:42:228  INFO - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : Storing :input_tts_NumberValues to simple: input_tts_NumberValues  as [DEFAULT]
+12/05/2015 21:28:42:228  INFO - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : Storing :input_moreOptionPreviousMenuFlag to simple: input_moreOptionPreviousMenuFlag  as [DEFAULT]
+12/05/2015 21:28:42:228  INFO - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : Storing :input_mediaTypeVoice to simple: input_mediaTypeVoice  as [DEFAULT]
+12/05/2015 21:28:42:228  INFO - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : Storing :input_confirmationMaxTryPrompt to simple: input_confirmationMaxTryPrompt  as [DEFAULT]
+12/05/2015 21:28:42:228  INFO - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : Storing :input_tts_Time to simple: input_tts_Time  as [DEFAULT]
+12/05/2015 21:28:42:243  INFO - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : Storing :input_noMatchMaxTryPrompt to simple: input_noMatchMaxTryPrompt  as [DEFAULT]
+12/05/2015 21:28:42:243  INFO - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : Storing :input_confirmationValueFlag to simple: input_confirmationValueFlag  as [DEFAULT]
+12/05/2015 21:28:42:243  INFO - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : Storing :input_builtInGrammarFlag to simple: input_builtInGrammarFlag  as [DEFAULT]
+12/05/2015 21:28:42:243  INFO - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : Storing :input_StaticConstraintList to simple: input_StaticConstraintList  as [DEFAULT]
+12/05/2015 21:28:42:243  INFO - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : Storing :input_customAudioLocation to simple: input_customAudioLocation  as [DEFAULT]
+12/05/2015 21:28:42:243  INFO - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : Storing :input_ss_Currency to simple: input_ss_Currency  as [DEFAULT]
+12/05/2015 21:28:42:243  INFO - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : Storing :input_ss_CurrencyValues to simple: input_ss_CurrencyValues  as [DEFAULT]
+12/05/2015 21:28:42:243  INFO - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : Storing :input_tts_Name to simple: input_tts_Name  as [DEFAULT]
+12/05/2015 21:28:42:243  INFO - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : Storing :input_tts_TimeValues to simple: input_tts_TimeValues  as [DEFAULT]
+12/05/2015 21:28:42:243  INFO - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : Storing :input_globalPrompt to simple: input_globalPrompt  as [DEFAULT]
+12/05/2015 21:28:42:243  INFO - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : Storing :input_DTMFGrammaruseSlots to simple: input_DTMFGrammaruseSlots  as [DEFAULT]
+12/05/2015 21:28:42:243  INFO - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : Storing :input_moreOptionDTMFGrammar to simple: input_moreOptionDTMFGrammar  as [DEFAULT]
+12/05/2015 21:28:42:243  INFO - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : Storing :input_moreOptionFlag to simple: input_moreOptionFlag  as [DEFAULT]
+12/05/2015 21:28:42:243  INFO - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : Storing :input_confirmationDeniedMaxTryPrompt to simple: input_confirmationDeniedMaxTryPrompt  as [DEFAULT]
+12/05/2015 21:28:42:243  INFO - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : Storing :input_highConfidenceLevel to simple: input_highConfidenceLevel  as [DEFAULT]
+12/05/2015 21:28:42:243  INFO - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : Storing :input_SuccessPromptOnlyForConfirmation to simple: input_SuccessPromptOnlyForConfirmation  as [DEFAULT]
+12/05/2015 21:28:42:243  INFO - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : Storing :input_tts_NameValues to simple: input_tts_NameValues  as [DEFAULT]
+12/05/2015 21:28:42:243  INFO - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : Storing :input_repeatPrompt to simple: input_repeatPrompt  as [DEFAULT]
+12/05/2015 21:28:42:243  INFO - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : Storing :input_reEntry to simple: input_reEntry  as [DEFAULT]
+12/05/2015 21:28:42:243  INFO - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : Storing :input_specificSlots to simple: input_specificSlots  as [DEFAULT]
+12/05/2015 21:28:42:243  INFO - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : Storing :input_reportEnabled to simple: input_reportEnabled  as [DEFAULT]
+12/05/2015 21:28:42:243  INFO - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : Storing :input_confirmationSpecificPrompt to simple: input_confirmationSpecificPrompt  as [DEFAULT]
+12/05/2015 21:28:42:243  INFO - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : Storing :input_confirmationReprompt to simple: input_confirmationReprompt  as [DEFAULT]
+12/05/2015 21:28:42:243  INFO - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : Storing :input_ss_Digits to simple: input_ss_Digits  as [DEFAULT]
+12/05/2015 21:28:42:243  INFO - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : Storing :input_confirmationMaxCount to simple: input_confirmationMaxCount  as [DEFAULT]
+12/05/2015 21:28:42:243  INFO - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : Storing :input_maxNoInputCount to simple: input_maxNoInputCount  as [DEFAULT]
+12/05/2015 21:28:42:243  INFO - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : Storing :input_confirmationDtmfGrammar to simple: input_confirmationDtmfGrammar  as [DEFAULT]
+12/05/2015 21:28:42:243  INFO - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : Storing :input_terminatingTimeout to simple: input_terminatingTimeout  as [DEFAULT]
+12/05/2015 21:28:42:243  INFO - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : Storing :input_BargeInType to simple: input_BargeInType  as [DEFAULT]
+12/05/2015 21:28:42:243  INFO - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : Storing :input_confirmationNoInputPrompt to simple: input_confirmationNoInputPrompt  as [DEFAULT]
+12/05/2015 21:28:42:243  INFO - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : Storing :input_tts_TelephoneValues to simple: input_tts_TelephoneValues  as [DEFAULT]
+12/05/2015 21:28:42:243  INFO - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : Storing :input_disallowList to simple: input_disallowList  as [DEFAULT]
+12/05/2015 21:28:42:243  INFO - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : Storing :input_noInputMaxTryPrompt to simple: input_noInputMaxTryPrompt  as [DEFAULT]
+12/05/2015 21:28:42:243  INFO - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : Storing :input_dynamicConstraintListCounterFlag to simple: input_dynamicConstraintListCounterFlag  as [false]
+12/05/2015 21:28:42:243  INFO - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : Storing :input_moreOptionVoiceGrammar to simple: input_moreOptionVoiceGrammar  as [DEFAULT]
+12/05/2015 21:28:42:243  INFO - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : Storing :input_noInputPrompt to simple: input_noInputPrompt  as [DEFAULT]
+12/05/2015 21:28:42:243  INFO - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : Storing :input_tts_DateValues to simple: input_tts_DateValues  as [DEFAULT]
+12/05/2015 21:28:42:243  INFO - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : Storing :input_standardAudioLocation to simple: input_standardAudioLocation  as [DEFAULT]
+12/05/2015 21:28:42:243  INFO - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : Storing :input_confirmationNoMatchPrompt to simple: input_confirmationNoMatchPrompt  as [DEFAULT]
+12/05/2015 21:28:42:243  INFO - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : Storing :input_CompleteTimeout to simple: input_CompleteTimeout  as [DEFAULT]
+12/05/2015 21:28:42:243  INFO - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : Storing :input_ss_NumberValues to simple: input_ss_NumberValues  as [DEFAULT]
+12/05/2015 21:28:42:243  INFO - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : Storing :input_confirmationVoiceGrammar to simple: input_confirmationVoiceGrammar  as [DEFAULT]
+12/05/2015 21:28:42:243  INFO - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : Storing :input_language to simple: input_language  as [DEFAULT]
+12/05/2015 21:28:42:243  INFO - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : Storing :input_tts_Date to simple: input_tts_Date  as [DEFAULT]
+12/05/2015 21:28:42:243  INFO - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : Storing :input_tts_AddressValues to simple: input_tts_AddressValues  as [DEFAULT]
+12/05/2015 21:28:42:243  INFO - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : Storing :input_tts_Digits to simple: input_tts_Digits  as [DEFAULT]
+12/05/2015 21:28:42:243  INFO - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : Storing :input_AnnounceID to simple: input_AnnounceID  as [DEFAULT]
+12/05/2015 21:28:42:243  INFO - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : Storing :input_RepeatCounter to simple: input_RepeatCounter  as [DEFAULT]
+12/05/2015 21:28:42:243  INFO - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : Storing :input_ConfirmationMode to simple: input_ConfirmationMode  as [DEFAULT]
+12/05/2015 21:28:42:243  INFO - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : Storing :input_manageRepeat to simple: input_manageRepeat  as [DEFAULT]
+12/05/2015 21:28:42:243  INFO - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : Storing :input_successPrompt to simple: input_successPrompt  as [DEFAULT]
+12/05/2015 21:28:42:243  INFO - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : Storing :input_noMatchPrompt to simple: input_noMatchPrompt  as [DEFAULT]
+12/05/2015 21:28:42:243  INFO - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : Storing :input_moreOptionDynamicValues to simple: input_moreOptionDynamicValues  as [DEFAULT]
+12/05/2015 21:28:42:243  INFO - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : Storing :input_repeatMaxTryPrompt to simple: input_repeatMaxTryPrompt  as [DEFAULT]
+12/05/2015 21:28:42:243  INFO - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : Storing :input_helpPrompt to simple: input_helpPrompt  as [DEFAULT]
+12/05/2015 21:28:42:243  INFO - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : Storing :input_globalPropertyFileName to simple: input_globalPropertyFileName  as [global.properties]
+12/05/2015 21:28:42:243  INFO - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : Storing :input_rePromptNoInput to simple: input_rePromptNoInput  as [DEFAULT]
+12/05/2015 21:28:42:275  WARN - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR :  - Particular Property 'isAnnouncement' is not set!!!
+12/05/2015 21:28:42:275  WARN - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR :  - Setting it to NONE
+12/05/2015 21:28:42:275  WARN - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR :  - Particular Property 'nBest' is not set!!!
+12/05/2015 21:28:42:275  WARN - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR :  - Setting it to NONE
+12/05/2015 21:28:42:275  WARN - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR :  - Particular Property 'constraintList' is not set!!!
+12/05/2015 21:28:42:275  WARN - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR :  - Setting it to NONE
+12/05/2015 21:28:42:275  WARN - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR :  - Particular Property 'disallowList' is not set!!!
+12/05/2015 21:28:42:275  WARN - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR :  - Setting it to NONE
+12/05/2015 21:28:42:275  WARN - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR :  - Particular Property 'privateData' is not set!!!
+12/05/2015 21:28:42:275  WARN - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR :  - Setting it to NONE
+12/05/2015 21:28:42:275 DEBUG - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : Private Data Value : NONE
+12/05/2015 21:28:42:275 DEBUG - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : Private Data Value : NONE
+12/05/2015 21:28:42:275  WARN - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR :  - Particular Property 'reportEnabled' is not set!!!
+12/05/2015 21:28:42:275  WARN - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR :  - Setting it to NONE
+12/05/2015 21:28:42:275  WARN - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR :  - Particular Property 'menuID' is not set!!!
+12/05/2015 21:28:42:275  WARN - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR :  - Setting it to NONE
+12/05/2015 21:28:42:275  WARN - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR :  - Particular Property 'announceID' is not set!!!
+12/05/2015 21:28:42:275  WARN - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR :  - Setting it to NONE
+12/05/2015 21:28:42:275  WARN - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR :  - Particular Property 'grammarLocation' is not set!!!
+12/05/2015 21:28:42:275  WARN - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR :  - Setting it to NONE
+12/05/2015 21:28:42:275 DEBUG - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : ########## Validate URL: [NONE]
+12/05/2015 21:28:42:306 DEBUG - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : ########## New URL: [http://172.16.12.179:8080/NONE/]
+12/05/2015 21:28:42:306 DEBUG - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : ########## Validation Result: [true]
+12/05/2015 21:28:42:306  WARN - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR :  - Particular Property 'customAudioLocation' is not set!!!
+12/05/2015 21:28:42:306  WARN - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR :  - Setting it to NONE
+12/05/2015 21:28:42:306 DEBUG - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : ########## Validate URL: [NONE]
+12/05/2015 21:28:42:306 DEBUG - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : ########## New URL: [http://172.16.12.179:8080/NONE/]
+12/05/2015 21:28:42:306 DEBUG - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : ########## Validation Result: [true]
+12/05/2015 21:28:42:306  WARN - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR :  - Particular Property 'standardAudioLocation' is not set!!!
+12/05/2015 21:28:42:306  WARN - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR :  - Setting it to NONE
+12/05/2015 21:28:42:306 DEBUG - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : ########## Validate URL: [NONE]
+12/05/2015 21:28:42:306 DEBUG - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : ########## New URL: [http://172.16.12.179:8080/NONE/]
+12/05/2015 21:28:42:306 DEBUG - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : ########## Validation Result: [true]
+12/05/2015 21:28:42:306  WARN - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR :  - Particular Property 'confirmationDtmfGrammar' is not set!!!
+12/05/2015 21:28:42:306  WARN - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR :  - Setting it to NONE
+12/05/2015 21:28:42:306  WARN - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR :  - Particular Property 'dtmfGlobalGrammar' is not set!!!
+12/05/2015 21:28:42:306  WARN - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR :  - Setting it to NONE
+12/05/2015 21:28:42:306  WARN - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR :  - Particular Property 'builtInGrammar' is not set!!!
+12/05/2015 21:28:42:306  WARN - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR :  - Setting it to NONE
+12/05/2015 21:28:42:306  WARN - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR :  - Particular Property 'builtInGrammarFlag' is not set!!!
+12/05/2015 21:28:42:306  WARN - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR :  - Setting it to NONE
+12/05/2015 21:28:42:306  WARN - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR :  - Particular Property 'confirmationVoiceGrammar' is not set!!!
+12/05/2015 21:28:42:306  WARN - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR :  - Setting it to NONE
+12/05/2015 21:28:42:306  WARN - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR :  - Particular Property 'voiceGlobalGrammar' is not set!!!
+12/05/2015 21:28:42:306  WARN - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR :  - Setting it to NONE
+12/05/2015 21:28:42:306  WARN - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR :  - Particular Property 'checkConsecutive' is not set!!!
+12/05/2015 21:28:42:306  WARN - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR :  - Setting it to NONE
+12/05/2015 21:28:42:306  WARN - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR :  - Particular Property 'voiceGrammar' is not set!!!
+12/05/2015 21:28:42:306  WARN - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR :  - Setting it to NONE
+12/05/2015 21:28:42:306  WARN - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR :  - Particular Property 'dtmfGrammar' is not set!!!
+12/05/2015 21:28:42:306  WARN - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR :  - Setting it to NONE
+12/05/2015 21:28:42:306  WARN - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR :  - Particular Property 'dtmfGrammarsUseSlots' is not set!!!
+12/05/2015 21:28:42:306  WARN - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR :  - Setting it to NONE
+12/05/2015 21:28:42:306  WARN - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR :  - Particular Property 'confirmationInitialPrompt' is not set!!!
+12/05/2015 21:28:42:306  WARN - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR :  - Setting it to NONE
+12/05/2015 21:28:42:306  WARN - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR :  - Particular Property 'confirmationSpecificPrompt' is not set!!!
+12/05/2015 21:28:42:306  WARN - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR :  - Setting it to NONE
+12/05/2015 21:28:42:306  WARN - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR :  - Particular Property 'confirmationNoMatchPrompt' is not set!!!
+12/05/2015 21:28:42:306  WARN - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR :  - Setting it to NONE
+12/05/2015 21:28:42:306  WARN - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR :  - Particular Property 'confirmationNoInputPrompt' is not set!!!
+12/05/2015 21:28:42:306  WARN - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR :  - Setting it to NONE
+12/05/2015 21:28:42:306  WARN - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR :  - Particular Property 'confirmationMaxTryPrompt' is not set!!!
+12/05/2015 21:28:42:306  WARN - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR :  - Setting it to NONE
+12/05/2015 21:28:42:306  WARN - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR :  - Particular Property 'confirmationValueFlag' is not set!!!
+12/05/2015 21:28:42:306  WARN - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR :  - Setting it to NONE
+12/05/2015 21:28:42:306  WARN - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR :  - Particular Property 'confirmationReprompt' is not set!!!
+12/05/2015 21:28:42:306  WARN - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR :  - Setting it to NONE
+12/05/2015 21:28:42:306  WARN - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR :  - Particular Property 'confirmationDeniedMaxCount' is not set!!!
+12/05/2015 21:28:42:306  WARN - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR :  - Setting it to NONE
+12/05/2015 21:28:42:306  WARN - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR :  - Particular Property 'confirmationDeniedMaxTryPrompt' is not set!!!
+12/05/2015 21:28:42:321  WARN - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR :  - Setting it to NONE
+12/05/2015 21:28:42:321  WARN - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR :  - Particular Property 'helpPrompt' is not set!!!
+12/05/2015 21:28:42:321  WARN - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR :  - Setting it to NONE
+12/05/2015 21:28:42:321  WARN - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR :  - Particular Property 'globalPrompt' is not set!!!
+12/05/2015 21:28:42:321  WARN - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR :  - Setting it to NONE
+12/05/2015 21:28:42:321  WARN - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR :  - Particular Property 'initialPrompt' is not set!!!
+12/05/2015 21:28:42:321  WARN - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR :  - Setting it to NONE
+12/05/2015 21:28:42:321  WARN - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR :  - Particular Property 'reEntry' is not set!!!
+12/05/2015 21:28:42:321  WARN - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR :  - Setting it to NONE
+12/05/2015 21:28:42:321  WARN - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR :  - Particular Property 'recordUtterance' is not set!!!
+12/05/2015 21:28:42:321  WARN - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR :  - Setting it to NONE
+12/05/2015 21:28:42:321  WARN - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR :  - Particular Property 'rePromptNoInput' is not set!!!
+12/05/2015 21:28:42:321  WARN - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR :  - Setting it to NONE
+12/05/2015 21:28:42:321  WARN - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR :  - Particular Property 'rePromptNoMatch' is not set!!!
+12/05/2015 21:28:42:321  WARN - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR :  - Setting it to NONE
+12/05/2015 21:28:42:321  WARN - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR :  - Particular Property 'noInputPrompt' is not set!!!
+12/05/2015 21:28:42:321  WARN - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR :  - Setting it to NONE
+12/05/2015 21:28:42:321  WARN - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR :  - Particular Property 'noInputMaxTryPrompt' is not set!!!
+12/05/2015 21:28:42:321  WARN - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR :  - Setting it to NONE
+12/05/2015 21:28:42:321  WARN - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR :  - Particular Property 'noMatchPrompt' is not set!!!
+12/05/2015 21:28:42:321  WARN - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR :  - Setting it to NONE
+12/05/2015 21:28:42:321  WARN - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR :  - Particular Property 'noMatchMaxTryPrompt' is not set!!!
+12/05/2015 21:28:42:321  WARN - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR :  - Setting it to NONE
+12/05/2015 21:28:42:321  WARN - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR :  - Particular Property 'successPrompt' is not set!!!
+12/05/2015 21:28:42:321  WARN - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR :  - Setting it to NONE
+12/05/2015 21:28:42:321  WARN - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR :  - Particular Property 'successPromptOnlyForConfirmation' is not set!!!
+12/05/2015 21:28:42:321  WARN - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR :  - Setting it to NONE
+12/05/2015 21:28:42:321  WARN - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR :  - Particular Property 'confirmationDeniedApology' is not set!!!
+12/05/2015 21:28:42:321  WARN - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR :  - Setting it to NONE
+12/05/2015 21:28:42:321  WARN - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR :  - Particular Property 'loggingEnabled' is not set!!!
+12/05/2015 21:28:42:321  WARN - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR :  - Setting it to NONE
+12/05/2015 21:28:42:321  WARN - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR :  - Particular Property 'loggerName' is not set!!!
+12/05/2015 21:28:42:321  WARN - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR :  - Setting it to NONE
+12/05/2015 21:28:42:321  WARN - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR :  - Particular Property 'terminatingTimeout' is not set!!!
+12/05/2015 21:28:42:321  WARN - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR :  - Setting it to NONE
+12/05/2015 21:28:42:321  WARN - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR :  - Particular Property 'completeTimeout' is not set!!!
+12/05/2015 21:28:42:321  WARN - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR :  - Setting it to NONE
+12/05/2015 21:28:42:321  WARN - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR :  - Particular Property 'incompleteTimeout' is not set!!!
+12/05/2015 21:28:42:321  WARN - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR :  - Setting it to NONE
+12/05/2015 21:28:42:321  WARN - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR :  - Particular Property 'mediaTypeVoice' is not set!!!
+12/05/2015 21:28:42:321  WARN - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR :  - Setting it to NONE
+12/05/2015 21:28:42:321  WARN - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR :  - Particular Property 'mediaTypeDTMF' is not set!!!
+12/05/2015 21:28:42:321  WARN - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR :  - Setting it to NONE
+12/05/2015 21:28:42:321  WARN - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR :  - Particular Property 'initialTimeout' is not set!!!
+12/05/2015 21:28:42:321  WARN - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR :  - Setting it to NONE
+12/05/2015 21:28:42:321  WARN - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR :  - Particular Property 'NINMCounter' is not set!!!
+12/05/2015 21:28:42:321  WARN - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR :  - Setting it to NONE
+12/05/2015 21:28:42:321  WARN - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR :  - Particular Property 'NINMCommonCounterFlag' is not set!!!
+12/05/2015 21:28:42:321  WARN - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR :  - Setting it to NONE
+12/05/2015 21:28:42:321  WARN - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR :  - Particular Property 'confirmationDeniedApologyRandom' is not set!!!
+12/05/2015 21:28:42:321  WARN - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR :  - Setting it to NONE
+12/05/2015 21:28:42:321  WARN - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR :  - Particular Property 'repeatCount' is not set!!!
+12/05/2015 21:28:42:321  WARN - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR :  - Setting it to NONE
+12/05/2015 21:28:42:321  WARN - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR :  - Particular Property 'repeatPrompt' is not set!!!
+12/05/2015 21:28:42:321  WARN - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR :  - Setting it to NONE
+12/05/2015 21:28:42:321  WARN - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR :  - Particular Property 'repeatMaxTryPrompt' is not set!!!
+12/05/2015 21:28:42:321  WARN - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR :  - Setting it to NONE
+12/05/2015 21:28:42:321  WARN - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR :  - Particular Property 'reportXMLEnable' is not set!!!
+12/05/2015 21:28:42:321  WARN - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR :  - Setting it to NONE
+12/05/2015 21:28:42:321  WARN - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR :  - Particular Property 'reportClassName' is not set!!!
+12/05/2015 21:28:42:321  WARN - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR :  - Setting it to NONE
+12/05/2015 21:28:42:321  WARN - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR :  - Particular Property 'reportMethodName' is not set!!!
+12/05/2015 21:28:42:321  WARN - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR :  - Setting it to NONE
+12/05/2015 21:28:42:321  WARN - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR :  - Particular Property 'terminatingChar' is not set!!!
+12/05/2015 21:28:42:321  WARN - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR :  - Setting it to NONE
+12/05/2015 21:28:42:321  WARN - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR :  - Particular Property 'dialogName' is not set!!!
+12/05/2015 21:28:42:321  WARN - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR :  - Setting it to NONE
+12/05/2015 21:28:42:321 DEBUG - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : ------------------------INPUT PARAMETERS RESULT------------------------
+12/05/2015 21:28:42:321 DEBUG - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : -           ERROR: property  *dialogName*  cannot be empty!           -
+12/05/2015 21:28:42:321 DEBUG - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : -----------------------------------------------------------------------
+12/05/2015 21:28:42:321  WARN - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR :  - Particular Property 'ss_Number' is not set!!!
+12/05/2015 21:28:42:321  WARN - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR :  - Setting it to NONE
+12/05/2015 21:28:42:321  WARN - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR :  - Particular Property 'ss_NumberValues' is not set!!!
+12/05/2015 21:28:42:321  WARN - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR :  - Setting it to NONE
+12/05/2015 21:28:42:321  WARN - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR :  - Particular Property 'ss_Digits' is not set!!!
+12/05/2015 21:28:42:321  WARN - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR :  - Setting it to NONE
+12/05/2015 21:28:42:321  WARN - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR :  - Particular Property 'ss_DigitsValues' is not set!!!
+12/05/2015 21:28:42:321  WARN - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR :  - Setting it to NONE
+12/05/2015 21:28:42:337  WARN - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR :  - Particular Property 'ss_Date' is not set!!!
+12/05/2015 21:28:42:337  WARN - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR :  - Setting it to NONE
+12/05/2015 21:28:42:337  WARN - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR :  - Particular Property 'ss_DateValues' is not set!!!
+12/05/2015 21:28:42:337  WARN - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR :  - Setting it to NONE
+12/05/2015 21:28:42:337  WARN - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR :  - Particular Property 'ss_Time' is not set!!!
+12/05/2015 21:28:42:337  WARN - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR :  - Setting it to NONE
+12/05/2015 21:28:42:337  WARN - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR :  - Particular Property 'ss_TimeValues' is not set!!!
+12/05/2015 21:28:42:337  WARN - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR :  - Setting it to NONE
+12/05/2015 21:28:42:337  WARN - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR :  - Particular Property 'ss_Currency' is not set!!!
+12/05/2015 21:28:42:337  WARN - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR :  - Setting it to NONE
+12/05/2015 21:28:42:337  WARN - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR :  - Particular Property 'ss_CurrencyValues' is not set!!!
+12/05/2015 21:28:42:337  WARN - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR :  - Setting it to NONE
+12/05/2015 21:28:42:337  WARN - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR :  - Particular Property 'tts_Number' is not set!!!
+12/05/2015 21:28:42:337  WARN - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR :  - Setting it to NONE
+12/05/2015 21:28:42:337  WARN - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR :  - Particular Property 'tts_NumberValues' is not set!!!
+12/05/2015 21:28:42:337  WARN - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR :  - Setting it to NONE
+12/05/2015 21:28:42:337  WARN - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR :  - Particular Property 'tts_Digits' is not set!!!
+12/05/2015 21:28:42:337  WARN - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR :  - Setting it to NONE
+12/05/2015 21:28:42:337  WARN - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR :  - Particular Property 'tts_DigitsValues' is not set!!!
+12/05/2015 21:28:42:337  WARN - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR :  - Setting it to NONE
+12/05/2015 21:28:42:337  WARN - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR :  - Particular Property 'tts_Date' is not set!!!
+12/05/2015 21:28:42:337  WARN - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR :  - Setting it to NONE
+12/05/2015 21:28:42:337  WARN - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR :  - Particular Property 'tts_DateValues' is not set!!!
+12/05/2015 21:28:42:337  WARN - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR :  - Setting it to NONE
+12/05/2015 21:28:42:337  WARN - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR :  - Particular Property 'tts_Time' is not set!!!
+12/05/2015 21:28:42:337  WARN - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR :  - Setting it to NONE
+12/05/2015 21:28:42:337  WARN - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR :  - Particular Property 'tts_TimeValues' is not set!!!
+12/05/2015 21:28:42:337  WARN - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR :  - Setting it to NONE
+12/05/2015 21:28:42:337  WARN - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR :  - Particular Property 'tts_Currency' is not set!!!
+12/05/2015 21:28:42:337  WARN - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR :  - Setting it to NONE
+12/05/2015 21:28:42:337  WARN - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR :  - Particular Property 'tts_CurrencyValues' is not set!!!
+12/05/2015 21:28:42:337  WARN - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR :  - Setting it to NONE
+12/05/2015 21:28:42:337  WARN - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR :  - Particular Property 'tts_Name' is not set!!!
+12/05/2015 21:28:42:337  WARN - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR :  - Setting it to NONE
+12/05/2015 21:28:42:337  WARN - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR :  - Particular Property 'tts_NameValues' is not set!!!
+12/05/2015 21:28:42:337  WARN - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR :  - Setting it to NONE
+12/05/2015 21:28:42:337  WARN - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR :  - Particular Property 'tts_Address' is not set!!!
+12/05/2015 21:28:42:337  WARN - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR :  - Setting it to NONE
+12/05/2015 21:28:42:337  WARN - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR :  - Particular Property 'tts_AddressValues' is not set!!!
+12/05/2015 21:28:42:337  WARN - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR :  - Setting it to NONE
+12/05/2015 21:28:42:337  WARN - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR :  - Particular Property 'tts_Telephone' is not set!!!
+12/05/2015 21:28:42:337  WARN - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR :  - Setting it to NONE
+12/05/2015 21:28:42:337  WARN - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR :  - Particular Property 'tts_TelephoneValues' is not set!!!
+12/05/2015 21:28:42:337  WARN - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR :  - Setting it to NONE
+12/05/2015 21:28:42:337  WARN - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR :  - Particular Property 'menuOptions' is not set!!!
+12/05/2015 21:28:42:337  WARN - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR :  - Setting it to NONE
+12/05/2015 21:28:42:337  WARN - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR :  - Particular Property 'moreOptionFlag' is not set!!!
+12/05/2015 21:28:42:337  WARN - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR :  - Setting it to NONE
+12/05/2015 21:28:42:337  WARN - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR :  - Particular Property 'moreOptionCount' is not set!!!
+12/05/2015 21:28:42:337  WARN - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR :  - Setting it to NONE
+12/05/2015 21:28:42:337  WARN - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR :  - Particular Property 'moreOptionPreviousMenuFlag' is not set!!!
+12/05/2015 21:28:42:337  WARN - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR :  - Setting it to NONE
+12/05/2015 21:28:42:337  WARN - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR :  - Particular Property 'moreOptionDTMFGrammar' is not set!!!
+12/05/2015 21:28:42:337  WARN - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR :  - Setting it to NONE
+12/05/2015 21:28:42:337  WARN - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR :  - Particular Property 'moreOptionVoiceGrammar' is not set!!!
+12/05/2015 21:28:42:337  WARN - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR :  - Setting it to NONE
+12/05/2015 21:28:42:337  WARN - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR :  - Particular Property 'moreOptionDynamicValues' is not set!!!
+12/05/2015 21:28:42:337  WARN - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR :  - Setting it to NONE
+12/05/2015 21:28:42:337  WARN - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR :  - Particular Property 'oneTimeFlag' is not set!!!
+12/05/2015 21:28:42:337  WARN - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR :  - Setting it to NONE
+12/05/2015 21:28:42:337  INFO - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : One time flag : NONE
+12/05/2015 21:28:42:337  WARN - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR :  - Particular Property 'isDTMF' is not set!!!
+12/05/2015 21:28:42:337  WARN - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR :  - Setting it to NONE
+12/05/2015 21:28:42:337  WARN - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR :  - Particular Property 'specificSlots' is not set!!!
+12/05/2015 21:28:42:337  WARN - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR :  - Setting it to NONE
+12/05/2015 21:28:42:337  WARN - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR :  - Particular Property 'isTransactionActionAudio' is not set!!!
+12/05/2015 21:28:42:337  WARN - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR :  - Setting it to NONE
+12/05/2015 21:28:42:337  INFO - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : Is Transaction Audio :NONE
+12/05/2015 21:28:42:337 DEBUG - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : 
+propertiesLocation :DEFAULT
+customAudioLocation :http://172.16.12.179:8080/NONE/
+grammarLocation :http://172.16.12.179:8080/NONE/
+standardAudioLocation :http://172.16.12.179:8080/NONE/
+isDTMF :NONE
+globalPropertyFileName :global.properties
+propertyFileName :WelcomeMessage.properties
+dtmfGrammar :NONE
+voiceGrammar :NONE
+dtmfGlobalGrammar :NONE
+builtInGrammar :NONE
+builtInGrammarFlag :NONE
+dtmfGlobalGrammar :NONE
+voiceGlobalGrammar :NONE
+dtmfGrammarsUseSlots :NONE
+confirmationDtmfGrammar :NONE
+confirmationVoiceGrammar :NONE
+initialPrompt :NONE
+noMatchPrompt :NONE
+noInputPrompt :NONE
+maxNoInputCount :2
+maxNoMatchCount :2
+rePromptNoMatch :NONE
+rePromptNoInput :NONE
+noMatchMaxTryPrompt :NONE
+noInputMaxTryPrompt :NONE
+confirmationInitialPrompt :NONE
+confirmationNoMatchPrompt :NONE
+confirmationNoInputPrompt :NONE
+confirmationSpecificPrompt :NONE
+confirmationReprompt :NONE
+helpPrompt :NONE
+globalPrompt :NONE
+successPrompt:NONE
+successPromptOnlyForConfirmation :NONE
+nBest :1
+DisallowList :NONE
+Language :en-us
+privateData :NONE
+dialogName :ERROR
+menuId :NONE
+confirmationMode :1
+highConfidenceLevel :0.55
+lowConfidenceLevel :0.15
+initialTimeout :NONE
+interdigitTimeout :2
+terminatingTimeout :NONE
+completeTimeout :NONE
+incompleteTimeout :NONE
+mediaTypeVoice :NONE
+mediaTypeDTMF :NONE
+bargeIn :true
+NINMCounter :NONE
+NINMCommonCounterFlag :NONE
+noMatchRandom :false
+noInputRandom :false
+reEntry :NONE
+confirmationInitialPrompt :NONE
+confirmationSpecificPrompt :NONE
+confirmationMaxTryPrompt :NONE
+confirmationMaxCount :2
+confirmationMode:1
+confirmationNoInputPrompt :NONE
+confirmationNoMatchPrompt :NONE
+confirmationReprompt :NONE
+confirmationDeniedApology :NONE
+confirmationDeniedApologyRandom :NONE
+confirmationDeniedMaxtryPrompt :NONE
+confirmationDeniedMaxCount :NONE
+manageRepeat :true
+repeatCount :NONE
+repeatPrompt :NONE
+repeatMaxTryPrompt :NONE
+reportEnabled :NONE
+reportXMLEnabled :NONE
+reportClassName :NONE
+reportMethodName :NONE
+terminatingChar :#
+Record Utterance :false
+constraintList :NONE
+dynamicConstraintListFlag :false
+oneTimeFlag :NONE
+ssNumberFormat :NONE
+ssNumberFormatValues:NONE
+ssDigitsFormat :NONE
+ssDigitsFormatValues :NONE
+ssDateFormat :NONE
+ssDateFormatValues :NONE
+ssTimeFormat :NONE
+ssTimeFormatValues :NONE
+ssCurrencyFormat :NONE
+ssCurrencyFormatValues :NONE
+ttsNumberFormat :NONE
+ttsNumberFormatValues:NONE
+ttsDigitsFormat :NONE
+ttsDigitsFormatValues :NONE
+ttsDateFormat :NONE
+ttsDateFormatValues :NONE
+ttsTimeFormat :NONE
+ttsTimeFormatValues :NONE
+ttsCurrencyFormat :NONE
+ttsCurrencyFormatValues :NONE
+ttsNameFormat :NONE
+ttsNameFormatValues :NONE
+ttsAddressFormat :NONE
+ttsAddressFormatValues :NONE
+ttsTelephoneFormat :NONE
+ttsTelephoneFormatValues :NONE
+menuOptions :NONE
+moreOptionFlag :NONE
+moreOptionCount :NONE
+moreOptionPreviousMenuFlag :NONE
+moreOptionDTMFGrammar :NONE
+moreOptionVoiceGrammar :NONE
+moreOptionDynamicValues :NONE
+isAnnouncement :NONE
+specificSlots :NONE
+checkConsecutive :NONE
+is Transaction Audio :NONE
+12/05/2015 21:28:42:368  INFO - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : Using SCESession 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR servlet : SetParams_PromptandCollect
+12/05/2015 21:28:42:368 DEBUG - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : Logger Name :NONE
+12/05/2015 21:28:42:368 DEBUG - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : Switching OFF Trace :
+12/05/2015 21:28:42:368 DEBUG - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : State Name :ERROR
+12/05/2015 21:28:42:399 DEBUG - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : session id:mpp-2015132155116-16 | DM:SetParams_PromptandCollect | Dialog Name is Error  (true/false) ? | FLAGS:DialogName_Error : TRUE
+12/05/2015 21:28:42:399  INFO - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : [condition1] Expression [FLAGS:DialogName_Error] String Equal Ignorecase [CONSTANTS:TRUE]
+12/05/2015 21:28:42:399  INFO - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : Using SCESession 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR servlet : LogEnable
+12/05/2015 21:28:42:399 DEBUG - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : Session ID :mpp-2015132155116-16
+12/05/2015 21:28:42:399 DEBUG - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : App Session ID :null
+12/05/2015 21:28:42:399  INFO - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : Using SCESession 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR servlet : SetReport
+12/05/2015 21:28:42:399 DEBUG - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : Report Enabled ---> NONE
+12/05/2015 21:28:42:399 DEBUG - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : Report details are not set 
+12/05/2015 21:28:42:399  INFO - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : Using SCESession 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR servlet : Exit
+12/05/2015 21:28:42:399 DEBUG - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : *** Reply for [/DM/Exit] ***
+12/05/2015 21:28:42:399 DEBUG - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : 0:<?xml version="1.0" encoding="UTF-8"?> 
+1:<vxml version="2.1" xmlns="http://www.w3.org/2001/vxml" xml:lang="en-us"> 
+2:<meta name="author" content="Avaya Aura Orchestration Designer"/> 
+3:<meta name="runtime-version" content="07.01.08.04"/> 
+4:<meta name="runtimecommon-version" content="07.01.08.04"/> 
+5:<meta name="copyright" content="Copyright (c) 2002-2011, Avaya"/> 
+6:<form id="Exit"> 
+7:<block> 
+8:<var name="ReturnCode" expr="''"/> 
+9:<var name="Value" expr="''"/> 
+10:<var name="Utterance" expr="''"/> 
+11:<var name="Recorded_Utterance" expr="''"/> 
+12:<var name="OtherSlot" expr="''"/> 
+13:<var name="NomatchRemaining" expr="''"/> 
+14:<var name="NoinputRemaining" expr="''"/> 
+15:<var name="nBestValues" expr="''"/> 
+16:<var name="InputType" expr="''"/> 
+17:<var name="ConfirmationRemaining" expr="''"/> 
+18:<var name="Confidence" expr="''"/> 
+19:<var name="MenuID" expr="''"/> 
+20:<var name="MenuStartTime" expr="'12/05/2015 21:28:42'"/> 
+21:<var name="MenuEndTime" expr="''"/> 
+22:<var name="SpecificSlot" expr="''"/> 
+23:<var name="AnnounceID" expr="''"/> 
+24:<var name="DialogName" expr="'ERROR'"/> 
+25:<return namelist="ReturnCode Value Utterance Recorded_Utterance OtherSlot NomatchRemaining NoinputRemaining nBestValues InputType ConfirmationRemaining Confidence MenuID MenuStartTime MenuEndTime SpecificSlot AnnounceID DialogName"/> 
+26:</block> 
+27:</form> 
+28:</vxml> 
+29:
+
+12/05/2015 21:28:42:415  INFO - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : Using SCESession 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR servlet : Set_DND_MN_0001
+12/05/2015 21:28:42:415  INFO - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : ** Popped Stack Frame [/DM]
+12/05/2015 21:28:42:415  INFO - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : Storing :DND_PA_0001___AnnounceID to complex: DND_PA_0001:AnnounceID  as []
+12/05/2015 21:28:42:415  INFO - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : Storing :DND_PA_0001___MenuStartTime to complex: DND_PA_0001:MenuStartTime  as [12/05/2015 21:28:42]
+12/05/2015 21:28:42:415  INFO - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : Storing :DND_PA_0001___MenuEndTime to complex: DND_PA_0001:MenuEndTime  as []
+12/05/2015 21:28:42:415  INFO - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : Storing :DND_PA_0001___Value to complex: DND_PA_0001:Value  as []
+12/05/2015 21:28:42:415  INFO - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : Storing :DND_PA_0001___Confidence to complex: DND_PA_0001:Confidence  as []
+12/05/2015 21:28:42:415  INFO - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : Storing :DND_PA_0001___OtherSlot to complex: DND_PA_0001:OtherSlot  as []
+12/05/2015 21:28:42:415  INFO - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : Storing :DND_PA_0001___nBestValues to complex: DND_PA_0001:nBestValues  as []
+12/05/2015 21:28:42:415  INFO - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : Storing :DND_PA_0001___SpecificSlot to complex: DND_PA_0001:SpecificSlot  as []
+12/05/2015 21:28:42:415  INFO - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : Storing :DND_PA_0001___MenuID to complex: DND_PA_0001:MenuID  as []
+12/05/2015 21:28:42:415  INFO - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : Storing :DND_PA_0001___Recorded_Utterance to complex: DND_PA_0001:Recorded_Utterance  as []
+12/05/2015 21:28:42:415  INFO - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : Storing :DND_PA_0001___Utterance to complex: DND_PA_0001:Utterance  as []
+12/05/2015 21:28:42:415  INFO - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : Storing :DND_PA_0001___NomatchRemaining to complex: DND_PA_0001:NomatchRemaining  as []
+12/05/2015 21:28:42:415  INFO - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : Storing :DND_PA_0001___InputType to complex: DND_PA_0001:InputType  as []
+12/05/2015 21:28:42:415  INFO - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : Storing :DND_PA_0001___NoinputRemaining to complex: DND_PA_0001:NoinputRemaining  as []
+12/05/2015 21:28:42:415  INFO - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : Storing :DND_PA_0001___ReturnCode to complex: DND_PA_0001:ReturnCode  as []
+12/05/2015 21:28:42:415  INFO - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : Storing :DND_PA_0001___ConfirmationRemaining to complex: DND_PA_0001:ConfirmationRemaining  as []
+12/05/2015 21:28:42:415  INFO - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : Storing :DND_PA_0001___DialogName to complex: DND_PA_0001:DialogName  as [ERROR]
+12/05/2015 21:28:42:431 DEBUG - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : Request-Info DB Request :: DNIS :: [DNIS:52535, TrunkGroup:null, Circle:null, DefaultLanguage:null, Languages:null]
+12/05/2015 21:28:48:532 DEBUG - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : Request-Info DB Response :: [DNIS:52535, TrunkGroup:TRK1, Circle:TN, DefaultLanguage:ENG, Languages:HIN,ENG]
+12/05/2015 21:28:48:532 DEBUG - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : DND_MN_0001 Dynamic Menu Key :: NA-DND_MN_0001
+12/05/2015 21:28:48:564  INFO - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : Capturing exception [com.avaya.sce.runtimecommon.VariableTypeException].  Message [Cannot access simple variable as complex variable]
+12/05/2015 21:28:48:564 ERROR - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : session id:mpp-2015132155116-16 | Error processing request
+ EXCEPTION> 
+java.lang.Exception: com.avaya.sce.runtimecommon.VariableTypeException: Cannot access simple variable as complex variable
+	at com.avaya.sce.runtime.AppServlet.processRequest(AppServlet.java:130)
+	at com.avaya.sce.runtime.SCEServlet.requestHandler(SCEServlet.java:285)
+	at com.avaya.sce.runtime.SCEServlet.doPost(SCEServlet.java:190)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:641)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:722)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:224)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:169)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:472)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:168)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:98)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:927)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:407)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:987)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:579)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:309)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: com.avaya.sce.runtimecommon.VariableTypeException: Cannot access simple variable as complex variable
+	at com.avaya.sce.runtimecommon.SCESession.getVariableField(SCESession.java:1827)
+	at flow.Set_DND_MN_0001.requestBegin(Set_DND_MN_0001.java:125)
+	at com.avaya.sce.runtime.AppServlet.processRequest(AppServlet.java:81)
+	... 20 more
+
+12/05/2015 21:28:48:579 DEBUG - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : *** Reply for [/RCOM_CF_DND_1909_IVR/Set_DND_MN_0001] ***
+12/05/2015 21:28:48:579 DEBUG - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : 0:<?xml version="1.0" encoding="UTF-8"?> 
+1:<vxml version="2.1" xmlns="http://www.w3.org/2001/vxml" xml:lang="en-us"> 
+2:<meta name="author" content="Avaya Aura Orchestration Designer"/> 
+3:<meta name="runtime-version" content="07.01.08.04"/> 
+4:<meta name="runtimecommon-version" content="07.01.08.04"/> 
+5:<meta name="copyright" content="Copyright (c) 2002-2011, Avaya"/> 
+6:<form> 
+7:<block> 
+8:<throw  
+9: event="error.runtime.com.avaya.sce.runtimecommon.VariableTypeException" message="Error processing request, com.avaya.sce.runtimecommon.VariableTypeException: Cannot access simple variable as complex variable"/> 
+10:</block> 
+11:</form> 
+12:</vxml> 
+13:
+
+12/05/2015 21:28:48:579  INFO - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : Using SCESession 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR servlet : CallEnd
+12/05/2015 21:28:48:579  INFO - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : Using SCESession 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR servlet : Disconnect
+12/05/2015 21:28:48:579 DEBUG - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : *** Reply for [/RCOM_CF_DND_1909_IVR/Disconnect] ***
+12/05/2015 21:28:48:579 DEBUG - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : 0:<?xml version="1.0" encoding="UTF-8"?> 
+1:<vxml version="2.1" xmlns="http://www.w3.org/2001/vxml" xml:lang="en-us"> 
+2:<meta name="author" content="Avaya Aura Orchestration Designer"/> 
+3:<meta name="runtime-version" content="07.01.08.04"/> 
+4:<meta name="runtimecommon-version" content="07.01.08.04"/> 
+5:<meta name="copyright" content="Copyright (c) 2002-2011, Avaya"/> 
+6:<form id="Disconnect"> 
+7:<block> 
+8:<disconnect/> 
+9:</block> 
+10:<catch event="connection.disconnect"> 
+11:<var name="avayadonotsave___noinputcount" expr="try {_avayaNoinputCounter} catch (errMsg) {'0'}"/> 
+12:<var name="avayadonotsave___nomatchcount" expr="try {_avayaNomatchCounter} catch (errMsg) {'0'}"/> 
+13:<submit next="EndCallProcess?___DDSESSIONID=20B0520739225E5EA22070203DCD7645%3A%2FRCOM_CF_DND_1909_IVR" namelist="avayadonotsave___noinputcount avayadonotsave___nomatchcount" method="get"/> 
+14:</catch> 
+15:</form> 
+16:</vxml> 
+17:
+
+12/05/2015 21:28:48:580  INFO - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : Using SCESession 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR servlet : EndCallProcess
+12/05/2015 21:28:48:580 DEBUG - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : Menu:[]
+12/05/2015 21:28:48:580  INFO - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : Last 5 menu accessed :
+12/05/2015 21:28:48:580 DEBUG - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : Menu:[]
+12/05/2015 21:28:48:580  INFO - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : Announcement accessed :
+12/05/2015 21:28:55:805 DEBUG - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : Report XML:<?xml version="1.0" encoding="utf-16" standalone="yes"?>
+<IVRREPORTDATA>
+    <CALLINFO>
+        <UNIQUECALLID>10000006801431445876</UNIQUECALLID>
+        <SESSIONID>20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR</SESSIONID>
+        <VXMLIP>IN1DT0252/172.16.12.179</VXMLIP>
+        <APP_NAME>NA</APP_NAME>
+        <HUB>NA</HUB>
+        <DNIS>52535</DNIS>
+        <DNISTYPE>NA</DNISTYPE>
+        <STARTDATETIME>12/05/2015 21:28:40</STARTDATETIME>
+        <ENDDATETIME>12/05/2015 21:28:48</ENDDATETIME>
+        <CLI>4553</CLI>
+        <CATEGORY>NA</CATEGORY>
+        <CIRCLEID>NA</CIRCLEID>
+        <LANGCODE>english</LANGCODE>
+        <TRANSTOIVR>NA</TRANSTOIVR>
+        <CALLER_TYPE>NA</CALLER_TYPE>
+        <AGENT_ID>NA</AGENT_ID>
+        <AGENT_EXTN>NA</AGENT_EXTN>
+        <TRANSCODE>NA</TRANSCODE>
+        <TRANSFERVDN>NA</TRANSFERVDN>
+        <SKILLNAME>NA</SKILLNAME>
+        <UUIDATA>NA</UUIDATA>
+        <ABANDONED_FLAG>NA</ABANDONED_FLAG>
+        <MENUPATH></MENUPATH>
+        <CALLERPATH></CALLERPATH>
+        <DTMFPATH></DTMFPATH>
+        <DISPOSITION>ID</DISPOSITION>
+        <LASTMENUACCESSED>NA</LASTMENUACCESSED>
+        <HOW_CALL_ENDED>DISCONNECT</HOW_CALL_ENDED>
+        <CALL_END_REASON>IVR_DISCONNECT</CALL_END_REASON>
+        <ERR_REASON>NA</ERR_REASON>
+    </CALLINFO>
+    <MENUDETAILS/>
+    <ANNOUNCE_DETAILS/>
+    <HOSTDETAILS>
+        <HOST>
+            <HOST_ID>spsvn_IVRDNISRouting</HOST_ID>
+            <HOST_METHOD>spsvn_IVRDNISRouting</HOST_METHOD>
+            <HOST_TYPE>DB</HOST_TYPE>
+            <HOST_STDATETIME>12/05/2015 21:28:48</HOST_STDATETIME>
+            <HOST_ENDDATETIME>12/05/2015 21:28:48</HOST_ENDDATETIME>
+            <HOST_INPARAMS>52535</HOST_INPARAMS>
+            <HOST_OUTPARAMS>TN|ENG</HOST_OUTPARAMS>
+            <HOST_RESPONSE>SUCCESS</HOST_RESPONSE>
+            <HOST_STATUS>SUCCESS</HOST_STATUS>
+        </HOST>
+    </HOSTDETAILS>
+</IVRREPORTDATA>
+
+12/05/2015 21:28:55:805  INFO - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : [condition1] Expression [appVariables:isException] String Equal Ignorecase [constant:yes]
+12/05/2015 21:28:55:836  INFO - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : Using SCESession 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR servlet : End
+12/05/2015 21:28:55:836 DEBUG - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : *** Reply for [/RCOM_CF_DND_1909_IVR/End] ***
+12/05/2015 21:28:55:836 DEBUG - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : 0:<?xml version="1.0" encoding="UTF-8"?> 
+1:<vxml version="2.1" xmlns="http://www.w3.org/2001/vxml" xml:lang="en-us"> 
+2:<meta name="author" content="Avaya Aura Orchestration Designer"/> 
+3:<meta name="runtime-version" content="07.01.08.04"/> 
+4:<meta name="runtimecommon-version" content="07.01.08.04"/> 
+5:<meta name="copyright" content="Copyright (c) 2002-2011, Avaya"/> 
+6:<var name="_avayaExitReason" expr="''"/> 
+7:<var name="_avayaExitInfo1" expr="''"/> 
+8:<var name="_avayaExitInfo2" expr="''"/> 
+9:<var name="_avayaExitCustomerId" expr="''"/> 
+10:<var name="_avayaExitPreferredPath" expr="'1'"/> 
+11:<var name="_avayaExitTopic" expr="''"/> 
+12:<form id="End"> 
+13:<block> 
+14:<exit namelist="_avayaExitReason _avayaExitInfo1 _avayaExitInfo2 _avayaExitCustomerId _avayaExitPreferredPath _avayaExitTopic"/> 
+15:</block> 
+16:</form> 
+17:</vxml> 
+18:
+
+12/05/2015 21:28:55:836  INFO - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : Removing session from AvayaSessionTermination Servlet
+12/05/2015 21:28:55:836  INFO - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : Termination URL reply : <?xml version="1.0" encoding="UTF-8"?>
+<vxml version="2.1" xmlns="http://www.w3.org/2001/vxml" xml:lang="en-us">
+</vxml>
+
+12/05/2015 21:28:55:836  INFO - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : HTTP Session lost removing SCESession 20B0520739225E5EA22070203DCD7645
+12/05/2015 21:28:55:836  INFO - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : SCESession Removed
+12/05/2015 21:28:55:836 DEBUG - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : Removing 1 session stack frames.
+12/05/2015 21:28:55:836  INFO - 20B0520739225E5EA22070203DCD7645:/RCOM_CF_DND_1909_IVR : ** Popped Stack Frame [/RCOM_CF_DND_1909_IVR]

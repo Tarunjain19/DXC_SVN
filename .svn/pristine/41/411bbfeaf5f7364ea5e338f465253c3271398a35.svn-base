@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--
+This XML descriptor is automatically generated and managed by the
+application development environment.  While manual updates to this 
+file may be preserved, it is best to manage this file through the application development environment tool.
+
+Copyright 2004-2011 Avaya Inc.
+--><!DOCTYPE web-app PUBLIC "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN" "http://java.sun.com/dtd/web-app_2_3.dtd">
+
+<web-app id="WebApp_ID">
+    <context-param>
+        <param-name>sage.startlanguage</param-name>
+        <param-value>ENG</param-value>
+        <description>The starting language for the application.</description>
+    </context-param>
+    <context-param>
+        <param-name>sage.ic.throwexceptions</param-name>
+        <param-value>true</param-value>
+        <description>IC Throw Runtime Exception on Error{true|false}</description>
+    </context-param>
+    <context-param>
+        <param-name>sage.cti.autoinvoke.callinfo</param-name>
+        <param-value>true</param-value>
+        <description>CTI Auto invoke CallInfo upon app start{true|false}</description>
+    </context-param>
+    <context-param>
+        <param-name>runtime-ASR</param-name>
+        <param-value>Desktop Microsoft Speech SAPI</param-value>
+        <description>Runtime ASR {SRGS-Literals|SRGS-SISR|Nuance OSR|IBM|...}</description>
+    </context-param>
+    <context-param>
+        <param-name>runtime-SSML</param-name>
+        <param-value>true</param-value>
+        <description>Runtime SSML Generation {true|false} - "true" enables SSML generation, "false" disables.</description>
+    </context-param>
+    <context-param>
+        <param-name>runtime-nature</param-name>
+        <param-value>speech</param-value>
+        <description>Application nature, speech or message</description>
+    </context-param>
+    <context-param>
+        <param-name>runtime-Platform</param-name>
+        <param-value>Experience Portal</param-value>
+        <description>Runtime Platform {Desktop|Voice Portal|Experience Portal|Other|IR|MPS}</description>
+    </context-param>
+    <context-param>
+        <param-name>runtime-VXML-Compatibility</param-name>
+        <param-value>2.1</param-value>
+        <description>2.1 + IVVR, 2.1 Allows VXML 2.1 extensions, 2.0 Uses VXML 2.0 Only</description>
+    </context-param>
+    <context-param>
+        <param-name>runtime-DTMF-Native</param-name>
+        <param-value>LOCAL_SRGS_LITERALS</param-value>
+        <description>(NATIVE|LOCAL_SRGS_SISR|LOCAL_SRGS_LITERALS, NATIVE means DTMF Grammars are in native asr format.</description>
+    </context-param>
+    <context-param>
+        <param-name>CollectionSeparator</param-name>
+        <param-value>|</param-value>
+        <description>Collection Separator Char</description>
+    </context-param>
+    <context-param>
+        <param-name>grammar-caching</param-name>
+        <param-value>none</param-value>
+        <description>Grammar caching mode, none=no caching, default=system default or property setting</description>
+    </context-param>
+    <context-param>
+        <param-name>avaya.pim.dataconnector.config</param-name>
+        <param-value>|||i5/PolNOtdo=</param-value>
+        <description>PIM Data Connector configuration settings.</description>
+    </context-param>
+    <context-param>
+        <param-name>ConfigPath</param-name>
+        <param-value>C:\RCOM\OtherFlows\RCOM_CF_Intl_Roaming\Config\</param-value>
+        <description>config file path</description>
+    </context-param>
+    <context-param>
+        <param-name>IVRConfig</param-name>
+        <param-value>ivrconfig.properties</param-value>
+        <description>ivr config file</description>
+    </context-param>
+    <servlet id="avayadefaultdisconnecthandler-servlet">
+        <servlet-name>AvayaDefaultDisconnectHandler</servlet-name>
+        <servlet-class>com.avaya.sce.runtime.DefaultDisconnect</servlet-class>
+    </servlet>
+    <servlet id="avayadefaultexithandler-servlet">
+        <servlet-name>AvayaDefaultExitHandler</servlet-name>
+        <servlet-class>com.avaya.sce.runtime.DefaultExit</servlet-class>
+    </servlet>
+    <servlet id="avayasessiontermination-servlet">
+        <servlet-name>AvayaSessionTerminationServlet</servlet-name>
+        <servlet-class>com.avaya.sce.runtime.AvayaSessionTerminationServlet</servlet-class>
+    </servlet>
+    <servlet id="avayareturnerrorhandler-servlet">
+        <servlet-name>AvayaReturnErrorHandler</servlet-name>
+        <servlet-class>com.avaya.sce.runtime.ReturnErrorHandlerServlet</servlet-class>
+    </servlet>
+    <servlet id="avayareturnerrorthrow-servlet">
+        <servlet-name>AvayaReturnErrorThrow</servlet-name>
+        <servlet-class>com.avaya.sce.runtime.ReturnErrorThrowServlet</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_1">
+        <servlet-name>AppRoot</servlet-name>
+        <servlet-class>flow.AppRoot</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_3">
+        <servlet-name>End</servlet-name>
+        <servlet-class>flow.End</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_0">
+        <servlet-name>Start</servlet-name>
+        <servlet-class>flow.Start</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_33">
+        <servlet-name>Disconnect</servlet-name>
+        <servlet-class>flow.Disconnect</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_23">
+        <servlet-name>SetDisconnectData</servlet-name>
+        <servlet-class>flow.SetDisconnectData</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_40">
+        <servlet-name>Welcome_INRS_PA_0001</servlet-name>
+        <servlet-class>flow.Welcome_INRS_PA_0001</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_167">
+        <servlet-name>LanguageSelect_INRS_MN_0001</servlet-name>
+        <servlet-class>flow.LanguageSelect_INRS_MN_0001</servlet-class>
+    </servlet>
+    
+    <servlet id="SAGE-callflow-servlet_main_300">
+        <servlet-name>INRS_MN_0001_Data</servlet-name>
+        <servlet-class>flow.INRS_MN_0001_Data</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_308">
+        <servlet-name>INRS_MN_0002_Data</servlet-name>
+        <servlet-class>flow.INRS_MN_0002_Data</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_315">
+        <servlet-name>RoamingService_INRS_MN_0002</servlet-name>
+        <servlet-class>flow.RoamingService_INRS_MN_0002</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_570">
+        <servlet-name>Roaming_INRS_PA_0003</servlet-name>
+        <servlet-class>flow.Roaming_INRS_PA_0003</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_701">
+        <servlet-name>CheckPostPaidFlagging</servlet-name>
+        <servlet-class>flow.CheckPostPaidFlagging</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_972">
+        <servlet-name>SetTransferData</servlet-name>
+        <servlet-class>flow.SetTransferData</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_840">
+        <servlet-name>Transfer_INRS_PA_0005</servlet-name>
+        <servlet-class>flow.Transfer_INRS_PA_0005</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_967">
+        <servlet-name>Transfer</servlet-name>
+        <servlet-class>flow.Transfer</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_980">
+        <servlet-name>NotAuthorized_INRS_PA_0002</servlet-name>
+        <servlet-class>flow.NotAuthorized_INRS_PA_0002</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_1116">
+        <servlet-name>LinkDown_INRS_PA_0010</servlet-name>
+        <servlet-class>flow.LinkDown_INRS_PA_0010</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_1245">
+        <servlet-name>LoadOnStartUp</servlet-name>
+        <servlet-class>flow.LoadOnStartUp</servlet-class>
+       	<load-on-startup>1</load-on-startup>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_1249">
+        <servlet-name>InitializeVariables</servlet-name>
+        <servlet-class>flow.InitializeVariables</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_1263">
+        <servlet-name>SetLinkDown</servlet-name>
+        <servlet-class>flow.SetLinkDown</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_1288">
+        <servlet-name>SetDisposition</servlet-name>
+        <servlet-class>flow.SetDisposition</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_1294">
+        <servlet-name>EndProcess</servlet-name>
+        <servlet-class>flow.EndProcess</servlet-class>
+    </servlet>
+    <servlet-mapping id="avayadefaultdisconnecthandler-servletmapping">
+        <servlet-name>AvayaDefaultDisconnectHandler</servlet-name>
+        <url-pattern>/AvayaDefaultDisconnectHandler</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="avayadefaultexithandler-servletmapping">
+        <servlet-name>AvayaDefaultExitHandler</servlet-name>
+        <url-pattern>/AvayaDefaultExitHandler</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="avayasessiontermination-servletmapping">
+        <servlet-name>AvayaSessionTerminationServlet</servlet-name>
+        <url-pattern>/AvayaSessionTerminationServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="avayareturnerrorhandler-servletmapping">
+        <servlet-name>AvayaReturnErrorHandler</servlet-name>
+        <url-pattern>/AvayaReturnErrorHandler</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="avayareturnerrorthrow-servletmapping">
+        <servlet-name>AvayaReturnErrorThrow</servlet-name>
+        <url-pattern>/AvayaReturnErrorThrow</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_1">
+        <servlet-name>AppRoot</servlet-name>
+        <url-pattern>/AppRoot</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_3">
+        <servlet-name>End</servlet-name>
+        <url-pattern>/End</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_0">
+        <servlet-name>Start</servlet-name>
+        <url-pattern>/Start</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_33">
+        <servlet-name>Disconnect</servlet-name>
+        <url-pattern>/Disconnect</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_23">
+        <servlet-name>SetDisconnectData</servlet-name>
+        <url-pattern>/SetDisconnectData</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_40">
+        <servlet-name>Welcome_INRS_PA_0001</servlet-name>
+        <url-pattern>/Welcome_INRS_PA_0001</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_167">
+        <servlet-name>LanguageSelect_INRS_MN_0001</servlet-name>
+        <url-pattern>/LanguageSelect_INRS_MN_0001</url-pattern>
+    </servlet-mapping>
+    
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_300">
+        <servlet-name>INRS_MN_0001_Data</servlet-name>
+        <url-pattern>/INRS_MN_0001_Data</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_308">
+        <servlet-name>INRS_MN_0002_Data</servlet-name>
+        <url-pattern>/INRS_MN_0002_Data</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_315">
+        <servlet-name>RoamingService_INRS_MN_0002</servlet-name>
+        <url-pattern>/RoamingService_INRS_MN_0002</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_570">
+        <servlet-name>Roaming_INRS_PA_0003</servlet-name>
+        <url-pattern>/Roaming_INRS_PA_0003</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_701">
+        <servlet-name>CheckPostPaidFlagging</servlet-name>
+        <url-pattern>/CheckPostPaidFlagging</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_972">
+        <servlet-name>SetTransferData</servlet-name>
+        <url-pattern>/SetTransferData</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_840">
+        <servlet-name>Transfer_INRS_PA_0005</servlet-name>
+        <url-pattern>/Transfer_INRS_PA_0005</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_967">
+        <servlet-name>Transfer</servlet-name>
+        <url-pattern>/Transfer</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_980">
+        <servlet-name>NotAuthorized_INRS_PA_0002</servlet-name>
+        <url-pattern>/NotAuthorized_INRS_PA_0002</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_1116">
+        <servlet-name>LinkDown_INRS_PA_0010</servlet-name>
+        <url-pattern>/LinkDown_INRS_PA_0010</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_1245">
+        <servlet-name>LoadOnStartUp</servlet-name>
+        <url-pattern>/LoadOnStartUp</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_1249">
+        <servlet-name>InitializeVariables</servlet-name>
+        <url-pattern>/InitializeVariables</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_1263">
+        <servlet-name>SetLinkDown</servlet-name>
+        <url-pattern>/SetLinkDown</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_1288">
+        <servlet-name>SetDisposition</servlet-name>
+        <url-pattern>/SetDisposition</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_1294">
+        <servlet-name>EndProcess</servlet-name>
+        <url-pattern>/EndProcess</url-pattern>
+    </servlet-mapping>
+</web-app>

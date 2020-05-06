@@ -1,0 +1,458 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- This XML descriptor is automatically generated and managed by the application 
+	development environment. While manual updates to this file may be preserved, 
+	it is best to manage this file through the application development environment 
+	tool. Copyright 2004-2011 Avaya Inc. --><!DOCTYPE web-app PUBLIC "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN" "http://java.sun.com/dtd/web-app_2_3.dtd">
+<web-app id="WebApp_ID">
+	<context-param>
+		<param-name>sage.startlanguage</param-name>
+		<param-value>cantonese</param-value>
+		<description>The starting language for the application.</description>
+	</context-param>
+	<context-param>
+		<param-name>sage.ic.throwexceptions</param-name>
+		<param-value>true</param-value>
+		<description>IC Throw Runtime Exception on Error{true|false}</description>
+	</context-param>
+	<context-param>
+		<param-name>sage.cti.autoinvoke.callinfo</param-name>
+		<param-value>true</param-value>
+		<description>CTI Auto invoke CallInfo upon app start{true|false}</description>
+	</context-param>
+	<context-param>
+		<param-name>runtime-ASR</param-name>
+		<param-value>Desktop Microsoft Speech SAPI</param-value>
+		<description>Runtime ASR {SRGS-Literals|SRGS-SISR|Nuance OSR|IBM|...}</description>
+	</context-param>
+	<context-param>
+		<param-name>runtime-SSML</param-name>
+		<param-value>true</param-value>
+		<description>Runtime SSML Generation {true|false} - "true" enables
+			SSML generation, "false" disables.</description>
+	</context-param>
+	<context-param>
+		<param-name>runtime-nature</param-name>
+		<param-value>speech</param-value>
+		<description>Application nature, speech or message</description>
+	</context-param>
+	<context-param>
+		<param-name>runtime-Platform</param-name>
+		<param-value>Desktop</param-value>
+		<description>Runtime Platform {Desktop|Voice Portal|Experience
+			Portal|Other|IR|MPS}</description>
+	</context-param>
+	<context-param>
+		<param-name>runtime-VXML-Compatibility</param-name>
+		<param-value>2.1</param-value>
+		<description>2.1 + IVVR, 2.1 Allows VXML 2.1 extensions, 2.0 Uses VXML
+			2.0 Only</description>
+	</context-param>
+	<context-param>
+		<param-name>runtime-DTMF-Native</param-name>
+		<param-value>LOCAL_SRGS_LITERALS</param-value>
+		<description>(NATIVE|LOCAL_SRGS_SISR|LOCAL_SRGS_LITERALS, NATIVE means
+			DTMF Grammars are in native asr format.</description>
+	</context-param>
+	<context-param>
+		<param-name>allow-html-mode</param-name>
+		<param-value>false</param-value>
+		<description>Allows html mode in speech applications.</description>
+	</context-param>
+	<context-param>
+		<param-name>CollectionSeparator</param-name>
+		<param-value>|</param-value>
+		<description>Collection Separator Char</description>
+	</context-param>
+	<context-param>
+		<param-name>grammar-caching</param-name>
+		<param-value>none</param-value>
+		<description>Grammar caching mode, none=no caching, default=system
+			default or property setting</description>
+	</context-param>
+	<!-- Add for external recording file -->
+	<context-param>
+		<param-name>data.phraseFile.url</param-name>
+		<param-value>RecordMessageFile/data/phraseFile</param-value>
+		<description>The path for recording file storage</description>
+	</context-param>
+	<context-param>
+		<param-name>data.phraseFile.path</param-name>
+		<param-value>data\phraseFile</param-value>
+		<description>The path for recording file storage</description>
+	</context-param>
+
+
+	<servlet id="avayadefaultdisconnecthandler-servlet">
+		<servlet-name>AvayaDefaultDisconnectHandler</servlet-name>
+		<servlet-class>com.avaya.sce.runtime.DefaultDisconnect</servlet-class>
+	</servlet>
+	<servlet id="avayadefaultexithandler-servlet">
+		<servlet-name>AvayaDefaultExitHandler</servlet-name>
+		<servlet-class>com.avaya.sce.runtime.DefaultExit</servlet-class>
+	</servlet>
+	<servlet id="avayasessiontermination-servlet">
+		<servlet-name>AvayaSessionTerminationServlet</servlet-name>
+		<servlet-class>com.avaya.sce.runtime.AvayaSessionTerminationServlet</servlet-class>
+	</servlet>
+	<servlet id="CheckAdminVariableInfo-servlet">
+		<servlet-name>CheckAdminVariableInfoServlet</servlet-name>
+		<servlet-class>com.avaya.sce.runtimecommon.CheckAdminVariableInfo</servlet-class>
+	</servlet>
+	<servlet id="avayareturnerrorhandler-servlet">
+		<servlet-name>AvayaReturnErrorHandler</servlet-name>
+		<servlet-class>com.avaya.sce.runtime.ReturnErrorHandlerServlet</servlet-class>
+	</servlet>
+	<servlet id="avayareturnerrorthrow-servlet">
+		<servlet-name>AvayaReturnErrorThrow</servlet-name>
+		<servlet-class>com.avaya.sce.runtime.ReturnErrorThrowServlet</servlet-class>
+	</servlet>
+	<servlet id="SAGE-callflow-servlet_InvalidRecordingInput_1">
+		<servlet-name>InvalidRecordingInput-Begin</servlet-name>
+		<servlet-class>flow.subflow.InvalidRecordingInput.Begin</servlet-class>
+	</servlet>
+	<servlet id="SAGE-callflow-servlet_InvalidRecordingInput_36">
+		<servlet-name>InvalidRecordingInput-noMatch</servlet-name>
+		<servlet-class>flow.subflow.InvalidRecordingInput.noMatch</servlet-class>
+	</servlet>
+	<servlet id="SAGE-callflow-servlet_InvalidRecordingInput_21">
+		<servlet-name>InvalidRecordingInput-checkInvalidType</servlet-name>
+		<servlet-class>flow.subflow.InvalidRecordingInput.checkInvalidType</servlet-class>
+	</servlet>
+	<servlet id="SAGE-callflow-servlet_InvalidRecordingInput_8">
+		<servlet-name>InvalidRecordingInput-back</servlet-name>
+		<servlet-class>flow.subflow.InvalidRecordingInput.back</servlet-class>
+	</servlet>
+	<servlet id="SAGE-callflow-servlet_InvalidRecordingInput_40">
+		<servlet-name>InvalidRecordingInput-noMatchOverTimes</servlet-name>
+		<servlet-class>flow.subflow.InvalidRecordingInput.noMatchOverTimes</servlet-class>
+	</servlet>
+	<servlet id="SAGE-callflow-servlet_InvalidRecordingInput_27">
+		<servlet-name>InvalidRecordingInput-end</servlet-name>
+		<servlet-class>flow.subflow.InvalidRecordingInput.end</servlet-class>
+	</servlet>
+	<servlet id="SAGE-callflow-servlet_InvalidRecordingInput_28">
+		<servlet-name>InvalidRecordingInput-noInput</servlet-name>
+		<servlet-class>flow.subflow.InvalidRecordingInput.noInput</servlet-class>
+	</servlet>
+	<servlet id="SAGE-callflow-servlet_main_1">
+		<servlet-name>AppRoot</servlet-name>
+		<servlet-class>flow.AppRoot</servlet-class>
+	</servlet>
+	<servlet id="SAGE-callflow-servlet_main_97">
+		<servlet-name>repeatRecordContent</servlet-name>
+		<servlet-class>flow.repeatRecordContent</servlet-class>
+	</servlet>
+
+	<servlet id="SAGE-callflow-servlet_main_101">
+		<servlet-name>invalidFlow</servlet-name>
+		<servlet-class>flow.invalidFlow</servlet-class>
+	</servlet>
+
+	<servlet id="SAGE-callflow-servlet_main_135">
+		<servlet-name>checkInput</servlet-name>
+		<servlet-class>flow.checkInput</servlet-class>
+	</servlet>
+	<servlet id="SAGE-callflow-servlet_main_105">
+		<servlet-name>selectionAfterSayFileContent</servlet-name>
+		<servlet-class>flow.selectionAfterSayFileContent</servlet-class>
+	</servlet>
+
+	<servlet id="SAGE-callflow-servlet_main_138">
+		<servlet-name>recordContent</servlet-name>
+		<servlet-class>flow.recordContent</servlet-class>
+	</servlet>
+	<servlet id="SAGE-callflow-servlet_main_93">
+		<servlet-name>sayFileContentF</servlet-name>
+		<servlet-class>flow.sayFileContentF</servlet-class>
+	</servlet>
+	<servlet id="SAGE-callflow-servlet_main_125">
+		<servlet-name>askInputFileNumber</servlet-name>
+		<servlet-class>flow.askInputFileNumber</servlet-class>
+	</servlet>
+	<servlet id="SAGE-callflow-servlet_main_0">
+		<servlet-name>Start</servlet-name>
+		<servlet-class>flow.Start</servlet-class>
+	</servlet>
+
+	<servlet id="SAGE-callflow-servlet_main_186">
+		<servlet-name>end</servlet-name>
+		<servlet-class>flow.end</servlet-class>
+	</servlet>
+	<servlet id="SAGE-callflow-servlet_main_190">
+		<servlet-name>selectionAfterRecording</servlet-name>
+		<servlet-class>flow.selectionAfterRecording</servlet-class>
+	</servlet>
+	<servlet id="SAGE-callflow-servlet_main_201">
+		<servlet-name>thisMessageIs</servlet-name>
+		<servlet-class>flow.thisMessageIs</servlet-class>
+	</servlet>
+	<servlet id="SAGE-callflow-servlet_main_212">
+		<servlet-name>recordingCancel</servlet-name>
+		<servlet-class>flow.recordingCancel</servlet-class>
+	</servlet>
+	<servlet id="SAGE-callflow-servlet_main_218">
+		<servlet-name>recordingConfirm</servlet-name>
+		<servlet-class>flow.recordingConfirm</servlet-class>
+	</servlet>
+
+
+
+	<servlet id="SAGE-callflow-servlet_main_239">
+		<servlet-name>saveRecordingMessage</servlet-name>
+		<servlet-class>flow.saveRecordingMessage</servlet-class>
+	</servlet>
+
+	<servlet id="SAGE-callflow-servlet_resetInvalidVariable_1">
+		<servlet-name>resetInvalidVariable-Begin</servlet-name>
+		<servlet-class>flow.subflow.resetInvalidVariable.Begin</servlet-class>
+	</servlet>
+	<servlet id="SAGE-callflow-servlet_resetInvalidVariable_4">
+		<servlet-name>resetInvalidVariable-resetInvalidCount</servlet-name>
+		<servlet-class>flow.subflow.resetInvalidVariable.resetInvalidCount</servlet-class>
+	</servlet>
+	<servlet id="SAGE-callflow-servlet_resetInvalidVariable_10">
+		<servlet-name>resetInvalidVariable-endReset</servlet-name>
+		<servlet-class>flow.subflow.resetInvalidVariable.endReset</servlet-class>
+	</servlet>
+	<servlet id="SAGE-callflow-servlet_main_269">
+		<servlet-name>initSelectionAferSayFileContent</servlet-name>
+		<servlet-class>flow.initSelectionAferSayFileContent</servlet-class>
+	</servlet>
+	<servlet id="SAGE-callflow-servlet_main_278">
+		<servlet-name>initAskInputFileNumber</servlet-name>
+		<servlet-class>flow.initAskInputFileNumber</servlet-class>
+	</servlet>
+	<servlet id="SAGE-callflow-servlet_main_283">
+		<servlet-name>initAfterRecording</servlet-name>
+		<servlet-class>flow.initAfterRecording</servlet-class>
+	</servlet>
+	<servlet id="SAGE-callflow-servlet_main_289">
+		<servlet-name>untitledData1</servlet-name>
+		<servlet-class>flow.untitledData1</servlet-class>
+	</servlet>
+	<servlet id="SAGE-callflow-servlet_main_302">
+		<servlet-name>invalidFlowSelectionAfterSayFileContent</servlet-name>
+		<servlet-class>flow.invalidFlowSelectionAfterSayFileContent</servlet-class>
+	</servlet>
+	<servlet id="SAGE-callflow-servlet_main_316">
+		<servlet-name>invalidFlowSelectionAfterRecording</servlet-name>
+		<servlet-class>flow.invalidFlowSelectionAfterRecording</servlet-class>
+	</servlet>
+	<servlet id="SAGE-callflow-servlet_main_330">
+		<servlet-name>selectionNoInput</servlet-name>
+		<servlet-class>flow.selectionNoInput</servlet-class>
+	</servlet>
+	<servlet id="SAGE-callflow-servlet_main_335">
+		<servlet-name>selectionNoMatch</servlet-name>
+		<servlet-class>flow.selectionNoMatch</servlet-class>
+	</servlet>
+	<servlet id="SAGE-callflow-servlet_main_344">
+		<servlet-name>selectionNoInput2</servlet-name>
+		<servlet-class>flow.selectionNoInput2</servlet-class>
+	</servlet>
+	<servlet id="SAGE-callflow-servlet_main_349">
+		<servlet-name>selectionNoMatch2</servlet-name>
+		<servlet-class>flow.selectionNoMatch2</servlet-class>
+	</servlet>
+	<servlet id="SAGE-callflow-servlet_main_360">
+		<servlet-name>selectionNoInputBegining</servlet-name>
+		<servlet-class>flow.selectionNoInputBegining</servlet-class>
+	</servlet>
+	<servlet id="SAGE-callflow-servlet_main_385">
+        <servlet-name>returnBackToMainMenu</servlet-name>
+        <servlet-class>flow.returnBackToMainMenu</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_389">
+        <servlet-name>returnOnDisconnect</servlet-name>
+        <servlet-class>flow.returnOnDisconnect</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_381">
+        <servlet-name>returnRecordComplete</servlet-name>
+        <servlet-class>flow.returnRecordComplete</servlet-class>
+    </servlet>
+    <servlet-mapping id="avayadefaultdisconnecthandler-servletmapping">
+		<servlet-name>AvayaDefaultDisconnectHandler</servlet-name>
+		<url-pattern>/AvayaDefaultDisconnectHandler</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping id="avayadefaultexithandler-servletmapping">
+		<servlet-name>AvayaDefaultExitHandler</servlet-name>
+		<url-pattern>/AvayaDefaultExitHandler</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping id="avayasessiontermination-servletmapping">
+		<servlet-name>AvayaSessionTerminationServlet</servlet-name>
+		<url-pattern>/AvayaSessionTerminationServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping id="CheckAdminVariableInfo-servletmapping">
+		<servlet-name>CheckAdminVariableInfoServlet</servlet-name>
+		<url-pattern>/CheckAdminVariableInfo</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping id="avayareturnerrorhandler-servletmapping">
+		<servlet-name>AvayaReturnErrorHandler</servlet-name>
+		<url-pattern>/AvayaReturnErrorHandler</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping id="avayareturnerrorthrow-servletmapping">
+		<servlet-name>AvayaReturnErrorThrow</servlet-name>
+		<url-pattern>/AvayaReturnErrorThrow</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping id="SAGE-callflow-servletmapping_InvalidRecordingInput_1">
+		<servlet-name>InvalidRecordingInput-Begin</servlet-name>
+		<url-pattern>/InvalidRecordingInput-Begin</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping id="SAGE-callflow-servletmapping_InvalidRecordingInput_36">
+		<servlet-name>InvalidRecordingInput-noMatch</servlet-name>
+		<url-pattern>/InvalidRecordingInput-noMatch</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping id="SAGE-callflow-servletmapping_InvalidRecordingInput_21">
+		<servlet-name>InvalidRecordingInput-checkInvalidType</servlet-name>
+		<url-pattern>/InvalidRecordingInput-checkInvalidType</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping id="SAGE-callflow-servletmapping_InvalidRecordingInput_8">
+		<servlet-name>InvalidRecordingInput-back</servlet-name>
+		<url-pattern>/InvalidRecordingInput-back</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping id="SAGE-callflow-servletmapping_InvalidRecordingInput_40">
+		<servlet-name>InvalidRecordingInput-noMatchOverTimes</servlet-name>
+		<url-pattern>/InvalidRecordingInput-noMatchOverTimes</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping id="SAGE-callflow-servletmapping_InvalidRecordingInput_27">
+		<servlet-name>InvalidRecordingInput-end</servlet-name>
+		<url-pattern>/InvalidRecordingInput-end</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping id="SAGE-callflow-servletmapping_InvalidRecordingInput_28">
+		<servlet-name>InvalidRecordingInput-noInput</servlet-name>
+		<url-pattern>/InvalidRecordingInput-noInput</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping id="SAGE-callflow-servletmapping_main_1">
+		<servlet-name>AppRoot</servlet-name>
+		<url-pattern>/AppRoot</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping id="SAGE-callflow-servletmapping_main_97">
+		<servlet-name>repeatRecordContent</servlet-name>
+		<url-pattern>/repeatRecordContent</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping id="SAGE-callflow-servletmapping_main_101">
+		<servlet-name>invalidFlow</servlet-name>
+		<url-pattern>/invalidFlow</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping id="SAGE-callflow-servletmapping_main_135">
+		<servlet-name>checkInput</servlet-name>
+		<url-pattern>/checkInput</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping id="SAGE-callflow-servletmapping_main_105">
+		<servlet-name>selectionAfterSayFileContent</servlet-name>
+		<url-pattern>/selectionAfterSayFileContent</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping id="SAGE-callflow-servletmapping_main_138">
+		<servlet-name>recordContent</servlet-name>
+		<url-pattern>/recordContent</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping id="SAGE-callflow-servletmapping_main_93">
+		<servlet-name>sayFileContentF</servlet-name>
+		<url-pattern>/sayFileContentF</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping id="SAGE-callflow-servletmapping_main_125">
+		<servlet-name>askInputFileNumber</servlet-name>
+		<url-pattern>/askInputFileNumber</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping id="SAGE-callflow-servletmapping_main_0">
+		<servlet-name>Start</servlet-name>
+		<url-pattern>/Start</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping id="SAGE-callflow-servletmapping_main_186">
+		<servlet-name>end</servlet-name>
+		<url-pattern>/end</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping id="SAGE-callflow-servletmapping_main_190">
+		<servlet-name>selectionAfterRecording</servlet-name>
+		<url-pattern>/selectionAfterRecording</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping id="SAGE-callflow-servletmapping_main_201">
+		<servlet-name>thisMessageIs</servlet-name>
+		<url-pattern>/thisMessageIs</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping id="SAGE-callflow-servletmapping_main_212">
+		<servlet-name>recordingCancel</servlet-name>
+		<url-pattern>/recordingCancel</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping id="SAGE-callflow-servletmapping_main_218">
+		<servlet-name>recordingConfirm</servlet-name>
+		<url-pattern>/recordingConfirm</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping id="SAGE-callflow-servletmapping_main_239">
+		<servlet-name>saveRecordingMessage</servlet-name>
+		<url-pattern>/saveRecordingMessage</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping id="SAGE-callflow-servletmapping_resetInvalidVariable_1">
+		<servlet-name>resetInvalidVariable-Begin</servlet-name>
+		<url-pattern>/resetInvalidVariable-Begin</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping id="SAGE-callflow-servletmapping_resetInvalidVariable_4">
+		<servlet-name>resetInvalidVariable-resetInvalidCount</servlet-name>
+		<url-pattern>/resetInvalidVariable-resetInvalidCount</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping id="SAGE-callflow-servletmapping_resetInvalidVariable_10">
+		<servlet-name>resetInvalidVariable-endReset</servlet-name>
+		<url-pattern>/resetInvalidVariable-endReset</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping id="SAGE-callflow-servletmapping_main_269">
+		<servlet-name>initSelectionAferSayFileContent</servlet-name>
+		<url-pattern>/initSelectionAferSayFileContent</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping id="SAGE-callflow-servletmapping_main_278">
+		<servlet-name>initAskInputFileNumber</servlet-name>
+		<url-pattern>/initAskInputFileNumber</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping id="SAGE-callflow-servletmapping_main_283">
+		<servlet-name>initAfterRecording</servlet-name>
+		<url-pattern>/initAfterRecording</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping id="SAGE-callflow-servletmapping_main_289">
+		<servlet-name>untitledData1</servlet-name>
+		<url-pattern>/untitledData1</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping id="SAGE-callflow-servletmapping_main_302">
+		<servlet-name>invalidFlowSelectionAfterSayFileContent</servlet-name>
+		<url-pattern>/invalidFlowSelectionAfterSayFileContent</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping id="SAGE-callflow-servletmapping_main_316">
+		<servlet-name>invalidFlowSelectionAfterRecording</servlet-name>
+		<url-pattern>/invalidFlowSelectionAfterRecording</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping id="SAGE-callflow-servletmapping_main_330">
+		<servlet-name>selectionNoInput</servlet-name>
+		<url-pattern>/selectionNoInput</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping id="SAGE-callflow-servletmapping_main_335">
+		<servlet-name>selectionNoMatch</servlet-name>
+		<url-pattern>/selectionNoMatch</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping id="SAGE-callflow-servletmapping_main_344">
+		<servlet-name>selectionNoInput2</servlet-name>
+		<url-pattern>/selectionNoInput2</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping id="SAGE-callflow-servletmapping_main_349">
+		<servlet-name>selectionNoMatch2</servlet-name>
+		<url-pattern>/selectionNoMatch2</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping id="SAGE-callflow-servletmapping_main_360">
+		<servlet-name>selectionNoInputBegining</servlet-name>
+		<url-pattern>/selectionNoInputBegining</url-pattern>
+	</servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_385">
+        <servlet-name>returnBackToMainMenu</servlet-name>
+        <url-pattern>/returnBackToMainMenu</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_389">
+        <servlet-name>returnOnDisconnect</servlet-name>
+        <url-pattern>/returnOnDisconnect</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_381">
+        <servlet-name>returnRecordComplete</servlet-name>
+        <url-pattern>/returnRecordComplete</url-pattern>
+    </servlet-mapping>
+</web-app>

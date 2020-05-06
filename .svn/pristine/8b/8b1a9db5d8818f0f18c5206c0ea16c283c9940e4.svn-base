@@ -1,0 +1,62 @@
+
+ConfigFilePath = D:\\RCOM\\workspace\\RCOM_CF_Televerification_IVR\\Config\\DM_English\\
+ENG_ConfigFilePath = D:\\RCOM\\workspace\\RCOM_CF_Televerification_IVR\\Config\\DM_English\\
+HIN_ConfigFilePath = D:\\RCOM\\workspace\\RCOM_CF_Televerification_IVR\\Config\\DM_Hindi\\
+TAM_ConfigFilePath = D:\\RCOM\\workspace\\RCOM_CF_Televerification_IVR\\Config\\DM_Tamil\\
+MAR_ConfigFilePath = D:\\RCOM\\workspace\\RCOM_CF_Televerification_IVR\\Config\\DM_Marathi\\
+GUJ_ConfigFilePath = D:\\RCOM\\workspace\\RCOM_CF_Televerification_IVR\\Config\\DM_Gujarati\\
+PUN_ConfigFilePath = D:\\RCOM\\workspace\\RCOM_CF_Televerification_IVR\\Config\\DM_Punjabi\\
+TEL_ConfigFilePath = D:\\RCOM\\workspace\\RCOM_CF_Televerification_IVR\\Config\\DM_Telugu\\
+KAN_ConfigFilePath = D:\\RCOM\\workspace\\RCOM_CF_Televerification_IVR\\Config\\DM_Punjabi\\
+MAL_ConfigFilePath = D:\\RCOM\\workspace\\RCOM_CF_Televerification_IVR\\Config\\DM_Malayalam\\
+ORI_ConfigFilePath = D:\\RCOM\\workspace\\RCOM_CF_Televerification_IVR\\Config\\DM_Oriya\\
+BEN_ConfigFilePath = D:\\RCOM\\workspace\\RCOM_CF_Televerification_IVR\\Config\\DM_Bengali\\
+ASS_ConfigFilePath = D:\\RCOM\\workspace\\RCOM_CF_Televerification_IVR\\Config\\DM_Assamese\\
+
+Press0 = 42319.wav
+Press1 = 42320.wav
+Press2 = 42321.wav
+Press3 = 42322.wav
+Press4 = 42323.wav
+Press5 = 42324.wav
+Press6 = 42325.wav
+Press7 = 42325.wav
+Press8 = 42326.wav
+Press9 = 42327.wav
+
+ApplicationName = RCOM_CF_Televerification
+
+HUB = MU
+
+DataType = TVPDATA
+
+TELV_MN_0003 = 42304.wav*SS:DataCardNumber:digits*42305.wav*42320.wav*42306.wav*42321.wav
+
+TELV_MN_0005 = 42304.wav*SS:MobileNumber:digits*42305.wav*42320.wav*42306.wav*42321.wav
+
+TELV_PA_0008 = 42312.wav
+
+TELV_PA_0010 = 42313.wav
+
+#LanguageSelection
+TELV_MN_0006 = L0_42311.wav*<0>*L0_42320.wav|L1_42311.wav*<1>*L1_42321.wav|L2_42311.wav*<2>*L2_42322.wav
+
+#ReginalLanguageAudio
+ENG = 42331.wav
+HIN = 42332.wav
+TAM = 42333.wav
+MAR = 42334.wav
+GUJ = 42335.wav
+PUN = 42336.wav
+TEL = 42337.wav
+KAN = 42338.wav
+MAL = 42339.wav
+ORI = 42340.wav
+BEN = 42341.wav
+ASS = 42342.wav
+
+#TransferVDN
+TELV_TR_0002 = 5000
+TELV_TR_0001 = 5001
+DEFAULT_VDN = 1000
+

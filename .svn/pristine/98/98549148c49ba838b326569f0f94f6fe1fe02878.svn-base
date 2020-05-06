@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans:beans xmlns="http://www.springframework.org/schema/mvc"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:beans="http://www.springframework.org/schema/beans"
+	xmlns:context="http://www.springframework.org/schema/context" xmlns:tx="http://www.springframework.org/schema/tx"
+	xmlns:mvc="http://www.springframework.org/schema/mvc" xmlns:p="http://www.springframework.org/schema/p"
+	xsi:schemaLocation="http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc.xsd
+              http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+              http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd
+               http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-3.1.xsd
+               ">
+
+	<!-- JPA Related -->
+	<beans:bean id="dndTxManager"
+		class="org.springframework.orm.jpa.JpaTransactionManager">
+		<beans:property name="entityManagerFactory" ref="dndEntityManagerFactory" />
+	</beans:bean>
+	
+	<tx:annotation-driven transaction-manager="dndTxManager" />
+
+	<beans:bean id="dndEntityManagerFactory"
+		class="org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean">
+		<beans:property name="persistenceXmlLocation" value="classpath:META-INF/persistence.xml" />
+		<beans:property name="persistenceUnitName" value="DND" />
+		<beans:property name="dataSource" ref="dndDataSource" />
+		<beans:property name="jpaVendorAdapter" ref="dndJpaVendorAdapter" />
+	</beans:bean>
+	
+	<beans:bean id="dndJpaVendorAdapter"
+		class="org.springframework.orm.jpa.vendor.HibernateJpaVendorAdapter">
+		<beans:property name="database" value="SQL_SERVER" /> 
+		<beans:property name="showSql" value="true" />
+	</beans:bean>
+		
+	<!-- Below is for JPA connection -->
+	<beans:bean id="dndDataSource"
+		class="com.rcom.dnd.datasource.DataSource" factory-method="getDataSource">
+	</beans:bean>
+	
+	<beans:bean id="dndRepository" class="com.rcom.dnd.dao.impl.IVRDBDaoRepository">
+	</beans:bean>
+	
+	<beans:bean id="dndIvrdbDao" class="com.rcom.dnd.daoservice.IVRDBDaoServiceImpl">
+	<beans:property name="daoRepository" ref="dndRepository"></beans:property>
+	</beans:bean>  
+	
+	<beans:bean id="dndDataServices" class="com.rcom.dnd.dbservice.IVRDataServiceImpl">
+		<beans:property name="ivrdbDao" ref="dndIvrdbDao"></beans:property>
+	</beans:bean>
+	
+	<!-- Phonegen dependency injection
+	<beans:bean id="webWorldDaoRepository" class="com.rcom.dealer.dao.impl.WebWorldDaoRepository">
+	</beans:bean>
+	
+	<beans:bean id="webWorldPhonegenDaoService" class="com.rcom.dealer.daoservice.WebWorldPhonegenDaoServiceImpl">
+	<beans:property name="webWorldDaoRepository" ref="webWorldDaoRepository"></beans:property>
+	</beans:bean>  
+	
+	<beans:bean id="phonegenService" class="com.rcom.dealer.dbservice.WebWorldPhonegenServiceImpl">
+		<beans:property name="webWorldPhonegenDaoService" ref="webWorldPhonegenDaoService"></beans:property>
+	</beans:bean> -->
+		
+	<context:component-scan base-package="com.rcom.dealer.dao.impl" /> 
+	<context:component-scan base-package="com.rcom.dealer.daoservice" />
+	<context:component-scan base-package="com.rcom.dealer.dbservice" />
+	<!-- <context:component-scan base-package="com.servion" /> -->
+<!-- 	<context:component-scan base-package="com.servion.component"/>
+	<context:component-scan base-package="com.servion.service"/> -->
+	
+
+	
+</beans:beans>
+	

@@ -1,0 +1,87 @@
+#Initial Audios for DM
+
+
+#RED_MN_0003 = 42156.wav*Language*
+RED_MN_0003 = L0_42156.wav*<0>*L0_42166.wav|L1_42156.wav*<1>*L1_42167.wav|L2_42156.wav*<2>*L2_42168.wav
+RED_MN_0001 = 42151.wav*42166.wav*42152.wav*42167.wav
+
+SouthernStates = TN,AP,KL
+NorthernStateLanguage = ENG,HIN
+DataType = REDSEC
+ApplicationName = RCOM_CF_RED
+DefaultVDN = 5000 
+
+#Language Audios
+ENG = 42177.wav
+TAM = 42179.wav
+TEL = 42180.wav
+KAN = 42181.wav
+HIN = 42178.wav
+MAL = 42182.wav
+
+ENGDMConfigPath = D:\\RCOM\\workspace\\RCOM_CF_RED_IVR\\Config\\DMProperties_English\\
+TAMDMConfigPath = D:\\RCOM\\workspace\\RCOM_CF_RED_IVR\\Config\\DMProperties_English\\
+HINDMConfigPath = D:\\RCOM\\workspace\\RCOM_CF_RED_IVR\\Config\\DMProperties_English\\
+TELDMConfigPath = D:\\RCOM\\workspace\\RCOM_CF_RED_IVR\\Config\\DMProperties_English\\
+MARDMConfigPath = D:\\RCOM\\workspace\\RCOM_CF_RED_IVR\\Config\\DMProperties_English\\
+MALDMConfigPath = D:\\RCOM\\workspace\\RCOM_CF_RED_IVR\\Config\\DMProperties_English\\
+
+Press0 = 42165.wav
+Press1 = 42166.wav
+Press2 = 42167.wav
+Press3 = 42168.wav
+Press4 = 42169.wav
+Press5 = 42170.wav
+Press6 = 42171.wav
+Press7 = 42172.wav
+Press8 = 42173.wav
+Press9 = 42174.wav
+PressStar = 42175.wav
+PreshHash = 42176.wav
+
+
+#Business Hour Configurations
+
+### List of holidays for RCOM_Red Local Call Centres###
+
+10092013=HOLIDAY
+29012013=HOLIDAY
+30012013=HOLIDAY
+31012013=HOLIDAY
+01022013=HOLIDAY
+02022013=HOLIDAY
+03022013=HOLIDAY
+04022013=HOLIDAY
+09042013=HOLIDAY
+26092013=HOLIDAY
+01052013=HOLIDAY
+07252014=HOLIDAY
+07292014=HOLIDAY
+
+
+# Weekends(Non-working days) should be given as colon(:) separated 
+# E.g.:- SUNDAY:MONDAY:TUESDAY:WEDNESDAY:THURSDAY:FRIDAY:SATURDAY
+WEEKEND=SUNDAY:SATURDAY
+
+# Business Hours: Should be given as HHmm in 24 hours format 
+
+MON_BUSINESSHOURS_START=0500
+MON_BUSINESSHOURS_END=1700
+
+TUE_BUSINESSHOURS_START=0500
+TUE_BUSINESSHOURS_END=1700
+
+WED_BUSINESSHOURS_START=000
+WED_BUSINESSHOURS_END=2400
+
+THU_BUSINESSHOURS_START=0500
+THU_BUSINESSHOURS_END=1700
+
+FRI_BUSINESSHOURS_START=0000
+FRI_BUSINESSHOURS_END=2000
+
+SAT_BUSINESSHOURS_START=0500
+SAT_BUSINESSHOURS_END=1700
+
+SUN_BUSINESSHOURS_START=0500
+SUN_BUSINESSHOURS_END=1700

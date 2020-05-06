@@ -1,0 +1,389 @@
+27/02/2020 16:07:47:663  INFO - Node Entry | session id:sess5486553 | Test_record:Start | Framework | Start |  |  | 
+27/02/2020 16:07:47:752  INFO - Node Entry | session id:sess5486553 | Test_record:Data1 | Framework | Data1 |  |  | undefined
+27/02/2020 16:07:47:805  INFO - Node Entry | session id:sess5486553 | Test_record:untitledAnnounce1 | Framework | untitledAnnounce1 |  |  | undefined
+27/02/2020 16:08:00:139  INFO - Node Entry | session id:sess5486553 | Test_record:data2 | Framework | data2 |  |  | undefined
+27/02/2020 16:08:00:191  INFO - Node Entry | session id:sess5486553 | Test_record:ua1 | Framework | ua1 |  |  | undefined
+27/02/2020 16:08:00:269  INFO - Node Entry | session id:sess5486553 | Test_record:untitledReturn1 | Framework | untitledReturn1 |  |  | undefined
+27/02/2020 16:08:00:270  INFO - Application Exit | session id:sess5486553 | Test_record:untitledReturn1 | Framework | Application Exiting |  |  | undefined
+27/02/2020 16:10:05:858  INFO - Node Entry | session id:sess3502920 | Test_record:Start | Framework | Start |  |  | 
+27/02/2020 16:10:05:933  INFO - Node Entry | session id:sess3502920 | Test_record:Data1 | Framework | Data1 |  |  | undefined
+27/02/2020 16:10:05:986  INFO - Node Entry | session id:sess3502920 | Test_record:untitledAnnounce1 | Framework | untitledAnnounce1 |  |  | undefined
+27/02/2020 16:10:16:401  INFO - Node Entry | session id:sess3502920 | Test_record:data2 | Framework | data2 |  |  | undefined
+27/02/2020 16:10:16:453  INFO - Node Entry | session id:sess3502920 | Test_record:ua1 | Framework | ua1 |  |  | undefined
+27/02/2020 16:10:16:530  INFO - Node Entry | session id:sess3502920 | Test_record:untitledReturn1 | Framework | untitledReturn1 |  |  | undefined
+27/02/2020 16:10:16:530  INFO - Application Exit | session id:sess3502920 | Test_record:untitledReturn1 | Framework | Application Exiting |  |  | undefined
+27/02/2020 16:12:41:924  INFO - Node Entry | session id:sess8628675 | Test_record:Start | Framework | Start |  |  | 
+27/02/2020 16:12:42:043  INFO - Node Entry | session id:sess8628675 | Test_record:Data1 | Framework | Data1 |  |  | undefined
+27/02/2020 16:12:42:101  INFO - Node Entry | session id:sess8628675 | Test_record:untitledAnnounce1 | Framework | untitledAnnounce1 |  |  | undefined
+27/02/2020 16:12:50:260  INFO - Node Entry | session id:sess8628675 | Test_record:Play_rec | Framework | Play_rec |  |  | undefined
+27/02/2020 16:12:50:261 ERROR - In Progress | session id:sess8628675 | Test_record:Play_rec |  | Invalid Prompt Name in variable [untitledRecord1:value] | Exception stack trace |  EXCEPTION> 
+com.avaya.sce.runtimecommon.SCERuntimeException: Invalid Prompt Name in variable [untitledRecord1:value]
+	at com.avaya.sce.runtimecommon.SCESession.throwRTException(SCESession.java:2601)
+	at com.avaya.sce.runtime.SCEServlet.validateResource(SCEServlet.java:1541)
+	at flow.Play_rec.getPrompts(Play_rec.java:112)
+	at com.avaya.sce.runtime.Form.handleRequest(Form.java:196)
+	at com.avaya.sce.runtime.AppDocument.processRequest(AppDocument.java:343)
+	at com.avaya.sce.runtime.SCEServlet.requestHandler(SCEServlet.java:247)
+	at com.avaya.sce.runtime.SCEServlet.doPost(SCEServlet.java:148)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:661)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:478)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:650)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1459)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+ | undefined
+27/02/2020 16:12:50:349 ERROR - In Progress | session id:sess8628675 | Test_record:Play_rec |  | com.avaya.sce.runtimecommon.SCERuntimeException: Invalid Prompt Name in variable [untitledRecord1:value] | Exception stack trace | Error processing request
+ EXCEPTION> 
+com.avaya.sce.runtimecommon.SCERuntimeException: Invalid Prompt Name in variable [untitledRecord1:value]
+	at com.avaya.sce.runtimecommon.SCESession.throwRTException(SCESession.java:2601)
+	at com.avaya.sce.runtime.SCEServlet.validateResource(SCEServlet.java:1541)
+	at flow.Play_rec.getPrompts(Play_rec.java:112)
+	at com.avaya.sce.runtime.Form.handleRequest(Form.java:196)
+	at com.avaya.sce.runtime.AppDocument.processRequest(AppDocument.java:343)
+	at com.avaya.sce.runtime.SCEServlet.requestHandler(SCEServlet.java:247)
+	at com.avaya.sce.runtime.SCEServlet.doPost(SCEServlet.java:148)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:661)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:478)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:650)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1459)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+ | undefined
+27/02/2020 16:14:52:958  INFO - Node Entry | session id:sess6274797 | Test_record:Start | Framework | Start |  |  | 
+27/02/2020 16:14:53:077  INFO - Node Entry | session id:sess6274797 | Test_record:Data1 | Framework | Data1 |  |  | undefined
+27/02/2020 16:14:53:135  INFO - Node Entry | session id:sess6274797 | Test_record:untitledAnnounce1 | Framework | untitledAnnounce1 |  |  | undefined
+27/02/2020 16:15:01:113  INFO - Node Entry | session id:sess6274797 | Test_record:Play_rec | Framework | Play_rec |  |  | undefined
+27/02/2020 16:15:01:114 ERROR - In Progress | session id:sess6274797 | Test_record:Play_rec |  | Invalid Prompt Name in variable [untitledRecord1:utterance] | Exception stack trace |  EXCEPTION> 
+com.avaya.sce.runtimecommon.SCERuntimeException: Invalid Prompt Name in variable [untitledRecord1:utterance]
+	at com.avaya.sce.runtimecommon.SCESession.throwRTException(SCESession.java:2601)
+	at com.avaya.sce.runtime.SCEServlet.validateResource(SCEServlet.java:1528)
+	at flow.Play_rec.getPrompts(Play_rec.java:112)
+	at com.avaya.sce.runtime.Form.handleRequest(Form.java:196)
+	at com.avaya.sce.runtime.AppDocument.processRequest(AppDocument.java:343)
+	at com.avaya.sce.runtime.SCEServlet.requestHandler(SCEServlet.java:247)
+	at com.avaya.sce.runtime.SCEServlet.doPost(SCEServlet.java:148)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:661)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:478)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:650)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1459)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+ | undefined
+27/02/2020 16:15:01:180 ERROR - In Progress | session id:sess6274797 | Test_record:Play_rec |  | com.avaya.sce.runtimecommon.SCERuntimeException: Invalid Prompt Name in variable [untitledRecord1:utterance] | Exception stack trace | Error processing request
+ EXCEPTION> 
+com.avaya.sce.runtimecommon.SCERuntimeException: Invalid Prompt Name in variable [untitledRecord1:utterance]
+	at com.avaya.sce.runtimecommon.SCESession.throwRTException(SCESession.java:2601)
+	at com.avaya.sce.runtime.SCEServlet.validateResource(SCEServlet.java:1528)
+	at flow.Play_rec.getPrompts(Play_rec.java:112)
+	at com.avaya.sce.runtime.Form.handleRequest(Form.java:196)
+	at com.avaya.sce.runtime.AppDocument.processRequest(AppDocument.java:343)
+	at com.avaya.sce.runtime.SCEServlet.requestHandler(SCEServlet.java:247)
+	at com.avaya.sce.runtime.SCEServlet.doPost(SCEServlet.java:148)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:661)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:478)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:650)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1459)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+ | undefined
+27/02/2020 16:17:07:798  INFO - Node Entry | session id:sess1757515 | Test_record:Start | Framework | Start |  |  | 
+27/02/2020 16:17:07:919  INFO - Node Entry | session id:sess1757515 | Test_record:Data1 | Framework | Data1 |  |  | undefined
+27/02/2020 16:17:07:978  INFO - Node Entry | session id:sess1757515 | Test_record:untitledAnnounce1 | Framework | untitledAnnounce1 |  |  | undefined
+27/02/2020 16:17:16:387  INFO - Node Entry | session id:sess1757515 | Test_record:Play_rec | Framework | Play_rec |  |  | undefined
+27/02/2020 16:17:16:389 ERROR - In Progress | session id:sess1757515 | Test_record:Play_rec |  | Invalid Prompt Name in variable [UcRec:value] | Exception stack trace |  EXCEPTION> 
+com.avaya.sce.runtimecommon.SCERuntimeException: Invalid Prompt Name in variable [UcRec:value]
+	at com.avaya.sce.runtimecommon.SCESession.throwRTException(SCESession.java:2601)
+	at com.avaya.sce.runtime.SCEServlet.validateResource(SCEServlet.java:1541)
+	at flow.Play_rec.getPrompts(Play_rec.java:112)
+	at com.avaya.sce.runtime.Form.handleRequest(Form.java:196)
+	at com.avaya.sce.runtime.AppDocument.processRequest(AppDocument.java:343)
+	at com.avaya.sce.runtime.SCEServlet.requestHandler(SCEServlet.java:247)
+	at com.avaya.sce.runtime.SCEServlet.doPost(SCEServlet.java:148)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:661)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:478)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:650)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1459)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+ | undefined
+27/02/2020 16:17:16:455 ERROR - In Progress | session id:sess1757515 | Test_record:Play_rec |  | com.avaya.sce.runtimecommon.SCERuntimeException: Invalid Prompt Name in variable [UcRec:value] | Exception stack trace | Error processing request
+ EXCEPTION> 
+com.avaya.sce.runtimecommon.SCERuntimeException: Invalid Prompt Name in variable [UcRec:value]
+	at com.avaya.sce.runtimecommon.SCESession.throwRTException(SCESession.java:2601)
+	at com.avaya.sce.runtime.SCEServlet.validateResource(SCEServlet.java:1541)
+	at flow.Play_rec.getPrompts(Play_rec.java:112)
+	at com.avaya.sce.runtime.Form.handleRequest(Form.java:196)
+	at com.avaya.sce.runtime.AppDocument.processRequest(AppDocument.java:343)
+	at com.avaya.sce.runtime.SCEServlet.requestHandler(SCEServlet.java:247)
+	at com.avaya.sce.runtime.SCEServlet.doPost(SCEServlet.java:148)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:661)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:478)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:650)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1459)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+ | undefined
+27/02/2020 16:21:58:957  INFO - Node Entry | session id:sess3718709 | Test_record:Start | Framework | Start |  |  | 
+27/02/2020 16:21:59:085  INFO - Node Entry | session id:sess3718709 | Test_record:Data1 | Framework | Data1 |  |  | undefined
+27/02/2020 16:21:59:144  INFO - Node Entry | session id:sess3718709 | Test_record:untitledAnnounce1 | Framework | untitledAnnounce1 |  |  | undefined
+27/02/2020 16:22:07:774  INFO - Node Entry | session id:sess3718709 | Test_record:Rec_var | Framework | Rec_var |  |  | undefined
+27/02/2020 16:22:07:841  INFO - Node Entry | session id:sess3718709 | Test_record:Play_rec | Framework | Play_rec |  |  | undefined
+27/02/2020 16:22:07:843 ERROR - In Progress | session id:sess3718709 | Test_record:Play_rec |  | Invalid Prompt Name in variable [Play_re_val:Field1] | Exception stack trace |  EXCEPTION> 
+com.avaya.sce.runtimecommon.SCERuntimeException: Invalid Prompt Name in variable [Play_re_val:Field1]
+	at com.avaya.sce.runtimecommon.SCESession.throwRTException(SCESession.java:2601)
+	at com.avaya.sce.runtime.SCEServlet.validateResource(SCEServlet.java:1541)
+	at flow.Play_rec.getPrompts(Play_rec.java:112)
+	at com.avaya.sce.runtime.Form.handleRequest(Form.java:196)
+	at com.avaya.sce.runtime.AppDocument.processRequest(AppDocument.java:343)
+	at com.avaya.sce.runtime.SCEServlet.requestHandler(SCEServlet.java:247)
+	at com.avaya.sce.runtime.SCEServlet.doPost(SCEServlet.java:148)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:661)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:728)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:467)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:392)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:311)
+	at com.avaya.sce.runtime.SCEServlet.forward(SCEServlet.java:1454)
+	at com.avaya.sce.runtime.Data.handleRequest(Data.java:184)
+	at com.avaya.sce.runtime.AppServlet.processRequest(AppServlet.java:96)
+	at com.avaya.sce.runtime.SCEServlet.requestHandler(SCEServlet.java:247)
+	at com.avaya.sce.runtime.SCEServlet.doPost(SCEServlet.java:148)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:661)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:478)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:650)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1459)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+ | undefined
+27/02/2020 16:22:07:904 ERROR - In Progress | session id:sess3718709 | Test_record:Play_rec |  | com.avaya.sce.runtimecommon.SCERuntimeException: Invalid Prompt Name in variable [Play_re_val:Field1] | Exception stack trace | Error processing request
+ EXCEPTION> 
+com.avaya.sce.runtimecommon.SCERuntimeException: Invalid Prompt Name in variable [Play_re_val:Field1]
+	at com.avaya.sce.runtimecommon.SCESession.throwRTException(SCESession.java:2601)
+	at com.avaya.sce.runtime.SCEServlet.validateResource(SCEServlet.java:1541)
+	at flow.Play_rec.getPrompts(Play_rec.java:112)
+	at com.avaya.sce.runtime.Form.handleRequest(Form.java:196)
+	at com.avaya.sce.runtime.AppDocument.processRequest(AppDocument.java:343)
+	at com.avaya.sce.runtime.SCEServlet.requestHandler(SCEServlet.java:247)
+	at com.avaya.sce.runtime.SCEServlet.doPost(SCEServlet.java:148)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:661)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:728)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:467)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:392)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:311)
+	at com.avaya.sce.runtime.SCEServlet.forward(SCEServlet.java:1454)
+	at com.avaya.sce.runtime.Data.handleRequest(Data.java:184)
+	at com.avaya.sce.runtime.AppServlet.processRequest(AppServlet.java:96)
+	at com.avaya.sce.runtime.SCEServlet.requestHandler(SCEServlet.java:247)
+	at com.avaya.sce.runtime.SCEServlet.doPost(SCEServlet.java:148)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:661)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:478)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:650)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1459)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+ | undefined
+27/02/2020 17:06:31:072  INFO - Node Entry | session id:sess8363767 | Test_record:Start | Framework | Start |  |  | 
+27/02/2020 17:06:31:174  INFO - Node Entry | session id:sess8363767 | Test_record:Data1 | Framework | Data1 |  |  | undefined
+27/02/2020 17:06:31:227  INFO - Node Entry | session id:sess8363767 | Test_record:untitledAnnounce1 | Framework | untitledAnnounce1 |  |  | undefined
+27/02/2020 17:06:39:662  INFO - Node Entry | session id:sess8363767 | Test_record:Rec_var | Framework | Rec_var |  |  | undefined
+27/02/2020 17:06:39:715  INFO - Node Entry | session id:sess8363767 | Test_record:Play_rec | Framework | Play_rec |  |  | undefined
+27/02/2020 17:09:21:104  INFO - Node Entry | session id:sess6369669 | Test_record:Start | Framework | Start |  |  | 
+27/02/2020 17:09:21:223  INFO - Node Entry | session id:sess6369669 | Test_record:Data1 | Framework | Data1 |  |  | undefined
+27/02/2020 17:09:21:281  INFO - Node Entry | session id:sess6369669 | Test_record:untitledAnnounce1 | Framework | untitledAnnounce1 |  |  | undefined
+27/02/2020 17:09:29:525  INFO - Node Entry | session id:sess6369669 | Test_record:Rec_var | Framework | Rec_var |  |  | undefined
+27/02/2020 17:09:29:590  INFO - Node Entry | session id:sess6369669 | Test_record:Play_rec | Framework | Play_rec |  |  | undefined
+27/02/2020 17:09:29:698  INFO - Node Entry | session id:sess6369669 | Test_record:data2 | Framework | data2 |  |  | undefined
+27/02/2020 17:09:29:750  INFO - Node Entry | session id:sess6369669 | Test_record:ua1 | Framework | ua1 |  |  | undefined
+27/02/2020 17:09:29:835  INFO - Node Entry | session id:sess6369669 | Test_record:untitledReturn1 | Framework | untitledReturn1 |  |  | undefined
+27/02/2020 17:09:29:839  INFO - Application Exit | session id:sess6369669 | Test_record:untitledReturn1 | Framework | Application Exiting |  |  | undefined
+27/02/2020 17:10:07:841  INFO - Node Entry | session id:sess5018936 | Test_record:Start | Framework | Start |  |  | 
+27/02/2020 17:10:07:924  INFO - Node Entry | session id:sess5018936 | Test_record:Data1 | Framework | Data1 |  |  | undefined
+27/02/2020 17:10:07:977  INFO - Node Entry | session id:sess5018936 | Test_record:untitledAnnounce1 | Framework | untitledAnnounce1 |  |  | undefined
+27/02/2020 17:11:13:294  INFO - Node Entry | session id:sess5744150 | Test_record:Start | Framework | Start |  |  | 
+27/02/2020 17:11:13:406  INFO - Node Entry | session id:sess5744150 | Test_record:Data1 | Framework | Data1 |  |  | undefined
+27/02/2020 17:11:13:463  INFO - Node Entry | session id:sess5744150 | Test_record:untitledAnnounce1 | Framework | untitledAnnounce1 |  |  | undefined
+27/02/2020 17:11:43:489  INFO - Node Entry | session id:sess5744150 | Test_record:Rec_var | Framework | Rec_var |  |  | undefined
+27/02/2020 17:11:43:557  INFO - Node Entry | session id:sess5744150 | Test_record:Play_rec | Framework | Play_rec |  |  | undefined
+27/02/2020 17:11:43:669  INFO - Node Entry | session id:sess5744150 | Test_record:data2 | Framework | data2 |  |  | undefined
+27/02/2020 17:11:43:722  INFO - Node Entry | session id:sess5744150 | Test_record:ua1 | Framework | ua1 |  |  | undefined
+27/02/2020 17:11:43:803  INFO - Node Entry | session id:sess5744150 | Test_record:untitledReturn1 | Framework | untitledReturn1 |  |  | undefined
+27/02/2020 17:11:43:807  INFO - Application Exit | session id:sess5744150 | Test_record:untitledReturn1 | Framework | Application Exiting |  |  | undefined
+27/02/2020 17:37:39:742  INFO - Node Entry | session id:sess1967437 | Test_record:Start | Framework | Start |  |  | 
+27/02/2020 17:37:39:832  INFO - Node Entry | session id:sess1967437 | Test_record:Data1 | Framework | Data1 |  |  | undefined
+27/02/2020 17:37:39:884  INFO - Node Entry | session id:sess1967437 | Test_record:untitledAnnounce1 | Framework | untitledAnnounce1 |  |  | undefined
+27/02/2020 17:37:51:646  INFO - Node Entry | session id:sess1967437 | Test_record:Rec_var | Framework | Rec_var |  |  | undefined
+27/02/2020 17:37:51:697  INFO - Node Entry | session id:sess1967437 | Test_record:Play_rec | Framework | Play_rec |  |  | undefined
+27/02/2020 17:37:51:772  INFO - Node Entry | session id:sess1967437 | Test_record:data2 | Framework | data2 |  |  | undefined
+27/02/2020 17:37:51:824  INFO - Node Entry | session id:sess1967437 | Test_record:ua1 | Framework | ua1 |  |  | undefined
+27/02/2020 17:37:51:906  INFO - Node Entry | session id:sess1967437 | Test_record:untitledReturn1 | Framework | untitledReturn1 |  |  | undefined
+27/02/2020 17:37:51:906  INFO - Application Exit | session id:sess1967437 | Test_record:untitledReturn1 | Framework | Application Exiting |  |  | undefined
+27/02/2020 18:05:23:870  INFO - Node Entry | session id:sess9395282 | Test_record:Start | Framework | Start |  |  | 
+27/02/2020 18:05:23:997  INFO - Node Entry | session id:sess9395282 | Test_record:Data1 | Framework | Data1 |  |  | undefined
+27/02/2020 18:05:24:056  INFO - Node Entry | session id:sess9395282 | Test_record:untitledAnnounce1 | Framework | untitledAnnounce1 |  |  | undefined
+27/02/2020 18:05:34:308  INFO - Node Entry | session id:sess9395282 | Test_record:Rec_var | Framework | Rec_var |  |  | undefined
+27/02/2020 18:05:34:373  INFO - Node Entry | session id:sess9395282 | Test_record:Play_rec | Framework | Play_rec |  |  | undefined
+27/02/2020 18:05:34:469  INFO - Node Entry | session id:sess9395282 | Test_record:data2 | Framework | data2 |  |  | undefined
+27/02/2020 18:05:34:522  INFO - Node Entry | session id:sess9395282 | Test_record:ua1 | Framework | ua1 |  |  | undefined
+27/02/2020 18:05:34:608  INFO - Node Entry | session id:sess9395282 | Test_record:untitledReturn1 | Framework | untitledReturn1 |  |  | undefined
+27/02/2020 18:05:34:612  INFO - Application Exit | session id:sess9395282 | Test_record:untitledReturn1 | Framework | Application Exiting |  |  | undefined
+28/02/2020 12:26:28:470  INFO - Node Entry | session id:sess6633169 | Test_record:Start | Framework | Start |  |  | 
+28/02/2020 12:26:28:819  INFO - Node Entry | session id:sess6633169 | Test_record:Data1 | Framework | Data1 |  |  | undefined
+28/02/2020 12:26:28:887  INFO - Node Entry | session id:sess6633169 | Test_record:untitledAnnounce1 | Framework | untitledAnnounce1 |  |  | undefined
+28/02/2020 12:26:39:517  INFO - Node Entry | session id:sess6633169 | Test_record:AvayaDefaultDisconnectHandler | Framework | AvayaDefaultDisconnectHandler |  |  | undefined
+28/02/2020 12:26:39:537  INFO - In Progress | session id:sess6633169 | Test_record:AvayaDefaultDisconnectHandler | Default Disconnect Handler | Default connection.disconnect handler caught disconnect, application exiting |  |  | undefined
+28/02/2020 12:26:39:538  INFO - Application Exit | session id:sess6633169 | Test_record:AvayaDefaultDisconnectHandler | Framework | Application Exiting |  |  | undefined

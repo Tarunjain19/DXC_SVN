@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<grammar xmlns="http://www.w3.org/2001/06/grammar" xml:lang="en-us" version="1.0" root="root" mode="dtmf" tag-format="swi-semantics/1.0">
+
+<rule id="root" scope="public">
+
+  <one-of>
+    <item>1<tag>Confirm</tag></item>
+	<item>2<tag>ReEnter</tag></item>
+  </one-of>
+</rule>
+
+</grammar>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<module category="" descriptorversion="1.0" entrypoint="RCOM_CF_Dealer/Start" forcesubdialogcall="false" frameworkversion="07.01.08.04" iconlarge="icons/defaultapplicationlg.gif" iconsmall="icons/defaultapplicationsm.gif" modifyInputs="false" modifyOutputs="false" nature="com.avaya.sce.core.speechnature" outputmultipart="false" paramasnamelist="false" provider="" submitmethod="get" version="1.0.0" webname="RCOM_CF_Dealer">
+    <description/>
+    <language name="ENG" root="en-us"/>
+    <language name="TAM" root="en-us"/>
+    <language name="HIN" root="en-us"/>
+    <language name="TEL" root="en-us"/>
+    <language name="KAN" root="en-us"/>
+    <language name="MAL" root="as-in"/>
+    <language name="MAR" root="as-in"/>
+    <language name="ASM" root="as-in"/>
+    <language name="BEN" root="as-in"/>
+    <language name="GUJ" root="as-in"/>
+    <language name="PUN" root="as-in"/>
+    <language name="ORI" root="as-in"/>
+    <dependencies>
+        <moduleref frameworkversion="07.01.08.04" name="DM" private="false" version="1.0.0">
+            <meta callflow-references="GlobalPrompt,HotFlash,main"/>
+        </moduleref>
+    </dependencies>
+</module>

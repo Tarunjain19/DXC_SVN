@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<ProjectLanguages>
+    <language asr="cn-hk" localization="zh-hk" localizationVersion="3.1.3" name="cantonese" stdPhrasesInstalled="false" stdPhrasesLocation="LOCAL" tts="zh-hk"/>
+    <language asr="en-us" localization="en-us" localizationVersion="3.1.2" name="english" stdPhrasesInstalled="false" stdPhrasesLocation="LOCAL" tts="en-us"/>
+</ProjectLanguages>

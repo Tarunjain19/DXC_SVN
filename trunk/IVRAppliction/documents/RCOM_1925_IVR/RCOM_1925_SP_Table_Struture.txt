@@ -1,0 +1,80 @@
+/****** Object:  Table [dbo].[Tbl_1925_Data_Activation]    Script Date: 12/4/2015 1:56:01 PM ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+SET ANSI_PADDING ON
+GO
+
+CREATE TABLE [dbo].[Tbl_1925_Data_Activation](
+	[InsertDate] [datetime] NOT NULL,
+	[MDN] [nvarchar](50) NOT NULL,
+	[ReqType] [nvarchar](50) NOT NULL,
+	[OPType] [nvarchar](50) NOT NULL,
+	[Source] [nvarchar](50) NOT NULL,
+	[Punch_No] [nvarchar](50) NOT NULL,
+	[Connection_Type] [nvarchar](50) NOT NULL,
+	[SessionId] [nvarchar](50) NOT NULL,
+	[LangId] [nvarchar](50) NOT NULL,
+	[TransDate] [datetime] NOT NULL,
+	[Status] [char](10) NOT NULL,
+	[Counter] [int] NOT NULL
+) ON [PRIMARY]
+
+GO
+
+SET ANSI_PADDING OFF
+GO
+
+********************************
+
+/****** Object:  StoredProcedure [dbo].[USP_INSERT_DATA_ACTIVATION_1925]    Script Date: 12/4/2015 1:55:46 PM ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+
+
+CREATE PROC [dbo].[USP_INSERT_DATA_ACTIVATION_1925](
+@InsertDate Datetime,
+@MDN nvarchar (50),
+@ReqType nvarchar(50),
+@OPType nvarchar(50),
+@Source nvarchar(50),
+@punch_No nvarchar(50),
+@Connection_Type nvarchar(50),
+@Sessionid nvarchar(50),
+@Langid nvarchar(50),
+@TransDate Datetime,
+@status char(10),
+@Counter int,
+@Proc_Status int Output
+
+)
+AS
+Begin
+Begin Try
+
+ INSERT INTO [Tbl_1925_Data_Activation](InsertDate,MDN,ReqType,OPType,[Source],Punch_No,Connection_Type,SessionId,
+ [LangId],TransDate,[Status],[Counter])
+ Values (@InsertDate,@MDN,@ReqType,@OPType,@Source,@punch_No,@Connection_Type,@Sessionid,@Langid,@TransDate,@status,
+ @Counter)
+
+Set @Proc_Status= 1
+
+End Try
+
+Begin Catch
+
+Set @Proc_Status=0
+
+End Catch
+
+End 
+
+
+GO

@@ -1,0 +1,40 @@
+log4j.rootLogger=error, stdout
+
+log4j.logger.Dialog.Designer.TraceWriter.RCOM_CF_Televerification_IVR= debug, TRCOM_CF_Televerification_IVR
+log4j.logger.Dialog.Designer.ReportWriter.RCOM_CF_Televerification_IVR= debug, RRCOM_CF_Televerification_IVR
+log4j.logger.flow = DEBUG,client
+log4j.logger.org.jboss.logging=INFO,client
+log4j.logger.com.mchange.v2.c3p0.ComboPooledDataSource=INFO,client
+log4j.logger.com.mchange.v2.c3p0=INFO,client
+log4j.logger.com.rcom.televerification.utils.StackTrace = DEBUG,TRCOM_CF_Televerification_IVR
+
+# Console
+log4j.appender.stdout=org.apache.log4j.ConsoleAppender
+log4j.appender.stdout.layout=org.apache.log4j.PatternLayout
+log4j.appender.stdout.layout.ConversionPattern=%d{dd/MM/yyyy HH:mm:ss:SSS} %5p - %m%n
+
+# Report File.
+log4j.appender.RRCOM_CF_Televerification_IVR=org.apache.log4j.RollingFileAppender
+log4j.appender.RRCOM_CF_Televerification_IVR.File=D:/RCOM/Logs/RCOM_CF_Televerification_IVR/report.log
+log4j.appender.RRCOM_CF_Televerification_IVR.DatePattern='.'yyyy-MM-dd
+log4j.appender.RRCOM_CF_Televerification_IVR.layout=org.apache.log4j.PatternLayout
+log4j.appender.RRCOM_CF_Televerification_IVR.layout.ConversionPattern=%d{dd/MM/yyyy HH:mm:ss:SSS} %5p - %m%n
+log4j.appender.RRCOM_CF_Televerification_IVR.Encoding=UTF-8
+# Trace File.
+log4j.appender.TRCOM_CF_Televerification_IVR=org.apache.log4j.RollingFileAppender
+log4j.appender.TRCOM_CF_Televerification_IVR.MaxFileSize=50000KB
+log4j.appender.TRCOM_CF_Televerification_IVR.MaxBackupIndex=50
+log4j.appender.TRCOM_CF_Televerification_IVR.File=D:/RCOM/Logs/RCOM_CF_Televerification_IVR/trace.log
+log4j.appender.TRCOM_CF_Televerification_IVR.DatePattern='.'yyyy-MM-dd
+log4j.appender.TRCOM_CF_Televerification_IVR.layout=org.apache.log4j.PatternLayout
+log4j.appender.TRCOM_CF_Televerification_IVR.layout.ConversionPattern=%d{dd/MM/yyyy HH:mm:ss:SSS} %5p - %m%n
+log4j.appender.TRCOM_CF_Televerification_IVR.Encoding=UTF-8
+
+log4j.appender.client=org.apache.log4j.RollingFileAppender
+log4j.appender.client.MaxFileSize=10000KB
+log4j.appender.client.MaxBackupIndex=50
+log4j.appender.client.File=D:/RCOM/Logs/RCOM_CF_Televerification_IVR/dblog.log
+log4j.appender.client.DatePattern='.'yyyy-MM-dd
+log4j.appender.client.layout=org.apache.log4j.PatternLayout
+log4j.appender.client.layout.ConversionPattern=%d{dd/MM/yyyy HH:mm:ss:SSS} %5p - %m%n
+log4j.appender.client.Encoding=UTF-8

@@ -1,0 +1,29 @@
+log4j.rootLogger=error, stdout
+
+log4j.logger.Dialog.Designer.TraceWriter.RCOM_PREPAID= DEBUG, TRCOM_PREPAID
+log4j.logger.Dialog.Designer.ReportWriter.RCOM_PREPAID= DEBUG, RRCOM_PREPAID
+
+# Console
+log4j.appender.stdout=org.apache.log4j.ConsoleAppender
+log4j.appender.stdout.layout=org.apache.log4j.PatternLayout
+log4j.appender.stdout.layout.ConversionPattern=%d{dd/MM/yyyy HH:mm:ss:SSS} %5p - %m%n
+
+# Report File.
+log4j.appender.RRCOM_PREPAID=org.apache.log4j.RollingFileAppender
+log4j.appender.RRCOM_PREPAID.File=D:/RCOM/Prepaid/log/report.log
+log4j.appender.RRCOM_PREPAID.maxFileSize=50MB
+log4j.appender.RRCOM_PREPAID.maxBackupIndex=50
+log4j.appender.RRCOM_PREPAID.DatePattern='.'yyyy-MM-dd
+log4j.appender.RRCOM_PREPAID.layout=org.apache.log4j.PatternLayout
+log4j.appender.RRCOM_PREPAID.layout.ConversionPattern=%d{dd/MM/yyyy HH:mm:ss:SSS} %5p - %m%n
+log4j.appender.RRCOM_PREPAID.Encoding=UTF-8
+
+# Trace File.
+log4j.appender.TRCOM_PREPAID=org.apache.log4j.RollingFileAppender
+log4j.appender.TRCOM_PREPAID.File=D:/RCOM/Prepaid/log/trace.log
+log4j.appender.TRCOM_PREPAID.maxFileSize=50MB
+log4j.appender.TRCOM_PREPAID.maxBackupIndex=50
+log4j.appender.TRCOM_PREPAID.DatePattern='.'yyyy-MM-dd
+log4j.appender.TRCOM_PREPAID.layout=org.apache.log4j.PatternLayout
+log4j.appender.TRCOM_PREPAID.layout.ConversionPattern=%d{dd/MM/yyyy HH:mm:ss:SSS} %5p - %m%n
+log4j.appender.TRCOM_PREPAID.Encoding=UTF-8

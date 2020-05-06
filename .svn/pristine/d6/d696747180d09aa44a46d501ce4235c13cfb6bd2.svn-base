@@ -1,0 +1,31 @@
+##################################################################################
+# 
+# GetAMEXCardNo_PC.properties file
+# 
+##################################################################################
+
+########################
+# Dialog Name
+########################
+
+dialogName = GetAMEXCardNo_PC
+menuID = DAKC_MN_0026
+isAnnouncement = false
+
+########################
+# Grammars
+########################
+dtmfGrammar = GetAMEXCardNo_PC.grxml
+
+########################
+# Prompt & Collect
+########################
+initialPrompt = 43981.wav
+rePromptNoInput = 43981.wav
+rePromptNoMatch = 43981.wav
+
+########################
+# Global Grammar
+########################
+dtmfGlobalGrammar = 
+globalPrompt = 

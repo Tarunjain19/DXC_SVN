@@ -1,0 +1,30 @@
+# log4j.rootLogger=error, stdout
+
+log4j.logger.Dialog.Designer.TraceWriter.RCOM_CF_HSD_IVR= debug, TRCOM_CF_HSD_IVR
+log4j.logger.Dialog.Designer.ReportWriter.RCOM_CF_HSD_IVR= debug, RRCOM_CF_HSD_IVR
+log4j.logger.com.servion.hsd.utils.PrintStackTrace = debug, TRCOM_CF_HSD_IVR
+
+# Console
+log4j.appender.stdout=org.apache.log4j.ConsoleAppender
+log4j.appender.stdout.layout=org.apache.log4j.PatternLayout
+log4j.appender.stdout.layout.ConversionPattern=%d{dd/MM/yyyy HH:mm:ss:SSS} %5p - %m%n
+
+# Report File.
+log4j.appender.RRCOM_CF_HSD_IVR=org.apache.log4j.RollingFileAppender
+log4j.appender.RRCOM_CF_HSD_IVR.MaxFileSize=50MB
+log4j.appender.RRCOM_CF_HSD_IVR.MaxBackupIndex=20
+log4j.appender.RRCOM_CF_HSD_IVR.File=D:/RCOM/OtherFlows/RCOM_CF_HSD_IVR/Logs/report.log
+log4j.appender.RRCOM_CF_HSD_IVR.DatePattern='.'yyyy-MM-dd
+log4j.appender.RRCOM_CF_HSD_IVR.layout=org.apache.log4j.PatternLayout
+log4j.appender.RRCOM_CF_HSD_IVR.layout.ConversionPattern=%d{dd/MM/yyyy HH:mm:ss:SSS} %5p - %m%n
+log4j.appender.RRCOM_CF_HSD_IVR.Encoding=UTF-8
+# Trace File.
+log4j.appender.TRCOM_CF_HSD_IVR=org.apache.log4j.RollingFileAppender
+log4j.appender.TRCOM_CF_HSD_IVR.MaxFileSize=50MB
+log4j.appender.TRCOM_CF_HSD_IVR.MaxBackupIndex=20
+log4j.appender.TRCOM_CF_HSD_IVR.File=D:/RCOM/OtherFlows/RCOM_CF_HSD_IVR/Logs/trace.log
+log4j.appender.TRCOM_CF_HSD_IVR.DatePattern='.'yyyy-MM-dd
+log4j.appender.TRCOM_CF_HSD_IVR.layout=org.apache.log4j.PatternLayout
+log4j.appender.TRCOM_CF_HSD_IVR.layout.ConversionPattern=%d{dd/MM/yyyy HH:mm:ss:SSS} %5p - %m%n
+log4j.appender.TRCOM_CF_HSD_IVR.Encoding=UTF-8
+

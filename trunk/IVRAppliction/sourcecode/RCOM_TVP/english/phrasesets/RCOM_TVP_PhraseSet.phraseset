@@ -1,0 +1,825 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<phraseset audiolocation="external" filename="RCOM_TVP_PhraseSet" version="1.0">
+    <phrase version="1.0">
+        <displayname>45000</displayname>
+        <talent/>
+        <phrasetext>Welcome to Reliance tele verification service</phrasetext>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>45000.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>45001</displayname>
+        <talent/>
+        <phrasetext>For WiPods  Dongle and  Data card services </phrasetext>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>45001.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>45002</displayname>
+        <talent/>
+        <phrasetext>For Mobile Services </phrasetext>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>45002.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>45003</displayname>
+        <talent/>
+        <phrasetext>Please enter last four digit of proof of address</phrasetext>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>45003.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>45004</displayname>
+        <talent/>
+        <phrasetext>Four digit of ID number you have entered is incorrect </phrasetext>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>45004.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>45005</displayname>
+        <talent/>
+        <phrasetext>Four digit of ID number you have entered is</phrasetext>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>45005.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>45006</displayname>
+        <talent/>
+        <phrasetext>Sorry, the date of issue you have entered is incorrect </phrasetext>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>45006.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>45007</displayname>
+        <talent/>
+        <phrasetext>Date of issue you have entered is…</phrasetext>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>45007.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>45008</displayname>
+        <talent/>
+        <phrasetext>Please enter the date of issue in DDMMYYYY Format </phrasetext>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>45008.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>45009</displayname>
+        <talent/>
+        <phrasetext>TVP Success message for Dongle customer</phrasetext>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>45009.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>45010</displayname>
+        <talent/>
+        <phrasetext>TVP Success message for Postpaid customer</phrasetext>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>45010.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>45011</displayname>
+        <talent/>
+        <phrasetext>TVP Success message for Prepaid customer</phrasetext>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>45011.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>45012</displayname>
+        <talent/>
+        <phrasetext>Thank you you have successfully verified your number</phrasetext>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>45012.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>45013</displayname>
+        <talent/>
+        <phrasetext>Please wait while we update your data in our system for service activation</phrasetext>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>45013.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>45014</displayname>
+        <talent/>
+        <phrasetext>Message for Postpaid customer calling on 59059 when no data from CRM and MDN available in PhongenDB</phrasetext>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>45014.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>45015</displayname>
+        <talent/>
+        <phrasetext>Message for Prepaid customer calling on 59059 when no data from CRM and MDN available in PhongenDB</phrasetext>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>45015.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>45016</displayname>
+        <talent/>
+        <phrasetext>Message for TVP positive postpaid caller calling after 2 Hrs </phrasetext>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>45016.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>45017</displayname>
+        <talent/>
+        <phrasetext>Message for TVP positive prepaid caller calling after 2 Hrs</phrasetext>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>45017.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>45018</displayname>
+        <talent/>
+        <phrasetext>To confirm,</phrasetext>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>45018.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>45019</displayname>
+        <talent/>
+        <phrasetext>To re-enter,</phrasetext>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>45019.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>45020</displayname>
+        <talent/>
+        <phrasetext>Thank You for calling Reliance Tele-Verification center</phrasetext>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>45020.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>45021</displayname>
+        <talent/>
+        <phrasetext>Please enter your 10 digit dongle number</phrasetext>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>45021.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>45022</displayname>
+        <talent/>
+        <phrasetext>Sorry, the SIM number your have entered is invalid</phrasetext>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>45022.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>45023</displayname>
+        <talent/>
+        <phrasetext>The  number you have entered is…&#13;
+</phrasetext>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>45023.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>45024</displayname>
+        <talent/>
+        <phrasetext>To continue in&#13;
+</phrasetext>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>45024.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>45025</displayname>
+        <talent/>
+        <phrasetext>please be on line while we transfer your call to one of our Customer service executive&#13;
+</phrasetext>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>45025.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>45026</displayname>
+        <talent/>
+        <phrasetext>Dear customer  Please keep your name AND address details handy as per documents  submitted while purchasing connection.&#13;
+</phrasetext>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>45026.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>45027</displayname>
+        <talent/>
+        <phrasetext>Dear customer, please keep your POA documents ready for the Tele Verification Process&#13;
+</phrasetext>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>45027.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>45028</displayname>
+        <talent/>
+        <phrasetext>Please wait while we process your request.&#13;
+</phrasetext>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>45028.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>45029</displayname>
+        <talent/>
+        <phrasetext>You have successfully verified your number&#13;
+</phrasetext>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>45029.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>45030</displayname>
+        <talent/>
+        <phrasetext>Message for Postpaid TVP Positive customer calling 59059 with in 2 hrs</phrasetext>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>45030.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>45031</displayname>
+        <talent/>
+        <phrasetext>Message for Postpaid TVP Positive customer calling 59059 after 2 hrs</phrasetext>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>45031.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>45032</displayname>
+        <talent/>
+        <phrasetext>Message for DEDUPE Negative case"Dear customer please submit your documents again</phrasetext>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>45032.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>45033</displayname>
+        <talent/>
+        <phrasetext>TV Positive, calls with in 2 Hrs, Dear Caller, your request is under process</phrasetext>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>45033.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>45034</displayname>
+        <talent/>
+        <phrasetext>Sorry we could not understand your response&#13;
+</phrasetext>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>45034.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>45035</displayname>
+        <talent/>
+        <phrasetext>That was an invalid entry.&#13;
+</phrasetext>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>45035.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>45036</displayname>
+        <talent/>
+        <phrasetext>Please try again&#13;
+</phrasetext>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>45036.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>45037</displayname>
+        <talent/>
+        <phrasetext>Sorry you have exceeded the maximum number of attempts allowed&#13;
+</phrasetext>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>45037.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>45038</displayname>
+        <talent/>
+        <phrasetext>You have not entered any input.&#13;
+</phrasetext>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>45038.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>45039</displayname>
+        <talent/>
+        <phrasetext>We are unable to process your request at this moment&#13;
+</phrasetext>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>45039.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>45040</displayname>
+        <talent/>
+        <phrasetext>Zero</phrasetext>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>45040.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>45041</displayname>
+        <talent/>
+        <phrasetext>One</phrasetext>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>45041.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>45042</displayname>
+        <talent/>
+        <phrasetext>Two&#13;
+</phrasetext>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>45042.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>45043</displayname>
+        <talent/>
+        <phrasetext>Three&#13;
+</phrasetext>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>45043.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>45044</displayname>
+        <talent/>
+        <phrasetext>Four</phrasetext>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>45044.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>45045</displayname>
+        <talent/>
+        <phrasetext>Five</phrasetext>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>45045.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>45046</displayname>
+        <talent/>
+        <phrasetext>Six&#13;
+</phrasetext>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>45046.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>45047</displayname>
+        <talent/>
+        <phrasetext>Seven&#13;
+</phrasetext>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>45047.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>45048</displayname>
+        <talent/>
+        <phrasetext>Eight&#13;
+</phrasetext>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>45048.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>45049</displayname>
+        <talent/>
+        <phrasetext>Nine&#13;
+</phrasetext>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>45049.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>45050</displayname>
+        <talent/>
+        <phrasetext>To activate data service..&#13;
+</phrasetext>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>45050.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>45100</displayname>
+        <talent/>
+        <phrasetext>Press 0</phrasetext>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>45100.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>45101</displayname>
+        <talent/>
+        <phrasetext>Press 1</phrasetext>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>45101.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>45102</displayname>
+        <talent/>
+        <phrasetext>Press 2</phrasetext>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>45102.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>45103</displayname>
+        <talent/>
+        <phrasetext>Press 3</phrasetext>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>45103.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>45104</displayname>
+        <talent/>
+        <phrasetext>Press 4</phrasetext>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>45104.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>45105</displayname>
+        <talent/>
+        <phrasetext>Press 5</phrasetext>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>45105.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>45106</displayname>
+        <talent/>
+        <phrasetext>Press 6</phrasetext>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>45106.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>45107</displayname>
+        <talent/>
+        <phrasetext>Press 7</phrasetext>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>45107.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>45108</displayname>
+        <talent/>
+        <phrasetext>Press 8</phrasetext>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>45108.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>45109</displayname>
+        <talent/>
+        <phrasetext>Press 9</phrasetext>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>45109.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>45110</displayname>
+        <talent/>
+        <phrasetext>Press star</phrasetext>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>45110.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>45111</displayname>
+        <talent/>
+        <phrasetext>Press hash</phrasetext>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>45111.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>45112</displayname>
+        <talent/>
+        <phrasetext>English</phrasetext>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>45112.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>45113</displayname>
+        <talent/>
+        <phrasetext>Hindi</phrasetext>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>45113.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>45114</displayname>
+        <talent/>
+        <phrasetext>Tamil</phrasetext>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>45114.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>45115</displayname>
+        <talent/>
+        <phrasetext>Marathi</phrasetext>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>45115.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>45116</displayname>
+        <talent/>
+        <phrasetext>Gujarati</phrasetext>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>45116.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>45117</displayname>
+        <talent/>
+        <phrasetext>Punjabi</phrasetext>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>45117.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>45118</displayname>
+        <talent/>
+        <phrasetext>Telugu</phrasetext>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>45118.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>45119</displayname>
+        <talent/>
+        <phrasetext>Kannada</phrasetext>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>45119.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>45120</displayname>
+        <talent/>
+        <phrasetext>Malayalam</phrasetext>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>45120.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>45121</displayname>
+        <talent/>
+        <phrasetext>Oriya</phrasetext>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>45121.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>45122</displayname>
+        <talent/>
+        <phrasetext>Bengali</phrasetext>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>45122.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>45123</displayname>
+        <talent/>
+        <phrasetext>Assamese</phrasetext>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>45123.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>45124</displayname>
+        <talent/>
+        <phrasetext>Kashmiri</phrasetext>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>45124.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>45125</displayname>
+        <talent/>
+        <phrasetext>Dear customer please insert the SIM in a mobile phone and call us back at 59059 for Tele verification&#13;
+</phrasetext>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>45125.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>45126</displayname>
+        <talent/>
+        <phrasetext>Message for TIBCO_PENDING&#13;
+&#13;
+&#13;
+</phrasetext>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>45126.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>45127</displayname>
+        <talent/>
+        <phrasetext>Message for TIBCO_TV_POSTED&#13;
+</phrasetext>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>45127.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>45128</displayname>
+        <talent/>
+        <phrasetext>Message for TIBCO_TV_FAILED&#13;
+</phrasetext>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>45128.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>45129</displayname>
+        <talent/>
+        <phrasetext>Message for MNP_PENDING&#13;
+</phrasetext>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>45129.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>45130</displayname>
+        <talent/>
+        <phrasetext>Message for TIBCO_Failed&#13;
+</phrasetext>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>45130.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>45131</displayname>
+        <talent/>
+        <phrasetext>“Dear caller, please call after 11 am.”&#13;
+</phrasetext>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>45131.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>45132</displayname>
+        <talent/>
+        <phrasetext>“Dear Caller, your SIM activation is in process, Please call after 3 hours.”&#13;
+</phrasetext>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>45132.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>45133</displayname>
+        <talent/>
+        <phrasetext>You have entered</phrasetext>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>45133.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>45051</displayname>
+        <talent/>
+        <phrasetext>Msg for existing customers calling 1800 number</phrasetext>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>45051.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>45134</displayname>
+        <talent/>
+        <phrasetext>Please enter year of Birth in YYYY format</phrasetext>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>45134.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>45055</displayname>
+        <talent/>
+        <phrasetext>To activate data at a later stage</phrasetext>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>45055.wav</audiofile>
+    </phrase>
+</phraseset>

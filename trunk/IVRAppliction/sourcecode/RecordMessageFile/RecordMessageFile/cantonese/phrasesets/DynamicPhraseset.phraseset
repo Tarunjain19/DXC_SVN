@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<phraseset audiolocation="internal" filename="DynamicPhraseset" version="1.0">
+    <phrase version="1.0">
+        <displayname>fakePhrase</displayname>
+        <talent/>
+        <phrasetext/>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>fakePhrase.wav</audiofile>
+    </phrase>
+</phraseset>

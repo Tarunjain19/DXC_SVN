@@ -1,0 +1,92 @@
+
+package com.tibco.schemas.css_gw.sharedresources.schema._private.css_schema;
+
+import javax.xml.bind.annotation.XmlAccessType;
+import javax.xml.bind.annotation.XmlAccessorType;
+import javax.xml.bind.annotation.XmlElement;
+import javax.xml.bind.annotation.XmlRootElement;
+import javax.xml.bind.annotation.XmlType;
+
+
+/**
+ * <p>Java class for anonymous complex type.
+ * 
+ * <p>The following schema fragment specifies the expected content contained within this class.
+ * 
+ * <pre>
+ * &lt;complexType>
+ *   &lt;complexContent>
+ *     &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
+ *       &lt;sequence>
+ *         &lt;element ref="{http://www.tibco.com/schemas/CSS_GW/SharedResources/Schema/Private/CSS_Schema.xsd}Request" minOccurs="0"/>
+ *         &lt;element ref="{http://www.tibco.com/schemas/CSS_GW/SharedResources/Schema/Private/CSS_Schema.xsd}Response" minOccurs="0"/>
+ *       &lt;/sequence>
+ *     &lt;/restriction>
+ *   &lt;/complexContent>
+ * &lt;/complexType>
+ * </pre>
+ * 
+ * 
+ */
+@XmlAccessorType(XmlAccessType.FIELD)
+@XmlType(name = "", propOrder = {
+    "request",
+    "response"
+})
+@XmlRootElement(name = "CSS")
+public class CSS {
+
+    @XmlElement(name = "Request")
+    protected Request request;
+    @XmlElement(name = "Response")
+    protected Response response;
+
+    /**
+     * Gets the value of the request property.
+     * 
+     * @return
+     *     possible object is
+     *     {@link Request }
+     *     
+     */
+    public Request getRequest() {
+        return request;
+    }
+
+    /**
+     * Sets the value of the request property.
+     * 
+     * @param value
+     *     allowed object is
+     *     {@link Request }
+     *     
+     */
+    public void setRequest(Request value) {
+        this.request = value;
+    }
+
+    /**
+     * Gets the value of the response property.
+     * 
+     * @return
+     *     possible object is
+     *     {@link Response }
+     *     
+     */
+    public Response getResponse() {
+        return response;
+    }
+
+    /**
+     * Sets the value of the response property.
+     * 
+     * @param value
+     *     allowed object is
+     *     {@link Response }
+     *     
+     */
+    public void setResponse(Response value) {
+        this.response = value;
+    }
+
+}

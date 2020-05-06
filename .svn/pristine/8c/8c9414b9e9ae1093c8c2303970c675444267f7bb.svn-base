@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<AppFlowDoc>
+    <ApplicationFlow nextObjectId="10" package="flow.subflow.PushSMS" version="5.0">
+        <FlowGraph>
+            <FlowNode class="com.avaya.sce.callflow.internal.appflow.SubEntry" id="1" version="3.1">
+                <Property name="Name" value="Begin"/>
+                <Property name="FlowNodeEditPart.WidgetY" value="105"/>
+                <Property name="FlowNodeEditPart.WidgetX" value="41"/>
+                <FlowItem class="com.avaya.sce.callflow.internal.flowitem.SubEntry" id="2" version="1.2">
+                    <ItemProperties/>
+                    <ChildItems>
+                        <FlowItem class="com.avaya.sce.callflow.internal.flowitem.GoTo" id="3" version="1.2">
+                            <ItemProperties>
+                                <Property name="Name" value="Start"/>
+                                <Property name="LinkedNodeID" value="4"/>
+                            </ItemProperties>
+                            <ChildItems/>
+                        </FlowItem>
+                    </ChildItems>
+                </FlowItem>
+            </FlowNode>
+            <FlowNode class="com.avaya.sce.callflow.internal.appflow.Data" id="4" version="3.1">
+                <Property name="Name" value="WS_PushSMS"/>
+                <Property name="FlowNodeEditPart.WidgetY" value="106"/>
+                <Property name="FlowNodeEditPart.WidgetX" value="169"/>
+                <FlowItem class="com.avaya.sce.callflow.internal.flowitem.Data" id="5" version="1.2">
+                    <ItemProperties/>
+                    <ChildItems>
+                        <FlowItem class="com.avaya.sce.callflow.internal.flowitem.LocalVariables" id="6" version="1.2">
+                            <ItemProperties>
+                                <Property name="Name" value="LocalVariables"/>
+                            </ItemProperties>
+                            <ChildItems/>
+                        </FlowItem>
+                        <FlowItem class="com.avaya.sce.callflow.internal.flowitem.Next" id="7" version="1.2">
+                            <ItemProperties>
+                                <Property name="Name" value="Default"/>
+                                <Property name="LinkedNodeID" value="9"/>
+                            </ItemProperties>
+                            <ChildItems/>
+                        </FlowItem>
+                    </ChildItems>
+                </FlowItem>
+            </FlowNode>
+            <FlowNode class="com.avaya.sce.callflow.internal.appflow.SubReturn" id="9" version="3.1">
+                <Property name="Name" value="Return"/>
+                <Property name="FlowNodeEditPart.WidgetY" value="106"/>
+                <Property name="FlowNodeEditPart.WidgetX" value="362"/>
+            </FlowNode>
+            <NodeConnection id="8" version="1.2">
+                <SourceNode id="1"/>
+                <TargetNode id="4"/>
+                <Property name="Connection.SourceObjectID" value="3"/>
+                <Property name="Connection.TargetObjectID" value="4"/>
+            </NodeConnection>
+            <NodeConnection id="10" version="1.2">
+                <SourceNode id="4"/>
+                <TargetNode id="9"/>
+                <Property name="Connection.SourceObjectID" value="7"/>
+                <Property name="Connection.TargetObjectID" value="9"/>
+            </NodeConnection>
+        </FlowGraph>
+        <ProjectEventTypes/>
+    </ApplicationFlow>
+</AppFlowDoc>

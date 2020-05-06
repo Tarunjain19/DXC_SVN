@@ -1,0 +1,25 @@
+##################################################################################
+# 
+# NewConnection_MN.properties file
+# 
+##################################################################################
+
+########################
+# Dialog Name
+########################
+
+dialogName = NewConnection_MN
+menuID = DAKC_MN_0039
+isAnnouncement = false
+
+########################
+# Grammars
+########################
+dtmfGrammar = NewConnection_MN.grxml
+
+########################
+# Prompt & Collect
+########################
+initialPrompt = 44029.wav*44030.wav*44031.wav*44032.wav
+rePromptNoInput = 44029.wav*44030.wav*44031.wav*44032.wav
+rePromptNoMatch = 44029.wav*44030.wav*44031.wav*44032.wav

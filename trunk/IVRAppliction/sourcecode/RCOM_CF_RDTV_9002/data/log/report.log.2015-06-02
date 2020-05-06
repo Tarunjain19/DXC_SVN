@@ -1,0 +1,419 @@
+02/06/2015 18:03:56:606 ERROR - In Progress | session id:mpp-2015153122622-10 | RCOM_CF_RDTV_9002:Capture_ANI_DNIS_BC |  | java.lang.NullPointerException | Exception stack trace | Error processing request
+ EXCEPTION> 
+java.lang.NullPointerException
+	at flow.Capture_ANI_DNIS_BC.requestBegin(Capture_ANI_DNIS_BC.java:105)
+	at com.avaya.sce.runtime.AppServlet.processRequest(AppServlet.java:81)
+	at com.avaya.sce.runtime.SCEServlet.requestHandler(SCEServlet.java:285)
+	at com.avaya.sce.runtime.SCEServlet.doPost(SCEServlet.java:190)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:646)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:727)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:504)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:170)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:950)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:421)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1074)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:611)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:316)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+ | 10000010691433247982
+02/06/2015 18:05:26:664 ERROR - In Progress | session id:mpp-2015153122753-4 | RCOM_CF_RDTV_9002:Capture_ANI_DNIS_BC |  | java.lang.NullPointerException | Exception stack trace | Error processing request
+ EXCEPTION> 
+java.lang.NullPointerException
+	at flow.Capture_ANI_DNIS_BC.requestBegin(Capture_ANI_DNIS_BC.java:105)
+	at com.avaya.sce.runtime.AppServlet.processRequest(AppServlet.java:81)
+	at com.avaya.sce.runtime.SCEServlet.requestHandler(SCEServlet.java:285)
+	at com.avaya.sce.runtime.SCEServlet.doPost(SCEServlet.java:190)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:646)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:727)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:504)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:170)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:950)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:421)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1074)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:611)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:316)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+ | 10000010701433248073
+02/06/2015 18:10:53:291 ERROR - In Progress | session id:mpp-2015153123319-9 | RCOM_CF_RDTV_9002:Capture_ANI_DNIS_BC |  | java.lang.NullPointerException | Exception stack trace | Error processing request
+ EXCEPTION> 
+java.lang.NullPointerException
+	at flow.Capture_ANI_DNIS_BC.requestBegin(Capture_ANI_DNIS_BC.java:105)
+	at com.avaya.sce.runtime.AppServlet.processRequest(AppServlet.java:81)
+	at com.avaya.sce.runtime.SCEServlet.requestHandler(SCEServlet.java:285)
+	at com.avaya.sce.runtime.SCEServlet.doPost(SCEServlet.java:190)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:646)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:727)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:504)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:170)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:950)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:421)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1074)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:611)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:316)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+ | 10000010721433248399
+02/06/2015 18:12:55:381 ERROR - In Progress | session id:mpp-2015153123522-5 | RCOM_CF_RDTV_9002:Capture_ANI_DNIS_BC |  | java.lang.NullPointerException | Exception stack trace | Error processing request
+ EXCEPTION> 
+java.lang.NullPointerException
+	at flow.Capture_ANI_DNIS_BC.requestBegin(Capture_ANI_DNIS_BC.java:105)
+	at com.avaya.sce.runtime.AppServlet.processRequest(AppServlet.java:81)
+	at com.avaya.sce.runtime.SCEServlet.requestHandler(SCEServlet.java:285)
+	at com.avaya.sce.runtime.SCEServlet.doPost(SCEServlet.java:190)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:646)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:727)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:504)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:170)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:950)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:421)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1074)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:611)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:316)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+ | 10000010731433248522
+02/06/2015 18:14:52:850 ERROR - In Progress | session id:mpp-2015153123719-12 | RCOM_CF_RDTV_9002:Capture_ANI_DNIS_BC |  | java.lang.NullPointerException | Exception stack trace | Error processing request
+ EXCEPTION> 
+java.lang.NullPointerException
+	at flow.Capture_ANI_DNIS_BC.requestBegin(Capture_ANI_DNIS_BC.java:105)
+	at com.avaya.sce.runtime.AppServlet.processRequest(AppServlet.java:81)
+	at com.avaya.sce.runtime.SCEServlet.requestHandler(SCEServlet.java:285)
+	at com.avaya.sce.runtime.SCEServlet.doPost(SCEServlet.java:190)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:646)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:727)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:504)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:170)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:950)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:421)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1074)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:611)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:316)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+ | 10000010741433248639
+02/06/2015 18:27:37:145 ERROR - In Progress | session id:mpp-2015153125003-16 | RCOM_CF_RDTV_9002:Capture_ANI_DNIS_BC |  | java.lang.NullPointerException | Exception stack trace | Error processing request
+ EXCEPTION> 
+java.lang.NullPointerException
+	at flow.Capture_ANI_DNIS_BC.requestBegin(Capture_ANI_DNIS_BC.java:105)
+	at com.avaya.sce.runtime.AppServlet.processRequest(AppServlet.java:81)
+	at com.avaya.sce.runtime.SCEServlet.requestHandler(SCEServlet.java:285)
+	at com.avaya.sce.runtime.SCEServlet.doPost(SCEServlet.java:190)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:646)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:727)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:504)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:170)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:950)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:421)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1074)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:611)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:316)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+ | 10000010751433249403
+02/06/2015 19:15:53:374 ERROR - In Progress | channel:unknown | RCOM_CF_RDTV_9002:Capture_ANI_DNIS_BC |  | java.lang.NullPointerException | Exception stack trace | Error processing request
+ EXCEPTION> 
+java.lang.NullPointerException
+	at flow.Capture_ANI_DNIS_BC.requestBegin(Capture_ANI_DNIS_BC.java:105)
+	at com.avaya.sce.runtime.AppServlet.processRequest(AppServlet.java:81)
+	at com.avaya.sce.runtime.SCEServlet.requestHandler(SCEServlet.java:285)
+	at com.avaya.sce.runtime.SCEServlet.doPost(SCEServlet.java:190)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:646)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:727)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:504)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:170)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:950)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:421)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1074)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:611)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:316)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+ | 
+02/06/2015 19:18:45:502 ERROR - In Progress | channel:unknown | RCOM_CF_RDTV_9002:Capture_ANI_DNIS_BC |  | java.lang.NullPointerException | Exception stack trace | Error processing request
+ EXCEPTION> 
+java.lang.NullPointerException
+	at flow.Capture_ANI_DNIS_BC.requestBegin(Capture_ANI_DNIS_BC.java:106)
+	at com.avaya.sce.runtime.AppServlet.processRequest(AppServlet.java:81)
+	at com.avaya.sce.runtime.SCEServlet.requestHandler(SCEServlet.java:285)
+	at com.avaya.sce.runtime.SCEServlet.doPost(SCEServlet.java:190)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:646)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:727)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:504)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:170)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:950)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:421)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1074)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:611)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:316)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+ | 
+02/06/2015 19:25:21:348 ERROR - In Progress | channel:unknown | RCOM_CF_RDTV_9002:Capture_ANI_DNIS_BC |  | java.lang.NullPointerException | Exception stack trace | Error processing request
+ EXCEPTION> 
+java.lang.NullPointerException
+	at flow.Capture_ANI_DNIS_BC.requestBegin(Capture_ANI_DNIS_BC.java:106)
+	at com.avaya.sce.runtime.AppServlet.processRequest(AppServlet.java:81)
+	at com.avaya.sce.runtime.SCEServlet.requestHandler(SCEServlet.java:285)
+	at com.avaya.sce.runtime.SCEServlet.doPost(SCEServlet.java:190)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:646)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:727)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:504)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:170)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:950)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:421)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1074)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:611)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:316)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+ | 
+02/06/2015 19:27:21:277 ERROR - In Progress | channel:unknown | RCOM_CF_RDTV_9002:Capture_ANI_DNIS_BC |  | java.lang.NullPointerException | Exception stack trace | Error processing request
+ EXCEPTION> 
+java.lang.NullPointerException
+	at flow.Capture_ANI_DNIS_BC.requestBegin(Capture_ANI_DNIS_BC.java:106)
+	at com.avaya.sce.runtime.AppServlet.processRequest(AppServlet.java:81)
+	at com.avaya.sce.runtime.SCEServlet.requestHandler(SCEServlet.java:285)
+	at com.avaya.sce.runtime.SCEServlet.doPost(SCEServlet.java:190)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:646)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:727)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:504)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:170)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:950)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:421)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1074)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:611)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:316)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+ | 
+02/06/2015 19:40:05:355 ERROR - In Progress | session id:mpp-2015153140231-7 | DM:Announce |  | java.lang.NumberFormatException: For input string: "NONE" | Exception stack trace | Error processing request
+ EXCEPTION> 
+java.lang.NumberFormatException: For input string: "NONE"
+	at java.lang.NumberFormatException.forInputString(Unknown Source)
+	at java.lang.Integer.parseInt(Unknown Source)
+	at java.lang.Integer.parseInt(Unknown Source)
+	at com.avaya.sce.runtime.VariableField.getIntValue(VariableField.java:363)
+	at english.prompts.PlayPrompt.updatePrompt(PlayPrompt.java:64)
+	at com.avaya.sce.runtime.Form.handleRequest(Form.java:180)
+	at com.avaya.sce.runtime.AppDocument.processRequest(AppDocument.java:244)
+	at com.avaya.sce.runtime.SCEServlet.requestHandler(SCEServlet.java:285)
+	at com.avaya.sce.runtime.SCEServlet.doPost(SCEServlet.java:190)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:646)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:727)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:748)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:486)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:411)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:338)
+	at com.avaya.sce.runtime.SCEServlet.forward(SCEServlet.java:1364)
+	at com.avaya.sce.runtime.Data.evaluateActions(Data.java:211)
+	at flow.SetParams_PromptandCollect.executeDataActions(SetParams_PromptandCollect.java:257)
+	at com.avaya.sce.runtime.Data.handleRequest(Data.java:104)
+	at com.avaya.sce.runtime.AppServlet.processRequest(AppServlet.java:96)
+	at com.avaya.sce.runtime.SCEServlet.requestHandler(SCEServlet.java:285)
+	at com.avaya.sce.runtime.SCEServlet.doPost(SCEServlet.java:190)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:646)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:727)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:748)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:486)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:411)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:338)
+	at com.avaya.sce.runtime.SCEServlet.forward(SCEServlet.java:1364)
+	at com.avaya.sce.runtime.BasicServlet.handleRequest(BasicServlet.java:116)
+	at com.avaya.sce.runtime.AppServlet.processRequest(AppServlet.java:96)
+	at com.avaya.sce.runtime.SCEServlet.requestHandler(SCEServlet.java:285)
+	at com.avaya.sce.runtime.SCEServlet.doPost(SCEServlet.java:190)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:646)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:727)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:504)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:170)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:950)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:421)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1074)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:611)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:316)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+ | 10000000011433253751
+02/06/2015 19:44:05:521  INFO - In Progress | session id:mpp-2015153140631-8 | DM:ReportEnd | Welcome_PP | Return Code | Output_Parameters:returncode |  | 10000000021433253991
+02/06/2015 19:44:05:521  INFO - End | session id:mpp-2015153140631-8 | DM:ReportEnd | Welcome_PP |  |  |  | 10000000021433253991
+02/06/2015 19:45:49:147  INFO - In Progress | session id:mpp-2015153140816-10 | DM:ReportEnd | Welcome_PP | Return Code | Output_Parameters:returncode |  | 10000000031433254096
+02/06/2015 19:45:49:147  INFO - End | session id:mpp-2015153140816-10 | DM:ReportEnd | Welcome_PP |  |  |  | 10000000031433254096
+02/06/2015 19:48:32:183  INFO - In Progress | session id:mpp-2015153141059-12 | DM:ReportEnd | Welcome_PP | Return Code | Output_Parameters:returncode |  | 10000000041433254259
+02/06/2015 19:48:32:183  INFO - End | session id:mpp-2015153141059-12 | DM:ReportEnd | Welcome_PP |  |  |  | 10000000041433254259
+02/06/2015 19:48:45:525  INFO - In Progress | session id:mpp-2015153141059-12 | DM:ReportEnd | LanguageSelection_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000000041433254259
+02/06/2015 19:48:45:525  INFO - In Progress | session id:mpp-2015153141059-12 | DM:ReportEnd | LanguageSelection_MN | Input Type | Output_Parameters:inputType | dtmf | 10000000041433254259
+02/06/2015 19:48:45:525  INFO - In Progress | session id:mpp-2015153141059-12 | DM:ReportEnd | LanguageSelection_MN | Value | Output_Parameters:value | English | 10000000041433254259
+02/06/2015 19:48:45:525  INFO - End | session id:mpp-2015153141059-12 | DM:ReportEnd | LanguageSelection_MN |  |  |  | 10000000041433254259
+02/06/2015 20:39:53:550  INFO - In Progress | session id:mpp-2015153150220-2 | DM:ReportEnd | Welcome_PP | Return Code | Output_Parameters:returncode |  | 10000000251433257340
+02/06/2015 20:39:53:550  INFO - End | session id:mpp-2015153150220-2 | DM:ReportEnd | Welcome_PP |  |  |  | 10000000251433257340
+02/06/2015 20:40:05:347  INFO - In Progress | session id:mpp-2015153150220-2 | DM:ReportEnd | LanguageSelection_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000000251433257340
+02/06/2015 20:40:05:347  INFO - In Progress | session id:mpp-2015153150220-2 | DM:ReportEnd | LanguageSelection_MN | Input Type | Output_Parameters:inputType | dtmf | 10000000251433257340
+02/06/2015 20:40:05:347  INFO - In Progress | session id:mpp-2015153150220-2 | DM:ReportEnd | LanguageSelection_MN | Value | Output_Parameters:value | English | 10000000251433257340
+02/06/2015 20:40:05:347  INFO - End | session id:mpp-2015153150220-2 | DM:ReportEnd | LanguageSelection_MN |  |  |  | 10000000251433257340
+02/06/2015 20:40:16:976  INFO - In Progress | session id:mpp-2015153150220-2 | DM:ReportEnd | MainMenu_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000000251433257340
+02/06/2015 20:40:16:977  INFO - In Progress | session id:mpp-2015153150220-2 | DM:ReportEnd | MainMenu_MN | Input Type | Output_Parameters:inputType | dtmf | 10000000251433257340
+02/06/2015 20:40:16:977  INFO - In Progress | session id:mpp-2015153150220-2 | DM:ReportEnd | MainMenu_MN | Value | Output_Parameters:value | SmartCardNumber | 10000000251433257340
+02/06/2015 20:40:16:977  INFO - End | session id:mpp-2015153150220-2 | DM:ReportEnd | MainMenu_MN |  |  |  | 10000000251433257340
+02/06/2015 20:41:23:672  INFO - In Progress | session id:mpp-2015153150350-7 | DM:ReportEnd | Welcome_PP | Return Code | Output_Parameters:returncode |  | 10000000261433257430
+02/06/2015 20:41:23:677  INFO - End | session id:mpp-2015153150350-7 | DM:ReportEnd | Welcome_PP |  |  |  | 10000000261433257430
+02/06/2015 20:41:29:225  INFO - In Progress | session id:mpp-2015153150350-7 | DM:ReportEnd | LanguageSelection_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000000261433257430
+02/06/2015 20:41:29:225  INFO - In Progress | session id:mpp-2015153150350-7 | DM:ReportEnd | LanguageSelection_MN | Input Type | Output_Parameters:inputType | dtmf | 10000000261433257430
+02/06/2015 20:41:29:225  INFO - In Progress | session id:mpp-2015153150350-7 | DM:ReportEnd | LanguageSelection_MN | Value | Output_Parameters:value | Marathi | 10000000261433257430
+02/06/2015 20:41:29:225  INFO - End | session id:mpp-2015153150350-7 | DM:ReportEnd | LanguageSelection_MN |  |  |  | 10000000261433257430
+02/06/2015 20:41:30:881  INFO - In Progress | session id:mpp-2015153150350-7 | DM:ReportEnd | MainMenu_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000000261433257430
+02/06/2015 20:41:30:881  INFO - In Progress | session id:mpp-2015153150350-7 | DM:ReportEnd | MainMenu_MN | Input Type | Output_Parameters:inputType | dtmf | 10000000261433257430
+02/06/2015 20:41:30:881  INFO - In Progress | session id:mpp-2015153150350-7 | DM:ReportEnd | MainMenu_MN | Value | Output_Parameters:value | SmartCardNumber | 10000000261433257430
+02/06/2015 20:41:30:881  INFO - End | session id:mpp-2015153150350-7 | DM:ReportEnd | MainMenu_MN |  |  |  | 10000000261433257430
+02/06/2015 20:49:40:310  INFO - In Progress | session id:mpp-2015153151206-9 | DM:ReportEnd | Welcome_PP | Return Code | Output_Parameters:returncode |  | 10000000291433257926
+02/06/2015 20:49:40:310  INFO - End | session id:mpp-2015153151206-9 | DM:ReportEnd | Welcome_PP |  |  |  | 10000000291433257926
+02/06/2015 20:49:45:815  INFO - In Progress | session id:mpp-2015153151206-9 | DM:ReportEnd | LanguageSelection_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000000291433257926
+02/06/2015 20:49:45:815  INFO - In Progress | session id:mpp-2015153151206-9 | DM:ReportEnd | LanguageSelection_MN | Input Type | Output_Parameters:inputType | dtmf | 10000000291433257926
+02/06/2015 20:49:45:815  INFO - In Progress | session id:mpp-2015153151206-9 | DM:ReportEnd | LanguageSelection_MN | Value | Output_Parameters:value | English | 10000000291433257926
+02/06/2015 20:49:45:815  INFO - End | session id:mpp-2015153151206-9 | DM:ReportEnd | LanguageSelection_MN |  |  |  | 10000000291433257926
+02/06/2015 20:49:50:014  INFO - In Progress | session id:mpp-2015153151206-9 | DM:ReportEnd | MainMenu_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000000291433257926
+02/06/2015 20:49:50:014  INFO - In Progress | session id:mpp-2015153151206-9 | DM:ReportEnd | MainMenu_MN | Input Type | Output_Parameters:inputType | dtmf | 10000000291433257926
+02/06/2015 20:49:50:014  INFO - In Progress | session id:mpp-2015153151206-9 | DM:ReportEnd | MainMenu_MN | Value | Output_Parameters:value | SmartCardNumber | 10000000291433257926
+02/06/2015 20:49:50:014  INFO - End | session id:mpp-2015153151206-9 | DM:ReportEnd | MainMenu_MN |  |  |  | 10000000291433257926
+02/06/2015 20:52:59:777  INFO - In Progress | session id:mpp-2015153151526-10 | DM:ReportEnd | Welcome_PP | Return Code | Output_Parameters:returncode |  | 10000000301433258126
+02/06/2015 20:52:59:778  INFO - End | session id:mpp-2015153151526-10 | DM:ReportEnd | Welcome_PP |  |  |  | 10000000301433258126
+02/06/2015 20:53:05:347  INFO - In Progress | session id:mpp-2015153151526-10 | DM:ReportEnd | LanguageSelection_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000000301433258126
+02/06/2015 20:53:05:347  INFO - In Progress | session id:mpp-2015153151526-10 | DM:ReportEnd | LanguageSelection_MN | Input Type | Output_Parameters:inputType | dtmf | 10000000301433258126
+02/06/2015 20:53:05:347  INFO - In Progress | session id:mpp-2015153151526-10 | DM:ReportEnd | LanguageSelection_MN | Value | Output_Parameters:value | Marathi | 10000000301433258126
+02/06/2015 20:53:05:347  INFO - End | session id:mpp-2015153151526-10 | DM:ReportEnd | LanguageSelection_MN |  |  |  | 10000000301433258126
+02/06/2015 20:53:14:416  INFO - In Progress | session id:mpp-2015153151526-10 | DM:ReportEnd | MainMenu_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000000301433258126
+02/06/2015 20:53:14:416  INFO - In Progress | session id:mpp-2015153151526-10 | DM:ReportEnd | MainMenu_MN | Input Type | Output_Parameters:inputType | dtmf | 10000000301433258126
+02/06/2015 20:53:14:416  INFO - In Progress | session id:mpp-2015153151526-10 | DM:ReportEnd | MainMenu_MN | Value | Output_Parameters:value | GetStartedKit | 10000000301433258126
+02/06/2015 20:53:14:416  INFO - End | session id:mpp-2015153151526-10 | DM:ReportEnd | MainMenu_MN |  |  |  | 10000000301433258126

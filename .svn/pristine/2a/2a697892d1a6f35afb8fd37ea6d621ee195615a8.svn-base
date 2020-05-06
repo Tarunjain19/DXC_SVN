@@ -1,0 +1,25 @@
+##################################################################################
+# 
+# Offers_MN.properties file
+# 
+##################################################################################
+
+########################
+# Dialog Name
+########################
+
+dialogName = Offers_MN
+menuID = DAKC_MN_0016
+isAnnouncement = false
+
+########################
+# Grammars
+########################
+dtmfGrammar = Offers_MN.grxml
+
+########################
+# Prompt & Collect
+########################
+initialPrompt = 43954.wav*44029.wav*43955.wav*44030.wav*43956.wav*44031.wav
+rePromptNoInput = 43954.wav*44029.wav*43955.wav*44030.wav*43956.wav*44031.wav
+rePromptNoMatch = 43954.wav*44029.wav*43955.wav*44030.wav*43956.wav*44031.wav

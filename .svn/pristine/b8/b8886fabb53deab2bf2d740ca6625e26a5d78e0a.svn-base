@@ -1,0 +1,28 @@
+log4j.rootLogger=error, stdout
+
+log4j.logger.Dialog.Designer.TraceWriter.RCOM_CF_REL_REGULAR_IVR= debug, TRCOM_CF_REL_REGULAR_IVR
+log4j.logger.Dialog.Designer.ReportWriter.RCOM_CF_REL_REGULAR_IVR= debug, RRCOM_CF_REL_REGULAR_IVR
+
+# Console
+log4j.appender.stdout=org.apache.log4j.ConsoleAppender
+log4j.appender.stdout.layout=org.apache.log4j.PatternLayout
+log4j.appender.stdout.layout.ConversionPattern=%d{dd/MM/yyyy HH:mm:ss:SSS} %5p - %m%n
+
+# Report File.
+log4j.appender.RRCOM_CF_REL_REGULAR_IVR=org.apache.log4j.RollingFileAppender
+log4j.appender.TRCOM_CF_REL_REGULAR_IVR.maxFileSize=50MB
+log4j.appender.TRCOM_CF_REL_REGULAR_IVR.maxBackupIndex=50
+log4j.appender.RRCOM_CF_REL_REGULAR_IVR.File=D:/RCOM/Energy/log/report.log
+log4j.appender.RRCOM_CF_REL_REGULAR_IVR.DatePattern='.'yyyy-MM-dd
+log4j.appender.RRCOM_CF_REL_REGULAR_IVR.layout=org.apache.log4j.PatternLayout
+log4j.appender.RRCOM_CF_REL_REGULAR_IVR.layout.ConversionPattern=%d{dd/MM/yyyy HH:mm:ss:SSS} %5p - %m%n
+log4j.appender.RRCOM_CF_REL_REGULAR_IVR_10Nov.Encoding=UTF-8
+# Trace File.
+log4j.appender.TRCOM_CF_REL_REGULAR_IVR=org.apache.log4j.RollingFileAppender
+log4j.appender.TRCOM_CF_REL_REGULAR_IVR.maxFileSize=50MB
+log4j.appender.TRCOM_CF_REL_REGULAR_IVR.maxBackupIndex=50
+log4j.appender.TRCOM_CF_REL_REGULAR_IVR.File=D:/RCOM/Energy/log/trace.log
+log4j.appender.TRCOM_CF_REL_REGULAR_IVR.DatePattern='.'yyyy-MM-dd
+log4j.appender.TRCOM_CF_REL_REGULAR_IVR.layout=org.apache.log4j.PatternLayout
+log4j.appender.TRCOM_CF_REL_REGULAR_IVR.layout.ConversionPattern=%d{dd/MM/yyyy HH:mm:ss:SSS} %5p - %m%n
+log4j.appender.TRCOM_CF_REL_REGULAR_IVR.Encoding=UTF-8

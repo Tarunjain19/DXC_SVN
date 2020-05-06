@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<AppFlowDoc>
+    <ApplicationFlow nextObjectId="32" package="flow.subflow.PushSMS" version="5.0">
+        <FlowGraph>
+            <FlowNode class="com.avaya.sce.callflow.internal.appflow.SubEntry" id="1" version="3.1">
+                <Property name="FlowNodeEditPart.WidgetX" value="21"/>
+                <Property name="FlowNodeEditPart.WidgetY" value="114"/>
+                <Property name="Name" value="Begin"/>
+                <FlowItem class="com.avaya.sce.callflow.internal.flowitem.SubEntry" id="2" version="1.2">
+                    <ItemProperties/>
+                    <ChildItems>
+                        <FlowItem class="com.avaya.sce.callflow.internal.flowitem.GoTo" id="3" version="1.2">
+                            <ItemProperties>
+                                <Property name="LinkedNodeID" value="14"/>
+                                <Property name="Name" value="Start"/>
+                            </ItemProperties>
+                            <ChildItems/>
+                        </FlowItem>
+                    </ChildItems>
+                </FlowItem>
+            </FlowNode>
+            <FlowNode class="com.avaya.sce.callflow.internal.appflow.SubReturn" id="4" version="3.1">
+                <Property name="FlowNodeEditPart.WidgetX" value="343"/>
+                <Property name="FlowNodeEditPart.WidgetY" value="112"/>
+                <Property name="Name" value="Return"/>
+            </FlowNode>
+            <FlowNode class="com.avaya.sce.callflow.internal.appflow.Data" id="14" version="3.1">
+                <Property name="FlowNodeEditPart.WidgetX" value="147"/>
+                <Property name="FlowNodeEditPart.WidgetY" value="113"/>
+                <Property name="Name" value="CSS_PushSMS"/>
+                <FlowItem class="com.avaya.sce.callflow.internal.flowitem.Data" id="15" version="1.2">
+                    <ItemProperties/>
+                    <ChildItems>
+                        <FlowItem class="com.avaya.sce.callflow.internal.flowitem.LocalVariables" id="16" version="1.2">
+                            <ItemProperties>
+                                <Property name="Name" value="LocalVariables"/>
+                            </ItemProperties>
+                            <ChildItems/>
+                        </FlowItem>
+                        <FlowItem class="com.avaya.sce.callflow.internal.flowitem.Assignment" id="27" version="1.2">
+                            <ItemProperties>
+                                <Property name="destVarId" value="Push_SMSFlag"/>
+                                <Property name="type" value="assign"/>
+                            </ItemProperties>
+                            <ChildItems/>
+                        </FlowItem>
+                        <FlowItem class="com.avaya.sce.callflow.internal.flowitem.Next" id="17" version="1.2">
+                            <ItemProperties>
+                                <Property name="LinkedNodeID" value="4"/>
+                                <Property name="Name" value="Default"/>
+                            </ItemProperties>
+                            <ChildItems/>
+                        </FlowItem>
+                    </ChildItems>
+                </FlowItem>
+            </FlowNode>
+            <NodeConnection id="19" version="1.2">
+                <SourceNode id="14"/>
+                <TargetNode id="4"/>
+                <Property name="Connection.SourceObjectID" value="17"/>
+                <Property name="Connection.TargetObjectID" value="4"/>
+            </NodeConnection>
+            <NodeConnection id="26" version="1.2">
+                <SourceNode id="1"/>
+                <TargetNode id="14"/>
+                <Property name="Connection.SourceObjectID" value="3"/>
+                <Property name="Connection.TargetObjectID" value="14"/>
+            </NodeConnection>
+        </FlowGraph>
+        <ProjectEventTypes/>
+    </ApplicationFlow>
+</AppFlowDoc>

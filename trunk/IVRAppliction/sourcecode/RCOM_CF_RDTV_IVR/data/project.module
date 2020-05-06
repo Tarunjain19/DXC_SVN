@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<module category="" descriptorversion="1.0" entrypoint="RCOM_CF_RDTV_IVR/Start" forcesubdialogcall="false" frameworkversion="07.01.08.04" iconlarge="icons/defaultapplicationlg.gif" iconsmall="icons/defaultapplicationsm.gif" modifyInputs="false" modifyOutputs="false" nature="com.avaya.sce.core.speechnature" outputmultipart="false" paramasnamelist="false" provider="" submitmethod="get" version="1.0.0" webname="RCOM_CF_RDTV_IVR">
+    <description/>
+    <language name="ENG" root="en-us"/>
+    <language name="HIN" root="en-us"/>
+    <language name="KAN" root="en-us"/>
+    <language name="ASM" root="en-us"/>
+    <language name="BEN" root="en-us"/>
+    <language name="GUJ" root="en-us"/>
+    <language name="MAL" root="en-us"/>
+    <language name="MAR" root="en-us"/>
+    <language name="ORI" root="en-us"/>
+    <language name="PUN" root="en-us"/>
+    <language name="TAM" root="en-us"/>
+    <language name="TEL" root="en-us"/>
+    <dependencies>
+        <moduleref frameworkversion="07.01.08.04" name="DM" private="false" version="1.0.0">
+            <meta callflow-references="GlobalPrompt,Base_Pack,Cancel_A_Pack,Change_Language,Collect_SmartCardNumber,DTH_Service_Partner,GlobalFeaturePrompt,HotFlash,Language_Selection,Locate_Retailer_and_Collect_Area_PIN_Code,Purchase_DTV_and_Validate_Coupon,Recharge_Account,Recharge_Account_Using_Cash_Card,RegisterComplaint_CollectAlternateMN_Error,Register_MN,Retailer_and_ISP,SCN_Account_Status,Top_Up_Packs,main"/>
+        </moduleref>
+    </dependencies>
+</module>

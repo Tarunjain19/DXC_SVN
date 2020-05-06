@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<grammar xml:lang="en-US" version="1.0" root="ROOT" mode="dtmf" xmlns="http://www.w3.org/2001/06/grammar">
+
+	<rule id="ROOT" scope="public">
+		<item><ruleref uri="#dtmf_Phone"/></item>
+	</rule>                    
+
+	<rule id="dtmf_Phone">
+		<item repeat="6"><ruleref uri="#DIGITS"/></item>
+	</rule>
+		
+	<rule id="DIGITS">
+		<one-of>
+			<item>0</item>
+			<item>1</item>
+			<item>2</item>
+			<item>3</item>
+			<item>4</item>
+			<item>5</item>
+			<item>6</item>
+			<item>7</item>
+			<item>8</item>
+			<item>9</item>
+		</one-of>	
+	</rule>
+</grammar>

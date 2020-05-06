@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--
+This XML descriptor is automatically generated and managed by the
+application development environment.  While manual updates to this 
+file may be preserved, it is best to manage this file through the application development environment tool.
+
+Copyright 2004-2011 Avaya Inc.
+--><!DOCTYPE web-app PUBLIC "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN" "http://java.sun.com/dtd/web-app_2_3.dtd">
+<web-app id="WebApp_ID">
+    <context-param>
+        <param-name>sage.startlanguage</param-name>
+        <param-value>ENG</param-value>
+        <description>The starting language for the application.</description>
+    </context-param>
+    <context-param>
+        <param-name>sage.ic.throwexceptions</param-name>
+        <param-value>true</param-value>
+        <description>IC Throw Runtime Exception on Error{true|false}</description>
+    </context-param>
+    <context-param>
+        <param-name>sage.cti.autoinvoke.callinfo</param-name>
+        <param-value>true</param-value>
+        <description>CTI Auto invoke CallInfo upon app start{true|false}</description>
+    </context-param>
+    <context-param>
+        <param-name>runtime-ASR</param-name>
+        <param-value>Desktop Microsoft Speech SAPI</param-value>
+        <description>Runtime ASR {SRGS-Literals|SRGS-SISR|Nuance OSR|IBM|...}</description>
+    </context-param>
+    <context-param>
+        <param-name>runtime-SSML</param-name>
+        <param-value>true</param-value>
+        <description>Runtime SSML Generation {true|false} - "true" enables SSML generation, "false" disables.</description>
+    </context-param>
+    <context-param>
+        <param-name>runtime-nature</param-name>
+        <param-value>speech</param-value>
+        <description>Application nature, speech or message</description>
+    </context-param>
+    <context-param>
+        <param-name>runtime-Platform</param-name>
+        <param-value>Experience Portal</param-value>
+        <description>Runtime Platform {Desktop|Voice Portal|Experience Portal|Other|IR|MPS}</description>
+    </context-param>
+    <context-param>
+        <param-name>runtime-VXML-Compatibility</param-name>
+        <param-value>2.1</param-value>
+        <description>2.1 + IVVR, 2.1 Allows VXML 2.1 extensions, 2.0 Uses VXML 2.0 Only</description>
+    </context-param>
+    <context-param>
+        <param-name>runtime-DTMF-Native</param-name>
+        <param-value>LOCAL_SRGS_LITERALS</param-value>
+        <description>(NATIVE|LOCAL_SRGS_SISR|LOCAL_SRGS_LITERALS, NATIVE means DTMF Grammars are in native asr format.</description>
+    </context-param>
+    <context-param>
+        <param-name>CollectionSeparator</param-name>
+        <param-value>|</param-value>
+        <description>Collection Separator Char</description>
+    </context-param>
+    <context-param>
+        <param-name>grammar-caching</param-name>
+        <param-value>none</param-value>
+        <description>Grammar caching mode, none=no caching, default=system default or property setting</description>
+    </context-param>
+    <context-param>
+        <param-name>avaya.pim.dataconnector.config</param-name>
+        <param-value>|||i5/PolNOtdo=</param-value>
+        <description>PIM Data Connector configuration settings.</description>
+    </context-param>
+    <context-param>
+        <param-name>IVR_CONFIG</param-name>
+        <param-value>C:\RCOM\OtherFlows\Corporate\Corporate_IVR_CONFIG.properties</param-value>
+        <description>IVR CONFIG File Path</description>
+    </context-param>
+    <context-param>
+        <param-name>OtherFlow_Hostservice</param-name>
+        <param-value>C:\RCOM\OtherFlows\Corporate\</param-value>
+        <description>Corporate desk db config</description>
+    </context-param>
+    <servlet id="avayadefaultdisconnecthandler-servlet">
+        <servlet-name>AvayaDefaultDisconnectHandler</servlet-name>
+        <servlet-class>com.avaya.sce.runtime.DefaultDisconnect</servlet-class>
+    </servlet>
+    <servlet id="avayadefaultexithandler-servlet">
+        <servlet-name>AvayaDefaultExitHandler</servlet-name>
+        <servlet-class>com.avaya.sce.runtime.DefaultExit</servlet-class>
+    </servlet>
+    <servlet id="avayasessiontermination-servlet">
+        <servlet-name>AvayaSessionTerminationServlet</servlet-name>
+        <servlet-class>com.avaya.sce.runtime.AvayaSessionTerminationServlet</servlet-class>
+    </servlet>
+    <servlet id="avayareturnerrorhandler-servlet">
+        <servlet-name>AvayaReturnErrorHandler</servlet-name>
+        <servlet-class>com.avaya.sce.runtime.ReturnErrorHandlerServlet</servlet-class>
+    </servlet>
+    <servlet id="avayareturnerrorthrow-servlet">
+        <servlet-name>AvayaReturnErrorThrow</servlet-name>
+        <servlet-class>com.avaya.sce.runtime.ReturnErrorThrowServlet</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_16">
+        <servlet-name>BCHD_PA_0001_Welcome_Annce</servlet-name>
+        <servlet-class>flow.BCHD_PA_0001_Welcome_Annce</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_1">
+        <servlet-name>AppRoot</servlet-name>
+        <servlet-class>flow.AppRoot</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_3">
+        <servlet-name>LoadOnStartUp</servlet-name>
+        <servlet-class>flow.LoadOnStartUp</servlet-class>
+        <load-on-startup>1</load-on-startup>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_6">
+        <servlet-name>CallStart</servlet-name>
+        <servlet-class>flow.CallStart</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_0">
+        <servlet-name>Start</servlet-name>
+        <servlet-class>flow.Start</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_170">
+        <servlet-name>End</servlet-name>
+        <servlet-class>flow.End</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_165">
+        <servlet-name>CallEnd</servlet-name>
+        <servlet-class>flow.CallEnd</servlet-class>
+    </servlet>
+    
+    
+    
+    
+    <servlet id="SAGE-callflow-servlet_main_177">
+        <servlet-name>SetHotFlash</servlet-name>
+        <servlet-class>flow.SetHotFlash</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_181">
+        <servlet-name>HotFlash</servlet-name>
+        <servlet-class>flow.HotFlash</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_188">
+        <servlet-name>BCHD_MN_0001_MM</servlet-name>
+        <servlet-class>flow.BCHD_MN_0001_MM</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_320">
+        <servlet-name>Check_BCHD_MN_0001_MM_Options</servlet-name>
+        <servlet-class>flow.Check_BCHD_MN_0001_MM_Options</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_340">
+        <servlet-name>Get_Transfer_VDN</servlet-name>
+        <servlet-class>flow.Get_Transfer_VDN</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_344">
+        <servlet-name>Transfer</servlet-name>
+        <servlet-class>flow.Transfer</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_359">
+        <servlet-name>BCHD_PA_0005_Thankyou_Annce</servlet-name>
+        <servlet-class>flow.BCHD_PA_0005_Thankyou_Annce</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_489">
+        <servlet-name>Disconnect</servlet-name>
+        <servlet-class>flow.Disconnect</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_501">
+        <servlet-name>BCHD_PA_0003_TransferAgent_Annce</servlet-name>
+        <servlet-class>flow.BCHD_PA_0003_TransferAgent_Annce</servlet-class>
+    </servlet>
+    
+    
+    
+    
+    <servlet id="SAGE-callflow-servlet_HotFlash_1">
+        <servlet-name>HotFlash-Begin</servlet-name>
+        <servlet-class>flow.subflow.HotFlash.Begin</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_HotFlash_4">
+        <servlet-name>HotFlash-Get_HotFlash_Message</servlet-name>
+        <servlet-class>flow.subflow.HotFlash.Get_HotFlash_Message</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_HotFlash_140">
+        <servlet-name>HotFlash-Return</servlet-name>
+        <servlet-class>flow.subflow.HotFlash.Return</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_HotFlash_8">
+        <servlet-name>HotFlash-Start_HotFlash</servlet-name>
+        <servlet-class>flow.subflow.HotFlash.Start_HotFlash</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_645">
+        <servlet-name>EndCallProcess</servlet-name>
+        <servlet-class>flow.EndCallProcess</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_641">
+        <servlet-name>SetDisposition</servlet-name>
+        <servlet-class>flow.SetDisposition</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_680">
+        <servlet-name>Dummy_DM</servlet-name>
+        <servlet-class>flow.Dummy_DM</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_819">
+        <servlet-name>Date_Check</servlet-name>
+        <servlet-class>flow.Date_Check</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_842">
+        <servlet-name>BCHD_PA_0006_Welcome_383_Annce</servlet-name>
+        <servlet-class>flow.BCHD_PA_0006_Welcome_383_Annce</servlet-class>
+    </servlet>
+    <servlet-mapping id="avayadefaultdisconnecthandler-servletmapping">
+        <servlet-name>AvayaDefaultDisconnectHandler</servlet-name>
+        <url-pattern>/AvayaDefaultDisconnectHandler</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="avayadefaultexithandler-servletmapping">
+        <servlet-name>AvayaDefaultExitHandler</servlet-name>
+        <url-pattern>/AvayaDefaultExitHandler</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="avayasessiontermination-servletmapping">
+        <servlet-name>AvayaSessionTerminationServlet</servlet-name>
+        <url-pattern>/AvayaSessionTerminationServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="avayareturnerrorhandler-servletmapping">
+        <servlet-name>AvayaReturnErrorHandler</servlet-name>
+        <url-pattern>/AvayaReturnErrorHandler</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="avayareturnerrorthrow-servletmapping">
+        <servlet-name>AvayaReturnErrorThrow</servlet-name>
+        <url-pattern>/AvayaReturnErrorThrow</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_16">
+        <servlet-name>BCHD_PA_0001_Welcome_Annce</servlet-name>
+        <url-pattern>/BCHD_PA_0001_Welcome_Annce</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_1">
+        <servlet-name>AppRoot</servlet-name>
+        <url-pattern>/AppRoot</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_3">
+        <servlet-name>LoadOnStartUp</servlet-name>
+        <url-pattern>/LoadOnStartUp</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_6">
+        <servlet-name>CallStart</servlet-name>
+        <url-pattern>/CallStart</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_0">
+        <servlet-name>Start</servlet-name>
+        <url-pattern>/Start</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_170">
+        <servlet-name>End</servlet-name>
+        <url-pattern>/End</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_165">
+        <servlet-name>CallEnd</servlet-name>
+        <url-pattern>/CallEnd</url-pattern>
+    </servlet-mapping>
+    
+    
+    
+    
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_177">
+        <servlet-name>SetHotFlash</servlet-name>
+        <url-pattern>/SetHotFlash</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_181">
+        <servlet-name>HotFlash</servlet-name>
+        <url-pattern>/HotFlash</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_188">
+        <servlet-name>BCHD_MN_0001_MM</servlet-name>
+        <url-pattern>/BCHD_MN_0001_MM</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_320">
+        <servlet-name>Check_BCHD_MN_0001_MM_Options</servlet-name>
+        <url-pattern>/Check_BCHD_MN_0001_MM_Options</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_340">
+        <servlet-name>Get_Transfer_VDN</servlet-name>
+        <url-pattern>/Get_Transfer_VDN</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_344">
+        <servlet-name>Transfer</servlet-name>
+        <url-pattern>/Transfer</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_359">
+        <servlet-name>BCHD_PA_0005_Thankyou_Annce</servlet-name>
+        <url-pattern>/BCHD_PA_0005_Thankyou_Annce</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_489">
+        <servlet-name>Disconnect</servlet-name>
+        <url-pattern>/Disconnect</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_501">
+        <servlet-name>BCHD_PA_0003_TransferAgent_Annce</servlet-name>
+        <url-pattern>/BCHD_PA_0003_TransferAgent_Annce</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_HotFlash_1">
+        <servlet-name>HotFlash-Begin</servlet-name>
+        <url-pattern>/HotFlash-Begin</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_HotFlash_4">
+        <servlet-name>HotFlash-Get_HotFlash_Message</servlet-name>
+        <url-pattern>/HotFlash-Get_HotFlash_Message</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_HotFlash_140">
+        <servlet-name>HotFlash-Return</servlet-name>
+        <url-pattern>/HotFlash-Return</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_HotFlash_8">
+        <servlet-name>HotFlash-Start_HotFlash</servlet-name>
+        <url-pattern>/HotFlash-Start_HotFlash</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_645">
+        <servlet-name>EndCallProcess</servlet-name>
+        <url-pattern>/EndCallProcess</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_641">
+        <servlet-name>SetDisposition</servlet-name>
+        <url-pattern>/SetDisposition</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_680">
+        <servlet-name>Dummy_DM</servlet-name>
+        <url-pattern>/Dummy_DM</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_819">
+        <servlet-name>Date_Check</servlet-name>
+        <url-pattern>/Date_Check</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_842">
+        <servlet-name>BCHD_PA_0006_Welcome_383_Annce</servlet-name>
+        <url-pattern>/BCHD_PA_0006_Welcome_383_Annce</url-pattern>
+    </servlet-mapping>
+    
+    
+    
+    
+</web-app>

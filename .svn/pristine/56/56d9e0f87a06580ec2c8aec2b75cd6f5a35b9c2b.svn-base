@@ -1,0 +1,20 @@
+##################################################################################
+# 
+# WithoutAccNoTransferAnn_PP.properties file
+# 
+##################################################################################
+
+
+########################
+# Dialog Name
+########################
+
+dialogName = WithoutAccNoTransferAnn_PP
+isAnnouncement = true
+announceID = PA_0046
+
+
+########################
+# Prompt & Collect
+########################
+initialPrompt = 44270.wav

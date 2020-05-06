@@ -1,0 +1,35 @@
+##################################################################################
+# 
+# RED_MN_0003_0001.properties file
+# 
+##################################################################################
+
+
+########################
+# Dialog Name
+########################
+
+dialogName = LangSelect_RED_MN_0003_0001
+isDTMF=true
+isAnnouncement = false
+language=DEFAULT
+menuID=RED_MN_0003_0001
+
+########################
+# Grammars
+########################
+
+dtmfGrammar = DEFAULT
+dtmfGrammarsUseSlots = false
+mediaTypeDTMF = application/srgs+xml
+
+maxNoInputCount = 0
+maxNoMatchCount = 0
+noMatchMaxTryPrompt = silenceNINM.wav
+noInputMaxTryPrompt = silenceNINM.wav
+
+
+
+
+
+

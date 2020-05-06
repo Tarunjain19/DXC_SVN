@@ -1,0 +1,46 @@
+# Set root category priority to INFO and its only appender to CONSOLE.
+# Users may want to alter this.
+log4j.rootCategory=INFO, CONSOLE
+log4j.logger.org.jboss.logging=INFO,host
+log4j.logger.com.mchange.v2.c3p0.ComboPooledDataSource=INFO,host
+log4j.logger.com.mchange.v2.c3p0=INFO,host
+#log4j.category.org.springframework.beans.factory = ALL,spring
+log4j.logger.com.rcom.postpaid = DEBUG,client
+log4j.logger.com.mchange.v2.log.MLog = INFO,host
+log4j.logger.com.mchange.v2.log.jdk14logging.suppressStackWalk = INFO,host
+log4j.logger.com.mchange.v2.log.NameTransformer = INFO,host
+log4j.logger.com.mchange.v2.log.FallbackMLog.DEFAULT_CUTOFF_LEVEL = INFO,host
+log4j.logger.org.hibernate=WARN,host
+# Log all JDBC parameters  
+log4j.logger.org.hibernate.type=WARN,host
+ 
+# CONSOLE is set to be a ConsoleAppender using a PatternLayout.
+log4j.appender.CONSOLE=org.apache.log4j.ConsoleAppender
+log4j.appender.CONSOLE.Target=System.out
+log4j.appender.CONSOLE.Threshold=INFO
+log4j.appender.CONSOLE.layout=org.apache.log4j.PatternLayout
+log4j.appender.CONSOLE.layout.ConversionPattern=%d{${datestamp}} %5p: %c{2} - %m%n
+
+log4j.appender.host=org.apache.log4j.RollingFileAppender
+log4j.appender.host.MaxFileSize=10000KB
+log4j.appender.host.MaxBackupIndex=50
+log4j.appender.host.File=E:/hibernate/log/host_controller.log
+log4j.appender.host.layout=org.apache.log4j.PatternLayout
+log4j.appender.host.layout.ConversionPattern=%d{dd/MM/yyyy HH:mm:ss:SSS} %5p - %m%n
+log4j.appender.host.Encoding=UTF-8
+
+log4j.appender.client=org.apache.log4j.RollingFileAppender
+log4j.appender.client.MaxFileSize=10000KB
+log4j.appender.client.MaxBackupIndex=50
+log4j.appender.client.File=E:/hibernate/log/dbclient.log
+log4j.appender.client.layout=org.apache.log4j.PatternLayout
+log4j.appender.client.layout.ConversionPattern=%d{dd/MM/yyyy HH:mm:ss:SSS} %5p - %m%n
+log4j.appender.client.Encoding=UTF-8
+
+log4j.appender.spring=org.apache.log4j.RollingFileAppender
+log4j.appender.spring.MaxFileSize=10000KB
+log4j.appender.spring.MaxBackupIndex=50
+log4j.appender.spring.File=E:/hibernate/log/spring_controller.log
+log4j.appender.spring.layout=org.apache.log4j.PatternLayout
+log4j.appender.spring.layout.ConversionPattern=%d{dd/MM/yyyy HH:mm:ss:SSS} %5p - %m%n
+log4j.appender.spring.Encoding=UTF-8

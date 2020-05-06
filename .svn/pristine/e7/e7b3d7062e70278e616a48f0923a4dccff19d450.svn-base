@@ -1,0 +1,1379 @@
+29/06/2015 10:57:08:387  INFO - In Progress | session id:mpp-2015180051914-18 | DM:ReportEnd | Welcome_PP | Return Code | Output_Parameters:returncode |  | 10000010761435555154
+29/06/2015 10:57:08:389  INFO - End | session id:mpp-2015180051914-18 | DM:ReportEnd | Welcome_PP |  |  |  | 10000010761435555154
+29/06/2015 10:57:12:270  INFO - In Progress | session id:mpp-2015180051914-18 | DM:ReportEnd | SelectLang_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000010761435555154
+29/06/2015 10:57:12:271  INFO - In Progress | session id:mpp-2015180051914-18 | DM:ReportEnd | SelectLang_MN | Input Type | Output_Parameters:inputType | dtmf | 10000010761435555154
+29/06/2015 10:57:12:271  INFO - In Progress | session id:mpp-2015180051914-18 | DM:ReportEnd | SelectLang_MN | Value | Output_Parameters:value | HIN | 10000010761435555154
+29/06/2015 10:57:12:271  INFO - End | session id:mpp-2015180051914-18 | DM:ReportEnd | SelectLang_MN |  |  |  | 10000010761435555154
+29/06/2015 10:59:27:288  INFO - In Progress | session id:mpp-2015180052138-12 | DM:ReportEnd | Welcome_PP | Return Code | Output_Parameters:returncode |  | 10000010771435555298
+29/06/2015 10:59:27:288  INFO - End | session id:mpp-2015180052138-12 | DM:ReportEnd | Welcome_PP |  |  |  | 10000010771435555298
+29/06/2015 10:59:34:113  INFO - In Progress | session id:mpp-2015180052138-12 | DM:ReportEnd | SelectLang_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000010771435555298
+29/06/2015 10:59:34:114  INFO - In Progress | session id:mpp-2015180052138-12 | DM:ReportEnd | SelectLang_MN | Input Type | Output_Parameters:inputType | dtmf | 10000010771435555298
+29/06/2015 10:59:34:114  INFO - In Progress | session id:mpp-2015180052138-12 | DM:ReportEnd | SelectLang_MN | Value | Output_Parameters:value | HIN | 10000010771435555298
+29/06/2015 10:59:34:114  INFO - End | session id:mpp-2015180052138-12 | DM:ReportEnd | SelectLang_MN |  |  |  | 10000010771435555298
+29/06/2015 10:59:46:544  INFO - In Progress | session id:mpp-2015180052138-12 | DM:ReportEnd | Prepaid_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000010771435555298
+29/06/2015 10:59:46:544  INFO - In Progress | session id:mpp-2015180052138-12 | DM:ReportEnd | Prepaid_MN | Input Type | Output_Parameters:inputType | dtmf | 10000010771435555298
+29/06/2015 10:59:46:544  INFO - In Progress | session id:mpp-2015180052138-12 | DM:ReportEnd | Prepaid_MN | Value | Output_Parameters:value | HOTDEAL | 10000010771435555298
+29/06/2015 10:59:46:544  INFO - End | session id:mpp-2015180052138-12 | DM:ReportEnd | Prepaid_MN |  |  |  | 10000010771435555298
+29/06/2015 11:06:28:350  INFO - In Progress | session id:mpp-2015180052839-20 | DM:ReportEnd | Welcome_PP | Return Code | Output_Parameters:returncode |  | 10000010781435555719
+29/06/2015 11:06:28:350  INFO - End | session id:mpp-2015180052839-20 | DM:ReportEnd | Welcome_PP |  |  |  | 10000010781435555719
+29/06/2015 11:06:33:562  INFO - In Progress | session id:mpp-2015180052839-20 | DM:ReportEnd | SelectLang_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000010781435555719
+29/06/2015 11:06:33:562  INFO - In Progress | session id:mpp-2015180052839-20 | DM:ReportEnd | SelectLang_MN | Input Type | Output_Parameters:inputType | dtmf | 10000010781435555719
+29/06/2015 11:06:33:562  INFO - In Progress | session id:mpp-2015180052839-20 | DM:ReportEnd | SelectLang_MN | Value | Output_Parameters:value | HIN | 10000010781435555719
+29/06/2015 11:06:33:562  INFO - End | session id:mpp-2015180052839-20 | DM:ReportEnd | SelectLang_MN |  |  |  | 10000010781435555719
+29/06/2015 11:06:40:277  INFO - In Progress | session id:mpp-2015180052839-20 | DM:ReportEnd | Prepaid_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000010781435555719
+29/06/2015 11:06:40:277  INFO - In Progress | session id:mpp-2015180052839-20 | DM:ReportEnd | Prepaid_MN | Input Type | Output_Parameters:inputType | dtmf | 10000010781435555719
+29/06/2015 11:06:40:277  INFO - In Progress | session id:mpp-2015180052839-20 | DM:ReportEnd | Prepaid_MN | Value | Output_Parameters:value | HOTDEAL | 10000010781435555719
+29/06/2015 11:06:40:278  INFO - End | session id:mpp-2015180052839-20 | DM:ReportEnd | Prepaid_MN |  |  |  | 10000010781435555719
+29/06/2015 11:12:59:080  INFO - In Progress | session id:mpp-2015180053509-13 | DM:ReportEnd | Welcome_PP | Return Code | Output_Parameters:returncode |  | 10000010791435556109
+29/06/2015 11:12:59:080  INFO - End | session id:mpp-2015180053509-13 | DM:ReportEnd | Welcome_PP |  |  |  | 10000010791435556109
+29/06/2015 11:13:03:151  INFO - In Progress | session id:mpp-2015180053509-13 | DM:ReportEnd | SelectLang_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000010791435556109
+29/06/2015 11:13:03:151  INFO - In Progress | session id:mpp-2015180053509-13 | DM:ReportEnd | SelectLang_MN | Input Type | Output_Parameters:inputType | dtmf | 10000010791435556109
+29/06/2015 11:13:03:152  INFO - In Progress | session id:mpp-2015180053509-13 | DM:ReportEnd | SelectLang_MN | Value | Output_Parameters:value | ENG | 10000010791435556109
+29/06/2015 11:13:03:152  INFO - End | session id:mpp-2015180053509-13 | DM:ReportEnd | SelectLang_MN |  |  |  | 10000010791435556109
+29/06/2015 11:13:04:990  INFO - In Progress | session id:mpp-2015180053509-13 | DM:ReportEnd | Prepaid_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000010791435556109
+29/06/2015 11:13:04:990  INFO - In Progress | session id:mpp-2015180053509-13 | DM:ReportEnd | Prepaid_MN | Input Type | Output_Parameters:inputType | dtmf | 10000010791435556109
+29/06/2015 11:13:04:990  INFO - In Progress | session id:mpp-2015180053509-13 | DM:ReportEnd | Prepaid_MN | Value | Output_Parameters:value | HOTDEAL | 10000010791435556109
+29/06/2015 11:13:04:990  INFO - End | session id:mpp-2015180053509-13 | DM:ReportEnd | Prepaid_MN |  |  |  | 10000010791435556109
+29/06/2015 11:13:28:920  INFO - In Progress | session id:mpp-2015180053509-13 | DM:ReportEnd | Offer_MN | Return Code | Output_Parameters:returncode | NOINPUT | 10000010791435556109
+29/06/2015 11:13:28:920  INFO - End | session id:mpp-2015180053509-13 | DM:ReportEnd | Offer_MN |  |  |  | 10000010791435556109
+29/06/2015 11:13:29:167  INFO - In Progress | session id:mpp-2015180053509-13 | DM:ReportEnd | TransferAgent_PP | Return Code | Output_Parameters:returncode |  | 10000010791435556109
+29/06/2015 11:13:29:167  INFO - End | session id:mpp-2015180053509-13 | DM:ReportEnd | TransferAgent_PP |  |  |  | 10000010791435556109
+29/06/2015 11:45:32:956  INFO - In Progress | session id:mpp-2015180060743-8 | DM:ReportEnd | Welcome_PP | Return Code | Output_Parameters:returncode |  | 10000010871435558063
+29/06/2015 11:45:32:956  INFO - End | session id:mpp-2015180060743-8 | DM:ReportEnd | Welcome_PP |  |  |  | 10000010871435558063
+29/06/2015 11:45:57:671  INFO - In Progress | session id:mpp-2015180060743-8 | DM:ReportEnd | SelectLang_MN | Return Code | Output_Parameters:returncode | NOMATCH | 10000010871435558063
+29/06/2015 11:45:57:671  INFO - End | session id:mpp-2015180060743-8 | DM:ReportEnd | SelectLang_MN |  |  |  | 10000010871435558063
+29/06/2015 11:46:12:228  INFO - In Progress | session id:mpp-2015180060823-16 | DM:ReportEnd | Welcome_PP | Return Code | Output_Parameters:returncode |  | 10000010881435558103
+29/06/2015 11:46:12:228  INFO - End | session id:mpp-2015180060823-16 | DM:ReportEnd | Welcome_PP |  |  |  | 10000010881435558103
+29/06/2015 11:47:07:255  INFO - In Progress | session id:mpp-2015180060823-16 | DM:ReportEnd | SelectLang_MN | Return Code | Output_Parameters:returncode | NOINPUT | 10000010881435558103
+29/06/2015 11:47:07:255  INFO - End | session id:mpp-2015180060823-16 | DM:ReportEnd | SelectLang_MN |  |  |  | 10000010881435558103
+29/06/2015 11:49:27:739  INFO - In Progress | session id:mpp-2015180061138-14 | DM:ReportEnd | Welcome_PP | Return Code | Output_Parameters:returncode |  | 10000010891435558298
+29/06/2015 11:49:27:739  INFO - End | session id:mpp-2015180061138-14 | DM:ReportEnd | Welcome_PP |  |  |  | 10000010891435558298
+29/06/2015 11:49:35:618  INFO - In Progress | session id:mpp-2015180061138-14 | DM:ReportEnd | SelectLang_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000010891435558298
+29/06/2015 11:49:35:618  INFO - In Progress | session id:mpp-2015180061138-14 | DM:ReportEnd | SelectLang_MN | Input Type | Output_Parameters:inputType | dtmf | 10000010891435558298
+29/06/2015 11:49:35:618  INFO - In Progress | session id:mpp-2015180061138-14 | DM:ReportEnd | SelectLang_MN | Value | Output_Parameters:value | ENG | 10000010891435558298
+29/06/2015 11:49:35:618  INFO - End | session id:mpp-2015180061138-14 | DM:ReportEnd | SelectLang_MN |  |  |  | 10000010891435558298
+29/06/2015 11:49:40:735  INFO - In Progress | session id:mpp-2015180061138-14 | DM:ReportEnd | Prepaid_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000010891435558298
+29/06/2015 11:49:40:735  INFO - In Progress | session id:mpp-2015180061138-14 | DM:ReportEnd | Prepaid_MN | Input Type | Output_Parameters:inputType | dtmf | 10000010891435558298
+29/06/2015 11:49:40:735  INFO - In Progress | session id:mpp-2015180061138-14 | DM:ReportEnd | Prepaid_MN | Value | Output_Parameters:value | HOTDEAL | 10000010891435558298
+29/06/2015 11:49:40:735  INFO - End | session id:mpp-2015180061138-14 | DM:ReportEnd | Prepaid_MN |  |  |  | 10000010891435558298
+29/06/2015 11:50:04:419  INFO - In Progress | session id:mpp-2015180061138-14 | DM:ReportEnd | Offer_MN | Return Code | Output_Parameters:returncode | NOINPUT | 10000010891435558298
+29/06/2015 11:50:04:419  INFO - End | session id:mpp-2015180061138-14 | DM:ReportEnd | Offer_MN |  |  |  | 10000010891435558298
+29/06/2015 11:50:04:575  INFO - In Progress | session id:mpp-2015180061138-14 | DM:ReportEnd | TransferAgent_PP | Return Code | Output_Parameters:returncode |  | 10000010891435558298
+29/06/2015 11:50:04:575  INFO - End | session id:mpp-2015180061138-14 | DM:ReportEnd | TransferAgent_PP |  |  |  | 10000010891435558298
+29/06/2015 11:55:19:247  INFO - In Progress | session id:mpp-2015180061729-1 | DM:ReportEnd | Welcome_PP | Return Code | Output_Parameters:returncode |  | 10000010901435558649
+29/06/2015 11:55:19:247  INFO - End | session id:mpp-2015180061729-1 | DM:ReportEnd | Welcome_PP |  |  |  | 10000010901435558649
+29/06/2015 11:55:22:009  INFO - In Progress | session id:mpp-2015180061729-1 | DM:ReportEnd | SelectLang_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000010901435558649
+29/06/2015 11:55:22:009  INFO - In Progress | session id:mpp-2015180061729-1 | DM:ReportEnd | SelectLang_MN | Input Type | Output_Parameters:inputType | dtmf | 10000010901435558649
+29/06/2015 11:55:22:009  INFO - In Progress | session id:mpp-2015180061729-1 | DM:ReportEnd | SelectLang_MN | Value | Output_Parameters:value | ENG | 10000010901435558649
+29/06/2015 11:55:22:009  INFO - End | session id:mpp-2015180061729-1 | DM:ReportEnd | SelectLang_MN |  |  |  | 10000010901435558649
+29/06/2015 11:55:24:740  INFO - In Progress | session id:mpp-2015180061729-1 | DM:ReportEnd | Prepaid_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000010901435558649
+29/06/2015 11:55:24:740  INFO - In Progress | session id:mpp-2015180061729-1 | DM:ReportEnd | Prepaid_MN | Input Type | Output_Parameters:inputType | dtmf | 10000010901435558649
+29/06/2015 11:55:24:740  INFO - In Progress | session id:mpp-2015180061729-1 | DM:ReportEnd | Prepaid_MN | Value | Output_Parameters:value | HOTDEAL | 10000010901435558649
+29/06/2015 11:55:24:740  INFO - End | session id:mpp-2015180061729-1 | DM:ReportEnd | Prepaid_MN |  |  |  | 10000010901435558649
+29/06/2015 11:55:48:488  INFO - In Progress | session id:mpp-2015180061729-1 | DM:ReportEnd | Offer_MN | Return Code | Output_Parameters:returncode | NOINPUT | 10000010901435558649
+29/06/2015 11:55:48:488  INFO - End | session id:mpp-2015180061729-1 | DM:ReportEnd | Offer_MN |  |  |  | 10000010901435558649
+29/06/2015 11:55:48:659  INFO - In Progress | session id:mpp-2015180061729-1 | DM:ReportEnd | TransferAgent_PP | Return Code | Output_Parameters:returncode |  | 10000010901435558649
+29/06/2015 11:55:48:659  INFO - End | session id:mpp-2015180061729-1 | DM:ReportEnd | TransferAgent_PP |  |  |  | 10000010901435558649
+29/06/2015 11:57:52:710  INFO - In Progress | session id:mpp-2015180062002-11 | DM:ReportEnd | Welcome_PP | Return Code | Output_Parameters:returncode |  | 10000010911435558802
+29/06/2015 11:57:52:710  INFO - End | session id:mpp-2015180062002-11 | DM:ReportEnd | Welcome_PP |  |  |  | 10000010911435558802
+29/06/2015 11:57:52:819 ERROR - In Progress | session id:mpp-2015180062002-11 | DM:IsConstraintListAvailable |  | java.lang.NumberFormatException: For input string: "" | Exception stack trace | Error processing request
+ EXCEPTION> 
+java.lang.NumberFormatException: For input string: ""
+	at java.lang.NumberFormatException.forInputString(Unknown Source)
+	at java.lang.Integer.parseInt(Unknown Source)
+	at java.lang.Integer.parseInt(Unknown Source)
+	at com.avaya.sce.runtime.VariableField.getIntValue(VariableField.java:363)
+	at flow.IsConstraintListAvailable.servletImplementation(IsConstraintListAvailable.java:55)
+	at com.avaya.sce.runtime.BasicServlet.handleRequest(BasicServlet.java:99)
+	at com.avaya.sce.runtime.AppServlet.processRequest(AppServlet.java:96)
+	at com.avaya.sce.runtime.SCEServlet.requestHandler(SCEServlet.java:285)
+	at com.avaya.sce.runtime.SCEServlet.doPost(SCEServlet.java:190)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:646)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:727)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:748)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:486)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:411)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:338)
+	at com.avaya.sce.runtime.SCEServlet.forward(SCEServlet.java:1364)
+	at com.avaya.sce.runtime.Data.handleRequest(Data.java:153)
+	at com.avaya.sce.runtime.AppServlet.processRequest(AppServlet.java:96)
+	at com.avaya.sce.runtime.SCEServlet.requestHandler(SCEServlet.java:285)
+	at com.avaya.sce.runtime.SCEServlet.doPost(SCEServlet.java:190)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:646)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:727)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:748)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:486)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:411)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:338)
+	at com.avaya.sce.runtime.SCEServlet.forward(SCEServlet.java:1364)
+	at com.avaya.sce.runtime.Data.evaluateActions(Data.java:211)
+	at flow.SetParams_PromptandCollect.executeDataActions(SetParams_PromptandCollect.java:300)
+	at com.avaya.sce.runtime.Data.handleRequest(Data.java:104)
+	at com.avaya.sce.runtime.AppServlet.processRequest(AppServlet.java:96)
+	at com.avaya.sce.runtime.SCEServlet.requestHandler(SCEServlet.java:285)
+	at com.avaya.sce.runtime.SCEServlet.doPost(SCEServlet.java:190)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:646)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:727)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:748)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:486)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:411)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:338)
+	at com.avaya.sce.runtime.SCEServlet.forward(SCEServlet.java:1364)
+	at com.avaya.sce.runtime.BasicServlet.handleRequest(BasicServlet.java:116)
+	at com.avaya.sce.runtime.AppServlet.processRequest(AppServlet.java:96)
+	at com.avaya.sce.runtime.SCEServlet.requestHandler(SCEServlet.java:285)
+	at com.avaya.sce.runtime.SCEServlet.doPost(SCEServlet.java:190)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:646)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:727)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:504)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:170)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:950)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:421)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1074)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:611)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:316)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+ | 10000010911435558802
+29/06/2015 12:02:23:598  INFO - In Progress | session id:mpp-2015180062433-6 | DM:ReportEnd | Welcome_PP | Return Code | Output_Parameters:returncode |  | 10000010921435559073
+29/06/2015 12:02:23:598  INFO - End | session id:mpp-2015180062433-6 | DM:ReportEnd | Welcome_PP |  |  |  | 10000010921435559073
+29/06/2015 12:02:27:623  INFO - In Progress | session id:mpp-2015180062433-6 | DM:ReportEnd | SelectLang_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000010921435559073
+29/06/2015 12:02:27:623  INFO - In Progress | session id:mpp-2015180062433-6 | DM:ReportEnd | SelectLang_MN | Input Type | Output_Parameters:inputType | dtmf | 10000010921435559073
+29/06/2015 12:02:27:623  INFO - In Progress | session id:mpp-2015180062433-6 | DM:ReportEnd | SelectLang_MN | Value | Output_Parameters:value | ENG | 10000010921435559073
+29/06/2015 12:02:27:623  INFO - End | session id:mpp-2015180062433-6 | DM:ReportEnd | SelectLang_MN |  |  |  | 10000010921435559073
+29/06/2015 12:02:29:996  INFO - In Progress | session id:mpp-2015180062433-6 | DM:ReportEnd | Prepaid_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000010921435559073
+29/06/2015 12:02:29:996  INFO - In Progress | session id:mpp-2015180062433-6 | DM:ReportEnd | Prepaid_MN | Input Type | Output_Parameters:inputType | dtmf | 10000010921435559073
+29/06/2015 12:02:29:996  INFO - In Progress | session id:mpp-2015180062433-6 | DM:ReportEnd | Prepaid_MN | Value | Output_Parameters:value | HOTDEAL | 10000010921435559073
+29/06/2015 12:02:29:996  INFO - End | session id:mpp-2015180062433-6 | DM:ReportEnd | Prepaid_MN |  |  |  | 10000010921435559073
+29/06/2015 12:02:53:727  INFO - In Progress | session id:mpp-2015180062433-6 | DM:ReportEnd | Offer_MN | Return Code | Output_Parameters:returncode | NOINPUT | 10000010921435559073
+29/06/2015 12:02:53:727  INFO - End | session id:mpp-2015180062433-6 | DM:ReportEnd | Offer_MN |  |  |  | 10000010921435559073
+29/06/2015 12:02:53:961  INFO - In Progress | session id:mpp-2015180062433-6 | DM:ReportEnd | BarredAnnc_PP | Return Code | Output_Parameters:returncode |  | 10000010921435559073
+29/06/2015 12:02:53:961  INFO - End | session id:mpp-2015180062433-6 | DM:ReportEnd | BarredAnnc_PP |  |  |  | 10000010921435559073
+29/06/2015 12:04:36:894  INFO - In Progress | session id:mpp-2015180062647-9 | DM:ReportEnd | Welcome_PP | Return Code | Output_Parameters:returncode |  | 10000010931435559207
+29/06/2015 12:04:36:894  INFO - End | session id:mpp-2015180062647-9 | DM:ReportEnd | Welcome_PP |  |  |  | 10000010931435559207
+29/06/2015 12:04:55:024  INFO - In Progress | session id:mpp-2015180062647-9 | DM:ReportEnd | SelectLang_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000010931435559207
+29/06/2015 12:04:55:024  INFO - In Progress | session id:mpp-2015180062647-9 | DM:ReportEnd | SelectLang_MN | Input Type | Output_Parameters:inputType | dtmf | 10000010931435559207
+29/06/2015 12:04:55:024  INFO - In Progress | session id:mpp-2015180062647-9 | DM:ReportEnd | SelectLang_MN | Value | Output_Parameters:value | ENG | 10000010931435559207
+29/06/2015 12:04:55:024  INFO - End | session id:mpp-2015180062647-9 | DM:ReportEnd | SelectLang_MN |  |  |  | 10000010931435559207
+29/06/2015 12:04:57:271  INFO - In Progress | session id:mpp-2015180062647-9 | DM:ReportEnd | Prepaid_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000010931435559207
+29/06/2015 12:04:57:271  INFO - In Progress | session id:mpp-2015180062647-9 | DM:ReportEnd | Prepaid_MN | Input Type | Output_Parameters:inputType | dtmf | 10000010931435559207
+29/06/2015 12:04:57:271  INFO - In Progress | session id:mpp-2015180062647-9 | DM:ReportEnd | Prepaid_MN | Value | Output_Parameters:value | HOTDEAL | 10000010931435559207
+29/06/2015 12:04:57:271  INFO - End | session id:mpp-2015180062647-9 | DM:ReportEnd | Prepaid_MN |  |  |  | 10000010931435559207
+29/06/2015 12:05:20:970  INFO - In Progress | session id:mpp-2015180062647-9 | DM:ReportEnd | Offer_MN | Return Code | Output_Parameters:returncode | NOINPUT | 10000010931435559207
+29/06/2015 12:05:20:970  INFO - End | session id:mpp-2015180062647-9 | DM:ReportEnd | Offer_MN |  |  |  | 10000010931435559207
+29/06/2015 12:05:21:204  INFO - In Progress | session id:mpp-2015180062647-9 | DM:ReportEnd | TransferAgent_PP | Return Code | Output_Parameters:returncode |  | 10000010931435559207
+29/06/2015 12:05:21:204  INFO - End | session id:mpp-2015180062647-9 | DM:ReportEnd | TransferAgent_PP |  |  |  | 10000010931435559207
+29/06/2015 12:06:48:528  INFO - In Progress | session id:mpp-2015180062859-7 | DM:ReportEnd | Welcome_PP | Return Code | Output_Parameters:returncode |  | 10000010941435559339
+29/06/2015 12:06:48:528  INFO - End | session id:mpp-2015180062859-7 | DM:ReportEnd | Welcome_PP |  |  |  | 10000010941435559339
+29/06/2015 12:06:52:834  INFO - In Progress | session id:mpp-2015180062859-7 | DM:ReportEnd | SelectLang_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000010941435559339
+29/06/2015 12:06:52:834  INFO - In Progress | session id:mpp-2015180062859-7 | DM:ReportEnd | SelectLang_MN | Input Type | Output_Parameters:inputType | dtmf | 10000010941435559339
+29/06/2015 12:06:52:834  INFO - In Progress | session id:mpp-2015180062859-7 | DM:ReportEnd | SelectLang_MN | Value | Output_Parameters:value | ENG | 10000010941435559339
+29/06/2015 12:06:52:834  INFO - End | session id:mpp-2015180062859-7 | DM:ReportEnd | SelectLang_MN |  |  |  | 10000010941435559339
+29/06/2015 12:06:55:145  INFO - In Progress | session id:mpp-2015180062859-7 | DM:ReportEnd | Prepaid_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000010941435559339
+29/06/2015 12:06:55:145  INFO - In Progress | session id:mpp-2015180062859-7 | DM:ReportEnd | Prepaid_MN | Input Type | Output_Parameters:inputType | dtmf | 10000010941435559339
+29/06/2015 12:06:55:145  INFO - In Progress | session id:mpp-2015180062859-7 | DM:ReportEnd | Prepaid_MN | Value | Output_Parameters:value | HOTDEAL | 10000010941435559339
+29/06/2015 12:06:55:145  INFO - End | session id:mpp-2015180062859-7 | DM:ReportEnd | Prepaid_MN |  |  |  | 10000010941435559339
+29/06/2015 12:07:18:814  INFO - In Progress | session id:mpp-2015180062859-7 | DM:ReportEnd | Offer_MN | Return Code | Output_Parameters:returncode | NOINPUT | 10000010941435559339
+29/06/2015 12:07:18:814  INFO - End | session id:mpp-2015180062859-7 | DM:ReportEnd | Offer_MN |  |  |  | 10000010941435559339
+29/06/2015 12:07:18:960  INFO - In Progress | session id:mpp-2015180062859-7 | DM:ReportEnd | TransferAgent_PP | Return Code | Output_Parameters:returncode |  | 10000010941435559339
+29/06/2015 12:07:18:960  INFO - End | session id:mpp-2015180062859-7 | DM:ReportEnd | TransferAgent_PP |  |  |  | 10000010941435559339
+29/06/2015 12:11:11:414  INFO - In Progress | session id:mpp-2015180063321-18 | DM:ReportEnd | Welcome_PP | Return Code | Output_Parameters:returncode |  | 10000010961435559601
+29/06/2015 12:11:11:415  INFO - End | session id:mpp-2015180063321-18 | DM:ReportEnd | Welcome_PP |  |  |  | 10000010961435559601
+29/06/2015 12:11:15:507  INFO - In Progress | session id:mpp-2015180063321-18 | DM:ReportEnd | SelectLang_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000010961435559601
+29/06/2015 12:11:15:508  INFO - In Progress | session id:mpp-2015180063321-18 | DM:ReportEnd | SelectLang_MN | Input Type | Output_Parameters:inputType | dtmf | 10000010961435559601
+29/06/2015 12:11:15:508  INFO - In Progress | session id:mpp-2015180063321-18 | DM:ReportEnd | SelectLang_MN | Value | Output_Parameters:value | ENG | 10000010961435559601
+29/06/2015 12:11:15:508  INFO - End | session id:mpp-2015180063321-18 | DM:ReportEnd | SelectLang_MN |  |  |  | 10000010961435559601
+29/06/2015 12:11:16:788  INFO - In Progress | session id:mpp-2015180063321-18 | DM:ReportEnd | Prepaid_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000010961435559601
+29/06/2015 12:11:16:788  INFO - In Progress | session id:mpp-2015180063321-18 | DM:ReportEnd | Prepaid_MN | Input Type | Output_Parameters:inputType | dtmf | 10000010961435559601
+29/06/2015 12:11:16:788  INFO - In Progress | session id:mpp-2015180063321-18 | DM:ReportEnd | Prepaid_MN | Value | Output_Parameters:value | HOTDEAL | 10000010961435559601
+29/06/2015 12:11:16:788  INFO - End | session id:mpp-2015180063321-18 | DM:ReportEnd | Prepaid_MN |  |  |  | 10000010961435559601
+29/06/2015 12:11:40:469  INFO - In Progress | session id:mpp-2015180063321-18 | DM:ReportEnd | Offer_MN | Return Code | Output_Parameters:returncode | NOINPUT | 10000010961435559601
+29/06/2015 12:11:40:469  INFO - End | session id:mpp-2015180063321-18 | DM:ReportEnd | Offer_MN |  |  |  | 10000010961435559601
+29/06/2015 12:11:40:641  INFO - In Progress | session id:mpp-2015180063321-18 | DM:ReportEnd | TransferAgent_PP | Return Code | Output_Parameters:returncode |  | 10000010961435559601
+29/06/2015 12:11:40:641  INFO - End | session id:mpp-2015180063321-18 | DM:ReportEnd | TransferAgent_PP |  |  |  | 10000010961435559601
+29/06/2015 12:26:28:902  INFO - In Progress | session id:mpp-2015180064836-12 | DM:ReportEnd | Welcome_PP | Return Code | Output_Parameters:returncode |  | 10000010971435560516
+29/06/2015 12:26:28:903  INFO - End | session id:mpp-2015180064836-12 | DM:ReportEnd | Welcome_PP |  |  |  | 10000010971435560516
+29/06/2015 12:26:32:940  INFO - In Progress | session id:mpp-2015180064836-12 | DM:ReportEnd | SelectLang_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000010971435560516
+29/06/2015 12:26:32:940  INFO - In Progress | session id:mpp-2015180064836-12 | DM:ReportEnd | SelectLang_MN | Input Type | Output_Parameters:inputType | dtmf | 10000010971435560516
+29/06/2015 12:26:32:940  INFO - In Progress | session id:mpp-2015180064836-12 | DM:ReportEnd | SelectLang_MN | Value | Output_Parameters:value | ENG | 10000010971435560516
+29/06/2015 12:26:32:940  INFO - End | session id:mpp-2015180064836-12 | DM:ReportEnd | SelectLang_MN |  |  |  | 10000010971435560516
+29/06/2015 12:27:39:047  INFO - In Progress | session id:mpp-2015180064949-13 | DM:ReportEnd | Welcome_PP | Return Code | Output_Parameters:returncode |  | 10000010991435560589
+29/06/2015 12:27:39:047  INFO - End | session id:mpp-2015180064949-13 | DM:ReportEnd | Welcome_PP |  |  |  | 10000010991435560589
+29/06/2015 12:27:42:171  INFO - In Progress | session id:mpp-2015180064949-13 | DM:ReportEnd | SelectLang_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000010991435560589
+29/06/2015 12:27:42:171  INFO - In Progress | session id:mpp-2015180064949-13 | DM:ReportEnd | SelectLang_MN | Input Type | Output_Parameters:inputType | dtmf | 10000010991435560589
+29/06/2015 12:27:42:172  INFO - In Progress | session id:mpp-2015180064949-13 | DM:ReportEnd | SelectLang_MN | Value | Output_Parameters:value | ENG | 10000010991435560589
+29/06/2015 12:27:42:172  INFO - End | session id:mpp-2015180064949-13 | DM:ReportEnd | SelectLang_MN |  |  |  | 10000010991435560589
+29/06/2015 12:27:45:072  INFO - In Progress | session id:mpp-2015180064949-13 | DM:ReportEnd | Prepaid_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000010991435560589
+29/06/2015 12:27:45:072  INFO - In Progress | session id:mpp-2015180064949-13 | DM:ReportEnd | Prepaid_MN | Input Type | Output_Parameters:inputType | dtmf | 10000010991435560589
+29/06/2015 12:27:45:072  INFO - In Progress | session id:mpp-2015180064949-13 | DM:ReportEnd | Prepaid_MN | Value | Output_Parameters:value | HOTDEAL | 10000010991435560589
+29/06/2015 12:27:45:073  INFO - End | session id:mpp-2015180064949-13 | DM:ReportEnd | Prepaid_MN |  |  |  | 10000010991435560589
+29/06/2015 12:35:11:766  INFO - In Progress | session id:mpp-2015180065719-4 | DM:ReportEnd | Welcome_PP | Return Code | Output_Parameters:returncode |  | 10000011021435561039
+29/06/2015 12:35:11:766  INFO - End | session id:mpp-2015180065719-4 | DM:ReportEnd | Welcome_PP |  |  |  | 10000011021435561039
+29/06/2015 12:35:12:955  INFO - In Progress | session id:mpp-2015180065719-4 | DM:ReportEnd | SelectLang_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000011021435561039
+29/06/2015 12:35:12:956  INFO - In Progress | session id:mpp-2015180065719-4 | DM:ReportEnd | SelectLang_MN | Input Type | Output_Parameters:inputType | dtmf | 10000011021435561039
+29/06/2015 12:35:12:956  INFO - In Progress | session id:mpp-2015180065719-4 | DM:ReportEnd | SelectLang_MN | Value | Output_Parameters:value | ENG | 10000011021435561039
+29/06/2015 12:35:12:956  INFO - End | session id:mpp-2015180065719-4 | DM:ReportEnd | SelectLang_MN |  |  |  | 10000011021435561039
+29/06/2015 12:35:14:369  INFO - In Progress | session id:mpp-2015180065719-4 | DM:ReportEnd | Prepaid_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000011021435561039
+29/06/2015 12:35:14:369  INFO - In Progress | session id:mpp-2015180065719-4 | DM:ReportEnd | Prepaid_MN | Input Type | Output_Parameters:inputType | dtmf | 10000011021435561039
+29/06/2015 12:35:14:369  INFO - In Progress | session id:mpp-2015180065719-4 | DM:ReportEnd | Prepaid_MN | Value | Output_Parameters:value | HOTDEAL | 10000011021435561039
+29/06/2015 12:35:14:370  INFO - End | session id:mpp-2015180065719-4 | DM:ReportEnd | Prepaid_MN |  |  |  | 10000011021435561039
+29/06/2015 12:35:27:580  INFO - In Progress | session id:mpp-2015180065719-4 | DM:ReportEnd | Offer_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000011021435561039
+29/06/2015 12:35:27:580  INFO - In Progress | session id:mpp-2015180065719-4 | DM:ReportEnd | Offer_MN | Input Type | Output_Parameters:inputType | dtmf | 10000011021435561039
+29/06/2015 12:35:27:580  INFO - In Progress | session id:mpp-2015180065719-4 | DM:ReportEnd | Offer_MN | Value | Output_Parameters:value | HotDeal2.wav | 10000011021435561039
+29/06/2015 12:35:27:580  INFO - End | session id:mpp-2015180065719-4 | DM:ReportEnd | Offer_MN |  |  |  | 10000011021435561039
+29/06/2015 12:35:27:733  INFO - In Progress | session id:mpp-2015180065719-4 | DM:ReportEnd | OfferMsg_PP | Return Code | Output_Parameters:returncode |  | 10000011021435561039
+29/06/2015 12:35:27:733  INFO - End | session id:mpp-2015180065719-4 | DM:ReportEnd | OfferMsg_PP |  |  |  | 10000011021435561039
+29/06/2015 12:37:19:850  INFO - In Progress | session id:mpp-2015180065930-10 | DM:ReportEnd | Welcome_PP | Return Code | Output_Parameters:returncode |  | 10000011041435561170
+29/06/2015 12:37:19:850  INFO - End | session id:mpp-2015180065930-10 | DM:ReportEnd | Welcome_PP |  |  |  | 10000011041435561170
+29/06/2015 12:37:21:349  INFO - In Progress | session id:mpp-2015180065930-10 | DM:ReportEnd | SelectLang_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000011041435561170
+29/06/2015 12:37:21:349  INFO - In Progress | session id:mpp-2015180065930-10 | DM:ReportEnd | SelectLang_MN | Input Type | Output_Parameters:inputType | dtmf | 10000011041435561170
+29/06/2015 12:37:21:349  INFO - In Progress | session id:mpp-2015180065930-10 | DM:ReportEnd | SelectLang_MN | Value | Output_Parameters:value | ENG | 10000011041435561170
+29/06/2015 12:37:21:349  INFO - End | session id:mpp-2015180065930-10 | DM:ReportEnd | SelectLang_MN |  |  |  | 10000011041435561170
+29/06/2015 12:37:22:520  INFO - In Progress | session id:mpp-2015180065930-10 | DM:ReportEnd | Prepaid_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000011041435561170
+29/06/2015 12:37:22:520  INFO - In Progress | session id:mpp-2015180065930-10 | DM:ReportEnd | Prepaid_MN | Input Type | Output_Parameters:inputType | dtmf | 10000011041435561170
+29/06/2015 12:37:22:520  INFO - In Progress | session id:mpp-2015180065930-10 | DM:ReportEnd | Prepaid_MN | Value | Output_Parameters:value | HOTDEAL | 10000011041435561170
+29/06/2015 12:37:22:520  INFO - End | session id:mpp-2015180065930-10 | DM:ReportEnd | Prepaid_MN |  |  |  | 10000011041435561170
+29/06/2015 12:37:30:305  INFO - In Progress | session id:mpp-2015180065930-10 | DM:ReportEnd | Offer_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000011041435561170
+29/06/2015 12:37:30:305  INFO - In Progress | session id:mpp-2015180065930-10 | DM:ReportEnd | Offer_MN | Input Type | Output_Parameters:inputType | dtmf | 10000011041435561170
+29/06/2015 12:37:30:305  INFO - In Progress | session id:mpp-2015180065930-10 | DM:ReportEnd | Offer_MN | Value | Output_Parameters:value | HotDeal2.wav | 10000011041435561170
+29/06/2015 12:37:30:305  INFO - End | session id:mpp-2015180065930-10 | DM:ReportEnd | Offer_MN |  |  |  | 10000011041435561170
+29/06/2015 12:37:30:430  INFO - In Progress | session id:mpp-2015180065930-10 | DM:ReportEnd | OfferMsg_PP | Return Code | Output_Parameters:returncode |  | 10000011041435561170
+29/06/2015 12:37:30:430  INFO - End | session id:mpp-2015180065930-10 | DM:ReportEnd | OfferMsg_PP |  |  |  | 10000011041435561170
+29/06/2015 12:44:01:416  INFO - In Progress | session id:mpp-2015180070608-11 | DM:ReportEnd | Welcome_PP | Return Code | Output_Parameters:returncode |  | 10000011061435561568
+29/06/2015 12:44:01:416  INFO - End | session id:mpp-2015180070608-11 | DM:ReportEnd | Welcome_PP |  |  |  | 10000011061435561568
+29/06/2015 12:44:02:480  INFO - In Progress | session id:mpp-2015180070608-11 | DM:ReportEnd | SelectLang_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000011061435561568
+29/06/2015 12:44:02:480  INFO - In Progress | session id:mpp-2015180070608-11 | DM:ReportEnd | SelectLang_MN | Input Type | Output_Parameters:inputType | dtmf | 10000011061435561568
+29/06/2015 12:44:02:480  INFO - In Progress | session id:mpp-2015180070608-11 | DM:ReportEnd | SelectLang_MN | Value | Output_Parameters:value | ENG | 10000011061435561568
+29/06/2015 12:44:02:480  INFO - End | session id:mpp-2015180070608-11 | DM:ReportEnd | SelectLang_MN |  |  |  | 10000011061435561568
+29/06/2015 12:44:06:011  INFO - In Progress | session id:mpp-2015180070608-11 | DM:ReportEnd | Prepaid_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000011061435561568
+29/06/2015 12:44:06:011  INFO - In Progress | session id:mpp-2015180070608-11 | DM:ReportEnd | Prepaid_MN | Input Type | Output_Parameters:inputType | dtmf | 10000011061435561568
+29/06/2015 12:44:06:011  INFO - In Progress | session id:mpp-2015180070608-11 | DM:ReportEnd | Prepaid_MN | Value | Output_Parameters:value | HOTDEAL | 10000011061435561568
+29/06/2015 12:44:06:011  INFO - End | session id:mpp-2015180070608-11 | DM:ReportEnd | Prepaid_MN |  |  |  | 10000011061435561568
+29/06/2015 12:44:19:479  INFO - In Progress | session id:mpp-2015180070608-11 | DM:ReportEnd | Offer_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000011061435561568
+29/06/2015 12:44:19:479  INFO - In Progress | session id:mpp-2015180070608-11 | DM:ReportEnd | Offer_MN | Input Type | Output_Parameters:inputType | dtmf | 10000011061435561568
+29/06/2015 12:44:19:479  INFO - In Progress | session id:mpp-2015180070608-11 | DM:ReportEnd | Offer_MN | Value | Output_Parameters:value | HotDeal2.wav | 10000011061435561568
+29/06/2015 12:44:19:479  INFO - End | session id:mpp-2015180070608-11 | DM:ReportEnd | Offer_MN |  |  |  | 10000011061435561568
+29/06/2015 12:44:19:620  INFO - In Progress | session id:mpp-2015180070608-11 | DM:ReportEnd | OfferMsg_PP | Return Code | Output_Parameters:returncode |  | 10000011061435561568
+29/06/2015 12:44:19:620  INFO - End | session id:mpp-2015180070608-11 | DM:ReportEnd | OfferMsg_PP |  |  |  | 10000011061435561568
+29/06/2015 12:44:35:587  INFO - In Progress | session id:mpp-2015180070608-11 | DM:ReportEnd | Subscribe_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000011061435561568
+29/06/2015 12:44:35:587  INFO - In Progress | session id:mpp-2015180070608-11 | DM:ReportEnd | Subscribe_MN | Input Type | Output_Parameters:inputType | dtmf | 10000011061435561568
+29/06/2015 12:44:35:587  INFO - In Progress | session id:mpp-2015180070608-11 | DM:ReportEnd | Subscribe_MN | Value | Output_Parameters:value | HotDeal2.wav | 10000011061435561568
+29/06/2015 12:44:35:587  INFO - End | session id:mpp-2015180070608-11 | DM:ReportEnd | Subscribe_MN |  |  |  | 10000011061435561568
+29/06/2015 12:44:35:837  INFO - In Progress | session id:mpp-2015180070608-11 | DM:ReportEnd | TransferAgent_PP | Return Code | Output_Parameters:returncode |  | 10000011061435561568
+29/06/2015 12:44:35:837  INFO - End | session id:mpp-2015180070608-11 | DM:ReportEnd | TransferAgent_PP |  |  |  | 10000011061435561568
+29/06/2015 14:07:10:310  INFO - In Progress | session id:mpp-2015180082916-3 | DM:ReportEnd | Welcome_PP | Return Code | Output_Parameters:returncode |  | 10000011141435566556
+29/06/2015 14:07:10:310  INFO - End | session id:mpp-2015180082916-3 | DM:ReportEnd | Welcome_PP |  |  |  | 10000011141435566556
+29/06/2015 14:07:14:120  INFO - In Progress | session id:mpp-2015180082916-3 | DM:ReportEnd | SelectLang_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000011141435566556
+29/06/2015 14:07:14:120  INFO - In Progress | session id:mpp-2015180082916-3 | DM:ReportEnd | SelectLang_MN | Input Type | Output_Parameters:inputType | dtmf | 10000011141435566556
+29/06/2015 14:07:14:135  INFO - In Progress | session id:mpp-2015180082916-3 | DM:ReportEnd | SelectLang_MN | Value | Output_Parameters:value | ENG | 10000011141435566556
+29/06/2015 14:07:14:135  INFO - End | session id:mpp-2015180082916-3 | DM:ReportEnd | SelectLang_MN |  |  |  | 10000011141435566556
+29/06/2015 14:08:03:952  INFO - In Progress | session id:mpp-2015180083014-5 | DM:ReportEnd | Welcome_PP | Return Code | Output_Parameters:returncode |  | 10000011151435566614
+29/06/2015 14:08:03:952  INFO - End | session id:mpp-2015180083014-5 | DM:ReportEnd | Welcome_PP |  |  |  | 10000011151435566614
+29/06/2015 14:08:07:198  INFO - In Progress | session id:mpp-2015180083014-5 | DM:ReportEnd | SelectLang_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000011151435566614
+29/06/2015 14:08:07:198  INFO - In Progress | session id:mpp-2015180083014-5 | DM:ReportEnd | SelectLang_MN | Input Type | Output_Parameters:inputType | dtmf | 10000011151435566614
+29/06/2015 14:08:07:198  INFO - In Progress | session id:mpp-2015180083014-5 | DM:ReportEnd | SelectLang_MN | Value | Output_Parameters:value | ENG | 10000011151435566614
+29/06/2015 14:08:07:198  INFO - End | session id:mpp-2015180083014-5 | DM:ReportEnd | SelectLang_MN |  |  |  | 10000011151435566614
+29/06/2015 14:08:09:352  INFO - In Progress | session id:mpp-2015180083014-5 | DM:ReportEnd | Prepaid_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000011151435566614
+29/06/2015 14:08:09:352  INFO - In Progress | session id:mpp-2015180083014-5 | DM:ReportEnd | Prepaid_MN | Input Type | Output_Parameters:inputType | dtmf | 10000011151435566614
+29/06/2015 14:08:09:352  INFO - In Progress | session id:mpp-2015180083014-5 | DM:ReportEnd | Prepaid_MN | Value | Output_Parameters:value | HOTDEAL | 10000011151435566614
+29/06/2015 14:08:09:352  INFO - End | session id:mpp-2015180083014-5 | DM:ReportEnd | Prepaid_MN |  |  |  | 10000011151435566614
+29/06/2015 14:08:50:432  INFO - In Progress | session id:mpp-2015180083014-5 | DM:ReportEnd | Offer_MN | Return Code | Output_Parameters:returncode | NOMATCH | 10000011151435566614
+29/06/2015 14:08:50:432  INFO - End | session id:mpp-2015180083014-5 | DM:ReportEnd | Offer_MN |  |  |  | 10000011151435566614
+29/06/2015 14:08:50:635  INFO - In Progress | session id:mpp-2015180083014-5 | DM:ReportEnd | TransferAgent_PP | Return Code | Output_Parameters:returncode |  | 10000011151435566614
+29/06/2015 14:08:50:635  INFO - End | session id:mpp-2015180083014-5 | DM:ReportEnd | TransferAgent_PP |  |  |  | 10000011151435566614
+29/06/2015 14:12:27:083  INFO - In Progress | session id:mpp-2015180083433-10 | DM:ReportEnd | Welcome_PP | Return Code | Output_Parameters:returncode |  | 10000011161435566873
+29/06/2015 14:12:27:083  INFO - End | session id:mpp-2015180083433-10 | DM:ReportEnd | Welcome_PP |  |  |  | 10000011161435566873
+29/06/2015 14:12:29:440  INFO - In Progress | session id:mpp-2015180083433-10 | DM:ReportEnd | SelectLang_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000011161435566873
+29/06/2015 14:12:29:440  INFO - In Progress | session id:mpp-2015180083433-10 | DM:ReportEnd | SelectLang_MN | Input Type | Output_Parameters:inputType | dtmf | 10000011161435566873
+29/06/2015 14:12:29:440  INFO - In Progress | session id:mpp-2015180083433-10 | DM:ReportEnd | SelectLang_MN | Value | Output_Parameters:value | ENG | 10000011161435566873
+29/06/2015 14:12:29:440  INFO - End | session id:mpp-2015180083433-10 | DM:ReportEnd | SelectLang_MN |  |  |  | 10000011161435566873
+29/06/2015 14:12:30:876  INFO - In Progress | session id:mpp-2015180083433-10 | DM:ReportEnd | Prepaid_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000011161435566873
+29/06/2015 14:12:30:876  INFO - In Progress | session id:mpp-2015180083433-10 | DM:ReportEnd | Prepaid_MN | Input Type | Output_Parameters:inputType | dtmf | 10000011161435566873
+29/06/2015 14:12:30:876  INFO - In Progress | session id:mpp-2015180083433-10 | DM:ReportEnd | Prepaid_MN | Value | Output_Parameters:value | HOTDEAL | 10000011161435566873
+29/06/2015 14:12:30:876  INFO - End | session id:mpp-2015180083433-10 | DM:ReportEnd | Prepaid_MN |  |  |  | 10000011161435566873
+29/06/2015 14:13:20:522  INFO - In Progress | session id:mpp-2015180083433-10 | DM:ReportEnd | Offer_MN | Return Code | Output_Parameters:returncode | NOINPUT | 10000011161435566873
+29/06/2015 14:13:20:522  INFO - End | session id:mpp-2015180083433-10 | DM:ReportEnd | Offer_MN |  |  |  | 10000011161435566873
+29/06/2015 14:13:20:709  INFO - In Progress | session id:mpp-2015180083433-10 | DM:ReportEnd | TransferAgent_PP | Return Code | Output_Parameters:returncode |  | 10000011161435566873
+29/06/2015 14:13:20:709  INFO - End | session id:mpp-2015180083433-10 | DM:ReportEnd | TransferAgent_PP |  |  |  | 10000011161435566873
+29/06/2015 14:15:00:978  INFO - In Progress | session id:mpp-2015180083711-2 | DM:ReportEnd | Welcome_PP | Return Code | Output_Parameters:returncode |  | 10000011171435567031
+29/06/2015 14:15:00:978  INFO - End | session id:mpp-2015180083711-2 | DM:ReportEnd | Welcome_PP |  |  |  | 10000011171435567031
+29/06/2015 14:15:06:132  INFO - In Progress | session id:mpp-2015180083711-2 | DM:ReportEnd | SelectLang_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000011171435567031
+29/06/2015 14:15:06:132  INFO - In Progress | session id:mpp-2015180083711-2 | DM:ReportEnd | SelectLang_MN | Input Type | Output_Parameters:inputType | dtmf | 10000011171435567031
+29/06/2015 14:15:06:132  INFO - In Progress | session id:mpp-2015180083711-2 | DM:ReportEnd | SelectLang_MN | Value | Output_Parameters:value | ENG | 10000011171435567031
+29/06/2015 14:15:06:132  INFO - End | session id:mpp-2015180083711-2 | DM:ReportEnd | SelectLang_MN |  |  |  | 10000011171435567031
+29/06/2015 14:15:10:454  INFO - In Progress | session id:mpp-2015180083711-2 | DM:ReportEnd | OldProspect_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000011171435567031
+29/06/2015 14:15:10:454  INFO - In Progress | session id:mpp-2015180083711-2 | DM:ReportEnd | OldProspect_MN | Input Type | Output_Parameters:inputType | dtmf | 10000011171435567031
+29/06/2015 14:15:10:454  INFO - In Progress | session id:mpp-2015180083711-2 | DM:ReportEnd | OldProspect_MN | Value | Output_Parameters:value | RelianceCustomer | 10000011171435567031
+29/06/2015 14:15:10:454  INFO - End | session id:mpp-2015180083711-2 | DM:ReportEnd | OldProspect_MN |  |  |  | 10000011171435567031
+29/06/2015 14:15:18:957  INFO - In Progress | session id:mpp-2015180083711-2 | DM:ReportEnd | CollectMobileNumber | Return Code | Output_Parameters:returncode | SUCCESS | 10000011171435567031
+29/06/2015 14:15:18:957  INFO - In Progress | session id:mpp-2015180083711-2 | DM:ReportEnd | CollectMobileNumber | Input Type | Output_Parameters:inputType | dtmf | 10000011171435567031
+29/06/2015 14:15:18:957  INFO - In Progress | session id:mpp-2015180083711-2 | DM:ReportEnd | CollectMobileNumber | Value | Output_Parameters:value | 1234567890 | 10000011171435567031
+29/06/2015 14:15:18:957  INFO - End | session id:mpp-2015180083711-2 | DM:ReportEnd | CollectMobileNumber |  |  |  | 10000011171435567031
+29/06/2015 14:15:31:860  INFO - In Progress | session id:mpp-2015180083711-2 | DM:ReportEnd | ConfirmNumber | Return Code | Output_Parameters:returncode | SUCCESS | 10000011171435567031
+29/06/2015 14:15:31:860  INFO - In Progress | session id:mpp-2015180083711-2 | DM:ReportEnd | ConfirmNumber | Input Type | Output_Parameters:inputType | dtmf | 10000011171435567031
+29/06/2015 14:15:31:860  INFO - In Progress | session id:mpp-2015180083711-2 | DM:ReportEnd | ConfirmNumber | Value | Output_Parameters:value | Confirm | 10000011171435567031
+29/06/2015 14:15:31:860  INFO - End | session id:mpp-2015180083711-2 | DM:ReportEnd | ConfirmNumber |  |  |  | 10000011171435567031
+29/06/2015 14:41:27:854  INFO - In Progress | session id:mpp-2015180090337-8 | DM:ReportEnd | Welcome_PP | Return Code | Output_Parameters:returncode |  | 10000011181435568617
+29/06/2015 14:41:27:854  INFO - End | session id:mpp-2015180090337-8 | DM:ReportEnd | Welcome_PP |  |  |  | 10000011181435568617
+29/06/2015 14:41:29:436  INFO - In Progress | session id:mpp-2015180090337-8 | DM:ReportEnd | SelectLang_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000011181435568617
+29/06/2015 14:41:29:436  INFO - In Progress | session id:mpp-2015180090337-8 | DM:ReportEnd | SelectLang_MN | Input Type | Output_Parameters:inputType | dtmf | 10000011181435568617
+29/06/2015 14:41:29:436  INFO - In Progress | session id:mpp-2015180090337-8 | DM:ReportEnd | SelectLang_MN | Value | Output_Parameters:value | ENG | 10000011181435568617
+29/06/2015 14:41:29:436  INFO - End | session id:mpp-2015180090337-8 | DM:ReportEnd | SelectLang_MN |  |  |  | 10000011181435568617
+29/06/2015 14:41:39:353  INFO - In Progress | session id:mpp-2015180090337-8 | DM:ReportEnd | OldProspect_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000011181435568617
+29/06/2015 14:41:39:353  INFO - In Progress | session id:mpp-2015180090337-8 | DM:ReportEnd | OldProspect_MN | Input Type | Output_Parameters:inputType | dtmf | 10000011181435568617
+29/06/2015 14:41:39:353  INFO - In Progress | session id:mpp-2015180090337-8 | DM:ReportEnd | OldProspect_MN | Value | Output_Parameters:value | RelianceCustomer | 10000011181435568617
+29/06/2015 14:41:39:353  INFO - End | session id:mpp-2015180090337-8 | DM:ReportEnd | OldProspect_MN |  |  |  | 10000011181435568617
+29/06/2015 14:41:52:291  INFO - In Progress | session id:mpp-2015180090337-8 | DM:ReportEnd | CollectMobileNumber | Return Code | Output_Parameters:returncode | SUCCESS | 10000011181435568617
+29/06/2015 14:41:52:291  INFO - In Progress | session id:mpp-2015180090337-8 | DM:ReportEnd | CollectMobileNumber | Input Type | Output_Parameters:inputType | dtmf | 10000011181435568617
+29/06/2015 14:41:52:291  INFO - In Progress | session id:mpp-2015180090337-8 | DM:ReportEnd | CollectMobileNumber | Value | Output_Parameters:value | 1234567890 | 10000011181435568617
+29/06/2015 14:41:52:291  INFO - End | session id:mpp-2015180090337-8 | DM:ReportEnd | CollectMobileNumber |  |  |  | 10000011181435568617
+29/06/2015 14:41:53:952  INFO - In Progress | session id:mpp-2015180090337-8 | DM:ReportEnd | ConfirmNumber | Return Code | Output_Parameters:returncode | SUCCESS | 10000011181435568617
+29/06/2015 14:41:53:952  INFO - In Progress | session id:mpp-2015180090337-8 | DM:ReportEnd | ConfirmNumber | Input Type | Output_Parameters:inputType | dtmf | 10000011181435568617
+29/06/2015 14:41:53:952  INFO - In Progress | session id:mpp-2015180090337-8 | DM:ReportEnd | ConfirmNumber | Value | Output_Parameters:value | Confirm | 10000011181435568617
+29/06/2015 14:41:53:952  INFO - End | session id:mpp-2015180090337-8 | DM:ReportEnd | ConfirmNumber |  |  |  | 10000011181435568617
+29/06/2015 15:26:41:380  INFO - In Progress | session id:mpp-2015180094850-18 | DM:ReportEnd | Welcome_PP | Return Code | Output_Parameters:returncode |  | 10000011271435571330
+29/06/2015 15:26:41:380  INFO - End | session id:mpp-2015180094850-18 | DM:ReportEnd | Welcome_PP |  |  |  | 10000011271435571330
+29/06/2015 15:26:42:769  INFO - In Progress | session id:mpp-2015180094850-18 | DM:ReportEnd | SelectLang_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000011271435571330
+29/06/2015 15:26:42:769  INFO - In Progress | session id:mpp-2015180094850-18 | DM:ReportEnd | SelectLang_MN | Input Type | Output_Parameters:inputType | dtmf | 10000011271435571330
+29/06/2015 15:26:42:769  INFO - In Progress | session id:mpp-2015180094850-18 | DM:ReportEnd | SelectLang_MN | Value | Output_Parameters:value | ENG | 10000011271435571330
+29/06/2015 15:26:42:769  INFO - End | session id:mpp-2015180094850-18 | DM:ReportEnd | SelectLang_MN |  |  |  | 10000011271435571330
+29/06/2015 15:26:45:235  INFO - In Progress | session id:mpp-2015180094850-18 | DM:ReportEnd | OldProspect_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000011271435571330
+29/06/2015 15:26:45:235  INFO - In Progress | session id:mpp-2015180094850-18 | DM:ReportEnd | OldProspect_MN | Input Type | Output_Parameters:inputType | dtmf | 10000011271435571330
+29/06/2015 15:26:45:235  INFO - In Progress | session id:mpp-2015180094850-18 | DM:ReportEnd | OldProspect_MN | Value | Output_Parameters:value | RelianceCustomer | 10000011271435571330
+29/06/2015 15:26:45:235  INFO - End | session id:mpp-2015180094850-18 | DM:ReportEnd | OldProspect_MN |  |  |  | 10000011271435571330
+29/06/2015 15:26:51:385  INFO - In Progress | session id:mpp-2015180094850-18 | DM:ReportEnd | CollectMobileNumber | Return Code | Output_Parameters:returncode | SUCCESS | 10000011271435571330
+29/06/2015 15:26:51:385  INFO - In Progress | session id:mpp-2015180094850-18 | DM:ReportEnd | CollectMobileNumber | Input Type | Output_Parameters:inputType | dtmf | 10000011271435571330
+29/06/2015 15:26:51:385  INFO - In Progress | session id:mpp-2015180094850-18 | DM:ReportEnd | CollectMobileNumber | Value | Output_Parameters:value | 1234567890 | 10000011271435571330
+29/06/2015 15:26:51:385  INFO - End | session id:mpp-2015180094850-18 | DM:ReportEnd | CollectMobileNumber |  |  |  | 10000011271435571330
+29/06/2015 15:26:53:710  INFO - In Progress | session id:mpp-2015180094850-18 | DM:ReportEnd | ConfirmNumber | Return Code | Output_Parameters:returncode | SUCCESS | 10000011271435571330
+29/06/2015 15:26:53:710  INFO - In Progress | session id:mpp-2015180094850-18 | DM:ReportEnd | ConfirmNumber | Input Type | Output_Parameters:inputType | dtmf | 10000011271435571330
+29/06/2015 15:26:53:710  INFO - In Progress | session id:mpp-2015180094850-18 | DM:ReportEnd | ConfirmNumber | Value | Output_Parameters:value | Confirm | 10000011271435571330
+29/06/2015 15:26:53:710  INFO - End | session id:mpp-2015180094850-18 | DM:ReportEnd | ConfirmNumber |  |  |  | 10000011271435571330
+29/06/2015 15:34:25:794  INFO - In Progress | session id:mpp-2015180095635-15 | DM:ReportEnd | Welcome_PP | Return Code | Output_Parameters:returncode |  | 10000011311435571795
+29/06/2015 15:34:25:794  INFO - End | session id:mpp-2015180095635-15 | DM:ReportEnd | Welcome_PP |  |  |  | 10000011311435571795
+29/06/2015 15:34:29:757  INFO - In Progress | session id:mpp-2015180095635-15 | DM:ReportEnd | SelectLang_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000011311435571795
+29/06/2015 15:34:29:757  INFO - In Progress | session id:mpp-2015180095635-15 | DM:ReportEnd | SelectLang_MN | Input Type | Output_Parameters:inputType | dtmf | 10000011311435571795
+29/06/2015 15:34:29:773  INFO - In Progress | session id:mpp-2015180095635-15 | DM:ReportEnd | SelectLang_MN | Value | Output_Parameters:value | ENG | 10000011311435571795
+29/06/2015 15:34:29:773  INFO - End | session id:mpp-2015180095635-15 | DM:ReportEnd | SelectLang_MN |  |  |  | 10000011311435571795
+29/06/2015 15:34:36:578  INFO - In Progress | session id:mpp-2015180095635-15 | DM:ReportEnd | OldProspect_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000011311435571795
+29/06/2015 15:34:36:578  INFO - In Progress | session id:mpp-2015180095635-15 | DM:ReportEnd | OldProspect_MN | Input Type | Output_Parameters:inputType | dtmf | 10000011311435571795
+29/06/2015 15:34:36:578  INFO - In Progress | session id:mpp-2015180095635-15 | DM:ReportEnd | OldProspect_MN | Value | Output_Parameters:value | RelianceCustomer | 10000011311435571795
+29/06/2015 15:34:36:578  INFO - End | session id:mpp-2015180095635-15 | DM:ReportEnd | OldProspect_MN |  |  |  | 10000011311435571795
+29/06/2015 15:34:46:937  INFO - In Progress | session id:mpp-2015180095635-15 | DM:ReportEnd | CollectMobileNumber | Return Code | Output_Parameters:returncode | SUCCESS | 10000011311435571795
+29/06/2015 15:34:46:937  INFO - In Progress | session id:mpp-2015180095635-15 | DM:ReportEnd | CollectMobileNumber | Input Type | Output_Parameters:inputType | dtmf | 10000011311435571795
+29/06/2015 15:34:46:937  INFO - In Progress | session id:mpp-2015180095635-15 | DM:ReportEnd | CollectMobileNumber | Value | Output_Parameters:value | 1234567890 | 10000011311435571795
+29/06/2015 15:34:46:937  INFO - End | session id:mpp-2015180095635-15 | DM:ReportEnd | CollectMobileNumber |  |  |  | 10000011311435571795
+29/06/2015 15:45:43:947  INFO - In Progress | session id:mpp-2015180100753-14 | DM:ReportEnd | Welcome_PP | Return Code | Output_Parameters:returncode |  | 10000011391435572473
+29/06/2015 15:45:43:947  INFO - End | session id:mpp-2015180100753-14 | DM:ReportEnd | Welcome_PP |  |  |  | 10000011391435572473
+29/06/2015 15:45:45:165  INFO - In Progress | session id:mpp-2015180100753-14 | DM:ReportEnd | SelectLang_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000011391435572473
+29/06/2015 15:45:45:165  INFO - In Progress | session id:mpp-2015180100753-14 | DM:ReportEnd | SelectLang_MN | Input Type | Output_Parameters:inputType | dtmf | 10000011391435572473
+29/06/2015 15:45:45:165  INFO - In Progress | session id:mpp-2015180100753-14 | DM:ReportEnd | SelectLang_MN | Value | Output_Parameters:value | ENG | 10000011391435572473
+29/06/2015 15:45:45:165  INFO - End | session id:mpp-2015180100753-14 | DM:ReportEnd | SelectLang_MN |  |  |  | 10000011391435572473
+29/06/2015 15:45:48:523  INFO - In Progress | session id:mpp-2015180100753-14 | DM:ReportEnd | OldProspect_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000011391435572473
+29/06/2015 15:45:48:523  INFO - In Progress | session id:mpp-2015180100753-14 | DM:ReportEnd | OldProspect_MN | Input Type | Output_Parameters:inputType | dtmf | 10000011391435572473
+29/06/2015 15:45:48:523  INFO - In Progress | session id:mpp-2015180100753-14 | DM:ReportEnd | OldProspect_MN | Value | Output_Parameters:value | RelianceCustomer | 10000011391435572473
+29/06/2015 15:45:48:523  INFO - End | session id:mpp-2015180100753-14 | DM:ReportEnd | OldProspect_MN |  |  |  | 10000011391435572473
+29/06/2015 16:37:48:536  INFO - In Progress | session id:mpp-2015180105957-5 | DM:ReportEnd | Welcome_PP | Return Code | Output_Parameters:returncode |  | 10000011531435575597
+29/06/2015 16:37:48:536  INFO - End | session id:mpp-2015180105957-5 | DM:ReportEnd | Welcome_PP |  |  |  | 10000011531435575597
+29/06/2015 16:37:51:942  INFO - In Progress | session id:mpp-2015180105957-5 | DM:ReportEnd | SelectLang_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000011531435575597
+29/06/2015 16:37:51:942  INFO - In Progress | session id:mpp-2015180105957-5 | DM:ReportEnd | SelectLang_MN | Input Type | Output_Parameters:inputType | dtmf | 10000011531435575597
+29/06/2015 16:37:51:943  INFO - In Progress | session id:mpp-2015180105957-5 | DM:ReportEnd | SelectLang_MN | Value | Output_Parameters:value | ENG | 10000011531435575597
+29/06/2015 16:37:51:943  INFO - End | session id:mpp-2015180105957-5 | DM:ReportEnd | SelectLang_MN |  |  |  | 10000011531435575597
+29/06/2015 16:37:55:910  INFO - In Progress | session id:mpp-2015180105957-5 | DM:ReportEnd | OldProspect_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000011531435575597
+29/06/2015 16:37:55:910  INFO - In Progress | session id:mpp-2015180105957-5 | DM:ReportEnd | OldProspect_MN | Input Type | Output_Parameters:inputType | dtmf | 10000011531435575597
+29/06/2015 16:37:55:910  INFO - In Progress | session id:mpp-2015180105957-5 | DM:ReportEnd | OldProspect_MN | Value | Output_Parameters:value | RelianceCustomer | 10000011531435575597
+29/06/2015 16:37:55:910  INFO - End | session id:mpp-2015180105957-5 | DM:ReportEnd | OldProspect_MN |  |  |  | 10000011531435575597
+29/06/2015 16:38:05:213  INFO - In Progress | session id:mpp-2015180105957-5 | DM:ReportEnd | CollectMobileNumber | Return Code | Output_Parameters:returncode | SUCCESS | 10000011531435575597
+29/06/2015 16:38:05:213  INFO - In Progress | session id:mpp-2015180105957-5 | DM:ReportEnd | CollectMobileNumber | Input Type | Output_Parameters:inputType | dtmf | 10000011531435575597
+29/06/2015 16:38:05:213  INFO - In Progress | session id:mpp-2015180105957-5 | DM:ReportEnd | CollectMobileNumber | Value | Output_Parameters:value | 1234567890 | 10000011531435575597
+29/06/2015 16:38:05:213  INFO - End | session id:mpp-2015180105957-5 | DM:ReportEnd | CollectMobileNumber |  |  |  | 10000011531435575597
+29/06/2015 16:38:07:323  INFO - In Progress | session id:mpp-2015180105957-5 | DM:ReportEnd | ConfirmNumber | Return Code | Output_Parameters:returncode | SUCCESS | 10000011531435575597
+29/06/2015 16:38:07:323  INFO - In Progress | session id:mpp-2015180105957-5 | DM:ReportEnd | ConfirmNumber | Input Type | Output_Parameters:inputType | dtmf | 10000011531435575597
+29/06/2015 16:38:07:324  INFO - In Progress | session id:mpp-2015180105957-5 | DM:ReportEnd | ConfirmNumber | Value | Output_Parameters:value | Confirm | 10000011531435575597
+29/06/2015 16:38:07:324  INFO - End | session id:mpp-2015180105957-5 | DM:ReportEnd | ConfirmNumber |  |  |  | 10000011531435575597
+29/06/2015 16:45:42:337  INFO - In Progress | session id:mpp-2015180110751-3 | DM:ReportEnd | Welcome_PP | Return Code | Output_Parameters:returncode |  | 10000011541435576071
+29/06/2015 16:45:42:337  INFO - End | session id:mpp-2015180110751-3 | DM:ReportEnd | Welcome_PP |  |  |  | 10000011541435576071
+29/06/2015 16:45:44:563  INFO - In Progress | session id:mpp-2015180110751-3 | DM:ReportEnd | SelectLang_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000011541435576071
+29/06/2015 16:45:44:564  INFO - In Progress | session id:mpp-2015180110751-3 | DM:ReportEnd | SelectLang_MN | Input Type | Output_Parameters:inputType | dtmf | 10000011541435576071
+29/06/2015 16:45:44:564  INFO - In Progress | session id:mpp-2015180110751-3 | DM:ReportEnd | SelectLang_MN | Value | Output_Parameters:value | ENG | 10000011541435576071
+29/06/2015 16:45:44:564  INFO - End | session id:mpp-2015180110751-3 | DM:ReportEnd | SelectLang_MN |  |  |  | 10000011541435576071
+29/06/2015 16:45:47:349  INFO - In Progress | session id:mpp-2015180110751-3 | DM:ReportEnd | OldProspect_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000011541435576071
+29/06/2015 16:45:47:349  INFO - In Progress | session id:mpp-2015180110751-3 | DM:ReportEnd | OldProspect_MN | Input Type | Output_Parameters:inputType | dtmf | 10000011541435576071
+29/06/2015 16:45:47:349  INFO - In Progress | session id:mpp-2015180110751-3 | DM:ReportEnd | OldProspect_MN | Value | Output_Parameters:value | RelianceCustomer | 10000011541435576071
+29/06/2015 16:45:47:349  INFO - End | session id:mpp-2015180110751-3 | DM:ReportEnd | OldProspect_MN |  |  |  | 10000011541435576071
+29/06/2015 16:45:54:043  INFO - In Progress | session id:mpp-2015180110751-3 | DM:ReportEnd | CollectMobileNumber | Return Code | Output_Parameters:returncode | SUCCESS | 10000011541435576071
+29/06/2015 16:45:54:043  INFO - In Progress | session id:mpp-2015180110751-3 | DM:ReportEnd | CollectMobileNumber | Input Type | Output_Parameters:inputType | dtmf | 10000011541435576071
+29/06/2015 16:45:54:043  INFO - In Progress | session id:mpp-2015180110751-3 | DM:ReportEnd | CollectMobileNumber | Value | Output_Parameters:value | 1234567890 | 10000011541435576071
+29/06/2015 16:45:54:043  INFO - End | session id:mpp-2015180110751-3 | DM:ReportEnd | CollectMobileNumber |  |  |  | 10000011541435576071
+29/06/2015 16:45:56:644  INFO - In Progress | session id:mpp-2015180110751-3 | DM:ReportEnd | ConfirmNumber | Return Code | Output_Parameters:returncode | SUCCESS | 10000011541435576071
+29/06/2015 16:45:56:644  INFO - In Progress | session id:mpp-2015180110751-3 | DM:ReportEnd | ConfirmNumber | Input Type | Output_Parameters:inputType | dtmf | 10000011541435576071
+29/06/2015 16:45:56:645  INFO - In Progress | session id:mpp-2015180110751-3 | DM:ReportEnd | ConfirmNumber | Value | Output_Parameters:value | Confirm | 10000011541435576071
+29/06/2015 16:45:56:645  INFO - End | session id:mpp-2015180110751-3 | DM:ReportEnd | ConfirmNumber |  |  |  | 10000011541435576071
+29/06/2015 16:59:36:399  INFO - In Progress | session id:mpp-2015180112145-8 | DM:ReportEnd | Welcome_PP | Return Code | Output_Parameters:returncode |  | 10000011571435576905
+29/06/2015 16:59:36:399  INFO - End | session id:mpp-2015180112145-8 | DM:ReportEnd | Welcome_PP |  |  |  | 10000011571435576905
+29/06/2015 16:59:39:886  INFO - In Progress | session id:mpp-2015180112145-8 | DM:ReportEnd | SelectLang_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000011571435576905
+29/06/2015 16:59:39:886  INFO - In Progress | session id:mpp-2015180112145-8 | DM:ReportEnd | SelectLang_MN | Input Type | Output_Parameters:inputType | dtmf | 10000011571435576905
+29/06/2015 16:59:39:886  INFO - In Progress | session id:mpp-2015180112145-8 | DM:ReportEnd | SelectLang_MN | Value | Output_Parameters:value | ENG | 10000011571435576905
+29/06/2015 16:59:39:886  INFO - End | session id:mpp-2015180112145-8 | DM:ReportEnd | SelectLang_MN |  |  |  | 10000011571435576905
+29/06/2015 16:59:41:463  INFO - In Progress | session id:mpp-2015180112145-8 | DM:ReportEnd | OldProspect_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000011571435576905
+29/06/2015 16:59:41:463  INFO - In Progress | session id:mpp-2015180112145-8 | DM:ReportEnd | OldProspect_MN | Input Type | Output_Parameters:inputType | dtmf | 10000011571435576905
+29/06/2015 16:59:41:463  INFO - In Progress | session id:mpp-2015180112145-8 | DM:ReportEnd | OldProspect_MN | Value | Output_Parameters:value | RelianceCustomer | 10000011571435576905
+29/06/2015 16:59:41:463  INFO - End | session id:mpp-2015180112145-8 | DM:ReportEnd | OldProspect_MN |  |  |  | 10000011571435576905
+29/06/2015 16:59:48:272  INFO - In Progress | session id:mpp-2015180112145-8 | DM:ReportEnd | CollectMobileNumber | Return Code | Output_Parameters:returncode | SUCCESS | 10000011571435576905
+29/06/2015 16:59:48:272  INFO - In Progress | session id:mpp-2015180112145-8 | DM:ReportEnd | CollectMobileNumber | Input Type | Output_Parameters:inputType | dtmf | 10000011571435576905
+29/06/2015 16:59:48:272  INFO - In Progress | session id:mpp-2015180112145-8 | DM:ReportEnd | CollectMobileNumber | Value | Output_Parameters:value | 1234567890 | 10000011571435576905
+29/06/2015 16:59:48:272  INFO - End | session id:mpp-2015180112145-8 | DM:ReportEnd | CollectMobileNumber |  |  |  | 10000011571435576905
+29/06/2015 16:59:49:592  INFO - In Progress | session id:mpp-2015180112145-8 | DM:ReportEnd | ConfirmNumber | Return Code | Output_Parameters:returncode | SUCCESS | 10000011571435576905
+29/06/2015 16:59:49:593  INFO - In Progress | session id:mpp-2015180112145-8 | DM:ReportEnd | ConfirmNumber | Input Type | Output_Parameters:inputType | dtmf | 10000011571435576905
+29/06/2015 16:59:49:593  INFO - In Progress | session id:mpp-2015180112145-8 | DM:ReportEnd | ConfirmNumber | Value | Output_Parameters:value | Confirm | 10000011571435576905
+29/06/2015 16:59:49:593  INFO - End | session id:mpp-2015180112145-8 | DM:ReportEnd | ConfirmNumber |  |  |  | 10000011571435576905
+29/06/2015 17:08:25:684  INFO - In Progress | session id:mpp-2015180113034-14 | DM:ReportEnd | Welcome_PP | Return Code | Output_Parameters:returncode |  | 10000011591435577434
+29/06/2015 17:08:25:685  INFO - End | session id:mpp-2015180113034-14 | DM:ReportEnd | Welcome_PP |  |  |  | 10000011591435577434
+29/06/2015 17:08:28:575  INFO - In Progress | session id:mpp-2015180113034-14 | DM:ReportEnd | SelectLang_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000011591435577434
+29/06/2015 17:08:28:576  INFO - In Progress | session id:mpp-2015180113034-14 | DM:ReportEnd | SelectLang_MN | Input Type | Output_Parameters:inputType | dtmf | 10000011591435577434
+29/06/2015 17:08:28:576  INFO - In Progress | session id:mpp-2015180113034-14 | DM:ReportEnd | SelectLang_MN | Value | Output_Parameters:value | ENG | 10000011591435577434
+29/06/2015 17:08:28:576  INFO - End | session id:mpp-2015180113034-14 | DM:ReportEnd | SelectLang_MN |  |  |  | 10000011591435577434
+29/06/2015 17:08:29:909  INFO - In Progress | session id:mpp-2015180113034-14 | DM:ReportEnd | OldProspect_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000011591435577434
+29/06/2015 17:08:29:910  INFO - In Progress | session id:mpp-2015180113034-14 | DM:ReportEnd | OldProspect_MN | Input Type | Output_Parameters:inputType | dtmf | 10000011591435577434
+29/06/2015 17:08:29:910  INFO - In Progress | session id:mpp-2015180113034-14 | DM:ReportEnd | OldProspect_MN | Value | Output_Parameters:value | RelianceCustomer | 10000011591435577434
+29/06/2015 17:08:29:910  INFO - End | session id:mpp-2015180113034-14 | DM:ReportEnd | OldProspect_MN |  |  |  | 10000011591435577434
+29/06/2015 17:08:35:831  INFO - In Progress | session id:mpp-2015180113034-14 | DM:ReportEnd | CollectMobileNumber | Return Code | Output_Parameters:returncode | SUCCESS | 10000011591435577434
+29/06/2015 17:08:35:831  INFO - In Progress | session id:mpp-2015180113034-14 | DM:ReportEnd | CollectMobileNumber | Input Type | Output_Parameters:inputType | dtmf | 10000011591435577434
+29/06/2015 17:08:35:831  INFO - In Progress | session id:mpp-2015180113034-14 | DM:ReportEnd | CollectMobileNumber | Value | Output_Parameters:value | 1234567890 | 10000011591435577434
+29/06/2015 17:08:35:831  INFO - End | session id:mpp-2015180113034-14 | DM:ReportEnd | CollectMobileNumber |  |  |  | 10000011591435577434
+29/06/2015 17:08:40:784  INFO - In Progress | session id:mpp-2015180113034-14 | DM:ReportEnd | ConfirmNumber | Return Code | Output_Parameters:returncode | SUCCESS | 10000011591435577434
+29/06/2015 17:08:40:784  INFO - In Progress | session id:mpp-2015180113034-14 | DM:ReportEnd | ConfirmNumber | Input Type | Output_Parameters:inputType | dtmf | 10000011591435577434
+29/06/2015 17:08:40:784  INFO - In Progress | session id:mpp-2015180113034-14 | DM:ReportEnd | ConfirmNumber | Value | Output_Parameters:value | Confirm | 10000011591435577434
+29/06/2015 17:08:40:784  INFO - End | session id:mpp-2015180113034-14 | DM:ReportEnd | ConfirmNumber |  |  |  | 10000011591435577434
+29/06/2015 17:08:40:935  INFO - In Progress | session id:mpp-2015180113034-14 | DM:ReportEnd | HotFlash | Return Code | Output_Parameters:returncode |  | 10000011591435577434
+29/06/2015 17:08:40:935  INFO - End | session id:mpp-2015180113034-14 | DM:ReportEnd | HotFlash |  |  |  | 10000011591435577434
+29/06/2015 17:10:08:063  INFO - In Progress | session id:mpp-2015180113217-1 | DM:ReportEnd | Welcome_PP | Return Code | Output_Parameters:returncode |  | 10000011601435577537
+29/06/2015 17:10:08:063  INFO - End | session id:mpp-2015180113217-1 | DM:ReportEnd | Welcome_PP |  |  |  | 10000011601435577537
+29/06/2015 17:10:11:379  INFO - In Progress | session id:mpp-2015180113217-1 | DM:ReportEnd | SelectLang_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000011601435577537
+29/06/2015 17:10:11:379  INFO - In Progress | session id:mpp-2015180113217-1 | DM:ReportEnd | SelectLang_MN | Input Type | Output_Parameters:inputType | dtmf | 10000011601435577537
+29/06/2015 17:10:11:379  INFO - In Progress | session id:mpp-2015180113217-1 | DM:ReportEnd | SelectLang_MN | Value | Output_Parameters:value | ENG | 10000011601435577537
+29/06/2015 17:10:11:380  INFO - End | session id:mpp-2015180113217-1 | DM:ReportEnd | SelectLang_MN |  |  |  | 10000011601435577537
+29/06/2015 17:10:15:044  INFO - In Progress | session id:mpp-2015180113217-1 | DM:ReportEnd | OldProspect_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000011601435577537
+29/06/2015 17:10:15:044  INFO - In Progress | session id:mpp-2015180113217-1 | DM:ReportEnd | OldProspect_MN | Input Type | Output_Parameters:inputType | dtmf | 10000011601435577537
+29/06/2015 17:10:15:044  INFO - In Progress | session id:mpp-2015180113217-1 | DM:ReportEnd | OldProspect_MN | Value | Output_Parameters:value | RelianceCustomer | 10000011601435577537
+29/06/2015 17:10:15:044  INFO - End | session id:mpp-2015180113217-1 | DM:ReportEnd | OldProspect_MN |  |  |  | 10000011601435577537
+29/06/2015 17:10:21:587  INFO - In Progress | session id:mpp-2015180113217-1 | DM:ReportEnd | CollectMobileNumber | Return Code | Output_Parameters:returncode | SUCCESS | 10000011601435577537
+29/06/2015 17:10:21:587  INFO - In Progress | session id:mpp-2015180113217-1 | DM:ReportEnd | CollectMobileNumber | Input Type | Output_Parameters:inputType | dtmf | 10000011601435577537
+29/06/2015 17:10:21:587  INFO - In Progress | session id:mpp-2015180113217-1 | DM:ReportEnd | CollectMobileNumber | Value | Output_Parameters:value | 1234567890 | 10000011601435577537
+29/06/2015 17:10:21:587  INFO - End | session id:mpp-2015180113217-1 | DM:ReportEnd | CollectMobileNumber |  |  |  | 10000011601435577537
+29/06/2015 17:10:27:073  INFO - In Progress | session id:mpp-2015180113217-1 | DM:ReportEnd | ConfirmNumber | Return Code | Output_Parameters:returncode | SUCCESS | 10000011601435577537
+29/06/2015 17:10:27:073  INFO - In Progress | session id:mpp-2015180113217-1 | DM:ReportEnd | ConfirmNumber | Input Type | Output_Parameters:inputType | dtmf | 10000011601435577537
+29/06/2015 17:10:27:074  INFO - In Progress | session id:mpp-2015180113217-1 | DM:ReportEnd | ConfirmNumber | Value | Output_Parameters:value | Confirm | 10000011601435577537
+29/06/2015 17:10:27:074  INFO - End | session id:mpp-2015180113217-1 | DM:ReportEnd | ConfirmNumber |  |  |  | 10000011601435577537
+29/06/2015 17:10:27:216  INFO - In Progress | session id:mpp-2015180113217-1 | DM:ReportEnd | HotFlash | Return Code | Output_Parameters:returncode |  | 10000011601435577537
+29/06/2015 17:10:27:216  INFO - End | session id:mpp-2015180113217-1 | DM:ReportEnd | HotFlash |  |  |  | 10000011601435577537
+29/06/2015 17:10:41:131  INFO - In Progress | session id:mpp-2015180113217-1 | DM:ReportEnd | Prepaid_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000011601435577537
+29/06/2015 17:10:41:131  INFO - In Progress | session id:mpp-2015180113217-1 | DM:ReportEnd | Prepaid_MN | Input Type | Output_Parameters:inputType | dtmf | 10000011601435577537
+29/06/2015 17:10:41:131  INFO - In Progress | session id:mpp-2015180113217-1 | DM:ReportEnd | Prepaid_MN | Value | Output_Parameters:value | HOTDEAL | 10000011601435577537
+29/06/2015 17:10:41:131  INFO - End | session id:mpp-2015180113217-1 | DM:ReportEnd | Prepaid_MN |  |  |  | 10000011601435577537
+29/06/2015 17:16:07:128  INFO - In Progress | session id:mpp-2015180113816-11 | DM:ReportEnd | Welcome_PP | Return Code | Output_Parameters:returncode |  | 10000011611435577896
+29/06/2015 17:16:07:128  INFO - End | session id:mpp-2015180113816-11 | DM:ReportEnd | Welcome_PP |  |  |  | 10000011611435577896
+29/06/2015 17:16:14:037  INFO - In Progress | session id:mpp-2015180113816-11 | DM:ReportEnd | SelectLang_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000011611435577896
+29/06/2015 17:16:14:038  INFO - In Progress | session id:mpp-2015180113816-11 | DM:ReportEnd | SelectLang_MN | Input Type | Output_Parameters:inputType | dtmf | 10000011611435577896
+29/06/2015 17:16:14:038  INFO - In Progress | session id:mpp-2015180113816-11 | DM:ReportEnd | SelectLang_MN | Value | Output_Parameters:value | ENG | 10000011611435577896
+29/06/2015 17:16:14:038  INFO - End | session id:mpp-2015180113816-11 | DM:ReportEnd | SelectLang_MN |  |  |  | 10000011611435577896
+29/06/2015 17:21:54:698  INFO - In Progress | session id:mpp-2015180114404-6 | DM:ReportEnd | Welcome_PP | Return Code | Output_Parameters:returncode |  | 10000011621435578244
+29/06/2015 17:21:54:699  INFO - End | session id:mpp-2015180114404-6 | DM:ReportEnd | Welcome_PP |  |  |  | 10000011621435578244
+29/06/2015 17:21:59:295  INFO - In Progress | session id:mpp-2015180114404-6 | DM:ReportEnd | SelectLang_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000011621435578244
+29/06/2015 17:21:59:296  INFO - In Progress | session id:mpp-2015180114404-6 | DM:ReportEnd | SelectLang_MN | Input Type | Output_Parameters:inputType | dtmf | 10000011621435578244
+29/06/2015 17:21:59:296  INFO - In Progress | session id:mpp-2015180114404-6 | DM:ReportEnd | SelectLang_MN | Value | Output_Parameters:value | ENG | 10000011621435578244
+29/06/2015 17:21:59:296  INFO - End | session id:mpp-2015180114404-6 | DM:ReportEnd | SelectLang_MN |  |  |  | 10000011621435578244
+29/06/2015 17:22:00:214  INFO - In Progress | session id:mpp-2015180114404-6 | DM:ReportEnd | OldProspect_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000011621435578244
+29/06/2015 17:22:00:214  INFO - In Progress | session id:mpp-2015180114404-6 | DM:ReportEnd | OldProspect_MN | Input Type | Output_Parameters:inputType | dtmf | 10000011621435578244
+29/06/2015 17:22:00:214  INFO - In Progress | session id:mpp-2015180114404-6 | DM:ReportEnd | OldProspect_MN | Value | Output_Parameters:value | RelianceCustomer | 10000011621435578244
+29/06/2015 17:22:00:214  INFO - End | session id:mpp-2015180114404-6 | DM:ReportEnd | OldProspect_MN |  |  |  | 10000011621435578244
+29/06/2015 17:22:11:161  INFO - In Progress | session id:mpp-2015180114404-6 | DM:ReportEnd | CollectMobileNumber | Return Code | Output_Parameters:returncode | SUCCESS | 10000011621435578244
+29/06/2015 17:22:11:161  INFO - In Progress | session id:mpp-2015180114404-6 | DM:ReportEnd | CollectMobileNumber | Input Type | Output_Parameters:inputType | dtmf | 10000011621435578244
+29/06/2015 17:22:11:161  INFO - In Progress | session id:mpp-2015180114404-6 | DM:ReportEnd | CollectMobileNumber | Value | Output_Parameters:value | 1234567890 | 10000011621435578244
+29/06/2015 17:22:11:161  INFO - End | session id:mpp-2015180114404-6 | DM:ReportEnd | CollectMobileNumber |  |  |  | 10000011621435578244
+29/06/2015 17:22:12:249  INFO - In Progress | session id:mpp-2015180114404-6 | DM:ReportEnd | ConfirmNumber | Return Code | Output_Parameters:returncode | SUCCESS | 10000011621435578244
+29/06/2015 17:22:12:249  INFO - In Progress | session id:mpp-2015180114404-6 | DM:ReportEnd | ConfirmNumber | Input Type | Output_Parameters:inputType | dtmf | 10000011621435578244
+29/06/2015 17:22:12:249  INFO - In Progress | session id:mpp-2015180114404-6 | DM:ReportEnd | ConfirmNumber | Value | Output_Parameters:value | Confirm | 10000011621435578244
+29/06/2015 17:22:12:249  INFO - End | session id:mpp-2015180114404-6 | DM:ReportEnd | ConfirmNumber |  |  |  | 10000011621435578244
+29/06/2015 17:22:12:390  INFO - In Progress | session id:mpp-2015180114404-6 | DM:ReportEnd | HotFlash | Return Code | Output_Parameters:returncode |  | 10000011621435578244
+29/06/2015 17:22:12:390  INFO - End | session id:mpp-2015180114404-6 | DM:ReportEnd | HotFlash |  |  |  | 10000011621435578244
+29/06/2015 17:22:20:265  INFO - In Progress | session id:mpp-2015180114404-6 | DM:ReportEnd | Prepaid_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000011621435578244
+29/06/2015 17:22:20:265  INFO - In Progress | session id:mpp-2015180114404-6 | DM:ReportEnd | Prepaid_MN | Input Type | Output_Parameters:inputType | dtmf | 10000011621435578244
+29/06/2015 17:22:20:265  INFO - In Progress | session id:mpp-2015180114404-6 | DM:ReportEnd | Prepaid_MN | Value | Output_Parameters:value | HOTDEAL | 10000011621435578244
+29/06/2015 17:22:20:265  INFO - End | session id:mpp-2015180114404-6 | DM:ReportEnd | Prepaid_MN |  |  |  | 10000011621435578244
+29/06/2015 17:22:22:323  INFO - In Progress | session id:mpp-2015180114404-6 | DM:ReportEnd | Offer_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000011621435578244
+29/06/2015 17:22:22:323  INFO - In Progress | session id:mpp-2015180114404-6 | DM:ReportEnd | Offer_MN | Input Type | Output_Parameters:inputType | dtmf | 10000011621435578244
+29/06/2015 17:22:22:323  INFO - In Progress | session id:mpp-2015180114404-6 | DM:ReportEnd | Offer_MN | Value | Output_Parameters:value | HotDeal2.wav | 10000011621435578244
+29/06/2015 17:22:22:323  INFO - End | session id:mpp-2015180114404-6 | DM:ReportEnd | Offer_MN |  |  |  | 10000011621435578244
+29/06/2015 17:22:22:533  INFO - In Progress | session id:mpp-2015180114404-6 | DM:ReportEnd | OfferMsg_PP | Return Code | Output_Parameters:returncode |  | 10000011621435578244
+29/06/2015 17:22:22:533  INFO - End | session id:mpp-2015180114404-6 | DM:ReportEnd | OfferMsg_PP |  |  |  | 10000011621435578244
+29/06/2015 17:22:36:388  INFO - In Progress | session id:mpp-2015180114404-6 | DM:ReportEnd | Subscribe_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000011621435578244
+29/06/2015 17:22:36:388  INFO - In Progress | session id:mpp-2015180114404-6 | DM:ReportEnd | Subscribe_MN | Input Type | Output_Parameters:inputType | dtmf | 10000011621435578244
+29/06/2015 17:22:36:388  INFO - In Progress | session id:mpp-2015180114404-6 | DM:ReportEnd | Subscribe_MN | Value | Output_Parameters:value | HotDeal1.wav | 10000011621435578244
+29/06/2015 17:22:36:388  INFO - End | session id:mpp-2015180114404-6 | DM:ReportEnd | Subscribe_MN |  |  |  | 10000011621435578244
+29/06/2015 17:22:36:579  INFO - In Progress | session id:mpp-2015180114404-6 | DM:ReportEnd | TransferAgent_PP | Return Code | Output_Parameters:returncode |  | 10000011621435578244
+29/06/2015 17:22:36:579  INFO - End | session id:mpp-2015180114404-6 | DM:ReportEnd | TransferAgent_PP |  |  |  | 10000011621435578244
+29/06/2015 17:22:41:866  INFO - In Progress | session id:mpp-2015180114451-9 | DM:ReportEnd | Welcome_PP | Return Code | Output_Parameters:returncode |  | 10000011631435578291
+29/06/2015 17:22:41:866  INFO - End | session id:mpp-2015180114451-9 | DM:ReportEnd | Welcome_PP |  |  |  | 10000011631435578291
+29/06/2015 17:30:45:347  INFO - In Progress | session id:mpp-2015180115255-18 | DM:ReportEnd | Welcome_PP | Return Code | Output_Parameters:returncode |  | 10000011651435578775
+29/06/2015 17:30:45:347  INFO - End | session id:mpp-2015180115255-18 | DM:ReportEnd | Welcome_PP |  |  |  | 10000011651435578775
+29/06/2015 17:30:48:241  INFO - In Progress | session id:mpp-2015180115255-18 | DM:ReportEnd | SelectLang_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000011651435578775
+29/06/2015 17:30:48:242  INFO - In Progress | session id:mpp-2015180115255-18 | DM:ReportEnd | SelectLang_MN | Input Type | Output_Parameters:inputType | dtmf | 10000011651435578775
+29/06/2015 17:30:48:242  INFO - In Progress | session id:mpp-2015180115255-18 | DM:ReportEnd | SelectLang_MN | Value | Output_Parameters:value | ENG | 10000011651435578775
+29/06/2015 17:30:48:242  INFO - End | session id:mpp-2015180115255-18 | DM:ReportEnd | SelectLang_MN |  |  |  | 10000011651435578775
+29/06/2015 17:30:49:850  INFO - In Progress | session id:mpp-2015180115255-18 | DM:ReportEnd | OldProspect_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000011651435578775
+29/06/2015 17:30:49:850  INFO - In Progress | session id:mpp-2015180115255-18 | DM:ReportEnd | OldProspect_MN | Input Type | Output_Parameters:inputType | dtmf | 10000011651435578775
+29/06/2015 17:30:49:850  INFO - In Progress | session id:mpp-2015180115255-18 | DM:ReportEnd | OldProspect_MN | Value | Output_Parameters:value | RelianceCustomer | 10000011651435578775
+29/06/2015 17:30:49:850  INFO - End | session id:mpp-2015180115255-18 | DM:ReportEnd | OldProspect_MN |  |  |  | 10000011651435578775
+29/06/2015 17:30:57:106  INFO - In Progress | session id:mpp-2015180115255-18 | DM:ReportEnd | CollectMobileNumber | Return Code | Output_Parameters:returncode | SUCCESS | 10000011651435578775
+29/06/2015 17:30:57:106  INFO - In Progress | session id:mpp-2015180115255-18 | DM:ReportEnd | CollectMobileNumber | Input Type | Output_Parameters:inputType | dtmf | 10000011651435578775
+29/06/2015 17:30:57:106  INFO - In Progress | session id:mpp-2015180115255-18 | DM:ReportEnd | CollectMobileNumber | Value | Output_Parameters:value | 1234567890 | 10000011651435578775
+29/06/2015 17:30:57:106  INFO - End | session id:mpp-2015180115255-18 | DM:ReportEnd | CollectMobileNumber |  |  |  | 10000011651435578775
+29/06/2015 17:30:58:507  INFO - In Progress | session id:mpp-2015180115255-18 | DM:ReportEnd | ConfirmNumber | Return Code | Output_Parameters:returncode | SUCCESS | 10000011651435578775
+29/06/2015 17:30:58:507  INFO - In Progress | session id:mpp-2015180115255-18 | DM:ReportEnd | ConfirmNumber | Input Type | Output_Parameters:inputType | dtmf | 10000011651435578775
+29/06/2015 17:30:58:507  INFO - In Progress | session id:mpp-2015180115255-18 | DM:ReportEnd | ConfirmNumber | Value | Output_Parameters:value | Confirm | 10000011651435578775
+29/06/2015 17:30:58:507  INFO - End | session id:mpp-2015180115255-18 | DM:ReportEnd | ConfirmNumber |  |  |  | 10000011651435578775
+29/06/2015 17:30:58:596  INFO - In Progress | session id:mpp-2015180115255-18 | DM:ReportEnd | HotFlash | Return Code | Output_Parameters:returncode |  | 10000011651435578775
+29/06/2015 17:30:58:596  INFO - End | session id:mpp-2015180115255-18 | DM:ReportEnd | HotFlash |  |  |  | 10000011651435578775
+29/06/2015 17:31:01:702  INFO - In Progress | session id:mpp-2015180115255-18 | DM:ReportEnd | Prepaid_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000011651435578775
+29/06/2015 17:31:01:702  INFO - In Progress | session id:mpp-2015180115255-18 | DM:ReportEnd | Prepaid_MN | Input Type | Output_Parameters:inputType | dtmf | 10000011651435578775
+29/06/2015 17:31:01:702  INFO - In Progress | session id:mpp-2015180115255-18 | DM:ReportEnd | Prepaid_MN | Value | Output_Parameters:value | HOTDEAL | 10000011651435578775
+29/06/2015 17:31:01:702  INFO - End | session id:mpp-2015180115255-18 | DM:ReportEnd | Prepaid_MN |  |  |  | 10000011651435578775
+29/06/2015 17:32:01:313  INFO - In Progress | session id:mpp-2015180115255-18 | DM:ReportEnd | Offer_MN | Return Code | Output_Parameters:returncode | NOINPUT | 10000011651435578775
+29/06/2015 17:32:01:314  INFO - End | session id:mpp-2015180115255-18 | DM:ReportEnd | Offer_MN |  |  |  | 10000011651435578775
+29/06/2015 17:32:01:467  INFO - In Progress | session id:mpp-2015180115255-18 | DM:ReportEnd | TransferAgent_PP | Return Code | Output_Parameters:returncode |  | 10000011651435578775
+29/06/2015 17:32:01:467  INFO - End | session id:mpp-2015180115255-18 | DM:ReportEnd | TransferAgent_PP |  |  |  | 10000011651435578775
+29/06/2015 17:33:20:456  INFO - In Progress | session id:mpp-2015180115530-7 | DM:ReportEnd | Welcome_PP | Return Code | Output_Parameters:returncode |  | 10000011661435578930
+29/06/2015 17:33:20:457  INFO - End | session id:mpp-2015180115530-7 | DM:ReportEnd | Welcome_PP |  |  |  | 10000011661435578930
+29/06/2015 17:51:34:197  INFO - In Progress | session id:mpp-2015180121343-20 | DM:ReportEnd | Welcome_PP | Return Code | Output_Parameters:returncode |  | 10000011681435580023
+29/06/2015 17:51:34:197  INFO - End | session id:mpp-2015180121343-20 | DM:ReportEnd | Welcome_PP |  |  |  | 10000011681435580023
+29/06/2015 17:52:04:912  INFO - In Progress | session id:mpp-2015180121343-20 | DM:ReportEnd | SelectLang_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000011681435580023
+29/06/2015 17:52:04:912  INFO - In Progress | session id:mpp-2015180121343-20 | DM:ReportEnd | SelectLang_MN | Input Type | Output_Parameters:inputType | dtmf | 10000011681435580023
+29/06/2015 17:52:04:912  INFO - In Progress | session id:mpp-2015180121343-20 | DM:ReportEnd | SelectLang_MN | Value | Output_Parameters:value | ENG | 10000011681435580023
+29/06/2015 17:52:04:912  INFO - End | session id:mpp-2015180121343-20 | DM:ReportEnd | SelectLang_MN |  |  |  | 10000011681435580023
+29/06/2015 17:52:07:116  INFO - In Progress | session id:mpp-2015180121343-20 | DM:ReportEnd | OldProspect_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000011681435580023
+29/06/2015 17:52:07:116  INFO - In Progress | session id:mpp-2015180121343-20 | DM:ReportEnd | OldProspect_MN | Input Type | Output_Parameters:inputType | dtmf | 10000011681435580023
+29/06/2015 17:52:07:116  INFO - In Progress | session id:mpp-2015180121343-20 | DM:ReportEnd | OldProspect_MN | Value | Output_Parameters:value | RelianceCustomer | 10000011681435580023
+29/06/2015 17:52:07:117  INFO - End | session id:mpp-2015180121343-20 | DM:ReportEnd | OldProspect_MN |  |  |  | 10000011681435580023
+29/06/2015 17:52:26:865  INFO - In Progress | session id:mpp-2015180121343-20 | DM:ReportEnd | CollectMobileNumber | Return Code | Output_Parameters:returncode | SUCCESS | 10000011681435580023
+29/06/2015 17:52:26:865  INFO - In Progress | session id:mpp-2015180121343-20 | DM:ReportEnd | CollectMobileNumber | Input Type | Output_Parameters:inputType | dtmf | 10000011681435580023
+29/06/2015 17:52:26:865  INFO - In Progress | session id:mpp-2015180121343-20 | DM:ReportEnd | CollectMobileNumber | Value | Output_Parameters:value | 1234567890 | 10000011681435580023
+29/06/2015 17:52:26:865  INFO - End | session id:mpp-2015180121343-20 | DM:ReportEnd | CollectMobileNumber |  |  |  | 10000011681435580023
+29/06/2015 17:52:30:412  INFO - In Progress | session id:mpp-2015180121343-20 | DM:ReportEnd | ConfirmNumber | Return Code | Output_Parameters:returncode | SUCCESS | 10000011681435580023
+29/06/2015 17:52:30:412  INFO - In Progress | session id:mpp-2015180121343-20 | DM:ReportEnd | ConfirmNumber | Input Type | Output_Parameters:inputType | dtmf | 10000011681435580023
+29/06/2015 17:52:30:412  INFO - In Progress | session id:mpp-2015180121343-20 | DM:ReportEnd | ConfirmNumber | Value | Output_Parameters:value | Confirm | 10000011681435580023
+29/06/2015 17:52:30:412  INFO - End | session id:mpp-2015180121343-20 | DM:ReportEnd | ConfirmNumber |  |  |  | 10000011681435580023
+29/06/2015 17:52:30:566  INFO - In Progress | session id:mpp-2015180121343-20 | DM:ReportEnd | HotFlash | Return Code | Output_Parameters:returncode |  | 10000011681435580023
+29/06/2015 17:52:30:566  INFO - End | session id:mpp-2015180121343-20 | DM:ReportEnd | HotFlash |  |  |  | 10000011681435580023
+29/06/2015 17:52:45:077  INFO - In Progress | session id:mpp-2015180121343-20 | DM:ReportEnd | Prepaid_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000011681435580023
+29/06/2015 17:52:45:077  INFO - In Progress | session id:mpp-2015180121343-20 | DM:ReportEnd | Prepaid_MN | Input Type | Output_Parameters:inputType | dtmf | 10000011681435580023
+29/06/2015 17:52:45:077  INFO - In Progress | session id:mpp-2015180121343-20 | DM:ReportEnd | Prepaid_MN | Value | Output_Parameters:value | HOTDEAL | 10000011681435580023
+29/06/2015 17:52:45:078  INFO - End | session id:mpp-2015180121343-20 | DM:ReportEnd | Prepaid_MN |  |  |  | 10000011681435580023
+29/06/2015 17:53:44:678  INFO - In Progress | session id:mpp-2015180121343-20 | DM:ReportEnd | Offer_MN | Return Code | Output_Parameters:returncode | NOINPUT | 10000011681435580023
+29/06/2015 17:53:44:678  INFO - End | session id:mpp-2015180121343-20 | DM:ReportEnd | Offer_MN |  |  |  | 10000011681435580023
+29/06/2015 17:53:44:824  INFO - In Progress | session id:mpp-2015180121343-20 | DM:ReportEnd | TransferAgent_PP | Return Code | Output_Parameters:returncode |  | 10000011681435580023
+29/06/2015 17:53:44:824  INFO - End | session id:mpp-2015180121343-20 | DM:ReportEnd | TransferAgent_PP |  |  |  | 10000011681435580023
+29/06/2015 17:57:40:196  INFO - In Progress | session id:mpp-2015180121949-15 | DM:ReportEnd | Welcome_PP | Return Code | Output_Parameters:returncode |  | 10000011701435580389
+29/06/2015 17:57:40:196  INFO - End | session id:mpp-2015180121949-15 | DM:ReportEnd | Welcome_PP |  |  |  | 10000011701435580389
+29/06/2015 17:58:13:006  INFO - In Progress | session id:mpp-2015180121949-15 | DM:ReportEnd | SelectLang_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000011701435580389
+29/06/2015 17:58:13:006  INFO - In Progress | session id:mpp-2015180121949-15 | DM:ReportEnd | SelectLang_MN | Input Type | Output_Parameters:inputType | dtmf | 10000011701435580389
+29/06/2015 17:58:13:006  INFO - In Progress | session id:mpp-2015180121949-15 | DM:ReportEnd | SelectLang_MN | Value | Output_Parameters:value | ENG | 10000011701435580389
+29/06/2015 17:58:13:006  INFO - End | session id:mpp-2015180121949-15 | DM:ReportEnd | SelectLang_MN |  |  |  | 10000011701435580389
+29/06/2015 17:58:14:873  INFO - In Progress | session id:mpp-2015180121949-15 | DM:ReportEnd | OldProspect_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000011701435580389
+29/06/2015 17:58:14:873  INFO - In Progress | session id:mpp-2015180121949-15 | DM:ReportEnd | OldProspect_MN | Input Type | Output_Parameters:inputType | dtmf | 10000011701435580389
+29/06/2015 17:58:14:873  INFO - In Progress | session id:mpp-2015180121949-15 | DM:ReportEnd | OldProspect_MN | Value | Output_Parameters:value | RelianceCustomer | 10000011701435580389
+29/06/2015 17:58:14:873  INFO - End | session id:mpp-2015180121949-15 | DM:ReportEnd | OldProspect_MN |  |  |  | 10000011701435580389
+29/06/2015 17:58:24:175  INFO - In Progress | session id:mpp-2015180121949-15 | DM:ReportEnd | CollectMobileNumber | Return Code | Output_Parameters:returncode | SUCCESS | 10000011701435580389
+29/06/2015 17:58:24:175  INFO - In Progress | session id:mpp-2015180121949-15 | DM:ReportEnd | CollectMobileNumber | Input Type | Output_Parameters:inputType | dtmf | 10000011701435580389
+29/06/2015 17:58:24:175  INFO - In Progress | session id:mpp-2015180121949-15 | DM:ReportEnd | CollectMobileNumber | Value | Output_Parameters:value | 1234567890 | 10000011701435580389
+29/06/2015 17:58:24:175  INFO - End | session id:mpp-2015180121949-15 | DM:ReportEnd | CollectMobileNumber |  |  |  | 10000011701435580389
+29/06/2015 17:58:25:314  INFO - In Progress | session id:mpp-2015180121949-15 | DM:ReportEnd | ConfirmNumber | Return Code | Output_Parameters:returncode | SUCCESS | 10000011701435580389
+29/06/2015 17:58:25:314  INFO - In Progress | session id:mpp-2015180121949-15 | DM:ReportEnd | ConfirmNumber | Input Type | Output_Parameters:inputType | dtmf | 10000011701435580389
+29/06/2015 17:58:25:314  INFO - In Progress | session id:mpp-2015180121949-15 | DM:ReportEnd | ConfirmNumber | Value | Output_Parameters:value | Confirm | 10000011701435580389
+29/06/2015 17:58:25:314  INFO - End | session id:mpp-2015180121949-15 | DM:ReportEnd | ConfirmNumber |  |  |  | 10000011701435580389
+29/06/2015 17:58:25:437  INFO - In Progress | session id:mpp-2015180121949-15 | DM:ReportEnd | HotFlash | Return Code | Output_Parameters:returncode |  | 10000011701435580389
+29/06/2015 17:58:25:437  INFO - End | session id:mpp-2015180121949-15 | DM:ReportEnd | HotFlash |  |  |  | 10000011701435580389
+29/06/2015 18:05:38:551  INFO - In Progress | session id:mpp-2015180122748-5 | DM:ReportEnd | Welcome_PP | Return Code | Output_Parameters:returncode |  | 10000011731435580868
+29/06/2015 18:05:38:552  INFO - End | session id:mpp-2015180122748-5 | DM:ReportEnd | Welcome_PP |  |  |  | 10000011731435580868
+29/06/2015 18:05:39:983  INFO - In Progress | session id:mpp-2015180122748-5 | DM:ReportEnd | SelectLang_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000011731435580868
+29/06/2015 18:05:39:984  INFO - In Progress | session id:mpp-2015180122748-5 | DM:ReportEnd | SelectLang_MN | Input Type | Output_Parameters:inputType | dtmf | 10000011731435580868
+29/06/2015 18:05:39:984  INFO - In Progress | session id:mpp-2015180122748-5 | DM:ReportEnd | SelectLang_MN | Value | Output_Parameters:value | ENG | 10000011731435580868
+29/06/2015 18:05:39:984  INFO - End | session id:mpp-2015180122748-5 | DM:ReportEnd | SelectLang_MN |  |  |  | 10000011731435580868
+29/06/2015 18:05:42:395  INFO - In Progress | session id:mpp-2015180122748-5 | DM:ReportEnd | OldProspect_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000011731435580868
+29/06/2015 18:05:42:395  INFO - In Progress | session id:mpp-2015180122748-5 | DM:ReportEnd | OldProspect_MN | Input Type | Output_Parameters:inputType | dtmf | 10000011731435580868
+29/06/2015 18:05:42:395  INFO - In Progress | session id:mpp-2015180122748-5 | DM:ReportEnd | OldProspect_MN | Value | Output_Parameters:value | RelianceCustomer | 10000011731435580868
+29/06/2015 18:05:42:395  INFO - End | session id:mpp-2015180122748-5 | DM:ReportEnd | OldProspect_MN |  |  |  | 10000011731435580868
+29/06/2015 18:05:51:615  INFO - In Progress | session id:mpp-2015180122748-5 | DM:ReportEnd | CollectMobileNumber | Return Code | Output_Parameters:returncode | SUCCESS | 10000011731435580868
+29/06/2015 18:05:51:615  INFO - In Progress | session id:mpp-2015180122748-5 | DM:ReportEnd | CollectMobileNumber | Input Type | Output_Parameters:inputType | dtmf | 10000011731435580868
+29/06/2015 18:05:51:615  INFO - In Progress | session id:mpp-2015180122748-5 | DM:ReportEnd | CollectMobileNumber | Value | Output_Parameters:value | 1234567890 | 10000011731435580868
+29/06/2015 18:05:51:615  INFO - End | session id:mpp-2015180122748-5 | DM:ReportEnd | CollectMobileNumber |  |  |  | 10000011731435580868
+29/06/2015 18:05:52:503  INFO - In Progress | session id:mpp-2015180122748-5 | DM:ReportEnd | ConfirmNumber | Return Code | Output_Parameters:returncode | SUCCESS | 10000011731435580868
+29/06/2015 18:05:52:503  INFO - In Progress | session id:mpp-2015180122748-5 | DM:ReportEnd | ConfirmNumber | Input Type | Output_Parameters:inputType | dtmf | 10000011731435580868
+29/06/2015 18:05:52:503  INFO - In Progress | session id:mpp-2015180122748-5 | DM:ReportEnd | ConfirmNumber | Value | Output_Parameters:value | Confirm | 10000011731435580868
+29/06/2015 18:05:52:503  INFO - End | session id:mpp-2015180122748-5 | DM:ReportEnd | ConfirmNumber |  |  |  | 10000011731435580868
+29/06/2015 18:05:52:600  INFO - In Progress | session id:mpp-2015180122748-5 | DM:ReportEnd | HotFlash | Return Code | Output_Parameters:returncode |  | 10000011731435580868
+29/06/2015 18:05:52:600  INFO - End | session id:mpp-2015180122748-5 | DM:ReportEnd | HotFlash |  |  |  | 10000011731435580868
+29/06/2015 18:05:55:845  INFO - In Progress | session id:mpp-2015180122748-5 | DM:ReportEnd | Prepaid_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000011731435580868
+29/06/2015 18:05:55:845  INFO - In Progress | session id:mpp-2015180122748-5 | DM:ReportEnd | Prepaid_MN | Input Type | Output_Parameters:inputType | dtmf | 10000011731435580868
+29/06/2015 18:05:55:845  INFO - In Progress | session id:mpp-2015180122748-5 | DM:ReportEnd | Prepaid_MN | Value | Output_Parameters:value | HOTDEAL | 10000011731435580868
+29/06/2015 18:05:55:845  INFO - End | session id:mpp-2015180122748-5 | DM:ReportEnd | Prepaid_MN |  |  |  | 10000011731435580868
+29/06/2015 18:07:49:129  INFO - In Progress | session id:mpp-2015180122959-10 | DM:ReportEnd | Welcome_PP | Return Code | Output_Parameters:returncode |  | 10000011751435580999
+29/06/2015 18:07:49:129  INFO - End | session id:mpp-2015180122959-10 | DM:ReportEnd | Welcome_PP |  |  |  | 10000011751435580999
+29/06/2015 18:07:54:256  INFO - In Progress | session id:mpp-2015180122959-10 | DM:ReportEnd | SelectLang_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000011751435580999
+29/06/2015 18:07:54:256  INFO - In Progress | session id:mpp-2015180122959-10 | DM:ReportEnd | SelectLang_MN | Input Type | Output_Parameters:inputType | dtmf | 10000011751435580999
+29/06/2015 18:07:54:256  INFO - In Progress | session id:mpp-2015180122959-10 | DM:ReportEnd | SelectLang_MN | Value | Output_Parameters:value | ENG | 10000011751435580999
+29/06/2015 18:07:54:256  INFO - End | session id:mpp-2015180122959-10 | DM:ReportEnd | SelectLang_MN |  |  |  | 10000011751435580999
+29/06/2015 18:07:57:436  INFO - In Progress | session id:mpp-2015180122959-10 | DM:ReportEnd | OldProspect_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000011751435580999
+29/06/2015 18:07:57:436  INFO - In Progress | session id:mpp-2015180122959-10 | DM:ReportEnd | OldProspect_MN | Input Type | Output_Parameters:inputType | dtmf | 10000011751435580999
+29/06/2015 18:07:57:437  INFO - In Progress | session id:mpp-2015180122959-10 | DM:ReportEnd | OldProspect_MN | Value | Output_Parameters:value | RelianceNetwork | 10000011751435580999
+29/06/2015 18:07:57:437  INFO - End | session id:mpp-2015180122959-10 | DM:ReportEnd | OldProspect_MN |  |  |  | 10000011751435580999
+29/06/2015 18:08:01:522  INFO - In Progress | session id:mpp-2015180122959-10 | DM:ReportEnd | Prospect_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000011751435580999
+29/06/2015 18:08:01:522  INFO - In Progress | session id:mpp-2015180122959-10 | DM:ReportEnd | Prospect_MN | Input Type | Output_Parameters:inputType | dtmf | 10000011751435580999
+29/06/2015 18:08:01:522  INFO - In Progress | session id:mpp-2015180122959-10 | DM:ReportEnd | Prospect_MN | Value | Output_Parameters:value | NumberPortability | 10000011751435580999
+29/06/2015 18:08:01:522  INFO - End | session id:mpp-2015180122959-10 | DM:ReportEnd | Prospect_MN |  |  |  | 10000011751435580999
+29/06/2015 18:08:04:174  INFO - In Progress | session id:mpp-2015180122959-10 | DM:ReportEnd | NumberPort_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000011751435580999
+29/06/2015 18:08:04:174  INFO - In Progress | session id:mpp-2015180122959-10 | DM:ReportEnd | NumberPort_MN | Input Type | Output_Parameters:inputType | dtmf | 10000011751435580999
+29/06/2015 18:08:04:174  INFO - In Progress | session id:mpp-2015180122959-10 | DM:ReportEnd | NumberPort_MN | Value | Output_Parameters:value | MobileNoPortability | 10000011751435580999
+29/06/2015 18:08:04:174  INFO - End | session id:mpp-2015180122959-10 | DM:ReportEnd | NumberPort_MN |  |  |  | 10000011751435580999
+29/06/2015 18:08:14:088  INFO - In Progress | session id:mpp-2015180122959-10 | DM:ReportEnd | NumberPortability_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000011751435580999
+29/06/2015 18:08:14:088  INFO - In Progress | session id:mpp-2015180122959-10 | DM:ReportEnd | NumberPortability_MN | Input Type | Output_Parameters:inputType | dtmf | 10000011751435580999
+29/06/2015 18:08:14:088  INFO - In Progress | session id:mpp-2015180122959-10 | DM:ReportEnd | NumberPortability_MN | Value | Output_Parameters:value | 1234567890 | 10000011751435580999
+29/06/2015 18:08:14:088  INFO - End | session id:mpp-2015180122959-10 | DM:ReportEnd | NumberPortability_MN |  |  |  | 10000011751435580999
+29/06/2015 18:08:17:686  INFO - In Progress | session id:mpp-2015180122959-10 | DM:ReportEnd | ConfirmNumber_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000011751435580999
+29/06/2015 18:08:17:686  INFO - In Progress | session id:mpp-2015180122959-10 | DM:ReportEnd | ConfirmNumber_MN | Input Type | Output_Parameters:inputType | dtmf | 10000011751435580999
+29/06/2015 18:08:17:686  INFO - In Progress | session id:mpp-2015180122959-10 | DM:ReportEnd | ConfirmNumber_MN | Value | Output_Parameters:value | Confirm | 10000011751435580999
+29/06/2015 18:08:17:686  INFO - End | session id:mpp-2015180122959-10 | DM:ReportEnd | ConfirmNumber_MN |  |  |  | 10000011751435580999
+29/06/2015 18:08:25:290  INFO - In Progress | session id:mpp-2015180122959-10 | DM:ReportEnd | STDCode_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000011751435580999
+29/06/2015 18:08:25:291  INFO - In Progress | session id:mpp-2015180122959-10 | DM:ReportEnd | STDCode_MN | Input Type | Output_Parameters:inputType | dtmf | 10000011751435580999
+29/06/2015 18:08:25:291  INFO - In Progress | session id:mpp-2015180122959-10 | DM:ReportEnd | STDCode_MN | Value | Output_Parameters:value | 035 | 10000011751435580999
+29/06/2015 18:08:25:291  INFO - End | session id:mpp-2015180122959-10 | DM:ReportEnd | STDCode_MN |  |  |  | 10000011751435580999
+29/06/2015 18:20:19:120  INFO - In Progress | session id:mpp-2015180124228-16 | DM:ReportEnd | Welcome_PP | Return Code | Output_Parameters:returncode |  | 10000011781435581748
+29/06/2015 18:20:19:120  INFO - End | session id:mpp-2015180124228-16 | DM:ReportEnd | Welcome_PP |  |  |  | 10000011781435581748
+29/06/2015 18:20:23:518  INFO - In Progress | session id:mpp-2015180124228-16 | DM:ReportEnd | SelectLang_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000011781435581748
+29/06/2015 18:20:23:519  INFO - In Progress | session id:mpp-2015180124228-16 | DM:ReportEnd | SelectLang_MN | Input Type | Output_Parameters:inputType | dtmf | 10000011781435581748
+29/06/2015 18:20:23:519  INFO - In Progress | session id:mpp-2015180124228-16 | DM:ReportEnd | SelectLang_MN | Value | Output_Parameters:value | ENG | 10000011781435581748
+29/06/2015 18:20:23:519  INFO - End | session id:mpp-2015180124228-16 | DM:ReportEnd | SelectLang_MN |  |  |  | 10000011781435581748
+29/06/2015 18:20:25:158  INFO - In Progress | session id:mpp-2015180124228-16 | DM:ReportEnd | OldProspect_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000011781435581748
+29/06/2015 18:20:25:158  INFO - In Progress | session id:mpp-2015180124228-16 | DM:ReportEnd | OldProspect_MN | Input Type | Output_Parameters:inputType | dtmf | 10000011781435581748
+29/06/2015 18:20:25:158  INFO - In Progress | session id:mpp-2015180124228-16 | DM:ReportEnd | OldProspect_MN | Value | Output_Parameters:value | RelianceCustomer | 10000011781435581748
+29/06/2015 18:20:25:158  INFO - End | session id:mpp-2015180124228-16 | DM:ReportEnd | OldProspect_MN |  |  |  | 10000011781435581748
+29/06/2015 18:20:33:609  INFO - In Progress | session id:mpp-2015180124228-16 | DM:ReportEnd | CollectMobileNumber | Return Code | Output_Parameters:returncode | SUCCESS | 10000011781435581748
+29/06/2015 18:20:33:609  INFO - In Progress | session id:mpp-2015180124228-16 | DM:ReportEnd | CollectMobileNumber | Input Type | Output_Parameters:inputType | dtmf | 10000011781435581748
+29/06/2015 18:20:33:609  INFO - In Progress | session id:mpp-2015180124228-16 | DM:ReportEnd | CollectMobileNumber | Value | Output_Parameters:value | 1234567890 | 10000011781435581748
+29/06/2015 18:20:33:609  INFO - End | session id:mpp-2015180124228-16 | DM:ReportEnd | CollectMobileNumber |  |  |  | 10000011781435581748
+29/06/2015 18:20:41:382  INFO - In Progress | session id:mpp-2015180124228-16 | DM:ReportEnd | ConfirmNumber | Return Code | Output_Parameters:returncode | SUCCESS | 10000011781435581748
+29/06/2015 18:20:41:383  INFO - In Progress | session id:mpp-2015180124228-16 | DM:ReportEnd | ConfirmNumber | Input Type | Output_Parameters:inputType | dtmf | 10000011781435581748
+29/06/2015 18:20:41:383  INFO - In Progress | session id:mpp-2015180124228-16 | DM:ReportEnd | ConfirmNumber | Value | Output_Parameters:value | Confirm | 10000011781435581748
+29/06/2015 18:20:41:383  INFO - End | session id:mpp-2015180124228-16 | DM:ReportEnd | ConfirmNumber |  |  |  | 10000011781435581748
+29/06/2015 18:20:41:475  INFO - In Progress | session id:mpp-2015180124228-16 | DM:ReportEnd | HotFlash | Return Code | Output_Parameters:returncode |  | 10000011781435581748
+29/06/2015 18:20:41:475  INFO - End | session id:mpp-2015180124228-16 | DM:ReportEnd | HotFlash |  |  |  | 10000011781435581748
+29/06/2015 18:20:43:062  INFO - In Progress | session id:mpp-2015180124228-16 | DM:ReportEnd | Prepaid_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000011781435581748
+29/06/2015 18:20:43:062  INFO - In Progress | session id:mpp-2015180124228-16 | DM:ReportEnd | Prepaid_MN | Input Type | Output_Parameters:inputType | dtmf | 10000011781435581748
+29/06/2015 18:20:43:062  INFO - In Progress | session id:mpp-2015180124228-16 | DM:ReportEnd | Prepaid_MN | Value | Output_Parameters:value | HOTDEAL | 10000011781435581748
+29/06/2015 18:20:43:062  INFO - End | session id:mpp-2015180124228-16 | DM:ReportEnd | Prepaid_MN |  |  |  | 10000011781435581748
+29/06/2015 18:20:48:673  INFO - In Progress | session id:mpp-2015180124228-16 | DM:ReportEnd | OfferMsg_PP | Return Code | Output_Parameters:returncode |  | 10000011781435581748
+29/06/2015 18:20:48:673  INFO - End | session id:mpp-2015180124228-16 | DM:ReportEnd | OfferMsg_PP |  |  |  | 10000011781435581748
+29/06/2015 18:20:53:508  INFO - In Progress | session id:mpp-2015180124228-16 | DM:ReportEnd | Subscribe_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000011781435581748
+29/06/2015 18:20:53:508  INFO - In Progress | session id:mpp-2015180124228-16 | DM:ReportEnd | Subscribe_MN | Input Type | Output_Parameters:inputType | dtmf | 10000011781435581748
+29/06/2015 18:20:53:508  INFO - In Progress | session id:mpp-2015180124228-16 | DM:ReportEnd | Subscribe_MN | Value | Output_Parameters:value | HotDeal2.wav | 10000011781435581748
+29/06/2015 18:20:53:508  INFO - End | session id:mpp-2015180124228-16 | DM:ReportEnd | Subscribe_MN |  |  |  | 10000011781435581748
+29/06/2015 18:20:53:643  INFO - In Progress | session id:mpp-2015180124228-16 | DM:ReportEnd | TransferAgent_PP | Return Code | Output_Parameters:returncode |  | 10000011781435581748
+29/06/2015 18:20:53:643  INFO - End | session id:mpp-2015180124228-16 | DM:ReportEnd | TransferAgent_PP |  |  |  | 10000011781435581748
+29/06/2015 18:21:13:828  INFO - In Progress | session id:mpp-2015180124324-14 | DM:ReportEnd | Welcome_PP | Return Code | Output_Parameters:returncode |  | 10000011791435581804
+29/06/2015 18:21:13:828  INFO - End | session id:mpp-2015180124324-14 | DM:ReportEnd | Welcome_PP |  |  |  | 10000011791435581804
+29/06/2015 18:21:21:319  INFO - In Progress | session id:mpp-2015180124324-14 | DM:ReportEnd | SelectLang_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000011791435581804
+29/06/2015 18:21:21:319  INFO - In Progress | session id:mpp-2015180124324-14 | DM:ReportEnd | SelectLang_MN | Input Type | Output_Parameters:inputType | dtmf | 10000011791435581804
+29/06/2015 18:21:21:319  INFO - In Progress | session id:mpp-2015180124324-14 | DM:ReportEnd | SelectLang_MN | Value | Output_Parameters:value | TAM | 10000011791435581804
+29/06/2015 18:21:21:319  INFO - End | session id:mpp-2015180124324-14 | DM:ReportEnd | SelectLang_MN |  |  |  | 10000011791435581804
+29/06/2015 18:21:23:722  INFO - In Progress | session id:mpp-2015180124324-14 | DM:ReportEnd | OldProspect_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000011791435581804
+29/06/2015 18:21:23:722  INFO - In Progress | session id:mpp-2015180124324-14 | DM:ReportEnd | OldProspect_MN | Input Type | Output_Parameters:inputType | dtmf | 10000011791435581804
+29/06/2015 18:21:23:722  INFO - In Progress | session id:mpp-2015180124324-14 | DM:ReportEnd | OldProspect_MN | Value | Output_Parameters:value | RelianceCustomer | 10000011791435581804
+29/06/2015 18:21:23:722  INFO - End | session id:mpp-2015180124324-14 | DM:ReportEnd | OldProspect_MN |  |  |  | 10000011791435581804
+29/06/2015 18:21:30:157  INFO - In Progress | session id:mpp-2015180124324-14 | DM:ReportEnd | CollectMobileNumber | Return Code | Output_Parameters:returncode | SUCCESS | 10000011791435581804
+29/06/2015 18:21:30:157  INFO - In Progress | session id:mpp-2015180124324-14 | DM:ReportEnd | CollectMobileNumber | Input Type | Output_Parameters:inputType | dtmf | 10000011791435581804
+29/06/2015 18:21:30:157  INFO - In Progress | session id:mpp-2015180124324-14 | DM:ReportEnd | CollectMobileNumber | Value | Output_Parameters:value | 1234567890 | 10000011791435581804
+29/06/2015 18:21:30:157  INFO - End | session id:mpp-2015180124324-14 | DM:ReportEnd | CollectMobileNumber |  |  |  | 10000011791435581804
+29/06/2015 18:21:32:107  INFO - In Progress | session id:mpp-2015180124324-14 | DM:ReportEnd | ConfirmNumber | Return Code | Output_Parameters:returncode | SUCCESS | 10000011791435581804
+29/06/2015 18:21:32:107  INFO - In Progress | session id:mpp-2015180124324-14 | DM:ReportEnd | ConfirmNumber | Input Type | Output_Parameters:inputType | dtmf | 10000011791435581804
+29/06/2015 18:21:32:107  INFO - In Progress | session id:mpp-2015180124324-14 | DM:ReportEnd | ConfirmNumber | Value | Output_Parameters:value | Confirm | 10000011791435581804
+29/06/2015 18:21:32:107  INFO - End | session id:mpp-2015180124324-14 | DM:ReportEnd | ConfirmNumber |  |  |  | 10000011791435581804
+29/06/2015 18:21:41:445  INFO - In Progress | session id:mpp-2015180124324-14 | DM:ReportEnd | Prepaid_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000011791435581804
+29/06/2015 18:21:41:445  INFO - In Progress | session id:mpp-2015180124324-14 | DM:ReportEnd | Prepaid_MN | Input Type | Output_Parameters:inputType | dtmf | 10000011791435581804
+29/06/2015 18:21:41:445  INFO - In Progress | session id:mpp-2015180124324-14 | DM:ReportEnd | Prepaid_MN | Value | Output_Parameters:value | HOTDEAL | 10000011791435581804
+29/06/2015 18:21:41:446  INFO - End | session id:mpp-2015180124324-14 | DM:ReportEnd | Prepaid_MN |  |  |  | 10000011791435581804
+29/06/2015 18:21:44:530  INFO - In Progress | session id:mpp-2015180124324-14 | DM:ReportEnd | OfferMsg_PP | Return Code | Output_Parameters:returncode |  | 10000011791435581804
+29/06/2015 18:21:44:530  INFO - End | session id:mpp-2015180124324-14 | DM:ReportEnd | OfferMsg_PP |  |  |  | 10000011791435581804
+29/06/2015 18:21:56:321  INFO - In Progress | session id:mpp-2015180124406-1 | DM:ReportEnd | Welcome_PP | Return Code | Output_Parameters:returncode |  | 10000011801435581846
+29/06/2015 18:21:56:321  INFO - End | session id:mpp-2015180124406-1 | DM:ReportEnd | Welcome_PP |  |  |  | 10000011801435581846
+29/06/2015 18:21:59:302  INFO - In Progress | session id:mpp-2015180124406-1 | DM:ReportEnd | SelectLang_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000011801435581846
+29/06/2015 18:21:59:302  INFO - In Progress | session id:mpp-2015180124406-1 | DM:ReportEnd | SelectLang_MN | Input Type | Output_Parameters:inputType | dtmf | 10000011801435581846
+29/06/2015 18:21:59:302  INFO - In Progress | session id:mpp-2015180124406-1 | DM:ReportEnd | SelectLang_MN | Value | Output_Parameters:value | ENG | 10000011801435581846
+29/06/2015 18:21:59:302  INFO - End | session id:mpp-2015180124406-1 | DM:ReportEnd | SelectLang_MN |  |  |  | 10000011801435581846
+29/06/2015 18:22:01:428  INFO - In Progress | session id:mpp-2015180124406-1 | DM:ReportEnd | OldProspect_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000011801435581846
+29/06/2015 18:22:01:428  INFO - In Progress | session id:mpp-2015180124406-1 | DM:ReportEnd | OldProspect_MN | Input Type | Output_Parameters:inputType | dtmf | 10000011801435581846
+29/06/2015 18:22:01:428  INFO - In Progress | session id:mpp-2015180124406-1 | DM:ReportEnd | OldProspect_MN | Value | Output_Parameters:value | RelianceNetwork | 10000011801435581846
+29/06/2015 18:22:01:428  INFO - End | session id:mpp-2015180124406-1 | DM:ReportEnd | OldProspect_MN |  |  |  | 10000011801435581846
+29/06/2015 18:22:11:718  INFO - In Progress | session id:mpp-2015180124406-1 | DM:ReportEnd | Prospect_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000011801435581846
+29/06/2015 18:22:11:718  INFO - In Progress | session id:mpp-2015180124406-1 | DM:ReportEnd | Prospect_MN | Input Type | Output_Parameters:inputType | dtmf | 10000011801435581846
+29/06/2015 18:22:11:718  INFO - In Progress | session id:mpp-2015180124406-1 | DM:ReportEnd | Prospect_MN | Value | Output_Parameters:value | NumberPortability | 10000011801435581846
+29/06/2015 18:22:11:718  INFO - End | session id:mpp-2015180124406-1 | DM:ReportEnd | Prospect_MN |  |  |  | 10000011801435581846
+29/06/2015 18:22:15:461  INFO - In Progress | session id:mpp-2015180124406-1 | DM:ReportEnd | NumberPort_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000011801435581846
+29/06/2015 18:22:15:461  INFO - In Progress | session id:mpp-2015180124406-1 | DM:ReportEnd | NumberPort_MN | Input Type | Output_Parameters:inputType | dtmf | 10000011801435581846
+29/06/2015 18:22:15:461  INFO - In Progress | session id:mpp-2015180124406-1 | DM:ReportEnd | NumberPort_MN | Value | Output_Parameters:value | MobileNoPortability | 10000011801435581846
+29/06/2015 18:22:15:461  INFO - End | session id:mpp-2015180124406-1 | DM:ReportEnd | NumberPort_MN |  |  |  | 10000011801435581846
+29/06/2015 18:22:23:470  INFO - In Progress | session id:mpp-2015180124406-1 | DM:ReportEnd | NumberPortability_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000011801435581846
+29/06/2015 18:22:23:470  INFO - In Progress | session id:mpp-2015180124406-1 | DM:ReportEnd | NumberPortability_MN | Input Type | Output_Parameters:inputType | dtmf | 10000011801435581846
+29/06/2015 18:22:23:470  INFO - In Progress | session id:mpp-2015180124406-1 | DM:ReportEnd | NumberPortability_MN | Value | Output_Parameters:value | 1234567890 | 10000011801435581846
+29/06/2015 18:22:23:470  INFO - End | session id:mpp-2015180124406-1 | DM:ReportEnd | NumberPortability_MN |  |  |  | 10000011801435581846
+29/06/2015 18:22:33:583  INFO - In Progress | session id:mpp-2015180124406-1 | DM:ReportEnd | ConfirmNumber_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000011801435581846
+29/06/2015 18:22:33:583  INFO - In Progress | session id:mpp-2015180124406-1 | DM:ReportEnd | ConfirmNumber_MN | Input Type | Output_Parameters:inputType | dtmf | 10000011801435581846
+29/06/2015 18:22:33:583  INFO - In Progress | session id:mpp-2015180124406-1 | DM:ReportEnd | ConfirmNumber_MN | Value | Output_Parameters:value | Confirm | 10000011801435581846
+29/06/2015 18:22:33:583  INFO - End | session id:mpp-2015180124406-1 | DM:ReportEnd | ConfirmNumber_MN |  |  |  | 10000011801435581846
+29/06/2015 18:22:39:130  INFO - In Progress | session id:mpp-2015180124406-1 | DM:ReportEnd | STDCode_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000011801435581846
+29/06/2015 18:22:39:130  INFO - In Progress | session id:mpp-2015180124406-1 | DM:ReportEnd | STDCode_MN | Input Type | Output_Parameters:inputType | dtmf | 10000011801435581846
+29/06/2015 18:22:39:131  INFO - In Progress | session id:mpp-2015180124406-1 | DM:ReportEnd | STDCode_MN | Value | Output_Parameters:value | 123 | 10000011801435581846
+29/06/2015 18:22:39:131  INFO - End | session id:mpp-2015180124406-1 | DM:ReportEnd | STDCode_MN |  |  |  | 10000011801435581846
+29/06/2015 18:31:47:443  INFO - In Progress | session id:mpp-2015180125357-11 | DM:ReportEnd | Welcome_PP | Return Code | Output_Parameters:returncode |  | 10000011811435582437
+29/06/2015 18:31:47:443  INFO - End | session id:mpp-2015180125357-11 | DM:ReportEnd | Welcome_PP |  |  |  | 10000011811435582437
+29/06/2015 18:31:51:675  INFO - In Progress | session id:mpp-2015180125357-11 | DM:ReportEnd | SelectLang_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000011811435582437
+29/06/2015 18:31:51:675  INFO - In Progress | session id:mpp-2015180125357-11 | DM:ReportEnd | SelectLang_MN | Input Type | Output_Parameters:inputType | dtmf | 10000011811435582437
+29/06/2015 18:31:51:675  INFO - In Progress | session id:mpp-2015180125357-11 | DM:ReportEnd | SelectLang_MN | Value | Output_Parameters:value | ENG | 10000011811435582437
+29/06/2015 18:31:51:675  INFO - End | session id:mpp-2015180125357-11 | DM:ReportEnd | SelectLang_MN |  |  |  | 10000011811435582437
+29/06/2015 18:31:55:225  INFO - In Progress | session id:mpp-2015180125357-11 | DM:ReportEnd | OldProspect_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000011811435582437
+29/06/2015 18:31:55:225  INFO - In Progress | session id:mpp-2015180125357-11 | DM:ReportEnd | OldProspect_MN | Input Type | Output_Parameters:inputType | dtmf | 10000011811435582437
+29/06/2015 18:31:55:225  INFO - In Progress | session id:mpp-2015180125357-11 | DM:ReportEnd | OldProspect_MN | Value | Output_Parameters:value | RelianceNetwork | 10000011811435582437
+29/06/2015 18:31:55:225  INFO - End | session id:mpp-2015180125357-11 | DM:ReportEnd | OldProspect_MN |  |  |  | 10000011811435582437
+29/06/2015 18:32:00:111  INFO - In Progress | session id:mpp-2015180125357-11 | DM:ReportEnd | Prospect_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000011811435582437
+29/06/2015 18:32:00:111  INFO - In Progress | session id:mpp-2015180125357-11 | DM:ReportEnd | Prospect_MN | Input Type | Output_Parameters:inputType | dtmf | 10000011811435582437
+29/06/2015 18:32:00:111  INFO - In Progress | session id:mpp-2015180125357-11 | DM:ReportEnd | Prospect_MN | Value | Output_Parameters:value | NumberPortability | 10000011811435582437
+29/06/2015 18:32:00:111  INFO - End | session id:mpp-2015180125357-11 | DM:ReportEnd | Prospect_MN |  |  |  | 10000011811435582437
+29/06/2015 18:32:04:006  INFO - In Progress | session id:mpp-2015180125357-11 | DM:ReportEnd | NumberPort_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000011811435582437
+29/06/2015 18:32:04:006  INFO - In Progress | session id:mpp-2015180125357-11 | DM:ReportEnd | NumberPort_MN | Input Type | Output_Parameters:inputType | dtmf | 10000011811435582437
+29/06/2015 18:32:04:006  INFO - In Progress | session id:mpp-2015180125357-11 | DM:ReportEnd | NumberPort_MN | Value | Output_Parameters:value | MobileNoPortability | 10000011811435582437
+29/06/2015 18:32:04:006  INFO - End | session id:mpp-2015180125357-11 | DM:ReportEnd | NumberPort_MN |  |  |  | 10000011811435582437
+29/06/2015 18:32:10:246  INFO - In Progress | session id:mpp-2015180125357-11 | DM:ReportEnd | NumberPortability_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000011811435582437
+29/06/2015 18:32:10:246  INFO - In Progress | session id:mpp-2015180125357-11 | DM:ReportEnd | NumberPortability_MN | Input Type | Output_Parameters:inputType | dtmf | 10000011811435582437
+29/06/2015 18:32:10:247  INFO - In Progress | session id:mpp-2015180125357-11 | DM:ReportEnd | NumberPortability_MN | Value | Output_Parameters:value | 1234567890 | 10000011811435582437
+29/06/2015 18:32:10:247  INFO - End | session id:mpp-2015180125357-11 | DM:ReportEnd | NumberPortability_MN |  |  |  | 10000011811435582437
+29/06/2015 18:32:13:101  INFO - In Progress | session id:mpp-2015180125357-11 | DM:ReportEnd | ConfirmNumber_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000011811435582437
+29/06/2015 18:32:13:101  INFO - In Progress | session id:mpp-2015180125357-11 | DM:ReportEnd | ConfirmNumber_MN | Input Type | Output_Parameters:inputType | dtmf | 10000011811435582437
+29/06/2015 18:32:13:101  INFO - In Progress | session id:mpp-2015180125357-11 | DM:ReportEnd | ConfirmNumber_MN | Value | Output_Parameters:value | Confirm | 10000011811435582437
+29/06/2015 18:32:13:101  INFO - End | session id:mpp-2015180125357-11 | DM:ReportEnd | ConfirmNumber_MN |  |  |  | 10000011811435582437
+29/06/2015 18:32:18:593  INFO - In Progress | session id:mpp-2015180125357-11 | DM:ReportEnd | STDCode_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000011811435582437
+29/06/2015 18:32:18:593  INFO - In Progress | session id:mpp-2015180125357-11 | DM:ReportEnd | STDCode_MN | Input Type | Output_Parameters:inputType | dtmf | 10000011811435582437
+29/06/2015 18:32:18:593  INFO - In Progress | session id:mpp-2015180125357-11 | DM:ReportEnd | STDCode_MN | Value | Output_Parameters:value | 123 | 10000011811435582437
+29/06/2015 18:32:18:594  INFO - End | session id:mpp-2015180125357-11 | DM:ReportEnd | STDCode_MN |  |  |  | 10000011811435582437
+29/06/2015 18:32:26:864  INFO - In Progress | session id:mpp-2015180125357-11 | DM:ReportEnd | Services_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000011811435582437
+29/06/2015 18:32:26:865  INFO - In Progress | session id:mpp-2015180125357-11 | DM:ReportEnd | Services_MN | Input Type | Output_Parameters:inputType | dtmf | 10000011811435582437
+29/06/2015 18:32:26:865  INFO - In Progress | session id:mpp-2015180125357-11 | DM:ReportEnd | Services_MN | Value | Output_Parameters:value | PrepaidServices | 10000011811435582437
+29/06/2015 18:32:26:865  INFO - End | session id:mpp-2015180125357-11 | DM:ReportEnd | Services_MN |  |  |  | 10000011811435582437
+29/06/2015 18:32:26:891 ERROR - In Progress | session id:mpp-2015180125357-11 | RCOM_CF_1800_IVR:CheckServices |  | com.avaya.sce.runtimecommon.SCERuntimeException: Invalid Data Collection in form CheckServices, missing reference to next flow node | Exception stack trace | Error processing request
+ EXCEPTION> 
+com.avaya.sce.runtimecommon.SCERuntimeException: Invalid Data Collection in form CheckServices, missing reference to next flow node
+	at com.avaya.sce.runtimecommon.SCESession.throwRTException(SCESession.java:2316)
+	at com.avaya.sce.runtime.Data.handleRequest(Data.java:125)
+	at com.avaya.sce.runtime.AppServlet.processRequest(AppServlet.java:96)
+	at com.avaya.sce.runtime.SCEServlet.requestHandler(SCEServlet.java:285)
+	at com.avaya.sce.runtime.SCEServlet.doPost(SCEServlet.java:190)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:646)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:727)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:504)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:170)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:950)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:421)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1074)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:611)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:316)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+ | 10000011811435582437
+29/06/2015 18:42:03:307  INFO - In Progress | session id:mpp-2015180130413-6 | DM:ReportEnd | Welcome_PP | Return Code | Output_Parameters:returncode |  | 10000011821435583053
+29/06/2015 18:42:03:307  INFO - End | session id:mpp-2015180130413-6 | DM:ReportEnd | Welcome_PP |  |  |  | 10000011821435583053
+29/06/2015 18:42:15:558  INFO - In Progress | session id:mpp-2015180130413-6 | DM:ReportEnd | SelectLang_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000011821435583053
+29/06/2015 18:42:15:558  INFO - In Progress | session id:mpp-2015180130413-6 | DM:ReportEnd | SelectLang_MN | Input Type | Output_Parameters:inputType | dtmf | 10000011821435583053
+29/06/2015 18:42:15:558  INFO - In Progress | session id:mpp-2015180130413-6 | DM:ReportEnd | SelectLang_MN | Value | Output_Parameters:value | ENG | 10000011821435583053
+29/06/2015 18:42:15:558  INFO - End | session id:mpp-2015180130413-6 | DM:ReportEnd | SelectLang_MN |  |  |  | 10000011821435583053
+29/06/2015 18:42:19:820  INFO - In Progress | session id:mpp-2015180130413-6 | DM:ReportEnd | OldProspect_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000011821435583053
+29/06/2015 18:42:19:820  INFO - In Progress | session id:mpp-2015180130413-6 | DM:ReportEnd | OldProspect_MN | Input Type | Output_Parameters:inputType | dtmf | 10000011821435583053
+29/06/2015 18:42:19:820  INFO - In Progress | session id:mpp-2015180130413-6 | DM:ReportEnd | OldProspect_MN | Value | Output_Parameters:value | RelianceNetwork | 10000011821435583053
+29/06/2015 18:42:19:821  INFO - End | session id:mpp-2015180130413-6 | DM:ReportEnd | OldProspect_MN |  |  |  | 10000011821435583053
+29/06/2015 18:42:23:694  INFO - In Progress | session id:mpp-2015180130413-6 | DM:ReportEnd | Prospect_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000011821435583053
+29/06/2015 18:42:23:694  INFO - In Progress | session id:mpp-2015180130413-6 | DM:ReportEnd | Prospect_MN | Input Type | Output_Parameters:inputType | dtmf | 10000011821435583053
+29/06/2015 18:42:23:695  INFO - In Progress | session id:mpp-2015180130413-6 | DM:ReportEnd | Prospect_MN | Value | Output_Parameters:value | NumberPortability | 10000011821435583053
+29/06/2015 18:42:23:695  INFO - End | session id:mpp-2015180130413-6 | DM:ReportEnd | Prospect_MN |  |  |  | 10000011821435583053
+29/06/2015 18:42:26:697  INFO - In Progress | session id:mpp-2015180130413-6 | DM:ReportEnd | NumberPort_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000011821435583053
+29/06/2015 18:42:26:697  INFO - In Progress | session id:mpp-2015180130413-6 | DM:ReportEnd | NumberPort_MN | Input Type | Output_Parameters:inputType | dtmf | 10000011821435583053
+29/06/2015 18:42:26:697  INFO - In Progress | session id:mpp-2015180130413-6 | DM:ReportEnd | NumberPort_MN | Value | Output_Parameters:value | MobileNoPortability | 10000011821435583053
+29/06/2015 18:42:26:697  INFO - End | session id:mpp-2015180130413-6 | DM:ReportEnd | NumberPort_MN |  |  |  | 10000011821435583053
+29/06/2015 18:42:34:348  INFO - In Progress | session id:mpp-2015180130413-6 | DM:ReportEnd | NumberPortability_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000011821435583053
+29/06/2015 18:42:34:348  INFO - In Progress | session id:mpp-2015180130413-6 | DM:ReportEnd | NumberPortability_MN | Input Type | Output_Parameters:inputType | dtmf | 10000011821435583053
+29/06/2015 18:42:34:348  INFO - In Progress | session id:mpp-2015180130413-6 | DM:ReportEnd | NumberPortability_MN | Value | Output_Parameters:value | 1234567890 | 10000011821435583053
+29/06/2015 18:42:34:348  INFO - End | session id:mpp-2015180130413-6 | DM:ReportEnd | NumberPortability_MN |  |  |  | 10000011821435583053
+29/06/2015 18:42:37:632  INFO - In Progress | session id:mpp-2015180130413-6 | DM:ReportEnd | ConfirmNumber_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000011821435583053
+29/06/2015 18:42:37:632  INFO - In Progress | session id:mpp-2015180130413-6 | DM:ReportEnd | ConfirmNumber_MN | Input Type | Output_Parameters:inputType | dtmf | 10000011821435583053
+29/06/2015 18:42:37:632  INFO - In Progress | session id:mpp-2015180130413-6 | DM:ReportEnd | ConfirmNumber_MN | Value | Output_Parameters:value | Confirm | 10000011821435583053
+29/06/2015 18:42:37:632  INFO - End | session id:mpp-2015180130413-6 | DM:ReportEnd | ConfirmNumber_MN |  |  |  | 10000011821435583053
+29/06/2015 18:42:43:681  INFO - In Progress | session id:mpp-2015180130413-6 | DM:ReportEnd | STDCode_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000011821435583053
+29/06/2015 18:42:43:681  INFO - In Progress | session id:mpp-2015180130413-6 | DM:ReportEnd | STDCode_MN | Input Type | Output_Parameters:inputType | dtmf | 10000011821435583053
+29/06/2015 18:42:43:681  INFO - In Progress | session id:mpp-2015180130413-6 | DM:ReportEnd | STDCode_MN | Value | Output_Parameters:value | 123 | 10000011821435583053
+29/06/2015 18:42:43:681  INFO - End | session id:mpp-2015180130413-6 | DM:ReportEnd | STDCode_MN |  |  |  | 10000011821435583053
+29/06/2015 18:42:51:357  INFO - In Progress | session id:mpp-2015180130413-6 | DM:ReportEnd | Services_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000011821435583053
+29/06/2015 18:42:51:357  INFO - In Progress | session id:mpp-2015180130413-6 | DM:ReportEnd | Services_MN | Input Type | Output_Parameters:inputType | dtmf | 10000011821435583053
+29/06/2015 18:42:51:358  INFO - In Progress | session id:mpp-2015180130413-6 | DM:ReportEnd | Services_MN | Value | Output_Parameters:value | PrepaidServices | 10000011821435583053
+29/06/2015 18:42:51:358  INFO - End | session id:mpp-2015180130413-6 | DM:ReportEnd | Services_MN |  |  |  | 10000011821435583053
+29/06/2015 18:42:51:529  INFO - In Progress | session id:mpp-2015180130413-6 | DM:ReportEnd | ThankU_PP | Return Code | Output_Parameters:returncode |  | 10000011821435583053
+29/06/2015 18:42:51:529  INFO - End | session id:mpp-2015180130413-6 | DM:ReportEnd | ThankU_PP |  |  |  | 10000011821435583053
+29/06/2015 18:47:30:252  INFO - In Progress | session id:mpp-2015180130940-9 | DM:ReportEnd | Welcome_PP | Return Code | Output_Parameters:returncode |  | 10000011831435583380
+29/06/2015 18:47:30:252  INFO - End | session id:mpp-2015180130940-9 | DM:ReportEnd | Welcome_PP |  |  |  | 10000011831435583380
+29/06/2015 18:47:32:016  INFO - In Progress | session id:mpp-2015180130940-9 | DM:ReportEnd | SelectLang_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000011831435583380
+29/06/2015 18:47:32:016  INFO - In Progress | session id:mpp-2015180130940-9 | DM:ReportEnd | SelectLang_MN | Input Type | Output_Parameters:inputType | dtmf | 10000011831435583380
+29/06/2015 18:47:32:016  INFO - In Progress | session id:mpp-2015180130940-9 | DM:ReportEnd | SelectLang_MN | Value | Output_Parameters:value | ENG | 10000011831435583380
+29/06/2015 18:47:32:016  INFO - End | session id:mpp-2015180130940-9 | DM:ReportEnd | SelectLang_MN |  |  |  | 10000011831435583380
+29/06/2015 18:47:33:360  INFO - In Progress | session id:mpp-2015180130940-9 | DM:ReportEnd | OldProspect_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000011831435583380
+29/06/2015 18:47:33:361  INFO - In Progress | session id:mpp-2015180130940-9 | DM:ReportEnd | OldProspect_MN | Input Type | Output_Parameters:inputType | dtmf | 10000011831435583380
+29/06/2015 18:47:33:361  INFO - In Progress | session id:mpp-2015180130940-9 | DM:ReportEnd | OldProspect_MN | Value | Output_Parameters:value | RelianceNetwork | 10000011831435583380
+29/06/2015 18:47:33:361  INFO - End | session id:mpp-2015180130940-9 | DM:ReportEnd | OldProspect_MN |  |  |  | 10000011831435583380
+29/06/2015 18:47:35:551  INFO - In Progress | session id:mpp-2015180130940-9 | DM:ReportEnd | Prospect_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000011831435583380
+29/06/2015 18:47:35:551  INFO - In Progress | session id:mpp-2015180130940-9 | DM:ReportEnd | Prospect_MN | Input Type | Output_Parameters:inputType | dtmf | 10000011831435583380
+29/06/2015 18:47:35:551  INFO - In Progress | session id:mpp-2015180130940-9 | DM:ReportEnd | Prospect_MN | Value | Output_Parameters:value | NumberPortability | 10000011831435583380
+29/06/2015 18:47:35:551  INFO - End | session id:mpp-2015180130940-9 | DM:ReportEnd | Prospect_MN |  |  |  | 10000011831435583380
+29/06/2015 18:47:36:464  INFO - In Progress | session id:mpp-2015180130940-9 | DM:ReportEnd | NumberPort_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000011831435583380
+29/06/2015 18:47:36:464  INFO - In Progress | session id:mpp-2015180130940-9 | DM:ReportEnd | NumberPort_MN | Input Type | Output_Parameters:inputType | dtmf | 10000011831435583380
+29/06/2015 18:47:36:464  INFO - In Progress | session id:mpp-2015180130940-9 | DM:ReportEnd | NumberPort_MN | Value | Output_Parameters:value | MobileNoPortability | 10000011831435583380
+29/06/2015 18:47:36:464  INFO - End | session id:mpp-2015180130940-9 | DM:ReportEnd | NumberPort_MN |  |  |  | 10000011831435583380
+29/06/2015 18:47:46:271  INFO - In Progress | session id:mpp-2015180130940-9 | DM:ReportEnd | NumberPortability_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000011831435583380
+29/06/2015 18:47:46:271  INFO - In Progress | session id:mpp-2015180130940-9 | DM:ReportEnd | NumberPortability_MN | Input Type | Output_Parameters:inputType | dtmf | 10000011831435583380
+29/06/2015 18:47:46:271  INFO - In Progress | session id:mpp-2015180130940-9 | DM:ReportEnd | NumberPortability_MN | Value | Output_Parameters:value | 1234567890 | 10000011831435583380
+29/06/2015 18:47:46:272  INFO - End | session id:mpp-2015180130940-9 | DM:ReportEnd | NumberPortability_MN |  |  |  | 10000011831435583380
+29/06/2015 18:47:48:172  INFO - In Progress | session id:mpp-2015180130940-9 | DM:ReportEnd | ConfirmNumber_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000011831435583380
+29/06/2015 18:47:48:172  INFO - In Progress | session id:mpp-2015180130940-9 | DM:ReportEnd | ConfirmNumber_MN | Input Type | Output_Parameters:inputType | dtmf | 10000011831435583380
+29/06/2015 18:47:48:172  INFO - In Progress | session id:mpp-2015180130940-9 | DM:ReportEnd | ConfirmNumber_MN | Value | Output_Parameters:value | Confirm | 10000011831435583380
+29/06/2015 18:47:48:172  INFO - End | session id:mpp-2015180130940-9 | DM:ReportEnd | ConfirmNumber_MN |  |  |  | 10000011831435583380
+29/06/2015 18:47:54:211  INFO - In Progress | session id:mpp-2015180130940-9 | DM:ReportEnd | STDCode_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000011831435583380
+29/06/2015 18:47:54:211  INFO - In Progress | session id:mpp-2015180130940-9 | DM:ReportEnd | STDCode_MN | Input Type | Output_Parameters:inputType | dtmf | 10000011831435583380
+29/06/2015 18:47:54:211  INFO - In Progress | session id:mpp-2015180130940-9 | DM:ReportEnd | STDCode_MN | Value | Output_Parameters:value | 123 | 10000011831435583380
+29/06/2015 18:47:54:211  INFO - End | session id:mpp-2015180130940-9 | DM:ReportEnd | STDCode_MN |  |  |  | 10000011831435583380
+29/06/2015 18:47:55:861  INFO - In Progress | session id:mpp-2015180130940-9 | DM:ReportEnd | Services_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000011831435583380
+29/06/2015 18:47:55:861  INFO - In Progress | session id:mpp-2015180130940-9 | DM:ReportEnd | Services_MN | Input Type | Output_Parameters:inputType | dtmf | 10000011831435583380
+29/06/2015 18:47:55:861  INFO - In Progress | session id:mpp-2015180130940-9 | DM:ReportEnd | Services_MN | Value | Output_Parameters:value | PrepaidServices | 10000011831435583380
+29/06/2015 18:47:55:861  INFO - End | session id:mpp-2015180130940-9 | DM:ReportEnd | Services_MN |  |  |  | 10000011831435583380
+29/06/2015 18:47:56:033  INFO - In Progress | session id:mpp-2015180130940-9 | DM:ReportEnd | ThankU_PP | Return Code | Output_Parameters:returncode |  | 10000011831435583380
+29/06/2015 18:47:56:033  INFO - End | session id:mpp-2015180130940-9 | DM:ReportEnd | ThankU_PP |  |  |  | 10000011831435583380
+29/06/2015 19:00:16:889  INFO - In Progress | session id:mpp-2015180132226-18 | DM:ReportEnd | Welcome_PP | Return Code | Output_Parameters:returncode |  | 10000011851435584146
+29/06/2015 19:00:16:890  INFO - End | session id:mpp-2015180132226-18 | DM:ReportEnd | Welcome_PP |  |  |  | 10000011851435584146
+29/06/2015 19:00:20:171  INFO - In Progress | session id:mpp-2015180132226-18 | DM:ReportEnd | SelectLang_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000011851435584146
+29/06/2015 19:00:20:171  INFO - In Progress | session id:mpp-2015180132226-18 | DM:ReportEnd | SelectLang_MN | Input Type | Output_Parameters:inputType | dtmf | 10000011851435584146
+29/06/2015 19:00:20:171  INFO - In Progress | session id:mpp-2015180132226-18 | DM:ReportEnd | SelectLang_MN | Value | Output_Parameters:value | ENG | 10000011851435584146
+29/06/2015 19:00:20:171  INFO - End | session id:mpp-2015180132226-18 | DM:ReportEnd | SelectLang_MN |  |  |  | 10000011851435584146
+29/06/2015 19:00:29:212  INFO - In Progress | session id:mpp-2015180132226-18 | DM:ReportEnd | OldProspect_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000011851435584146
+29/06/2015 19:00:29:212  INFO - In Progress | session id:mpp-2015180132226-18 | DM:ReportEnd | OldProspect_MN | Input Type | Output_Parameters:inputType | dtmf | 10000011851435584146
+29/06/2015 19:00:29:212  INFO - In Progress | session id:mpp-2015180132226-18 | DM:ReportEnd | OldProspect_MN | Value | Output_Parameters:value | RelianceNetwork | 10000011851435584146
+29/06/2015 19:00:29:212  INFO - End | session id:mpp-2015180132226-18 | DM:ReportEnd | OldProspect_MN |  |  |  | 10000011851435584146
+29/06/2015 19:00:41:400  INFO - In Progress | session id:mpp-2015180132226-18 | DM:ReportEnd | Prospect_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000011851435584146
+29/06/2015 19:00:41:400  INFO - In Progress | session id:mpp-2015180132226-18 | DM:ReportEnd | Prospect_MN | Input Type | Output_Parameters:inputType | dtmf | 10000011851435584146
+29/06/2015 19:00:41:400  INFO - In Progress | session id:mpp-2015180132226-18 | DM:ReportEnd | Prospect_MN | Value | Output_Parameters:value | NumberPortability | 10000011851435584146
+29/06/2015 19:00:41:400  INFO - End | session id:mpp-2015180132226-18 | DM:ReportEnd | Prospect_MN |  |  |  | 10000011851435584146
+29/06/2015 19:00:44:082  INFO - In Progress | session id:mpp-2015180132226-18 | DM:ReportEnd | NumberPort_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000011851435584146
+29/06/2015 19:00:44:082  INFO - In Progress | session id:mpp-2015180132226-18 | DM:ReportEnd | NumberPort_MN | Input Type | Output_Parameters:inputType | dtmf | 10000011851435584146
+29/06/2015 19:00:44:082  INFO - In Progress | session id:mpp-2015180132226-18 | DM:ReportEnd | NumberPort_MN | Value | Output_Parameters:value | MobileNoPortability | 10000011851435584146
+29/06/2015 19:00:44:082  INFO - End | session id:mpp-2015180132226-18 | DM:ReportEnd | NumberPort_MN |  |  |  | 10000011851435584146
+29/06/2015 19:00:51:009  INFO - In Progress | session id:mpp-2015180132226-18 | DM:ReportEnd | NumberPortability_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000011851435584146
+29/06/2015 19:00:51:009  INFO - In Progress | session id:mpp-2015180132226-18 | DM:ReportEnd | NumberPortability_MN | Input Type | Output_Parameters:inputType | dtmf | 10000011851435584146
+29/06/2015 19:00:51:009  INFO - In Progress | session id:mpp-2015180132226-18 | DM:ReportEnd | NumberPortability_MN | Value | Output_Parameters:value | 1234567890 | 10000011851435584146
+29/06/2015 19:00:51:009  INFO - End | session id:mpp-2015180132226-18 | DM:ReportEnd | NumberPortability_MN |  |  |  | 10000011851435584146
+29/06/2015 19:00:56:479  INFO - In Progress | session id:mpp-2015180132226-18 | DM:ReportEnd | ConfirmNumber_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000011851435584146
+29/06/2015 19:00:56:479  INFO - In Progress | session id:mpp-2015180132226-18 | DM:ReportEnd | ConfirmNumber_MN | Input Type | Output_Parameters:inputType | dtmf | 10000011851435584146
+29/06/2015 19:00:56:479  INFO - In Progress | session id:mpp-2015180132226-18 | DM:ReportEnd | ConfirmNumber_MN | Value | Output_Parameters:value | Confirm | 10000011851435584146
+29/06/2015 19:00:56:479  INFO - End | session id:mpp-2015180132226-18 | DM:ReportEnd | ConfirmNumber_MN |  |  |  | 10000011851435584146
+29/06/2015 19:01:04:371  INFO - In Progress | session id:mpp-2015180132226-18 | DM:ReportEnd | STDCode_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000011851435584146
+29/06/2015 19:01:04:371  INFO - In Progress | session id:mpp-2015180132226-18 | DM:ReportEnd | STDCode_MN | Input Type | Output_Parameters:inputType | dtmf | 10000011851435584146
+29/06/2015 19:01:04:371  INFO - In Progress | session id:mpp-2015180132226-18 | DM:ReportEnd | STDCode_MN | Value | Output_Parameters:value | 123 | 10000011851435584146
+29/06/2015 19:01:04:371  INFO - End | session id:mpp-2015180132226-18 | DM:ReportEnd | STDCode_MN |  |  |  | 10000011851435584146
+29/06/2015 19:01:08:524  INFO - In Progress | session id:mpp-2015180132226-18 | DM:ReportEnd | Services_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000011851435584146
+29/06/2015 19:01:08:524  INFO - In Progress | session id:mpp-2015180132226-18 | DM:ReportEnd | Services_MN | Input Type | Output_Parameters:inputType | dtmf | 10000011851435584146
+29/06/2015 19:01:08:524  INFO - In Progress | session id:mpp-2015180132226-18 | DM:ReportEnd | Services_MN | Value | Output_Parameters:value | PrepaidServices | 10000011851435584146
+29/06/2015 19:01:08:524  INFO - End | session id:mpp-2015180132226-18 | DM:ReportEnd | Services_MN |  |  |  | 10000011851435584146
+29/06/2015 19:01:08:684  INFO - In Progress | session id:mpp-2015180132226-18 | DM:ReportEnd | ThankU_PP | Return Code | Output_Parameters:returncode |  | 10000011851435584146
+29/06/2015 19:01:08:684  INFO - End | session id:mpp-2015180132226-18 | DM:ReportEnd | ThankU_PP |  |  |  | 10000011851435584146
+29/06/2015 19:03:13:288  INFO - In Progress | session id:mpp-2015180132523-7 | DM:ReportEnd | Welcome_PP | Return Code | Output_Parameters:returncode |  | 10000011861435584323
+29/06/2015 19:03:13:288  INFO - End | session id:mpp-2015180132523-7 | DM:ReportEnd | Welcome_PP |  |  |  | 10000011861435584323
+29/06/2015 19:03:18:485  INFO - In Progress | session id:mpp-2015180132523-7 | DM:ReportEnd | SelectLang_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000011861435584323
+29/06/2015 19:03:18:486  INFO - In Progress | session id:mpp-2015180132523-7 | DM:ReportEnd | SelectLang_MN | Input Type | Output_Parameters:inputType | dtmf | 10000011861435584323
+29/06/2015 19:03:18:486  INFO - In Progress | session id:mpp-2015180132523-7 | DM:ReportEnd | SelectLang_MN | Value | Output_Parameters:value | ENG | 10000011861435584323
+29/06/2015 19:03:18:486  INFO - End | session id:mpp-2015180132523-7 | DM:ReportEnd | SelectLang_MN |  |  |  | 10000011861435584323
+29/06/2015 19:03:28:232  INFO - In Progress | session id:mpp-2015180132523-7 | DM:ReportEnd | OldProspect_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000011861435584323
+29/06/2015 19:03:28:232  INFO - In Progress | session id:mpp-2015180132523-7 | DM:ReportEnd | OldProspect_MN | Input Type | Output_Parameters:inputType | dtmf | 10000011861435584323
+29/06/2015 19:03:28:232  INFO - In Progress | session id:mpp-2015180132523-7 | DM:ReportEnd | OldProspect_MN | Value | Output_Parameters:value | RelianceNetwork | 10000011861435584323
+29/06/2015 19:03:28:232  INFO - End | session id:mpp-2015180132523-7 | DM:ReportEnd | OldProspect_MN |  |  |  | 10000011861435584323
+29/06/2015 19:03:30:762  INFO - In Progress | session id:mpp-2015180132523-7 | DM:ReportEnd | Prospect_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000011861435584323
+29/06/2015 19:03:30:762  INFO - In Progress | session id:mpp-2015180132523-7 | DM:ReportEnd | Prospect_MN | Input Type | Output_Parameters:inputType | dtmf | 10000011861435584323
+29/06/2015 19:03:30:762  INFO - In Progress | session id:mpp-2015180132523-7 | DM:ReportEnd | Prospect_MN | Value | Output_Parameters:value | PrepaidServices | 10000011861435584323
+29/06/2015 19:03:30:763  INFO - End | session id:mpp-2015180132523-7 | DM:ReportEnd | Prospect_MN |  |  |  | 10000011861435584323
+29/06/2015 19:03:38:443  INFO - In Progress | session id:mpp-2015180132548-12 | DM:ReportEnd | Welcome_PP | Return Code | Output_Parameters:returncode |  | 10000011871435584348
+29/06/2015 19:03:38:443  INFO - End | session id:mpp-2015180132548-12 | DM:ReportEnd | Welcome_PP |  |  |  | 10000011871435584348
+29/06/2015 19:03:39:230  INFO - In Progress | session id:mpp-2015180132548-12 | DM:ReportEnd | SelectLang_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000011871435584348
+29/06/2015 19:03:39:230  INFO - In Progress | session id:mpp-2015180132548-12 | DM:ReportEnd | SelectLang_MN | Input Type | Output_Parameters:inputType | dtmf | 10000011871435584348
+29/06/2015 19:03:39:230  INFO - In Progress | session id:mpp-2015180132548-12 | DM:ReportEnd | SelectLang_MN | Value | Output_Parameters:value | ENG | 10000011871435584348
+29/06/2015 19:03:39:230  INFO - End | session id:mpp-2015180132548-12 | DM:ReportEnd | SelectLang_MN |  |  |  | 10000011871435584348
+29/06/2015 19:40:26:367  INFO - In Progress | session id:mpp-2015180140236-5 | DM:ReportEnd | Welcome_PP | Return Code | Output_Parameters:returncode |  | 10000011931435586556
+29/06/2015 19:40:26:367  INFO - End | session id:mpp-2015180140236-5 | DM:ReportEnd | Welcome_PP |  |  |  | 10000011931435586556
+29/06/2015 19:40:30:926  INFO - In Progress | session id:mpp-2015180140236-5 | DM:ReportEnd | SelectLang_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000011931435586556
+29/06/2015 19:40:30:926  INFO - In Progress | session id:mpp-2015180140236-5 | DM:ReportEnd | SelectLang_MN | Input Type | Output_Parameters:inputType | dtmf | 10000011931435586556
+29/06/2015 19:40:30:926  INFO - In Progress | session id:mpp-2015180140236-5 | DM:ReportEnd | SelectLang_MN | Value | Output_Parameters:value | ENG | 10000011931435586556
+29/06/2015 19:40:30:926  INFO - End | session id:mpp-2015180140236-5 | DM:ReportEnd | SelectLang_MN |  |  |  | 10000011931435586556
+29/06/2015 19:40:40:632  INFO - In Progress | session id:mpp-2015180140236-5 | DM:ReportEnd | OldProspect_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000011931435586556
+29/06/2015 19:40:40:633  INFO - In Progress | session id:mpp-2015180140236-5 | DM:ReportEnd | OldProspect_MN | Input Type | Output_Parameters:inputType | dtmf | 10000011931435586556
+29/06/2015 19:40:40:633  INFO - In Progress | session id:mpp-2015180140236-5 | DM:ReportEnd | OldProspect_MN | Value | Output_Parameters:value | RelianceNetwork | 10000011931435586556
+29/06/2015 19:40:40:633  INFO - End | session id:mpp-2015180140236-5 | DM:ReportEnd | OldProspect_MN |  |  |  | 10000011931435586556
+29/06/2015 19:40:47:250  INFO - In Progress | session id:mpp-2015180140236-5 | DM:ReportEnd | Prospect_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000011931435586556
+29/06/2015 19:40:47:250  INFO - In Progress | session id:mpp-2015180140236-5 | DM:ReportEnd | Prospect_MN | Input Type | Output_Parameters:inputType | dtmf | 10000011931435586556
+29/06/2015 19:40:47:250  INFO - In Progress | session id:mpp-2015180140236-5 | DM:ReportEnd | Prospect_MN | Value | Output_Parameters:value | PostpaidServices | 10000011931435586556
+29/06/2015 19:40:47:250  INFO - End | session id:mpp-2015180140236-5 | DM:ReportEnd | Prospect_MN |  |  |  | 10000011931435586556
+29/06/2015 19:44:31:921  INFO - In Progress | session id:mpp-2015180140642-3 | DM:ReportEnd | Welcome_PP | Return Code | Output_Parameters:returncode |  | 10000011941435586802
+29/06/2015 19:44:31:922  INFO - End | session id:mpp-2015180140642-3 | DM:ReportEnd | Welcome_PP |  |  |  | 10000011941435586802
+29/06/2015 19:44:35:524  INFO - In Progress | session id:mpp-2015180140642-3 | DM:ReportEnd | SelectLang_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000011941435586802
+29/06/2015 19:44:35:524  INFO - In Progress | session id:mpp-2015180140642-3 | DM:ReportEnd | SelectLang_MN | Input Type | Output_Parameters:inputType | dtmf | 10000011941435586802
+29/06/2015 19:44:35:524  INFO - In Progress | session id:mpp-2015180140642-3 | DM:ReportEnd | SelectLang_MN | Value | Output_Parameters:value | ENG | 10000011941435586802
+29/06/2015 19:44:35:524  INFO - End | session id:mpp-2015180140642-3 | DM:ReportEnd | SelectLang_MN |  |  |  | 10000011941435586802
+29/06/2015 19:44:44:457  INFO - In Progress | session id:mpp-2015180140642-3 | DM:ReportEnd | OldProspect_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000011941435586802
+29/06/2015 19:44:44:457  INFO - In Progress | session id:mpp-2015180140642-3 | DM:ReportEnd | OldProspect_MN | Input Type | Output_Parameters:inputType | dtmf | 10000011941435586802
+29/06/2015 19:44:44:457  INFO - In Progress | session id:mpp-2015180140642-3 | DM:ReportEnd | OldProspect_MN | Value | Output_Parameters:value | RelianceNetwork | 10000011941435586802
+29/06/2015 19:44:44:458  INFO - End | session id:mpp-2015180140642-3 | DM:ReportEnd | OldProspect_MN |  |  |  | 10000011941435586802
+29/06/2015 19:44:46:121  INFO - In Progress | session id:mpp-2015180140642-3 | DM:ReportEnd | Prospect_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000011941435586802
+29/06/2015 19:44:46:121  INFO - In Progress | session id:mpp-2015180140642-3 | DM:ReportEnd | Prospect_MN | Input Type | Output_Parameters:inputType | dtmf | 10000011941435586802
+29/06/2015 19:44:46:121  INFO - In Progress | session id:mpp-2015180140642-3 | DM:ReportEnd | Prospect_MN | Value | Output_Parameters:value | PostpaidServices | 10000011941435586802
+29/06/2015 19:44:46:121  INFO - End | session id:mpp-2015180140642-3 | DM:ReportEnd | Prospect_MN |  |  |  | 10000011941435586802
+29/06/2015 19:44:59:752  INFO - In Progress | session id:mpp-2015180140642-3 | DM:ReportEnd | Postpaid_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000011941435586802
+29/06/2015 19:44:59:752  INFO - In Progress | session id:mpp-2015180140642-3 | DM:ReportEnd | Postpaid_MN | Input Type | Output_Parameters:inputType | dtmf | 10000011941435586802
+29/06/2015 19:44:59:752  INFO - In Progress | session id:mpp-2015180140642-3 | DM:ReportEnd | Postpaid_MN | Value | Output_Parameters:value | HOTDEAL | 10000011941435586802
+29/06/2015 19:44:59:752  INFO - End | session id:mpp-2015180140642-3 | DM:ReportEnd | Postpaid_MN |  |  |  | 10000011941435586802
+29/06/2015 19:49:28:210  INFO - In Progress | session id:mpp-2015180141138-10 | DM:ReportEnd | Welcome_PP | Return Code | Output_Parameters:returncode |  | 10000011951435587098
+29/06/2015 19:49:28:210  INFO - End | session id:mpp-2015180141138-10 | DM:ReportEnd | Welcome_PP |  |  |  | 10000011951435587098
+29/06/2015 19:49:45:009  INFO - In Progress | session id:mpp-2015180141138-10 | DM:ReportEnd | SelectLang_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000011951435587098
+29/06/2015 19:49:45:009  INFO - In Progress | session id:mpp-2015180141138-10 | DM:ReportEnd | SelectLang_MN | Input Type | Output_Parameters:inputType | dtmf | 10000011951435587098
+29/06/2015 19:49:45:009  INFO - In Progress | session id:mpp-2015180141138-10 | DM:ReportEnd | SelectLang_MN | Value | Output_Parameters:value | ENG | 10000011951435587098
+29/06/2015 19:49:45:009  INFO - End | session id:mpp-2015180141138-10 | DM:ReportEnd | SelectLang_MN |  |  |  | 10000011951435587098
+29/06/2015 19:49:50:497  INFO - In Progress | session id:mpp-2015180141138-10 | DM:ReportEnd | OldProspect_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000011951435587098
+29/06/2015 19:49:50:497  INFO - In Progress | session id:mpp-2015180141138-10 | DM:ReportEnd | OldProspect_MN | Input Type | Output_Parameters:inputType | dtmf | 10000011951435587098
+29/06/2015 19:49:50:497  INFO - In Progress | session id:mpp-2015180141138-10 | DM:ReportEnd | OldProspect_MN | Value | Output_Parameters:value | RelianceNetwork | 10000011951435587098
+29/06/2015 19:49:50:497  INFO - End | session id:mpp-2015180141138-10 | DM:ReportEnd | OldProspect_MN |  |  |  | 10000011951435587098
+29/06/2015 19:49:52:614  INFO - In Progress | session id:mpp-2015180141138-10 | DM:ReportEnd | Prospect_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000011951435587098
+29/06/2015 19:49:52:614  INFO - In Progress | session id:mpp-2015180141138-10 | DM:ReportEnd | Prospect_MN | Input Type | Output_Parameters:inputType | dtmf | 10000011951435587098
+29/06/2015 19:49:52:614  INFO - In Progress | session id:mpp-2015180141138-10 | DM:ReportEnd | Prospect_MN | Value | Output_Parameters:value | PostpaidServices | 10000011951435587098
+29/06/2015 19:49:52:614  INFO - End | session id:mpp-2015180141138-10 | DM:ReportEnd | Prospect_MN |  |  |  | 10000011951435587098
+29/06/2015 19:49:54:633  INFO - In Progress | session id:mpp-2015180141138-10 | DM:ReportEnd | Postpaid_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000011951435587098
+29/06/2015 19:49:54:633  INFO - In Progress | session id:mpp-2015180141138-10 | DM:ReportEnd | Postpaid_MN | Input Type | Output_Parameters:inputType | dtmf | 10000011951435587098
+29/06/2015 19:49:54:633  INFO - In Progress | session id:mpp-2015180141138-10 | DM:ReportEnd | Postpaid_MN | Value | Output_Parameters:value | HOTDEAL | 10000011951435587098
+29/06/2015 19:49:54:633  INFO - End | session id:mpp-2015180141138-10 | DM:ReportEnd | Postpaid_MN |  |  |  | 10000011951435587098
+29/06/2015 19:50:08:081  INFO - In Progress | session id:mpp-2015180141138-10 | DM:ReportEnd | Offer_PP | Return Code | Output_Parameters:returncode |  | 10000011951435587098
+29/06/2015 19:50:08:081  INFO - End | session id:mpp-2015180141138-10 | DM:ReportEnd | Offer_PP |  |  |  | 10000011951435587098
+29/06/2015 19:50:08:190 ERROR - In Progress | session id:mpp-2015180141138-10 | DM:IsConstraintListAvailable |  | java.lang.NumberFormatException: For input string: "" | Exception stack trace | Error processing request
+ EXCEPTION> 
+java.lang.NumberFormatException: For input string: ""
+	at java.lang.NumberFormatException.forInputString(Unknown Source)
+	at java.lang.Integer.parseInt(Unknown Source)
+	at java.lang.Integer.parseInt(Unknown Source)
+	at com.avaya.sce.runtime.VariableField.getIntValue(VariableField.java:363)
+	at flow.IsConstraintListAvailable.servletImplementation(IsConstraintListAvailable.java:55)
+	at com.avaya.sce.runtime.BasicServlet.handleRequest(BasicServlet.java:99)
+	at com.avaya.sce.runtime.AppServlet.processRequest(AppServlet.java:96)
+	at com.avaya.sce.runtime.SCEServlet.requestHandler(SCEServlet.java:285)
+	at com.avaya.sce.runtime.SCEServlet.doPost(SCEServlet.java:190)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:646)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:727)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:748)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:486)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:411)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:338)
+	at com.avaya.sce.runtime.SCEServlet.forward(SCEServlet.java:1364)
+	at com.avaya.sce.runtime.Data.handleRequest(Data.java:153)
+	at com.avaya.sce.runtime.AppServlet.processRequest(AppServlet.java:96)
+	at com.avaya.sce.runtime.SCEServlet.requestHandler(SCEServlet.java:285)
+	at com.avaya.sce.runtime.SCEServlet.doPost(SCEServlet.java:190)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:646)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:727)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:748)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:486)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:411)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:338)
+	at com.avaya.sce.runtime.SCEServlet.forward(SCEServlet.java:1364)
+	at com.avaya.sce.runtime.Data.evaluateActions(Data.java:211)
+	at flow.SetParams_PromptandCollect.executeDataActions(SetParams_PromptandCollect.java:300)
+	at com.avaya.sce.runtime.Data.handleRequest(Data.java:104)
+	at com.avaya.sce.runtime.AppServlet.processRequest(AppServlet.java:96)
+	at com.avaya.sce.runtime.SCEServlet.requestHandler(SCEServlet.java:285)
+	at com.avaya.sce.runtime.SCEServlet.doPost(SCEServlet.java:190)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:646)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:727)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:748)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:486)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:411)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:338)
+	at com.avaya.sce.runtime.SCEServlet.forward(SCEServlet.java:1364)
+	at com.avaya.sce.runtime.BasicServlet.handleRequest(BasicServlet.java:116)
+	at com.avaya.sce.runtime.AppServlet.processRequest(AppServlet.java:96)
+	at com.avaya.sce.runtime.SCEServlet.requestHandler(SCEServlet.java:285)
+	at com.avaya.sce.runtime.SCEServlet.doPost(SCEServlet.java:190)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:646)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:727)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:504)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:170)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:950)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:421)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1074)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:611)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:316)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+ | 10000011951435587098
+29/06/2015 19:55:22:874  INFO - In Progress | session id:mpp-2015180141732-2 | DM:ReportEnd | Welcome_PP | Return Code | Output_Parameters:returncode |  | 10000011961435587452
+29/06/2015 19:55:22:874  INFO - End | session id:mpp-2015180141732-2 | DM:ReportEnd | Welcome_PP |  |  |  | 10000011961435587452
+29/06/2015 19:55:24:224  INFO - In Progress | session id:mpp-2015180141732-2 | DM:ReportEnd | SelectLang_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000011961435587452
+29/06/2015 19:55:24:224  INFO - In Progress | session id:mpp-2015180141732-2 | DM:ReportEnd | SelectLang_MN | Input Type | Output_Parameters:inputType | dtmf | 10000011961435587452
+29/06/2015 19:55:24:224  INFO - In Progress | session id:mpp-2015180141732-2 | DM:ReportEnd | SelectLang_MN | Value | Output_Parameters:value | ENG | 10000011961435587452
+29/06/2015 19:55:24:224  INFO - End | session id:mpp-2015180141732-2 | DM:ReportEnd | SelectLang_MN |  |  |  | 10000011961435587452
+29/06/2015 19:55:26:448  INFO - In Progress | session id:mpp-2015180141732-2 | DM:ReportEnd | OldProspect_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000011961435587452
+29/06/2015 19:55:26:448  INFO - In Progress | session id:mpp-2015180141732-2 | DM:ReportEnd | OldProspect_MN | Input Type | Output_Parameters:inputType | dtmf | 10000011961435587452
+29/06/2015 19:55:26:448  INFO - In Progress | session id:mpp-2015180141732-2 | DM:ReportEnd | OldProspect_MN | Value | Output_Parameters:value | RelianceNetwork | 10000011961435587452
+29/06/2015 19:55:26:448  INFO - End | session id:mpp-2015180141732-2 | DM:ReportEnd | OldProspect_MN |  |  |  | 10000011961435587452
+29/06/2015 19:55:28:827  INFO - In Progress | session id:mpp-2015180141732-2 | DM:ReportEnd | Prospect_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000011961435587452
+29/06/2015 19:55:28:827  INFO - In Progress | session id:mpp-2015180141732-2 | DM:ReportEnd | Prospect_MN | Input Type | Output_Parameters:inputType | dtmf | 10000011961435587452
+29/06/2015 19:55:28:827  INFO - In Progress | session id:mpp-2015180141732-2 | DM:ReportEnd | Prospect_MN | Value | Output_Parameters:value | PostpaidServices | 10000011961435587452
+29/06/2015 19:55:28:827  INFO - End | session id:mpp-2015180141732-2 | DM:ReportEnd | Prospect_MN |  |  |  | 10000011961435587452
+29/06/2015 19:55:30:178  INFO - In Progress | session id:mpp-2015180141732-2 | DM:ReportEnd | Postpaid_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000011961435587452
+29/06/2015 19:55:30:178  INFO - In Progress | session id:mpp-2015180141732-2 | DM:ReportEnd | Postpaid_MN | Input Type | Output_Parameters:inputType | dtmf | 10000011961435587452
+29/06/2015 19:55:30:178  INFO - In Progress | session id:mpp-2015180141732-2 | DM:ReportEnd | Postpaid_MN | Value | Output_Parameters:value | HOTDEAL | 10000011961435587452
+29/06/2015 19:55:30:178  INFO - End | session id:mpp-2015180141732-2 | DM:ReportEnd | Postpaid_MN |  |  |  | 10000011961435587452
+29/06/2015 19:55:33:881  INFO - In Progress | session id:mpp-2015180141732-2 | DM:ReportEnd | Offer_PP | Return Code | Output_Parameters:returncode |  | 10000011961435587452
+29/06/2015 19:55:33:881  INFO - End | session id:mpp-2015180141732-2 | DM:ReportEnd | Offer_PP |  |  |  | 10000011961435587452
+29/06/2015 19:55:33:986 ERROR - In Progress | session id:mpp-2015180141732-2 | DM:IsConstraintListAvailable |  | java.lang.NumberFormatException: For input string: "" | Exception stack trace | Error processing request
+ EXCEPTION> 
+java.lang.NumberFormatException: For input string: ""
+	at java.lang.NumberFormatException.forInputString(Unknown Source)
+	at java.lang.Integer.parseInt(Unknown Source)
+	at java.lang.Integer.parseInt(Unknown Source)
+	at com.avaya.sce.runtime.VariableField.getIntValue(VariableField.java:363)
+	at flow.IsConstraintListAvailable.servletImplementation(IsConstraintListAvailable.java:55)
+	at com.avaya.sce.runtime.BasicServlet.handleRequest(BasicServlet.java:99)
+	at com.avaya.sce.runtime.AppServlet.processRequest(AppServlet.java:96)
+	at com.avaya.sce.runtime.SCEServlet.requestHandler(SCEServlet.java:285)
+	at com.avaya.sce.runtime.SCEServlet.doPost(SCEServlet.java:190)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:646)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:727)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:748)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:486)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:411)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:338)
+	at com.avaya.sce.runtime.SCEServlet.forward(SCEServlet.java:1364)
+	at com.avaya.sce.runtime.Data.handleRequest(Data.java:153)
+	at com.avaya.sce.runtime.AppServlet.processRequest(AppServlet.java:96)
+	at com.avaya.sce.runtime.SCEServlet.requestHandler(SCEServlet.java:285)
+	at com.avaya.sce.runtime.SCEServlet.doPost(SCEServlet.java:190)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:646)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:727)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:748)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:486)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:411)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:338)
+	at com.avaya.sce.runtime.SCEServlet.forward(SCEServlet.java:1364)
+	at com.avaya.sce.runtime.Data.evaluateActions(Data.java:211)
+	at flow.SetParams_PromptandCollect.executeDataActions(SetParams_PromptandCollect.java:300)
+	at com.avaya.sce.runtime.Data.handleRequest(Data.java:104)
+	at com.avaya.sce.runtime.AppServlet.processRequest(AppServlet.java:96)
+	at com.avaya.sce.runtime.SCEServlet.requestHandler(SCEServlet.java:285)
+	at com.avaya.sce.runtime.SCEServlet.doPost(SCEServlet.java:190)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:646)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:727)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:748)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:486)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:411)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:338)
+	at com.avaya.sce.runtime.SCEServlet.forward(SCEServlet.java:1364)
+	at com.avaya.sce.runtime.BasicServlet.handleRequest(BasicServlet.java:116)
+	at com.avaya.sce.runtime.AppServlet.processRequest(AppServlet.java:96)
+	at com.avaya.sce.runtime.SCEServlet.requestHandler(SCEServlet.java:285)
+	at com.avaya.sce.runtime.SCEServlet.doPost(SCEServlet.java:190)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:646)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:727)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:504)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:170)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:950)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:421)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1074)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:611)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:316)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+ | 10000011961435587452
+29/06/2015 20:01:13:902  INFO - In Progress | session id:mpp-2015180142323-16 | DM:ReportEnd | Welcome_PP | Return Code | Output_Parameters:returncode |  | 10000011971435587803
+29/06/2015 20:01:13:902  INFO - End | session id:mpp-2015180142323-16 | DM:ReportEnd | Welcome_PP |  |  |  | 10000011971435587803
+29/06/2015 20:01:17:697  INFO - In Progress | session id:mpp-2015180142323-16 | DM:ReportEnd | SelectLang_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000011971435587803
+29/06/2015 20:01:17:697  INFO - In Progress | session id:mpp-2015180142323-16 | DM:ReportEnd | SelectLang_MN | Input Type | Output_Parameters:inputType | dtmf | 10000011971435587803
+29/06/2015 20:01:17:697  INFO - In Progress | session id:mpp-2015180142323-16 | DM:ReportEnd | SelectLang_MN | Value | Output_Parameters:value | ENG | 10000011971435587803
+29/06/2015 20:01:17:697  INFO - End | session id:mpp-2015180142323-16 | DM:ReportEnd | SelectLang_MN |  |  |  | 10000011971435587803
+29/06/2015 20:01:28:496  INFO - In Progress | session id:mpp-2015180142323-16 | DM:ReportEnd | OldProspect_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000011971435587803
+29/06/2015 20:01:28:496  INFO - In Progress | session id:mpp-2015180142323-16 | DM:ReportEnd | OldProspect_MN | Input Type | Output_Parameters:inputType | dtmf | 10000011971435587803
+29/06/2015 20:01:28:496  INFO - In Progress | session id:mpp-2015180142323-16 | DM:ReportEnd | OldProspect_MN | Value | Output_Parameters:value | RelianceNetwork | 10000011971435587803
+29/06/2015 20:01:28:496  INFO - End | session id:mpp-2015180142323-16 | DM:ReportEnd | OldProspect_MN |  |  |  | 10000011971435587803
+29/06/2015 20:01:32:903  INFO - In Progress | session id:mpp-2015180142323-16 | DM:ReportEnd | Prospect_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000011971435587803
+29/06/2015 20:01:32:903  INFO - In Progress | session id:mpp-2015180142323-16 | DM:ReportEnd | Prospect_MN | Input Type | Output_Parameters:inputType | dtmf | 10000011971435587803
+29/06/2015 20:01:32:903  INFO - In Progress | session id:mpp-2015180142323-16 | DM:ReportEnd | Prospect_MN | Value | Output_Parameters:value | PostpaidServices | 10000011971435587803
+29/06/2015 20:01:32:903  INFO - End | session id:mpp-2015180142323-16 | DM:ReportEnd | Prospect_MN |  |  |  | 10000011971435587803
+29/06/2015 20:01:35:460  INFO - In Progress | session id:mpp-2015180142323-16 | DM:ReportEnd | Postpaid_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000011971435587803
+29/06/2015 20:01:35:460  INFO - In Progress | session id:mpp-2015180142323-16 | DM:ReportEnd | Postpaid_MN | Input Type | Output_Parameters:inputType | dtmf | 10000011971435587803
+29/06/2015 20:01:35:461  INFO - In Progress | session id:mpp-2015180142323-16 | DM:ReportEnd | Postpaid_MN | Value | Output_Parameters:value | HOTDEAL | 10000011971435587803
+29/06/2015 20:01:35:461  INFO - End | session id:mpp-2015180142323-16 | DM:ReportEnd | Postpaid_MN |  |  |  | 10000011971435587803
+29/06/2015 20:01:38:616  INFO - In Progress | session id:mpp-2015180142323-16 | DM:ReportEnd | Offer_PP | Return Code | Output_Parameters:returncode |  | 10000011971435587803
+29/06/2015 20:01:38:616  INFO - End | session id:mpp-2015180142323-16 | DM:ReportEnd | Offer_PP |  |  |  | 10000011971435587803
+29/06/2015 20:01:38:735 ERROR - In Progress | session id:mpp-2015180142323-16 | DM:PromptAndCollect |  | java.lang.NumberFormatException: For input string: "NONE" | Exception stack trace | Error processing request
+ EXCEPTION> 
+java.lang.NumberFormatException: For input string: "NONE"
+	at java.lang.NumberFormatException.forInputString(Unknown Source)
+	at java.lang.Integer.parseInt(Unknown Source)
+	at java.lang.Integer.parseInt(Unknown Source)
+	at com.avaya.sce.runtime.VariableField.getIntValue(VariableField.java:363)
+	at ENG.prompts.PlayPrompt.updatePrompt(PlayPrompt.java:64)
+	at com.avaya.sce.runtime.InputCommon.loadPrompts(InputCommon.java:55)
+	at com.avaya.sce.runtime.Field.generate(Field.java:96)
+	at com.avaya.sce.runtime.Form.handleRequest(Form.java:299)
+	at com.avaya.sce.runtime.AppDocument.processRequest(AppDocument.java:244)
+	at com.avaya.sce.runtime.SCEServlet.requestHandler(SCEServlet.java:285)
+	at com.avaya.sce.runtime.SCEServlet.doPost(SCEServlet.java:190)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:646)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:727)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:748)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:486)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:411)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:338)
+	at com.avaya.sce.runtime.SCEServlet.forward(SCEServlet.java:1364)
+	at com.avaya.sce.runtime.Data.handleRequest(Data.java:153)
+	at com.avaya.sce.runtime.AppServlet.processRequest(AppServlet.java:96)
+	at com.avaya.sce.runtime.SCEServlet.requestHandler(SCEServlet.java:285)
+	at com.avaya.sce.runtime.SCEServlet.doPost(SCEServlet.java:190)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:646)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:727)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:748)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:486)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:411)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:338)
+	at com.avaya.sce.runtime.SCEServlet.forward(SCEServlet.java:1364)
+	at com.avaya.sce.runtime.Data.handleRequest(Data.java:153)
+	at com.avaya.sce.runtime.AppServlet.processRequest(AppServlet.java:96)
+	at com.avaya.sce.runtime.SCEServlet.requestHandler(SCEServlet.java:285)
+	at com.avaya.sce.runtime.SCEServlet.doPost(SCEServlet.java:190)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:646)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:727)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:748)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:486)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:411)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:338)
+	at com.avaya.sce.runtime.SCEServlet.forward(SCEServlet.java:1364)
+	at com.avaya.sce.runtime.BasicServlet.handleRequest(BasicServlet.java:116)
+	at com.avaya.sce.runtime.AppServlet.processRequest(AppServlet.java:96)
+	at com.avaya.sce.runtime.SCEServlet.requestHandler(SCEServlet.java:285)
+	at com.avaya.sce.runtime.SCEServlet.doPost(SCEServlet.java:190)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:646)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:727)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:748)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:486)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:411)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:338)
+	at com.avaya.sce.runtime.SCEServlet.forward(SCEServlet.java:1364)
+	at com.avaya.sce.runtime.Data.evaluateActions(Data.java:211)
+	at flow.SetInitialPrmt.executeDataActions(SetInitialPrmt.java:104)
+	at com.avaya.sce.runtime.Data.handleRequest(Data.java:104)
+	at com.avaya.sce.runtime.AppServlet.processRequest(AppServlet.java:96)
+	at com.avaya.sce.runtime.SCEServlet.requestHandler(SCEServlet.java:285)
+	at com.avaya.sce.runtime.SCEServlet.doPost(SCEServlet.java:190)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:646)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:727)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:748)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:486)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:411)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:338)
+	at com.avaya.sce.runtime.SCEServlet.forward(SCEServlet.java:1364)
+	at com.avaya.sce.runtime.Data.evaluateActions(Data.java:211)
+	at flow.SetParams_PromptandCollect.executeDataActions(SetParams_PromptandCollect.java:300)
+	at com.avaya.sce.runtime.Data.handleRequest(Data.java:104)
+	at com.avaya.sce.runtime.AppServlet.processRequest(AppServlet.java:96)
+	at com.avaya.sce.runtime.SCEServlet.requestHandler(SCEServlet.java:285)
+	at com.avaya.sce.runtime.SCEServlet.doPost(SCEServlet.java:190)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:646)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:727)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:748)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:486)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:411)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:338)
+	at com.avaya.sce.runtime.SCEServlet.forward(SCEServlet.java:1364)
+	at com.avaya.sce.runtime.BasicServlet.handleRequest(BasicServlet.java:116)
+	at com.avaya.sce.runtime.AppServlet.processRequest(AppServlet.java:96)
+	at com.avaya.sce.runtime.SCEServlet.requestHandler(SCEServlet.java:285)
+	at com.avaya.sce.runtime.SCEServlet.doPost(SCEServlet.java:190)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:646)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:727)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:504)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:170)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:950)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:421)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1074)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:611)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:316)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+ | 10000011971435587803
+29/06/2015 20:05:44:398  INFO - In Progress | session id:mpp-2015180142753-8 | DM:ReportEnd | Welcome_PP | Return Code | Output_Parameters:returncode |  | 10000011981435588073
+29/06/2015 20:05:44:399  INFO - End | session id:mpp-2015180142753-8 | DM:ReportEnd | Welcome_PP |  |  |  | 10000011981435588073
+29/06/2015 20:05:45:782  INFO - In Progress | session id:mpp-2015180142753-8 | DM:ReportEnd | SelectLang_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000011981435588073
+29/06/2015 20:05:45:782  INFO - In Progress | session id:mpp-2015180142753-8 | DM:ReportEnd | SelectLang_MN | Input Type | Output_Parameters:inputType | dtmf | 10000011981435588073
+29/06/2015 20:05:45:782  INFO - In Progress | session id:mpp-2015180142753-8 | DM:ReportEnd | SelectLang_MN | Value | Output_Parameters:value | ENG | 10000011981435588073
+29/06/2015 20:05:45:782  INFO - End | session id:mpp-2015180142753-8 | DM:ReportEnd | SelectLang_MN |  |  |  | 10000011981435588073
+29/06/2015 20:05:57:057  INFO - In Progress | session id:mpp-2015180142753-8 | DM:ReportEnd | OldProspect_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000011981435588073
+29/06/2015 20:05:57:058  INFO - In Progress | session id:mpp-2015180142753-8 | DM:ReportEnd | OldProspect_MN | Input Type | Output_Parameters:inputType | dtmf | 10000011981435588073
+29/06/2015 20:05:57:058  INFO - In Progress | session id:mpp-2015180142753-8 | DM:ReportEnd | OldProspect_MN | Value | Output_Parameters:value | RelianceNetwork | 10000011981435588073
+29/06/2015 20:05:57:058  INFO - End | session id:mpp-2015180142753-8 | DM:ReportEnd | OldProspect_MN |  |  |  | 10000011981435588073
+29/06/2015 20:06:00:102  INFO - In Progress | session id:mpp-2015180142753-8 | DM:ReportEnd | Prospect_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000011981435588073
+29/06/2015 20:06:00:102  INFO - In Progress | session id:mpp-2015180142753-8 | DM:ReportEnd | Prospect_MN | Input Type | Output_Parameters:inputType | dtmf | 10000011981435588073
+29/06/2015 20:06:00:103  INFO - In Progress | session id:mpp-2015180142753-8 | DM:ReportEnd | Prospect_MN | Value | Output_Parameters:value | PostpaidServices | 10000011981435588073
+29/06/2015 20:06:00:103  INFO - End | session id:mpp-2015180142753-8 | DM:ReportEnd | Prospect_MN |  |  |  | 10000011981435588073
+29/06/2015 20:06:01:597  INFO - In Progress | session id:mpp-2015180142753-8 | DM:ReportEnd | Postpaid_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000011981435588073
+29/06/2015 20:06:01:597  INFO - In Progress | session id:mpp-2015180142753-8 | DM:ReportEnd | Postpaid_MN | Input Type | Output_Parameters:inputType | dtmf | 10000011981435588073
+29/06/2015 20:06:01:597  INFO - In Progress | session id:mpp-2015180142753-8 | DM:ReportEnd | Postpaid_MN | Value | Output_Parameters:value | HOTDEAL | 10000011981435588073
+29/06/2015 20:06:01:597  INFO - End | session id:mpp-2015180142753-8 | DM:ReportEnd | Postpaid_MN |  |  |  | 10000011981435588073
+29/06/2015 20:06:05:801  INFO - In Progress | session id:mpp-2015180142753-8 | DM:ReportEnd | Offer_PP | Return Code | Output_Parameters:returncode |  | 10000011981435588073
+29/06/2015 20:06:05:801  INFO - End | session id:mpp-2015180142753-8 | DM:ReportEnd | Offer_PP |  |  |  | 10000011981435588073
+29/06/2015 20:06:17:267  INFO - In Progress | session id:mpp-2015180142753-8 | DM:ReportEnd | Purchase_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000011981435588073
+29/06/2015 20:06:17:267  INFO - In Progress | session id:mpp-2015180142753-8 | DM:ReportEnd | Purchase_MN | Input Type | Output_Parameters:inputType | dtmf | 10000011981435588073
+29/06/2015 20:06:17:268  INFO - In Progress | session id:mpp-2015180142753-8 | DM:ReportEnd | Purchase_MN | Value | Output_Parameters:value | HotDeal2.wav | 10000011981435588073
+29/06/2015 20:06:17:268  INFO - End | session id:mpp-2015180142753-8 | DM:ReportEnd | Purchase_MN |  |  |  | 10000011981435588073
+29/06/2015 20:06:17:480  INFO - In Progress | session id:mpp-2015180142753-8 | DM:ReportEnd | TransferAgent_PP | Return Code | Output_Parameters:returncode |  | 10000011981435588073
+29/06/2015 20:06:17:480  INFO - End | session id:mpp-2015180142753-8 | DM:ReportEnd | TransferAgent_PP |  |  |  | 10000011981435588073

@@ -1,0 +1,673 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+ <wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+- <wsdl:types>
+- <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+- <s:element name="ValidateCustomer">
+- <s:complexType>
+- <s:sequence>
+  <s:element minOccurs="0" maxOccurs="1" name="strAuthKey" type="s:string" /> 
+  <s:element minOccurs="0" maxOccurs="1" name="strEduid" type="s:string" /> 
+  <s:element minOccurs="1" maxOccurs="1" name="intInteractionType" type="s:int" /> 
+  <s:element minOccurs="0" maxOccurs="1" name="strRegisteredNumber" type="s:string" /> 
+  <s:element minOccurs="0" maxOccurs="1" name="strPinNumber" type="s:string" /> 
+  <s:element minOccurs="1" maxOccurs="1" name="intServiceType" type="s:int" /> 
+  <s:element minOccurs="1" maxOccurs="1" name="intValidateType" type="s:int" /> 
+  <s:element minOccurs="0" maxOccurs="1" name="strProductCode" type="s:string" /> 
+  <s:element minOccurs="0" maxOccurs="1" name="strMessage" type="s:string" /> 
+  <s:element minOccurs="0" maxOccurs="1" name="strResponseXml" type="s:string" /> 
+  </s:sequence>
+  </s:complexType>
+  </s:element>
+- <s:element name="ValidateCustomerResponse">
+- <s:complexType>
+- <s:sequence>
+  <s:element minOccurs="1" maxOccurs="1" name="ValidateCustomerResult" type="s:boolean" /> 
+  <s:element minOccurs="0" maxOccurs="1" name="strMessage" type="s:string" /> 
+  <s:element minOccurs="0" maxOccurs="1" name="strResponseXml" type="s:string" /> 
+  </s:sequence>
+  </s:complexType>
+  </s:element>
+- <s:element name="AccountBalance">
+- <s:complexType>
+- <s:sequence>
+  <s:element minOccurs="0" maxOccurs="1" name="strAuthKey" type="s:string" /> 
+  <s:element minOccurs="0" maxOccurs="1" name="strEduid" type="s:string" /> 
+  <s:element minOccurs="1" maxOccurs="1" name="intInteractionType" type="s:int" /> 
+  <s:element minOccurs="0" maxOccurs="1" name="strRegisteredNumber" type="s:string" /> 
+  <s:element minOccurs="0" maxOccurs="1" name="strPinNumber" type="s:string" /> 
+  <s:element minOccurs="1" maxOccurs="1" name="intServiceType" type="s:int" /> 
+  <s:element minOccurs="1" maxOccurs="1" name="intValidateType" type="s:int" /> 
+  <s:element minOccurs="0" maxOccurs="1" name="strProductCode" type="s:string" /> 
+  <s:element minOccurs="0" maxOccurs="1" name="strMessage" type="s:string" /> 
+  <s:element minOccurs="0" maxOccurs="1" name="strResponseXml" type="s:string" /> 
+  </s:sequence>
+  </s:complexType>
+  </s:element>
+- <s:element name="AccountBalanceResponse">
+- <s:complexType>
+- <s:sequence>
+  <s:element minOccurs="1" maxOccurs="1" name="AccountBalanceResult" type="s:boolean" /> 
+  <s:element minOccurs="0" maxOccurs="1" name="strMessage" type="s:string" /> 
+  <s:element minOccurs="0" maxOccurs="1" name="strResponseXml" type="s:string" /> 
+  </s:sequence>
+  </s:complexType>
+  </s:element>
+- <s:element name="AccountInUse">
+- <s:complexType>
+- <s:sequence>
+  <s:element minOccurs="0" maxOccurs="1" name="strAuthKey" type="s:string" /> 
+  <s:element minOccurs="0" maxOccurs="1" name="strEduid" type="s:string" /> 
+  <s:element minOccurs="1" maxOccurs="1" name="intInteractionType" type="s:int" /> 
+  <s:element minOccurs="0" maxOccurs="1" name="strRegisteredNumber" type="s:string" /> 
+  <s:element minOccurs="0" maxOccurs="1" name="strNafNumber" type="s:string" /> 
+  <s:element minOccurs="1" maxOccurs="1" name="intServiceType" type="s:int" /> 
+  <s:element minOccurs="0" maxOccurs="1" name="strProductCode" type="s:string" /> 
+  <s:element minOccurs="0" maxOccurs="1" name="strMessage" type="s:string" /> 
+  <s:element minOccurs="0" maxOccurs="1" name="strResponseXml" type="s:string" /> 
+  </s:sequence>
+  </s:complexType>
+  </s:element>
+- <s:element name="AccountInUseResponse">
+- <s:complexType>
+- <s:sequence>
+  <s:element minOccurs="1" maxOccurs="1" name="AccountInUseResult" type="s:boolean" /> 
+  <s:element minOccurs="0" maxOccurs="1" name="strMessage" type="s:string" /> 
+  <s:element minOccurs="0" maxOccurs="1" name="strResponseXml" type="s:string" /> 
+  </s:sequence>
+  </s:complexType>
+  </s:element>
+- <s:element name="ChangePIN">
+- <s:complexType>
+- <s:sequence>
+  <s:element minOccurs="0" maxOccurs="1" name="strAuthKey" type="s:string" /> 
+  <s:element minOccurs="0" maxOccurs="1" name="strEduid" type="s:string" /> 
+  <s:element minOccurs="1" maxOccurs="1" name="intInteractionType" type="s:int" /> 
+  <s:element minOccurs="0" maxOccurs="1" name="strRegisteredNumber" type="s:string" /> 
+  <s:element minOccurs="0" maxOccurs="1" name="strPinNumber" type="s:string" /> 
+  <s:element minOccurs="1" maxOccurs="1" name="intServiceType" type="s:int" /> 
+  <s:element minOccurs="1" maxOccurs="1" name="intValidateType" type="s:int" /> 
+  <s:element minOccurs="0" maxOccurs="1" name="strProductCode" type="s:string" /> 
+  <s:element minOccurs="0" maxOccurs="1" name="strMessage" type="s:string" /> 
+  <s:element minOccurs="0" maxOccurs="1" name="strResponseXml" type="s:string" /> 
+  </s:sequence>
+  </s:complexType>
+  </s:element>
+- <s:element name="ChangePINResponse">
+- <s:complexType>
+- <s:sequence>
+  <s:element minOccurs="1" maxOccurs="1" name="ChangePINResult" type="s:boolean" /> 
+  <s:element minOccurs="0" maxOccurs="1" name="strMessage" type="s:string" /> 
+  <s:element minOccurs="0" maxOccurs="1" name="strResponseXml" type="s:string" /> 
+  </s:sequence>
+  </s:complexType>
+  </s:element>
+- <s:element name="CardChange">
+- <s:complexType>
+- <s:sequence>
+  <s:element minOccurs="0" maxOccurs="1" name="strAuthKey" type="s:string" /> 
+  <s:element minOccurs="0" maxOccurs="1" name="strEduid" type="s:string" /> 
+  <s:element minOccurs="1" maxOccurs="1" name="intInteractionType" type="s:int" /> 
+  <s:element minOccurs="0" maxOccurs="1" name="strRegisteredNumber" type="s:string" /> 
+  <s:element minOccurs="0" maxOccurs="1" name="strPinNumber" type="s:string" /> 
+  <s:element minOccurs="1" maxOccurs="1" name="intServiceType" type="s:int" /> 
+  <s:element minOccurs="1" maxOccurs="1" name="intValidateType" type="s:int" /> 
+  <s:element minOccurs="0" maxOccurs="1" name="strInstNumber" type="s:string" /> 
+  <s:element minOccurs="0" maxOccurs="1" name="strInstExpiryDate" type="s:string" /> 
+  <s:element minOccurs="0" maxOccurs="1" name="strInstCode" type="s:string" /> 
+  <s:element minOccurs="0" maxOccurs="1" name="strInstOneTime" type="s:string" /> 
+  <s:element minOccurs="0" maxOccurs="1" name="strProductCode" type="s:string" /> 
+  <s:element minOccurs="0" maxOccurs="1" name="strMessage" type="s:string" /> 
+  <s:element minOccurs="0" maxOccurs="1" name="strResponseXml" type="s:string" /> 
+  </s:sequence>
+  </s:complexType>
+  </s:element>
+- <s:element name="CardChangeResponse">
+- <s:complexType>
+- <s:sequence>
+  <s:element minOccurs="1" maxOccurs="1" name="CardChangeResult" type="s:boolean" /> 
+  <s:element minOccurs="0" maxOccurs="1" name="strMessage" type="s:string" /> 
+  <s:element minOccurs="0" maxOccurs="1" name="strResponseXml" type="s:string" /> 
+  </s:sequence>
+  </s:complexType>
+  </s:element>
+- <s:element name="Registration">
+- <s:complexType>
+- <s:sequence>
+  <s:element minOccurs="0" maxOccurs="1" name="strAuthKey" type="s:string" /> 
+  <s:element minOccurs="0" maxOccurs="1" name="strEduid" type="s:string" /> 
+  <s:element minOccurs="0" maxOccurs="1" name="strCsrid" type="s:string" /> 
+  <s:element minOccurs="1" maxOccurs="1" name="intInteractionType" type="s:int" /> 
+  <s:element minOccurs="0" maxOccurs="1" name="strInstNumber" type="s:string" /> 
+  <s:element minOccurs="0" maxOccurs="1" name="strInstExpiryDate" type="s:string" /> 
+  <s:element minOccurs="0" maxOccurs="1" name="strInstCode" type="s:string" /> 
+  <s:element minOccurs="0" maxOccurs="1" name="strProductCode" type="s:string" /> 
+  <s:element minOccurs="0" maxOccurs="1" name="strInstOneTime" type="s:string" /> 
+  <s:element minOccurs="0" maxOccurs="1" name="strMessage" type="s:string" /> 
+  <s:element minOccurs="0" maxOccurs="1" name="strResponseXml" type="s:string" /> 
+  </s:sequence>
+  </s:complexType>
+  </s:element>
+- <s:element name="RegistrationResponse">
+- <s:complexType>
+- <s:sequence>
+  <s:element minOccurs="1" maxOccurs="1" name="RegistrationResult" type="s:boolean" /> 
+  <s:element minOccurs="0" maxOccurs="1" name="strMessage" type="s:string" /> 
+  <s:element minOccurs="0" maxOccurs="1" name="strResponseXml" type="s:string" /> 
+  </s:sequence>
+  </s:complexType>
+  </s:element>
+- <s:element name="PinlessPayment">
+- <s:complexType>
+- <s:sequence>
+  <s:element minOccurs="0" maxOccurs="1" name="strAuthKey" type="s:string" /> 
+  <s:element minOccurs="0" maxOccurs="1" name="strEduid" type="s:string" /> 
+  <s:element minOccurs="1" maxOccurs="1" name="intInteractionType" type="s:int" /> 
+  <s:element minOccurs="0" maxOccurs="1" name="strRegisteredNumber" type="s:string" /> 
+  <s:element minOccurs="0" maxOccurs="1" name="strNafNumber" type="s:string" /> 
+  <s:element minOccurs="1" maxOccurs="1" name="intServiceType" type="s:int" /> 
+  <s:element minOccurs="0" maxOccurs="1" name="strInstNumber" type="s:string" /> 
+  <s:element minOccurs="0" maxOccurs="1" name="strInstExpiryDate" type="s:string" /> 
+  <s:element minOccurs="0" maxOccurs="1" name="strInstCode" type="s:string" /> 
+  <s:element minOccurs="0" maxOccurs="1" name="strProductCode" type="s:string" /> 
+  <s:element minOccurs="0" maxOccurs="1" name="strMessage" type="s:string" /> 
+  <s:element minOccurs="0" maxOccurs="1" name="strResponseXml" type="s:string" /> 
+  </s:sequence>
+  </s:complexType>
+  </s:element>
+- <s:element name="PinlessPaymentResponse">
+- <s:complexType>
+- <s:sequence>
+  <s:element minOccurs="1" maxOccurs="1" name="PinlessPaymentResult" type="s:boolean" /> 
+  <s:element minOccurs="0" maxOccurs="1" name="strMessage" type="s:string" /> 
+  <s:element minOccurs="0" maxOccurs="1" name="strResponseXml" type="s:string" /> 
+  </s:sequence>
+  </s:complexType>
+  </s:element>
+- <s:element name="CalculateTax">
+- <s:complexType>
+- <s:sequence>
+  <s:element minOccurs="0" maxOccurs="1" name="strAuthKey" type="s:string" /> 
+  <s:element minOccurs="0" maxOccurs="1" name="strEduid" type="s:string" /> 
+  <s:element minOccurs="1" maxOccurs="1" name="intInteractionType" type="s:int" /> 
+  <s:element minOccurs="0" maxOccurs="1" name="strRegisteredNumber" type="s:string" /> 
+  <s:element minOccurs="0" maxOccurs="1" name="strPinNumber" type="s:string" /> 
+  <s:element minOccurs="1" maxOccurs="1" name="intServiceType" type="s:int" /> 
+  <s:element minOccurs="1" maxOccurs="1" name="intValidateType" type="s:int" /> 
+  <s:element minOccurs="1" maxOccurs="1" name="dblAmount" type="s:double" /> 
+  <s:element minOccurs="0" maxOccurs="1" name="strInstNumber" type="s:string" /> 
+  <s:element minOccurs="0" maxOccurs="1" name="strInstExpiryDate" type="s:string" /> 
+  <s:element minOccurs="0" maxOccurs="1" name="strInstCode" type="s:string" /> 
+  <s:element minOccurs="0" maxOccurs="1" name="strProductCode" type="s:string" /> 
+  <s:element minOccurs="0" maxOccurs="1" name="strMessage" type="s:string" /> 
+  <s:element minOccurs="0" maxOccurs="1" name="strResponseXml" type="s:string" /> 
+  </s:sequence>
+  </s:complexType>
+  </s:element>
+- <s:element name="CalculateTaxResponse">
+- <s:complexType>
+- <s:sequence>
+  <s:element minOccurs="1" maxOccurs="1" name="CalculateTaxResult" type="s:boolean" /> 
+  <s:element minOccurs="0" maxOccurs="1" name="strMessage" type="s:string" /> 
+  <s:element minOccurs="0" maxOccurs="1" name="strResponseXml" type="s:string" /> 
+  </s:sequence>
+  </s:complexType>
+  </s:element>
+- <s:element name="GetCallRates">
+- <s:complexType>
+- <s:sequence>
+  <s:element minOccurs="0" maxOccurs="1" name="strAuthKey" type="s:string" /> 
+  <s:element minOccurs="0" maxOccurs="1" name="strEduid" type="s:string" /> 
+  <s:element minOccurs="1" maxOccurs="1" name="intInteractionType" type="s:int" /> 
+  <s:element minOccurs="1" maxOccurs="1" name="intSCCode" type="s:int" /> 
+  <s:element minOccurs="1" maxOccurs="1" name="intDCCode" type="s:int" /> 
+  <s:element minOccurs="1" maxOccurs="1" name="intFetchFlag" type="s:int" /> 
+  <s:element minOccurs="0" maxOccurs="1" name="strProductCode" type="s:string" /> 
+  <s:element minOccurs="0" maxOccurs="1" name="strMessage" type="s:string" /> 
+  <s:element minOccurs="0" maxOccurs="1" name="strResponseXml" type="s:string" /> 
+  </s:sequence>
+  </s:complexType>
+  </s:element>
+- <s:element name="GetCallRatesResponse">
+- <s:complexType>
+- <s:sequence>
+  <s:element minOccurs="1" maxOccurs="1" name="GetCallRatesResult" type="s:boolean" /> 
+  <s:element minOccurs="0" maxOccurs="1" name="strMessage" type="s:string" /> 
+  <s:element minOccurs="0" maxOccurs="1" name="strResponseXml" type="s:string" /> 
+  </s:sequence>
+  </s:complexType>
+  </s:element>
+- <s:element name="CCDCAuthentication">
+- <s:complexType>
+- <s:sequence>
+  <s:element minOccurs="0" maxOccurs="1" name="strAuthKey" type="s:string" /> 
+  <s:element minOccurs="0" maxOccurs="1" name="strEduid" type="s:string" /> 
+  <s:element minOccurs="1" maxOccurs="1" name="intInteractionType" type="s:int" /> 
+  <s:element minOccurs="0" maxOccurs="1" name="strRegisteredNumber" type="s:string" /> 
+  <s:element minOccurs="0" maxOccurs="1" name="strPinNumber" type="s:string" /> 
+  <s:element minOccurs="1" maxOccurs="1" name="intServiceType" type="s:int" /> 
+  <s:element minOccurs="1" maxOccurs="1" name="intValidateType" type="s:int" /> 
+  <s:element minOccurs="0" maxOccurs="1" name="strInstNumber" type="s:string" /> 
+  <s:element minOccurs="0" maxOccurs="1" name="strInstExpiryDate" type="s:string" /> 
+  <s:element minOccurs="0" maxOccurs="1" name="strInstCode" type="s:string" /> 
+  <s:element minOccurs="0" maxOccurs="1" name="strProductCode" type="s:string" /> 
+  <s:element minOccurs="0" maxOccurs="1" name="strMessage" type="s:string" /> 
+  <s:element minOccurs="0" maxOccurs="1" name="strResponseXml" type="s:string" /> 
+  </s:sequence>
+  </s:complexType>
+  </s:element>
+- <s:element name="CCDCAuthenticationResponse">
+- <s:complexType>
+- <s:sequence>
+  <s:element minOccurs="1" maxOccurs="1" name="CCDCAuthenticationResult" type="s:boolean" /> 
+  <s:element minOccurs="0" maxOccurs="1" name="strMessage" type="s:string" /> 
+  <s:element minOccurs="0" maxOccurs="1" name="strResponseXml" type="s:string" /> 
+  </s:sequence>
+  </s:complexType>
+  </s:element>
+- <s:element name="RechargeAccount">
+- <s:complexType>
+- <s:sequence>
+  <s:element minOccurs="0" maxOccurs="1" name="strAuthKey" type="s:string" /> 
+  <s:element minOccurs="0" maxOccurs="1" name="strEduid" type="s:string" /> 
+  <s:element minOccurs="1" maxOccurs="1" name="intInteractionType" type="s:int" /> 
+  <s:element minOccurs="0" maxOccurs="1" name="strRegisteredNumber" type="s:string" /> 
+  <s:element minOccurs="0" maxOccurs="1" name="strPinNumber" type="s:string" /> 
+  <s:element minOccurs="1" maxOccurs="1" name="intServiceType" type="s:int" /> 
+  <s:element minOccurs="1" maxOccurs="1" name="intValidateType" type="s:int" /> 
+  <s:element minOccurs="0" maxOccurs="1" name="strRechargeMode" type="s:string" /> 
+  <s:element minOccurs="1" maxOccurs="1" name="dblAmount" type="s:double" /> 
+  <s:element minOccurs="0" maxOccurs="1" name="strUseCard" type="s:string" /> 
+  <s:element minOccurs="0" maxOccurs="1" name="strInstNumber" type="s:string" /> 
+  <s:element minOccurs="0" maxOccurs="1" name="strInstExpiryDate" type="s:string" /> 
+  <s:element minOccurs="0" maxOccurs="1" name="strInstCode" type="s:string" /> 
+  <s:element minOccurs="0" maxOccurs="1" name="strInstType" type="s:string" /> 
+  <s:element minOccurs="0" maxOccurs="1" name="strInstOneTime" type="s:string" /> 
+  <s:element minOccurs="0" maxOccurs="1" name="strProductCode" type="s:string" /> 
+  <s:element minOccurs="0" maxOccurs="1" name="strMessage" type="s:string" /> 
+  <s:element minOccurs="0" maxOccurs="1" name="strResponseXml" type="s:string" /> 
+  </s:sequence>
+  </s:complexType>
+  </s:element>
+- <s:element name="RechargeAccountResponse">
+- <s:complexType>
+- <s:sequence>
+  <s:element minOccurs="1" maxOccurs="1" name="RechargeAccountResult" type="s:boolean" /> 
+  <s:element minOccurs="0" maxOccurs="1" name="strMessage" type="s:string" /> 
+  <s:element minOccurs="0" maxOccurs="1" name="strResponseXml" type="s:string" /> 
+  </s:sequence>
+  </s:complexType>
+  </s:element>
+- <s:element name="validatePhysicalCCPin">
+- <s:complexType>
+- <s:sequence>
+  <s:element minOccurs="0" maxOccurs="1" name="authKey" type="s:string" /> 
+  <s:element minOccurs="0" maxOccurs="1" name="pinNumber" type="s:string" /> 
+  <s:element minOccurs="0" maxOccurs="1" name="message" type="s:string" /> 
+  <s:element minOccurs="0" maxOccurs="1" name="IVRResponseXml" type="s:string" /> 
+  </s:sequence>
+  </s:complexType>
+  </s:element>
+- <s:element name="validatePhysicalCCPinResponse">
+- <s:complexType>
+- <s:sequence>
+  <s:element minOccurs="1" maxOccurs="1" name="validatePhysicalCCPinResult" type="s:boolean" /> 
+  <s:element minOccurs="0" maxOccurs="1" name="message" type="s:string" /> 
+  <s:element minOccurs="0" maxOccurs="1" name="IVRResponseXml" type="s:string" /> 
+  </s:sequence>
+  </s:complexType>
+  </s:element>
+  </s:schema>
+  </wsdl:types>
+- <wsdl:message name="ValidateCustomerSoapIn">
+  <wsdl:part name="parameters" element="tns:ValidateCustomer" /> 
+  </wsdl:message>
+- <wsdl:message name="ValidateCustomerSoapOut">
+  <wsdl:part name="parameters" element="tns:ValidateCustomerResponse" /> 
+  </wsdl:message>
+- <wsdl:message name="AccountBalanceSoapIn">
+  <wsdl:part name="parameters" element="tns:AccountBalance" /> 
+  </wsdl:message>
+- <wsdl:message name="AccountBalanceSoapOut">
+  <wsdl:part name="parameters" element="tns:AccountBalanceResponse" /> 
+  </wsdl:message>
+- <wsdl:message name="AccountInUseSoapIn">
+  <wsdl:part name="parameters" element="tns:AccountInUse" /> 
+  </wsdl:message>
+- <wsdl:message name="AccountInUseSoapOut">
+  <wsdl:part name="parameters" element="tns:AccountInUseResponse" /> 
+  </wsdl:message>
+- <wsdl:message name="ChangePINSoapIn">
+  <wsdl:part name="parameters" element="tns:ChangePIN" /> 
+  </wsdl:message>
+- <wsdl:message name="ChangePINSoapOut">
+  <wsdl:part name="parameters" element="tns:ChangePINResponse" /> 
+  </wsdl:message>
+- <wsdl:message name="CardChangeSoapIn">
+  <wsdl:part name="parameters" element="tns:CardChange" /> 
+  </wsdl:message>
+- <wsdl:message name="CardChangeSoapOut">
+  <wsdl:part name="parameters" element="tns:CardChangeResponse" /> 
+  </wsdl:message>
+- <wsdl:message name="RegistrationSoapIn">
+  <wsdl:part name="parameters" element="tns:Registration" /> 
+  </wsdl:message>
+- <wsdl:message name="RegistrationSoapOut">
+  <wsdl:part name="parameters" element="tns:RegistrationResponse" /> 
+  </wsdl:message>
+- <wsdl:message name="PinlessPaymentSoapIn">
+  <wsdl:part name="parameters" element="tns:PinlessPayment" /> 
+  </wsdl:message>
+- <wsdl:message name="PinlessPaymentSoapOut">
+  <wsdl:part name="parameters" element="tns:PinlessPaymentResponse" /> 
+  </wsdl:message>
+- <wsdl:message name="CalculateTaxSoapIn">
+  <wsdl:part name="parameters" element="tns:CalculateTax" /> 
+  </wsdl:message>
+- <wsdl:message name="CalculateTaxSoapOut">
+  <wsdl:part name="parameters" element="tns:CalculateTaxResponse" /> 
+  </wsdl:message>
+- <wsdl:message name="GetCallRatesSoapIn">
+  <wsdl:part name="parameters" element="tns:GetCallRates" /> 
+  </wsdl:message>
+- <wsdl:message name="GetCallRatesSoapOut">
+  <wsdl:part name="parameters" element="tns:GetCallRatesResponse" /> 
+  </wsdl:message>
+- <wsdl:message name="CCDCAuthenticationSoapIn">
+  <wsdl:part name="parameters" element="tns:CCDCAuthentication" /> 
+  </wsdl:message>
+- <wsdl:message name="CCDCAuthenticationSoapOut">
+  <wsdl:part name="parameters" element="tns:CCDCAuthenticationResponse" /> 
+  </wsdl:message>
+- <wsdl:message name="RechargeAccountSoapIn">
+  <wsdl:part name="parameters" element="tns:RechargeAccount" /> 
+  </wsdl:message>
+- <wsdl:message name="RechargeAccountSoapOut">
+  <wsdl:part name="parameters" element="tns:RechargeAccountResponse" /> 
+  </wsdl:message>
+- <wsdl:message name="validatePhysicalCCPinSoapIn">
+  <wsdl:part name="parameters" element="tns:validatePhysicalCCPin" /> 
+  </wsdl:message>
+- <wsdl:message name="validatePhysicalCCPinSoapOut">
+  <wsdl:part name="parameters" element="tns:validatePhysicalCCPinResponse" /> 
+  </wsdl:message>
+- <wsdl:portType name="RGC_ServicesSoap">
+- <wsdl:operation name="ValidateCustomer">
+  <wsdl:input message="tns:ValidateCustomerSoapIn" /> 
+  <wsdl:output message="tns:ValidateCustomerSoapOut" /> 
+  </wsdl:operation>
+- <wsdl:operation name="AccountBalance">
+  <wsdl:input message="tns:AccountBalanceSoapIn" /> 
+  <wsdl:output message="tns:AccountBalanceSoapOut" /> 
+  </wsdl:operation>
+- <wsdl:operation name="AccountInUse">
+  <wsdl:input message="tns:AccountInUseSoapIn" /> 
+  <wsdl:output message="tns:AccountInUseSoapOut" /> 
+  </wsdl:operation>
+- <wsdl:operation name="ChangePIN">
+  <wsdl:input message="tns:ChangePINSoapIn" /> 
+  <wsdl:output message="tns:ChangePINSoapOut" /> 
+  </wsdl:operation>
+- <wsdl:operation name="CardChange">
+  <wsdl:input message="tns:CardChangeSoapIn" /> 
+  <wsdl:output message="tns:CardChangeSoapOut" /> 
+  </wsdl:operation>
+- <wsdl:operation name="Registration">
+  <wsdl:input message="tns:RegistrationSoapIn" /> 
+  <wsdl:output message="tns:RegistrationSoapOut" /> 
+  </wsdl:operation>
+- <wsdl:operation name="PinlessPayment">
+  <wsdl:input message="tns:PinlessPaymentSoapIn" /> 
+  <wsdl:output message="tns:PinlessPaymentSoapOut" /> 
+  </wsdl:operation>
+- <wsdl:operation name="CalculateTax">
+  <wsdl:input message="tns:CalculateTaxSoapIn" /> 
+  <wsdl:output message="tns:CalculateTaxSoapOut" /> 
+  </wsdl:operation>
+- <wsdl:operation name="GetCallRates">
+  <wsdl:input message="tns:GetCallRatesSoapIn" /> 
+  <wsdl:output message="tns:GetCallRatesSoapOut" /> 
+  </wsdl:operation>
+- <wsdl:operation name="CCDCAuthentication">
+  <wsdl:input message="tns:CCDCAuthenticationSoapIn" /> 
+  <wsdl:output message="tns:CCDCAuthenticationSoapOut" /> 
+  </wsdl:operation>
+- <wsdl:operation name="RechargeAccount">
+  <wsdl:input message="tns:RechargeAccountSoapIn" /> 
+  <wsdl:output message="tns:RechargeAccountSoapOut" /> 
+  </wsdl:operation>
+- <wsdl:operation name="validatePhysicalCCPin">
+  <wsdl:input message="tns:validatePhysicalCCPinSoapIn" /> 
+  <wsdl:output message="tns:validatePhysicalCCPinSoapOut" /> 
+  </wsdl:operation>
+  </wsdl:portType>
+- <wsdl:binding name="RGC_ServicesSoap" type="tns:RGC_ServicesSoap">
+  <soap:binding transport="http://schemas.xmlsoap.org/soap/http" /> 
+- <wsdl:operation name="ValidateCustomer">
+  <soap:operation soapAction="http://tempuri.org/ValidateCustomer" style="document" /> 
+- <wsdl:input>
+  <soap:body use="literal" /> 
+  </wsdl:input>
+- <wsdl:output>
+  <soap:body use="literal" /> 
+  </wsdl:output>
+  </wsdl:operation>
+- <wsdl:operation name="AccountBalance">
+  <soap:operation soapAction="http://tempuri.org/AccountBalance" style="document" /> 
+- <wsdl:input>
+  <soap:body use="literal" /> 
+  </wsdl:input>
+- <wsdl:output>
+  <soap:body use="literal" /> 
+  </wsdl:output>
+  </wsdl:operation>
+- <wsdl:operation name="AccountInUse">
+  <soap:operation soapAction="http://tempuri.org/AccountInUse" style="document" /> 
+- <wsdl:input>
+  <soap:body use="literal" /> 
+  </wsdl:input>
+- <wsdl:output>
+  <soap:body use="literal" /> 
+  </wsdl:output>
+  </wsdl:operation>
+- <wsdl:operation name="ChangePIN">
+  <soap:operation soapAction="http://tempuri.org/ChangePIN" style="document" /> 
+- <wsdl:input>
+  <soap:body use="literal" /> 
+  </wsdl:input>
+- <wsdl:output>
+  <soap:body use="literal" /> 
+  </wsdl:output>
+  </wsdl:operation>
+- <wsdl:operation name="CardChange">
+  <soap:operation soapAction="http://tempuri.org/CardChange" style="document" /> 
+- <wsdl:input>
+  <soap:body use="literal" /> 
+  </wsdl:input>
+- <wsdl:output>
+  <soap:body use="literal" /> 
+  </wsdl:output>
+  </wsdl:operation>
+- <wsdl:operation name="Registration">
+  <soap:operation soapAction="http://tempuri.org/Registration" style="document" /> 
+- <wsdl:input>
+  <soap:body use="literal" /> 
+  </wsdl:input>
+- <wsdl:output>
+  <soap:body use="literal" /> 
+  </wsdl:output>
+  </wsdl:operation>
+- <wsdl:operation name="PinlessPayment">
+  <soap:operation soapAction="http://tempuri.org/PinlessPayment" style="document" /> 
+- <wsdl:input>
+  <soap:body use="literal" /> 
+  </wsdl:input>
+- <wsdl:output>
+  <soap:body use="literal" /> 
+  </wsdl:output>
+  </wsdl:operation>
+- <wsdl:operation name="CalculateTax">
+  <soap:operation soapAction="http://tempuri.org/CalculateTax" style="document" /> 
+- <wsdl:input>
+  <soap:body use="literal" /> 
+  </wsdl:input>
+- <wsdl:output>
+  <soap:body use="literal" /> 
+  </wsdl:output>
+  </wsdl:operation>
+- <wsdl:operation name="GetCallRates">
+  <soap:operation soapAction="http://tempuri.org/GetCallRates" style="document" /> 
+- <wsdl:input>
+  <soap:body use="literal" /> 
+  </wsdl:input>
+- <wsdl:output>
+  <soap:body use="literal" /> 
+  </wsdl:output>
+  </wsdl:operation>
+- <wsdl:operation name="CCDCAuthentication">
+  <soap:operation soapAction="http://tempuri.org/CCDCAuthentication" style="document" /> 
+- <wsdl:input>
+  <soap:body use="literal" /> 
+  </wsdl:input>
+- <wsdl:output>
+  <soap:body use="literal" /> 
+  </wsdl:output>
+  </wsdl:operation>
+- <wsdl:operation name="RechargeAccount">
+  <soap:operation soapAction="http://tempuri.org/RechargeAccount" style="document" /> 
+- <wsdl:input>
+  <soap:body use="literal" /> 
+  </wsdl:input>
+- <wsdl:output>
+  <soap:body use="literal" /> 
+  </wsdl:output>
+  </wsdl:operation>
+- <wsdl:operation name="validatePhysicalCCPin">
+  <soap:operation soapAction="http://tempuri.org/validatePhysicalCCPin" style="document" /> 
+- <wsdl:input>
+  <soap:body use="literal" /> 
+  </wsdl:input>
+- <wsdl:output>
+  <soap:body use="literal" /> 
+  </wsdl:output>
+  </wsdl:operation>
+  </wsdl:binding>
+- <wsdl:binding name="RGC_ServicesSoap12" type="tns:RGC_ServicesSoap">
+  <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" /> 
+- <wsdl:operation name="ValidateCustomer">
+  <soap12:operation soapAction="http://tempuri.org/ValidateCustomer" style="document" /> 
+- <wsdl:input>
+  <soap12:body use="literal" /> 
+  </wsdl:input>
+- <wsdl:output>
+  <soap12:body use="literal" /> 
+  </wsdl:output>
+  </wsdl:operation>
+- <wsdl:operation name="AccountBalance">
+  <soap12:operation soapAction="http://tempuri.org/AccountBalance" style="document" /> 
+- <wsdl:input>
+  <soap12:body use="literal" /> 
+  </wsdl:input>
+- <wsdl:output>
+  <soap12:body use="literal" /> 
+  </wsdl:output>
+  </wsdl:operation>
+- <wsdl:operation name="AccountInUse">
+  <soap12:operation soapAction="http://tempuri.org/AccountInUse" style="document" /> 
+- <wsdl:input>
+  <soap12:body use="literal" /> 
+  </wsdl:input>
+- <wsdl:output>
+  <soap12:body use="literal" /> 
+  </wsdl:output>
+  </wsdl:operation>
+- <wsdl:operation name="ChangePIN">
+  <soap12:operation soapAction="http://tempuri.org/ChangePIN" style="document" /> 
+- <wsdl:input>
+  <soap12:body use="literal" /> 
+  </wsdl:input>
+- <wsdl:output>
+  <soap12:body use="literal" /> 
+  </wsdl:output>
+  </wsdl:operation>
+- <wsdl:operation name="CardChange">
+  <soap12:operation soapAction="http://tempuri.org/CardChange" style="document" /> 
+- <wsdl:input>
+  <soap12:body use="literal" /> 
+  </wsdl:input>
+- <wsdl:output>
+  <soap12:body use="literal" /> 
+  </wsdl:output>
+  </wsdl:operation>
+- <wsdl:operation name="Registration">
+  <soap12:operation soapAction="http://tempuri.org/Registration" style="document" /> 
+- <wsdl:input>
+  <soap12:body use="literal" /> 
+  </wsdl:input>
+- <wsdl:output>
+  <soap12:body use="literal" /> 
+  </wsdl:output>
+  </wsdl:operation>
+- <wsdl:operation name="PinlessPayment">
+  <soap12:operation soapAction="http://tempuri.org/PinlessPayment" style="document" /> 
+- <wsdl:input>
+  <soap12:body use="literal" /> 
+  </wsdl:input>
+- <wsdl:output>
+  <soap12:body use="literal" /> 
+  </wsdl:output>
+  </wsdl:operation>
+- <wsdl:operation name="CalculateTax">
+  <soap12:operation soapAction="http://tempuri.org/CalculateTax" style="document" /> 
+- <wsdl:input>
+  <soap12:body use="literal" /> 
+  </wsdl:input>
+- <wsdl:output>
+  <soap12:body use="literal" /> 
+  </wsdl:output>
+  </wsdl:operation>
+- <wsdl:operation name="GetCallRates">
+  <soap12:operation soapAction="http://tempuri.org/GetCallRates" style="document" /> 
+- <wsdl:input>
+  <soap12:body use="literal" /> 
+  </wsdl:input>
+- <wsdl:output>
+  <soap12:body use="literal" /> 
+  </wsdl:output>
+  </wsdl:operation>
+- <wsdl:operation name="CCDCAuthentication">
+  <soap12:operation soapAction="http://tempuri.org/CCDCAuthentication" style="document" /> 
+- <wsdl:input>
+  <soap12:body use="literal" /> 
+  </wsdl:input>
+- <wsdl:output>
+  <soap12:body use="literal" /> 
+  </wsdl:output>
+  </wsdl:operation>
+- <wsdl:operation name="RechargeAccount">
+  <soap12:operation soapAction="http://tempuri.org/RechargeAccount" style="document" /> 
+- <wsdl:input>
+  <soap12:body use="literal" /> 
+  </wsdl:input>
+- <wsdl:output>
+  <soap12:body use="literal" /> 
+  </wsdl:output>
+  </wsdl:operation>
+- <wsdl:operation name="validatePhysicalCCPin">
+  <soap12:operation soapAction="http://tempuri.org/validatePhysicalCCPin" style="document" /> 
+- <wsdl:input>
+  <soap12:body use="literal" /> 
+  </wsdl:input>
+- <wsdl:output>
+  <soap12:body use="literal" /> 
+  </wsdl:output>
+  </wsdl:operation>
+  </wsdl:binding>
+- <wsdl:service name="RGC_Services">
+- <wsdl:port name="RGC_ServicesSoap" binding="tns:RGC_ServicesSoap">
+  <soap:address location="http://10.8.196.78/rgc_ivr_new/RGC_Services.asmx" /> 
+  </wsdl:port>
+- <wsdl:port name="RGC_ServicesSoap12" binding="tns:RGC_ServicesSoap12">
+  <soap12:address location="http://10.8.196.78/rgc_ivr_new/RGC_Services.asmx" /> 
+  </wsdl:port>
+  </wsdl:service>
+  </wsdl:definitions>

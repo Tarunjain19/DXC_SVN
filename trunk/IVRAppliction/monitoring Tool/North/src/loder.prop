@@ -1,0 +1,12 @@
+switch=true
+TomcatUserName=admin
+TomcatPassword=admin
+Ip=10.156.82.85
+Port=8080
+ApplicationName=manager
+
+
+
+
+#Chennai Hub
+10.156.82.85=10.156.82.86,10.156.82.87,10.156.82.88,10.156.82.89

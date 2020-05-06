@@ -1,0 +1,8 @@
+log4j.logger.com.servion.rcom.hostinterface.Main=debug,client
+
+log4j.appender.dblog=org.apache.log4j.DailyRollingFileAppender
+log4j.appender.dblog.File=D:/v2.1/ARCOM_Logs/DBLogs/Host.log
+log4j.appender.dblog.DatePattern='.'yyyy-MM-dd
+log4j.appender.dblog.layout=org.apache.log4j.PatternLayout
+log4j.appender.dblog.layout.ConversionPattern=%d{dd/MM/yyyy HH:mm:ss:SSS} %5p - %m%n
+log4j.appender.dblog.Encoding=UTF-8

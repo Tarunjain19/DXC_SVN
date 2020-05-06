@@ -1,0 +1,49 @@
+DM_PROPERTIES_LOCATION_MARATHI=D:\\v2.1\\ARCOM_Workspace\\RCOM_CF_REL_REGULAR_IVR\\config\\marathi\\
+DM_PROPERTIES_LOCATION_HINDI=D:\\v2.1\\ARCOM_Workspace\\RCOM_CF_REL_REGULAR_IVR\\config\\hindi\\
+DM_PROPERTIES_LOCATION_ENGLISH=D:\\v2.1\\ARCOM_Workspace\\RCOM_CF_REL_REGULAR_IVR\\config\\english\\
+DM_PROPERTIES_LOCATION_GUJARATI=D:\\v2.1\\ARCOM_Workspace\\RCOM_CF_REL_REGULAR_IVR\\config\\gujarati\\
+
+#LANGUAGE ID For Call Variables & Input to DB
+LANGUAGE_MARATHI=MR
+LANGUAGE_HINDI=HN
+LANGUAGE_ENGLISH=EN
+LANGUAGE_GUJARATI=GU
+
+#Application name for DB inputs
+APP_NAME=RCOM_CF_REL_REGULAR_IVR
+
+SWITCHOVER_UNMANNED_LANG_INITIAL_PROMPT=44200.wav*44201.wav*
+REGULAR_LANG_INITIAL_PROMPT=
+
+SWITCHOVER_UNMANNED_LANG_MENU_ID=MN_0001
+REGULAR_LANG_MENU_ID=MN_0002
+
+#Hot flash date format
+HOT_FLASH_DATE_FORMAT=
+
+#ATOM Application Transfer VDN
+ATOM_TRANSFER_VDN=
+
+# Default IVR Type in case of DB Issue or Invalid IVR Type while getting details from DB 
+DEFAULT_IVR_TYPE=
+
+#Tata callers DNIS list separated by PIPE if more than one 
+DNIS_TATA_CALLERS=
+
+#Direct transfer DNIS list separated by PIPE if more than one
+DNIS_DIRECT_TRANSFER=
+
+#Mode of payment details prompt list, 1- ECS, 2 - Cheque, 3 - Cash, 4 - Internet, 5 - Bank Payment, 6 - VDS 
+MODE_OF_PAYMENT_1=44265.wav
+MODE_OF_PAYMENT_2=44262.wav
+MODE_OF_PAYMENT_3=44263.wav
+MODE_OF_PAYMENT_4=44264.wav
+MODE_OF_PAYMENT_5=44266.wav
+MODE_OF_PAYMENT_6=44267.wav
+
+
+#Dynamic Menu Details
+RCOM_CF_REL_REGULAR_IVR_MN_0015=44251.wav*SS:{0}:date*44252.wav*SS:{1}:currency*44253.wav*SS:{2}:date*44258.wav*
+RCOM_CF_REL_REGULAR_IVR_PA_0035=44259.wav*SS:{0}:date*44260.wav*SS:{1}:currency*44261.wav
+RCOM_CF_REL_REGULAR_IVR_PA_0028=44251.wav*SS:{0}:date*44252.wav*SS:{1}:currency*44253.wav*SS:{2}:date*44254.wav
+RCOM_CF_REL_REGULAR_IVR_PA_0031=44256*SS:{0}:number*44257.wav

@@ -1,0 +1,29 @@
+##################################################################################
+# 
+# RED_PA_0002.properties file
+# 
+##################################################################################
+
+
+########################
+# Dialog Name
+########################
+
+dialogName = Retention_RED_PA_0002
+isDTMF=true
+isAnnouncement = true
+language=DEFAULT
+menuID=RED_PA_0002
+
+loggingEnabled=true
+loggerName=RCOM_CF_RED_IVR
+
+
+initialPrompt = 42153.wav
+
+
+
+
+
+
+

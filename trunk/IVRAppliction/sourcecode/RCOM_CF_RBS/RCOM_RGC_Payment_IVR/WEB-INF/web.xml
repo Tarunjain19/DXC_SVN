@@ -1,0 +1,641 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--
+This XML descriptor is automatically generated and managed by the
+application development environment.  While manual updates to this 
+file may be preserved, it is best to manage this file through the application development environment tool.
+
+Copyright 2004-2011 Avaya Inc.
+--><!DOCTYPE web-app PUBLIC "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN" "http://java.sun.com/dtd/web-app_2_3.dtd">
+<web-app id="WebApp_ID">
+    <context-param>
+        <param-name>sage.startlanguage</param-name>
+        <param-value>english</param-value>
+        <description>The starting language for the application.</description>
+    </context-param>
+    <context-param>
+        <param-name>sage.ic.throwexceptions</param-name>
+        <param-value>true</param-value>
+        <description>IC Throw Runtime Exception on Error{true|false}</description>
+    </context-param>
+    <context-param>
+        <param-name>sage.cti.autoinvoke.callinfo</param-name>
+        <param-value>true</param-value>
+        <description>CTI Auto invoke CallInfo upon app start{true|false}</description>
+    </context-param>
+    <context-param>
+        <param-name>runtime-ASR</param-name>
+        <param-value>Desktop Microsoft Speech SAPI</param-value>
+        <description>Runtime ASR {SRGS-Literals|SRGS-SISR|Nuance OSR|IBM|...}</description>
+    </context-param>
+    <context-param>
+        <param-name>runtime-SSML</param-name>
+        <param-value>true</param-value>
+        <description>Runtime SSML Generation {true|false} - "true" enables SSML generation, "false" disables.</description>
+    </context-param>
+    <context-param>
+        <param-name>runtime-nature</param-name>
+        <param-value>speech</param-value>
+        <description>Application nature, speech or message</description>
+    </context-param>
+    <context-param>
+        <param-name>runtime-Platform</param-name>
+        <param-value>Desktop</param-value>
+        <description>Runtime Platform {Desktop|Voice Portal|Experience Portal|Other|IR|MPS}</description>
+    </context-param>
+    <context-param>
+        <param-name>runtime-VXML-Compatibility</param-name>
+        <param-value>2.1</param-value>
+        <description>2.1 + IVVR, 2.1 Allows VXML 2.1 extensions, 2.0 Uses VXML 2.0 Only</description>
+    </context-param>
+    <context-param>
+        <param-name>runtime-DTMF-Native</param-name>
+        <param-value>LOCAL_SRGS_LITERALS</param-value>
+        <description>(NATIVE|LOCAL_SRGS_SISR|LOCAL_SRGS_LITERALS, NATIVE means DTMF Grammars are in native asr format.</description>
+    </context-param>
+    <context-param>
+        <param-name>CollectionSeparator</param-name>
+        <param-value>|</param-value>
+        <description>Collection Separator Char</description>
+    </context-param>
+    <context-param>
+        <param-name>grammar-caching</param-name>
+        <param-value>none</param-value>
+        <description>Grammar caching mode, none=no caching, default=system default or property setting</description>
+    </context-param>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <servlet id="avayadefaultdisconnecthandler-servlet">
+        <servlet-name>AvayaDefaultDisconnectHandler</servlet-name>
+        <servlet-class>com.avaya.sce.runtime.DefaultDisconnect</servlet-class>
+    </servlet>
+    <servlet id="avayadefaultexithandler-servlet">
+        <servlet-name>AvayaDefaultExitHandler</servlet-name>
+        <servlet-class>com.avaya.sce.runtime.DefaultExit</servlet-class>
+    </servlet>
+    <servlet id="avayasessiontermination-servlet">
+        <servlet-name>AvayaSessionTerminationServlet</servlet-name>
+        <servlet-class>com.avaya.sce.runtime.AvayaSessionTerminationServlet</servlet-class>
+    </servlet>
+    <servlet id="avayareturnerrorhandler-servlet">
+        <servlet-name>AvayaReturnErrorHandler</servlet-name>
+        <servlet-class>com.avaya.sce.runtime.ReturnErrorHandlerServlet</servlet-class>
+    </servlet>
+    <servlet id="avayareturnerrorthrow-servlet">
+        <servlet-name>AvayaReturnErrorThrow</servlet-name>
+        <servlet-class>com.avaya.sce.runtime.ReturnErrorThrowServlet</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_1">
+        <servlet-name>AppRoot</servlet-name>
+        <servlet-class>flow.AppRoot</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_0">
+        <servlet-name>Start</servlet-name>
+        <servlet-class>flow.Start</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_16">
+        <servlet-name>DM_Welcome_Msg</servlet-name>
+        <servlet-class>flow.DM_Welcome_Msg</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_159">
+        <servlet-name>DM_TechDiff_Msg</servlet-name>
+        <servlet-class>flow.DM_TechDiff_Msg</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_151">
+        <servlet-name>DAT_Chk_Signup_Call</servlet-name>
+        <servlet-class>flow.DAT_Chk_Signup_Call</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_298">
+        <servlet-name>DAT_CallEndProcess</servlet-name>
+        <servlet-class>flow.DAT_CallEndProcess</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_303">
+        <servlet-name>End</servlet-name>
+        <servlet-class>flow.End</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_305">
+        <servlet-name>DM_GetRegisteredPhNum_Menu</servlet-name>
+        <servlet-class>flow.DM_GetRegisteredPhNum_Menu</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_441">
+        <servlet-name>DAT_Chk_PhNum</servlet-name>
+        <servlet-class>flow.DAT_Chk_PhNum</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_464">
+        <servlet-name>DM_ThankYou_Msg</servlet-name>
+        <servlet-class>flow.DM_ThankYou_Msg</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_602">
+        <servlet-name>DM_ExceededTries_Msg</servlet-name>
+        <servlet-class>flow.DM_ExceededTries_Msg</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_451">
+        <servlet-name>DAT_Chk_Tries</servlet-name>
+        <servlet-class>flow.DAT_Chk_Tries</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_739">
+        <servlet-name>DM_ReConfirm_RegPhNumMenu</servlet-name>
+        <servlet-class>flow.DM_ReConfirm_RegPhNumMenu</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_887">
+        <servlet-name>DAT_Chk_Tries1</servlet-name>
+        <servlet-class>flow.DAT_Chk_Tries1</servlet-class>
+    </servlet>
+    
+    <servlet id="SAGE-callflow-servlet_main_912">
+        <servlet-name>DAT_Get_VDN</servlet-name>
+        <servlet-class>flow.DAT_Get_VDN</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_903">
+        <servlet-name>DAT_WS_Validate_PhNum</servlet-name>
+        <servlet-class>flow.DAT_WS_Validate_PhNum</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_874">
+        <servlet-name>DAT_Chk_Input</servlet-name>
+        <servlet-class>flow.DAT_Chk_Input</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_929">
+        <servlet-name>DAT_Chk_PIN_Change</servlet-name>
+        <servlet-class>flow.DAT_Chk_PIN_Change</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_939">
+        <servlet-name>DM_Get_PIN</servlet-name>
+        <servlet-class>flow.DM_Get_PIN</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_1084">
+        <servlet-name>DAT_Chk_PIN</servlet-name>
+        <servlet-class>flow.DAT_Chk_PIN</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_1074">
+        <servlet-name>DAT_Chk_PIN_Collected</servlet-name>
+        <servlet-class>flow.DAT_Chk_PIN_Collected</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_1098">
+        <servlet-name>DAT_WS_Validate_PIN</servlet-name>
+        <servlet-class>flow.DAT_WS_Validate_PIN</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_1110">
+        <servlet-name>DAT_Store_PIN</servlet-name>
+        <servlet-class>flow.DAT_Store_PIN</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_1766">
+        <servlet-name>DAT_Chk_Tries5</servlet-name>
+        <servlet-class>flow.DAT_Chk_Tries5</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_1918">
+        <servlet-name>DAT_Chk_Input6</servlet-name>
+        <servlet-class>flow.DAT_Chk_Input6</servlet-class>
+    </servlet>
+    
+    <servlet id="SAGE-callflow-servlet_main_1782">
+        <servlet-name>DM_Get_CC_Number</servlet-name>
+        <servlet-class>flow.DM_Get_CC_Number</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_1614">
+        <servlet-name>DM_Get_CC_Details</servlet-name>
+        <servlet-class>flow.DM_Get_CC_Details</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_2226">
+        <servlet-name>DAT_Chk_Tries7</servlet-name>
+        <servlet-class>flow.DAT_Chk_Tries7</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_1600">
+        <servlet-name>DAT_Chk_Tries4</servlet-name>
+        <servlet-class>flow.DAT_Chk_Tries4</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_1127">
+        <servlet-name>DAT_Chk_Tries2</servlet-name>
+        <servlet-class>flow.DAT_Chk_Tries2</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_1748">
+        <servlet-name>DAT_Chk_Input5</servlet-name>
+        <servlet-class>flow.DAT_Chk_Input5</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_2084">
+        <servlet-name>DAT_Chk_Input7</servlet-name>
+        <servlet-class>flow.DAT_Chk_Input7</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_1142">
+        <servlet-name>DM_RBI_Msg_OTP</servlet-name>
+        <servlet-class>flow.DM_RBI_Msg_OTP</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_1276">
+        <servlet-name>DAT_Chk_Input1</servlet-name>
+        <servlet-class>flow.DAT_Chk_Input1</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_2092">
+        <servlet-name>DM_Get_CC_Validation_Code</servlet-name>
+        <servlet-class>flow.DM_Get_CC_Validation_Code</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_1427">
+        <servlet-name>DAT_Chk_Amount</servlet-name>
+        <servlet-class>flow.DAT_Chk_Amount</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_1437">
+        <servlet-name>DAT_Chk_Tries3</servlet-name>
+        <servlet-class>flow.DAT_Chk_Tries3</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_1289">
+        <servlet-name>DM_Get_RechargeAmount</servlet-name>
+        <servlet-class>flow.DM_Get_RechargeAmount</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_1587">
+        <servlet-name>DAT_Chk_Input4</servlet-name>
+        <servlet-class>flow.DAT_Chk_Input4</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_1947">
+        <servlet-name>DM_Get_CC_Validity</servlet-name>
+        <servlet-class>flow.DM_Get_CC_Validity</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_1452">
+        <servlet-name>DM_Confirm_Amount</servlet-name>
+        <servlet-class>flow.DM_Confirm_Amount</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_1928">
+        <servlet-name>DAT_Chk_Tries6</servlet-name>
+        <servlet-class>flow.DAT_Chk_Tries6</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_2250">
+        <servlet-name>DAT_Chk_Tries8</servlet-name>
+        <servlet-class>flow.DAT_Chk_Tries8</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_2242">
+        <servlet-name>DAT_Chk_Input8</servlet-name>
+        <servlet-class>flow.DAT_Chk_Input8</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_2601">
+        <servlet-name>DAT_Chk_Payment_Status</servlet-name>
+        <servlet-class>flow.DAT_Chk_Payment_Status</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_2590">
+        <servlet-name>DAT_WS_Payment_Operation</servlet-name>
+        <servlet-class>flow.DAT_WS_Payment_Operation</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_2562">
+        <servlet-name>DAT_Chk_Tries10</servlet-name>
+        <servlet-class>flow.DAT_Chk_Tries10</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_2573">
+        <servlet-name>DAT_Chk_Input10</servlet-name>
+        <servlet-class>flow.DAT_Chk_Input10</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_2265">
+        <servlet-name>DM_FinalConfirmation_CC_DetailsMenu</servlet-name>
+        <servlet-class>flow.DM_FinalConfirmation_CC_DetailsMenu</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_2400">
+        <servlet-name>DAT_Chk_Tries9</servlet-name>
+        <servlet-class>flow.DAT_Chk_Tries9</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_2411">
+        <servlet-name>DAT_Chk_Input9</servlet-name>
+        <servlet-class>flow.DAT_Chk_Input9</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_2427">
+        <servlet-name>DM_Get_CC_OTP</servlet-name>
+        <servlet-class>flow.DM_Get_CC_OTP</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_2613">
+        <servlet-name>DM_Payment_Success_Msg</servlet-name>
+        <servlet-class>flow.DM_Payment_Success_Msg</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_2749">
+        <servlet-name>DM_Payment_Failure_Msg</servlet-name>
+        <servlet-class>flow.DM_Payment_Failure_Msg</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_2884">
+        <servlet-name>DAT_Chk_Tries11</servlet-name>
+        <servlet-class>flow.DAT_Chk_Tries11</servlet-class>
+    </servlet>
+    
+    <servlet id="SAGE-callflow-servlet_main_2928">
+        <servlet-name>Blind_Transfer</servlet-name>
+        <servlet-class>flow.Blind_Transfer</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_2941">
+        <servlet-name>Disconnect</servlet-name>
+        <servlet-class>flow.Disconnect</servlet-class>
+    </servlet>
+    
+    <servlet id="SAGE-callflow-servlet_main_2951">
+        <servlet-name>DAT_Encryption</servlet-name>
+        <servlet-class>flow.DAT_Encryption</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_3047">
+        <servlet-name>DAT_Chk_Trie</servlet-name>
+        <servlet-class>flow.DAT_Chk_Trie</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_3058">
+        <servlet-name>DM_Invalid_PhNUm_Msg</servlet-name>
+        <servlet-class>flow.DM_Invalid_PhNUm_Msg</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_3198">
+        <servlet-name>DM_Invalid_PIN_Msg</servlet-name>
+        <servlet-class>flow.DM_Invalid_PIN_Msg</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_3333">
+        <servlet-name>DAT_Chk_Tries12</servlet-name>
+        <servlet-class>flow.DAT_Chk_Tries12</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_3348">
+        <servlet-name>DM_Invalid_Amount_Msg</servlet-name>
+        <servlet-class>flow.DM_Invalid_Amount_Msg</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_3495">
+        <servlet-name>DAT_Load_Config</servlet-name>
+        <servlet-class>flow.DAT_Load_Config</servlet-class>
+    </servlet>
+    <servlet-mapping id="avayadefaultdisconnecthandler-servletmapping">
+        <servlet-name>AvayaDefaultDisconnectHandler</servlet-name>
+        <url-pattern>/AvayaDefaultDisconnectHandler</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="avayadefaultexithandler-servletmapping">
+        <servlet-name>AvayaDefaultExitHandler</servlet-name>
+        <url-pattern>/AvayaDefaultExitHandler</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="avayasessiontermination-servletmapping">
+        <servlet-name>AvayaSessionTerminationServlet</servlet-name>
+        <url-pattern>/AvayaSessionTerminationServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="avayareturnerrorhandler-servletmapping">
+        <servlet-name>AvayaReturnErrorHandler</servlet-name>
+        <url-pattern>/AvayaReturnErrorHandler</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="avayareturnerrorthrow-servletmapping">
+        <servlet-name>AvayaReturnErrorThrow</servlet-name>
+        <url-pattern>/AvayaReturnErrorThrow</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_1">
+        <servlet-name>AppRoot</servlet-name>
+        <url-pattern>/AppRoot</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_0">
+        <servlet-name>Start</servlet-name>
+        <url-pattern>/Start</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_16">
+        <servlet-name>DM_Welcome_Msg</servlet-name>
+        <url-pattern>/DM_Welcome_Msg</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_159">
+        <servlet-name>DM_TechDiff_Msg</servlet-name>
+        <url-pattern>/DM_TechDiff_Msg</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_151">
+        <servlet-name>DAT_Chk_Signup_Call</servlet-name>
+        <url-pattern>/DAT_Chk_Signup_Call</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_298">
+        <servlet-name>DAT_CallEndProcess</servlet-name>
+        <url-pattern>/DAT_CallEndProcess</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_303">
+        <servlet-name>End</servlet-name>
+        <url-pattern>/End</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_305">
+        <servlet-name>DM_GetRegisteredPhNum_Menu</servlet-name>
+        <url-pattern>/DM_GetRegisteredPhNum_Menu</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_441">
+        <servlet-name>DAT_Chk_PhNum</servlet-name>
+        <url-pattern>/DAT_Chk_PhNum</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_464">
+        <servlet-name>DM_ThankYou_Msg</servlet-name>
+        <url-pattern>/DM_ThankYou_Msg</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_602">
+        <servlet-name>DM_ExceededTries_Msg</servlet-name>
+        <url-pattern>/DM_ExceededTries_Msg</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_451">
+        <servlet-name>DAT_Chk_Tries</servlet-name>
+        <url-pattern>/DAT_Chk_Tries</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_739">
+        <servlet-name>DM_ReConfirm_RegPhNumMenu</servlet-name>
+        <url-pattern>/DM_ReConfirm_RegPhNumMenu</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_887">
+        <servlet-name>DAT_Chk_Tries1</servlet-name>
+        <url-pattern>/DAT_Chk_Tries1</url-pattern>
+    </servlet-mapping>
+    
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_912">
+        <servlet-name>DAT_Get_VDN</servlet-name>
+        <url-pattern>/DAT_Get_VDN</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_903">
+        <servlet-name>DAT_WS_Validate_PhNum</servlet-name>
+        <url-pattern>/DAT_WS_Validate_PhNum</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_874">
+        <servlet-name>DAT_Chk_Input</servlet-name>
+        <url-pattern>/DAT_Chk_Input</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_929">
+        <servlet-name>DAT_Chk_PIN_Change</servlet-name>
+        <url-pattern>/DAT_Chk_PIN_Change</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_939">
+        <servlet-name>DM_Get_PIN</servlet-name>
+        <url-pattern>/DM_Get_PIN</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_1084">
+        <servlet-name>DAT_Chk_PIN</servlet-name>
+        <url-pattern>/DAT_Chk_PIN</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_1074">
+        <servlet-name>DAT_Chk_PIN_Collected</servlet-name>
+        <url-pattern>/DAT_Chk_PIN_Collected</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_1098">
+        <servlet-name>DAT_WS_Validate_PIN</servlet-name>
+        <url-pattern>/DAT_WS_Validate_PIN</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_1110">
+        <servlet-name>DAT_Store_PIN</servlet-name>
+        <url-pattern>/DAT_Store_PIN</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_1766">
+        <servlet-name>DAT_Chk_Tries5</servlet-name>
+        <url-pattern>/DAT_Chk_Tries5</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_1918">
+        <servlet-name>DAT_Chk_Input6</servlet-name>
+        <url-pattern>/DAT_Chk_Input6</url-pattern>
+    </servlet-mapping>
+    
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_1782">
+        <servlet-name>DM_Get_CC_Number</servlet-name>
+        <url-pattern>/DM_Get_CC_Number</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_1614">
+        <servlet-name>DM_Get_CC_Details</servlet-name>
+        <url-pattern>/DM_Get_CC_Details</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_2226">
+        <servlet-name>DAT_Chk_Tries7</servlet-name>
+        <url-pattern>/DAT_Chk_Tries7</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_1600">
+        <servlet-name>DAT_Chk_Tries4</servlet-name>
+        <url-pattern>/DAT_Chk_Tries4</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_1127">
+        <servlet-name>DAT_Chk_Tries2</servlet-name>
+        <url-pattern>/DAT_Chk_Tries2</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_1748">
+        <servlet-name>DAT_Chk_Input5</servlet-name>
+        <url-pattern>/DAT_Chk_Input5</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_2084">
+        <servlet-name>DAT_Chk_Input7</servlet-name>
+        <url-pattern>/DAT_Chk_Input7</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_1142">
+        <servlet-name>DM_RBI_Msg_OTP</servlet-name>
+        <url-pattern>/DM_RBI_Msg_OTP</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_1276">
+        <servlet-name>DAT_Chk_Input1</servlet-name>
+        <url-pattern>/DAT_Chk_Input1</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_2092">
+        <servlet-name>DM_Get_CC_Validation_Code</servlet-name>
+        <url-pattern>/DM_Get_CC_Validation_Code</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_1427">
+        <servlet-name>DAT_Chk_Amount</servlet-name>
+        <url-pattern>/DAT_Chk_Amount</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_1437">
+        <servlet-name>DAT_Chk_Tries3</servlet-name>
+        <url-pattern>/DAT_Chk_Tries3</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_1289">
+        <servlet-name>DM_Get_RechargeAmount</servlet-name>
+        <url-pattern>/DM_Get_RechargeAmount</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_1587">
+        <servlet-name>DAT_Chk_Input4</servlet-name>
+        <url-pattern>/DAT_Chk_Input4</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_1947">
+        <servlet-name>DM_Get_CC_Validity</servlet-name>
+        <url-pattern>/DM_Get_CC_Validity</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_1452">
+        <servlet-name>DM_Confirm_Amount</servlet-name>
+        <url-pattern>/DM_Confirm_Amount</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_1928">
+        <servlet-name>DAT_Chk_Tries6</servlet-name>
+        <url-pattern>/DAT_Chk_Tries6</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_2250">
+        <servlet-name>DAT_Chk_Tries8</servlet-name>
+        <url-pattern>/DAT_Chk_Tries8</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_2242">
+        <servlet-name>DAT_Chk_Input8</servlet-name>
+        <url-pattern>/DAT_Chk_Input8</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_2601">
+        <servlet-name>DAT_Chk_Payment_Status</servlet-name>
+        <url-pattern>/DAT_Chk_Payment_Status</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_2590">
+        <servlet-name>DAT_WS_Payment_Operation</servlet-name>
+        <url-pattern>/DAT_WS_Payment_Operation</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_2562">
+        <servlet-name>DAT_Chk_Tries10</servlet-name>
+        <url-pattern>/DAT_Chk_Tries10</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_2573">
+        <servlet-name>DAT_Chk_Input10</servlet-name>
+        <url-pattern>/DAT_Chk_Input10</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_2265">
+        <servlet-name>DM_FinalConfirmation_CC_DetailsMenu</servlet-name>
+        <url-pattern>/DM_FinalConfirmation_CC_DetailsMenu</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_2400">
+        <servlet-name>DAT_Chk_Tries9</servlet-name>
+        <url-pattern>/DAT_Chk_Tries9</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_2411">
+        <servlet-name>DAT_Chk_Input9</servlet-name>
+        <url-pattern>/DAT_Chk_Input9</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_2427">
+        <servlet-name>DM_Get_CC_OTP</servlet-name>
+        <url-pattern>/DM_Get_CC_OTP</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_2613">
+        <servlet-name>DM_Payment_Success_Msg</servlet-name>
+        <url-pattern>/DM_Payment_Success_Msg</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_2749">
+        <servlet-name>DM_Payment_Failure_Msg</servlet-name>
+        <url-pattern>/DM_Payment_Failure_Msg</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_2884">
+        <servlet-name>DAT_Chk_Tries11</servlet-name>
+        <url-pattern>/DAT_Chk_Tries11</url-pattern>
+    </servlet-mapping>
+    
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_2928">
+        <servlet-name>Blind_Transfer</servlet-name>
+        <url-pattern>/Blind_Transfer</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_2941">
+        <servlet-name>Disconnect</servlet-name>
+        <url-pattern>/Disconnect</url-pattern>
+    </servlet-mapping>
+    
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_2951">
+        <servlet-name>DAT_Encryption</servlet-name>
+        <url-pattern>/DAT_Encryption</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_3047">
+        <servlet-name>DAT_Chk_Trie</servlet-name>
+        <url-pattern>/DAT_Chk_Trie</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_3058">
+        <servlet-name>DM_Invalid_PhNUm_Msg</servlet-name>
+        <url-pattern>/DM_Invalid_PhNUm_Msg</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_3198">
+        <servlet-name>DM_Invalid_PIN_Msg</servlet-name>
+        <url-pattern>/DM_Invalid_PIN_Msg</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_3333">
+        <servlet-name>DAT_Chk_Tries12</servlet-name>
+        <url-pattern>/DAT_Chk_Tries12</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_3348">
+        <servlet-name>DM_Invalid_Amount_Msg</servlet-name>
+        <url-pattern>/DM_Invalid_Amount_Msg</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_3495">
+        <servlet-name>DAT_Load_Config</servlet-name>
+        <url-pattern>/DAT_Load_Config</url-pattern>
+    </servlet-mapping>
+</web-app>

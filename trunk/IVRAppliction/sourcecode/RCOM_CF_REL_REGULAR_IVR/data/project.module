@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<module category="" descriptorversion="1.0" entrypoint="RCOM_CF_REL_REGULAR_IVR_10Nov/Start" forcesubdialogcall="false" frameworkversion="07.01.08.04" iconlarge="icons/defaultapplicationlg.gif" iconsmall="icons/defaultapplicationsm.gif" modifyInputs="false" modifyOutputs="false" nature="com.avaya.sce.core.speechnature" outputmultipart="false" paramasnamelist="false" provider="" submitmethod="get" version="1.0.0" webname="RCOM_CF_REL_REGULAR_IVR_10Nov">
+    <description/>
+    <language name="english" root="en-us"/>
+    <language name="ENG" root="en-us"/>
+    <language name="HIN" root="hi-in"/>
+    <language name="GUJ" root="gu-in"/>
+    <language name="MAR" root="mr-in"/>
+    <dependencies>
+        <moduleref frameworkversion="07.01.08.04" name="DM" private="false" version="1.0.0">
+            <meta callflow-references="Collect_Account_Number,Collect_Reg_Contact_Num,GlobalPrompt,PS_Related_Complaints,RegisterComplaint,UnManned_Fire_And_Shock,main"/>
+        </moduleref>
+    </dependencies>
+</module>

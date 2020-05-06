@@ -1,0 +1,900 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--
+This XML descriptor is automatically generated and managed by the
+application development environment.  While manual updates to this 
+file may be preserved, it is best to manage this file through the application development environment tool.
+
+Copyright 2004-2011 Avaya Inc.
+--><!DOCTYPE web-app PUBLIC "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN" "http://java.sun.com/dtd/web-app_2_3.dtd">
+<web-app id="WebApp_ID">
+    <context-param>
+        <param-name>sage.startlanguage</param-name>
+        <param-value>ENG</param-value>
+        <description>The starting language for the application.</description>
+    </context-param>
+    <context-param>
+        <param-name>sage.ic.throwexceptions</param-name>
+        <param-value>true</param-value>
+        <description>IC Throw Runtime Exception on Error{true|false}</description>
+    </context-param>
+    <context-param>
+        <param-name>sage.cti.autoinvoke.callinfo</param-name>
+        <param-value>true</param-value>
+        <description>CTI Auto invoke CallInfo upon app start{true|false}</description>
+    </context-param>
+    <context-param>
+        <param-name>runtime-ASR</param-name>
+        <param-value>Desktop Microsoft Speech SAPI</param-value>
+        <description>Runtime ASR {SRGS-Literals|SRGS-SISR|Nuance OSR|IBM|...}</description>
+    </context-param>
+    <context-param>
+        <param-name>runtime-SSML</param-name>
+        <param-value>true</param-value>
+        <description>Runtime SSML Generation {true|false} - "true" enables SSML generation, "false" disables.</description>
+    </context-param>
+    <context-param>
+        <param-name>runtime-nature</param-name>
+        <param-value>speech</param-value>
+        <description>Application nature, speech or message</description>
+    </context-param>
+    <context-param>
+        <param-name>runtime-Platform</param-name>
+        <param-value>Experience Portal</param-value>
+        <description>Runtime Platform {Desktop|Voice Portal|Experience Portal|Other|IR|MPS}</description>
+    </context-param>
+    <context-param>
+        <param-name>runtime-VXML-Compatibility</param-name>
+        <param-value>2.1</param-value>
+        <description>2.1 + IVVR, 2.1 Allows VXML 2.1 extensions, 2.0 Uses VXML 2.0 Only</description>
+    </context-param>
+    <context-param>
+        <param-name>runtime-DTMF-Native</param-name>
+        <param-value>LOCAL_SRGS_LITERALS</param-value>
+        <description>(NATIVE|LOCAL_SRGS_SISR|LOCAL_SRGS_LITERALS, NATIVE means DTMF Grammars are in native asr format.</description>
+    </context-param>
+    <context-param>
+        <param-name>CollectionSeparator</param-name>
+        <param-value>|</param-value>
+        <description>Collection Separator Char</description>
+    </context-param>
+    <context-param>
+        <param-name>grammar-caching</param-name>
+        <param-value>none</param-value>
+        <description>Grammar caching mode, none=no caching, default=system default or property setting</description>
+    </context-param>
+    <context-param>
+        <param-name>PROPERTY_FILE_PATH</param-name>
+        <param-value>C:/RCOM/OtherFlows/RCOM_CF_1800/</param-value>
+        <description>Property File Path</description>
+    </context-param>
+    <context-param>
+        <param-name>IVR_CONFIG</param-name>
+        <param-value>RCOM_CF1800_IVR_CONFIG</param-value>
+        <description>IVR_CONFIG File Name</description>
+    </context-param>
+    <context-param>
+        <param-name>DYN_MENU</param-name>
+        <param-value>RCOM_CF1800_DYN_MENU</param-value>
+        <description>DYN_MENU File Name</description>
+    </context-param>
+    <context-param>
+        <param-name>avaya.pim.dataconnector.config</param-name>
+        <param-value>|||i5/PolNOtdo=</param-value>
+        <description>PIM Data Connector configuration settings.</description>
+    </context-param>
+    <context-param>
+        <param-name>HOST_CONFIG</param-name>
+        <param-value>HOST_CONFIG</param-value>
+        <description>Host File Name</description>
+    </context-param>
+    <servlet id="avayadefaultdisconnecthandler-servlet">
+        <servlet-name>AvayaDefaultDisconnectHandler</servlet-name>
+        <servlet-class>com.avaya.sce.runtime.DefaultDisconnect</servlet-class>
+    </servlet>
+    <servlet id="avayadefaultexithandler-servlet">
+        <servlet-name>AvayaDefaultExitHandler</servlet-name>
+        <servlet-class>com.avaya.sce.runtime.DefaultExit</servlet-class>
+    </servlet>
+    <servlet id="avayasessiontermination-servlet">
+        <servlet-name>AvayaSessionTerminationServlet</servlet-name>
+        <servlet-class>com.avaya.sce.runtime.AvayaSessionTerminationServlet</servlet-class>
+    </servlet>
+    <servlet id="avayareturnerrorhandler-servlet">
+        <servlet-name>AvayaReturnErrorHandler</servlet-name>
+        <servlet-class>com.avaya.sce.runtime.ReturnErrorHandlerServlet</servlet-class>
+    </servlet>
+    <servlet id="avayareturnerrorthrow-servlet">
+        <servlet-name>AvayaReturnErrorThrow</servlet-name>
+        <servlet-class>com.avaya.sce.runtime.ReturnErrorThrowServlet</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_1">
+        <servlet-name>AppRoot</servlet-name>
+        <servlet-class>flow.AppRoot</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_0">
+        <servlet-name>Start</servlet-name>
+        <servlet-class>flow.Start</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_4">
+        <servlet-name>LoadOnStartUp</servlet-name>
+        <servlet-class>flow.LoadOnStartUp</servlet-class>
+        <load-on-startup>1</load-on-startup>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_8">
+        <servlet-name>Capture_ANI_DNIS_BC</servlet-name>
+        <servlet-class>flow.Capture_ANI_DNIS_BC</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_19">
+        <servlet-name>TechDiff_PP</servlet-name>
+        <servlet-class>flow.TechDiff_PP</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_156">
+        <servlet-name>DNISRoutingHit</servlet-name>
+        <servlet-class>flow.DNISRoutingHit</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_161">
+        <servlet-name>Welcome_PP</servlet-name>
+        <servlet-class>flow.Welcome_PP</servlet-class>
+    </servlet>
+    
+    <servlet id="SAGE-callflow-servlet_main_318">
+        <servlet-name>SetDisposition_BC</servlet-name>
+        <servlet-class>flow.SetDisposition_BC</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_322">
+        <servlet-name>EndCallProcess_BC</servlet-name>
+        <servlet-class>flow.EndCallProcess_BC</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_328">
+        <servlet-name>End</servlet-name>
+        <servlet-class>flow.End</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_330">
+        <servlet-name>CallEnd</servlet-name>
+        <servlet-class>flow.CallEnd</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_344">
+        <servlet-name>IVR_CSP_Validation</servlet-name>
+        <servlet-class>flow.IVR_CSP_Validation</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_751">
+        <servlet-name>CheckInput</servlet-name>
+        <servlet-class>flow.CheckInput</servlet-class>
+    </servlet>
+    
+    <servlet id="SAGE-callflow-servlet_main_348">
+        <servlet-name>SelectLang_MN</servlet-name>
+        <servlet-class>flow.SelectLang_MN</servlet-class>
+    </servlet>
+    
+    <servlet id="SAGE-callflow-servlet_main_1036">
+        <servlet-name>CheckNumber</servlet-name>
+        <servlet-class>flow.CheckNumber</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_762">
+        <servlet-name>OldProspect_MN</servlet-name>
+        <servlet-class>flow.OldProspect_MN</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_1040">
+        <servlet-name>ConfirmNumber</servlet-name>
+        <servlet-class>flow.ConfirmNumber</servlet-class>
+    </servlet>
+    
+    <servlet id="SAGE-callflow-servlet_main_902">
+        <servlet-name>CollectMobileNumber</servlet-name>
+        <servlet-class>flow.CollectMobileNumber</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_897">
+        <servlet-name>CheckValue</servlet-name>
+        <servlet-class>flow.CheckValue</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_1178">
+        <servlet-name>ConfirmInput</servlet-name>
+        <servlet-class>flow.ConfirmInput</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_1185">
+        <servlet-name>ExceedTries_PP</servlet-name>
+        <servlet-class>flow.ExceedTries_PP</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_HotFlash_1">
+        <servlet-name>HotFlash-Begin</servlet-name>
+        <servlet-class>flow.subflow.HotFlash.Begin</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_HotFlash_4">
+        <servlet-name>HotFlash-GetHotFlashMsg</servlet-name>
+        <servlet-class>flow.subflow.HotFlash.GetHotFlashMsg</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_HotFlash_142">
+        <servlet-name>HotFlash-Return</servlet-name>
+        <servlet-class>flow.subflow.HotFlash.Return</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_HotFlash_8">
+        <servlet-name>HotFlash-HotFlash</servlet-name>
+        <servlet-class>flow.subflow.HotFlash.HotFlash</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_1595">
+        <servlet-name>Postpaid_MN</servlet-name>
+        <servlet-class>flow.Postpaid_MN</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_1461">
+        <servlet-name>Prepaid_MN</servlet-name>
+        <servlet-class>flow.Prepaid_MN</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_1455">
+        <servlet-name>Prospect_CheckMN</servlet-name>
+        <servlet-class>flow.Prospect_CheckMN</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_1731">
+        <servlet-name>NumberPort_MN</servlet-name>
+        <servlet-class>flow.NumberPort_MN</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_1866">
+        <servlet-name>NumberPortability_MN</servlet-name>
+        <servlet-class>flow.NumberPortability_MN</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_2002">
+        <servlet-name>CheckIp</servlet-name>
+        <servlet-class>flow.CheckIp</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_2007">
+        <servlet-name>ConfirmNumber_MN</servlet-name>
+        <servlet-class>flow.ConfirmNumber_MN</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_2142">
+        <servlet-name>CheckResponse</servlet-name>
+        <servlet-class>flow.CheckResponse</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_2421">
+        <servlet-name>CheckServices</servlet-name>
+        <servlet-class>flow.CheckServices</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_2286">
+        <servlet-name>Services_MN</servlet-name>
+        <servlet-class>flow.Services_MN</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_2147">
+        <servlet-name>STDCode_MN</servlet-name>
+        <servlet-class>flow.STDCode_MN</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_2281">
+        <servlet-name>CheckCode</servlet-name>
+        <servlet-class>flow.CheckCode</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_2426">
+        <servlet-name>ThankU_PP</servlet-name>
+        <servlet-class>flow.ThankU_PP</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_2983">
+        <servlet-name>TransferAgent</servlet-name>
+        <servlet-class>flow.TransferAgent</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_2977">
+        <servlet-name>CheckSubscription</servlet-name>
+        <servlet-class>flow.CheckSubscription</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_2708">
+        <servlet-name>OfferMsg_PP</servlet-name>
+        <servlet-class>flow.OfferMsg_PP</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_2702">
+        <servlet-name>CheckOffer</servlet-name>
+        <servlet-class>flow.CheckOffer</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_2563">
+        <servlet-name>CheckIPvalue</servlet-name>
+        <servlet-class>flow.CheckIPvalue</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_2843">
+        <servlet-name>Subscribe_MN</servlet-name>
+        <servlet-class>flow.Subscribe_MN</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_2568">
+        <servlet-name>Offer_MN</servlet-name>
+        <servlet-class>flow.Offer_MN</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_2989">
+        <servlet-name>CheckMenuValue</servlet-name>
+        <servlet-class>flow.CheckMenuValue</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_2994">
+        <servlet-name>PostpaidOffer_MN</servlet-name>
+        <servlet-class>flow.PostpaidOffer_MN</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_3129">
+        <servlet-name>SetPlayOffer</servlet-name>
+        <servlet-class>flow.SetPlayOffer</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_3134">
+        <servlet-name>Offer_PP</servlet-name>
+        <servlet-class>flow.Offer_PP</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_3403">
+        <servlet-name>CheckOptions</servlet-name>
+        <servlet-class>flow.CheckOptions</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_3269">
+        <servlet-name>Purchase_MN</servlet-name>
+        <servlet-class>flow.Purchase_MN</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_3410">
+        <servlet-name>Prospect_MN</servlet-name>
+        <servlet-class>flow.Prospect_MN</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_3547">
+        <servlet-name>ExceedTries_Annc</servlet-name>
+        <servlet-class>flow.ExceedTries_Annc</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_3683">
+        <servlet-name>Thanks_Msg</servlet-name>
+        <servlet-class>flow.Thanks_Msg</servlet-class>
+    </servlet>
+    
+    
+    <servlet id="SAGE-callflow-servlet_main_3982">
+        <servlet-name>LinkDown_PP</servlet-name>
+        <servlet-class>flow.LinkDown_PP</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_4150">
+        <servlet-name>CheckRTN</servlet-name>
+        <servlet-class>flow.CheckRTN</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_4193">
+        <servlet-name>Set_MN_0004</servlet-name>
+        <servlet-class>flow.Set_MN_0004</servlet-class>
+    </servlet>
+    
+    
+    <servlet id="SAGE-callflow-servlet_main_4233">
+        <servlet-name>ValidateService</servlet-name>
+        <servlet-class>flow.ValidateService</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_4269">
+        <servlet-name>CheckInputNo</servlet-name>
+        <servlet-class>flow.CheckInputNo</servlet-class>
+    </servlet>
+    
+    
+    
+    
+    
+    
+    
+    <servlet id="SAGE-callflow-servlet_main_4325">
+        <servlet-name>Disconnect</servlet-name>
+        <servlet-class>flow.Disconnect</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_4331">
+        <servlet-name>TransferAgent_PP</servlet-name>
+        <servlet-class>flow.TransferAgent_PP</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_4465">
+        <servlet-name>Transfer</servlet-name>
+        <servlet-class>flow.Transfer</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_4483">
+        <servlet-name>HotFlash</servlet-name>
+        <servlet-class>flow.HotFlash</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_4489">
+        <servlet-name>CheckBarringList</servlet-name>
+        <servlet-class>flow.CheckBarringList</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_4497">
+        <servlet-name>BarredAnnc_PP</servlet-name>
+        <servlet-class>flow.BarredAnnc_PP</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_4640">
+        <servlet-name>SetMN_0014</servlet-name>
+        <servlet-class>flow.SetMN_0014</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_4665">
+        <servlet-name>Exceed_PP</servlet-name>
+        <servlet-class>flow.Exceed_PP</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_4829">
+        <servlet-name>DB_IVR_Offer</servlet-name>
+        <servlet-class>flow.DB_IVR_Offer</servlet-class>
+    </servlet>
+    
+    <servlet id="SAGE-callflow-servlet_main_4865">
+        <servlet-name>Set_MN0007</servlet-name>
+        <servlet-class>flow.Set_MN0007</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_4874">
+        <servlet-name>PlayOfferInitial</servlet-name>
+        <servlet-class>flow.PlayOfferInitial</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_4919">
+        <servlet-name>DB_PostpaidOffer</servlet-name>
+        <servlet-class>flow.DB_PostpaidOffer</servlet-class>
+    </servlet>
+    
+    <servlet id="SAGE-callflow-servlet_main_4935">
+        <servlet-name>CheckOffers</servlet-name>
+        <servlet-class>flow.CheckOffers</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_4962">
+        <servlet-name>Set_MN0010</servlet-name>
+        <servlet-class>flow.Set_MN0010</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_5006">
+        <servlet-name>AccessDB</servlet-name>
+        <servlet-class>flow.AccessDB</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_5016">
+        <servlet-name>CheckSRC</servlet-name>
+        <servlet-class>flow.CheckSRC</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_5021">
+        <servlet-name>UpdateSRCCount</servlet-name>
+        <servlet-class>flow.UpdateSRCCount</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_5036">
+        <servlet-name>SetHotFlashInfo</servlet-name>
+        <servlet-class>flow.SetHotFlashInfo</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_5050">
+        <servlet-name>AccessPhoneGen</servlet-name>
+        <servlet-class>flow.AccessPhoneGen</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_5152">
+        <servlet-name>DisconnectAnnc_PP</servlet-name>
+        <servlet-class>flow.DisconnectAnnc_PP</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_5734">
+        <servlet-name>CheckSimNumber</servlet-name>
+        <servlet-class>flow.CheckSimNumber</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_5453">
+        <servlet-name>CollectLast4Digit</servlet-name>
+        <servlet-class>flow.CollectLast4Digit</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_5318">
+        <servlet-name>CollectCDMAMobileNumber</servlet-name>
+        <servlet-class>flow.CollectCDMAMobileNumber</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_5587">
+        <servlet-name>CheckLast4Digit</servlet-name>
+        <servlet-class>flow.CheckLast4Digit</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_5597">
+        <servlet-name>CollectsimNumber</servlet-name>
+        <servlet-class>flow.CollectsimNumber</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_5308">
+        <servlet-name>CheckCDMANumber</servlet-name>
+        <servlet-class>flow.CheckCDMANumber</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_5898">
+        <servlet-name>ConfirmCDMAInput</servlet-name>
+        <servlet-class>flow.ConfirmCDMAInput</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_5764">
+        <servlet-name>ConfirmCDMANumber</servlet-name>
+        <servlet-class>flow.ConfirmCDMANumber</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_5760">
+        <servlet-name>Set_MN_0054</servlet-name>
+        <servlet-class>flow.Set_MN_0054</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_5989">
+        <servlet-name>CDMA_MN</servlet-name>
+        <servlet-class>flow.CDMA_MN</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_6123">
+        <servlet-name>CDMA_Check</servlet-name>
+        <servlet-class>flow.CDMA_Check</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_6144">
+        <servlet-name>Thanks_CDMA_PP</servlet-name>
+        <servlet-class>flow.Thanks_CDMA_PP</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_6279">
+        <servlet-name>UUIDataParse</servlet-name>
+        <servlet-class>flow.UUIDataParse</servlet-class>
+    </servlet>
+    <servlet-mapping id="avayadefaultdisconnecthandler-servletmapping">
+        <servlet-name>AvayaDefaultDisconnectHandler</servlet-name>
+        <url-pattern>/AvayaDefaultDisconnectHandler</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="avayadefaultexithandler-servletmapping">
+        <servlet-name>AvayaDefaultExitHandler</servlet-name>
+        <url-pattern>/AvayaDefaultExitHandler</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="avayasessiontermination-servletmapping">
+        <servlet-name>AvayaSessionTerminationServlet</servlet-name>
+        <url-pattern>/AvayaSessionTerminationServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="avayareturnerrorhandler-servletmapping">
+        <servlet-name>AvayaReturnErrorHandler</servlet-name>
+        <url-pattern>/AvayaReturnErrorHandler</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="avayareturnerrorthrow-servletmapping">
+        <servlet-name>AvayaReturnErrorThrow</servlet-name>
+        <url-pattern>/AvayaReturnErrorThrow</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_1">
+        <servlet-name>AppRoot</servlet-name>
+        <url-pattern>/AppRoot</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_0">
+        <servlet-name>Start</servlet-name>
+        <url-pattern>/Start</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_4">
+        <servlet-name>LoadOnStartUp</servlet-name>
+        <url-pattern>/LoadOnStartUp</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_8">
+        <servlet-name>Capture_ANI_DNIS_BC</servlet-name>
+        <url-pattern>/Capture_ANI_DNIS_BC</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_19">
+        <servlet-name>TechDiff_PP</servlet-name>
+        <url-pattern>/TechDiff_PP</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_156">
+        <servlet-name>DNISRoutingHit</servlet-name>
+        <url-pattern>/DNISRoutingHit</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_161">
+        <servlet-name>Welcome_PP</servlet-name>
+        <url-pattern>/Welcome_PP</url-pattern>
+    </servlet-mapping>
+    
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_318">
+        <servlet-name>SetDisposition_BC</servlet-name>
+        <url-pattern>/SetDisposition_BC</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_322">
+        <servlet-name>EndCallProcess_BC</servlet-name>
+        <url-pattern>/EndCallProcess_BC</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_328">
+        <servlet-name>End</servlet-name>
+        <url-pattern>/End</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_330">
+        <servlet-name>CallEnd</servlet-name>
+        <url-pattern>/CallEnd</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_344">
+        <servlet-name>IVR_CSP_Validation</servlet-name>
+        <url-pattern>/IVR_CSP_Validation</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_751">
+        <servlet-name>CheckInput</servlet-name>
+        <url-pattern>/CheckInput</url-pattern>
+    </servlet-mapping>
+    
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_348">
+        <servlet-name>SelectLang_MN</servlet-name>
+        <url-pattern>/SelectLang_MN</url-pattern>
+    </servlet-mapping>
+    
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_1036">
+        <servlet-name>CheckNumber</servlet-name>
+        <url-pattern>/CheckNumber</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_762">
+        <servlet-name>OldProspect_MN</servlet-name>
+        <url-pattern>/OldProspect_MN</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_1040">
+        <servlet-name>ConfirmNumber</servlet-name>
+        <url-pattern>/ConfirmNumber</url-pattern>
+    </servlet-mapping>
+    
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_902">
+        <servlet-name>CollectMobileNumber</servlet-name>
+        <url-pattern>/CollectMobileNumber</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_897">
+        <servlet-name>CheckValue</servlet-name>
+        <url-pattern>/CheckValue</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_1178">
+        <servlet-name>ConfirmInput</servlet-name>
+        <url-pattern>/ConfirmInput</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_1185">
+        <servlet-name>ExceedTries_PP</servlet-name>
+        <url-pattern>/ExceedTries_PP</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_HotFlash_1">
+        <servlet-name>HotFlash-Begin</servlet-name>
+        <url-pattern>/HotFlash-Begin</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_HotFlash_4">
+        <servlet-name>HotFlash-GetHotFlashMsg</servlet-name>
+        <url-pattern>/HotFlash-GetHotFlashMsg</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_HotFlash_142">
+        <servlet-name>HotFlash-Return</servlet-name>
+        <url-pattern>/HotFlash-Return</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_HotFlash_8">
+        <servlet-name>HotFlash-HotFlash</servlet-name>
+        <url-pattern>/HotFlash-HotFlash</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_1595">
+        <servlet-name>Postpaid_MN</servlet-name>
+        <url-pattern>/Postpaid_MN</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_1461">
+        <servlet-name>Prepaid_MN</servlet-name>
+        <url-pattern>/Prepaid_MN</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_1455">
+        <servlet-name>Prospect_CheckMN</servlet-name>
+        <url-pattern>/Prospect_CheckMN</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_1731">
+        <servlet-name>NumberPort_MN</servlet-name>
+        <url-pattern>/NumberPort_MN</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_1866">
+        <servlet-name>NumberPortability_MN</servlet-name>
+        <url-pattern>/NumberPortability_MN</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_2002">
+        <servlet-name>CheckIp</servlet-name>
+        <url-pattern>/CheckIp</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_2007">
+        <servlet-name>ConfirmNumber_MN</servlet-name>
+        <url-pattern>/ConfirmNumber_MN</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_2142">
+        <servlet-name>CheckResponse</servlet-name>
+        <url-pattern>/CheckResponse</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_2421">
+        <servlet-name>CheckServices</servlet-name>
+        <url-pattern>/CheckServices</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_2286">
+        <servlet-name>Services_MN</servlet-name>
+        <url-pattern>/Services_MN</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_2147">
+        <servlet-name>STDCode_MN</servlet-name>
+        <url-pattern>/STDCode_MN</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_2281">
+        <servlet-name>CheckCode</servlet-name>
+        <url-pattern>/CheckCode</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_2426">
+        <servlet-name>ThankU_PP</servlet-name>
+        <url-pattern>/ThankU_PP</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_2983">
+        <servlet-name>TransferAgent</servlet-name>
+        <url-pattern>/TransferAgent</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_2977">
+        <servlet-name>CheckSubscription</servlet-name>
+        <url-pattern>/CheckSubscription</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_2708">
+        <servlet-name>OfferMsg_PP</servlet-name>
+        <url-pattern>/OfferMsg_PP</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_2702">
+        <servlet-name>CheckOffer</servlet-name>
+        <url-pattern>/CheckOffer</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_2563">
+        <servlet-name>CheckIPvalue</servlet-name>
+        <url-pattern>/CheckIPvalue</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_2843">
+        <servlet-name>Subscribe_MN</servlet-name>
+        <url-pattern>/Subscribe_MN</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_2568">
+        <servlet-name>Offer_MN</servlet-name>
+        <url-pattern>/Offer_MN</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_2989">
+        <servlet-name>CheckMenuValue</servlet-name>
+        <url-pattern>/CheckMenuValue</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_2994">
+        <servlet-name>PostpaidOffer_MN</servlet-name>
+        <url-pattern>/PostpaidOffer_MN</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_3129">
+        <servlet-name>SetPlayOffer</servlet-name>
+        <url-pattern>/SetPlayOffer</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_3134">
+        <servlet-name>Offer_PP</servlet-name>
+        <url-pattern>/Offer_PP</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_3403">
+        <servlet-name>CheckOptions</servlet-name>
+        <url-pattern>/CheckOptions</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_3269">
+        <servlet-name>Purchase_MN</servlet-name>
+        <url-pattern>/Purchase_MN</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_3410">
+        <servlet-name>Prospect_MN</servlet-name>
+        <url-pattern>/Prospect_MN</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_3547">
+        <servlet-name>ExceedTries_Annc</servlet-name>
+        <url-pattern>/ExceedTries_Annc</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_3683">
+        <servlet-name>Thanks_Msg</servlet-name>
+        <url-pattern>/Thanks_Msg</url-pattern>
+    </servlet-mapping>
+    
+    
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_3982">
+        <servlet-name>LinkDown_PP</servlet-name>
+        <url-pattern>/LinkDown_PP</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_4150">
+        <servlet-name>CheckRTN</servlet-name>
+        <url-pattern>/CheckRTN</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_4193">
+        <servlet-name>Set_MN_0004</servlet-name>
+        <url-pattern>/Set_MN_0004</url-pattern>
+    </servlet-mapping>
+    
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_4233">
+        <servlet-name>ValidateService</servlet-name>
+        <url-pattern>/ValidateService</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_4269">
+        <servlet-name>CheckInputNo</servlet-name>
+        <url-pattern>/CheckInputNo</url-pattern>
+    </servlet-mapping>
+    
+    
+    
+    
+    
+    
+    
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_4325">
+        <servlet-name>Disconnect</servlet-name>
+        <url-pattern>/Disconnect</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_4331">
+        <servlet-name>TransferAgent_PP</servlet-name>
+        <url-pattern>/TransferAgent_PP</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_4465">
+        <servlet-name>Transfer</servlet-name>
+        <url-pattern>/Transfer</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_4483">
+        <servlet-name>HotFlash</servlet-name>
+        <url-pattern>/HotFlash</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_4489">
+        <servlet-name>CheckBarringList</servlet-name>
+        <url-pattern>/CheckBarringList</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_4497">
+        <servlet-name>BarredAnnc_PP</servlet-name>
+        <url-pattern>/BarredAnnc_PP</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_4640">
+        <servlet-name>SetMN_0014</servlet-name>
+        <url-pattern>/SetMN_0014</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_4665">
+        <servlet-name>Exceed_PP</servlet-name>
+        <url-pattern>/Exceed_PP</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_4829">
+        <servlet-name>DB_IVR_Offer</servlet-name>
+        <url-pattern>/DB_IVR_Offer</url-pattern>
+    </servlet-mapping>
+    
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_4865">
+        <servlet-name>Set_MN0007</servlet-name>
+        <url-pattern>/Set_MN0007</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_4874">
+        <servlet-name>PlayOfferInitial</servlet-name>
+        <url-pattern>/PlayOfferInitial</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_4919">
+        <servlet-name>DB_PostpaidOffer</servlet-name>
+        <url-pattern>/DB_PostpaidOffer</url-pattern>
+    </servlet-mapping>
+    
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_4935">
+        <servlet-name>CheckOffers</servlet-name>
+        <url-pattern>/CheckOffers</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_4962">
+        <servlet-name>Set_MN0010</servlet-name>
+        <url-pattern>/Set_MN0010</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_5006">
+        <servlet-name>AccessDB</servlet-name>
+        <url-pattern>/AccessDB</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_5016">
+        <servlet-name>CheckSRC</servlet-name>
+        <url-pattern>/CheckSRC</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_5021">
+        <servlet-name>UpdateSRCCount</servlet-name>
+        <url-pattern>/UpdateSRCCount</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_5036">
+        <servlet-name>SetHotFlashInfo</servlet-name>
+        <url-pattern>/SetHotFlashInfo</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_5050">
+        <servlet-name>AccessPhoneGen</servlet-name>
+        <url-pattern>/AccessPhoneGen</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_5152">
+        <servlet-name>DisconnectAnnc_PP</servlet-name>
+        <url-pattern>/DisconnectAnnc_PP</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_5734">
+        <servlet-name>CheckSimNumber</servlet-name>
+        <url-pattern>/CheckSimNumber</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_5453">
+        <servlet-name>CollectLast4Digit</servlet-name>
+        <url-pattern>/CollectLast4Digit</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_5318">
+        <servlet-name>CollectCDMAMobileNumber</servlet-name>
+        <url-pattern>/CollectCDMAMobileNumber</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_5587">
+        <servlet-name>CheckLast4Digit</servlet-name>
+        <url-pattern>/CheckLast4Digit</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_5597">
+        <servlet-name>CollectsimNumber</servlet-name>
+        <url-pattern>/CollectsimNumber</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_5308">
+        <servlet-name>CheckCDMANumber</servlet-name>
+        <url-pattern>/CheckCDMANumber</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_5898">
+        <servlet-name>ConfirmCDMAInput</servlet-name>
+        <url-pattern>/ConfirmCDMAInput</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_5764">
+        <servlet-name>ConfirmCDMANumber</servlet-name>
+        <url-pattern>/ConfirmCDMANumber</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_5760">
+        <servlet-name>Set_MN_0054</servlet-name>
+        <url-pattern>/Set_MN_0054</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_5989">
+        <servlet-name>CDMA_MN</servlet-name>
+        <url-pattern>/CDMA_MN</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_6123">
+        <servlet-name>CDMA_Check</servlet-name>
+        <url-pattern>/CDMA_Check</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_6144">
+        <servlet-name>Thanks_CDMA_PP</servlet-name>
+        <url-pattern>/Thanks_CDMA_PP</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_6279">
+        <servlet-name>UUIDataParse</servlet-name>
+        <url-pattern>/UUIDataParse</url-pattern>
+    </servlet-mapping>
+</web-app>

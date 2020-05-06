@@ -1,0 +1,29 @@
+##################################################################################
+# 
+# RED_PA_0004.properties file
+# 
+##################################################################################
+
+
+########################
+# Dialog Name
+########################
+
+dialogName = OutofOfficeHour_RED_PA_0004
+isDTMF=true
+isAnnouncement = true
+language=DEFAULT
+menuID=RED_PA_0004
+
+loggingEnabled=true
+loggerName=RCOM_CF_RED_IVR
+
+
+initialPrompt = 42158.wav*42159.wav
+
+
+
+
+
+
+

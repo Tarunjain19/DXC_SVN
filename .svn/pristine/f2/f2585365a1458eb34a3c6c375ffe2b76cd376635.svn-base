@@ -1,0 +1,29 @@
+##################################################################################
+# 
+# RED_PA_0009.properties file
+# 
+##################################################################################
+
+
+########################
+# Dialog Name
+########################
+
+dialogName = LinkDown_RED_PA_0009
+isDTMF=true
+isAnnouncement = true
+language=DEFAULT
+menuID=RED_PA_0009
+
+loggingEnabled=true
+loggerName=RCOM_CF_RED_IVR
+
+
+initialPrompt = 42164.wav
+
+
+
+
+
+
+

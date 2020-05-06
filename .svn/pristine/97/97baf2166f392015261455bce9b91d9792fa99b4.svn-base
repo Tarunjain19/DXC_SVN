@@ -1,0 +1,20 @@
+##################################################################################
+# 
+# RepeatTriesExceeded_PP.properties file
+# 
+##################################################################################
+
+
+########################
+# Dialog Name
+########################
+
+dialogName = RepeatTriesExceeded_PP
+isAnnouncement = true
+announceID = DAKC_PA_0034
+
+
+########################
+# Prompt & Collect
+########################
+initialPrompt = 43997.wav

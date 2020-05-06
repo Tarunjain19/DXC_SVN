@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans:beans xmlns="http://www.springframework.org/schema/mvc"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:beans="http://www.springframework.org/schema/beans"
+	xmlns:context="http://www.springframework.org/schema/context" xmlns:tx="http://www.springframework.org/schema/tx"
+	xmlns:mvc="http://www.springframework.org/schema/mvc" xmlns:p="http://www.springframework.org/schema/p"
+	xsi:schemaLocation="http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc.xsd
+              http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+              http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd
+               http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-3.1.xsd
+               ">
+
+	<!-- JPA Related -->
+	<beans:bean id="txManager"
+		class="org.springframework.orm.jpa.JpaTransactionManager">
+		<beans:property name="entityManagerFactory" ref="entityManagerFactory" />
+	</beans:bean>
+	<tx:annotation-driven transaction-manager="txManager" />
+
+	<beans:bean id="entityManagerFactory"
+		class="org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean">
+		<beans:property name="persistenceXmlLocation" value="classpath:META-INF/persistence.xml" />
+		<beans:property name="persistenceUnitName" value="Test" />
+		<beans:property name="dataSource" ref="dataSource" />
+		<beans:property name="jpaVendorAdapter" ref="jpaVendorAdapter" />
+	</beans:bean>
+	
+	<beans:bean id="jpaVendorAdapter"
+		class="org.springframework.orm.jpa.vendor.HibernateJpaVendorAdapter">
+		<beans:property name="database" value="SQL_SERVER" /> 
+		<beans:property name="showSql" value="true" />
+		<beans:property name="databasePlatform" value="org.hibernate.dialect.SQLServerDialect" />
+	</beans:bean>
+	
+	
+	
+	<!-- Below is for JPA connection -->
+	<beans:bean id="dataSource"
+		class="com.rcom.prepaid.datasource.DataSource" factory-method="getDataSource">
+
+		<!-- <beans:constructor-arg name="driverClass" value="${re.db.driverClass}" 
+			/> <beans:constructor-arg name="jdbcUrl" value="${re.db.jdbcUrl}" /> <beans:constructor-arg 
+			name="user" value="${re.db.user}" /> <beans:constructor-arg name="password" 
+			value="${re.db.password}" /> <beans:constructor-arg name="minPoolSize" value="${re.db.minPoolSize}" 
+			/> <beans:constructor-arg name="maxPoolSize" value="${re.db.maxPoolSize}" 
+			/> <beans:constructor-arg name="checkoutTimeout" value="${re.db.checkoutTimeout}" 
+			/> <beans:constructor-arg name="idleConnectionTestPeriod" value="${re.db.idleConnectionTestPeriod}" 
+			/> -->
+	</beans:bean>
+	
+	<!-- <beans:bean id="dataServices" class="com.rcom.dbservice.IVRDBServiceImpl">
+		<beans:property name="ivrdbDao" ref="ivrdbDao"></beans:property>
+	</beans:bean>-->
+	
+	<beans:bean id="repository" class="com.rcom.prepaid.dao.impl.IVRDBDaoRepository">
+	</beans:bean>
+	
+	<beans:bean id="ivrdbDao" class="com.rcom.prepaid.daoservice.IVRDBDaoServiceImpl">
+	<beans:property name="daoRepository" ref="repository"></beans:property>
+	</beans:bean>  
+	
+	<beans:bean id="dataServices" class="com.rcom.prepaid.dbservice.IVRDataServiceImpl">
+		<beans:property name="ivrdbDao" ref="ivrdbDao"></beans:property>
+	</beans:bean>
+		
+	<context:component-scan base-package="com.rcom.prepaid.dao.impl" /> 
+	<context:component-scan base-package="com.rcom.prepaid.daoservice" />
+	<context:component-scan base-package="com.rcom.prepaid.dbservice" />
+<!-- 	<context:component-scan base-package="com.servion.component"/>
+	<context:component-scan base-package="com.servion.service"/> -->
+	
+
+	
+</beans:beans>
+	

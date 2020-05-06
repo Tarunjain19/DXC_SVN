@@ -1,0 +1,25 @@
+##################################################################################
+# 
+# MainMenuRegular_MN.properties file
+# 
+##################################################################################
+
+########################
+# Dialog Name
+########################
+
+dialogName = MainMenuRegular_MN
+menuID = MN_0003
+isAnnouncement = false
+
+########################
+# Grammars
+########################
+dtmfGrammar = MainMenuRegular_MN.grxml
+
+########################
+# Prompt & Collect
+########################
+initialPrompt = 
+rePromptNoInput = 
+rePromptNoMatch = 

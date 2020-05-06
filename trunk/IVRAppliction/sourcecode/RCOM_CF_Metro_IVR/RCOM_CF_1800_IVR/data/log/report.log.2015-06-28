@@ -1,0 +1,440 @@
+28/06/2015 16:11:39:297  INFO - In Progress | session id:mpp-2015179103346-6 | DM:ReportEnd | Welcome_PP | Return Code | Output_Parameters:returncode |  | 10000009921435487626
+28/06/2015 16:11:39:300  INFO - End | session id:mpp-2015179103346-6 | DM:ReportEnd | Welcome_PP |  |  |  | 10000009921435487626
+28/06/2015 16:11:49:812  INFO - In Progress | session id:mpp-2015179103346-6 | DM:ReportEnd | SelectLang_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000009921435487626
+28/06/2015 16:11:49:813  INFO - In Progress | session id:mpp-2015179103346-6 | DM:ReportEnd | SelectLang_MN | Input Type | Output_Parameters:inputType | dtmf | 10000009921435487626
+28/06/2015 16:11:49:813  INFO - In Progress | session id:mpp-2015179103346-6 | DM:ReportEnd | SelectLang_MN | Value | Output_Parameters:value | HIN | 10000009921435487626
+28/06/2015 16:11:49:813  INFO - End | session id:mpp-2015179103346-6 | DM:ReportEnd | SelectLang_MN |  |  |  | 10000009921435487626
+28/06/2015 16:58:48:343  INFO - In Progress | session id:mpp-2015179112053-20 | DM:ReportEnd | Welcome_PP | Return Code | Output_Parameters:returncode |  | 10000009971435490453
+28/06/2015 16:58:48:369  INFO - End | session id:mpp-2015179112053-20 | DM:ReportEnd | Welcome_PP |  |  |  | 10000009971435490453
+28/06/2015 16:58:51:932  INFO - In Progress | session id:mpp-2015179112053-20 | DM:ReportEnd | SelectLang_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000009971435490453
+28/06/2015 16:58:51:932  INFO - In Progress | session id:mpp-2015179112053-20 | DM:ReportEnd | SelectLang_MN | Input Type | Output_Parameters:inputType | dtmf | 10000009971435490453
+28/06/2015 16:58:51:932  INFO - In Progress | session id:mpp-2015179112053-20 | DM:ReportEnd | SelectLang_MN | Value | Output_Parameters:value | HIN | 10000009971435490453
+28/06/2015 16:58:51:933  INFO - End | session id:mpp-2015179112053-20 | DM:ReportEnd | SelectLang_MN |  |  |  | 10000009971435490453
+28/06/2015 17:11:16:522  INFO - In Progress | session id:mpp-2015179113323-15 | DM:ReportEnd | Welcome_PP | Return Code | Output_Parameters:returncode |  | 10000010001435491203
+28/06/2015 17:11:16:523  INFO - End | session id:mpp-2015179113323-15 | DM:ReportEnd | Welcome_PP |  |  |  | 10000010001435491203
+28/06/2015 17:11:18:942  INFO - In Progress | session id:mpp-2015179113323-15 | DM:ReportEnd | SelectLang_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000010001435491203
+28/06/2015 17:11:18:942  INFO - In Progress | session id:mpp-2015179113323-15 | DM:ReportEnd | SelectLang_MN | Input Type | Output_Parameters:inputType | dtmf | 10000010001435491203
+28/06/2015 17:11:18:942  INFO - In Progress | session id:mpp-2015179113323-15 | DM:ReportEnd | SelectLang_MN | Value | Output_Parameters:value | HIN | 10000010001435491203
+28/06/2015 17:11:18:943  INFO - End | session id:mpp-2015179113323-15 | DM:ReportEnd | SelectLang_MN |  |  |  | 10000010001435491203
+28/06/2015 17:15:46:763  INFO - In Progress | session id:mpp-2015179113753-19 | DM:ReportEnd | Welcome_PP | Return Code | Output_Parameters:returncode |  | 10000010021435491473
+28/06/2015 17:15:46:764  INFO - End | session id:mpp-2015179113753-19 | DM:ReportEnd | Welcome_PP |  |  |  | 10000010021435491473
+28/06/2015 17:15:49:566  INFO - In Progress | session id:mpp-2015179113753-19 | DM:ReportEnd | SelectLang_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000010021435491473
+28/06/2015 17:15:49:566  INFO - In Progress | session id:mpp-2015179113753-19 | DM:ReportEnd | SelectLang_MN | Input Type | Output_Parameters:inputType | dtmf | 10000010021435491473
+28/06/2015 17:15:49:566  INFO - In Progress | session id:mpp-2015179113753-19 | DM:ReportEnd | SelectLang_MN | Value | Output_Parameters:value | HIN | 10000010021435491473
+28/06/2015 17:15:49:566  INFO - End | session id:mpp-2015179113753-19 | DM:ReportEnd | SelectLang_MN |  |  |  | 10000010021435491473
+28/06/2015 17:15:49:610 ERROR - In Progress | session id:mpp-2015179113753-19 | RCOM_CF_1800_IVR:CheckRTN |  | com.avaya.sce.runtimecommon.SCERuntimeException: Invalid Data Collection in form CheckRTN, missing reference to next flow node | Exception stack trace | Error processing request
+ EXCEPTION> 
+com.avaya.sce.runtimecommon.SCERuntimeException: Invalid Data Collection in form CheckRTN, missing reference to next flow node
+	at com.avaya.sce.runtimecommon.SCESession.throwRTException(SCESession.java:2316)
+	at com.avaya.sce.runtime.Data.handleRequest(Data.java:125)
+	at com.avaya.sce.runtime.AppServlet.processRequest(AppServlet.java:96)
+	at com.avaya.sce.runtime.SCEServlet.requestHandler(SCEServlet.java:285)
+	at com.avaya.sce.runtime.SCEServlet.doPost(SCEServlet.java:190)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:646)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:727)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:748)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:486)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:411)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:338)
+	at com.avaya.sce.runtime.SCEServlet.forward(SCEServlet.java:1364)
+	at com.avaya.sce.runtime.Data.evaluateActions(Data.java:211)
+	at flow.CheckInput.executeDataActions(CheckInput.java:89)
+	at com.avaya.sce.runtime.Data.handleRequest(Data.java:104)
+	at com.avaya.sce.runtime.AppServlet.processRequest(AppServlet.java:96)
+	at com.avaya.sce.runtime.SCEServlet.requestHandler(SCEServlet.java:285)
+	at com.avaya.sce.runtime.SCEServlet.doPost(SCEServlet.java:190)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:646)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:727)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:504)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:170)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:950)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:421)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1074)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:611)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:316)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+ | 10000010021435491473
+28/06/2015 17:24:28:527  INFO - In Progress | session id:mpp-2015179114635-4 | DM:ReportEnd | Welcome_PP | Return Code | Output_Parameters:returncode |  | 10000010031435491995
+28/06/2015 17:24:28:527  INFO - End | session id:mpp-2015179114635-4 | DM:ReportEnd | Welcome_PP |  |  |  | 10000010031435491995
+28/06/2015 17:24:31:300  INFO - In Progress | session id:mpp-2015179114635-4 | DM:ReportEnd | SelectLang_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000010031435491995
+28/06/2015 17:24:31:300  INFO - In Progress | session id:mpp-2015179114635-4 | DM:ReportEnd | SelectLang_MN | Input Type | Output_Parameters:inputType | dtmf | 10000010031435491995
+28/06/2015 17:24:31:300  INFO - In Progress | session id:mpp-2015179114635-4 | DM:ReportEnd | SelectLang_MN | Value | Output_Parameters:value | HIN | 10000010031435491995
+28/06/2015 17:24:31:300  INFO - End | session id:mpp-2015179114635-4 | DM:ReportEnd | SelectLang_MN |  |  |  | 10000010031435491995
+28/06/2015 17:34:15:749  INFO - In Progress | session id:mpp-2015179115622-5 | DM:ReportEnd | Welcome_PP | Return Code | Output_Parameters:returncode |  | 10000010041435492582
+28/06/2015 17:34:15:749  INFO - End | session id:mpp-2015179115622-5 | DM:ReportEnd | Welcome_PP |  |  |  | 10000010041435492582
+28/06/2015 17:34:16:668  INFO - In Progress | session id:mpp-2015179115622-5 | DM:ReportEnd | SelectLang_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000010041435492582
+28/06/2015 17:34:16:668  INFO - In Progress | session id:mpp-2015179115622-5 | DM:ReportEnd | SelectLang_MN | Input Type | Output_Parameters:inputType | dtmf | 10000010041435492582
+28/06/2015 17:34:16:668  INFO - In Progress | session id:mpp-2015179115622-5 | DM:ReportEnd | SelectLang_MN | Value | Output_Parameters:value | HIN | 10000010041435492582
+28/06/2015 17:34:16:668  INFO - End | session id:mpp-2015179115622-5 | DM:ReportEnd | SelectLang_MN |  |  |  | 10000010041435492582
+28/06/2015 18:47:25:652  INFO - In Progress | session id:mpp-2015179130932-6 | DM:ReportEnd | Welcome_PP | Return Code | Output_Parameters:returncode |  | 10000010121435496972
+28/06/2015 18:47:25:653  INFO - End | session id:mpp-2015179130932-6 | DM:ReportEnd | Welcome_PP |  |  |  | 10000010121435496972
+28/06/2015 18:47:32:822  INFO - In Progress | session id:mpp-2015179130932-6 | DM:ReportEnd | SelectLang_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000010121435496972
+28/06/2015 18:47:32:823  INFO - In Progress | session id:mpp-2015179130932-6 | DM:ReportEnd | SelectLang_MN | Input Type | Output_Parameters:inputType | dtmf | 10000010121435496972
+28/06/2015 18:47:32:823  INFO - In Progress | session id:mpp-2015179130932-6 | DM:ReportEnd | SelectLang_MN | Value | Output_Parameters:value | HIN | 10000010121435496972
+28/06/2015 18:47:32:823  INFO - End | session id:mpp-2015179130932-6 | DM:ReportEnd | SelectLang_MN |  |  |  | 10000010121435496972
+28/06/2015 18:51:51:310  INFO - In Progress | session id:mpp-2015179131358-17 | DM:ReportEnd | Welcome_PP | Return Code | Output_Parameters:returncode |  | 10000010151435497238
+28/06/2015 18:51:51:310  INFO - End | session id:mpp-2015179131358-17 | DM:ReportEnd | Welcome_PP |  |  |  | 10000010151435497238
+28/06/2015 18:51:54:529  INFO - In Progress | session id:mpp-2015179131358-17 | DM:ReportEnd | SelectLang_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000010151435497238
+28/06/2015 18:51:54:530  INFO - In Progress | session id:mpp-2015179131358-17 | DM:ReportEnd | SelectLang_MN | Input Type | Output_Parameters:inputType | dtmf | 10000010151435497238
+28/06/2015 18:51:54:530  INFO - In Progress | session id:mpp-2015179131358-17 | DM:ReportEnd | SelectLang_MN | Value | Output_Parameters:value | HIN | 10000010151435497238
+28/06/2015 18:51:54:530  INFO - End | session id:mpp-2015179131358-17 | DM:ReportEnd | SelectLang_MN |  |  |  | 10000010151435497238
+28/06/2015 18:51:57:658  INFO - In Progress | session id:mpp-2015179131358-17 | DM:ReportEnd | Prepaid_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000010151435497238
+28/06/2015 18:51:57:658  INFO - In Progress | session id:mpp-2015179131358-17 | DM:ReportEnd | Prepaid_MN | Input Type | Output_Parameters:inputType | dtmf | 10000010151435497238
+28/06/2015 18:51:57:658  INFO - In Progress | session id:mpp-2015179131358-17 | DM:ReportEnd | Prepaid_MN | Value | Output_Parameters:value | HotDeals | 10000010151435497238
+28/06/2015 18:51:57:658  INFO - End | session id:mpp-2015179131358-17 | DM:ReportEnd | Prepaid_MN |  |  |  | 10000010151435497238
+28/06/2015 18:52:05:145  INFO - In Progress | session id:mpp-2015179131358-17 | DM:ReportEnd | Offer_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000010151435497238
+28/06/2015 18:52:05:145  INFO - In Progress | session id:mpp-2015179131358-17 | DM:ReportEnd | Offer_MN | Input Type | Output_Parameters:inputType | dtmf | 10000010151435497238
+28/06/2015 18:52:05:145  INFO - In Progress | session id:mpp-2015179131358-17 | DM:ReportEnd | Offer_MN | Value | Output_Parameters:value | HIN | 10000010151435497238
+28/06/2015 18:52:05:146  INFO - End | session id:mpp-2015179131358-17 | DM:ReportEnd | Offer_MN |  |  |  | 10000010151435497238
+28/06/2015 18:52:05:269  INFO - In Progress | session id:mpp-2015179131358-17 | DM:ReportEnd | OfferMsg_PP | Return Code | Output_Parameters:returncode |  | 10000010151435497238
+28/06/2015 18:52:05:269  INFO - End | session id:mpp-2015179131358-17 | DM:ReportEnd | OfferMsg_PP |  |  |  | 10000010151435497238
+28/06/2015 18:52:15:807  INFO - In Progress | session id:mpp-2015179131358-17 | DM:ReportEnd | Subscribe_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000010151435497238
+28/06/2015 18:52:15:807  INFO - In Progress | session id:mpp-2015179131358-17 | DM:ReportEnd | Subscribe_MN | Input Type | Output_Parameters:inputType | dtmf | 10000010151435497238
+28/06/2015 18:52:15:807  INFO - In Progress | session id:mpp-2015179131358-17 | DM:ReportEnd | Subscribe_MN | Value | Output_Parameters:value | HIN | 10000010151435497238
+28/06/2015 18:52:15:807  INFO - End | session id:mpp-2015179131358-17 | DM:ReportEnd | Subscribe_MN |  |  |  | 10000010151435497238
+28/06/2015 18:52:15:987  INFO - In Progress | session id:mpp-2015179131358-17 | DM:ReportEnd | TransferAgent_PP | Return Code | Output_Parameters:returncode |  | 10000010151435497238
+28/06/2015 18:52:15:987  INFO - End | session id:mpp-2015179131358-17 | DM:ReportEnd | TransferAgent_PP |  |  |  | 10000010151435497238
+28/06/2015 18:53:16:195  INFO - In Progress | session id:mpp-2015179131526-12 | DM:ReportEnd | Welcome_PP | Return Code | Output_Parameters:returncode |  | 10000010181435497326
+28/06/2015 18:53:16:195  INFO - End | session id:mpp-2015179131526-12 | DM:ReportEnd | Welcome_PP |  |  |  | 10000010181435497326
+28/06/2015 18:53:19:252  INFO - In Progress | session id:mpp-2015179131526-12 | DM:ReportEnd | SelectLang_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000010181435497326
+28/06/2015 18:53:19:252  INFO - In Progress | session id:mpp-2015179131526-12 | DM:ReportEnd | SelectLang_MN | Input Type | Output_Parameters:inputType | dtmf | 10000010181435497326
+28/06/2015 18:53:19:252  INFO - In Progress | session id:mpp-2015179131526-12 | DM:ReportEnd | SelectLang_MN | Value | Output_Parameters:value | HIN | 10000010181435497326
+28/06/2015 18:53:19:253  INFO - End | session id:mpp-2015179131526-12 | DM:ReportEnd | SelectLang_MN |  |  |  | 10000010181435497326
+28/06/2015 18:53:21:410  INFO - In Progress | session id:mpp-2015179131526-12 | DM:ReportEnd | Prepaid_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000010181435497326
+28/06/2015 18:53:21:410  INFO - In Progress | session id:mpp-2015179131526-12 | DM:ReportEnd | Prepaid_MN | Input Type | Output_Parameters:inputType | dtmf | 10000010181435497326
+28/06/2015 18:53:21:410  INFO - In Progress | session id:mpp-2015179131526-12 | DM:ReportEnd | Prepaid_MN | Value | Output_Parameters:value | HotDeals | 10000010181435497326
+28/06/2015 18:53:21:410  INFO - End | session id:mpp-2015179131526-12 | DM:ReportEnd | Prepaid_MN |  |  |  | 10000010181435497326
+28/06/2015 18:53:23:949  INFO - In Progress | session id:mpp-2015179131526-12 | DM:ReportEnd | Offer_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000010181435497326
+28/06/2015 18:53:23:949  INFO - In Progress | session id:mpp-2015179131526-12 | DM:ReportEnd | Offer_MN | Input Type | Output_Parameters:inputType | dtmf | 10000010181435497326
+28/06/2015 18:53:23:949  INFO - In Progress | session id:mpp-2015179131526-12 | DM:ReportEnd | Offer_MN | Value | Output_Parameters:value | HIN | 10000010181435497326
+28/06/2015 18:53:23:949  INFO - End | session id:mpp-2015179131526-12 | DM:ReportEnd | Offer_MN |  |  |  | 10000010181435497326
+28/06/2015 18:53:24:030  INFO - In Progress | session id:mpp-2015179131526-12 | DM:ReportEnd | OfferMsg_PP | Return Code | Output_Parameters:returncode |  | 10000010181435497326
+28/06/2015 18:53:24:031  INFO - End | session id:mpp-2015179131526-12 | DM:ReportEnd | OfferMsg_PP |  |  |  | 10000010181435497326
+28/06/2015 18:53:38:415  INFO - In Progress | session id:mpp-2015179131526-12 | DM:ReportEnd | Subscribe_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000010181435497326
+28/06/2015 18:53:38:416  INFO - In Progress | session id:mpp-2015179131526-12 | DM:ReportEnd | Subscribe_MN | Input Type | Output_Parameters:inputType | dtmf | 10000010181435497326
+28/06/2015 18:53:38:416  INFO - In Progress | session id:mpp-2015179131526-12 | DM:ReportEnd | Subscribe_MN | Value | Output_Parameters:value | HIN | 10000010181435497326
+28/06/2015 18:53:38:416  INFO - End | session id:mpp-2015179131526-12 | DM:ReportEnd | Subscribe_MN |  |  |  | 10000010181435497326
+28/06/2015 18:53:38:555  INFO - In Progress | session id:mpp-2015179131526-12 | DM:ReportEnd | TransferAgent_PP | Return Code | Output_Parameters:returncode |  | 10000010181435497326
+28/06/2015 18:53:38:555  INFO - End | session id:mpp-2015179131526-12 | DM:ReportEnd | TransferAgent_PP |  |  |  | 10000010181435497326
+28/06/2015 19:07:51:188  INFO - In Progress | session id:mpp-2015179132958-4 | DM:ReportEnd | Welcome_PP | Return Code | Output_Parameters:returncode |  | 10000010221435498198
+28/06/2015 19:07:51:188  INFO - End | session id:mpp-2015179132958-4 | DM:ReportEnd | Welcome_PP |  |  |  | 10000010221435498198
+28/06/2015 19:07:52:346  INFO - In Progress | session id:mpp-2015179132958-4 | DM:ReportEnd | SelectLang_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000010221435498198
+28/06/2015 19:07:52:347  INFO - In Progress | session id:mpp-2015179132958-4 | DM:ReportEnd | SelectLang_MN | Input Type | Output_Parameters:inputType | dtmf | 10000010221435498198
+28/06/2015 19:07:52:347  INFO - In Progress | session id:mpp-2015179132958-4 | DM:ReportEnd | SelectLang_MN | Value | Output_Parameters:value | HIN | 10000010221435498198
+28/06/2015 19:07:52:347  INFO - End | session id:mpp-2015179132958-4 | DM:ReportEnd | SelectLang_MN |  |  |  | 10000010221435498198
+28/06/2015 19:07:53:584  INFO - In Progress | session id:mpp-2015179132958-4 | DM:ReportEnd | Prepaid_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000010221435498198
+28/06/2015 19:07:53:584  INFO - In Progress | session id:mpp-2015179132958-4 | DM:ReportEnd | Prepaid_MN | Input Type | Output_Parameters:inputType | dtmf | 10000010221435498198
+28/06/2015 19:07:53:584  INFO - In Progress | session id:mpp-2015179132958-4 | DM:ReportEnd | Prepaid_MN | Value | Output_Parameters:value | HotDeals | 10000010221435498198
+28/06/2015 19:07:53:584  INFO - End | session id:mpp-2015179132958-4 | DM:ReportEnd | Prepaid_MN |  |  |  | 10000010221435498198
+28/06/2015 19:19:54:462  INFO - In Progress | session id:mpp-2015179134201-5 | DM:ReportEnd | Welcome_PP | Return Code | Output_Parameters:returncode |  | 10000010241435498921
+28/06/2015 19:19:54:462  INFO - End | session id:mpp-2015179134201-5 | DM:ReportEnd | Welcome_PP |  |  |  | 10000010241435498921
+28/06/2015 19:19:57:550  INFO - In Progress | session id:mpp-2015179134201-5 | DM:ReportEnd | SelectLang_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000010241435498921
+28/06/2015 19:19:57:550  INFO - In Progress | session id:mpp-2015179134201-5 | DM:ReportEnd | SelectLang_MN | Input Type | Output_Parameters:inputType | dtmf | 10000010241435498921
+28/06/2015 19:19:57:550  INFO - In Progress | session id:mpp-2015179134201-5 | DM:ReportEnd | SelectLang_MN | Value | Output_Parameters:value | HIN | 10000010241435498921
+28/06/2015 19:19:57:550  INFO - End | session id:mpp-2015179134201-5 | DM:ReportEnd | SelectLang_MN |  |  |  | 10000010241435498921
+28/06/2015 19:19:59:912  INFO - In Progress | session id:mpp-2015179134201-5 | DM:ReportEnd | Prepaid_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000010241435498921
+28/06/2015 19:19:59:913  INFO - In Progress | session id:mpp-2015179134201-5 | DM:ReportEnd | Prepaid_MN | Input Type | Output_Parameters:inputType | dtmf | 10000010241435498921
+28/06/2015 19:19:59:913  INFO - In Progress | session id:mpp-2015179134201-5 | DM:ReportEnd | Prepaid_MN | Value | Output_Parameters:value | HOTDEAL | 10000010241435498921
+28/06/2015 19:19:59:913  INFO - End | session id:mpp-2015179134201-5 | DM:ReportEnd | Prepaid_MN |  |  |  | 10000010241435498921
+28/06/2015 19:25:32:328 DEBUG - FDFD1B605D9F80E8EF1BC268894F3664:/RCOM_CF_1800_IVR : IVRRoutingInfo from IVR:[DNIS:52585, TrunkGroup:null, Circle:null, DefaultLanguage:null, Languages:null]
+28/06/2015 19:25:32:515 DEBUG - FDFD1B605D9F80E8EF1BC268894F3664:/RCOM_CF_1800_IVR : IVRRoutingInfo to IVR:[DNIS:52585, TrunkGroup:TRK1, Circle:TN, DefaultLanguage:TAM, Languages:HIN,TAM,ENG]
+28/06/2015 19:25:32:517 DEBUG - FDFD1B605D9F80E8EF1BC268894F3664:/RCOM_CF_1800_IVR : Time for executing PROC_IVR_DNISRouting is 86 ms
+28/06/2015 19:25:32:738  INFO - In Progress | session id:mpp-2015179134740-2 | DM:ReportEnd | Welcome_PP | Return Code | Output_Parameters:returncode |  | 10000010261435499260
+28/06/2015 19:25:32:739  INFO - End | session id:mpp-2015179134740-2 | DM:ReportEnd | Welcome_PP |  |  |  | 10000010261435499260
+28/06/2015 19:25:32:766 DEBUG - FDFD1B605D9F80E8EF1BC268894F3664:/RCOM_CF_1800_IVR : IVRCspInfo from IVR:[MDN:4555BarringList:nullService:nullPreLang:nullHniPre:nullUpdateFlag:nullRetention:nullErrorCode:nullErrorDescription:null]
+28/06/2015 19:25:32:770 DEBUG - FDFD1B605D9F80E8EF1BC268894F3664:/RCOM_CF_1800_IVR : IVRCspInfo to IVR:[MDN:4555BarringList:POSTPAIDService:NAPreLang:ENGHniPre:NAUpdateFlag:nullRetention:RTNErrorCode:0ErrorDescription:SUCCESS]
+28/06/2015 19:25:32:771 DEBUG - FDFD1B605D9F80E8EF1BC268894F3664:/RCOM_CF_1800_IVR : ErrorCode:0
+28/06/2015 19:25:32:771 DEBUG - FDFD1B605D9F80E8EF1BC268894F3664:/RCOM_CF_1800_IVR : ErrorDescription:SUCCESS
+28/06/2015 19:25:32:771 DEBUG - FDFD1B605D9F80E8EF1BC268894F3664:/RCOM_CF_1800_IVR : Time for executing spsvn_IVRCSPPostpaid is 4 ms
+28/06/2015 19:25:37:283  INFO - In Progress | session id:mpp-2015179134740-2 | DM:ReportEnd | SelectLang_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000010261435499260
+28/06/2015 19:25:37:283  INFO - In Progress | session id:mpp-2015179134740-2 | DM:ReportEnd | SelectLang_MN | Input Type | Output_Parameters:inputType | dtmf | 10000010261435499260
+28/06/2015 19:25:37:283  INFO - In Progress | session id:mpp-2015179134740-2 | DM:ReportEnd | SelectLang_MN | Value | Output_Parameters:value | HIN | 10000010261435499260
+28/06/2015 19:25:37:283  INFO - End | session id:mpp-2015179134740-2 | DM:ReportEnd | SelectLang_MN |  |  |  | 10000010261435499260
+28/06/2015 19:25:37:330 DEBUG - Load on Start UP : Check MDN is RTN[MDN:4555[ServiceType:null[RTN:null
+28/06/2015 19:25:37:340 DEBUG - FDFD1B605D9F80E8EF1BC268894F3664:/RCOM_CF_1800_IVR : Check MDN is RTN[MDN:4555[ServiceType:GSM_PREPAID[RTN:RTN
+28/06/2015 19:25:37:340 DEBUG - FDFD1B605D9F80E8EF1BC268894F3664:/RCOM_CF_1800_IVR : Time for executing spsvn_AccessPhoneGen is 2 ms
+28/06/2015 19:25:43:280  INFO - In Progress | session id:mpp-2015179134740-2 | DM:ReportEnd | Prepaid_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000010261435499260
+28/06/2015 19:25:43:280  INFO - In Progress | session id:mpp-2015179134740-2 | DM:ReportEnd | Prepaid_MN | Input Type | Output_Parameters:inputType | dtmf | 10000010261435499260
+28/06/2015 19:25:43:280  INFO - In Progress | session id:mpp-2015179134740-2 | DM:ReportEnd | Prepaid_MN | Value | Output_Parameters:value | HOTDEAL | 10000010261435499260
+28/06/2015 19:25:43:280  INFO - End | session id:mpp-2015179134740-2 | DM:ReportEnd | Prepaid_MN |  |  |  | 10000010261435499260
+28/06/2015 19:25:43:307 DEBUG - Load on Start UP : PrepaidPostpaidServiceInfo from IVR:PrepaidPostpaidServiceInfo [appName=RCOM_CF_1800, circleCode=TN, language=HIN, callType=null, offerType=null, serviceType=null, OfferInformation1Phrase=null, OfferInformation1DetailPhrase=null, OfferInformation2Phrase=null, OfferInformation2DetailPhrase=null, OfferInformation3Phrase=null, OfferInformation3DetailPhrase=null]
+28/06/2015 19:25:43:342 ERROR - FDFD1B605D9F80E8EF1BC268894F3664:/RCOM_CF_1800_IVRError occured in : 
+javax.persistence.PersistenceException: org.hibernate.exception.SQLGrammarException: Error calling CallableStatement.getMoreResults
+	at org.hibernate.jpa.spi.AbstractEntityManagerImpl.convert(AbstractEntityManagerImpl.java:1763)
+	at org.hibernate.jpa.spi.AbstractEntityManagerImpl.convert(AbstractEntityManagerImpl.java:1677)
+	at org.hibernate.jpa.internal.StoredProcedureQueryImpl.execute(StoredProcedureQueryImpl.java:241)
+	at com.rcom.ppp.dao.impl.IVRDBDaoRepository.queryPrepaidPostpaidServiceInfo(IVRDBDaoRepository.java:620)
+	at com.rcom.ppp.daoservice.IVRDBDaoServiceImpl.getPrepaidPostpaidServiceInfoFromDB(IVRDBDaoServiceImpl.java:133)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:317)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:190)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:157)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:96)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:260)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:94)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:207)
+	at com.sun.proxy.$Proxy27.getPrepaidPostpaidServiceInfoFromDB(Unknown Source)
+	at com.rcom.ppp.dbservice.IVRDataServiceImpl.getPrepaidPostpaidServiceInfo(IVRDataServiceImpl.java:163)
+	at flow.DB_IVR_Offer.requestBegin(DB_IVR_Offer.java:122)
+	at com.avaya.sce.runtime.AppServlet.processRequest(AppServlet.java:81)
+	at com.avaya.sce.runtime.SCEServlet.requestHandler(SCEServlet.java:285)
+	at com.avaya.sce.runtime.SCEServlet.doPost(SCEServlet.java:190)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:646)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:727)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:748)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:486)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:411)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:338)
+	at com.avaya.sce.runtime.SCEServlet.forward(SCEServlet.java:1364)
+	at com.avaya.sce.runtime.Data.evaluateActions(Data.java:211)
+	at flow.CheckIPvalue.executeDataActions(CheckIPvalue.java:90)
+	at com.avaya.sce.runtime.Data.handleRequest(Data.java:104)
+	at com.avaya.sce.runtime.AppServlet.processRequest(AppServlet.java:96)
+	at com.avaya.sce.runtime.SCEServlet.requestHandler(SCEServlet.java:285)
+	at com.avaya.sce.runtime.SCEServlet.doPost(SCEServlet.java:190)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:646)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:727)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:504)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:170)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:950)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:421)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1074)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:611)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:316)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.hibernate.exception.SQLGrammarException: Error calling CallableStatement.getMoreResults
+	at org.hibernate.exception.internal.SQLStateConversionDelegate.convert(SQLStateConversionDelegate.java:123)
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:49)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:126)
+	at org.hibernate.result.internal.OutputsImpl.convert(OutputsImpl.java:96)
+	at org.hibernate.result.internal.OutputsImpl.<init>(OutputsImpl.java:73)
+	at org.hibernate.procedure.internal.ProcedureOutputsImpl.<init>(ProcedureOutputsImpl.java:49)
+	at org.hibernate.procedure.internal.ProcedureCallImpl.buildOutputs(ProcedureCallImpl.java:426)
+	at org.hibernate.procedure.internal.ProcedureCallImpl.getOutputs(ProcedureCallImpl.java:378)
+	at org.hibernate.jpa.internal.StoredProcedureQueryImpl.outputs(StoredProcedureQueryImpl.java:251)
+	at org.hibernate.jpa.internal.StoredProcedureQueryImpl.execute(StoredProcedureQueryImpl.java:234)
+	... 60 more
+Caused by: com.microsoft.sqlserver.jdbc.SQLServerException: The formal parameter "@Language" was not declared as an OUTPUT parameter, but the actual parameter passed in requested output.
+	at com.microsoft.sqlserver.jdbc.SQLServerException.makeFromDatabaseError(SQLServerException.java:196)
+	at com.microsoft.sqlserver.jdbc.SQLServerStatement.getNextResult(SQLServerStatement.java:1454)
+	at com.microsoft.sqlserver.jdbc.SQLServerPreparedStatement.doExecutePreparedStatement(SQLServerPreparedStatement.java:388)
+	at com.microsoft.sqlserver.jdbc.SQLServerPreparedStatement$PrepStmtExecCmd.doExecute(SQLServerPreparedStatement.java:338)
+	at com.microsoft.sqlserver.jdbc.TDSCommand.execute(IOBuffer.java:4026)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.executeCommand(SQLServerConnection.java:1416)
+	at com.microsoft.sqlserver.jdbc.SQLServerStatement.executeCommand(SQLServerStatement.java:185)
+	at com.microsoft.sqlserver.jdbc.SQLServerStatement.executeStatement(SQLServerStatement.java:160)
+	at com.microsoft.sqlserver.jdbc.SQLServerPreparedStatement.execute(SQLServerPreparedStatement.java:320)
+	at com.mchange.v2.c3p0.impl.NewProxyCallableStatement.execute(NewProxyCallableStatement.java:2878)
+	at org.hibernate.result.internal.OutputsImpl.<init>(OutputsImpl.java:69)
+	... 65 more
+28/06/2015 19:25:43:361 DEBUG - FDFD1B605D9F80E8EF1BC268894F3664:/RCOM_CF_1800_IVR : Time for executing PROC_spsvn_GetOfferApplication is 40 ms
+28/06/2015 19:25:43:367 ERROR - Error occured in : 
+java.lang.NullPointerException
+	at com.rcom.ppp.dao.impl.IVRDBDaoRepository.queryPrepaidPostpaidServiceInfo(IVRDBDaoRepository.java:637)
+	at com.rcom.ppp.daoservice.IVRDBDaoServiceImpl.getPrepaidPostpaidServiceInfoFromDB(IVRDBDaoServiceImpl.java:133)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:317)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:190)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:157)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:96)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:260)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:94)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:207)
+	at com.sun.proxy.$Proxy27.getPrepaidPostpaidServiceInfoFromDB(Unknown Source)
+	at com.rcom.ppp.dbservice.IVRDataServiceImpl.getPrepaidPostpaidServiceInfo(IVRDataServiceImpl.java:163)
+	at flow.DB_IVR_Offer.requestBegin(DB_IVR_Offer.java:122)
+	at com.avaya.sce.runtime.AppServlet.processRequest(AppServlet.java:81)
+	at com.avaya.sce.runtime.SCEServlet.requestHandler(SCEServlet.java:285)
+	at com.avaya.sce.runtime.SCEServlet.doPost(SCEServlet.java:190)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:646)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:727)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:748)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:486)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:411)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:338)
+	at com.avaya.sce.runtime.SCEServlet.forward(SCEServlet.java:1364)
+	at com.avaya.sce.runtime.Data.evaluateActions(Data.java:211)
+	at flow.CheckIPvalue.executeDataActions(CheckIPvalue.java:90)
+	at com.avaya.sce.runtime.Data.handleRequest(Data.java:104)
+	at com.avaya.sce.runtime.AppServlet.processRequest(AppServlet.java:96)
+	at com.avaya.sce.runtime.SCEServlet.requestHandler(SCEServlet.java:285)
+	at com.avaya.sce.runtime.SCEServlet.doPost(SCEServlet.java:190)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:646)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:727)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:504)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:170)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:950)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:421)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1074)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:611)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:316)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+28/06/2015 19:25:49:916  INFO - In Progress | session id:mpp-2015179134740-2 | DM:ReportEnd | Offer_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000010261435499260
+28/06/2015 19:25:49:916  INFO - In Progress | session id:mpp-2015179134740-2 | DM:ReportEnd | Offer_MN | Input Type | Output_Parameters:inputType | dtmf | 10000010261435499260
+28/06/2015 19:25:49:916  INFO - In Progress | session id:mpp-2015179134740-2 | DM:ReportEnd | Offer_MN | Value | Output_Parameters:value | HIN | 10000010261435499260
+28/06/2015 19:25:49:916  INFO - End | session id:mpp-2015179134740-2 | DM:ReportEnd | Offer_MN |  |  |  | 10000010261435499260
+28/06/2015 19:25:49:941 ERROR - Error occured in : 
+java.lang.NullPointerException
+	at flow.PlayOfferInitial.requestBegin(PlayOfferInitial.java:106)
+	at com.avaya.sce.runtime.AppServlet.processRequest(AppServlet.java:81)
+	at com.avaya.sce.runtime.SCEServlet.requestHandler(SCEServlet.java:285)
+	at com.avaya.sce.runtime.SCEServlet.doPost(SCEServlet.java:190)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:646)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:727)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:748)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:486)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:411)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:338)
+	at com.avaya.sce.runtime.SCEServlet.forward(SCEServlet.java:1364)
+	at com.avaya.sce.runtime.Data.evaluateActions(Data.java:211)
+	at flow.CheckOffer.executeDataActions(CheckOffer.java:114)
+	at com.avaya.sce.runtime.Data.handleRequest(Data.java:104)
+	at com.avaya.sce.runtime.AppServlet.processRequest(AppServlet.java:96)
+	at com.avaya.sce.runtime.SCEServlet.requestHandler(SCEServlet.java:285)
+	at com.avaya.sce.runtime.SCEServlet.doPost(SCEServlet.java:190)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:646)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:727)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:504)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:170)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:950)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:421)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1074)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:611)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:316)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+28/06/2015 19:25:50:045  INFO - In Progress | session id:mpp-2015179134740-2 | DM:ReportEnd | OfferMsg_PP | Return Code | Output_Parameters:returncode |  | 10000010261435499260
+28/06/2015 19:25:50:045  INFO - End | session id:mpp-2015179134740-2 | DM:ReportEnd | OfferMsg_PP |  |  |  | 10000010261435499260
+28/06/2015 19:31:15:606  INFO - In Progress | session id:mpp-2015179135322-8 | DM:ReportEnd | Welcome_PP | Return Code | Output_Parameters:returncode |  | 10000010271435499602
+28/06/2015 19:31:15:607  INFO - End | session id:mpp-2015179135322-8 | DM:ReportEnd | Welcome_PP |  |  |  | 10000010271435499602
+28/06/2015 19:31:16:962  INFO - In Progress | session id:mpp-2015179135322-8 | DM:ReportEnd | SelectLang_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000010271435499602
+28/06/2015 19:31:16:962  INFO - In Progress | session id:mpp-2015179135322-8 | DM:ReportEnd | SelectLang_MN | Input Type | Output_Parameters:inputType | dtmf | 10000010271435499602
+28/06/2015 19:31:16:962  INFO - In Progress | session id:mpp-2015179135322-8 | DM:ReportEnd | SelectLang_MN | Value | Output_Parameters:value | HIN | 10000010271435499602
+28/06/2015 19:31:16:962  INFO - End | session id:mpp-2015179135322-8 | DM:ReportEnd | SelectLang_MN |  |  |  | 10000010271435499602
+28/06/2015 19:31:19:382  INFO - In Progress | session id:mpp-2015179135322-8 | DM:ReportEnd | Prepaid_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000010271435499602
+28/06/2015 19:31:19:382  INFO - In Progress | session id:mpp-2015179135322-8 | DM:ReportEnd | Prepaid_MN | Input Type | Output_Parameters:inputType | dtmf | 10000010271435499602
+28/06/2015 19:31:19:382  INFO - In Progress | session id:mpp-2015179135322-8 | DM:ReportEnd | Prepaid_MN | Value | Output_Parameters:value | HOTDEAL | 10000010271435499602
+28/06/2015 19:31:19:382  INFO - End | session id:mpp-2015179135322-8 | DM:ReportEnd | Prepaid_MN |  |  |  | 10000010271435499602
+28/06/2015 19:32:45:844  INFO - In Progress | session id:mpp-2015179135456-16 | DM:ReportEnd | Welcome_PP | Return Code | Output_Parameters:returncode |  | 10000010281435499696
+28/06/2015 19:32:45:844  INFO - End | session id:mpp-2015179135456-16 | DM:ReportEnd | Welcome_PP |  |  |  | 10000010281435499696
+28/06/2015 19:32:53:475  INFO - In Progress | session id:mpp-2015179135456-16 | DM:ReportEnd | SelectLang_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000010281435499696
+28/06/2015 19:32:53:476  INFO - In Progress | session id:mpp-2015179135456-16 | DM:ReportEnd | SelectLang_MN | Input Type | Output_Parameters:inputType | dtmf | 10000010281435499696
+28/06/2015 19:32:53:476  INFO - In Progress | session id:mpp-2015179135456-16 | DM:ReportEnd | SelectLang_MN | Value | Output_Parameters:value | ENG | 10000010281435499696
+28/06/2015 19:32:53:476  INFO - End | session id:mpp-2015179135456-16 | DM:ReportEnd | SelectLang_MN |  |  |  | 10000010281435499696
+28/06/2015 19:32:53:509 ERROR - In Progress | session id:mpp-2015179135456-16 | RCOM_CF_1800_IVR:CheckInput |  | com.avaya.sce.runtimecommon.SCERuntimeException: Language [ENG] is invalid for this application | Exception stack trace | Error processing request
+ EXCEPTION> 
+com.avaya.sce.runtimecommon.SCERuntimeException: Language [ENG] is invalid for this application
+	at com.avaya.sce.runtimecommon.SCESession.throwRTException(SCESession.java:2316)
+	at com.avaya.sce.runtimecommon.SCESession.setCurrentLanguage(SCESession.java:1048)
+	at flow.CheckInput.requestBegin(CheckInput.java:137)
+	at com.avaya.sce.runtime.AppServlet.processRequest(AppServlet.java:81)
+	at com.avaya.sce.runtime.SCEServlet.requestHandler(SCEServlet.java:285)
+	at com.avaya.sce.runtime.SCEServlet.doPost(SCEServlet.java:190)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:646)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:727)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:504)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:170)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:950)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:421)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1074)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:611)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:316)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+ | 10000010281435499696
+28/06/2015 19:36:04:079  INFO - In Progress | session id:mpp-2015179135811-14 | DM:ReportEnd | Welcome_PP | Return Code | Output_Parameters:returncode |  | 10000010291435499891
+28/06/2015 19:36:04:079  INFO - End | session id:mpp-2015179135811-14 | DM:ReportEnd | Welcome_PP |  |  |  | 10000010291435499891
+28/06/2015 19:36:06:946  INFO - In Progress | session id:mpp-2015179135811-14 | DM:ReportEnd | SelectLang_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000010291435499891
+28/06/2015 19:36:06:946  INFO - In Progress | session id:mpp-2015179135811-14 | DM:ReportEnd | SelectLang_MN | Input Type | Output_Parameters:inputType | dtmf | 10000010291435499891
+28/06/2015 19:36:06:946  INFO - In Progress | session id:mpp-2015179135811-14 | DM:ReportEnd | SelectLang_MN | Value | Output_Parameters:value | ENG | 10000010291435499891
+28/06/2015 19:36:06:946  INFO - End | session id:mpp-2015179135811-14 | DM:ReportEnd | SelectLang_MN |  |  |  | 10000010291435499891
+28/06/2015 19:36:08:744  INFO - In Progress | session id:mpp-2015179135811-14 | DM:ReportEnd | Prepaid_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000010291435499891
+28/06/2015 19:36:08:745  INFO - In Progress | session id:mpp-2015179135811-14 | DM:ReportEnd | Prepaid_MN | Input Type | Output_Parameters:inputType | dtmf | 10000010291435499891
+28/06/2015 19:36:08:745  INFO - In Progress | session id:mpp-2015179135811-14 | DM:ReportEnd | Prepaid_MN | Value | Output_Parameters:value | HOTDEAL | 10000010291435499891
+28/06/2015 19:36:08:745  INFO - End | session id:mpp-2015179135811-14 | DM:ReportEnd | Prepaid_MN |  |  |  | 10000010291435499891

@@ -1,0 +1,33 @@
+# log4j.rootLogger=info, stdout
+
+log4j.logger.Dialog.Designer.TraceWriter.RCOM_POSTPAID= debug, TRCOM_POSTPAID
+log4j.logger.Dialog.Designer.ReportWriter.RCOM_POSTPAID= debug, RRCOM_POSTPAID
+log4j.logger.flow.InitializeVariables = debug, TRCOM_POSTPAID
+log4j.logger.com.servion.postpaid.utils.PrintStackTrace = debug, TRCOM_POSTPAID
+
+# Console
+log4j.appender.stdout=org.apache.log4j.ConsoleAppender
+log4j.appender.stdout.layout=org.apache.log4j.PatternLayout
+log4j.appender.stdout.layout.ConversionPattern=%d{dd/MM/yyyy HH:mm:ss:SSS} %5p - %m%n
+
+# Report File.
+log4j.appender.RRCOM_POSTPAID=org.apache.log4j.RollingFileAppender
+log4j.appender.RRCOM_POSTPAID.File=D:/RCOM/RCOM_POSTPAID/Logs/report.log
+log4j.appender.RRCOM_POSTPAID.maxFileSize=50MB
+log4j.appender.RRCOM_POSTPAID.maxBackupIndex=50
+log4j.appender.RRCOM_POSTPAID.DatePattern='.'yyyy-MM-dd
+log4j.appender.RRCOM_POSTPAID.layout=org.apache.log4j.PatternLayout
+log4j.appender.RRCOM_POSTPAID.layout.ConversionPattern=%d{dd/MM/yyyy HH:mm:ss:SSS} %5p - %m%n
+log4j.appender.RRCOM_POSTPAID.Encoding=UTF-8
+
+# Trace File.
+log4j.appender.TRCOM_POSTPAID=org.apache.log4j.RollingFileAppender
+log4j.appender.TRCOM_POSTPAID.File=D:/RCOM/RCOM_POSTPAID/Logs/trace.log
+log4j.appender.TRCOM_POSTPAID.maxFileSize=50MB
+log4j.appender.TRCOM_POSTPAID.maxBackupIndex=50
+log4j.appender.TRCOM_POSTPAID.DatePattern='.'yyyy-MM-dd
+log4j.appender.TRCOM_POSTPAID.layout=org.apache.log4j.PatternLayout
+log4j.appender.TRCOM_POSTPAID.layout.ConversionPattern=%d{dd/MM/yyyy HH:mm:ss:SSS} %5p - %m%n
+log4j.appender.TRCOM_POSTPAID.Encoding=UTF-8
+
+

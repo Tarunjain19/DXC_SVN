@@ -1,0 +1,32 @@
+##################################################################################
+# 
+# GetCreditCardNo_PC.properties file
+# 
+##################################################################################
+
+########################
+# Dialog Name
+########################
+
+dialogName = GetCreditCardNo_PC
+menuID = DAKC_MN_0022
+isAnnouncement = false
+
+########################
+# Grammars
+########################
+dtmfGrammar = GetCreditCardNo_PC.grxml
+disallowList = 0000000000000000
+
+########################
+# Prompt & Collect
+########################
+initialPrompt = 43998.wav
+rePromptNoInput = 43998.wav
+rePromptNoMatch = 43998.wav
+
+########################
+# Global Grammar
+########################
+dtmfGlobalGrammar = 
+globalPrompt = 

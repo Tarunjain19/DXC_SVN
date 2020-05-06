@@ -1,0 +1,25 @@
+##################################################################################
+# 
+# Prepaid_MN.properties file
+# 
+##################################################################################
+
+########################
+# Dialog Name
+########################
+
+dialogName = Prepaid_MN
+menuID = DAKC_MN_0030
+isAnnouncement = false
+
+########################
+# Grammars
+########################
+dtmfGrammar = Prepaid_MN.grxml
+
+########################
+# Prompt & Collect
+########################
+initialPrompt = 43928.wav*44061.wav*43929.wav*44062.wav*43930.wav*44063.wav
+rePromptNoInput = 43928.wav*44061.wav*43929.wav*44062.wav*43930.wav*44063.wav
+rePromptNoMatch = 43928.wav*44061.wav*43929.wav*44062.wav*43930.wav*44063.wav

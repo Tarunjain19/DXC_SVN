@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Pagelet>
+    <DataPagelet>
+        <PageletHeader>
+            <PageletName>RCOM_POSTPAID</PageletName>
+            <PageletDescription>RCOM_POSTPAID</PageletDescription>
+            <PageletVersion>1.0</PageletVersion>
+        </PageletHeader>
+        <PageletBody/>
+    </DataPagelet>
+</Pagelet>

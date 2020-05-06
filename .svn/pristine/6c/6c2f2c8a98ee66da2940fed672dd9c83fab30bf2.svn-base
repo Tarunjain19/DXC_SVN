@@ -1,0 +1,16 @@
+##################################################################################
+# 
+# STD_ExceededTries_PP properties file
+# 
+##################################################################################
+
+
+########################
+# Dialog Name
+########################
+
+dialogName = STD_ExceededTries_PP
+isAnnouncement = true
+announceID = DAKC_PA_0038
+
+initialPrompt = 43943.wav

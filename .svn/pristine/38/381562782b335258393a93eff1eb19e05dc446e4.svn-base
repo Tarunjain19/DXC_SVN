@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<phraseset audiolocation="external" filename="RCOM_MissCallPhrases" version="1.0">
+    <phrase version="1.0">
+        <displayname>5000</displayname>
+        <talent/>
+        <phrasetext>Thank you for calling Reliance</phrasetext>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>5000.wav</audiofile>
+    </phrase>
+</phraseset>

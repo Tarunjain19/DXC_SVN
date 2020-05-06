@@ -1,0 +1,29 @@
+log4j.rootLogger=error, stdout
+
+log4j.logger.Dialog.Designer.TraceWriter.RCOM_CF_30333333_IVR= debug, TRCOM_CF_30333333_IVR
+log4j.logger.Dialog.Designer.ReportWriter.RCOM_CF_30333333_IVR= debug, RRCOM_CF_30333333_IVR
+
+# Console
+log4j.appender.stdout=org.apache.log4j.ConsoleAppender
+log4j.appender.stdout.layout=org.apache.log4j.PatternLayout
+log4j.appender.stdout.layout.ConversionPattern=%d{dd/MM/yyyy HH:mm:ss:SSS} %5p - %m%n
+
+
+# Report File.
+log4j.appender.RRCOM_CF_30333333_IVR=org.apache.log4j.RollingFileAppender
+log4j.appender.RRCOM_CF_30333333_IVR.File=D:/RCOM/OtherFlows/3033/report.log
+log4j.appender.RRCOM_CF_30333333_IVR.maxFileSize=50MB
+log4j.appender.RRCOM_CF_30333333_IVR.maxBackupIndex=10
+log4j.appender.RRCOM_CF_30333333_IVR.DatePattern='.'yyyy-MM-dd
+log4j.appender.RRCOM_CF_30333333_IVR.layout=org.apache.log4j.PatternLayout
+log4j.appender.RRCOM_CF_30333333_IVR.layout.ConversionPattern=%d{dd/MM/yyyy HH:mm:ss:SSS} %5p - %m%n
+log4j.appender.RRCOM_CF_30333333_IVR.Encoding=UTF-8
+# Trace File.
+log4j.appender.TRCOM_CF_30333333_IVR=org.apache.log4j.RollingFileAppender
+log4j.appender.TRCOM_CF_30333333_IVR.File=D:/RCOM/OtherFlows/3033/trace.log
+log4j.appender.TRCOM_CF_30333333_IVR.maxFileSize=50MB
+log4j.appender.TRCOM_CF_30333333_IVR.maxBackupIndex=10
+log4j.appender.TRCOM_CF_30333333_IVR.DatePattern='.'yyyy-MM-dd
+log4j.appender.TRCOM_CF_30333333_IVR.layout=org.apache.log4j.PatternLayout
+log4j.appender.TRCOM_CF_30333333_IVR.layout.ConversionPattern=%d{dd/MM/yyyy HH:mm:ss:SSS} %5p - %m%n
+log4j.appender.TRCOM_CF_30333333_IVR.Encoding=UTF-8

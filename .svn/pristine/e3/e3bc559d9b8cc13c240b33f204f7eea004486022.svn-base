@@ -1,0 +1,29 @@
+##################################################################################
+# 
+# AlternateContactConfirmation_MN.properties file
+# 
+##################################################################################
+
+########################
+# Dialog Name
+########################
+
+dialogName = AlternateContactConfirmation_MN
+menuID = DAKC_MN_0038
+isAnnouncement = false
+
+########################
+# Grammars
+########################
+dtmfGrammar = AlternateContactConfirmation_MN.grxml
+
+########################
+# Prompt & Collect
+########################
+
+
+########################
+# Global Grammar
+########################
+dtmfGlobalGrammar = 
+globalPrompt = 

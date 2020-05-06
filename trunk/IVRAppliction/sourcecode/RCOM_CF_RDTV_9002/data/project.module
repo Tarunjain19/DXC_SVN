@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<module category="" descriptorversion="1.0" entrypoint="RCOM_CF_RDTV_9002/Start" forcesubdialogcall="false" frameworkversion="07.00.18.01" iconlarge="icons/defaultapplicationlg.gif" iconsmall="icons/defaultapplicationsm.gif" modifyInputs="false" modifyOutputs="false" nature="com.avaya.sce.core.speechnature" outputmultipart="false" paramasnamelist="false" provider="" submitmethod="get" version="1.0.0" webname="RCOM_CF_RDTV_9002">
+    <description/>
+    <language name="english" root="en-us"/>
+    <language name="HIN" root="en-us"/>
+    <language name="ENG" root="en-us"/>
+    <language name="MAR" root="en-us"/>
+    <language name="MAL" root="en-us"/>
+    <language name="GUJ" root="en-us"/>
+    <language name="ASM" root="en-us"/>
+    <language name="BEN" root="en-us"/>
+    <language name="KAN" root="en-us"/>
+    <language name="PUN" root="en-us"/>
+    <language name="TAM" root="en-us"/>
+    <language name="TEL" root="en-us"/>
+    <language name="ORI" root="en-us"/>
+    <dependencies>
+        <moduleref frameworkversion="07.01.08.04" name="DM" private="false" version="1.0.0">
+            <meta callflow-references="CollectSmartCard,GlobalPromptFL,RechargeAcUsingCashCard,main"/>
+        </moduleref>
+    </dependencies>
+</module>

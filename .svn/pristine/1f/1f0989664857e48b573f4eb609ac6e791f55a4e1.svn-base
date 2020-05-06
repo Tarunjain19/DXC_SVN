@@ -1,0 +1,32 @@
+Ajith,
+
+Kindly find the details which was asked. Kindly forward to Avaya Team
+
+if user sends correct request, status code is '0'
+ <VAS_PACK><CODE>0</CODE><MESSAGE>Dear Customer, You are not Subscribed to any VAS Packs. To know about top VAS packs SMS START to 121</MESSAGE></VAS_PACK>
+
+if user sends invalid keyword, status code is '1'
+<VAS_PACK><CODE>1</CODE><MESSAGE>Invalid TIBCO Request. Only Stop keyword allowed for TIBCO.</MESSAGE></VAS_PACK>
+
+
+if user sends invalid channel name, status code is '1'
+VAS_PACK><CODE>1</CODE><MESSAGE>Invalid Channel Name</MESSAGE></VAS_PACK>
+
+if user sends invalid unsubid, status code is '1'
+<VAS_PACK><CODE>1</CODE><MESSAGE>Dear Customer, this Keyword does not exist. Please send request again with correct Keyword</MESSAGE></VAS_PACK>
+
+if user sends invalid mobile number, status code is '1'
+<VAS_PACK><CODE>1</CODE><MESSAGE>Dear Customer, Please contact Customer CareCentre *333</MESSAGE></VAS_PACK>
+
+
+
+
+(See attached file: SSM_Pack_Details.xls)
+
+Regards
+Suresh Babu D 
+RTS - VAS
+DID: 30380186
+RIM No: 9322217260
+
+

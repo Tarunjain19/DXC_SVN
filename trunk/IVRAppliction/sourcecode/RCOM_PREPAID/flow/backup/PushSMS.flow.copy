@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<AppFlowDoc>
+    <ApplicationFlow nextObjectId="32" package="flow.subflow.PushSMS" version="5.0">
+        <FlowGraph>
+            <FlowNode class="com.avaya.sce.callflow.internal.appflow.SubEntry" id="1" version="3.1">
+                <Property name="Name" value="Begin"/>
+                <Property name="FlowNodeEditPart.WidgetY" value="114"/>
+                <Property name="FlowNodeEditPart.WidgetX" value="21"/>
+                <FlowItem class="com.avaya.sce.callflow.internal.flowitem.SubEntry" id="2" version="1.2">
+                    <ItemProperties/>
+                    <ChildItems>
+                        <FlowItem class="com.avaya.sce.callflow.internal.flowitem.GoTo" id="3" version="1.2">
+                            <ItemProperties>
+                                <Property name="Name" value="Start"/>
+                                <Property name="LinkedNodeID" value="14"/>
+                            </ItemProperties>
+                            <ChildItems/>
+                        </FlowItem>
+                    </ChildItems>
+                </FlowItem>
+            </FlowNode>
+            <FlowNode class="com.avaya.sce.callflow.internal.appflow.SubReturn" id="4" version="3.1">
+                <Property name="Name" value="Return"/>
+                <Property name="FlowNodeEditPart.WidgetY" value="112"/>
+                <Property name="FlowNodeEditPart.WidgetX" value="343"/>
+            </FlowNode>
+            <FlowNode class="com.avaya.sce.callflow.internal.appflow.Data" id="14" version="3.1">
+                <Property name="Name" value="CSS_PushSMS"/>
+                <Property name="FlowNodeEditPart.WidgetY" value="113"/>
+                <Property name="FlowNodeEditPart.WidgetX" value="147"/>
+                <FlowItem class="com.avaya.sce.callflow.internal.flowitem.Data" id="15" version="1.2">
+                    <ItemProperties/>
+                    <ChildItems>
+                        <FlowItem class="com.avaya.sce.callflow.internal.flowitem.LocalVariables" id="16" version="1.2">
+                            <ItemProperties>
+                                <Property name="Name" value="LocalVariables"/>
+                            </ItemProperties>
+                            <ChildItems/>
+                        </FlowItem>
+                        <FlowItem class="com.avaya.sce.callflow.internal.flowitem.LabelItem" id="28" version="1.2">
+                            <ItemProperties>
+                                <Property name="comment" value="Generating the EPM alarm if exception occured in java node"/>
+                            </ItemProperties>
+                            <ChildItems/>
+                        </FlowItem>
+                        <FlowItem class="com.avaya.sce.callflow.internal.flowitem.IfCondition" id="29" version="1.2">
+                            <ItemProperties>
+                                <Property name="RightVarOperandID" value="constant"/>
+                                <Property name="Operator" value="EqualsIgnoreCase"/>
+                                <Property name="RightVarOperandFieldID" value="TRUE"/>
+                                <Property name="LeftOperandID" value="EPM_Alarm"/>
+                                <Property name="LeftOperandFieldID" value="Flag"/>
+                            </ItemProperties>
+                            <ChildItems>
+                                <FlowItem class="com.avaya.sce.callflow.internal.flowitem.IfCondition" id="32" version="1.2">
+                                    <ItemProperties>
+                                        <Property name="RightVarOperandID" value="constant"/>
+                                        <Property name="Operator" value="EqualsIgnoreCase"/>
+                                        <Property name="RightVarOperandFieldID" value="ON"/>
+                                        <Property name="LeftOperandID" value="WS_Alarm_Flag"/>
+                                    </ItemProperties>
+                                    <ChildItems>
+                                        <FlowItem class="com.avaya.sce.callflow.internal.flowitem.ReportAlarm" id="30" version="1.2">
+                                            <ItemProperties>
+                                                <Property name="alarm.level" value="level.error"/>
+                                                <Property name="alarm.message" value="WS Down|Push SMS|CSS PushSMS|"/>
+                                                <Property name="alarm.fieldId" value="Description"/>
+                                                <Property name="alarm.varId" value="EPM_Alarm"/>
+                                                <Property name="alarm.log" value="true"/>
+                                            </ItemProperties>
+                                            <ChildItems/>
+                                        </FlowItem>
+                                        <FlowItem class="com.avaya.sce.callflow.internal.flowitem.Assignment" id="31" version="1.2">
+                                            <ItemProperties>
+                                                <Property name="sourceVarId" value="constant"/>
+                                                <Property name="destFieldId" value="Flag"/>
+                                                <Property name="type" value="assign"/>
+                                                <Property name="destVarId" value="EPM_Alarm"/>
+                                                <Property name="sourceFieldId" value="FALSE"/>
+                                            </ItemProperties>
+                                            <ChildItems/>
+                                        </FlowItem>
+                                    </ChildItems>
+                                </FlowItem>
+                            </ChildItems>
+                        </FlowItem>
+                        <FlowItem class="com.avaya.sce.callflow.internal.flowitem.Assignment" id="27" version="1.2">
+                            <ItemProperties>
+                                <Property name="destFieldId" value="PushSMSText"/>
+                                <Property name="type" value="assign"/>
+                                <Property name="destVarId" value="PushSMSFlag"/>
+                            </ItemProperties>
+                            <ChildItems/>
+                        </FlowItem>
+                        <FlowItem class="com.avaya.sce.callflow.internal.flowitem.Next" id="17" version="1.2">
+                            <ItemProperties>
+                                <Property name="Name" value="Default"/>
+                                <Property name="LinkedNodeID" value="4"/>
+                            </ItemProperties>
+                            <ChildItems/>
+                        </FlowItem>
+                    </ChildItems>
+                </FlowItem>
+            </FlowNode>
+            <NodeConnection id="19" version="1.2">
+                <SourceNode id="14"/>
+                <TargetNode id="4"/>
+                <Property name="Connection.SourceObjectID" value="17"/>
+                <Property name="Connection.TargetObjectID" value="4"/>
+            </NodeConnection>
+            <NodeConnection id="26" version="1.2">
+                <SourceNode id="1"/>
+                <TargetNode id="14"/>
+                <Property name="Connection.SourceObjectID" value="3"/>
+                <Property name="Connection.TargetObjectID" value="14"/>
+            </NodeConnection>
+        </FlowGraph>
+        <ProjectEventTypes/>
+    </ApplicationFlow>
+</AppFlowDoc>

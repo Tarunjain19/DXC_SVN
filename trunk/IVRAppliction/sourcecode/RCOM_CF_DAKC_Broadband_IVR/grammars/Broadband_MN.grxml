@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<grammar xmlns="http://www.w3.org/2001/06/grammar" xml:lang="en-us" version="1.0" root="root" mode="dtmf" tag-format="swi-semantics/1.0">
+
+<rule id="root" scope="public">
+
+  <one-of>
+    <item>1<tag>BillingInformation</tag></item>
+	<item>2<tag>ConnectionNotWorking</tag></item>
+	<item>3<tag>Offers</tag></item>
+	<item>4<tag>DoNotCall</tag></item>
+	<item>5<tag>StoreAddress</tag></item>
+	<item>6<tag>ComplaintStatus</tag></item>
+	<item>7<tag>OtherReason</tag></item>
+	<item>8<tag>PreviousMenu</tag></item>
+  </one-of>
+</rule>
+
+</grammar>

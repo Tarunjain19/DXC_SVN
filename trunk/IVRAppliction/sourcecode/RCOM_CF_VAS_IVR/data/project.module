@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<module category="" descriptorversion="1.0" entrypoint="RCOM_CF_VAS_IVR/Start" forcesubdialogcall="false" frameworkversion="07.01.08.04" iconlarge="icons/defaultapplicationlg.gif" iconsmall="icons/defaultapplicationsm.gif" modifyInputs="false" modifyOutputs="false" nature="com.avaya.sce.core.speechnature" outputmultipart="false" paramasnamelist="false" provider="" submitmethod="get" version="1.0.0" webname="RCOM_CF_VAS_IVR">
+    <description/>
+    <language name="english" root="en-us"/>
+    <language name="ASM" root="as-in"/>
+    <language name="ENG" root="en-us"/>
+    <language name="BEN" root="be-in"/>
+    <language name="GUJ" root="gu-in"/>
+    <language name="HIN" root="hi-in"/>
+    <language name="KAN" root="kn-in"/>
+    <language name="MAL" root="ml-in"/>
+    <language name="MAR" root="mr-in"/>
+    <language name="ORI" root="or-in"/>
+    <language name="PUN" root="pa-in"/>
+    <language name="TAM" root="ta-in"/>
+    <language name="TEL" root="te-in"/>
+    <dependencies>
+        <moduleref frameworkversion="07.01.08.04" name="DM" private="false" version="1.0.0">
+            <meta callflow-references="main"/>
+        </moduleref>
+    </dependencies>
+</module>

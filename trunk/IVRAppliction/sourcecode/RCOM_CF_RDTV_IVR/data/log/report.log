@@ -1,0 +1,124 @@
+05/06/2015 14:48:43:242  INFO - In Progress | session id:mpp-2015156091106-1 | DM:ReportEnd | WelcomeAnnc | Return Code | Output_Parameters:returncode |  | 10000004361433495466
+05/06/2015 14:48:43:242  INFO - End | session id:mpp-2015156091106-1 | DM:ReportEnd | WelcomeAnnc |  |  |  | 10000004361433495466
+05/06/2015 14:48:49:240  INFO - In Progress | session id:mpp-2015156091106-1 | DM:ReportEnd | NonRTN_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000004361433495466
+05/06/2015 14:48:49:240  INFO - In Progress | session id:mpp-2015156091106-1 | DM:ReportEnd | NonRTN_MN | Input Type | Output_Parameters:inputType | dtmf | 10000004361433495466
+05/06/2015 14:48:49:240  INFO - In Progress | session id:mpp-2015156091106-1 | DM:ReportEnd | NonRTN_MN | Value | Output_Parameters:value | ExistingCustomer | 10000004361433495466
+05/06/2015 14:48:49:240  INFO - End | session id:mpp-2015156091106-1 | DM:ReportEnd | NonRTN_MN |  |  |  | 10000004361433495466
+05/06/2015 14:48:55:980  INFO - In Progress | session id:mpp-2015156091106-1 | DM:ReportEnd | Get_SCN | Return Code | Output_Parameters:returncode | SUCCESS | 10000004361433495466
+05/06/2015 14:48:55:980  INFO - In Progress | session id:mpp-2015156091106-1 | DM:ReportEnd | Get_SCN | Input Type | Output_Parameters:inputType | dtmf | 10000004361433495466
+05/06/2015 14:48:55:980  INFO - In Progress | session id:mpp-2015156091106-1 | DM:ReportEnd | Get_SCN | Value | Output_Parameters:value | 123123123123 | 10000004361433495466
+05/06/2015 14:48:55:980  INFO - End | session id:mpp-2015156091106-1 | DM:ReportEnd | Get_SCN |  |  |  | 10000004361433495466
+05/06/2015 14:48:57:946  INFO - In Progress | session id:mpp-2015156091106-1 | DM:ReportEnd | Confirm_SCN | Return Code | Output_Parameters:returncode | SUCCESS | 10000004361433495466
+05/06/2015 14:48:57:946  INFO - In Progress | session id:mpp-2015156091106-1 | DM:ReportEnd | Confirm_SCN | Input Type | Output_Parameters:inputType | dtmf | 10000004361433495466
+05/06/2015 14:48:57:946  INFO - In Progress | session id:mpp-2015156091106-1 | DM:ReportEnd | Confirm_SCN | Value | Output_Parameters:value | Continue | 10000004361433495466
+05/06/2015 14:48:57:946  INFO - End | session id:mpp-2015156091106-1 | DM:ReportEnd | Confirm_SCN |  |  |  | 10000004361433495466
+05/06/2015 14:49:00:599  INFO - In Progress | session id:mpp-2015156091106-1 | DM:ReportEnd | ActiveSCN_MainMNNonRTN | Return Code | Output_Parameters:returncode | SUCCESS | 10000004361433495466
+05/06/2015 14:49:00:599  INFO - In Progress | session id:mpp-2015156091106-1 | DM:ReportEnd | ActiveSCN_MainMNNonRTN | Input Type | Output_Parameters:inputType | dtmf | 10000004361433495466
+05/06/2015 14:49:00:599  INFO - In Progress | session id:mpp-2015156091106-1 | DM:ReportEnd | ActiveSCN_MainMNNonRTN | Value | Output_Parameters:value | AccountInfo | 10000004361433495466
+05/06/2015 14:49:00:599  INFO - End | session id:mpp-2015156091106-1 | DM:ReportEnd | ActiveSCN_MainMNNonRTN |  |  |  | 10000004361433495466
+05/06/2015 14:49:02:820  INFO - In Progress | session id:mpp-2015156091106-1 | DM:ReportEnd | AccountMain_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000004361433495466
+05/06/2015 14:49:02:820  INFO - In Progress | session id:mpp-2015156091106-1 | DM:ReportEnd | AccountMain_MN | Input Type | Output_Parameters:inputType | dtmf | 10000004361433495466
+05/06/2015 14:49:02:820  INFO - In Progress | session id:mpp-2015156091106-1 | DM:ReportEnd | AccountMain_MN | Value | Output_Parameters:value | BalanceAndRecharge | 10000004361433495466
+05/06/2015 14:49:02:820  INFO - End | session id:mpp-2015156091106-1 | DM:ReportEnd | AccountMain_MN |  |  |  | 10000004361433495466
+05/06/2015 14:49:06:714  INFO - In Progress | session id:mpp-2015156091106-1 | DM:ReportEnd | BalanceRecharge_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000004361433495466
+05/06/2015 14:49:06:714  INFO - In Progress | session id:mpp-2015156091106-1 | DM:ReportEnd | BalanceRecharge_MN | Input Type | Output_Parameters:inputType | dtmf | 10000004361433495466
+05/06/2015 14:49:06:714  INFO - In Progress | session id:mpp-2015156091106-1 | DM:ReportEnd | BalanceRecharge_MN | Value | Output_Parameters:value | AccountBalance | 10000004361433495466
+05/06/2015 14:49:06:714  INFO - End | session id:mpp-2015156091106-1 | DM:ReportEnd | BalanceRecharge_MN |  |  |  | 10000004361433495466
+05/06/2015 14:49:06:886  INFO - In Progress | session id:mpp-2015156091106-1 | DM:ReportEnd | LinkDownAnnc | Return Code | Output_Parameters:returncode |  | 10000004361433495466
+05/06/2015 14:49:06:886  INFO - End | session id:mpp-2015156091106-1 | DM:ReportEnd | LinkDownAnnc |  |  |  | 10000004361433495466
+05/06/2015 14:49:07:026  INFO - In Progress | session id:mpp-2015156091106-1 | DM:ReportEnd | Transfer_Annc | Return Code | Output_Parameters:returncode |  | 10000004361433495466
+05/06/2015 14:49:07:026  INFO - End | session id:mpp-2015156091106-1 | DM:ReportEnd | Transfer_Annc |  |  |  | 10000004361433495466
+05/06/2015 14:55:31:237  INFO - In Progress | session id:mpp-2015156091755-12 | DM:ReportEnd | WelcomeAnnc | Return Code | Output_Parameters:returncode |  | 10000004371433495875
+05/06/2015 14:55:31:237  INFO - End | session id:mpp-2015156091755-12 | DM:ReportEnd | WelcomeAnnc |  |  |  | 10000004371433495875
+05/06/2015 14:55:38:897  INFO - In Progress | session id:mpp-2015156091755-12 | DM:ReportEnd | NonRTN_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000004371433495875
+05/06/2015 14:55:38:897  INFO - In Progress | session id:mpp-2015156091755-12 | DM:ReportEnd | NonRTN_MN | Input Type | Output_Parameters:inputType | dtmf | 10000004371433495875
+05/06/2015 14:55:38:897  INFO - In Progress | session id:mpp-2015156091755-12 | DM:ReportEnd | NonRTN_MN | Value | Output_Parameters:value | ExistingCustomer | 10000004371433495875
+05/06/2015 14:55:38:897  INFO - End | session id:mpp-2015156091755-12 | DM:ReportEnd | NonRTN_MN |  |  |  | 10000004371433495875
+05/06/2015 14:55:47:473  INFO - In Progress | session id:mpp-2015156091755-12 | DM:ReportEnd | Get_SCN | Return Code | Output_Parameters:returncode | SUCCESS | 10000004371433495875
+05/06/2015 14:55:47:473  INFO - In Progress | session id:mpp-2015156091755-12 | DM:ReportEnd | Get_SCN | Input Type | Output_Parameters:inputType | dtmf | 10000004371433495875
+05/06/2015 14:55:47:473  INFO - In Progress | session id:mpp-2015156091755-12 | DM:ReportEnd | Get_SCN | Value | Output_Parameters:value | 123123123123 | 10000004371433495875
+05/06/2015 14:55:47:473  INFO - End | session id:mpp-2015156091755-12 | DM:ReportEnd | Get_SCN |  |  |  | 10000004371433495875
+05/06/2015 14:55:48:353  INFO - In Progress | session id:mpp-2015156091755-12 | DM:ReportEnd | Confirm_SCN | Return Code | Output_Parameters:returncode | SUCCESS | 10000004371433495875
+05/06/2015 14:55:48:353  INFO - In Progress | session id:mpp-2015156091755-12 | DM:ReportEnd | Confirm_SCN | Input Type | Output_Parameters:inputType | dtmf | 10000004371433495875
+05/06/2015 14:55:48:353  INFO - In Progress | session id:mpp-2015156091755-12 | DM:ReportEnd | Confirm_SCN | Value | Output_Parameters:value | Continue | 10000004371433495875
+05/06/2015 14:55:48:353  INFO - End | session id:mpp-2015156091755-12 | DM:ReportEnd | Confirm_SCN |  |  |  | 10000004371433495875
+05/06/2015 14:55:49:565  INFO - In Progress | session id:mpp-2015156091755-12 | DM:ReportEnd | ActiveSCN_MainMNNonRTN | Return Code | Output_Parameters:returncode | SUCCESS | 10000004371433495875
+05/06/2015 14:55:49:565  INFO - In Progress | session id:mpp-2015156091755-12 | DM:ReportEnd | ActiveSCN_MainMNNonRTN | Input Type | Output_Parameters:inputType | dtmf | 10000004371433495875
+05/06/2015 14:55:49:565  INFO - In Progress | session id:mpp-2015156091755-12 | DM:ReportEnd | ActiveSCN_MainMNNonRTN | Value | Output_Parameters:value | AccountInfo | 10000004371433495875
+05/06/2015 14:55:49:565  INFO - End | session id:mpp-2015156091755-12 | DM:ReportEnd | ActiveSCN_MainMNNonRTN |  |  |  | 10000004371433495875
+05/06/2015 14:55:51:141  INFO - In Progress | session id:mpp-2015156091755-12 | DM:ReportEnd | AccountMain_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000004371433495875
+05/06/2015 14:55:51:141  INFO - In Progress | session id:mpp-2015156091755-12 | DM:ReportEnd | AccountMain_MN | Input Type | Output_Parameters:inputType | dtmf | 10000004371433495875
+05/06/2015 14:55:51:141  INFO - In Progress | session id:mpp-2015156091755-12 | DM:ReportEnd | AccountMain_MN | Value | Output_Parameters:value | BalanceAndRecharge | 10000004371433495875
+05/06/2015 14:55:51:141  INFO - End | session id:mpp-2015156091755-12 | DM:ReportEnd | AccountMain_MN |  |  |  | 10000004371433495875
+05/06/2015 14:55:52:266  INFO - In Progress | session id:mpp-2015156091755-12 | DM:ReportEnd | BalanceRecharge_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000004371433495875
+05/06/2015 14:55:52:266  INFO - In Progress | session id:mpp-2015156091755-12 | DM:ReportEnd | BalanceRecharge_MN | Input Type | Output_Parameters:inputType | dtmf | 10000004371433495875
+05/06/2015 14:55:52:266  INFO - In Progress | session id:mpp-2015156091755-12 | DM:ReportEnd | BalanceRecharge_MN | Value | Output_Parameters:value | AccountBalance | 10000004371433495875
+05/06/2015 14:55:52:266  INFO - End | session id:mpp-2015156091755-12 | DM:ReportEnd | BalanceRecharge_MN |  |  |  | 10000004371433495875
+05/06/2015 14:55:52:958  INFO - In Progress | session id:mpp-2015156091755-12 | DM:ReportEnd | LinkDownAnnc | Return Code | Output_Parameters:returncode |  | 10000004371433495875
+05/06/2015 14:55:52:958  INFO - End | session id:mpp-2015156091755-12 | DM:ReportEnd | LinkDownAnnc |  |  |  | 10000004371433495875
+05/06/2015 14:55:53:068  INFO - In Progress | session id:mpp-2015156091755-12 | DM:ReportEnd | Transfer_Annc | Return Code | Output_Parameters:returncode |  | 10000004371433495875
+05/06/2015 14:55:53:068  INFO - End | session id:mpp-2015156091755-12 | DM:ReportEnd | Transfer_Annc |  |  |  | 10000004371433495875
+05/06/2015 15:07:05:182  INFO - In Progress | session id:mpp-2015156092929-9 | DM:ReportEnd | WelcomeAnnc | Return Code | Output_Parameters:returncode |  | 10000004381433496569
+05/06/2015 15:07:05:182  INFO - End | session id:mpp-2015156092929-9 | DM:ReportEnd | WelcomeAnnc |  |  |  | 10000004381433496569
+05/06/2015 15:07:25:238  INFO - In Progress | session id:mpp-2015156092929-9 | DM:ReportEnd | NonRTN_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000004381433496569
+05/06/2015 15:07:25:238  INFO - In Progress | session id:mpp-2015156092929-9 | DM:ReportEnd | NonRTN_MN | Input Type | Output_Parameters:inputType | dtmf | 10000004381433496569
+05/06/2015 15:07:25:238  INFO - In Progress | session id:mpp-2015156092929-9 | DM:ReportEnd | NonRTN_MN | Value | Output_Parameters:value | ExistingCustomer | 10000004381433496569
+05/06/2015 15:07:25:238  INFO - End | session id:mpp-2015156092929-9 | DM:ReportEnd | NonRTN_MN |  |  |  | 10000004381433496569
+05/06/2015 15:07:32:389  INFO - In Progress | session id:mpp-2015156092929-9 | DM:ReportEnd | Get_SCN | Return Code | Output_Parameters:returncode | SUCCESS | 10000004381433496569
+05/06/2015 15:07:32:389  INFO - In Progress | session id:mpp-2015156092929-9 | DM:ReportEnd | Get_SCN | Input Type | Output_Parameters:inputType | dtmf | 10000004381433496569
+05/06/2015 15:07:32:389  INFO - In Progress | session id:mpp-2015156092929-9 | DM:ReportEnd | Get_SCN | Value | Output_Parameters:value | 123123123123 | 10000004381433496569
+05/06/2015 15:07:32:389  INFO - End | session id:mpp-2015156092929-9 | DM:ReportEnd | Get_SCN |  |  |  | 10000004381433496569
+05/06/2015 15:07:37:148  INFO - In Progress | session id:mpp-2015156092929-9 | DM:ReportEnd | Confirm_SCN | Return Code | Output_Parameters:returncode | SUCCESS | 10000004381433496569
+05/06/2015 15:07:37:148  INFO - In Progress | session id:mpp-2015156092929-9 | DM:ReportEnd | Confirm_SCN | Input Type | Output_Parameters:inputType | dtmf | 10000004381433496569
+05/06/2015 15:07:37:148  INFO - In Progress | session id:mpp-2015156092929-9 | DM:ReportEnd | Confirm_SCN | Value | Output_Parameters:value | Continue | 10000004381433496569
+05/06/2015 15:07:37:148  INFO - End | session id:mpp-2015156092929-9 | DM:ReportEnd | Confirm_SCN |  |  |  | 10000004381433496569
+05/06/2015 15:07:39:707  INFO - In Progress | session id:mpp-2015156092929-9 | DM:ReportEnd | ActiveSCN_MainMNNonRTN | Return Code | Output_Parameters:returncode | SUCCESS | 10000004381433496569
+05/06/2015 15:07:39:707  INFO - In Progress | session id:mpp-2015156092929-9 | DM:ReportEnd | ActiveSCN_MainMNNonRTN | Input Type | Output_Parameters:inputType | dtmf | 10000004381433496569
+05/06/2015 15:07:39:707  INFO - In Progress | session id:mpp-2015156092929-9 | DM:ReportEnd | ActiveSCN_MainMNNonRTN | Value | Output_Parameters:value | AccountInfo | 10000004381433496569
+05/06/2015 15:07:39:707  INFO - End | session id:mpp-2015156092929-9 | DM:ReportEnd | ActiveSCN_MainMNNonRTN |  |  |  | 10000004381433496569
+05/06/2015 15:07:41:830  INFO - In Progress | session id:mpp-2015156092929-9 | DM:ReportEnd | AccountMain_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000004381433496569
+05/06/2015 15:07:41:830  INFO - In Progress | session id:mpp-2015156092929-9 | DM:ReportEnd | AccountMain_MN | Input Type | Output_Parameters:inputType | dtmf | 10000004381433496569
+05/06/2015 15:07:41:830  INFO - In Progress | session id:mpp-2015156092929-9 | DM:ReportEnd | AccountMain_MN | Value | Output_Parameters:value | BalanceAndRecharge | 10000004381433496569
+05/06/2015 15:07:41:830  INFO - End | session id:mpp-2015156092929-9 | DM:ReportEnd | AccountMain_MN |  |  |  | 10000004381433496569
+05/06/2015 15:07:43:422  INFO - In Progress | session id:mpp-2015156092929-9 | DM:ReportEnd | BalanceRecharge_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000004381433496569
+05/06/2015 15:07:43:422  INFO - In Progress | session id:mpp-2015156092929-9 | DM:ReportEnd | BalanceRecharge_MN | Input Type | Output_Parameters:inputType | dtmf | 10000004381433496569
+05/06/2015 15:07:43:422  INFO - In Progress | session id:mpp-2015156092929-9 | DM:ReportEnd | BalanceRecharge_MN | Value | Output_Parameters:value | AccountBalance | 10000004381433496569
+05/06/2015 15:07:43:422  INFO - End | session id:mpp-2015156092929-9 | DM:ReportEnd | BalanceRecharge_MN |  |  |  | 10000004381433496569
+05/06/2015 15:07:44:108  INFO - In Progress | session id:mpp-2015156092929-9 | DM:ReportEnd | LinkDownAnnc | Return Code | Output_Parameters:returncode |  | 10000004381433496569
+05/06/2015 15:07:44:108  INFO - End | session id:mpp-2015156092929-9 | DM:ReportEnd | LinkDownAnnc |  |  |  | 10000004381433496569
+05/06/2015 15:07:44:186  INFO - In Progress | session id:mpp-2015156092929-9 | DM:ReportEnd | Transfer_Annc | Return Code | Output_Parameters:returncode |  | 10000004381433496569
+05/06/2015 15:07:44:186  INFO - End | session id:mpp-2015156092929-9 | DM:ReportEnd | Transfer_Annc |  |  |  | 10000004381433496569
+05/06/2015 15:12:13:808  INFO - In Progress | session id:mpp-2015156093438-4 | DM:ReportEnd | WelcomeAnnc | Return Code | Output_Parameters:returncode |  | 10000004391433496878
+05/06/2015 15:12:13:808  INFO - End | session id:mpp-2015156093438-4 | DM:ReportEnd | WelcomeAnnc |  |  |  | 10000004391433496878
+05/06/2015 15:12:18:099  INFO - In Progress | session id:mpp-2015156093438-4 | DM:ReportEnd | NonRTN_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000004391433496878
+05/06/2015 15:12:18:099  INFO - In Progress | session id:mpp-2015156093438-4 | DM:ReportEnd | NonRTN_MN | Input Type | Output_Parameters:inputType | dtmf | 10000004391433496878
+05/06/2015 15:12:18:099  INFO - In Progress | session id:mpp-2015156093438-4 | DM:ReportEnd | NonRTN_MN | Value | Output_Parameters:value | ExistingCustomer | 10000004391433496878
+05/06/2015 15:12:18:099  INFO - End | session id:mpp-2015156093438-4 | DM:ReportEnd | NonRTN_MN |  |  |  | 10000004391433496878
+05/06/2015 15:12:24:870  INFO - In Progress | session id:mpp-2015156093438-4 | DM:ReportEnd | Get_SCN | Return Code | Output_Parameters:returncode | SUCCESS | 10000004391433496878
+05/06/2015 15:12:24:870  INFO - In Progress | session id:mpp-2015156093438-4 | DM:ReportEnd | Get_SCN | Input Type | Output_Parameters:inputType | dtmf | 10000004391433496878
+05/06/2015 15:12:24:870  INFO - In Progress | session id:mpp-2015156093438-4 | DM:ReportEnd | Get_SCN | Value | Output_Parameters:value | 123123123123 | 10000004391433496878
+05/06/2015 15:12:24:870  INFO - End | session id:mpp-2015156093438-4 | DM:ReportEnd | Get_SCN |  |  |  | 10000004391433496878
+05/06/2015 15:12:26:182  INFO - In Progress | session id:mpp-2015156093438-4 | DM:ReportEnd | Confirm_SCN | Return Code | Output_Parameters:returncode | SUCCESS | 10000004391433496878
+05/06/2015 15:12:26:182  INFO - In Progress | session id:mpp-2015156093438-4 | DM:ReportEnd | Confirm_SCN | Input Type | Output_Parameters:inputType | dtmf | 10000004391433496878
+05/06/2015 15:12:26:182  INFO - In Progress | session id:mpp-2015156093438-4 | DM:ReportEnd | Confirm_SCN | Value | Output_Parameters:value | Continue | 10000004391433496878
+05/06/2015 15:12:26:182  INFO - End | session id:mpp-2015156093438-4 | DM:ReportEnd | Confirm_SCN |  |  |  | 10000004391433496878
+05/06/2015 15:12:27:008  INFO - In Progress | session id:mpp-2015156093438-4 | DM:ReportEnd | ActiveSCN_MainMNNonRTN | Return Code | Output_Parameters:returncode | SUCCESS | 10000004391433496878
+05/06/2015 15:12:27:008  INFO - In Progress | session id:mpp-2015156093438-4 | DM:ReportEnd | ActiveSCN_MainMNNonRTN | Input Type | Output_Parameters:inputType | dtmf | 10000004391433496878
+05/06/2015 15:12:27:008  INFO - In Progress | session id:mpp-2015156093438-4 | DM:ReportEnd | ActiveSCN_MainMNNonRTN | Value | Output_Parameters:value | AccountInfo | 10000004391433496878
+05/06/2015 15:12:27:008  INFO - End | session id:mpp-2015156093438-4 | DM:ReportEnd | ActiveSCN_MainMNNonRTN |  |  |  | 10000004391433496878
+05/06/2015 15:12:28:226  INFO - In Progress | session id:mpp-2015156093438-4 | DM:ReportEnd | AccountMain_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000004391433496878
+05/06/2015 15:12:28:226  INFO - In Progress | session id:mpp-2015156093438-4 | DM:ReportEnd | AccountMain_MN | Input Type | Output_Parameters:inputType | dtmf | 10000004391433496878
+05/06/2015 15:12:28:226  INFO - In Progress | session id:mpp-2015156093438-4 | DM:ReportEnd | AccountMain_MN | Value | Output_Parameters:value | BalanceAndRecharge | 10000004391433496878
+05/06/2015 15:12:28:226  INFO - End | session id:mpp-2015156093438-4 | DM:ReportEnd | AccountMain_MN |  |  |  | 10000004391433496878
+05/06/2015 15:12:28:991  INFO - In Progress | session id:mpp-2015156093438-4 | DM:ReportEnd | BalanceRecharge_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000004391433496878
+05/06/2015 15:12:28:991  INFO - In Progress | session id:mpp-2015156093438-4 | DM:ReportEnd | BalanceRecharge_MN | Input Type | Output_Parameters:inputType | dtmf | 10000004391433496878
+05/06/2015 15:12:28:991  INFO - In Progress | session id:mpp-2015156093438-4 | DM:ReportEnd | BalanceRecharge_MN | Value | Output_Parameters:value | AccountBalance | 10000004391433496878
+05/06/2015 15:12:28:991  INFO - End | session id:mpp-2015156093438-4 | DM:ReportEnd | BalanceRecharge_MN |  |  |  | 10000004391433496878
+05/06/2015 15:12:29:443  INFO - In Progress | session id:mpp-2015156093438-4 | DM:ReportEnd | AccountBalance_Annc | Return Code | Output_Parameters:returncode |  | 10000004391433496878
+05/06/2015 15:12:29:459  INFO - End | session id:mpp-2015156093438-4 | DM:ReportEnd | AccountBalance_Annc |  |  |  | 10000004391433496878
+05/06/2015 15:12:48:384  INFO - In Progress | session id:mpp-2015156093438-4 | DM:ReportEnd | GlobalPromptFeature | Return Code | Output_Parameters:returncode | SUCCESS | 10000004391433496878
+05/06/2015 15:12:48:384  INFO - In Progress | session id:mpp-2015156093438-4 | DM:ReportEnd | GlobalPromptFeature | Input Type | Output_Parameters:inputType | dtmf | 10000004391433496878
+05/06/2015 15:12:48:384  INFO - In Progress | session id:mpp-2015156093438-4 | DM:ReportEnd | GlobalPromptFeature | Value | Output_Parameters:value | repeat | 10000004391433496878
+05/06/2015 15:12:48:384  INFO - End | session id:mpp-2015156093438-4 | DM:ReportEnd | GlobalPromptFeature |  |  |  | 10000004391433496878
+05/06/2015 15:12:48:556  INFO - In Progress | session id:mpp-2015156093438-4 | DM:ReportEnd | AccountBalance_Annc | Return Code | Output_Parameters:returncode |  | 10000004391433496878
+05/06/2015 15:12:48:556  INFO - End | session id:mpp-2015156093438-4 | DM:ReportEnd | AccountBalance_Annc |  |  |  | 10000004391433496878

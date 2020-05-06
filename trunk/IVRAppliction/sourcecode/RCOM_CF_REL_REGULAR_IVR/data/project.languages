@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<ProjectLanguages>
+    <language asr="en-us" localization="en-us" localizationVersion="3.1.2" name="ENG" stdPhrasesInstalled="false" stdPhrasesLocation="EXTERNAL" tts="en-us"/>
+    <language asr="en-us" localization="en-us" localizationVersion="3.1.2" name="english" stdPhrasesInstalled="false" stdPhrasesLocation="LOCAL" tts="en-us"/>
+    <language asr="en-us" localization="gu-in" localizationVersion="1.0.1" name="GUJ" stdPhrasesInstalled="false" stdPhrasesLocation="LOCAL" tts="en-us"/>
+    <language asr="hi-in" localization="hi-in" localizationVersion="1.0.1" name="HIN" stdPhrasesInstalled="false" stdPhrasesLocation="LOCAL" tts="hi-in"/>
+    <language asr="en-us" localization="mr-in" localizationVersion="1.0.1" name="MAR" stdPhrasesInstalled="false" stdPhrasesLocation="LOCAL" tts="en-us"/>
+</ProjectLanguages>

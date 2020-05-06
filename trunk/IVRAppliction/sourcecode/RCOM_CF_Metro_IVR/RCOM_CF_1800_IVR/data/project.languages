@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<ProjectLanguages>
+    <language asr="en-us" localization="as-in" localizationVersion="1.0.1" name="ASM" stdPhrasesInstalled="false" stdPhrasesLocation="EXTERNAL" tts="en-us"/>
+    <language asr="en-us" localization="be-in" localizationVersion="1.0.1" name="BEN" stdPhrasesInstalled="false" stdPhrasesLocation="EXTERNAL" tts="en-us"/>
+    <language asr="en-us" localization="en-us" localizationVersion="3.1.2" name="ENG" stdPhrasesInstalled="false" stdPhrasesLocation="EXTERNAL" tts="en-us"/>
+    <language asr="en-us" localization="as-in" localizationVersion="1.0.1" name="GUJ" stdPhrasesInstalled="false" stdPhrasesLocation="EXTERNAL" tts="en-us"/>
+    <language asr="en-us" localization="as-in" localizationVersion="1.0.1" name="HIN" stdPhrasesInstalled="false" stdPhrasesLocation="EXTERNAL" tts="en-us"/>
+    <language asr="en-us" localization="kn-in" localizationVersion="1.0.1" name="KAN" stdPhrasesInstalled="false" stdPhrasesLocation="EXTERNAL" tts="en-us"/>
+    <language asr="en-us" localization="as-in" localizationVersion="1.0.1" name="MAL" stdPhrasesInstalled="false" stdPhrasesLocation="EXTERNAL" tts="en-us"/>
+    <language asr="en-us" localization="as-in" localizationVersion="1.0.1" name="MAR" stdPhrasesInstalled="false" stdPhrasesLocation="EXTERNAL" tts="en-us"/>
+    <language asr="en-us" localization="as-in" localizationVersion="1.0.1" name="ORI" stdPhrasesInstalled="false" stdPhrasesLocation="EXTERNAL" tts="en-us"/>
+    <language asr="en-us" localization="as-in" localizationVersion="1.0.1" name="PUN" stdPhrasesInstalled="false" stdPhrasesLocation="EXTERNAL" tts="en-us"/>
+    <language asr="en-us" localization="as-in" localizationVersion="1.0.1" name="TAM" stdPhrasesInstalled="false" stdPhrasesLocation="EXTERNAL" tts="en-us"/>
+    <language asr="en-us" localization="as-in" localizationVersion="1.0.1" name="TEL" stdPhrasesInstalled="false" stdPhrasesLocation="EXTERNAL" tts="en-us"/>
+</ProjectLanguages>

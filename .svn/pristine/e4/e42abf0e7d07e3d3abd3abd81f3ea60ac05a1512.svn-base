@@ -1,0 +1,8 @@
+ConfigFilePath = D:\\RCOM\\workspace\\RCOM_CF_Intl_Roaming_Serv_IVR\\Config\\DMProperties_English\\
+HINConfigFilePath = D:\\RCOM\\workspace\\RCOM_CF_Intl_Roaming_Serv_IVR\\Config\\DMProperties_English\\
+
+
+#ApplicationName
+ApplicationName = RCOM_CF_Intl_Roaming_Serv_IVR
+HUB = MU
+DefaultVDN = 5000

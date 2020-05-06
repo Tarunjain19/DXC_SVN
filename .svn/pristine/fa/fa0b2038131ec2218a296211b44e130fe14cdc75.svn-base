@@ -1,0 +1,31 @@
+##################################################################################
+# 
+# Welcome_INRS_PA_0001.properties file
+# 
+##################################################################################
+
+
+########################
+# Dialog Name
+########################
+
+dialogName = Welcome_INRS_PA_0001
+isDTMF=DEFAULT
+isAnnouncement = true
+language=DEFAULT
+menuID=INRS_PA_0001
+
+loggingEnabled=true
+loggerName=RCOM_CF_Intl_Roaming_Serv_IVR
+
+
+initialPrompt = 42250.wav
+
+
+
+
+
+
+
+
+

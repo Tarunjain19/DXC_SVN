@@ -1,0 +1,30 @@
+# log4j.rootLogger=error, stdout
+
+log4j.logger.Dialog.Designer.TraceWriter.RCOM_CWG= debug, TRCOM_CWG
+log4j.logger.Dialog.Designer.ReportWriter.RCOM_CWG= debug, RRCOM_CWG
+log4j.logger.flow.InitializeVariables = debug, TRCOM_CWG
+log4j.logger.com.servion.postpaid.utils.PrintStackTrace = debug, TRCOM_CWG
+
+# Console
+log4j.appender.stdout=org.apache.log4j.ConsoleAppender
+log4j.appender.stdout.layout=org.apache.log4j.PatternLayout
+log4j.appender.stdout.layout.ConversionPattern=%d{dd/MM/yyyy HH:mm:ss:SSS} %5p - %m%n
+
+# Report File.
+log4j.appender.RRCOM_CWG=org.apache.log4j.RollingFileAppender
+log4j.appender.RRCOM_CWG.File==D:/RCOM/OtherFlows/RCOM_CWG/report.log
+log4j.appender.RRCOM_CWG.maxFileSize=50MB
+log4j.appender.RRCOM_CWG.maxBackupIndex=50
+log4j.appender.RRCOM_CWG.DatePattern='.'yyyy-MM-dd
+log4j.appender.RRCOM_CWG.layout=org.apache.log4j.PatternLayout
+log4j.appender.RRCOM_CWG.layout.ConversionPattern=%d{dd/MM/yyyy HH:mm:ss:SSS} %5p - %m%n
+log4j.appender.RRCOM_CWG.Encoding=UTF-8
+# Trace File.
+log4j.appender.TRCOM_CWG=org.apache.log4j.RollingFileAppender
+log4j.appender.TRCOM_CWG.File=D:/RCOM/OtherFlows/RCOM_CWG/trace.log
+log4j.appender.TRCOM_CWG.maxFileSize=50MB
+log4j.appender.TRCOM_CWG.maxBackupIndex=50
+log4j.appender.TRCOM_CWG.DatePattern='.'yyyy-MM-dd
+log4j.appender.TRCOM_CWG.layout=org.apache.log4j.PatternLayout
+log4j.appender.TRCOM_CWG.layout.ConversionPattern=%d{dd/MM/yyyy HH:mm:ss:SSS} %5p - %m%n
+log4j.appender.TRCOM_CWG.Encoding=UTF-8

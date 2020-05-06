@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<module category="" descriptorversion="1.0" entrypoint="RCOM_CF_Intl_Roaming_Serv_IVR/Start" forcesubdialogcall="false" frameworkversion="07.01.08.04" iconlarge="icons/defaultapplicationlg.gif" iconsmall="icons/defaultapplicationsm.gif" modifyInputs="false" modifyOutputs="false" nature="" outputmultipart="false" paramasnamelist="false" provider="" submitmethod="get" version="1.0.0" webname="RCOM_CF_Intl_Roaming_Serv_IVR">
+    <description/>
+    <language name="ENG" root="en-us"/>
+    <language name="HIN" root="en-us"/>
+    <dependencies>
+        <moduleref frameworkversion="07.01.08.04" name="DM" private="false" version="1.0.0">
+            <meta callflow-references="main"/>
+        </moduleref>
+    </dependencies>
+</module>

@@ -1,0 +1,31 @@
+##################################################################################
+# 
+# INRS_PA_0003.properties.properties file
+# 
+##################################################################################
+
+
+########################
+# Dialog Name
+########################
+
+dialogName = Roaming_INRS_PA_0003
+isDTMF=DEFAULT
+isAnnouncement = true
+language=DEFAULT
+menuID=INRS_PA_0003
+
+loggingEnabled=true
+loggerName=RCOM_CF_Intl_Roaming_Serv_IVR
+
+
+initialPrompt = 42260.wav*42261.wav
+
+
+
+
+
+
+
+
+

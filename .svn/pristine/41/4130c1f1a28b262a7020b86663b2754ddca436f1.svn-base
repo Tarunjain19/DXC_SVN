@@ -1,0 +1,38 @@
+##################################################################################
+# 
+# Language_MN.properties file
+# 
+##################################################################################
+
+########################
+# Dialog Name
+########################
+
+dialogName = Language_MN
+#menuID = AVS_MN_0001
+isAnnouncement = false
+
+########################
+# Grammars
+########################
+#dtmfGrammar = Default_Lang_MN.grxml 
+
+########################
+# Prompt & Collect
+########################
+#initialPrompt = 42002.wav*42011.wav*42003.wav*42012.wav
+#rePromptNoInput = 42002.wav*42011.wav*42003.wav*42012.wav
+#rePromptNoMatch = 42002.wav*42011.wav*42003.wav*42012.wav
+#noMatchPrompt = DEFAULT
+#noInputPrompt = DEFAULT
+noMatchPrompt = 44017.wav*44020.wav
+noInputPrompt = 44019.wav
+#Given empty noInputMaxTryPrompt and noMatchMaxTryPrompt as no prompts should be played for exceeded tries
+noInputMaxTryPrompt = 
+noMatchMaxTryPrompt = 
+
+########################
+# Global Grammar
+########################
+dtmfGlobalGrammar = 
+globalPrompt = 

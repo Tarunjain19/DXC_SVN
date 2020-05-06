@@ -1,0 +1,29 @@
+##################################################################################
+# 
+# CAFConfirmation_MN.properties file
+# 
+##################################################################################
+
+########################
+# Dialog Name
+########################
+
+dialogName = CAFConfirmation_MN
+menuID = DAKC_MN_0036
+isAnnouncement = false
+
+########################
+# Grammars
+########################
+dtmfGrammar = CAFConfirmation_MN.grxml
+
+########################
+# Prompt & Collect
+########################
+
+
+########################
+# Global Grammar
+########################
+dtmfGlobalGrammar = 
+globalPrompt = 

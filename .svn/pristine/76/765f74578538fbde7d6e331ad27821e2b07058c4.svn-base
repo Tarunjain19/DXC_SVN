@@ -1,0 +1,31 @@
+##################################################################################
+# 
+# WelcomeDM.properties file
+# 
+##################################################################################
+
+
+########################
+# Dialog Name
+########################
+
+dialogName = Welcome_RED_PA_0001
+isDTMF=DEFAULT
+isAnnouncement = true
+language=DEFAULT
+menuID=RED_PA_0001
+
+loggingEnabled=true
+loggerName=RCOM_CF_RED_IVR
+
+
+initialPrompt = 42150.wav
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,28 @@
+log4j.rootLogger=error, stdout
+
+log4j.logger.Dialog.Designer.TraceWriter.RCOM_CF_WDVPN_IVR= debug, TRCOM_CF_WDVPN_IVR
+log4j.logger.Dialog.Designer.ReportWriter.RCOM_CF_WDVPN_IVR= info, RRCOM_CF_WDVPN_IVR
+
+# Console
+log4j.appender.stdout=org.apache.log4j.ConsoleAppender
+log4j.appender.stdout.layout=org.apache.log4j.PatternLayout
+log4j.appender.stdout.layout.ConversionPattern=%d{dd/MM/yyyy HH:mm:ss:SSS} %5p - %m%n
+
+# Report File.
+log4j.appender.RRCOM_CF_WDVPN_IVR=org.apache.log4j.DailyRollingFileAppender
+log4j.appender.RRCOM_CF_WDVPN_IVR.MaxFileSize=10MB
+log4j.appender.RRCOM_CF_WDVPN_IVR.MaxBackupIndex=5
+log4j.appender.RRCOM_CF_WDVPN_IVR.File=D:/RCOM/OtherFlows/WDVPN_IVR/Logs/report.log
+log4j.appender.RRCOM_CF_WDVPN_IVR.DatePattern='.'yyyy-MM-dd
+log4j.appender.RRCOM_CF_WDVPN_IVR.layout=org.apache.log4j.PatternLayout
+log4j.appender.RRCOM_CF_WDVPN_IVR.layout.ConversionPattern=%d{dd/MM/yyyy HH:mm:ss:SSS} %5p - %m%n
+log4j.appender.RRCOM_CF_WDVPN_IVR.Encoding=UTF-8
+# Trace File.
+log4j.appender.TRCOM_CF_WDVPN_IVR=org.apache.log4j.DailyRollingFileAppender
+log4j.appender.TRCOM_CF_WDVPN_IVR.MaxFileSize=10MB
+log4j.appender.TRCOM_CF_WDVPN_IVR.MaxBackupIndex=5
+log4j.appender.TRCOM_CF_WDVPN_IVR.File=D:/RCOM/OtherFlows/WDVPN_IVR/Logs/trace.log
+log4j.appender.TRCOM_CF_WDVPN_IVR.DatePattern='.'yyyy-MM-dd
+log4j.appender.TRCOM_CF_WDVPN_IVR.layout=org.apache.log4j.PatternLayout
+log4j.appender.TRCOM_CF_WDVPN_IVR.layout.ConversionPattern=%d{dd/MM/yyyy HH:mm:ss:SSS} %5p - %m%n
+log4j.appender.TRCOM_CF_WDVPN_IVR.Encoding=UTF-8

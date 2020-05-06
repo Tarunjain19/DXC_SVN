@@ -1,0 +1,1453 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--
+This XML descriptor is automatically generated and managed by the
+application development environment.  While manual updates to this 
+file may be preserved, it is best to manage this file through the application development environment tool.
+
+Copyright 2004-2011 Avaya Inc.
+--><!DOCTYPE web-app PUBLIC "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN" "http://java.sun.com/dtd/web-app_2_3.dtd">
+<web-app id="WebApp_ID">
+    <context-param>
+        <param-name>sage.startlanguage</param-name>
+        <param-value>english</param-value>
+        <description>The starting language for the application.</description>
+    </context-param>
+    <context-param>
+        <param-name>sage.ic.throwexceptions</param-name>
+        <param-value>true</param-value>
+        <description>IC Throw Runtime Exception on Error{true|false}</description>
+    </context-param>
+    <context-param>
+        <param-name>sage.cti.autoinvoke.callinfo</param-name>
+        <param-value>true</param-value>
+        <description>CTI Auto invoke CallInfo upon app start{true|false}</description>
+    </context-param>
+    <context-param>
+        <param-name>runtime-ASR</param-name>
+        <param-value>SRGS-Literals</param-value>
+        <description>Runtime ASR {SRGS-Literals|SRGS-SISR|Nuance OSR|IBM|...}</description>
+    </context-param>
+    <context-param>
+        <param-name>runtime-SSML</param-name>
+        <param-value>true</param-value>
+        <description>Runtime SSML Generation {true|false} - "true" enables SSML generation, "false" disables.</description>
+    </context-param>
+    <context-param>
+        <param-name>runtime-nature</param-name>
+        <param-value>speech</param-value>
+        <description>Application nature, speech or message</description>
+    </context-param>
+    <context-param>
+        <param-name>runtime-Platform</param-name>
+        <param-value>Experience Portal</param-value>
+        <description>Runtime Platform {Desktop|Voice Portal|Experience Portal|Other|IR|MPS}</description>
+    </context-param>
+    <context-param>
+        <param-name>runtime-VXML-Compatibility</param-name>
+        <param-value>2.1</param-value>
+        <description>2.1 + IVVR, 2.1 Allows VXML 2.1 extensions, 2.0 Uses VXML 2.0 Only</description>
+    </context-param>
+    <context-param>
+        <param-name>runtime-DTMF-Native</param-name>
+        <param-value>LOCAL_SRGS_LITERALS</param-value>
+        <description>(NATIVE|LOCAL_SRGS_SISR|LOCAL_SRGS_LITERALS, NATIVE means DTMF Grammars are in native asr format.</description>
+    </context-param>
+    <context-param>
+        <param-name>CollectionSeparator</param-name>
+        <param-value>|</param-value>
+        <description>Collection Separator Char</description>
+    </context-param>
+    <context-param>
+        <param-name>grammar-caching</param-name>
+        <param-value>none</param-value>
+        <description>Grammar caching mode, none=no caching, default=system default or property setting</description>
+    </context-param>
+    <context-param>
+        <param-name>english.phraseset.RCOM_TVP_PhraseSet.urlbase</param-name>
+        <param-value>CONSTANTS:CDMA=/</param-value>
+    </context-param>
+    <context-param>
+        <param-name>english.phraseset.RCOM_TVP_PhraseSetEng.urlbase</param-name>
+        <param-value>/RCOM_PHRASES/RCOM_TVP_IVR_PHRASES/ENG/Static/</param-value>
+    </context-param>
+     <context-param>
+        <param-name>PROPERTY_FILE_PATH</param-name>
+        <param-value>C:\RCOM\OtherFlows\RCOM_CF_TVP\config\</param-value>
+        <description>Property file path</description>
+    </context-param>
+    <context-param>
+        <param-name>IVR_CONFIG</param-name>
+        <param-value>IVR_CONFIG.properties</param-value>
+        <description>IVR Property file name</description>
+    </context-param>
+    <context-param>
+        <param-name>HOST_CONFIG</param-name>
+        <param-value>webservice</param-value>
+        <description>web service properties</description>
+    </context-param>
+   
+    <servlet id="avayadefaultdisconnecthandler-servlet">
+        <servlet-name>AvayaDefaultDisconnectHandler</servlet-name>
+        <servlet-class>com.avaya.sce.runtime.DefaultDisconnect</servlet-class>
+    </servlet>
+    <servlet id="avayadefaultexithandler-servlet">
+        <servlet-name>AvayaDefaultExitHandler</servlet-name>
+        <servlet-class>com.avaya.sce.runtime.DefaultExit</servlet-class>
+    </servlet>
+    <servlet id="avayasessiontermination-servlet">
+        <servlet-name>AvayaSessionTerminationServlet</servlet-name>
+        <servlet-class>com.avaya.sce.runtime.AvayaSessionTerminationServlet</servlet-class>
+    </servlet>
+    <servlet id="avayareturnerrorhandler-servlet">
+        <servlet-name>AvayaReturnErrorHandler</servlet-name>
+        <servlet-class>com.avaya.sce.runtime.ReturnErrorHandlerServlet</servlet-class>
+    </servlet>
+    <servlet id="avayareturnerrorthrow-servlet">
+        <servlet-name>AvayaReturnErrorThrow</servlet-name>
+        <servlet-class>com.avaya.sce.runtime.ReturnErrorThrowServlet</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_1">
+        <servlet-name>AppRoot</servlet-name>
+        <servlet-class>flow.AppRoot</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_0">
+        <servlet-name>Start</servlet-name>
+        <servlet-class>flow.Start</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_3">
+        <servlet-name>Call_LanguageSel</servlet-name>
+        <servlet-class>flow.Call_LanguageSel</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_LanguageSelection_1">
+        <servlet-name>LanguageSelection-Begin</servlet-name>
+        <servlet-class>flow.subflow.LanguageSelection.Begin</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_LanguageSelection_4">
+        <servlet-name>LanguageSelection-Ret_LangSel</servlet-name>
+        <servlet-class>flow.subflow.LanguageSelection.Ret_LangSel</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_ReadSIM_Number_1">
+        <servlet-name>ReadSIM_Number-Begin</servlet-name>
+        <servlet-class>flow.subflow.ReadSIM_Number.Begin</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_ReadSIM_Number_4">
+        <servlet-name>ReadSIM_Number-Ret_ReadSIM</servlet-name>
+        <servlet-class>flow.subflow.ReadSIM_Number.Ret_ReadSIM</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_6">
+        <servlet-name>Call_ReadSIM</servlet-name>
+        <servlet-class>flow.Call_ReadSIM</servlet-class>
+    </servlet>
+    
+    
+    <servlet id="SAGE-callflow-servlet_main_9">
+        <servlet-name>Call_ValidateTVPStatus</servlet-name>
+        <servlet-class>flow.Call_ValidateTVPStatus</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_TVP_Process_1">
+        <servlet-name>TVP_Process-Begin</servlet-name>
+        <servlet-class>flow.subflow.TVP_Process.Begin</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_TVP_Process_4">
+        <servlet-name>TVP_Process-Ret_TVP_Process_Succ</servlet-name>
+        <servlet-class>flow.subflow.TVP_Process.Ret_TVP_Process_Succ</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_12">
+        <servlet-name>Dat_HotLineCheck</servlet-name>
+        <servlet-class>flow.Dat_HotLineCheck</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_22">
+        <servlet-name>Mnu_ServiceMenu</servlet-name>
+        <servlet-class>flow.Mnu_ServiceMenu</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_ReadSIM_Number_6">
+        <servlet-name>ReadSIM_Number-Pnc_GetSIMNumber</servlet-name>
+        <servlet-class>flow.subflow.ReadSIM_Number.Pnc_GetSIMNumber</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_ReadSIM_Number_16">
+        <servlet-name>ReadSIM_Number-Dat_AssignMDN</servlet-name>
+        <servlet-class>flow.subflow.ReadSIM_Number.Dat_AssignMDN</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_32">
+        <servlet-name>Srv_ReadConfig</servlet-name>
+        <servlet-class>flow.Srv_ReadConfig</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_36">
+        <servlet-name>Dat_CheckStatus</servlet-name>
+        <servlet-class>flow.Dat_CheckStatus</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_45">
+        <servlet-name>End</servlet-name>
+        <servlet-class>flow.End</servlet-class>
+    </servlet>
+    
+    <servlet id="SAGE-callflow-servlet_LanguageSelection_6">
+        <servlet-name>LanguageSelection-Ann_Welcome</servlet-name>
+        <servlet-class>flow.subflow.LanguageSelection.Ann_Welcome</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_LanguageSelection_12">
+        <servlet-name>LanguageSelection-Mnu_LanguageSelection</servlet-name>
+        <servlet-class>flow.subflow.LanguageSelection.Mnu_LanguageSelection</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_LanguageSelection_29">
+        <servlet-name>LanguageSelection-Srv_SetCurrentLanguage</servlet-name>
+        <servlet-class>flow.subflow.LanguageSelection.Srv_SetCurrentLanguage</servlet-class>
+    </servlet>
+    
+    <servlet id="SAGE-callflow-servlet_TVP_Process_6">
+        <servlet-name>TVP_Process-TVPVerificationSuccess</servlet-name>
+        <servlet-class>flow.subflow.TVP_Process.TVPVerificationSuccess</servlet-class>
+    </servlet>
+    
+    
+    <servlet id="SAGE-callflow-servlet_TVP_Process_33">
+        <servlet-name>TVP_Process-Prmt_enterDOI</servlet-name>
+        <servlet-class>flow.subflow.TVP_Process.Prmt_enterDOI</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_TVP_Process_29">
+        <servlet-name>TVP_Process-POA_Incorrect</servlet-name>
+        <servlet-class>flow.subflow.TVP_Process.POA_Incorrect</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_93">
+        <servlet-name>Dat_CheckTechnology</servlet-name>
+        <servlet-class>flow.Dat_CheckTechnology</servlet-class>
+    </servlet>
+    
+    
+    
+    <servlet id="SAGE-callflow-servlet_main_125">
+        <servlet-name>Ann_technicalProblem</servlet-name>
+        <servlet-class>flow.Ann_technicalProblem</servlet-class>
+    </servlet>
+    
+    <servlet id="SAGE-callflow-servlet_main_134">
+        <servlet-name>Dat_TVP_ServiceCheck</servlet-name>
+        <servlet-class>flow.Dat_TVP_ServiceCheck</servlet-class>
+    </servlet>
+    
+    
+    
+    <servlet id="SAGE-callflow-servlet_main_156">
+        <servlet-name>Dat_TVPDataCardCheck</servlet-name>
+        <servlet-class>flow.Dat_TVPDataCardCheck</servlet-class>
+    </servlet>
+    
+    <servlet id="SAGE-callflow-servlet_main_187">
+        <servlet-name>TVPStatusCheck</servlet-name>
+        <servlet-class>flow.TVPStatusCheck</servlet-class>
+    </servlet>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <servlet id="SAGE-callflow-servlet_main_198">
+        <servlet-name>Call_TVP_Process</servlet-name>
+        <servlet-class>flow.Call_TVP_Process</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_TVP_Process_61">
+        <servlet-name>TVP_Process-Ann_tvpProcessStart</servlet-name>
+        <servlet-class>flow.subflow.TVP_Process.Ann_tvpProcessStart</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_TVP_Process_66">
+        <servlet-name>TVP_Process-Dat_checkPOA</servlet-name>
+        <servlet-class>flow.subflow.TVP_Process.Dat_checkPOA</servlet-class>
+    </servlet>
+    
+    <servlet id="SAGE-callflow-servlet_TVP_Process_79">
+        <servlet-name>TVP_Process-Prmt_enter4digitPOA</servlet-name>
+        <servlet-class>flow.subflow.TVP_Process.Prmt_enter4digitPOA</servlet-class>
+    </servlet>
+    
+    <servlet id="SAGE-callflow-servlet_TVP_Process_94">
+        <servlet-name>TVP_Process-Dat_checkPOAMatch</servlet-name>
+        <servlet-class>flow.subflow.TVP_Process.Dat_checkPOAMatch</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_TVP_Process_100">
+        <servlet-name>TVP_Process-TVP_FlagUpdate</servlet-name>
+        <servlet-class>flow.subflow.TVP_Process.TVP_FlagUpdate</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_TVP_Process_105">
+        <servlet-name>TVP_Process-Dat_checkTries</servlet-name>
+        <servlet-class>flow.subflow.TVP_Process.Dat_checkTries</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_TVP_Process_127">
+        <servlet-name>TVP_Process-Dat_POADateMach</servlet-name>
+        <servlet-class>flow.subflow.TVP_Process.Dat_POADateMach</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_TVP_Process_137">
+        <servlet-name>TVP_Process-Ann_POADateIncorrect</servlet-name>
+        <servlet-class>flow.subflow.TVP_Process.Ann_POADateIncorrect</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_TVP_FlagUpdate_1">
+        <servlet-name>TVP_FlagUpdate-Begin</servlet-name>
+        <servlet-class>flow.subflow.TVP_FlagUpdate.Begin</servlet-class>
+    </servlet>
+    
+    <servlet id="SAGE-callflow-servlet_TVP_FlagUpdate_7">
+        <servlet-name>TVP_FlagUpdate-Ret_Xfer</servlet-name>
+        <servlet-class>flow.subflow.TVP_FlagUpdate.Ret_Xfer</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_TVP_FlagUpdate_10">
+        <servlet-name>TVP_FlagUpdate-Dat_tvpUpdateCheck</servlet-name>
+        <servlet-class>flow.subflow.TVP_FlagUpdate.Dat_tvpUpdateCheck</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_TVP_FlagUpdate_19">
+        <servlet-name>TVP_FlagUpdate-Ret_Success</servlet-name>
+        <servlet-class>flow.subflow.TVP_FlagUpdate.Ret_Success</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_TVP_Process_153">
+        <servlet-name>TVP_Process-Dat_checkCustomerType</servlet-name>
+        <servlet-class>flow.subflow.TVP_Process.Dat_checkCustomerType</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_TVP_Process_164">
+        <servlet-name>TVP_Process-Ann_MaxTry</servlet-name>
+        <servlet-class>flow.subflow.TVP_Process.Ann_MaxTry</servlet-class>
+    </servlet>
+    
+    <servlet id="SAGE-callflow-servlet_ReadSIM_Number_48">
+        <servlet-name>ReadSIM_Number-Mnu_NumberConfirm</servlet-name>
+        <servlet-class>flow.subflow.ReadSIM_Number.Mnu_NumberConfirm</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_ReadSIM_Number_61">
+        <servlet-name>ReadSIM_Number-Dat_checkTries</servlet-name>
+        <servlet-class>flow.subflow.ReadSIM_Number.Dat_checkTries</servlet-class>
+    </servlet>
+    
+    <servlet id="SAGE-callflow-servlet_main_218">
+        <servlet-name>Dat_AssignProductType</servlet-name>
+        <servlet-class>flow.Dat_AssignProductType</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_232">
+        <servlet-name>Ann_NoDataFound</servlet-name>
+        <servlet-class>flow.Ann_NoDataFound</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_ValidateTVPStatus_1">
+        <servlet-name>ValidateTVPStatus-Begin</servlet-name>
+        <servlet-class>flow.subflow.ValidateTVPStatus.Begin</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_ValidateTVPStatus_8">
+        <servlet-name>ValidateTVPStatus-Dat_TeleVerify</servlet-name>
+        <servlet-class>flow.subflow.ValidateTVPStatus.Dat_TeleVerify</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_ValidateTVPStatus_24">
+        <servlet-name>ValidateTVPStatus-Transfer</servlet-name>
+        <servlet-class>flow.subflow.ValidateTVPStatus.Transfer</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_ValidateTVPStatus_26">
+        <servlet-name>ValidateTVPStatus-PhoneGen_check</servlet-name>
+        <servlet-class>flow.subflow.ValidateTVPStatus.PhoneGen_check</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_ValidateTVPStatus_30">
+        <servlet-name>ValidateTVPStatus-checkTech</servlet-name>
+        <servlet-class>flow.subflow.ValidateTVPStatus.checkTech</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_241">
+        <servlet-name>Dat_PhoneGenCheck</servlet-name>
+        <servlet-class>flow.Dat_PhoneGenCheck</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_247">
+        <servlet-name>Ann_Postpaid</servlet-name>
+        <servlet-class>flow.Ann_Postpaid</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_251">
+        <servlet-name>Ann_Prepaid</servlet-name>
+        <servlet-class>flow.Ann_Prepaid</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_TVP_FlagUpdate_26">
+        <servlet-name>TVP_FlagUpdate-Mnu_ActivateData</servlet-name>
+        <servlet-class>flow.subflow.TVP_FlagUpdate.Mnu_ActivateData</servlet-class>
+    </servlet>
+    
+    <servlet id="SAGE-callflow-servlet_TVP_FlagUpdate_54">
+        <servlet-name>TVP_FlagUpdate-Ann_SuccessInProcee</servlet-name>
+        <servlet-class>flow.subflow.TVP_FlagUpdate.Ann_SuccessInProcee</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_TVP_Process_181">
+        <servlet-name>TVP_Process-Mnu_ConfPAO</servlet-name>
+        <servlet-class>flow.subflow.TVP_Process.Mnu_ConfPAO</servlet-class>
+    </servlet>
+    
+    
+    <servlet id="SAGE-callflow-servlet_main_294">
+        <servlet-name>Dat_SetReportDisconnect</servlet-name>
+        <servlet-class>flow.Dat_SetReportDisconnect</servlet-class>
+    </servlet>
+    
+    
+    
+    
+    
+    
+    <servlet id="SAGE-callflow-servlet_TVP_FlagUpdate_61">
+        <servlet-name>TVP_FlagUpdate-setDataConscentN</servlet-name>
+        <servlet-class>flow.subflow.TVP_FlagUpdate.setDataConscentN</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_TVP_FlagUpdate_68">
+        <servlet-name>TVP_FlagUpdate-setDataConscentY</servlet-name>
+        <servlet-class>flow.subflow.TVP_FlagUpdate.setDataConscentY</servlet-class>
+    </servlet>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <servlet id="SAGE-callflow-servlet_TVP_Process_232">
+        <servlet-name>TVP_Process-assignNumberPlay</servlet-name>
+        <servlet-class>flow.subflow.TVP_Process.assignNumberPlay</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_TVP_Process_241">
+        <servlet-name>TVP_Process-Dat_assignNumberPlayDOI</servlet-name>
+        <servlet-class>flow.subflow.TVP_Process.Dat_assignNumberPlayDOI</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_TVP_FlagUpdate_76">
+        <servlet-name>TVP_FlagUpdate-Dat_checkProduct</servlet-name>
+        <servlet-class>flow.subflow.TVP_FlagUpdate.Dat_checkProduct</servlet-class>
+    </servlet>
+    
+    
+    <servlet id="SAGE-callflow-servlet_LanguageSelection_51">
+        <servlet-name>LanguageSelection-Ret_CallDisconnect</servlet-name>
+        <servlet-class>flow.subflow.LanguageSelection.Ret_CallDisconnect</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_ReadSIM_Number_123">
+        <servlet-name>ReadSIM_Number-Ret_CallDisconnect</servlet-name>
+        <servlet-class>flow.subflow.ReadSIM_Number.Ret_CallDisconnect</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_ReadSIM_Number_133">
+        <servlet-name>ReadSIM_Number-Ret_CallXfer</servlet-name>
+        <servlet-class>flow.subflow.ReadSIM_Number.Ret_CallXfer</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_TVP_Process_252">
+        <servlet-name>TVP_Process-Ret_CallDisconnect</servlet-name>
+        <servlet-class>flow.subflow.TVP_Process.Ret_CallDisconnect</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_TVP_Process_253">
+        <servlet-name>TVP_Process-Ret_Xfer</servlet-name>
+        <servlet-class>flow.subflow.TVP_Process.Ret_Xfer</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_TVP_StatusCheck_1">
+        <servlet-name>TVP_StatusCheck-Begin</servlet-name>
+        <servlet-class>flow.subflow.TVP_StatusCheck.Begin</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_TVP_StatusCheck_4">
+        <servlet-name>TVP_StatusCheck-Dat_TVP_StatusCheck</servlet-name>
+        <servlet-class>flow.subflow.TVP_StatusCheck.Dat_TVP_StatusCheck</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_TVP_StatusCheck_143">
+        <servlet-name>TVP_StatusCheck-Ann_Postpaid</servlet-name>
+        <servlet-class>flow.subflow.TVP_StatusCheck.Ann_Postpaid</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_TVP_StatusCheck_67">
+        <servlet-name>TVP_StatusCheck-Ann_PrepaidSpecificMsg</servlet-name>
+        <servlet-class>flow.subflow.TVP_StatusCheck.Ann_PrepaidSpecificMsg</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_TVP_StatusCheck_9">
+        <servlet-name>TVP_StatusCheck-Ann_deskClose</servlet-name>
+        <servlet-class>flow.subflow.TVP_StatusCheck.Ann_deskClose</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_TVP_StatusCheck_135">
+        <servlet-name>TVP_StatusCheck-checkService</servlet-name>
+        <servlet-class>flow.subflow.TVP_StatusCheck.checkService</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_TVP_StatusCheck_75">
+        <servlet-name>TVP_StatusCheck-Ann_TibcoPending</servlet-name>
+        <servlet-class>flow.subflow.TVP_StatusCheck.Ann_TibcoPending</servlet-class>
+    </servlet>
+    
+    <servlet id="SAGE-callflow-servlet_TVP_StatusCheck_81">
+        <servlet-name>TVP_StatusCheck-Ret_Xfer</servlet-name>
+        <servlet-class>flow.subflow.TVP_StatusCheck.Ret_Xfer</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_TVP_StatusCheck_82">
+        <servlet-name>TVP_StatusCheck-Ret_TVP_Flag</servlet-name>
+        <servlet-class>flow.subflow.TVP_StatusCheck.Ret_TVP_Flag</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_TVP_StatusCheck_28">
+        <servlet-name>TVP_StatusCheck-checkWorkTime</servlet-name>
+        <servlet-class>flow.subflow.TVP_StatusCheck.checkWorkTime</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_TVP_StatusCheck_100">
+        <servlet-name>TVP_StatusCheck-Ann_TibcoTVPosted</servlet-name>
+        <servlet-class>flow.subflow.TVP_StatusCheck.Ann_TibcoTVPosted</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_TVP_StatusCheck_33">
+        <servlet-name>TVP_StatusCheck-End</servlet-name>
+        <servlet-class>flow.subflow.TVP_StatusCheck.End</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_TVP_StatusCheck_38">
+        <servlet-name>TVP_StatusCheck-Ann_ActivationMsg</servlet-name>
+        <servlet-class>flow.subflow.TVP_StatusCheck.Ann_ActivationMsg</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_TVP_StatusCheck_108">
+        <servlet-name>TVP_StatusCheck-Ann_TibcoMNPPending</servlet-name>
+        <servlet-class>flow.subflow.TVP_StatusCheck.Ann_TibcoMNPPending</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_TVP_StatusCheck_46">
+        <servlet-name>TVP_StatusCheck-Ann_SubmitDoc</servlet-name>
+        <servlet-class>flow.subflow.TVP_StatusCheck.Ann_SubmitDoc</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_TVP_StatusCheck_104">
+        <servlet-name>TVP_StatusCheck-Ann_TibcoTVFailed</servlet-name>
+        <servlet-class>flow.subflow.TVP_StatusCheck.Ann_TibcoTVFailed</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_TVP_StatusCheck_53">
+        <servlet-name>TVP_StatusCheck-Dat_checkCallTime</servlet-name>
+        <servlet-class>flow.subflow.TVP_StatusCheck.Dat_checkCallTime</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_TVP_StatusCheck_112">
+        <servlet-name>TVP_StatusCheck-Ann_TVFailed</servlet-name>
+        <servlet-class>flow.subflow.TVP_StatusCheck.Ann_TVFailed</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_TVP_StatusCheck_63">
+        <servlet-name>TVP_StatusCheck-Ann_InProcess</servlet-name>
+        <servlet-class>flow.subflow.TVP_StatusCheck.Ann_InProcess</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_TransferCall_1">
+        <servlet-name>TransferCall-Begin</servlet-name>
+        <servlet-class>flow.subflow.TransferCall.Begin</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_TransferCall_4">
+        <servlet-name>TransferCall-blindTransfer</servlet-name>
+        <servlet-class>flow.subflow.TransferCall.blindTransfer</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_TransferCall_11">
+        <servlet-name>TransferCall-Dat_GetTransferVDN</servlet-name>
+        <servlet-class>flow.subflow.TransferCall.Dat_GetTransferVDN</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_TransferCall_18">
+        <servlet-name>TransferCall-Ret_Success</servlet-name>
+        <servlet-class>flow.subflow.TransferCall.Ret_Success</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_409">
+        <servlet-name>Call_TransferCall</servlet-name>
+        <servlet-class>flow.Call_TransferCall</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_EndCallProcess_1">
+        <servlet-name>EndCallProcess-Begin</servlet-name>
+        <servlet-class>flow.subflow.EndCallProcess.Begin</servlet-class>
+    </servlet>
+    
+    
+    <servlet id="SAGE-callflow-servlet_EndCallProcess_14">
+        <servlet-name>EndCallProcess-Ret_Success</servlet-name>
+        <servlet-class>flow.subflow.EndCallProcess.Ret_Success</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_EndCallProcess_17">
+        <servlet-name>EndCallProcess-Dat_EndCallProcess</servlet-name>
+        <servlet-class>flow.subflow.EndCallProcess.Dat_EndCallProcess</servlet-class>
+    </servlet>
+    
+    
+    <servlet id="SAGE-callflow-servlet_TVP_SendSMS_1">
+        <servlet-name>TVP_SendSMS-Begin</servlet-name>
+        <servlet-class>flow.subflow.TVP_SendSMS.Begin</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_TVP_SendSMS_4">
+        <servlet-name>TVP_SendSMS-CSS_PushSMS</servlet-name>
+        <servlet-class>flow.subflow.TVP_SendSMS.CSS_PushSMS</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_TVP_SendSMS_8">
+        <servlet-name>TVP_SendSMS-end</servlet-name>
+        <servlet-class>flow.subflow.TVP_SendSMS.end</servlet-class>
+    </servlet>
+    
+    
+    <servlet id="SAGE-callflow-servlet_main_437">
+        <servlet-name>Ann_tryFrmMobile</servlet-name>
+        <servlet-class>flow.Ann_tryFrmMobile</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_LanguageSelection_61">
+        <servlet-name>LanguageSelection-Ann_Max</servlet-name>
+        <servlet-class>flow.subflow.LanguageSelection.Ann_Max</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_457">
+        <servlet-name>Ann_Max</servlet-name>
+        <servlet-class>flow.Ann_Max</servlet-class>
+    </servlet>
+    
+    <servlet id="SAGE-callflow-servlet_TransferCall_21">
+        <servlet-name>TransferCall-Ann_transfer</servlet-name>
+        <servlet-class>flow.subflow.TransferCall.Ann_transfer</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_TransferCall_28">
+        <servlet-name>TransferCall-checkeCallAlreadyTransfered</servlet-name>
+        <servlet-class>flow.subflow.TransferCall.checkeCallAlreadyTransfered</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_ReadSIM_Number_147">
+        <servlet-name>ReadSIM_Number-Ann_MaxMsg</servlet-name>
+        <servlet-class>flow.subflow.ReadSIM_Number.Ann_MaxMsg</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_LanguageSelection_71">
+        <servlet-name>LanguageSelection-setDefaultLanguage</servlet-name>
+        <servlet-class>flow.subflow.LanguageSelection.setDefaultLanguage</servlet-class>
+    </servlet>
+    
+    
+    
+    
+    <servlet id="SAGE-callflow-servlet_EndCallProcess_49">
+        <servlet-name>EndCallProcess-Dat_CallDisconnect</servlet-name>
+        <servlet-class>flow.subflow.EndCallProcess.Dat_CallDisconnect</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_EndCallProcess_42">
+        <servlet-name>EndCallProcess-Ann_thanks</servlet-name>
+        <servlet-class>flow.subflow.EndCallProcess.Ann_thanks</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_EndCallProcess_46">
+        <servlet-name>EndCallProcess-Disconnect_Call</servlet-name>
+        <servlet-class>flow.subflow.EndCallProcess.Disconnect_Call</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_514">
+        <servlet-name>Call_EndProcess</servlet-name>
+        <servlet-class>flow.Call_EndProcess</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_TVP_Process_286">
+        <servlet-name>TVP_Process-Dat_checkConfRetry</servlet-name>
+        <servlet-class>flow.subflow.TVP_Process.Dat_checkConfRetry</servlet-class>
+    </servlet>
+    
+    <servlet id="SAGE-callflow-servlet_TVP_DataConscentFlagUpdation_1">
+        <servlet-name>TVP_DataConscentFlagUpdation-Begin</servlet-name>
+        <servlet-class>flow.subflow.TVP_DataConscentFlagUpdation.Begin</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_TVP_DataConscentFlagUpdation_7">
+        <servlet-name>TVP_DataConscentFlagUpdation-Srv_FlagUpdate</servlet-name>
+        <servlet-class>flow.subflow.TVP_DataConscentFlagUpdation.Srv_FlagUpdate</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_TVP_DataConscentFlagUpdation_11">
+        <servlet-name>TVP_DataConscentFlagUpdation-end</servlet-name>
+        <servlet-class>flow.subflow.TVP_DataConscentFlagUpdation.end</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_TVP_FlagUpdate_90">
+        <servlet-name>TVP_FlagUpdate-Call_DataConscentFlagUpdation</servlet-name>
+        <servlet-class>flow.subflow.TVP_FlagUpdate.Call_DataConscentFlagUpdation</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_EndCallProcess_67">
+        <servlet-name>EndCallProcess-Call_FlagUpdate</servlet-name>
+        <servlet-class>flow.subflow.EndCallProcess.Call_FlagUpdate</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_EndCallProcess_75">
+        <servlet-name>EndCallProcess-Dat_checkMnuActiveData</servlet-name>
+        <servlet-class>flow.subflow.EndCallProcess.Dat_checkMnuActiveData</servlet-class>
+    </servlet>
+    
+    <servlet id="SAGE-callflow-servlet_main_530">
+        <servlet-name>Ann_Dongle</servlet-name>
+        <servlet-class>flow.Ann_Dongle</servlet-class>
+    </servlet>
+    
+    
+    
+    
+    <servlet id="SAGE-callflow-servlet_main_619">
+        <servlet-name>Ann_inavlid</servlet-name>
+        <servlet-class>flow.Ann_inavlid</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_ValidateTVPStatus_79">
+        <servlet-name>ValidateTVPStatus-Dat_1800MobileCheck</servlet-name>
+        <servlet-class>flow.subflow.ValidateTVPStatus.Dat_1800MobileCheck</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_ValidateTVPStatus_91">
+        <servlet-name>ValidateTVPStatus-Ann_Call59059</servlet-name>
+        <servlet-class>flow.subflow.ValidateTVPStatus.Ann_Call59059</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_ValidateTVPStatus_101">
+        <servlet-name>ValidateTVPStatus-end</servlet-name>
+        <servlet-class>flow.subflow.ValidateTVPStatus.end</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_CF_HotFlash_1">
+        <servlet-name>CF_HotFlash-Begin</servlet-name>
+        <servlet-class>flow.subflow.CF_HotFlash.Begin</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_CF_HotFlash_4">
+        <servlet-name>CF_HotFlash-Dat_GetHotflashMsg</servlet-name>
+        <servlet-class>flow.subflow.CF_HotFlash.Dat_GetHotflashMsg</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_CF_HotFlash_8">
+        <servlet-name>CF_HotFlash-Ann_Hotflash</servlet-name>
+        <servlet-class>flow.subflow.CF_HotFlash.Ann_Hotflash</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_CF_HotFlash_12">
+        <servlet-name>CF_HotFlash-end</servlet-name>
+        <servlet-class>flow.subflow.CF_HotFlash.end</servlet-class>
+    </servlet>
+    
+    
+    
+    <servlet id="SAGE-callflow-servlet_main_649">
+        <servlet-name>Call_Hotflash</servlet-name>
+        <servlet-class>flow.Call_Hotflash</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_TransferCall_50">
+        <servlet-name>TransferCall-Dat_AssignHFID</servlet-name>
+        <servlet-class>flow.subflow.TransferCall.Dat_AssignHFID</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_TransferCall_58">
+        <servlet-name>TransferCall-Call_HF</servlet-name>
+        <servlet-class>flow.subflow.TransferCall.Call_HF</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_CF_HotFlash_25">
+        <servlet-name>CF_HotFlash-Srv_fetchHotflash</servlet-name>
+        <servlet-class>flow.subflow.CF_HotFlash.Srv_fetchHotflash</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_CF_HotFlash_30">
+        <servlet-name>CF_HotFlash-Dat_checkHFFetched</servlet-name>
+        <servlet-class>flow.subflow.CF_HotFlash.Dat_checkHFFetched</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_TVP_Process_346">
+        <servlet-name>TVP_Process-Ann_MaxMsg</servlet-name>
+        <servlet-class>flow.subflow.TVP_Process.Ann_MaxMsg</servlet-class>
+    </servlet>
+    
+    
+    
+    <servlet id="SAGE-callflow-servlet_ValidateTVPStatus_646">
+        <servlet-name>ValidateTVPStatus-Dat_HotLineCheck</servlet-name>
+        <servlet-class>flow.subflow.ValidateTVPStatus.Dat_HotLineCheck</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_TVP_Process_353">
+        <servlet-name>TVP_Process-Mnu_POAType</servlet-name>
+        <servlet-class>flow.subflow.TVP_Process.Mnu_POAType</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_TVP_Process_377">
+        <servlet-name>TVP_Process-Dat_checkPOAType</servlet-name>
+        <servlet-class>flow.subflow.TVP_Process.Dat_checkPOAType</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_TVP_Process_397">
+        <servlet-name>TVP_Process-Dat_chkTry</servlet-name>
+        <servlet-class>flow.subflow.TVP_Process.Dat_chkTry</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_TVP_Process_416">
+        <servlet-name>TVP_Process-Prmt_enterDOB</servlet-name>
+        <servlet-class>flow.subflow.TVP_Process.Prmt_enterDOB</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_TVP_Process_437">
+        <servlet-name>TVP_Process-Dat_assignNumberPlayDOB</servlet-name>
+        <servlet-class>flow.subflow.TVP_Process.Dat_assignNumberPlayDOB</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_TVP_Process_451">
+        <servlet-name>TVP_Process-Dat_DOBCheck</servlet-name>
+        <servlet-class>flow.subflow.TVP_Process.Dat_DOBCheck</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_TVP_Process_467">
+        <servlet-name>TVP_Process-Ann_POATypeIncorrect</servlet-name>
+        <servlet-class>flow.subflow.TVP_Process.Ann_POATypeIncorrect</servlet-class>
+    </servlet>
+    
+    <servlet id="SAGE-callflow-servlet_TVP_Process_488">
+        <servlet-name>TVP_Process-Ann_DOBIncorrect</servlet-name>
+        <servlet-class>flow.subflow.TVP_Process.Ann_DOBIncorrect</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_TVP_Process_507">
+        <servlet-name>TVP_Process-Dat_CheckPOATypeConfig</servlet-name>
+        <servlet-class>flow.subflow.TVP_Process.Dat_CheckPOATypeConfig</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_TVP_DataConscentFlagUpdation_13">
+        <servlet-name>TVP_DataConscentFlagUpdation-Dat_checkDataConscent</servlet-name>
+        <servlet-class>flow.subflow.TVP_DataConscentFlagUpdation.Dat_checkDataConscent</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_TVP_DataConscentFlagUpdation_22">
+        <servlet-name>TVP_DataConscentFlagUpdation-Call_SMS</servlet-name>
+        <servlet-class>flow.subflow.TVP_DataConscentFlagUpdation.Call_SMS</servlet-class>
+    </servlet>
+    
+    <servlet id="SAGE-callflow-servlet_TVP_Process_531">
+        <servlet-name>TVP_Process-Dat_checkEKYC</servlet-name>
+        <servlet-class>flow.subflow.TVP_Process.Dat_checkEKYC</servlet-class>
+    </servlet>
+    
+    <servlet-mapping id="avayadefaultdisconnecthandler-servletmapping">
+        <servlet-name>AvayaDefaultDisconnectHandler</servlet-name>
+        <url-pattern>/AvayaDefaultDisconnectHandler</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="avayadefaultexithandler-servletmapping">
+        <servlet-name>AvayaDefaultExitHandler</servlet-name>
+        <url-pattern>/AvayaDefaultExitHandler</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="avayasessiontermination-servletmapping">
+        <servlet-name>AvayaSessionTerminationServlet</servlet-name>
+        <url-pattern>/AvayaSessionTerminationServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="avayareturnerrorhandler-servletmapping">
+        <servlet-name>AvayaReturnErrorHandler</servlet-name>
+        <url-pattern>/AvayaReturnErrorHandler</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="avayareturnerrorthrow-servletmapping">
+        <servlet-name>AvayaReturnErrorThrow</servlet-name>
+        <url-pattern>/AvayaReturnErrorThrow</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_1">
+        <servlet-name>AppRoot</servlet-name>
+        <url-pattern>/AppRoot</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_0">
+        <servlet-name>Start</servlet-name>
+        <url-pattern>/Start</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_3">
+        <servlet-name>Call_LanguageSel</servlet-name>
+        <url-pattern>/Call_LanguageSel</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_LanguageSelection_1">
+        <servlet-name>LanguageSelection-Begin</servlet-name>
+        <url-pattern>/LanguageSelection-Begin</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_LanguageSelection_4">
+        <servlet-name>LanguageSelection-Ret_LangSel</servlet-name>
+        <url-pattern>/LanguageSelection-Ret_LangSel</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_ReadSIM_Number_1">
+        <servlet-name>ReadSIM_Number-Begin</servlet-name>
+        <url-pattern>/ReadSIM_Number-Begin</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_ReadSIM_Number_4">
+        <servlet-name>ReadSIM_Number-Ret_ReadSIM</servlet-name>
+        <url-pattern>/ReadSIM_Number-Ret_ReadSIM</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_6">
+        <servlet-name>Call_ReadSIM</servlet-name>
+        <url-pattern>/Call_ReadSIM</url-pattern>
+    </servlet-mapping>
+    
+    
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_9">
+        <servlet-name>Call_ValidateTVPStatus</servlet-name>
+        <url-pattern>/Call_ValidateTVPStatus</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_TVP_Process_1">
+        <servlet-name>TVP_Process-Begin</servlet-name>
+        <url-pattern>/TVP_Process-Begin</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_TVP_Process_4">
+        <servlet-name>TVP_Process-Ret_TVP_Process_Succ</servlet-name>
+        <url-pattern>/TVP_Process-Ret_TVP_Process_Succ</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_12">
+        <servlet-name>Dat_HotLineCheck</servlet-name>
+        <url-pattern>/Dat_HotLineCheck</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_22">
+        <servlet-name>Mnu_ServiceMenu</servlet-name>
+        <url-pattern>/Mnu_ServiceMenu</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_ReadSIM_Number_6">
+        <servlet-name>ReadSIM_Number-Pnc_GetSIMNumber</servlet-name>
+        <url-pattern>/ReadSIM_Number-Pnc_GetSIMNumber</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_ReadSIM_Number_16">
+        <servlet-name>ReadSIM_Number-Dat_AssignMDN</servlet-name>
+        <url-pattern>/ReadSIM_Number-Dat_AssignMDN</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_32">
+        <servlet-name>Srv_ReadConfig</servlet-name>
+        <url-pattern>/Srv_ReadConfig</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_36">
+        <servlet-name>Dat_CheckStatus</servlet-name>
+        <url-pattern>/Dat_CheckStatus</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_45">
+        <servlet-name>End</servlet-name>
+        <url-pattern>/End</url-pattern>
+    </servlet-mapping>
+    
+    <servlet-mapping id="SAGE-callflow-servletmapping_LanguageSelection_6">
+        <servlet-name>LanguageSelection-Ann_Welcome</servlet-name>
+        <url-pattern>/LanguageSelection-Ann_Welcome</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_LanguageSelection_12">
+        <servlet-name>LanguageSelection-Mnu_LanguageSelection</servlet-name>
+        <url-pattern>/LanguageSelection-Mnu_LanguageSelection</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_LanguageSelection_29">
+        <servlet-name>LanguageSelection-Srv_SetCurrentLanguage</servlet-name>
+        <url-pattern>/LanguageSelection-Srv_SetCurrentLanguage</url-pattern>
+    </servlet-mapping>
+    
+    <servlet-mapping id="SAGE-callflow-servletmapping_TVP_Process_6">
+        <servlet-name>TVP_Process-TVPVerificationSuccess</servlet-name>
+        <url-pattern>/TVP_Process-TVPVerificationSuccess</url-pattern>
+    </servlet-mapping>
+    
+    
+    <servlet-mapping id="SAGE-callflow-servletmapping_TVP_Process_33">
+        <servlet-name>TVP_Process-Prmt_enterDOI</servlet-name>
+        <url-pattern>/TVP_Process-Prmt_enterDOI</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_TVP_Process_29">
+        <servlet-name>TVP_Process-POA_Incorrect</servlet-name>
+        <url-pattern>/TVP_Process-POA_Incorrect</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_93">
+        <servlet-name>Dat_CheckTechnology</servlet-name>
+        <url-pattern>/Dat_CheckTechnology</url-pattern>
+    </servlet-mapping>
+    
+    
+    
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_125">
+        <servlet-name>Ann_technicalProblem</servlet-name>
+        <url-pattern>/Ann_technicalProblem</url-pattern>
+    </servlet-mapping>
+    
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_134">
+        <servlet-name>Dat_TVP_ServiceCheck</servlet-name>
+        <url-pattern>/Dat_TVP_ServiceCheck</url-pattern>
+    </servlet-mapping>
+    
+    
+    
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_156">
+        <servlet-name>Dat_TVPDataCardCheck</servlet-name>
+        <url-pattern>/Dat_TVPDataCardCheck</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_187">
+        <servlet-name>TVPStatusCheck</servlet-name>
+        <url-pattern>/TVPStatusCheck</url-pattern>
+    </servlet-mapping>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_198">
+        <servlet-name>Call_TVP_Process</servlet-name>
+        <url-pattern>/Call_TVP_Process</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_TVP_Process_61">
+        <servlet-name>TVP_Process-Ann_tvpProcessStart</servlet-name>
+        <url-pattern>/TVP_Process-Ann_tvpProcessStart</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_TVP_Process_66">
+        <servlet-name>TVP_Process-Dat_checkPOA</servlet-name>
+        <url-pattern>/TVP_Process-Dat_checkPOA</url-pattern>
+    </servlet-mapping>
+    
+    <servlet-mapping id="SAGE-callflow-servletmapping_TVP_Process_79">
+        <servlet-name>TVP_Process-Prmt_enter4digitPOA</servlet-name>
+        <url-pattern>/TVP_Process-Prmt_enter4digitPOA</url-pattern>
+    </servlet-mapping>
+    
+    <servlet-mapping id="SAGE-callflow-servletmapping_TVP_Process_94">
+        <servlet-name>TVP_Process-Dat_checkPOAMatch</servlet-name>
+        <url-pattern>/TVP_Process-Dat_checkPOAMatch</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_TVP_Process_100">
+        <servlet-name>TVP_Process-TVP_FlagUpdate</servlet-name>
+        <url-pattern>/TVP_Process-TVP_FlagUpdate</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_TVP_Process_105">
+        <servlet-name>TVP_Process-Dat_checkTries</servlet-name>
+        <url-pattern>/TVP_Process-Dat_checkTries</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_TVP_Process_127">
+        <servlet-name>TVP_Process-Dat_POADateMach</servlet-name>
+        <url-pattern>/TVP_Process-Dat_POADateMach</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_TVP_Process_137">
+        <servlet-name>TVP_Process-Ann_POADateIncorrect</servlet-name>
+        <url-pattern>/TVP_Process-Ann_POADateIncorrect</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_TVP_FlagUpdate_1">
+        <servlet-name>TVP_FlagUpdate-Begin</servlet-name>
+        <url-pattern>/TVP_FlagUpdate-Begin</url-pattern>
+    </servlet-mapping>
+    
+    <servlet-mapping id="SAGE-callflow-servletmapping_TVP_FlagUpdate_7">
+        <servlet-name>TVP_FlagUpdate-Ret_Xfer</servlet-name>
+        <url-pattern>/TVP_FlagUpdate-Ret_Xfer</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_TVP_FlagUpdate_10">
+        <servlet-name>TVP_FlagUpdate-Dat_tvpUpdateCheck</servlet-name>
+        <url-pattern>/TVP_FlagUpdate-Dat_tvpUpdateCheck</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_TVP_FlagUpdate_19">
+        <servlet-name>TVP_FlagUpdate-Ret_Success</servlet-name>
+        <url-pattern>/TVP_FlagUpdate-Ret_Success</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_TVP_Process_153">
+        <servlet-name>TVP_Process-Dat_checkCustomerType</servlet-name>
+        <url-pattern>/TVP_Process-Dat_checkCustomerType</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_TVP_Process_164">
+        <servlet-name>TVP_Process-Ann_MaxTry</servlet-name>
+        <url-pattern>/TVP_Process-Ann_MaxTry</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_ReadSIM_Number_48">
+        <servlet-name>ReadSIM_Number-Mnu_NumberConfirm</servlet-name>
+        <url-pattern>/ReadSIM_Number-Mnu_NumberConfirm</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_ReadSIM_Number_61">
+        <servlet-name>ReadSIM_Number-Dat_checkTries</servlet-name>
+        <url-pattern>/ReadSIM_Number-Dat_checkTries</url-pattern>
+    </servlet-mapping>
+    
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_218">
+        <servlet-name>Dat_AssignProductType</servlet-name>
+        <url-pattern>/Dat_AssignProductType</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_232">
+        <servlet-name>Ann_NoDataFound</servlet-name>
+        <url-pattern>/Ann_NoDataFound</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_ValidateTVPStatus_1">
+        <servlet-name>ValidateTVPStatus-Begin</servlet-name>
+        <url-pattern>/ValidateTVPStatus-Begin</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_ValidateTVPStatus_8">
+        <servlet-name>ValidateTVPStatus-Dat_TeleVerify</servlet-name>
+        <url-pattern>/ValidateTVPStatus-Dat_TeleVerify</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_ValidateTVPStatus_24">
+        <servlet-name>ValidateTVPStatus-Transfer</servlet-name>
+        <url-pattern>/ValidateTVPStatus-Transfer</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_ValidateTVPStatus_26">
+        <servlet-name>ValidateTVPStatus-PhoneGen_check</servlet-name>
+        <url-pattern>/ValidateTVPStatus-PhoneGen_check</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_ValidateTVPStatus_30">
+        <servlet-name>ValidateTVPStatus-checkTech</servlet-name>
+        <url-pattern>/ValidateTVPStatus-checkTech</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_241">
+        <servlet-name>Dat_PhoneGenCheck</servlet-name>
+        <url-pattern>/Dat_PhoneGenCheck</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_247">
+        <servlet-name>Ann_Postpaid</servlet-name>
+        <url-pattern>/Ann_Postpaid</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_251">
+        <servlet-name>Ann_Prepaid</servlet-name>
+        <url-pattern>/Ann_Prepaid</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_TVP_FlagUpdate_26">
+        <servlet-name>TVP_FlagUpdate-Mnu_ActivateData</servlet-name>
+        <url-pattern>/TVP_FlagUpdate-Mnu_ActivateData</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_TVP_FlagUpdate_54">
+        <servlet-name>TVP_FlagUpdate-Ann_SuccessInProcee</servlet-name>
+        <url-pattern>/TVP_FlagUpdate-Ann_SuccessInProcee</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_TVP_Process_181">
+        <servlet-name>TVP_Process-Mnu_ConfPAO</servlet-name>
+        <url-pattern>/TVP_Process-Mnu_ConfPAO</url-pattern>
+    </servlet-mapping>
+    
+    
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_294">
+        <servlet-name>Dat_SetReportDisconnect</servlet-name>
+        <url-pattern>/Dat_SetReportDisconnect</url-pattern>
+    </servlet-mapping>
+    
+    
+    
+    
+    
+    
+    <servlet-mapping id="SAGE-callflow-servletmapping_TVP_FlagUpdate_61">
+        <servlet-name>TVP_FlagUpdate-setDataConscentN</servlet-name>
+        <url-pattern>/TVP_FlagUpdate-setDataConscentN</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_TVP_FlagUpdate_68">
+        <servlet-name>TVP_FlagUpdate-setDataConscentY</servlet-name>
+        <url-pattern>/TVP_FlagUpdate-setDataConscentY</url-pattern>
+    </servlet-mapping>
+    
+    
+    
+    
+    
+    <servlet-mapping id="SAGE-callflow-servletmapping_TVP_Process_232">
+        <servlet-name>TVP_Process-assignNumberPlay</servlet-name>
+        <url-pattern>/TVP_Process-assignNumberPlay</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_TVP_Process_241">
+        <servlet-name>TVP_Process-Dat_assignNumberPlayDOI</servlet-name>
+        <url-pattern>/TVP_Process-Dat_assignNumberPlayDOI</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_TVP_FlagUpdate_76">
+        <servlet-name>TVP_FlagUpdate-Dat_checkProduct</servlet-name>
+        <url-pattern>/TVP_FlagUpdate-Dat_checkProduct</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_LanguageSelection_51">
+        <servlet-name>LanguageSelection-Ret_CallDisconnect</servlet-name>
+        <url-pattern>/LanguageSelection-Ret_CallDisconnect</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_ReadSIM_Number_123">
+        <servlet-name>ReadSIM_Number-Ret_CallDisconnect</servlet-name>
+        <url-pattern>/ReadSIM_Number-Ret_CallDisconnect</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_ReadSIM_Number_133">
+        <servlet-name>ReadSIM_Number-Ret_CallXfer</servlet-name>
+        <url-pattern>/ReadSIM_Number-Ret_CallXfer</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_TVP_Process_252">
+        <servlet-name>TVP_Process-Ret_CallDisconnect</servlet-name>
+        <url-pattern>/TVP_Process-Ret_CallDisconnect</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_TVP_Process_253">
+        <servlet-name>TVP_Process-Ret_Xfer</servlet-name>
+        <url-pattern>/TVP_Process-Ret_Xfer</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_TVP_StatusCheck_1">
+        <servlet-name>TVP_StatusCheck-Begin</servlet-name>
+        <url-pattern>/TVP_StatusCheck-Begin</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_TVP_StatusCheck_4">
+        <servlet-name>TVP_StatusCheck-Dat_TVP_StatusCheck</servlet-name>
+        <url-pattern>/TVP_StatusCheck-Dat_TVP_StatusCheck</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_TVP_StatusCheck_143">
+        <servlet-name>TVP_StatusCheck-Ann_Postpaid</servlet-name>
+        <url-pattern>/TVP_StatusCheck-Ann_Postpaid</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_TVP_StatusCheck_67">
+        <servlet-name>TVP_StatusCheck-Ann_PrepaidSpecificMsg</servlet-name>
+        <url-pattern>/TVP_StatusCheck-Ann_PrepaidSpecificMsg</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_TVP_StatusCheck_9">
+        <servlet-name>TVP_StatusCheck-Ann_deskClose</servlet-name>
+        <url-pattern>/TVP_StatusCheck-Ann_deskClose</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_TVP_StatusCheck_135">
+        <servlet-name>TVP_StatusCheck-checkService</servlet-name>
+        <url-pattern>/TVP_StatusCheck-checkService</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_TVP_StatusCheck_75">
+        <servlet-name>TVP_StatusCheck-Ann_TibcoPending</servlet-name>
+        <url-pattern>/TVP_StatusCheck-Ann_TibcoPending</url-pattern>
+    </servlet-mapping>
+    
+    <servlet-mapping id="SAGE-callflow-servletmapping_TVP_StatusCheck_81">
+        <servlet-name>TVP_StatusCheck-Ret_Xfer</servlet-name>
+        <url-pattern>/TVP_StatusCheck-Ret_Xfer</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_TVP_StatusCheck_82">
+        <servlet-name>TVP_StatusCheck-Ret_TVP_Flag</servlet-name>
+        <url-pattern>/TVP_StatusCheck-Ret_TVP_Flag</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_TVP_StatusCheck_28">
+        <servlet-name>TVP_StatusCheck-checkWorkTime</servlet-name>
+        <url-pattern>/TVP_StatusCheck-checkWorkTime</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_TVP_StatusCheck_100">
+        <servlet-name>TVP_StatusCheck-Ann_TibcoTVPosted</servlet-name>
+        <url-pattern>/TVP_StatusCheck-Ann_TibcoTVPosted</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_TVP_StatusCheck_33">
+        <servlet-name>TVP_StatusCheck-End</servlet-name>
+        <url-pattern>/TVP_StatusCheck-End</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_TVP_StatusCheck_38">
+        <servlet-name>TVP_StatusCheck-Ann_ActivationMsg</servlet-name>
+        <url-pattern>/TVP_StatusCheck-Ann_ActivationMsg</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_TVP_StatusCheck_108">
+        <servlet-name>TVP_StatusCheck-Ann_TibcoMNPPending</servlet-name>
+        <url-pattern>/TVP_StatusCheck-Ann_TibcoMNPPending</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_TVP_StatusCheck_46">
+        <servlet-name>TVP_StatusCheck-Ann_SubmitDoc</servlet-name>
+        <url-pattern>/TVP_StatusCheck-Ann_SubmitDoc</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_TVP_StatusCheck_104">
+        <servlet-name>TVP_StatusCheck-Ann_TibcoTVFailed</servlet-name>
+        <url-pattern>/TVP_StatusCheck-Ann_TibcoTVFailed</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_TVP_StatusCheck_53">
+        <servlet-name>TVP_StatusCheck-Dat_checkCallTime</servlet-name>
+        <url-pattern>/TVP_StatusCheck-Dat_checkCallTime</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_TVP_StatusCheck_112">
+        <servlet-name>TVP_StatusCheck-Ann_TVFailed</servlet-name>
+        <url-pattern>/TVP_StatusCheck-Ann_TVFailed</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_TVP_StatusCheck_63">
+        <servlet-name>TVP_StatusCheck-Ann_InProcess</servlet-name>
+        <url-pattern>/TVP_StatusCheck-Ann_InProcess</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_TransferCall_1">
+        <servlet-name>TransferCall-Begin</servlet-name>
+        <url-pattern>/TransferCall-Begin</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_TransferCall_4">
+        <servlet-name>TransferCall-blindTransfer</servlet-name>
+        <url-pattern>/TransferCall-blindTransfer</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_TransferCall_11">
+        <servlet-name>TransferCall-Dat_GetTransferVDN</servlet-name>
+        <url-pattern>/TransferCall-Dat_GetTransferVDN</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_TransferCall_18">
+        <servlet-name>TransferCall-Ret_Success</servlet-name>
+        <url-pattern>/TransferCall-Ret_Success</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_409">
+        <servlet-name>Call_TransferCall</servlet-name>
+        <url-pattern>/Call_TransferCall</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_EndCallProcess_1">
+        <servlet-name>EndCallProcess-Begin</servlet-name>
+        <url-pattern>/EndCallProcess-Begin</url-pattern>
+    </servlet-mapping>
+    
+    
+    <servlet-mapping id="SAGE-callflow-servletmapping_EndCallProcess_14">
+        <servlet-name>EndCallProcess-Ret_Success</servlet-name>
+        <url-pattern>/EndCallProcess-Ret_Success</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_EndCallProcess_17">
+        <servlet-name>EndCallProcess-Dat_EndCallProcess</servlet-name>
+        <url-pattern>/EndCallProcess-Dat_EndCallProcess</url-pattern>
+    </servlet-mapping>
+    
+    
+    <servlet-mapping id="SAGE-callflow-servletmapping_TVP_SendSMS_1">
+        <servlet-name>TVP_SendSMS-Begin</servlet-name>
+        <url-pattern>/TVP_SendSMS-Begin</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_TVP_SendSMS_4">
+        <servlet-name>TVP_SendSMS-CSS_PushSMS</servlet-name>
+        <url-pattern>/TVP_SendSMS-CSS_PushSMS</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_TVP_SendSMS_8">
+        <servlet-name>TVP_SendSMS-end</servlet-name>
+        <url-pattern>/TVP_SendSMS-end</url-pattern>
+    </servlet-mapping>
+    
+    
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_437">
+        <servlet-name>Ann_tryFrmMobile</servlet-name>
+        <url-pattern>/Ann_tryFrmMobile</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_LanguageSelection_61">
+        <servlet-name>LanguageSelection-Ann_Max</servlet-name>
+        <url-pattern>/LanguageSelection-Ann_Max</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_457">
+        <servlet-name>Ann_Max</servlet-name>
+        <url-pattern>/Ann_Max</url-pattern>
+    </servlet-mapping>
+    
+    <servlet-mapping id="SAGE-callflow-servletmapping_TransferCall_21">
+        <servlet-name>TransferCall-Ann_transfer</servlet-name>
+        <url-pattern>/TransferCall-Ann_transfer</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_TransferCall_28">
+        <servlet-name>TransferCall-checkeCallAlreadyTransfered</servlet-name>
+        <url-pattern>/TransferCall-checkeCallAlreadyTransfered</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_ReadSIM_Number_147">
+        <servlet-name>ReadSIM_Number-Ann_MaxMsg</servlet-name>
+        <url-pattern>/ReadSIM_Number-Ann_MaxMsg</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_LanguageSelection_71">
+        <servlet-name>LanguageSelection-setDefaultLanguage</servlet-name>
+        <url-pattern>/LanguageSelection-setDefaultLanguage</url-pattern>
+    </servlet-mapping>
+    
+    
+    
+    
+    <servlet-mapping id="SAGE-callflow-servletmapping_EndCallProcess_49">
+        <servlet-name>EndCallProcess-Dat_CallDisconnect</servlet-name>
+        <url-pattern>/EndCallProcess-Dat_CallDisconnect</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_EndCallProcess_42">
+        <servlet-name>EndCallProcess-Ann_thanks</servlet-name>
+        <url-pattern>/EndCallProcess-Ann_thanks</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_EndCallProcess_46">
+        <servlet-name>EndCallProcess-Disconnect_Call</servlet-name>
+        <url-pattern>/EndCallProcess-Disconnect_Call</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_514">
+        <servlet-name>Call_EndProcess</servlet-name>
+        <url-pattern>/Call_EndProcess</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_TVP_Process_286">
+        <servlet-name>TVP_Process-Dat_checkConfRetry</servlet-name>
+        <url-pattern>/TVP_Process-Dat_checkConfRetry</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_TVP_DataConscentFlagUpdation_1">
+        <servlet-name>TVP_DataConscentFlagUpdation-Begin</servlet-name>
+        <url-pattern>/TVP_DataConscentFlagUpdation-Begin</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_TVP_DataConscentFlagUpdation_7">
+        <servlet-name>TVP_DataConscentFlagUpdation-Srv_FlagUpdate</servlet-name>
+        <url-pattern>/TVP_DataConscentFlagUpdation-Srv_FlagUpdate</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_TVP_DataConscentFlagUpdation_11">
+        <servlet-name>TVP_DataConscentFlagUpdation-end</servlet-name>
+        <url-pattern>/TVP_DataConscentFlagUpdation-end</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_TVP_FlagUpdate_90">
+        <servlet-name>TVP_FlagUpdate-Call_DataConscentFlagUpdation</servlet-name>
+        <url-pattern>/TVP_FlagUpdate-Call_DataConscentFlagUpdation</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_EndCallProcess_67">
+        <servlet-name>EndCallProcess-Call_FlagUpdate</servlet-name>
+        <url-pattern>/EndCallProcess-Call_FlagUpdate</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_EndCallProcess_75">
+        <servlet-name>EndCallProcess-Dat_checkMnuActiveData</servlet-name>
+        <url-pattern>/EndCallProcess-Dat_checkMnuActiveData</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_530">
+        <servlet-name>Ann_Dongle</servlet-name>
+        <url-pattern>/Ann_Dongle</url-pattern>
+    </servlet-mapping>
+    
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_619">
+        <servlet-name>Ann_inavlid</servlet-name>
+        <url-pattern>/Ann_inavlid</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_ValidateTVPStatus_79">
+        <servlet-name>ValidateTVPStatus-Dat_1800MobileCheck</servlet-name>
+        <url-pattern>/ValidateTVPStatus-Dat_1800MobileCheck</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_ValidateTVPStatus_91">
+        <servlet-name>ValidateTVPStatus-Ann_Call59059</servlet-name>
+        <url-pattern>/ValidateTVPStatus-Ann_Call59059</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_ValidateTVPStatus_101">
+        <servlet-name>ValidateTVPStatus-end</servlet-name>
+        <url-pattern>/ValidateTVPStatus-end</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_CF_HotFlash_1">
+        <servlet-name>CF_HotFlash-Begin</servlet-name>
+        <url-pattern>/CF_HotFlash-Begin</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_CF_HotFlash_4">
+        <servlet-name>CF_HotFlash-Dat_GetHotflashMsg</servlet-name>
+        <url-pattern>/CF_HotFlash-Dat_GetHotflashMsg</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_CF_HotFlash_8">
+        <servlet-name>CF_HotFlash-Ann_Hotflash</servlet-name>
+        <url-pattern>/CF_HotFlash-Ann_Hotflash</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_CF_HotFlash_12">
+        <servlet-name>CF_HotFlash-end</servlet-name>
+        <url-pattern>/CF_HotFlash-end</url-pattern>
+    </servlet-mapping>
+    
+    
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_649">
+        <servlet-name>Call_Hotflash</servlet-name>
+        <url-pattern>/Call_Hotflash</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_TransferCall_50">
+        <servlet-name>TransferCall-Dat_AssignHFID</servlet-name>
+        <url-pattern>/TransferCall-Dat_AssignHFID</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_TransferCall_58">
+        <servlet-name>TransferCall-Call_HF</servlet-name>
+        <url-pattern>/TransferCall-Call_HF</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_CF_HotFlash_25">
+        <servlet-name>CF_HotFlash-Srv_fetchHotflash</servlet-name>
+        <url-pattern>/CF_HotFlash-Srv_fetchHotflash</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_CF_HotFlash_30">
+        <servlet-name>CF_HotFlash-Dat_checkHFFetched</servlet-name>
+        <url-pattern>/CF_HotFlash-Dat_checkHFFetched</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_TVP_Process_346">
+        <servlet-name>TVP_Process-Ann_MaxMsg</servlet-name>
+        <url-pattern>/TVP_Process-Ann_MaxMsg</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_ValidateTVPStatus_646">
+        <servlet-name>ValidateTVPStatus-Dat_HotLineCheck</servlet-name>
+        <url-pattern>/ValidateTVPStatus-Dat_HotLineCheck</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_TVP_Process_353">
+        <servlet-name>TVP_Process-Mnu_POAType</servlet-name>
+        <url-pattern>/TVP_Process-Mnu_POAType</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_TVP_Process_377">
+        <servlet-name>TVP_Process-Dat_checkPOAType</servlet-name>
+        <url-pattern>/TVP_Process-Dat_checkPOAType</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_TVP_Process_397">
+        <servlet-name>TVP_Process-Dat_chkTry</servlet-name>
+        <url-pattern>/TVP_Process-Dat_chkTry</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_TVP_Process_416">
+        <servlet-name>TVP_Process-Prmt_enterDOB</servlet-name>
+        <url-pattern>/TVP_Process-Prmt_enterDOB</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_TVP_Process_437">
+        <servlet-name>TVP_Process-Dat_assignNumberPlayDOB</servlet-name>
+        <url-pattern>/TVP_Process-Dat_assignNumberPlayDOB</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_TVP_Process_451">
+        <servlet-name>TVP_Process-Dat_DOBCheck</servlet-name>
+        <url-pattern>/TVP_Process-Dat_DOBCheck</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_TVP_Process_467">
+        <servlet-name>TVP_Process-Ann_POATypeIncorrect</servlet-name>
+        <url-pattern>/TVP_Process-Ann_POATypeIncorrect</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_TVP_Process_488">
+        <servlet-name>TVP_Process-Ann_DOBIncorrect</servlet-name>
+        <url-pattern>/TVP_Process-Ann_DOBIncorrect</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_TVP_Process_507">
+        <servlet-name>TVP_Process-Dat_CheckPOATypeConfig</servlet-name>
+        <url-pattern>/TVP_Process-Dat_CheckPOATypeConfig</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_TVP_DataConscentFlagUpdation_13">
+        <servlet-name>TVP_DataConscentFlagUpdation-Dat_checkDataConscent</servlet-name>
+        <url-pattern>/TVP_DataConscentFlagUpdation-Dat_checkDataConscent</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_TVP_DataConscentFlagUpdation_22">
+        <servlet-name>TVP_DataConscentFlagUpdation-Call_SMS</servlet-name>
+        <url-pattern>/TVP_DataConscentFlagUpdation-Call_SMS</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_TVP_Process_531">
+        <servlet-name>TVP_Process-Dat_checkEKYC</servlet-name>
+        <url-pattern>/TVP_Process-Dat_checkEKYC</url-pattern>
+    </servlet-mapping>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</web-app>

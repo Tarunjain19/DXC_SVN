@@ -1,0 +1,864 @@
+28/09/2015 14:39:09:393  INFO - In Progress | session id:mpp-2015271085739-7 | DM:ReportEnd | Welcome_PP | Return Code | Output_Parameters:returncode |  | 10000001411443430659
+28/09/2015 14:39:09:407  INFO - End | session id:mpp-2015271085739-7 | DM:ReportEnd | Welcome_PP |  |  |  | 10000001411443430659
+28/09/2015 14:39:27:915  INFO - In Progress | session id:mpp-2015271085739-7 | DM:ReportEnd | SelectLang_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000001411443430659
+28/09/2015 14:39:27:915  INFO - In Progress | session id:mpp-2015271085739-7 | DM:ReportEnd | SelectLang_MN | Input Type | Output_Parameters:inputType | dtmf | 10000001411443430659
+28/09/2015 14:39:27:915  INFO - In Progress | session id:mpp-2015271085739-7 | DM:ReportEnd | SelectLang_MN | Value | Output_Parameters:value | TAM | 10000001411443430659
+28/09/2015 14:39:27:915  INFO - End | session id:mpp-2015271085739-7 | DM:ReportEnd | SelectLang_MN |  |  |  | 10000001411443430659
+28/09/2015 14:40:34:051  INFO - In Progress | session id:mpp-2015271085905-10 | DM:ReportEnd | Welcome_PP | Return Code | Output_Parameters:returncode |  | 10000001421443430745
+28/09/2015 14:40:34:052  INFO - End | session id:mpp-2015271085905-10 | DM:ReportEnd | Welcome_PP |  |  |  | 10000001421443430745
+28/09/2015 14:48:54:062  INFO - In Progress | session id:mpp-2015271090725-12 | DM:ReportEnd | Welcome_PP | Return Code | Output_Parameters:returncode |  | 10000001431443431245
+28/09/2015 14:48:54:063  INFO - End | session id:mpp-2015271090725-12 | DM:ReportEnd | Welcome_PP |  |  |  | 10000001431443431245
+28/09/2015 14:49:13:205  INFO - In Progress | session id:mpp-2015271090725-12 | DM:ReportEnd | SelectLang_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000001431443431245
+28/09/2015 14:49:13:205  INFO - In Progress | session id:mpp-2015271090725-12 | DM:ReportEnd | SelectLang_MN | Input Type | Output_Parameters:inputType | dtmf | 10000001431443431245
+28/09/2015 14:49:13:205  INFO - In Progress | session id:mpp-2015271090725-12 | DM:ReportEnd | SelectLang_MN | Value | Output_Parameters:value | HIN | 10000001431443431245
+28/09/2015 14:49:13:205  INFO - End | session id:mpp-2015271090725-12 | DM:ReportEnd | SelectLang_MN |  |  |  | 10000001431443431245
+28/09/2015 14:49:19:851  INFO - In Progress | session id:mpp-2015271090725-12 | DM:ReportEnd | MainMenu | Return Code | Output_Parameters:returncode | SUCCESS | 10000001431443431245
+28/09/2015 14:49:19:852  INFO - In Progress | session id:mpp-2015271090725-12 | DM:ReportEnd | MainMenu | Input Type | Output_Parameters:inputType | dtmf | 10000001431443431245
+28/09/2015 14:49:19:852  INFO - In Progress | session id:mpp-2015271090725-12 | DM:ReportEnd | MainMenu | Value | Output_Parameters:value | Prepaid | 10000001431443431245
+28/09/2015 14:49:19:852  INFO - End | session id:mpp-2015271090725-12 | DM:ReportEnd | MainMenu |  |  |  | 10000001431443431245
+28/09/2015 14:55:37:924  INFO - In Progress | session id:mpp-2015271091409-15 | DM:ReportEnd | Welcome_PP | Return Code | Output_Parameters:returncode |  | 10000001441443431649
+28/09/2015 14:55:37:924  INFO - End | session id:mpp-2015271091409-15 | DM:ReportEnd | Welcome_PP |  |  |  | 10000001441443431649
+28/09/2015 14:55:54:513  INFO - In Progress | session id:mpp-2015271091409-15 | DM:ReportEnd | SelectLang_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000001441443431649
+28/09/2015 14:55:54:513  INFO - In Progress | session id:mpp-2015271091409-15 | DM:ReportEnd | SelectLang_MN | Input Type | Output_Parameters:inputType | dtmf | 10000001441443431649
+28/09/2015 14:55:54:513  INFO - In Progress | session id:mpp-2015271091409-15 | DM:ReportEnd | SelectLang_MN | Value | Output_Parameters:value | TAM | 10000001441443431649
+28/09/2015 14:55:54:513  INFO - End | session id:mpp-2015271091409-15 | DM:ReportEnd | SelectLang_MN |  |  |  | 10000001441443431649
+28/09/2015 15:12:39:503  INFO - In Progress | session id:mpp-2015271093110-19 | DM:ReportEnd | Welcome_PP | Return Code | Output_Parameters:returncode |  | 10000001451443432670
+28/09/2015 15:12:39:503  INFO - End | session id:mpp-2015271093110-19 | DM:ReportEnd | Welcome_PP |  |  |  | 10000001451443432670
+28/09/2015 15:12:48:579  INFO - In Progress | session id:mpp-2015271093110-19 | DM:ReportEnd | SelectLang_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000001451443432670
+28/09/2015 15:12:48:579  INFO - In Progress | session id:mpp-2015271093110-19 | DM:ReportEnd | SelectLang_MN | Input Type | Output_Parameters:inputType | dtmf | 10000001451443432670
+28/09/2015 15:12:48:579  INFO - In Progress | session id:mpp-2015271093110-19 | DM:ReportEnd | SelectLang_MN | Value | Output_Parameters:value | TAM | 10000001451443432670
+28/09/2015 15:12:48:579  INFO - End | session id:mpp-2015271093110-19 | DM:ReportEnd | SelectLang_MN |  |  |  | 10000001451443432670
+28/09/2015 15:25:51:398  INFO - In Progress | session id:mpp-2015271094422-17 | DM:ReportEnd | Welcome_PP | Return Code | Output_Parameters:returncode |  | 10000001471443433462
+28/09/2015 15:25:51:399  INFO - End | session id:mpp-2015271094422-17 | DM:ReportEnd | Welcome_PP |  |  |  | 10000001471443433462
+28/09/2015 15:26:05:954  INFO - In Progress | session id:mpp-2015271094422-17 | DM:ReportEnd | SelectLang_MN | Return Code | Output_Parameters:returncode | NOMATCH | 10000001471443433462
+28/09/2015 15:26:05:954  INFO - End | session id:mpp-2015271094422-17 | DM:ReportEnd | SelectLang_MN |  |  |  | 10000001471443433462
+28/09/2015 15:26:20:884  INFO - In Progress | session id:mpp-2015271094452-2 | DM:ReportEnd | Welcome_PP | Return Code | Output_Parameters:returncode |  | 10000001481443433492
+28/09/2015 15:26:20:885  INFO - End | session id:mpp-2015271094452-2 | DM:ReportEnd | Welcome_PP |  |  |  | 10000001481443433492
+28/09/2015 15:27:15:009  INFO - In Progress | session id:mpp-2015271094452-2 | DM:ReportEnd | SelectLang_MN | Return Code | Output_Parameters:returncode | NOINPUT | 10000001481443433492
+28/09/2015 15:27:15:009  INFO - End | session id:mpp-2015271094452-2 | DM:ReportEnd | SelectLang_MN |  |  |  | 10000001481443433492
+28/09/2015 15:27:26:325  INFO - In Progress | session id:mpp-2015271094452-2 | DM:ReportEnd | MainMenu | Return Code | Output_Parameters:returncode | NOMATCH | 10000001481443433492
+28/09/2015 15:27:26:325  INFO - End | session id:mpp-2015271094452-2 | DM:ReportEnd | MainMenu |  |  |  | 10000001481443433492
+28/09/2015 15:27:26:461  INFO - In Progress | session id:mpp-2015271094452-2 | DM:ReportEnd | TransferAgent_PP | Return Code | Output_Parameters:returncode |  | 10000001481443433492
+28/09/2015 15:27:26:462  INFO - End | session id:mpp-2015271094452-2 | DM:ReportEnd | TransferAgent_PP |  |  |  | 10000001481443433492
+28/09/2015 15:28:04:822  INFO - In Progress | session id:mpp-2015271094636-20 | DM:ReportEnd | Welcome_PP | Return Code | Output_Parameters:returncode |  | 10000001491443433596
+28/09/2015 15:28:04:822  INFO - End | session id:mpp-2015271094636-20 | DM:ReportEnd | Welcome_PP |  |  |  | 10000001491443433596
+28/09/2015 15:28:18:826  INFO - In Progress | session id:mpp-2015271094636-20 | DM:ReportEnd | SelectLang_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000001491443433596
+28/09/2015 15:28:18:826  INFO - In Progress | session id:mpp-2015271094636-20 | DM:ReportEnd | SelectLang_MN | Input Type | Output_Parameters:inputType | dtmf | 10000001491443433596
+28/09/2015 15:28:18:826  INFO - In Progress | session id:mpp-2015271094636-20 | DM:ReportEnd | SelectLang_MN | Value | Output_Parameters:value | ENG | 10000001491443433596
+28/09/2015 15:28:18:826  INFO - End | session id:mpp-2015271094636-20 | DM:ReportEnd | SelectLang_MN |  |  |  | 10000001491443433596
+28/09/2015 15:29:04:078  INFO - In Progress | session id:mpp-2015271094636-20 | DM:ReportEnd | MainMenu | Return Code | Output_Parameters:returncode | NOINPUT | 10000001491443433596
+28/09/2015 15:29:04:078  INFO - End | session id:mpp-2015271094636-20 | DM:ReportEnd | MainMenu |  |  |  | 10000001491443433596
+28/09/2015 15:29:04:154  INFO - In Progress | session id:mpp-2015271094636-20 | DM:ReportEnd | TransferAgent_PP | Return Code | Output_Parameters:returncode |  | 10000001491443433596
+28/09/2015 15:29:04:154  INFO - End | session id:mpp-2015271094636-20 | DM:ReportEnd | TransferAgent_PP |  |  |  | 10000001491443433596
+28/09/2015 15:55:59:000  INFO - In Progress | session id:mpp-2015271101429-3 | DM:ReportEnd | Welcome_PP | Return Code | Output_Parameters:returncode |  | 10000001501443435269
+28/09/2015 15:55:59:000  INFO - End | session id:mpp-2015271101429-3 | DM:ReportEnd | Welcome_PP |  |  |  | 10000001501443435269
+28/09/2015 15:56:07:861  INFO - In Progress | session id:mpp-2015271101429-3 | DM:ReportEnd | SelectLang_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000001501443435269
+28/09/2015 15:56:07:861  INFO - In Progress | session id:mpp-2015271101429-3 | DM:ReportEnd | SelectLang_MN | Input Type | Output_Parameters:inputType | dtmf | 10000001501443435269
+28/09/2015 15:56:07:861  INFO - In Progress | session id:mpp-2015271101429-3 | DM:ReportEnd | SelectLang_MN | Value | Output_Parameters:value | TAM | 10000001501443435269
+28/09/2015 15:56:07:861  INFO - End | session id:mpp-2015271101429-3 | DM:ReportEnd | SelectLang_MN |  |  |  | 10000001501443435269
+28/09/2015 15:58:52:659  INFO - In Progress | session id:mpp-2015271101723-8 | DM:ReportEnd | Welcome_PP | Return Code | Output_Parameters:returncode |  | 10000001511443435443
+28/09/2015 15:58:52:659  INFO - End | session id:mpp-2015271101723-8 | DM:ReportEnd | Welcome_PP |  |  |  | 10000001511443435443
+28/09/2015 15:59:02:414  INFO - In Progress | session id:mpp-2015271101723-8 | DM:ReportEnd | SelectLang_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000001511443435443
+28/09/2015 15:59:02:414  INFO - In Progress | session id:mpp-2015271101723-8 | DM:ReportEnd | SelectLang_MN | Input Type | Output_Parameters:inputType | dtmf | 10000001511443435443
+28/09/2015 15:59:02:414  INFO - In Progress | session id:mpp-2015271101723-8 | DM:ReportEnd | SelectLang_MN | Value | Output_Parameters:value | TAM | 10000001511443435443
+28/09/2015 15:59:02:414  INFO - End | session id:mpp-2015271101723-8 | DM:ReportEnd | SelectLang_MN |  |  |  | 10000001511443435443
+28/09/2015 15:59:02:553  INFO - In Progress | session id:mpp-2015271101723-8 | DM:ReportEnd | NotAuthorized_PP | Return Code | Output_Parameters:returncode |  | 10000001511443435443
+28/09/2015 15:59:02:554  INFO - End | session id:mpp-2015271101723-8 | DM:ReportEnd | NotAuthorized_PP |  |  |  | 10000001511443435443
+28/09/2015 15:59:02:661  INFO - In Progress | session id:mpp-2015271101723-8 | DM:ReportEnd | ThankYou_PP | Return Code | Output_Parameters:returncode |  | 10000001511443435443
+28/09/2015 15:59:02:661  INFO - End | session id:mpp-2015271101723-8 | DM:ReportEnd | ThankYou_PP |  |  |  | 10000001511443435443
+28/09/2015 16:01:05:605  INFO - In Progress | session id:mpp-2015271101936-18 | DM:ReportEnd | Welcome_PP | Return Code | Output_Parameters:returncode |  | 10000001521443435576
+28/09/2015 16:01:05:605  INFO - End | session id:mpp-2015271101936-18 | DM:ReportEnd | Welcome_PP |  |  |  | 10000001521443435576
+28/09/2015 16:01:14:863  INFO - In Progress | session id:mpp-2015271101936-18 | DM:ReportEnd | SelectLang_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000001521443435576
+28/09/2015 16:01:14:863  INFO - In Progress | session id:mpp-2015271101936-18 | DM:ReportEnd | SelectLang_MN | Input Type | Output_Parameters:inputType | dtmf | 10000001521443435576
+28/09/2015 16:01:14:863  INFO - In Progress | session id:mpp-2015271101936-18 | DM:ReportEnd | SelectLang_MN | Value | Output_Parameters:value | TAM | 10000001521443435576
+28/09/2015 16:01:14:863  INFO - End | session id:mpp-2015271101936-18 | DM:ReportEnd | SelectLang_MN |  |  |  | 10000001521443435576
+28/09/2015 16:01:15:115  INFO - In Progress | session id:mpp-2015271101936-18 | DM:ReportEnd | TransactionMsg_PP | Return Code | Output_Parameters:returncode |  | 10000001521443435576
+28/09/2015 16:01:15:115  INFO - End | session id:mpp-2015271101936-18 | DM:ReportEnd | TransactionMsg_PP |  |  |  | 10000001521443435576
+28/09/2015 16:09:13:265  INFO - In Progress | session id:mpp-2015271102744-13 | DM:ReportEnd | Welcome_PP | Return Code | Output_Parameters:returncode |  | 10000001541443436064
+28/09/2015 16:09:13:265  INFO - End | session id:mpp-2015271102744-13 | DM:ReportEnd | Welcome_PP |  |  |  | 10000001541443436064
+28/09/2015 16:09:18:111  INFO - In Progress | session id:mpp-2015271102744-13 | DM:ReportEnd | SelectLang_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000001541443436064
+28/09/2015 16:09:18:112  INFO - In Progress | session id:mpp-2015271102744-13 | DM:ReportEnd | SelectLang_MN | Input Type | Output_Parameters:inputType | dtmf | 10000001541443436064
+28/09/2015 16:09:18:112  INFO - In Progress | session id:mpp-2015271102744-13 | DM:ReportEnd | SelectLang_MN | Value | Output_Parameters:value | TAM | 10000001541443436064
+28/09/2015 16:09:18:112  INFO - End | session id:mpp-2015271102744-13 | DM:ReportEnd | SelectLang_MN |  |  |  | 10000001541443436064
+28/09/2015 16:09:18:228  INFO - In Progress | session id:mpp-2015271102744-13 | DM:ReportEnd | TransactionMsg_PP | Return Code | Output_Parameters:returncode |  | 10000001541443436064
+28/09/2015 16:09:18:228  INFO - End | session id:mpp-2015271102744-13 | DM:ReportEnd | TransactionMsg_PP |  |  |  | 10000001541443436064
+28/09/2015 16:11:16:051  INFO - In Progress | session id:mpp-2015271102947-11 | DM:ReportEnd | Welcome_PP | Return Code | Output_Parameters:returncode |  | 10000001551443436187
+28/09/2015 16:11:16:051  INFO - End | session id:mpp-2015271102947-11 | DM:ReportEnd | Welcome_PP |  |  |  | 10000001551443436187
+28/09/2015 16:12:19:753  INFO - In Progress | session id:mpp-2015271103050-4 | DM:ReportEnd | Welcome_PP | Return Code | Output_Parameters:returncode |  | 10000001561443436250
+28/09/2015 16:12:19:753  INFO - End | session id:mpp-2015271103050-4 | DM:ReportEnd | Welcome_PP |  |  |  | 10000001561443436250
+28/09/2015 16:12:24:194  INFO - In Progress | session id:mpp-2015271103050-4 | DM:ReportEnd | SelectLang_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000001561443436250
+28/09/2015 16:12:24:194  INFO - In Progress | session id:mpp-2015271103050-4 | DM:ReportEnd | SelectLang_MN | Input Type | Output_Parameters:inputType | dtmf | 10000001561443436250
+28/09/2015 16:12:24:194  INFO - In Progress | session id:mpp-2015271103050-4 | DM:ReportEnd | SelectLang_MN | Value | Output_Parameters:value | TAM | 10000001561443436250
+28/09/2015 16:12:24:195  INFO - End | session id:mpp-2015271103050-4 | DM:ReportEnd | SelectLang_MN |  |  |  | 10000001561443436250
+28/09/2015 16:12:24:312  INFO - In Progress | session id:mpp-2015271103050-4 | DM:ReportEnd | TransactionMsg_PP | Return Code | Output_Parameters:returncode |  | 10000001561443436250
+28/09/2015 16:12:24:312  INFO - End | session id:mpp-2015271103050-4 | DM:ReportEnd | TransactionMsg_PP |  |  |  | 10000001561443436250
+28/09/2015 16:24:13:032  INFO - In Progress | session id:mpp-2015271104243-5 | DM:ReportEnd | Welcome_PP | Return Code | Output_Parameters:returncode |  | 10000001571443436963
+28/09/2015 16:24:13:032  INFO - End | session id:mpp-2015271104243-5 | DM:ReportEnd | Welcome_PP |  |  |  | 10000001571443436963
+28/09/2015 16:24:24:464  INFO - In Progress | session id:mpp-2015271104243-5 | DM:ReportEnd | SelectLang_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000001571443436963
+28/09/2015 16:24:24:464  INFO - In Progress | session id:mpp-2015271104243-5 | DM:ReportEnd | SelectLang_MN | Input Type | Output_Parameters:inputType | dtmf | 10000001571443436963
+28/09/2015 16:24:24:464  INFO - In Progress | session id:mpp-2015271104243-5 | DM:ReportEnd | SelectLang_MN | Value | Output_Parameters:value | TAM | 10000001571443436963
+28/09/2015 16:24:24:464  INFO - End | session id:mpp-2015271104243-5 | DM:ReportEnd | SelectLang_MN |  |  |  | 10000001571443436963
+28/09/2015 16:24:43:452  INFO - In Progress | session id:mpp-2015271104243-5 | DM:ReportEnd | MainMenu | Return Code | Output_Parameters:returncode | SUCCESS | 10000001571443436963
+28/09/2015 16:24:43:452  INFO - In Progress | session id:mpp-2015271104243-5 | DM:ReportEnd | MainMenu | Input Type | Output_Parameters:inputType | dtmf | 10000001571443436963
+28/09/2015 16:24:43:452  INFO - In Progress | session id:mpp-2015271104243-5 | DM:ReportEnd | MainMenu | Value | Output_Parameters:value | Postpaid | 10000001571443436963
+28/09/2015 16:24:43:452  INFO - End | session id:mpp-2015271104243-5 | DM:ReportEnd | MainMenu |  |  |  | 10000001571443436963
+28/09/2015 16:24:52:755  INFO - In Progress | session id:mpp-2015271104243-5 | DM:ReportEnd | Postpaid_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000001571443436963
+28/09/2015 16:24:52:755  INFO - In Progress | session id:mpp-2015271104243-5 | DM:ReportEnd | Postpaid_MN | Input Type | Output_Parameters:inputType | dtmf | 10000001571443436963
+28/09/2015 16:24:52:755  INFO - In Progress | session id:mpp-2015271104243-5 | DM:ReportEnd | Postpaid_MN | Value | Output_Parameters:value | TransferAgent | 10000001571443436963
+28/09/2015 16:24:52:755  INFO - End | session id:mpp-2015271104243-5 | DM:ReportEnd | Postpaid_MN |  |  |  | 10000001571443436963
+28/09/2015 16:24:52:855  INFO - In Progress | session id:mpp-2015271104243-5 | DM:ReportEnd | TransferAgent_PP | Return Code | Output_Parameters:returncode |  | 10000001571443436963
+28/09/2015 16:24:52:855  INFO - End | session id:mpp-2015271104243-5 | DM:ReportEnd | TransferAgent_PP |  |  |  | 10000001571443436963
+28/09/2015 16:43:59:378  INFO - In Progress | session id:mpp-2015271110230-16 | DM:ReportEnd | Welcome_PP | Return Code | Output_Parameters:returncode |  | 10000001581443438150
+28/09/2015 16:43:59:378  INFO - End | session id:mpp-2015271110230-16 | DM:ReportEnd | Welcome_PP |  |  |  | 10000001581443438150
+28/09/2015 16:44:03:753  INFO - In Progress | session id:mpp-2015271110230-16 | DM:ReportEnd | SelectLang_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000001581443438150
+28/09/2015 16:44:03:753  INFO - In Progress | session id:mpp-2015271110230-16 | DM:ReportEnd | SelectLang_MN | Input Type | Output_Parameters:inputType | dtmf | 10000001581443438150
+28/09/2015 16:44:03:753  INFO - In Progress | session id:mpp-2015271110230-16 | DM:ReportEnd | SelectLang_MN | Value | Output_Parameters:value | TAM | 10000001581443438150
+28/09/2015 16:44:03:753  INFO - End | session id:mpp-2015271110230-16 | DM:ReportEnd | SelectLang_MN |  |  |  | 10000001581443438150
+28/09/2015 16:44:06:024  INFO - In Progress | session id:mpp-2015271110230-16 | DM:ReportEnd | MainMenu | Return Code | Output_Parameters:returncode | SUCCESS | 10000001581443438150
+28/09/2015 16:44:06:024  INFO - In Progress | session id:mpp-2015271110230-16 | DM:ReportEnd | MainMenu | Input Type | Output_Parameters:inputType | dtmf | 10000001581443438150
+28/09/2015 16:44:06:024  INFO - In Progress | session id:mpp-2015271110230-16 | DM:ReportEnd | MainMenu | Value | Output_Parameters:value | Postpaid | 10000001581443438150
+28/09/2015 16:44:06:024  INFO - End | session id:mpp-2015271110230-16 | DM:ReportEnd | MainMenu |  |  |  | 10000001581443438150
+28/09/2015 16:44:14:436  INFO - In Progress | session id:mpp-2015271110230-16 | DM:ReportEnd | Postpaid_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000001581443438150
+28/09/2015 16:44:14:436  INFO - In Progress | session id:mpp-2015271110230-16 | DM:ReportEnd | Postpaid_MN | Input Type | Output_Parameters:inputType | dtmf | 10000001581443438150
+28/09/2015 16:44:14:436  INFO - In Progress | session id:mpp-2015271110230-16 | DM:ReportEnd | Postpaid_MN | Value | Output_Parameters:value | ActivationStatus | 10000001581443438150
+28/09/2015 16:44:14:436  INFO - End | session id:mpp-2015271110230-16 | DM:ReportEnd | Postpaid_MN |  |  |  | 10000001581443438150
+28/09/2015 16:44:14:596  INFO - In Progress | session id:mpp-2015271110230-16 | DM:ReportEnd | TransferAgent_PP | Return Code | Output_Parameters:returncode |  | 10000001581443438150
+28/09/2015 16:44:14:596  INFO - End | session id:mpp-2015271110230-16 | DM:ReportEnd | TransferAgent_PP |  |  |  | 10000001581443438150
+28/09/2015 16:48:03:584  INFO - In Progress | session id:mpp-2015271110634-1 | DM:ReportEnd | Welcome_PP | Return Code | Output_Parameters:returncode |  | 10000001591443438394
+28/09/2015 16:48:03:584  INFO - End | session id:mpp-2015271110634-1 | DM:ReportEnd | Welcome_PP |  |  |  | 10000001591443438394
+28/09/2015 16:48:17:775  INFO - In Progress | session id:mpp-2015271110634-1 | DM:ReportEnd | SelectLang_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000001591443438394
+28/09/2015 16:48:17:775  INFO - In Progress | session id:mpp-2015271110634-1 | DM:ReportEnd | SelectLang_MN | Input Type | Output_Parameters:inputType | dtmf | 10000001591443438394
+28/09/2015 16:48:17:775  INFO - In Progress | session id:mpp-2015271110634-1 | DM:ReportEnd | SelectLang_MN | Value | Output_Parameters:value | TAM | 10000001591443438394
+28/09/2015 16:48:17:775  INFO - End | session id:mpp-2015271110634-1 | DM:ReportEnd | SelectLang_MN |  |  |  | 10000001591443438394
+28/09/2015 16:48:20:766  INFO - In Progress | session id:mpp-2015271110634-1 | DM:ReportEnd | MainMenu | Return Code | Output_Parameters:returncode | SUCCESS | 10000001591443438394
+28/09/2015 16:48:20:766  INFO - In Progress | session id:mpp-2015271110634-1 | DM:ReportEnd | MainMenu | Input Type | Output_Parameters:inputType | dtmf | 10000001591443438394
+28/09/2015 16:48:20:766  INFO - In Progress | session id:mpp-2015271110634-1 | DM:ReportEnd | MainMenu | Value | Output_Parameters:value | Postpaid | 10000001591443438394
+28/09/2015 16:48:20:766  INFO - End | session id:mpp-2015271110634-1 | DM:ReportEnd | MainMenu |  |  |  | 10000001591443438394
+28/09/2015 16:48:22:207  INFO - In Progress | session id:mpp-2015271110634-1 | DM:ReportEnd | Postpaid_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000001591443438394
+28/09/2015 16:48:22:207  INFO - In Progress | session id:mpp-2015271110634-1 | DM:ReportEnd | Postpaid_MN | Input Type | Output_Parameters:inputType | dtmf | 10000001591443438394
+28/09/2015 16:48:22:207  INFO - In Progress | session id:mpp-2015271110634-1 | DM:ReportEnd | Postpaid_MN | Value | Output_Parameters:value | ActivationStatus | 10000001591443438394
+28/09/2015 16:48:22:207  INFO - End | session id:mpp-2015271110634-1 | DM:ReportEnd | Postpaid_MN |  |  |  | 10000001591443438394
+28/09/2015 16:48:22:357  INFO - In Progress | session id:mpp-2015271110634-1 | DM:ReportEnd | Welcome_PP | Return Code | Output_Parameters:returncode |  | 10000001591443438394
+28/09/2015 16:48:22:357  INFO - End | session id:mpp-2015271110634-1 | DM:ReportEnd | Welcome_PP |  |  |  | 10000001591443438394
+28/09/2015 16:51:05:899  INFO - In Progress | session id:mpp-2015271110937-9 | DM:ReportEnd | Welcome_PP | Return Code | Output_Parameters:returncode |  | 10000001601443438577
+28/09/2015 16:51:05:899  INFO - End | session id:mpp-2015271110937-9 | DM:ReportEnd | Welcome_PP |  |  |  | 10000001601443438577
+28/09/2015 16:51:10:567  INFO - In Progress | session id:mpp-2015271110937-9 | DM:ReportEnd | SelectLang_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000001601443438577
+28/09/2015 16:51:10:567  INFO - In Progress | session id:mpp-2015271110937-9 | DM:ReportEnd | SelectLang_MN | Input Type | Output_Parameters:inputType | dtmf | 10000001601443438577
+28/09/2015 16:51:10:567  INFO - In Progress | session id:mpp-2015271110937-9 | DM:ReportEnd | SelectLang_MN | Value | Output_Parameters:value | TAM | 10000001601443438577
+28/09/2015 16:51:10:567  INFO - End | session id:mpp-2015271110937-9 | DM:ReportEnd | SelectLang_MN |  |  |  | 10000001601443438577
+28/09/2015 16:51:12:928  INFO - In Progress | session id:mpp-2015271110937-9 | DM:ReportEnd | MainMenu | Return Code | Output_Parameters:returncode | SUCCESS | 10000001601443438577
+28/09/2015 16:51:12:928  INFO - In Progress | session id:mpp-2015271110937-9 | DM:ReportEnd | MainMenu | Input Type | Output_Parameters:inputType | dtmf | 10000001601443438577
+28/09/2015 16:51:12:928  INFO - In Progress | session id:mpp-2015271110937-9 | DM:ReportEnd | MainMenu | Value | Output_Parameters:value | Postpaid | 10000001601443438577
+28/09/2015 16:51:12:928  INFO - End | session id:mpp-2015271110937-9 | DM:ReportEnd | MainMenu |  |  |  | 10000001601443438577
+28/09/2015 16:51:16:409  INFO - In Progress | session id:mpp-2015271110937-9 | DM:ReportEnd | Postpaid_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000001601443438577
+28/09/2015 16:51:16:409  INFO - In Progress | session id:mpp-2015271110937-9 | DM:ReportEnd | Postpaid_MN | Input Type | Output_Parameters:inputType | dtmf | 10000001601443438577
+28/09/2015 16:51:16:409  INFO - In Progress | session id:mpp-2015271110937-9 | DM:ReportEnd | Postpaid_MN | Value | Output_Parameters:value | ActivationStatus | 10000001601443438577
+28/09/2015 16:51:16:409  INFO - End | session id:mpp-2015271110937-9 | DM:ReportEnd | Postpaid_MN |  |  |  | 10000001601443438577
+28/09/2015 16:51:16:539  INFO - In Progress | session id:mpp-2015271110937-9 | DM:ReportEnd | Welcome_PP | Return Code | Output_Parameters:returncode |  | 10000001601443438577
+28/09/2015 16:51:16:539  INFO - End | session id:mpp-2015271110937-9 | DM:ReportEnd | Welcome_PP |  |  |  | 10000001601443438577
+28/09/2015 17:39:32:483  INFO - In Progress | session id:mpp-2015271115803-7 | DM:ReportEnd | Welcome_PP | Return Code | Output_Parameters:returncode |  | 10000001611443441483
+28/09/2015 17:39:32:493  INFO - End | session id:mpp-2015271115803-7 | DM:ReportEnd | Welcome_PP |  |  |  | 10000001611443441483
+28/09/2015 17:39:39:256  INFO - In Progress | session id:mpp-2015271115803-7 | DM:ReportEnd | SelectLang_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000001611443441483
+28/09/2015 17:39:39:256  INFO - In Progress | session id:mpp-2015271115803-7 | DM:ReportEnd | SelectLang_MN | Input Type | Output_Parameters:inputType | dtmf | 10000001611443441483
+28/09/2015 17:39:39:256  INFO - In Progress | session id:mpp-2015271115803-7 | DM:ReportEnd | SelectLang_MN | Value | Output_Parameters:value | TAM | 10000001611443441483
+28/09/2015 17:39:39:256  INFO - End | session id:mpp-2015271115803-7 | DM:ReportEnd | SelectLang_MN |  |  |  | 10000001611443441483
+28/09/2015 17:39:40:979  INFO - In Progress | session id:mpp-2015271115803-7 | DM:ReportEnd | MainMenu | Return Code | Output_Parameters:returncode | SUCCESS | 10000001611443441483
+28/09/2015 17:39:40:979  INFO - In Progress | session id:mpp-2015271115803-7 | DM:ReportEnd | MainMenu | Input Type | Output_Parameters:inputType | dtmf | 10000001611443441483
+28/09/2015 17:39:40:979  INFO - In Progress | session id:mpp-2015271115803-7 | DM:ReportEnd | MainMenu | Value | Output_Parameters:value | Postpaid | 10000001611443441483
+28/09/2015 17:39:40:979  INFO - End | session id:mpp-2015271115803-7 | DM:ReportEnd | MainMenu |  |  |  | 10000001611443441483
+28/09/2015 17:39:43:844  INFO - In Progress | session id:mpp-2015271115803-7 | DM:ReportEnd | Postpaid_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000001611443441483
+28/09/2015 17:39:43:844  INFO - In Progress | session id:mpp-2015271115803-7 | DM:ReportEnd | Postpaid_MN | Input Type | Output_Parameters:inputType | dtmf | 10000001611443441483
+28/09/2015 17:39:43:844  INFO - In Progress | session id:mpp-2015271115803-7 | DM:ReportEnd | Postpaid_MN | Value | Output_Parameters:value | ActivationStatus | 10000001611443441483
+28/09/2015 17:39:43:844  INFO - End | session id:mpp-2015271115803-7 | DM:ReportEnd | Postpaid_MN |  |  |  | 10000001611443441483
+28/09/2015 17:39:43:974  INFO - In Progress | session id:mpp-2015271115803-7 | DM:ReportEnd | LinkDown_PP | Return Code | Output_Parameters:returncode |  | 10000001611443441483
+28/09/2015 17:39:43:974  INFO - End | session id:mpp-2015271115803-7 | DM:ReportEnd | LinkDown_PP |  |  |  | 10000001611443441483
+28/09/2015 17:44:09:600  INFO - In Progress | session id:mpp-2015271120240-10 | DM:ReportEnd | Welcome_PP | Return Code | Output_Parameters:returncode |  | 10000001621443441760
+28/09/2015 17:44:09:600  INFO - End | session id:mpp-2015271120240-10 | DM:ReportEnd | Welcome_PP |  |  |  | 10000001621443441760
+28/09/2015 17:44:17:796  INFO - In Progress | session id:mpp-2015271120240-10 | DM:ReportEnd | SelectLang_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000001621443441760
+28/09/2015 17:44:17:796  INFO - In Progress | session id:mpp-2015271120240-10 | DM:ReportEnd | SelectLang_MN | Input Type | Output_Parameters:inputType | dtmf | 10000001621443441760
+28/09/2015 17:44:17:796  INFO - In Progress | session id:mpp-2015271120240-10 | DM:ReportEnd | SelectLang_MN | Value | Output_Parameters:value | TAM | 10000001621443441760
+28/09/2015 17:44:17:796  INFO - End | session id:mpp-2015271120240-10 | DM:ReportEnd | SelectLang_MN |  |  |  | 10000001621443441760
+28/09/2015 17:44:19:829  INFO - In Progress | session id:mpp-2015271120240-10 | DM:ReportEnd | MainMenu | Return Code | Output_Parameters:returncode | SUCCESS | 10000001621443441760
+28/09/2015 17:44:19:829  INFO - In Progress | session id:mpp-2015271120240-10 | DM:ReportEnd | MainMenu | Input Type | Output_Parameters:inputType | dtmf | 10000001621443441760
+28/09/2015 17:44:19:829  INFO - In Progress | session id:mpp-2015271120240-10 | DM:ReportEnd | MainMenu | Value | Output_Parameters:value | Postpaid | 10000001621443441760
+28/09/2015 17:44:19:829  INFO - End | session id:mpp-2015271120240-10 | DM:ReportEnd | MainMenu |  |  |  | 10000001621443441760
+28/09/2015 17:44:24:511  INFO - In Progress | session id:mpp-2015271120240-10 | DM:ReportEnd | Postpaid_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000001621443441760
+28/09/2015 17:44:24:511  INFO - In Progress | session id:mpp-2015271120240-10 | DM:ReportEnd | Postpaid_MN | Input Type | Output_Parameters:inputType | dtmf | 10000001621443441760
+28/09/2015 17:44:24:511  INFO - In Progress | session id:mpp-2015271120240-10 | DM:ReportEnd | Postpaid_MN | Value | Output_Parameters:value | ActivationStatus | 10000001621443441760
+28/09/2015 17:44:24:511  INFO - End | session id:mpp-2015271120240-10 | DM:ReportEnd | Postpaid_MN |  |  |  | 10000001621443441760
+28/09/2015 17:44:24:661  INFO - In Progress | session id:mpp-2015271120240-10 | DM:ReportEnd | LinkDown_PP | Return Code | Output_Parameters:returncode |  | 10000001621443441760
+28/09/2015 17:44:24:661  INFO - End | session id:mpp-2015271120240-10 | DM:ReportEnd | LinkDown_PP |  |  |  | 10000001621443441760
+28/09/2015 17:44:24:781  INFO - In Progress | session id:mpp-2015271120240-10 | DM:ReportEnd | TransferAgent_PP | Return Code | Output_Parameters:returncode |  | 10000001621443441760
+28/09/2015 17:44:24:781  INFO - End | session id:mpp-2015271120240-10 | DM:ReportEnd | TransferAgent_PP |  |  |  | 10000001621443441760
+28/09/2015 17:47:40:926  INFO - In Progress | session id:mpp-2015271120611-12 | DM:ReportEnd | Welcome_PP | Return Code | Output_Parameters:returncode |  | 10000001631443441971
+28/09/2015 17:47:40:926  INFO - End | session id:mpp-2015271120611-12 | DM:ReportEnd | Welcome_PP |  |  |  | 10000001631443441971
+28/09/2015 17:47:45:940  INFO - In Progress | session id:mpp-2015271120611-12 | DM:ReportEnd | SelectLang_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000001631443441971
+28/09/2015 17:47:45:940  INFO - In Progress | session id:mpp-2015271120611-12 | DM:ReportEnd | SelectLang_MN | Input Type | Output_Parameters:inputType | dtmf | 10000001631443441971
+28/09/2015 17:47:45:940  INFO - In Progress | session id:mpp-2015271120611-12 | DM:ReportEnd | SelectLang_MN | Value | Output_Parameters:value | TAM | 10000001631443441971
+28/09/2015 17:47:45:940  INFO - End | session id:mpp-2015271120611-12 | DM:ReportEnd | SelectLang_MN |  |  |  | 10000001631443441971
+28/09/2015 17:47:48:701  INFO - In Progress | session id:mpp-2015271120611-12 | DM:ReportEnd | MainMenu | Return Code | Output_Parameters:returncode | SUCCESS | 10000001631443441971
+28/09/2015 17:47:48:701  INFO - In Progress | session id:mpp-2015271120611-12 | DM:ReportEnd | MainMenu | Input Type | Output_Parameters:inputType | dtmf | 10000001631443441971
+28/09/2015 17:47:48:701  INFO - In Progress | session id:mpp-2015271120611-12 | DM:ReportEnd | MainMenu | Value | Output_Parameters:value | Postpaid | 10000001631443441971
+28/09/2015 17:47:48:701  INFO - End | session id:mpp-2015271120611-12 | DM:ReportEnd | MainMenu |  |  |  | 10000001631443441971
+28/09/2015 17:47:50:094  INFO - In Progress | session id:mpp-2015271120611-12 | DM:ReportEnd | Postpaid_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000001631443441971
+28/09/2015 17:47:50:094  INFO - In Progress | session id:mpp-2015271120611-12 | DM:ReportEnd | Postpaid_MN | Input Type | Output_Parameters:inputType | dtmf | 10000001631443441971
+28/09/2015 17:47:50:094  INFO - In Progress | session id:mpp-2015271120611-12 | DM:ReportEnd | Postpaid_MN | Value | Output_Parameters:value | ActivationStatus | 10000001631443441971
+28/09/2015 17:47:50:094  INFO - End | session id:mpp-2015271120611-12 | DM:ReportEnd | Postpaid_MN |  |  |  | 10000001631443441971
+28/09/2015 17:47:50:175  INFO - In Progress | session id:mpp-2015271120611-12 | DM:ReportEnd | Welcome_PP | Return Code | Output_Parameters:returncode |  | 10000001631443441971
+28/09/2015 17:47:50:175  INFO - End | session id:mpp-2015271120611-12 | DM:ReportEnd | Welcome_PP |  |  |  | 10000001631443441971
+28/09/2015 17:48:10:622  INFO - In Progress | session id:mpp-2015271120611-12 | DM:ReportEnd | Global Prompt Menu Feature Level | Return Code | Output_Parameters:returncode | SUCCESS | 10000001631443441971
+28/09/2015 17:48:10:622  INFO - In Progress | session id:mpp-2015271120611-12 | DM:ReportEnd | Global Prompt Menu Feature Level | Input Type | Output_Parameters:inputType | dtmf | 10000001631443441971
+28/09/2015 17:48:10:622  INFO - In Progress | session id:mpp-2015271120611-12 | DM:ReportEnd | Global Prompt Menu Feature Level | Value | Output_Parameters:value | PreviousMenu | 10000001631443441971
+28/09/2015 17:48:10:622  INFO - End | session id:mpp-2015271120611-12 | DM:ReportEnd | Global Prompt Menu Feature Level |  |  |  | 10000001631443441971
+28/09/2015 17:48:19:535  INFO - In Progress | session id:mpp-2015271120611-12 | DM:ReportEnd | Postpaid_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000001631443441971
+28/09/2015 17:48:19:535  INFO - In Progress | session id:mpp-2015271120611-12 | DM:ReportEnd | Postpaid_MN | Input Type | Output_Parameters:inputType | dtmf | 10000001631443441971
+28/09/2015 17:48:19:535  INFO - In Progress | session id:mpp-2015271120611-12 | DM:ReportEnd | Postpaid_MN | Value | Output_Parameters:value | ActivationStatus | 10000001631443441971
+28/09/2015 17:48:19:535  INFO - End | session id:mpp-2015271120611-12 | DM:ReportEnd | Postpaid_MN |  |  |  | 10000001631443441971
+28/09/2015 17:48:19:626  INFO - In Progress | session id:mpp-2015271120611-12 | DM:ReportEnd | Welcome_PP | Return Code | Output_Parameters:returncode |  | 10000001631443441971
+28/09/2015 17:48:19:626  INFO - End | session id:mpp-2015271120611-12 | DM:ReportEnd | Welcome_PP |  |  |  | 10000001631443441971
+28/09/2015 17:48:26:352  INFO - In Progress | session id:mpp-2015271120611-12 | DM:ReportEnd | Global Prompt Menu Feature Level | Return Code | Output_Parameters:returncode | NOMATCH | 10000001631443441971
+28/09/2015 17:48:26:352  INFO - End | session id:mpp-2015271120611-12 | DM:ReportEnd | Global Prompt Menu Feature Level |  |  |  | 10000001631443441971
+28/09/2015 17:48:26:442  INFO - In Progress | session id:mpp-2015271120611-12 | DM:ReportEnd | TransferAgent_PP | Return Code | Output_Parameters:returncode |  | 10000001631443441971
+28/09/2015 17:48:26:442  INFO - End | session id:mpp-2015271120611-12 | DM:ReportEnd | TransferAgent_PP |  |  |  | 10000001631443441971
+28/09/2015 17:58:12:835  INFO - In Progress | session id:mpp-2015271121643-15 | DM:ReportEnd | Welcome_PP | Return Code | Output_Parameters:returncode |  | 10000001641443442603
+28/09/2015 17:58:12:835  INFO - End | session id:mpp-2015271121643-15 | DM:ReportEnd | Welcome_PP |  |  |  | 10000001641443442603
+28/09/2015 17:58:20:769  INFO - In Progress | session id:mpp-2015271121643-15 | DM:ReportEnd | SelectLang_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000001641443442603
+28/09/2015 17:58:20:769  INFO - In Progress | session id:mpp-2015271121643-15 | DM:ReportEnd | SelectLang_MN | Input Type | Output_Parameters:inputType | dtmf | 10000001641443442603
+28/09/2015 17:58:20:769  INFO - In Progress | session id:mpp-2015271121643-15 | DM:ReportEnd | SelectLang_MN | Value | Output_Parameters:value | TAM | 10000001641443442603
+28/09/2015 17:58:20:769  INFO - End | session id:mpp-2015271121643-15 | DM:ReportEnd | SelectLang_MN |  |  |  | 10000001641443442603
+28/09/2015 17:58:22:920  INFO - In Progress | session id:mpp-2015271121643-15 | DM:ReportEnd | MainMenu | Return Code | Output_Parameters:returncode | SUCCESS | 10000001641443442603
+28/09/2015 17:58:22:920  INFO - In Progress | session id:mpp-2015271121643-15 | DM:ReportEnd | MainMenu | Input Type | Output_Parameters:inputType | dtmf | 10000001641443442603
+28/09/2015 17:58:22:920  INFO - In Progress | session id:mpp-2015271121643-15 | DM:ReportEnd | MainMenu | Value | Output_Parameters:value | Postpaid | 10000001641443442603
+28/09/2015 17:58:22:920  INFO - End | session id:mpp-2015271121643-15 | DM:ReportEnd | MainMenu |  |  |  | 10000001641443442603
+28/09/2015 17:58:25:361  INFO - In Progress | session id:mpp-2015271121643-15 | DM:ReportEnd | Postpaid_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000001641443442603
+28/09/2015 17:58:25:361  INFO - In Progress | session id:mpp-2015271121643-15 | DM:ReportEnd | Postpaid_MN | Input Type | Output_Parameters:inputType | dtmf | 10000001641443442603
+28/09/2015 17:58:25:361  INFO - In Progress | session id:mpp-2015271121643-15 | DM:ReportEnd | Postpaid_MN | Value | Output_Parameters:value | ActivationStatus | 10000001641443442603
+28/09/2015 17:58:25:361  INFO - End | session id:mpp-2015271121643-15 | DM:ReportEnd | Postpaid_MN |  |  |  | 10000001641443442603
+28/09/2015 17:58:25:451  INFO - In Progress | session id:mpp-2015271121643-15 | DM:ReportEnd | Welcome_PP | Return Code | Output_Parameters:returncode |  | 10000001641443442603
+28/09/2015 17:58:25:451  INFO - End | session id:mpp-2015271121643-15 | DM:ReportEnd | Welcome_PP |  |  |  | 10000001641443442603
+28/09/2015 17:58:35:417  INFO - In Progress | session id:mpp-2015271121643-15 | DM:ReportEnd | Global Prompt Menu Feature Level | Return Code | Output_Parameters:returncode | NOMATCH | 10000001641443442603
+28/09/2015 17:58:35:417  INFO - End | session id:mpp-2015271121643-15 | DM:ReportEnd | Global Prompt Menu Feature Level |  |  |  | 10000001641443442603
+28/09/2015 17:58:35:507  INFO - In Progress | session id:mpp-2015271121643-15 | DM:ReportEnd | TransferAgent_PP | Return Code | Output_Parameters:returncode |  | 10000001641443442603
+28/09/2015 17:58:35:507  INFO - End | session id:mpp-2015271121643-15 | DM:ReportEnd | TransferAgent_PP |  |  |  | 10000001641443442603
+28/09/2015 18:00:48:814  INFO - In Progress | session id:mpp-2015271121920-19 | DM:ReportEnd | Welcome_PP | Return Code | Output_Parameters:returncode |  | 10000001651443442760
+28/09/2015 18:00:48:814  INFO - End | session id:mpp-2015271121920-19 | DM:ReportEnd | Welcome_PP |  |  |  | 10000001651443442760
+28/09/2015 18:00:58:419  INFO - In Progress | session id:mpp-2015271121920-19 | DM:ReportEnd | SelectLang_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000001651443442760
+28/09/2015 18:00:58:419  INFO - In Progress | session id:mpp-2015271121920-19 | DM:ReportEnd | SelectLang_MN | Input Type | Output_Parameters:inputType | dtmf | 10000001651443442760
+28/09/2015 18:00:58:419  INFO - In Progress | session id:mpp-2015271121920-19 | DM:ReportEnd | SelectLang_MN | Value | Output_Parameters:value | TAM | 10000001651443442760
+28/09/2015 18:00:58:419  INFO - End | session id:mpp-2015271121920-19 | DM:ReportEnd | SelectLang_MN |  |  |  | 10000001651443442760
+28/09/2015 18:01:01:790  INFO - In Progress | session id:mpp-2015271121920-19 | DM:ReportEnd | MainMenu | Return Code | Output_Parameters:returncode | SUCCESS | 10000001651443442760
+28/09/2015 18:01:01:790  INFO - In Progress | session id:mpp-2015271121920-19 | DM:ReportEnd | MainMenu | Input Type | Output_Parameters:inputType | dtmf | 10000001651443442760
+28/09/2015 18:01:01:790  INFO - In Progress | session id:mpp-2015271121920-19 | DM:ReportEnd | MainMenu | Value | Output_Parameters:value | Postpaid | 10000001651443442760
+28/09/2015 18:01:01:790  INFO - End | session id:mpp-2015271121920-19 | DM:ReportEnd | MainMenu |  |  |  | 10000001651443442760
+28/09/2015 18:01:06:826  INFO - In Progress | session id:mpp-2015271121920-19 | DM:ReportEnd | Postpaid_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000001651443442760
+28/09/2015 18:01:06:826  INFO - In Progress | session id:mpp-2015271121920-19 | DM:ReportEnd | Postpaid_MN | Input Type | Output_Parameters:inputType | dtmf | 10000001651443442760
+28/09/2015 18:01:06:826  INFO - In Progress | session id:mpp-2015271121920-19 | DM:ReportEnd | Postpaid_MN | Value | Output_Parameters:value | ActivationStatus | 10000001651443442760
+28/09/2015 18:01:06:826  INFO - End | session id:mpp-2015271121920-19 | DM:ReportEnd | Postpaid_MN |  |  |  | 10000001651443442760
+28/09/2015 18:01:06:916  INFO - In Progress | session id:mpp-2015271121920-19 | DM:ReportEnd | Welcome_PP | Return Code | Output_Parameters:returncode |  | 10000001651443442760
+28/09/2015 18:01:06:916  INFO - End | session id:mpp-2015271121920-19 | DM:ReportEnd | Welcome_PP |  |  |  | 10000001651443442760
+28/09/2015 18:01:12:520  INFO - In Progress | session id:mpp-2015271121920-19 | DM:ReportEnd | Global Prompt Menu Feature Level | Return Code | Output_Parameters:returncode | SUCCESS | 10000001651443442760
+28/09/2015 18:01:12:520  INFO - In Progress | session id:mpp-2015271121920-19 | DM:ReportEnd | Global Prompt Menu Feature Level | Input Type | Output_Parameters:inputType | dtmf | 10000001651443442760
+28/09/2015 18:01:12:520  INFO - In Progress | session id:mpp-2015271121920-19 | DM:ReportEnd | Global Prompt Menu Feature Level | Value | Output_Parameters:value | Repeat | 10000001651443442760
+28/09/2015 18:01:12:520  INFO - End | session id:mpp-2015271121920-19 | DM:ReportEnd | Global Prompt Menu Feature Level |  |  |  | 10000001651443442760
+28/09/2015 18:01:12:630  INFO - In Progress | session id:mpp-2015271121920-19 | DM:ReportEnd | Welcome_PP | Return Code | Output_Parameters:returncode |  | 10000001651443442760
+28/09/2015 18:01:12:630  INFO - End | session id:mpp-2015271121920-19 | DM:ReportEnd | Welcome_PP |  |  |  | 10000001651443442760
+28/09/2015 18:01:16:142  INFO - In Progress | session id:mpp-2015271121920-19 | DM:ReportEnd | Global Prompt Menu Feature Level | Return Code | Output_Parameters:returncode | SUCCESS | 10000001651443442760
+28/09/2015 18:01:16:142  INFO - In Progress | session id:mpp-2015271121920-19 | DM:ReportEnd | Global Prompt Menu Feature Level | Input Type | Output_Parameters:inputType | dtmf | 10000001651443442760
+28/09/2015 18:01:16:142  INFO - In Progress | session id:mpp-2015271121920-19 | DM:ReportEnd | Global Prompt Menu Feature Level | Value | Output_Parameters:value | Repeat | 10000001651443442760
+28/09/2015 18:01:16:142  INFO - End | session id:mpp-2015271121920-19 | DM:ReportEnd | Global Prompt Menu Feature Level |  |  |  | 10000001651443442760
+28/09/2015 18:01:16:232  INFO - In Progress | session id:mpp-2015271121920-19 | DM:ReportEnd | Welcome_PP | Return Code | Output_Parameters:returncode |  | 10000001651443442760
+28/09/2015 18:01:16:232  INFO - End | session id:mpp-2015271121920-19 | DM:ReportEnd | Welcome_PP |  |  |  | 10000001651443442760
+28/09/2015 18:01:18:363  INFO - In Progress | session id:mpp-2015271121920-19 | DM:ReportEnd | Global Prompt Menu Feature Level | Return Code | Output_Parameters:returncode | SUCCESS | 10000001651443442760
+28/09/2015 18:01:18:363  INFO - In Progress | session id:mpp-2015271121920-19 | DM:ReportEnd | Global Prompt Menu Feature Level | Input Type | Output_Parameters:inputType | dtmf | 10000001651443442760
+28/09/2015 18:01:18:363  INFO - In Progress | session id:mpp-2015271121920-19 | DM:ReportEnd | Global Prompt Menu Feature Level | Value | Output_Parameters:value | Repeat | 10000001651443442760
+28/09/2015 18:01:18:363  INFO - End | session id:mpp-2015271121920-19 | DM:ReportEnd | Global Prompt Menu Feature Level |  |  |  | 10000001651443442760
+28/09/2015 18:01:18:503  INFO - In Progress | session id:mpp-2015271121920-19 | DM:ReportEnd | ExceedTries_PP | Return Code | Output_Parameters:returncode |  | 10000001651443442760
+28/09/2015 18:01:18:503  INFO - End | session id:mpp-2015271121920-19 | DM:ReportEnd | ExceedTries_PP |  |  |  | 10000001651443442760
+28/09/2015 18:01:18:583  INFO - In Progress | session id:mpp-2015271121920-19 | DM:ReportEnd | TransferAgent_PP | Return Code | Output_Parameters:returncode |  | 10000001651443442760
+28/09/2015 18:01:18:583  INFO - End | session id:mpp-2015271121920-19 | DM:ReportEnd | TransferAgent_PP |  |  |  | 10000001651443442760
+28/09/2015 18:02:12:970  INFO - In Progress | session id:mpp-2015271122044-14 | DM:ReportEnd | Welcome_PP | Return Code | Output_Parameters:returncode |  | 10000001661443442844
+28/09/2015 18:02:12:970  INFO - End | session id:mpp-2015271122044-14 | DM:ReportEnd | Welcome_PP |  |  |  | 10000001661443442844
+28/09/2015 18:02:15:351  INFO - In Progress | session id:mpp-2015271122044-14 | DM:ReportEnd | SelectLang_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000001661443442844
+28/09/2015 18:02:15:351  INFO - In Progress | session id:mpp-2015271122044-14 | DM:ReportEnd | SelectLang_MN | Input Type | Output_Parameters:inputType | dtmf | 10000001661443442844
+28/09/2015 18:02:15:351  INFO - In Progress | session id:mpp-2015271122044-14 | DM:ReportEnd | SelectLang_MN | Value | Output_Parameters:value | TAM | 10000001661443442844
+28/09/2015 18:02:15:351  INFO - End | session id:mpp-2015271122044-14 | DM:ReportEnd | SelectLang_MN |  |  |  | 10000001661443442844
+28/09/2015 18:02:16:254  INFO - In Progress | session id:mpp-2015271122044-14 | DM:ReportEnd | MainMenu | Return Code | Output_Parameters:returncode | SUCCESS | 10000001661443442844
+28/09/2015 18:02:16:254  INFO - In Progress | session id:mpp-2015271122044-14 | DM:ReportEnd | MainMenu | Input Type | Output_Parameters:inputType | dtmf | 10000001661443442844
+28/09/2015 18:02:16:254  INFO - In Progress | session id:mpp-2015271122044-14 | DM:ReportEnd | MainMenu | Value | Output_Parameters:value | Postpaid | 10000001661443442844
+28/09/2015 18:02:16:254  INFO - End | session id:mpp-2015271122044-14 | DM:ReportEnd | MainMenu |  |  |  | 10000001661443442844
+28/09/2015 18:02:17:265  INFO - In Progress | session id:mpp-2015271122044-14 | DM:ReportEnd | Postpaid_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000001661443442844
+28/09/2015 18:02:17:265  INFO - In Progress | session id:mpp-2015271122044-14 | DM:ReportEnd | Postpaid_MN | Input Type | Output_Parameters:inputType | dtmf | 10000001661443442844
+28/09/2015 18:02:17:265  INFO - In Progress | session id:mpp-2015271122044-14 | DM:ReportEnd | Postpaid_MN | Value | Output_Parameters:value | ActivationStatus | 10000001661443442844
+28/09/2015 18:02:17:265  INFO - End | session id:mpp-2015271122044-14 | DM:ReportEnd | Postpaid_MN |  |  |  | 10000001661443442844
+28/09/2015 18:02:17:365  INFO - In Progress | session id:mpp-2015271122044-14 | DM:ReportEnd | Welcome_PP | Return Code | Output_Parameters:returncode |  | 10000001661443442844
+28/09/2015 18:02:17:365  INFO - End | session id:mpp-2015271122044-14 | DM:ReportEnd | Welcome_PP |  |  |  | 10000001661443442844
+28/09/2015 18:02:19:316  INFO - In Progress | session id:mpp-2015271122044-14 | DM:ReportEnd | Global Prompt Menu Feature Level | Return Code | Output_Parameters:returncode | SUCCESS | 10000001661443442844
+28/09/2015 18:02:19:316  INFO - In Progress | session id:mpp-2015271122044-14 | DM:ReportEnd | Global Prompt Menu Feature Level | Input Type | Output_Parameters:inputType | dtmf | 10000001661443442844
+28/09/2015 18:02:19:316  INFO - In Progress | session id:mpp-2015271122044-14 | DM:ReportEnd | Global Prompt Menu Feature Level | Value | Output_Parameters:value | Repeat | 10000001661443442844
+28/09/2015 18:02:19:316  INFO - End | session id:mpp-2015271122044-14 | DM:ReportEnd | Global Prompt Menu Feature Level |  |  |  | 10000001661443442844
+28/09/2015 18:02:19:406  INFO - In Progress | session id:mpp-2015271122044-14 | DM:ReportEnd | Welcome_PP | Return Code | Output_Parameters:returncode |  | 10000001661443442844
+28/09/2015 18:02:19:406  INFO - End | session id:mpp-2015271122044-14 | DM:ReportEnd | Welcome_PP |  |  |  | 10000001661443442844
+28/09/2015 18:02:20:347  INFO - In Progress | session id:mpp-2015271122044-14 | DM:ReportEnd | Global Prompt Menu Feature Level | Return Code | Output_Parameters:returncode | SUCCESS | 10000001661443442844
+28/09/2015 18:02:20:347  INFO - In Progress | session id:mpp-2015271122044-14 | DM:ReportEnd | Global Prompt Menu Feature Level | Input Type | Output_Parameters:inputType | dtmf | 10000001661443442844
+28/09/2015 18:02:20:347  INFO - In Progress | session id:mpp-2015271122044-14 | DM:ReportEnd | Global Prompt Menu Feature Level | Value | Output_Parameters:value | Repeat | 10000001661443442844
+28/09/2015 18:02:20:347  INFO - End | session id:mpp-2015271122044-14 | DM:ReportEnd | Global Prompt Menu Feature Level |  |  |  | 10000001661443442844
+28/09/2015 18:02:20:447  INFO - In Progress | session id:mpp-2015271122044-14 | DM:ReportEnd | Welcome_PP | Return Code | Output_Parameters:returncode |  | 10000001661443442844
+28/09/2015 18:02:20:447  INFO - End | session id:mpp-2015271122044-14 | DM:ReportEnd | Welcome_PP |  |  |  | 10000001661443442844
+28/09/2015 18:02:21:217  INFO - In Progress | session id:mpp-2015271122044-14 | DM:ReportEnd | Global Prompt Menu Feature Level | Return Code | Output_Parameters:returncode | SUCCESS | 10000001661443442844
+28/09/2015 18:02:21:217  INFO - In Progress | session id:mpp-2015271122044-14 | DM:ReportEnd | Global Prompt Menu Feature Level | Input Type | Output_Parameters:inputType | dtmf | 10000001661443442844
+28/09/2015 18:02:21:217  INFO - In Progress | session id:mpp-2015271122044-14 | DM:ReportEnd | Global Prompt Menu Feature Level | Value | Output_Parameters:value | Repeat | 10000001661443442844
+28/09/2015 18:02:21:217  INFO - End | session id:mpp-2015271122044-14 | DM:ReportEnd | Global Prompt Menu Feature Level |  |  |  | 10000001661443442844
+28/09/2015 18:02:21:300  INFO - In Progress | session id:mpp-2015271122044-14 | DM:ReportEnd | ExceedTries_PP | Return Code | Output_Parameters:returncode |  | 10000001661443442844
+28/09/2015 18:02:21:300  INFO - End | session id:mpp-2015271122044-14 | DM:ReportEnd | ExceedTries_PP |  |  |  | 10000001661443442844
+28/09/2015 18:02:21:410  INFO - In Progress | session id:mpp-2015271122044-14 | DM:ReportEnd | TransferAgent_PP | Return Code | Output_Parameters:returncode |  | 10000001661443442844
+28/09/2015 18:02:21:410  INFO - End | session id:mpp-2015271122044-14 | DM:ReportEnd | TransferAgent_PP |  |  |  | 10000001661443442844
+28/09/2015 18:04:37:419  INFO - In Progress | session id:mpp-2015271122308-17 | DM:ReportEnd | Welcome_PP | Return Code | Output_Parameters:returncode |  | 10000001671443442988
+28/09/2015 18:04:37:419  INFO - End | session id:mpp-2015271122308-17 | DM:ReportEnd | Welcome_PP |  |  |  | 10000001671443442988
+28/09/2015 18:04:45:523  INFO - In Progress | session id:mpp-2015271122308-17 | DM:ReportEnd | SelectLang_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000001671443442988
+28/09/2015 18:04:45:523  INFO - In Progress | session id:mpp-2015271122308-17 | DM:ReportEnd | SelectLang_MN | Input Type | Output_Parameters:inputType | dtmf | 10000001671443442988
+28/09/2015 18:04:45:523  INFO - In Progress | session id:mpp-2015271122308-17 | DM:ReportEnd | SelectLang_MN | Value | Output_Parameters:value | TAM | 10000001671443442988
+28/09/2015 18:04:45:523  INFO - End | session id:mpp-2015271122308-17 | DM:ReportEnd | SelectLang_MN |  |  |  | 10000001671443442988
+28/09/2015 18:04:51:944  INFO - In Progress | session id:mpp-2015271122308-17 | DM:ReportEnd | MainMenu | Return Code | Output_Parameters:returncode | SUCCESS | 10000001671443442988
+28/09/2015 18:04:51:944  INFO - In Progress | session id:mpp-2015271122308-17 | DM:ReportEnd | MainMenu | Input Type | Output_Parameters:inputType | dtmf | 10000001671443442988
+28/09/2015 18:04:51:944  INFO - In Progress | session id:mpp-2015271122308-17 | DM:ReportEnd | MainMenu | Value | Output_Parameters:value | Postpaid | 10000001671443442988
+28/09/2015 18:04:51:944  INFO - End | session id:mpp-2015271122308-17 | DM:ReportEnd | MainMenu |  |  |  | 10000001671443442988
+28/09/2015 18:05:00:187  INFO - In Progress | session id:mpp-2015271122308-17 | DM:ReportEnd | Postpaid_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000001671443442988
+28/09/2015 18:05:00:187  INFO - In Progress | session id:mpp-2015271122308-17 | DM:ReportEnd | Postpaid_MN | Input Type | Output_Parameters:inputType | dtmf | 10000001671443442988
+28/09/2015 18:05:00:187  INFO - In Progress | session id:mpp-2015271122308-17 | DM:ReportEnd | Postpaid_MN | Value | Output_Parameters:value | ActivationStatus | 10000001671443442988
+28/09/2015 18:05:00:187  INFO - End | session id:mpp-2015271122308-17 | DM:ReportEnd | Postpaid_MN |  |  |  | 10000001671443442988
+28/09/2015 18:05:00:309  INFO - In Progress | session id:mpp-2015271122308-17 | DM:ReportEnd | Welcome_PP | Return Code | Output_Parameters:returncode |  | 10000001671443442988
+28/09/2015 18:05:00:309  INFO - End | session id:mpp-2015271122308-17 | DM:ReportEnd | Welcome_PP |  |  |  | 10000001671443442988
+28/09/2015 18:05:06:762  INFO - In Progress | session id:mpp-2015271122308-17 | DM:ReportEnd | Global Prompt Menu Feature Level | Return Code | Output_Parameters:returncode | SUCCESS | 10000001671443442988
+28/09/2015 18:05:06:762  INFO - In Progress | session id:mpp-2015271122308-17 | DM:ReportEnd | Global Prompt Menu Feature Level | Input Type | Output_Parameters:inputType | dtmf | 10000001671443442988
+28/09/2015 18:05:06:762  INFO - In Progress | session id:mpp-2015271122308-17 | DM:ReportEnd | Global Prompt Menu Feature Level | Value | Output_Parameters:value | Agent | 10000001671443442988
+28/09/2015 18:05:06:762  INFO - End | session id:mpp-2015271122308-17 | DM:ReportEnd | Global Prompt Menu Feature Level |  |  |  | 10000001671443442988
+28/09/2015 18:05:06:845  INFO - In Progress | session id:mpp-2015271122308-17 | DM:ReportEnd | TransferAgent_PP | Return Code | Output_Parameters:returncode |  | 10000001671443442988
+28/09/2015 18:05:06:845  INFO - End | session id:mpp-2015271122308-17 | DM:ReportEnd | TransferAgent_PP |  |  |  | 10000001671443442988
+28/09/2015 18:08:26:407  INFO - In Progress | session id:mpp-2015271122657-2 | DM:ReportEnd | Welcome_PP | Return Code | Output_Parameters:returncode |  | 10000001681443443217
+28/09/2015 18:08:26:407  INFO - End | session id:mpp-2015271122657-2 | DM:ReportEnd | Welcome_PP |  |  |  | 10000001681443443217
+28/09/2015 18:08:42:891  INFO - In Progress | session id:mpp-2015271122657-2 | DM:ReportEnd | SelectLang_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000001681443443217
+28/09/2015 18:08:42:891  INFO - In Progress | session id:mpp-2015271122657-2 | DM:ReportEnd | SelectLang_MN | Input Type | Output_Parameters:inputType | dtmf | 10000001681443443217
+28/09/2015 18:08:42:891  INFO - In Progress | session id:mpp-2015271122657-2 | DM:ReportEnd | SelectLang_MN | Value | Output_Parameters:value | TAM | 10000001681443443217
+28/09/2015 18:08:42:891  INFO - End | session id:mpp-2015271122657-2 | DM:ReportEnd | SelectLang_MN |  |  |  | 10000001681443443217
+28/09/2015 18:08:52:946  INFO - In Progress | session id:mpp-2015271122657-2 | DM:ReportEnd | MainMenu | Return Code | Output_Parameters:returncode | SUCCESS | 10000001681443443217
+28/09/2015 18:08:52:946  INFO - In Progress | session id:mpp-2015271122657-2 | DM:ReportEnd | MainMenu | Input Type | Output_Parameters:inputType | dtmf | 10000001681443443217
+28/09/2015 18:08:52:946  INFO - In Progress | session id:mpp-2015271122657-2 | DM:ReportEnd | MainMenu | Value | Output_Parameters:value | Postpaid | 10000001681443443217
+28/09/2015 18:08:52:946  INFO - End | session id:mpp-2015271122657-2 | DM:ReportEnd | MainMenu |  |  |  | 10000001681443443217
+28/09/2015 18:09:01:115  INFO - In Progress | session id:mpp-2015271122657-2 | DM:ReportEnd | Postpaid_MN | Return Code | Output_Parameters:returncode | NOMATCH | 10000001681443443217
+28/09/2015 18:09:01:115  INFO - End | session id:mpp-2015271122657-2 | DM:ReportEnd | Postpaid_MN |  |  |  | 10000001681443443217
+28/09/2015 18:09:01:199  INFO - In Progress | session id:mpp-2015271122657-2 | DM:ReportEnd | TransferAgent_PP | Return Code | Output_Parameters:returncode |  | 10000001681443443217
+28/09/2015 18:09:01:199  INFO - End | session id:mpp-2015271122657-2 | DM:ReportEnd | TransferAgent_PP |  |  |  | 10000001681443443217
+28/09/2015 18:09:45:812  INFO - In Progress | session id:mpp-2015271122817-20 | DM:ReportEnd | Welcome_PP | Return Code | Output_Parameters:returncode |  | 10000001691443443297
+28/09/2015 18:09:45:812  INFO - End | session id:mpp-2015271122817-20 | DM:ReportEnd | Welcome_PP |  |  |  | 10000001691443443297
+28/09/2015 18:10:01:648  INFO - In Progress | session id:mpp-2015271122817-20 | DM:ReportEnd | SelectLang_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000001691443443297
+28/09/2015 18:10:01:648  INFO - In Progress | session id:mpp-2015271122817-20 | DM:ReportEnd | SelectLang_MN | Input Type | Output_Parameters:inputType | dtmf | 10000001691443443297
+28/09/2015 18:10:01:648  INFO - In Progress | session id:mpp-2015271122817-20 | DM:ReportEnd | SelectLang_MN | Value | Output_Parameters:value | TAM | 10000001691443443297
+28/09/2015 18:10:01:648  INFO - End | session id:mpp-2015271122817-20 | DM:ReportEnd | SelectLang_MN |  |  |  | 10000001691443443297
+28/09/2015 18:10:05:179  INFO - In Progress | session id:mpp-2015271122817-20 | DM:ReportEnd | MainMenu | Return Code | Output_Parameters:returncode | SUCCESS | 10000001691443443297
+28/09/2015 18:10:05:179  INFO - In Progress | session id:mpp-2015271122817-20 | DM:ReportEnd | MainMenu | Input Type | Output_Parameters:inputType | dtmf | 10000001691443443297
+28/09/2015 18:10:05:179  INFO - In Progress | session id:mpp-2015271122817-20 | DM:ReportEnd | MainMenu | Value | Output_Parameters:value | Postpaid | 10000001691443443297
+28/09/2015 18:10:05:179  INFO - End | session id:mpp-2015271122817-20 | DM:ReportEnd | MainMenu |  |  |  | 10000001691443443297
+28/09/2015 18:10:14:344  INFO - In Progress | session id:mpp-2015271122817-20 | DM:ReportEnd | Postpaid_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000001691443443297
+28/09/2015 18:10:14:344  INFO - In Progress | session id:mpp-2015271122817-20 | DM:ReportEnd | Postpaid_MN | Input Type | Output_Parameters:inputType | dtmf | 10000001691443443297
+28/09/2015 18:10:14:344  INFO - In Progress | session id:mpp-2015271122817-20 | DM:ReportEnd | Postpaid_MN | Value | Output_Parameters:value | TransferAgent | 10000001691443443297
+28/09/2015 18:10:14:344  INFO - End | session id:mpp-2015271122817-20 | DM:ReportEnd | Postpaid_MN |  |  |  | 10000001691443443297
+28/09/2015 18:10:14:414  INFO - In Progress | session id:mpp-2015271122817-20 | DM:ReportEnd | TransferAgent_PP | Return Code | Output_Parameters:returncode |  | 10000001691443443297
+28/09/2015 18:10:14:414  INFO - End | session id:mpp-2015271122817-20 | DM:ReportEnd | TransferAgent_PP |  |  |  | 10000001691443443297
+28/09/2015 18:13:04:816  INFO - In Progress | session id:mpp-2015271123136-3 | DM:ReportEnd | Welcome_PP | Return Code | Output_Parameters:returncode |  | 10000001701443443496
+28/09/2015 18:13:04:816  INFO - End | session id:mpp-2015271123136-3 | DM:ReportEnd | Welcome_PP |  |  |  | 10000001701443443496
+28/09/2015 18:13:10:117  INFO - In Progress | session id:mpp-2015271123136-3 | DM:ReportEnd | SelectLang_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000001701443443496
+28/09/2015 18:13:10:117  INFO - In Progress | session id:mpp-2015271123136-3 | DM:ReportEnd | SelectLang_MN | Input Type | Output_Parameters:inputType | dtmf | 10000001701443443496
+28/09/2015 18:13:10:117  INFO - In Progress | session id:mpp-2015271123136-3 | DM:ReportEnd | SelectLang_MN | Value | Output_Parameters:value | TAM | 10000001701443443496
+28/09/2015 18:13:10:117  INFO - End | session id:mpp-2015271123136-3 | DM:ReportEnd | SelectLang_MN |  |  |  | 10000001701443443496
+28/09/2015 18:13:19:271  INFO - In Progress | session id:mpp-2015271123136-3 | DM:ReportEnd | MainMenu | Return Code | Output_Parameters:returncode | SUCCESS | 10000001701443443496
+28/09/2015 18:13:19:271  INFO - In Progress | session id:mpp-2015271123136-3 | DM:ReportEnd | MainMenu | Input Type | Output_Parameters:inputType | dtmf | 10000001701443443496
+28/09/2015 18:13:19:271  INFO - In Progress | session id:mpp-2015271123136-3 | DM:ReportEnd | MainMenu | Value | Output_Parameters:value | Postpaid | 10000001701443443496
+28/09/2015 18:13:19:271  INFO - End | session id:mpp-2015271123136-3 | DM:ReportEnd | MainMenu |  |  |  | 10000001701443443496
+28/09/2015 18:13:30:859  INFO - In Progress | session id:mpp-2015271123136-3 | DM:ReportEnd | Postpaid_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000001701443443496
+28/09/2015 18:13:30:859  INFO - In Progress | session id:mpp-2015271123136-3 | DM:ReportEnd | Postpaid_MN | Input Type | Output_Parameters:inputType | dtmf | 10000001701443443496
+28/09/2015 18:13:30:859  INFO - In Progress | session id:mpp-2015271123136-3 | DM:ReportEnd | Postpaid_MN | Value | Output_Parameters:value | ActivationStatus | 10000001701443443496
+28/09/2015 18:13:30:859  INFO - End | session id:mpp-2015271123136-3 | DM:ReportEnd | Postpaid_MN |  |  |  | 10000001701443443496
+28/09/2015 18:13:30:942  INFO - In Progress | session id:mpp-2015271123136-3 | DM:ReportEnd | Welcome_PP | Return Code | Output_Parameters:returncode |  | 10000001701443443496
+28/09/2015 18:13:30:942  INFO - End | session id:mpp-2015271123136-3 | DM:ReportEnd | Welcome_PP |  |  |  | 10000001701443443496
+28/09/2015 18:13:36:802  INFO - In Progress | session id:mpp-2015271123136-3 | DM:ReportEnd | Global Prompt Menu Feature Level | Return Code | Output_Parameters:returncode | SUCCESS | 10000001701443443496
+28/09/2015 18:13:36:802  INFO - In Progress | session id:mpp-2015271123136-3 | DM:ReportEnd | Global Prompt Menu Feature Level | Input Type | Output_Parameters:inputType | dtmf | 10000001701443443496
+28/09/2015 18:13:36:802  INFO - In Progress | session id:mpp-2015271123136-3 | DM:ReportEnd | Global Prompt Menu Feature Level | Value | Output_Parameters:value | Repeat | 10000001701443443496
+28/09/2015 18:13:36:802  INFO - End | session id:mpp-2015271123136-3 | DM:ReportEnd | Global Prompt Menu Feature Level |  |  |  | 10000001701443443496
+28/09/2015 18:13:36:912  INFO - In Progress | session id:mpp-2015271123136-3 | DM:ReportEnd | Welcome_PP | Return Code | Output_Parameters:returncode |  | 10000001701443443496
+28/09/2015 18:13:36:912  INFO - End | session id:mpp-2015271123136-3 | DM:ReportEnd | Welcome_PP |  |  |  | 10000001701443443496
+28/09/2015 18:13:48:307  INFO - In Progress | session id:mpp-2015271123136-3 | DM:ReportEnd | Global Prompt Menu Feature Level | Return Code | Output_Parameters:returncode | SUCCESS | 10000001701443443496
+28/09/2015 18:13:48:307  INFO - In Progress | session id:mpp-2015271123136-3 | DM:ReportEnd | Global Prompt Menu Feature Level | Input Type | Output_Parameters:inputType | dtmf | 10000001701443443496
+28/09/2015 18:13:48:307  INFO - In Progress | session id:mpp-2015271123136-3 | DM:ReportEnd | Global Prompt Menu Feature Level | Value | Output_Parameters:value | PreviousMenu | 10000001701443443496
+28/09/2015 18:13:48:307  INFO - End | session id:mpp-2015271123136-3 | DM:ReportEnd | Global Prompt Menu Feature Level |  |  |  | 10000001701443443496
+28/09/2015 18:14:04:385  INFO - In Progress | session id:mpp-2015271123136-3 | DM:ReportEnd | Postpaid_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000001701443443496
+28/09/2015 18:14:04:385  INFO - In Progress | session id:mpp-2015271123136-3 | DM:ReportEnd | Postpaid_MN | Input Type | Output_Parameters:inputType | dtmf | 10000001701443443496
+28/09/2015 18:14:04:385  INFO - In Progress | session id:mpp-2015271123136-3 | DM:ReportEnd | Postpaid_MN | Value | Output_Parameters:value | ActivationStatus | 10000001701443443496
+28/09/2015 18:14:04:385  INFO - End | session id:mpp-2015271123136-3 | DM:ReportEnd | Postpaid_MN |  |  |  | 10000001701443443496
+28/09/2015 18:14:04:476  INFO - In Progress | session id:mpp-2015271123136-3 | DM:ReportEnd | Welcome_PP | Return Code | Output_Parameters:returncode |  | 10000001701443443496
+28/09/2015 18:14:04:476  INFO - End | session id:mpp-2015271123136-3 | DM:ReportEnd | Welcome_PP |  |  |  | 10000001701443443496
+28/09/2015 18:14:16:519  INFO - In Progress | session id:mpp-2015271123136-3 | DM:ReportEnd | Global Prompt Menu Feature Level | Return Code | Output_Parameters:returncode | SUCCESS | 10000001701443443496
+28/09/2015 18:14:16:519  INFO - In Progress | session id:mpp-2015271123136-3 | DM:ReportEnd | Global Prompt Menu Feature Level | Input Type | Output_Parameters:inputType | dtmf | 10000001701443443496
+28/09/2015 18:14:16:519  INFO - In Progress | session id:mpp-2015271123136-3 | DM:ReportEnd | Global Prompt Menu Feature Level | Value | Output_Parameters:value | MainMenu | 10000001701443443496
+28/09/2015 18:14:16:519  INFO - End | session id:mpp-2015271123136-3 | DM:ReportEnd | Global Prompt Menu Feature Level |  |  |  | 10000001701443443496
+28/09/2015 18:14:26:582  INFO - In Progress | session id:mpp-2015271123136-3 | DM:ReportEnd | MainMenu | Return Code | Output_Parameters:returncode | SUCCESS | 10000001701443443496
+28/09/2015 18:14:26:582  INFO - In Progress | session id:mpp-2015271123136-3 | DM:ReportEnd | MainMenu | Input Type | Output_Parameters:inputType | dtmf | 10000001701443443496
+28/09/2015 18:14:26:582  INFO - In Progress | session id:mpp-2015271123136-3 | DM:ReportEnd | MainMenu | Value | Output_Parameters:value | Postpaid | 10000001701443443496
+28/09/2015 18:14:26:582  INFO - End | session id:mpp-2015271123136-3 | DM:ReportEnd | MainMenu |  |  |  | 10000001701443443496
+28/09/2015 18:14:30:823  INFO - In Progress | session id:mpp-2015271123136-3 | DM:ReportEnd | Postpaid_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000001701443443496
+28/09/2015 18:14:30:823  INFO - In Progress | session id:mpp-2015271123136-3 | DM:ReportEnd | Postpaid_MN | Input Type | Output_Parameters:inputType | dtmf | 10000001701443443496
+28/09/2015 18:14:30:823  INFO - In Progress | session id:mpp-2015271123136-3 | DM:ReportEnd | Postpaid_MN | Value | Output_Parameters:value | ActivationStatus | 10000001701443443496
+28/09/2015 18:14:30:823  INFO - End | session id:mpp-2015271123136-3 | DM:ReportEnd | Postpaid_MN |  |  |  | 10000001701443443496
+28/09/2015 18:14:30:923  INFO - In Progress | session id:mpp-2015271123136-3 | DM:ReportEnd | Welcome_PP | Return Code | Output_Parameters:returncode |  | 10000001701443443496
+28/09/2015 18:14:30:923  INFO - End | session id:mpp-2015271123136-3 | DM:ReportEnd | Welcome_PP |  |  |  | 10000001701443443496
+28/09/2015 18:14:33:284  INFO - In Progress | session id:mpp-2015271123136-3 | DM:ReportEnd | Global Prompt Menu Feature Level | Return Code | Output_Parameters:returncode | SUCCESS | 10000001701443443496
+28/09/2015 18:14:33:284  INFO - In Progress | session id:mpp-2015271123136-3 | DM:ReportEnd | Global Prompt Menu Feature Level | Input Type | Output_Parameters:inputType | dtmf | 10000001701443443496
+28/09/2015 18:14:33:284  INFO - In Progress | session id:mpp-2015271123136-3 | DM:ReportEnd | Global Prompt Menu Feature Level | Value | Output_Parameters:value | Agent | 10000001701443443496
+28/09/2015 18:14:33:284  INFO - End | session id:mpp-2015271123136-3 | DM:ReportEnd | Global Prompt Menu Feature Level |  |  |  | 10000001701443443496
+28/09/2015 18:14:33:394  INFO - In Progress | session id:mpp-2015271123136-3 | DM:ReportEnd | TransferAgent_PP | Return Code | Output_Parameters:returncode |  | 10000001701443443496
+28/09/2015 18:14:33:394  INFO - End | session id:mpp-2015271123136-3 | DM:ReportEnd | TransferAgent_PP |  |  |  | 10000001701443443496
+28/09/2015 18:17:18:725  INFO - In Progress | session id:mpp-2015271123550-8 | DM:ReportEnd | Welcome_PP | Return Code | Output_Parameters:returncode |  | 10000001711443443750
+28/09/2015 18:17:18:725  INFO - End | session id:mpp-2015271123550-8 | DM:ReportEnd | Welcome_PP |  |  |  | 10000001711443443750
+28/09/2015 18:17:23:077  INFO - In Progress | session id:mpp-2015271123550-8 | DM:ReportEnd | SelectLang_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000001711443443750
+28/09/2015 18:17:23:077  INFO - In Progress | session id:mpp-2015271123550-8 | DM:ReportEnd | SelectLang_MN | Input Type | Output_Parameters:inputType | dtmf | 10000001711443443750
+28/09/2015 18:17:23:077  INFO - In Progress | session id:mpp-2015271123550-8 | DM:ReportEnd | SelectLang_MN | Value | Output_Parameters:value | HIN | 10000001711443443750
+28/09/2015 18:17:23:077  INFO - End | session id:mpp-2015271123550-8 | DM:ReportEnd | SelectLang_MN |  |  |  | 10000001711443443750
+28/09/2015 18:17:25:258  INFO - In Progress | session id:mpp-2015271123550-8 | DM:ReportEnd | MainMenu | Return Code | Output_Parameters:returncode | SUCCESS | 10000001711443443750
+28/09/2015 18:17:25:258  INFO - In Progress | session id:mpp-2015271123550-8 | DM:ReportEnd | MainMenu | Input Type | Output_Parameters:inputType | dtmf | 10000001711443443750
+28/09/2015 18:17:25:258  INFO - In Progress | session id:mpp-2015271123550-8 | DM:ReportEnd | MainMenu | Value | Output_Parameters:value | Prepaid | 10000001711443443750
+28/09/2015 18:17:25:258  INFO - End | session id:mpp-2015271123550-8 | DM:ReportEnd | MainMenu |  |  |  | 10000001711443443750
+28/09/2015 18:17:56:229  INFO - In Progress | session id:mpp-2015271123550-8 | DM:ReportEnd | Prepaid_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000001711443443750
+28/09/2015 18:17:56:229  INFO - In Progress | session id:mpp-2015271123550-8 | DM:ReportEnd | Prepaid_MN | Input Type | Output_Parameters:inputType | dtmf | 10000001711443443750
+28/09/2015 18:17:56:229  INFO - In Progress | session id:mpp-2015271123550-8 | DM:ReportEnd | Prepaid_MN | Value | Output_Parameters:value | TransferAgent | 10000001711443443750
+28/09/2015 18:17:56:229  INFO - End | session id:mpp-2015271123550-8 | DM:ReportEnd | Prepaid_MN |  |  |  | 10000001711443443750
+28/09/2015 18:17:56:319  INFO - In Progress | session id:mpp-2015271123550-8 | DM:ReportEnd | TransferAgent_PP | Return Code | Output_Parameters:returncode |  | 10000001711443443750
+28/09/2015 18:17:56:319  INFO - End | session id:mpp-2015271123550-8 | DM:ReportEnd | TransferAgent_PP |  |  |  | 10000001711443443750
+28/09/2015 18:18:57:515  INFO - In Progress | session id:mpp-2015271123728-18 | DM:ReportEnd | Welcome_PP | Return Code | Output_Parameters:returncode |  | 10000001721443443848
+28/09/2015 18:18:57:515  INFO - End | session id:mpp-2015271123728-18 | DM:ReportEnd | Welcome_PP |  |  |  | 10000001721443443848
+28/09/2015 18:19:05:026  INFO - In Progress | session id:mpp-2015271123728-18 | DM:ReportEnd | SelectLang_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000001721443443848
+28/09/2015 18:19:05:026  INFO - In Progress | session id:mpp-2015271123728-18 | DM:ReportEnd | SelectLang_MN | Input Type | Output_Parameters:inputType | dtmf | 10000001721443443848
+28/09/2015 18:19:05:026  INFO - In Progress | session id:mpp-2015271123728-18 | DM:ReportEnd | SelectLang_MN | Value | Output_Parameters:value | TAM | 10000001721443443848
+28/09/2015 18:19:05:026  INFO - End | session id:mpp-2015271123728-18 | DM:ReportEnd | SelectLang_MN |  |  |  | 10000001721443443848
+28/09/2015 18:19:18:611  INFO - In Progress | session id:mpp-2015271123728-18 | DM:ReportEnd | MainMenu | Return Code | Output_Parameters:returncode | SUCCESS | 10000001721443443848
+28/09/2015 18:19:18:611  INFO - In Progress | session id:mpp-2015271123728-18 | DM:ReportEnd | MainMenu | Input Type | Output_Parameters:inputType | dtmf | 10000001721443443848
+28/09/2015 18:19:18:611  INFO - In Progress | session id:mpp-2015271123728-18 | DM:ReportEnd | MainMenu | Value | Output_Parameters:value | Prepaid | 10000001721443443848
+28/09/2015 18:19:18:611  INFO - End | session id:mpp-2015271123728-18 | DM:ReportEnd | MainMenu |  |  |  | 10000001721443443848
+28/09/2015 18:19:27:042  INFO - In Progress | session id:mpp-2015271123728-18 | DM:ReportEnd | Prepaid_MN | Return Code | Output_Parameters:returncode | NOMATCH | 10000001721443443848
+28/09/2015 18:19:27:042  INFO - End | session id:mpp-2015271123728-18 | DM:ReportEnd | Prepaid_MN |  |  |  | 10000001721443443848
+28/09/2015 18:19:27:142  INFO - In Progress | session id:mpp-2015271123728-18 | DM:ReportEnd | TransferAgent_PP | Return Code | Output_Parameters:returncode |  | 10000001721443443848
+28/09/2015 18:19:27:142  INFO - End | session id:mpp-2015271123728-18 | DM:ReportEnd | TransferAgent_PP |  |  |  | 10000001721443443848
+28/09/2015 18:29:42:737  INFO - In Progress | session id:mpp-2015271124813-6 | DM:ReportEnd | Welcome_PP | Return Code | Output_Parameters:returncode |  | 10000001731443444493
+28/09/2015 18:29:42:737  INFO - End | session id:mpp-2015271124813-6 | DM:ReportEnd | Welcome_PP |  |  |  | 10000001731443444493
+28/09/2015 18:29:52:368  INFO - In Progress | session id:mpp-2015271124813-6 | DM:ReportEnd | SelectLang_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000001731443444493
+28/09/2015 18:29:52:368  INFO - In Progress | session id:mpp-2015271124813-6 | DM:ReportEnd | SelectLang_MN | Input Type | Output_Parameters:inputType | dtmf | 10000001731443444493
+28/09/2015 18:29:52:368  INFO - In Progress | session id:mpp-2015271124813-6 | DM:ReportEnd | SelectLang_MN | Value | Output_Parameters:value | TAM | 10000001731443444493
+28/09/2015 18:29:52:368  INFO - End | session id:mpp-2015271124813-6 | DM:ReportEnd | SelectLang_MN |  |  |  | 10000001731443444493
+28/09/2015 18:29:59:404  INFO - In Progress | session id:mpp-2015271124813-6 | DM:ReportEnd | MainMenu | Return Code | Output_Parameters:returncode | SUCCESS | 10000001731443444493
+28/09/2015 18:29:59:404  INFO - In Progress | session id:mpp-2015271124813-6 | DM:ReportEnd | MainMenu | Input Type | Output_Parameters:inputType | dtmf | 10000001731443444493
+28/09/2015 18:29:59:404  INFO - In Progress | session id:mpp-2015271124813-6 | DM:ReportEnd | MainMenu | Value | Output_Parameters:value | Prepaid | 10000001731443444493
+28/09/2015 18:29:59:404  INFO - End | session id:mpp-2015271124813-6 | DM:ReportEnd | MainMenu |  |  |  | 10000001731443444493
+28/09/2015 18:30:06:277  INFO - In Progress | session id:mpp-2015271124813-6 | DM:ReportEnd | Prepaid_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000001731443444493
+28/09/2015 18:30:06:277  INFO - In Progress | session id:mpp-2015271124813-6 | DM:ReportEnd | Prepaid_MN | Input Type | Output_Parameters:inputType | dtmf | 10000001731443444493
+28/09/2015 18:30:06:277  INFO - In Progress | session id:mpp-2015271124813-6 | DM:ReportEnd | Prepaid_MN | Value | Output_Parameters:value | AccountBalance | 10000001731443444493
+28/09/2015 18:30:06:277  INFO - End | session id:mpp-2015271124813-6 | DM:ReportEnd | Prepaid_MN |  |  |  | 10000001731443444493
+28/09/2015 18:30:06:686  INFO - In Progress | session id:mpp-2015271124813-6 | DM:ReportEnd | AccountBalance_PP | Return Code | Output_Parameters:returncode |  | 10000001731443444493
+28/09/2015 18:30:06:686  INFO - End | session id:mpp-2015271124813-6 | DM:ReportEnd | AccountBalance_PP |  |  |  | 10000001731443444493
+28/09/2015 18:30:27:433  INFO - In Progress | session id:mpp-2015271124813-6 | DM:ReportEnd | Global Prompt Menu Feature Level | Return Code | Output_Parameters:returncode | SUCCESS | 10000001731443444493
+28/09/2015 18:30:27:433  INFO - In Progress | session id:mpp-2015271124813-6 | DM:ReportEnd | Global Prompt Menu Feature Level | Input Type | Output_Parameters:inputType | dtmf | 10000001731443444493
+28/09/2015 18:30:27:433  INFO - In Progress | session id:mpp-2015271124813-6 | DM:ReportEnd | Global Prompt Menu Feature Level | Value | Output_Parameters:value | Repeat | 10000001731443444493
+28/09/2015 18:30:27:433  INFO - End | session id:mpp-2015271124813-6 | DM:ReportEnd | Global Prompt Menu Feature Level |  |  |  | 10000001731443444493
+28/09/2015 18:30:27:574  INFO - In Progress | session id:mpp-2015271124813-6 | DM:ReportEnd | AccountBalance_PP | Return Code | Output_Parameters:returncode |  | 10000001731443444493
+28/09/2015 18:30:27:574  INFO - End | session id:mpp-2015271124813-6 | DM:ReportEnd | AccountBalance_PP |  |  |  | 10000001731443444493
+28/09/2015 18:30:52:001  INFO - In Progress | session id:mpp-2015271124813-6 | DM:ReportEnd | Global Prompt Menu Feature Level | Return Code | Output_Parameters:returncode | SUCCESS | 10000001731443444493
+28/09/2015 18:30:52:001  INFO - In Progress | session id:mpp-2015271124813-6 | DM:ReportEnd | Global Prompt Menu Feature Level | Input Type | Output_Parameters:inputType | dtmf | 10000001731443444493
+28/09/2015 18:30:52:001  INFO - In Progress | session id:mpp-2015271124813-6 | DM:ReportEnd | Global Prompt Menu Feature Level | Value | Output_Parameters:value | Repeat | 10000001731443444493
+28/09/2015 18:30:52:001  INFO - End | session id:mpp-2015271124813-6 | DM:ReportEnd | Global Prompt Menu Feature Level |  |  |  | 10000001731443444493
+28/09/2015 18:30:52:117  INFO - In Progress | session id:mpp-2015271124813-6 | DM:ReportEnd | AccountBalance_PP | Return Code | Output_Parameters:returncode |  | 10000001731443444493
+28/09/2015 18:30:52:117  INFO - End | session id:mpp-2015271124813-6 | DM:ReportEnd | AccountBalance_PP |  |  |  | 10000001731443444493
+28/09/2015 18:32:01:538  INFO - In Progress | session id:mpp-2015271125032-13 | DM:ReportEnd | Welcome_PP | Return Code | Output_Parameters:returncode |  | 10000001741443444632
+28/09/2015 18:32:01:538  INFO - End | session id:mpp-2015271125032-13 | DM:ReportEnd | Welcome_PP |  |  |  | 10000001741443444632
+28/09/2015 18:32:11:909  INFO - In Progress | session id:mpp-2015271125032-13 | DM:ReportEnd | SelectLang_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000001741443444632
+28/09/2015 18:32:11:909  INFO - In Progress | session id:mpp-2015271125032-13 | DM:ReportEnd | SelectLang_MN | Input Type | Output_Parameters:inputType | dtmf | 10000001741443444632
+28/09/2015 18:32:11:909  INFO - In Progress | session id:mpp-2015271125032-13 | DM:ReportEnd | SelectLang_MN | Value | Output_Parameters:value | TAM | 10000001741443444632
+28/09/2015 18:32:11:909  INFO - End | session id:mpp-2015271125032-13 | DM:ReportEnd | SelectLang_MN |  |  |  | 10000001741443444632
+28/09/2015 18:32:18:869  INFO - In Progress | session id:mpp-2015271125032-13 | DM:ReportEnd | MainMenu | Return Code | Output_Parameters:returncode | SUCCESS | 10000001741443444632
+28/09/2015 18:32:18:869  INFO - In Progress | session id:mpp-2015271125032-13 | DM:ReportEnd | MainMenu | Input Type | Output_Parameters:inputType | dtmf | 10000001741443444632
+28/09/2015 18:32:18:869  INFO - In Progress | session id:mpp-2015271125032-13 | DM:ReportEnd | MainMenu | Value | Output_Parameters:value | Prepaid | 10000001741443444632
+28/09/2015 18:32:18:869  INFO - End | session id:mpp-2015271125032-13 | DM:ReportEnd | MainMenu |  |  |  | 10000001741443444632
+28/09/2015 18:32:19:870  INFO - In Progress | session id:mpp-2015271125032-13 | DM:ReportEnd | Prepaid_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000001741443444632
+28/09/2015 18:32:19:870  INFO - In Progress | session id:mpp-2015271125032-13 | DM:ReportEnd | Prepaid_MN | Input Type | Output_Parameters:inputType | dtmf | 10000001741443444632
+28/09/2015 18:32:19:870  INFO - In Progress | session id:mpp-2015271125032-13 | DM:ReportEnd | Prepaid_MN | Value | Output_Parameters:value | AccountBalance | 10000001741443444632
+28/09/2015 18:32:19:870  INFO - End | session id:mpp-2015271125032-13 | DM:ReportEnd | Prepaid_MN |  |  |  | 10000001741443444632
+28/09/2015 18:32:19:982  INFO - In Progress | session id:mpp-2015271125032-13 | DM:ReportEnd | AccountBalance_PP | Return Code | Output_Parameters:returncode |  | 10000001741443444632
+28/09/2015 18:32:19:982  INFO - End | session id:mpp-2015271125032-13 | DM:ReportEnd | AccountBalance_PP |  |  |  | 10000001741443444632
+28/09/2015 18:36:07:166  INFO - In Progress | session id:mpp-2015271125437-4 | DM:ReportEnd | Welcome_PP | Return Code | Output_Parameters:returncode |  | 10000001761443444877
+28/09/2015 18:36:07:166  INFO - End | session id:mpp-2015271125437-4 | DM:ReportEnd | Welcome_PP |  |  |  | 10000001761443444877
+28/09/2015 18:36:15:063  INFO - In Progress | session id:mpp-2015271125437-4 | DM:ReportEnd | SelectLang_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000001761443444877
+28/09/2015 18:36:15:063  INFO - In Progress | session id:mpp-2015271125437-4 | DM:ReportEnd | SelectLang_MN | Input Type | Output_Parameters:inputType | dtmf | 10000001761443444877
+28/09/2015 18:36:15:063  INFO - In Progress | session id:mpp-2015271125437-4 | DM:ReportEnd | SelectLang_MN | Value | Output_Parameters:value | TAM | 10000001761443444877
+28/09/2015 18:36:15:063  INFO - End | session id:mpp-2015271125437-4 | DM:ReportEnd | SelectLang_MN |  |  |  | 10000001761443444877
+28/09/2015 18:36:16:826  INFO - In Progress | session id:mpp-2015271125437-4 | DM:ReportEnd | MainMenu | Return Code | Output_Parameters:returncode | SUCCESS | 10000001761443444877
+28/09/2015 18:36:16:826  INFO - In Progress | session id:mpp-2015271125437-4 | DM:ReportEnd | MainMenu | Input Type | Output_Parameters:inputType | dtmf | 10000001761443444877
+28/09/2015 18:36:16:826  INFO - In Progress | session id:mpp-2015271125437-4 | DM:ReportEnd | MainMenu | Value | Output_Parameters:value | Prepaid | 10000001761443444877
+28/09/2015 18:36:16:826  INFO - End | session id:mpp-2015271125437-4 | DM:ReportEnd | MainMenu |  |  |  | 10000001761443444877
+28/09/2015 18:36:17:873  INFO - In Progress | session id:mpp-2015271125437-4 | DM:ReportEnd | Prepaid_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000001761443444877
+28/09/2015 18:36:17:873  INFO - In Progress | session id:mpp-2015271125437-4 | DM:ReportEnd | Prepaid_MN | Input Type | Output_Parameters:inputType | dtmf | 10000001761443444877
+28/09/2015 18:36:17:873  INFO - In Progress | session id:mpp-2015271125437-4 | DM:ReportEnd | Prepaid_MN | Value | Output_Parameters:value | AccountBalance | 10000001761443444877
+28/09/2015 18:36:17:873  INFO - End | session id:mpp-2015271125437-4 | DM:ReportEnd | Prepaid_MN |  |  |  | 10000001761443444877
+28/09/2015 18:36:18:014  INFO - In Progress | session id:mpp-2015271125437-4 | DM:ReportEnd | AccountBalance_PP | Return Code | Output_Parameters:returncode |  | 10000001761443444877
+28/09/2015 18:36:18:014  INFO - End | session id:mpp-2015271125437-4 | DM:ReportEnd | AccountBalance_PP |  |  |  | 10000001761443444877
+28/09/2015 18:36:42:588  INFO - In Progress | session id:mpp-2015271125437-4 | DM:ReportEnd | Global Prompt Menu Feature Level | Return Code | Output_Parameters:returncode | SUCCESS | 10000001761443444877
+28/09/2015 18:36:42:588  INFO - In Progress | session id:mpp-2015271125437-4 | DM:ReportEnd | Global Prompt Menu Feature Level | Input Type | Output_Parameters:inputType | dtmf | 10000001761443444877
+28/09/2015 18:36:42:588  INFO - In Progress | session id:mpp-2015271125437-4 | DM:ReportEnd | Global Prompt Menu Feature Level | Value | Output_Parameters:value | Repeat | 10000001761443444877
+28/09/2015 18:36:42:588  INFO - End | session id:mpp-2015271125437-4 | DM:ReportEnd | Global Prompt Menu Feature Level |  |  |  | 10000001761443444877
+28/09/2015 18:36:42:697  INFO - In Progress | session id:mpp-2015271125437-4 | DM:ReportEnd | AccountBalance_PP | Return Code | Output_Parameters:returncode |  | 10000001761443444877
+28/09/2015 18:36:42:697  INFO - End | session id:mpp-2015271125437-4 | DM:ReportEnd | AccountBalance_PP |  |  |  | 10000001761443444877
+28/09/2015 18:36:54:430  INFO - In Progress | session id:mpp-2015271125437-4 | DM:ReportEnd | Global Prompt Menu Feature Level | Return Code | Output_Parameters:returncode | SUCCESS | 10000001761443444877
+28/09/2015 18:36:54:430  INFO - In Progress | session id:mpp-2015271125437-4 | DM:ReportEnd | Global Prompt Menu Feature Level | Input Type | Output_Parameters:inputType | dtmf | 10000001761443444877
+28/09/2015 18:36:54:430  INFO - In Progress | session id:mpp-2015271125437-4 | DM:ReportEnd | Global Prompt Menu Feature Level | Value | Output_Parameters:value | PreviousMenu | 10000001761443444877
+28/09/2015 18:36:54:430  INFO - End | session id:mpp-2015271125437-4 | DM:ReportEnd | Global Prompt Menu Feature Level |  |  |  | 10000001761443444877
+28/09/2015 18:36:58:611  INFO - In Progress | session id:mpp-2015271125437-4 | DM:ReportEnd | Prepaid_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000001761443444877
+28/09/2015 18:36:58:611  INFO - In Progress | session id:mpp-2015271125437-4 | DM:ReportEnd | Prepaid_MN | Input Type | Output_Parameters:inputType | dtmf | 10000001761443444877
+28/09/2015 18:36:58:611  INFO - In Progress | session id:mpp-2015271125437-4 | DM:ReportEnd | Prepaid_MN | Value | Output_Parameters:value | AccountBalance | 10000001761443444877
+28/09/2015 18:36:58:611  INFO - End | session id:mpp-2015271125437-4 | DM:ReportEnd | Prepaid_MN |  |  |  | 10000001761443444877
+28/09/2015 18:36:58:736  INFO - In Progress | session id:mpp-2015271125437-4 | DM:ReportEnd | AccountBalance_PP | Return Code | Output_Parameters:returncode |  | 10000001761443444877
+28/09/2015 18:36:58:736  INFO - End | session id:mpp-2015271125437-4 | DM:ReportEnd | AccountBalance_PP |  |  |  | 10000001761443444877
+28/09/2015 18:37:02:717  INFO - In Progress | session id:mpp-2015271125437-4 | DM:ReportEnd | Global Prompt Menu Feature Level | Return Code | Output_Parameters:returncode | SUCCESS | 10000001761443444877
+28/09/2015 18:37:02:717  INFO - In Progress | session id:mpp-2015271125437-4 | DM:ReportEnd | Global Prompt Menu Feature Level | Input Type | Output_Parameters:inputType | dtmf | 10000001761443444877
+28/09/2015 18:37:02:717  INFO - In Progress | session id:mpp-2015271125437-4 | DM:ReportEnd | Global Prompt Menu Feature Level | Value | Output_Parameters:value | MainMenu | 10000001761443444877
+28/09/2015 18:37:02:717  INFO - End | session id:mpp-2015271125437-4 | DM:ReportEnd | Global Prompt Menu Feature Level |  |  |  | 10000001761443444877
+28/09/2015 18:37:05:245  INFO - In Progress | session id:mpp-2015271125437-4 | DM:ReportEnd | MainMenu | Return Code | Output_Parameters:returncode | SUCCESS | 10000001761443444877
+28/09/2015 18:37:05:245  INFO - In Progress | session id:mpp-2015271125437-4 | DM:ReportEnd | MainMenu | Input Type | Output_Parameters:inputType | dtmf | 10000001761443444877
+28/09/2015 18:37:05:245  INFO - In Progress | session id:mpp-2015271125437-4 | DM:ReportEnd | MainMenu | Value | Output_Parameters:value | Prepaid | 10000001761443444877
+28/09/2015 18:37:05:245  INFO - End | session id:mpp-2015271125437-4 | DM:ReportEnd | MainMenu |  |  |  | 10000001761443444877
+28/09/2015 18:37:15:839  INFO - In Progress | session id:mpp-2015271125437-4 | DM:ReportEnd | Prepaid_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000001761443444877
+28/09/2015 18:37:15:839  INFO - In Progress | session id:mpp-2015271125437-4 | DM:ReportEnd | Prepaid_MN | Input Type | Output_Parameters:inputType | dtmf | 10000001761443444877
+28/09/2015 18:37:15:839  INFO - In Progress | session id:mpp-2015271125437-4 | DM:ReportEnd | Prepaid_MN | Value | Output_Parameters:value | AccountBalance | 10000001761443444877
+28/09/2015 18:37:15:839  INFO - End | session id:mpp-2015271125437-4 | DM:ReportEnd | Prepaid_MN |  |  |  | 10000001761443444877
+28/09/2015 18:37:15:964  INFO - In Progress | session id:mpp-2015271125437-4 | DM:ReportEnd | AccountBalance_PP | Return Code | Output_Parameters:returncode |  | 10000001761443444877
+28/09/2015 18:37:15:964  INFO - End | session id:mpp-2015271125437-4 | DM:ReportEnd | AccountBalance_PP |  |  |  | 10000001761443444877
+28/09/2015 18:37:20:972  INFO - In Progress | session id:mpp-2015271125437-4 | DM:ReportEnd | Global Prompt Menu Feature Level | Return Code | Output_Parameters:returncode | SUCCESS | 10000001761443444877
+28/09/2015 18:37:20:972  INFO - In Progress | session id:mpp-2015271125437-4 | DM:ReportEnd | Global Prompt Menu Feature Level | Input Type | Output_Parameters:inputType | dtmf | 10000001761443444877
+28/09/2015 18:37:20:972  INFO - In Progress | session id:mpp-2015271125437-4 | DM:ReportEnd | Global Prompt Menu Feature Level | Value | Output_Parameters:value | Agent | 10000001761443444877
+28/09/2015 18:37:20:972  INFO - End | session id:mpp-2015271125437-4 | DM:ReportEnd | Global Prompt Menu Feature Level |  |  |  | 10000001761443444877
+28/09/2015 18:37:21:066  INFO - In Progress | session id:mpp-2015271125437-4 | DM:ReportEnd | TransferAgent_PP | Return Code | Output_Parameters:returncode |  | 10000001761443444877
+28/09/2015 18:37:21:066  INFO - End | session id:mpp-2015271125437-4 | DM:ReportEnd | TransferAgent_PP |  |  |  | 10000001761443444877
+28/09/2015 18:37:36:298  INFO - In Progress | session id:mpp-2015271125607-5 | DM:ReportEnd | Welcome_PP | Return Code | Output_Parameters:returncode |  | 10000001771443444967
+28/09/2015 18:37:36:298  INFO - End | session id:mpp-2015271125607-5 | DM:ReportEnd | Welcome_PP |  |  |  | 10000001771443444967
+28/09/2015 18:37:41:869  INFO - In Progress | session id:mpp-2015271125607-5 | DM:ReportEnd | SelectLang_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000001771443444967
+28/09/2015 18:37:41:869  INFO - In Progress | session id:mpp-2015271125607-5 | DM:ReportEnd | SelectLang_MN | Input Type | Output_Parameters:inputType | dtmf | 10000001771443444967
+28/09/2015 18:37:41:869  INFO - In Progress | session id:mpp-2015271125607-5 | DM:ReportEnd | SelectLang_MN | Value | Output_Parameters:value | TAM | 10000001771443444967
+28/09/2015 18:37:41:869  INFO - End | session id:mpp-2015271125607-5 | DM:ReportEnd | SelectLang_MN |  |  |  | 10000001771443444967
+28/09/2015 18:37:54:428  INFO - In Progress | session id:mpp-2015271125607-5 | DM:ReportEnd | MainMenu | Return Code | Output_Parameters:returncode | SUCCESS | 10000001771443444967
+28/09/2015 18:37:54:428  INFO - In Progress | session id:mpp-2015271125607-5 | DM:ReportEnd | MainMenu | Input Type | Output_Parameters:inputType | dtmf | 10000001771443444967
+28/09/2015 18:37:54:428  INFO - In Progress | session id:mpp-2015271125607-5 | DM:ReportEnd | MainMenu | Value | Output_Parameters:value | Prepaid | 10000001771443444967
+28/09/2015 18:37:54:428  INFO - End | session id:mpp-2015271125607-5 | DM:ReportEnd | MainMenu |  |  |  | 10000001771443444967
+28/09/2015 18:37:59:374  INFO - In Progress | session id:mpp-2015271125607-5 | DM:ReportEnd | Prepaid_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000001771443444967
+28/09/2015 18:37:59:374  INFO - In Progress | session id:mpp-2015271125607-5 | DM:ReportEnd | Prepaid_MN | Input Type | Output_Parameters:inputType | dtmf | 10000001771443444967
+28/09/2015 18:37:59:374  INFO - In Progress | session id:mpp-2015271125607-5 | DM:ReportEnd | Prepaid_MN | Value | Output_Parameters:value | AccountBalance | 10000001771443444967
+28/09/2015 18:37:59:374  INFO - End | session id:mpp-2015271125607-5 | DM:ReportEnd | Prepaid_MN |  |  |  | 10000001771443444967
+28/09/2015 18:37:59:483  INFO - In Progress | session id:mpp-2015271125607-5 | DM:ReportEnd | AccountBalance_PP | Return Code | Output_Parameters:returncode |  | 10000001771443444967
+28/09/2015 18:37:59:483  INFO - End | session id:mpp-2015271125607-5 | DM:ReportEnd | AccountBalance_PP |  |  |  | 10000001771443444967
+28/09/2015 18:38:07:596  INFO - In Progress | session id:mpp-2015271125607-5 | DM:ReportEnd | Global Prompt Menu Feature Level | Return Code | Output_Parameters:returncode | SUCCESS | 10000001771443444967
+28/09/2015 18:38:07:596  INFO - In Progress | session id:mpp-2015271125607-5 | DM:ReportEnd | Global Prompt Menu Feature Level | Input Type | Output_Parameters:inputType | dtmf | 10000001771443444967
+28/09/2015 18:38:07:596  INFO - In Progress | session id:mpp-2015271125607-5 | DM:ReportEnd | Global Prompt Menu Feature Level | Value | Output_Parameters:value | Repeat | 10000001771443444967
+28/09/2015 18:38:07:596  INFO - End | session id:mpp-2015271125607-5 | DM:ReportEnd | Global Prompt Menu Feature Level |  |  |  | 10000001771443444967
+28/09/2015 18:38:07:705  INFO - In Progress | session id:mpp-2015271125607-5 | DM:ReportEnd | AccountBalance_PP | Return Code | Output_Parameters:returncode |  | 10000001771443444967
+28/09/2015 18:38:07:705  INFO - End | session id:mpp-2015271125607-5 | DM:ReportEnd | AccountBalance_PP |  |  |  | 10000001771443444967
+28/09/2015 18:38:15:761  INFO - In Progress | session id:mpp-2015271125607-5 | DM:ReportEnd | Global Prompt Menu Feature Level | Return Code | Output_Parameters:returncode | SUCCESS | 10000001771443444967
+28/09/2015 18:38:15:761  INFO - In Progress | session id:mpp-2015271125607-5 | DM:ReportEnd | Global Prompt Menu Feature Level | Input Type | Output_Parameters:inputType | dtmf | 10000001771443444967
+28/09/2015 18:38:15:761  INFO - In Progress | session id:mpp-2015271125607-5 | DM:ReportEnd | Global Prompt Menu Feature Level | Value | Output_Parameters:value | Repeat | 10000001771443444967
+28/09/2015 18:38:15:761  INFO - End | session id:mpp-2015271125607-5 | DM:ReportEnd | Global Prompt Menu Feature Level |  |  |  | 10000001771443444967
+28/09/2015 18:38:15:854  INFO - In Progress | session id:mpp-2015271125607-5 | DM:ReportEnd | AccountBalance_PP | Return Code | Output_Parameters:returncode |  | 10000001771443444967
+28/09/2015 18:38:15:854  INFO - End | session id:mpp-2015271125607-5 | DM:ReportEnd | AccountBalance_PP |  |  |  | 10000001771443444967
+28/09/2015 18:38:23:827  INFO - In Progress | session id:mpp-2015271125607-5 | DM:ReportEnd | Global Prompt Menu Feature Level | Return Code | Output_Parameters:returncode | SUCCESS | 10000001771443444967
+28/09/2015 18:38:23:827  INFO - In Progress | session id:mpp-2015271125607-5 | DM:ReportEnd | Global Prompt Menu Feature Level | Input Type | Output_Parameters:inputType | dtmf | 10000001771443444967
+28/09/2015 18:38:23:827  INFO - In Progress | session id:mpp-2015271125607-5 | DM:ReportEnd | Global Prompt Menu Feature Level | Value | Output_Parameters:value | Repeat | 10000001771443444967
+28/09/2015 18:38:23:827  INFO - End | session id:mpp-2015271125607-5 | DM:ReportEnd | Global Prompt Menu Feature Level |  |  |  | 10000001771443444967
+28/09/2015 18:38:23:936  INFO - In Progress | session id:mpp-2015271125607-5 | DM:ReportEnd | ExceedTries_PP | Return Code | Output_Parameters:returncode |  | 10000001771443444967
+28/09/2015 18:38:23:936  INFO - End | session id:mpp-2015271125607-5 | DM:ReportEnd | ExceedTries_PP |  |  |  | 10000001771443444967
+28/09/2015 18:38:23:999  INFO - In Progress | session id:mpp-2015271125607-5 | DM:ReportEnd | TransferAgent_PP | Return Code | Output_Parameters:returncode |  | 10000001771443444967
+28/09/2015 18:38:23:999  INFO - End | session id:mpp-2015271125607-5 | DM:ReportEnd | TransferAgent_PP |  |  |  | 10000001771443444967
+28/09/2015 19:00:10:230  INFO - In Progress | session id:mpp-2015271131841-16 | DM:ReportEnd | Welcome_PP | Return Code | Output_Parameters:returncode |  | 10000001781443446321
+28/09/2015 19:00:10:230  INFO - End | session id:mpp-2015271131841-16 | DM:ReportEnd | Welcome_PP |  |  |  | 10000001781443446321
+28/09/2015 19:00:19:797  INFO - In Progress | session id:mpp-2015271131841-16 | DM:ReportEnd | SelectLang_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000001781443446321
+28/09/2015 19:00:19:797  INFO - In Progress | session id:mpp-2015271131841-16 | DM:ReportEnd | SelectLang_MN | Input Type | Output_Parameters:inputType | dtmf | 10000001781443446321
+28/09/2015 19:00:19:797  INFO - In Progress | session id:mpp-2015271131841-16 | DM:ReportEnd | SelectLang_MN | Value | Output_Parameters:value | TAM | 10000001781443446321
+28/09/2015 19:00:19:797  INFO - End | session id:mpp-2015271131841-16 | DM:ReportEnd | SelectLang_MN |  |  |  | 10000001781443446321
+28/09/2015 19:00:21:561  INFO - In Progress | session id:mpp-2015271131841-16 | DM:ReportEnd | MainMenu | Return Code | Output_Parameters:returncode | SUCCESS | 10000001781443446321
+28/09/2015 19:00:21:561  INFO - In Progress | session id:mpp-2015271131841-16 | DM:ReportEnd | MainMenu | Input Type | Output_Parameters:inputType | dtmf | 10000001781443446321
+28/09/2015 19:00:21:561  INFO - In Progress | session id:mpp-2015271131841-16 | DM:ReportEnd | MainMenu | Value | Output_Parameters:value | Prepaid | 10000001781443446321
+28/09/2015 19:00:21:561  INFO - End | session id:mpp-2015271131841-16 | DM:ReportEnd | MainMenu |  |  |  | 10000001781443446321
+28/09/2015 19:00:35:463  INFO - In Progress | session id:mpp-2015271131841-16 | DM:ReportEnd | Prepaid_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000001781443446321
+28/09/2015 19:00:35:463  INFO - In Progress | session id:mpp-2015271131841-16 | DM:ReportEnd | Prepaid_MN | Input Type | Output_Parameters:inputType | dtmf | 10000001781443446321
+28/09/2015 19:00:35:463  INFO - In Progress | session id:mpp-2015271131841-16 | DM:ReportEnd | Prepaid_MN | Value | Output_Parameters:value | TransactionStatus | 10000001781443446321
+28/09/2015 19:00:35:463  INFO - End | session id:mpp-2015271131841-16 | DM:ReportEnd | Prepaid_MN |  |  |  | 10000001781443446321
+28/09/2015 19:00:35:603  INFO - In Progress | session id:mpp-2015271131841-16 | DM:ReportEnd | TransactionStatus_PP | Return Code | Output_Parameters:returncode |  | 10000001781443446321
+28/09/2015 19:00:35:603  INFO - End | session id:mpp-2015271131841-16 | DM:ReportEnd | TransactionStatus_PP |  |  |  | 10000001781443446321
+28/09/2015 19:00:35:728  INFO - In Progress | session id:mpp-2015271131841-16 | DM:ReportEnd | TransactionAvailable_PP | Return Code | Output_Parameters:returncode |  | 10000001781443446321
+28/09/2015 19:00:35:728  INFO - End | session id:mpp-2015271131841-16 | DM:ReportEnd | TransactionAvailable_PP |  |  |  | 10000001781443446321
+28/09/2015 19:03:25:244  INFO - In Progress | session id:mpp-2015271132156-1 | DM:ReportEnd | Welcome_PP | Return Code | Output_Parameters:returncode |  | 10000001791443446516
+28/09/2015 19:03:25:244  INFO - End | session id:mpp-2015271132156-1 | DM:ReportEnd | Welcome_PP |  |  |  | 10000001791443446516
+28/09/2015 19:03:43:034  INFO - In Progress | session id:mpp-2015271132156-1 | DM:ReportEnd | SelectLang_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000001791443446516
+28/09/2015 19:03:43:034  INFO - In Progress | session id:mpp-2015271132156-1 | DM:ReportEnd | SelectLang_MN | Input Type | Output_Parameters:inputType | dtmf | 10000001791443446516
+28/09/2015 19:03:43:034  INFO - In Progress | session id:mpp-2015271132156-1 | DM:ReportEnd | SelectLang_MN | Value | Output_Parameters:value | TAM | 10000001791443446516
+28/09/2015 19:03:43:034  INFO - End | session id:mpp-2015271132156-1 | DM:ReportEnd | SelectLang_MN |  |  |  | 10000001791443446516
+28/09/2015 19:03:48:807  INFO - In Progress | session id:mpp-2015271132156-1 | DM:ReportEnd | MainMenu | Return Code | Output_Parameters:returncode | SUCCESS | 10000001791443446516
+28/09/2015 19:03:48:807  INFO - In Progress | session id:mpp-2015271132156-1 | DM:ReportEnd | MainMenu | Input Type | Output_Parameters:inputType | dtmf | 10000001791443446516
+28/09/2015 19:03:48:807  INFO - In Progress | session id:mpp-2015271132156-1 | DM:ReportEnd | MainMenu | Value | Output_Parameters:value | Prepaid | 10000001791443446516
+28/09/2015 19:03:48:807  INFO - End | session id:mpp-2015271132156-1 | DM:ReportEnd | MainMenu |  |  |  | 10000001791443446516
+28/09/2015 19:03:50:617  INFO - In Progress | session id:mpp-2015271132156-1 | DM:ReportEnd | Prepaid_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000001791443446516
+28/09/2015 19:03:50:617  INFO - In Progress | session id:mpp-2015271132156-1 | DM:ReportEnd | Prepaid_MN | Input Type | Output_Parameters:inputType | dtmf | 10000001791443446516
+28/09/2015 19:03:50:617  INFO - In Progress | session id:mpp-2015271132156-1 | DM:ReportEnd | Prepaid_MN | Value | Output_Parameters:value | TransactionStatus | 10000001791443446516
+28/09/2015 19:03:50:617  INFO - End | session id:mpp-2015271132156-1 | DM:ReportEnd | Prepaid_MN |  |  |  | 10000001791443446516
+28/09/2015 19:03:50:711  INFO - In Progress | session id:mpp-2015271132156-1 | DM:ReportEnd | TransactionStatus_PP | Return Code | Output_Parameters:returncode |  | 10000001791443446516
+28/09/2015 19:03:50:711  INFO - End | session id:mpp-2015271132156-1 | DM:ReportEnd | TransactionStatus_PP |  |  |  | 10000001791443446516
+28/09/2015 19:03:50:898  INFO - In Progress | session id:mpp-2015271132156-1 | DM:ReportEnd | TransactionAvailable_PP | Return Code | Output_Parameters:returncode |  | 10000001791443446516
+28/09/2015 19:03:50:898  INFO - End | session id:mpp-2015271132156-1 | DM:ReportEnd | TransactionAvailable_PP |  |  |  | 10000001791443446516
+28/09/2015 19:11:00:205  INFO - In Progress | session id:mpp-2015271132931-9 | DM:ReportEnd | Welcome_PP | Return Code | Output_Parameters:returncode |  | 10000001801443446971
+28/09/2015 19:11:00:205  INFO - End | session id:mpp-2015271132931-9 | DM:ReportEnd | Welcome_PP |  |  |  | 10000001801443446971
+28/09/2015 19:11:08:883  INFO - In Progress | session id:mpp-2015271132931-9 | DM:ReportEnd | SelectLang_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000001801443446971
+28/09/2015 19:11:08:883  INFO - In Progress | session id:mpp-2015271132931-9 | DM:ReportEnd | SelectLang_MN | Input Type | Output_Parameters:inputType | dtmf | 10000001801443446971
+28/09/2015 19:11:08:883  INFO - In Progress | session id:mpp-2015271132931-9 | DM:ReportEnd | SelectLang_MN | Value | Output_Parameters:value | TAM | 10000001801443446971
+28/09/2015 19:11:08:883  INFO - End | session id:mpp-2015271132931-9 | DM:ReportEnd | SelectLang_MN |  |  |  | 10000001801443446971
+28/09/2015 19:11:13:533  INFO - In Progress | session id:mpp-2015271132931-9 | DM:ReportEnd | MainMenu | Return Code | Output_Parameters:returncode | SUCCESS | 10000001801443446971
+28/09/2015 19:11:13:533  INFO - In Progress | session id:mpp-2015271132931-9 | DM:ReportEnd | MainMenu | Input Type | Output_Parameters:inputType | dtmf | 10000001801443446971
+28/09/2015 19:11:13:533  INFO - In Progress | session id:mpp-2015271132931-9 | DM:ReportEnd | MainMenu | Value | Output_Parameters:value | Prepaid | 10000001801443446971
+28/09/2015 19:11:13:533  INFO - End | session id:mpp-2015271132931-9 | DM:ReportEnd | MainMenu |  |  |  | 10000001801443446971
+28/09/2015 19:11:14:829  INFO - In Progress | session id:mpp-2015271132931-9 | DM:ReportEnd | Prepaid_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000001801443446971
+28/09/2015 19:11:14:829  INFO - In Progress | session id:mpp-2015271132931-9 | DM:ReportEnd | Prepaid_MN | Input Type | Output_Parameters:inputType | dtmf | 10000001801443446971
+28/09/2015 19:11:14:829  INFO - In Progress | session id:mpp-2015271132931-9 | DM:ReportEnd | Prepaid_MN | Value | Output_Parameters:value | TransactionStatus | 10000001801443446971
+28/09/2015 19:11:14:829  INFO - End | session id:mpp-2015271132931-9 | DM:ReportEnd | Prepaid_MN |  |  |  | 10000001801443446971
+28/09/2015 19:11:14:922  INFO - In Progress | session id:mpp-2015271132931-9 | DM:ReportEnd | TransactionStatus_PP | Return Code | Output_Parameters:returncode |  | 10000001801443446971
+28/09/2015 19:11:14:922  INFO - End | session id:mpp-2015271132931-9 | DM:ReportEnd | TransactionStatus_PP |  |  |  | 10000001801443446971
+28/09/2015 19:11:15:064  INFO - In Progress | session id:mpp-2015271132931-9 | DM:ReportEnd | TransactionAvailable_PP | Return Code | Output_Parameters:returncode |  | 10000001801443446971
+28/09/2015 19:11:15:064  INFO - End | session id:mpp-2015271132931-9 | DM:ReportEnd | TransactionAvailable_PP |  |  |  | 10000001801443446971
+28/09/2015 19:11:49:979  INFO - In Progress | session id:mpp-2015271132931-9 | DM:ReportEnd | Global Prompt Menu Feature Level | Return Code | Output_Parameters:returncode | SUCCESS | 10000001801443446971
+28/09/2015 19:11:49:979  INFO - In Progress | session id:mpp-2015271132931-9 | DM:ReportEnd | Global Prompt Menu Feature Level | Input Type | Output_Parameters:inputType | dtmf | 10000001801443446971
+28/09/2015 19:11:49:979  INFO - In Progress | session id:mpp-2015271132931-9 | DM:ReportEnd | Global Prompt Menu Feature Level | Value | Output_Parameters:value | Repeat | 10000001801443446971
+28/09/2015 19:11:49:979  INFO - End | session id:mpp-2015271132931-9 | DM:ReportEnd | Global Prompt Menu Feature Level |  |  |  | 10000001801443446971
+28/09/2015 19:11:50:135  INFO - In Progress | session id:mpp-2015271132931-9 | DM:ReportEnd | TransactionAvailable_PP | Return Code | Output_Parameters:returncode |  | 10000001801443446971
+28/09/2015 19:11:50:135  INFO - End | session id:mpp-2015271132931-9 | DM:ReportEnd | TransactionAvailable_PP |  |  |  | 10000001801443446971
+28/09/2015 19:28:48:882  INFO - In Progress | session id:mpp-2015271134719-10 | DM:ReportEnd | Welcome_PP | Return Code | Output_Parameters:returncode |  | 10000001821443448039
+28/09/2015 19:28:48:882  INFO - End | session id:mpp-2015271134719-10 | DM:ReportEnd | Welcome_PP |  |  |  | 10000001821443448039
+28/09/2015 19:28:57:871  INFO - In Progress | session id:mpp-2015271134719-10 | DM:ReportEnd | SelectLang_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000001821443448039
+28/09/2015 19:28:57:871  INFO - In Progress | session id:mpp-2015271134719-10 | DM:ReportEnd | SelectLang_MN | Input Type | Output_Parameters:inputType | dtmf | 10000001821443448039
+28/09/2015 19:28:57:871  INFO - In Progress | session id:mpp-2015271134719-10 | DM:ReportEnd | SelectLang_MN | Value | Output_Parameters:value | TAM | 10000001821443448039
+28/09/2015 19:28:57:871  INFO - End | session id:mpp-2015271134719-10 | DM:ReportEnd | SelectLang_MN |  |  |  | 10000001821443448039
+28/09/2015 19:28:59:993  INFO - In Progress | session id:mpp-2015271134719-10 | DM:ReportEnd | MainMenu | Return Code | Output_Parameters:returncode | SUCCESS | 10000001821443448039
+28/09/2015 19:28:59:993  INFO - In Progress | session id:mpp-2015271134719-10 | DM:ReportEnd | MainMenu | Input Type | Output_Parameters:inputType | dtmf | 10000001821443448039
+28/09/2015 19:28:59:993  INFO - In Progress | session id:mpp-2015271134719-10 | DM:ReportEnd | MainMenu | Value | Output_Parameters:value | Prepaid | 10000001821443448039
+28/09/2015 19:28:59:993  INFO - End | session id:mpp-2015271134719-10 | DM:ReportEnd | MainMenu |  |  |  | 10000001821443448039
+28/09/2015 19:29:02:584  INFO - In Progress | session id:mpp-2015271134719-10 | DM:ReportEnd | Prepaid_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000001821443448039
+28/09/2015 19:29:02:584  INFO - In Progress | session id:mpp-2015271134719-10 | DM:ReportEnd | Prepaid_MN | Input Type | Output_Parameters:inputType | dtmf | 10000001821443448039
+28/09/2015 19:29:02:584  INFO - In Progress | session id:mpp-2015271134719-10 | DM:ReportEnd | Prepaid_MN | Value | Output_Parameters:value | TransactionStatus | 10000001821443448039
+28/09/2015 19:29:02:584  INFO - End | session id:mpp-2015271134719-10 | DM:ReportEnd | Prepaid_MN |  |  |  | 10000001821443448039
+28/09/2015 19:29:02:709  INFO - In Progress | session id:mpp-2015271134719-10 | DM:ReportEnd | TransactionStatus_PP | Return Code | Output_Parameters:returncode |  | 10000001821443448039
+28/09/2015 19:29:02:709  INFO - End | session id:mpp-2015271134719-10 | DM:ReportEnd | TransactionStatus_PP |  |  |  | 10000001821443448039
+28/09/2015 19:29:02:833  INFO - In Progress | session id:mpp-2015271134719-10 | DM:ReportEnd | TransactionAvailable_PP | Return Code | Output_Parameters:returncode |  | 10000001821443448039
+28/09/2015 19:29:02:849  INFO - End | session id:mpp-2015271134719-10 | DM:ReportEnd | TransactionAvailable_PP |  |  |  | 10000001821443448039
+28/09/2015 19:29:24:052  INFO - In Progress | session id:mpp-2015271134719-10 | DM:ReportEnd | Global Prompt Menu Feature Level | Return Code | Output_Parameters:returncode | SUCCESS | 10000001821443448039
+28/09/2015 19:29:24:052  INFO - In Progress | session id:mpp-2015271134719-10 | DM:ReportEnd | Global Prompt Menu Feature Level | Input Type | Output_Parameters:inputType | dtmf | 10000001821443448039
+28/09/2015 19:29:24:052  INFO - In Progress | session id:mpp-2015271134719-10 | DM:ReportEnd | Global Prompt Menu Feature Level | Value | Output_Parameters:value | Repeat | 10000001821443448039
+28/09/2015 19:29:24:052  INFO - End | session id:mpp-2015271134719-10 | DM:ReportEnd | Global Prompt Menu Feature Level |  |  |  | 10000001821443448039
+28/09/2015 19:29:24:239  INFO - In Progress | session id:mpp-2015271134719-10 | DM:ReportEnd | TransactionAvailable_PP | Return Code | Output_Parameters:returncode |  | 10000001821443448039
+28/09/2015 19:29:24:239  INFO - End | session id:mpp-2015271134719-10 | DM:ReportEnd | TransactionAvailable_PP |  |  |  | 10000001821443448039
+28/09/2015 19:29:37:499  INFO - In Progress | session id:mpp-2015271134719-10 | DM:ReportEnd | Global Prompt Menu Feature Level | Return Code | Output_Parameters:returncode | SUCCESS | 10000001821443448039
+28/09/2015 19:29:37:499  INFO - In Progress | session id:mpp-2015271134719-10 | DM:ReportEnd | Global Prompt Menu Feature Level | Input Type | Output_Parameters:inputType | dtmf | 10000001821443448039
+28/09/2015 19:29:37:499  INFO - In Progress | session id:mpp-2015271134719-10 | DM:ReportEnd | Global Prompt Menu Feature Level | Value | Output_Parameters:value | Repeat | 10000001821443448039
+28/09/2015 19:29:37:499  INFO - End | session id:mpp-2015271134719-10 | DM:ReportEnd | Global Prompt Menu Feature Level |  |  |  | 10000001821443448039
+28/09/2015 19:29:37:641  INFO - In Progress | session id:mpp-2015271134719-10 | DM:ReportEnd | TransactionAvailable_PP | Return Code | Output_Parameters:returncode |  | 10000001821443448039
+28/09/2015 19:29:37:641  INFO - End | session id:mpp-2015271134719-10 | DM:ReportEnd | TransactionAvailable_PP |  |  |  | 10000001821443448039
+28/09/2015 19:29:40:996  INFO - In Progress | session id:mpp-2015271134719-10 | DM:ReportEnd | Global Prompt Menu Feature Level | Return Code | Output_Parameters:returncode | SUCCESS | 10000001821443448039
+28/09/2015 19:29:40:996  INFO - In Progress | session id:mpp-2015271134719-10 | DM:ReportEnd | Global Prompt Menu Feature Level | Input Type | Output_Parameters:inputType | dtmf | 10000001821443448039
+28/09/2015 19:29:40:996  INFO - In Progress | session id:mpp-2015271134719-10 | DM:ReportEnd | Global Prompt Menu Feature Level | Value | Output_Parameters:value | Repeat | 10000001821443448039
+28/09/2015 19:29:40:996  INFO - End | session id:mpp-2015271134719-10 | DM:ReportEnd | Global Prompt Menu Feature Level |  |  |  | 10000001821443448039
+28/09/2015 19:29:41:120  INFO - In Progress | session id:mpp-2015271134719-10 | DM:ReportEnd | ExceedTries_PP | Return Code | Output_Parameters:returncode |  | 10000001821443448039
+28/09/2015 19:29:41:120  INFO - End | session id:mpp-2015271134719-10 | DM:ReportEnd | ExceedTries_PP |  |  |  | 10000001821443448039
+28/09/2015 19:29:41:214  INFO - In Progress | session id:mpp-2015271134719-10 | DM:ReportEnd | TransferAgent_PP | Return Code | Output_Parameters:returncode |  | 10000001821443448039
+28/09/2015 19:29:41:214  INFO - End | session id:mpp-2015271134719-10 | DM:ReportEnd | TransferAgent_PP |  |  |  | 10000001821443448039
+28/09/2015 19:30:16:632  INFO - In Progress | session id:mpp-2015271134847-12 | DM:ReportEnd | Welcome_PP | Return Code | Output_Parameters:returncode |  | 10000001831443448127
+28/09/2015 19:30:16:632  INFO - End | session id:mpp-2015271134847-12 | DM:ReportEnd | Welcome_PP |  |  |  | 10000001831443448127
+28/09/2015 19:30:20:939  INFO - In Progress | session id:mpp-2015271134847-12 | DM:ReportEnd | SelectLang_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000001831443448127
+28/09/2015 19:30:20:939  INFO - In Progress | session id:mpp-2015271134847-12 | DM:ReportEnd | SelectLang_MN | Input Type | Output_Parameters:inputType | dtmf | 10000001831443448127
+28/09/2015 19:30:20:939  INFO - In Progress | session id:mpp-2015271134847-12 | DM:ReportEnd | SelectLang_MN | Value | Output_Parameters:value | TAM | 10000001831443448127
+28/09/2015 19:30:20:939  INFO - End | session id:mpp-2015271134847-12 | DM:ReportEnd | SelectLang_MN |  |  |  | 10000001831443448127
+28/09/2015 19:30:24:622  INFO - In Progress | session id:mpp-2015271134847-12 | DM:ReportEnd | MainMenu | Return Code | Output_Parameters:returncode | SUCCESS | 10000001831443448127
+28/09/2015 19:30:24:622  INFO - In Progress | session id:mpp-2015271134847-12 | DM:ReportEnd | MainMenu | Input Type | Output_Parameters:inputType | dtmf | 10000001831443448127
+28/09/2015 19:30:24:622  INFO - In Progress | session id:mpp-2015271134847-12 | DM:ReportEnd | MainMenu | Value | Output_Parameters:value | Prepaid | 10000001831443448127
+28/09/2015 19:30:24:622  INFO - End | session id:mpp-2015271134847-12 | DM:ReportEnd | MainMenu |  |  |  | 10000001831443448127
+28/09/2015 19:30:25:715  INFO - In Progress | session id:mpp-2015271134847-12 | DM:ReportEnd | Prepaid_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000001831443448127
+28/09/2015 19:30:25:840  INFO - In Progress | session id:mpp-2015271134847-12 | DM:ReportEnd | Prepaid_MN | Input Type | Output_Parameters:inputType | dtmf | 10000001831443448127
+28/09/2015 19:30:25:840  INFO - In Progress | session id:mpp-2015271134847-12 | DM:ReportEnd | Prepaid_MN | Value | Output_Parameters:value | TransactionStatus | 10000001831443448127
+28/09/2015 19:30:25:840  INFO - End | session id:mpp-2015271134847-12 | DM:ReportEnd | Prepaid_MN |  |  |  | 10000001831443448127
+28/09/2015 19:30:25:918  INFO - In Progress | session id:mpp-2015271134847-12 | DM:ReportEnd | TransactionStatus_PP | Return Code | Output_Parameters:returncode |  | 10000001831443448127
+28/09/2015 19:30:25:918  INFO - End | session id:mpp-2015271134847-12 | DM:ReportEnd | TransactionStatus_PP |  |  |  | 10000001831443448127
+28/09/2015 19:30:26:089  INFO - In Progress | session id:mpp-2015271134847-12 | DM:ReportEnd | TransactionAvailable_PP | Return Code | Output_Parameters:returncode |  | 10000001831443448127
+28/09/2015 19:30:26:089  INFO - End | session id:mpp-2015271134847-12 | DM:ReportEnd | TransactionAvailable_PP |  |  |  | 10000001831443448127
+28/09/2015 19:30:49:659  INFO - In Progress | session id:mpp-2015271134847-12 | DM:ReportEnd | Global Prompt Menu Feature Level | Return Code | Output_Parameters:returncode | SUCCESS | 10000001831443448127
+28/09/2015 19:30:49:659  INFO - In Progress | session id:mpp-2015271134847-12 | DM:ReportEnd | Global Prompt Menu Feature Level | Input Type | Output_Parameters:inputType | dtmf | 10000001831443448127
+28/09/2015 19:30:49:659  INFO - In Progress | session id:mpp-2015271134847-12 | DM:ReportEnd | Global Prompt Menu Feature Level | Value | Output_Parameters:value | PreviousMenu | 10000001831443448127
+28/09/2015 19:30:49:659  INFO - End | session id:mpp-2015271134847-12 | DM:ReportEnd | Global Prompt Menu Feature Level |  |  |  | 10000001831443448127
+28/09/2015 19:30:52:218  INFO - In Progress | session id:mpp-2015271134847-12 | DM:ReportEnd | Prepaid_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000001831443448127
+28/09/2015 19:30:52:218  INFO - In Progress | session id:mpp-2015271134847-12 | DM:ReportEnd | Prepaid_MN | Input Type | Output_Parameters:inputType | dtmf | 10000001831443448127
+28/09/2015 19:30:52:218  INFO - In Progress | session id:mpp-2015271134847-12 | DM:ReportEnd | Prepaid_MN | Value | Output_Parameters:value | TransactionStatus | 10000001831443448127
+28/09/2015 19:30:52:218  INFO - End | session id:mpp-2015271134847-12 | DM:ReportEnd | Prepaid_MN |  |  |  | 10000001831443448127
+28/09/2015 19:30:52:328  INFO - In Progress | session id:mpp-2015271134847-12 | DM:ReportEnd | TransactionStatus_PP | Return Code | Output_Parameters:returncode |  | 10000001831443448127
+28/09/2015 19:30:52:328  INFO - End | session id:mpp-2015271134847-12 | DM:ReportEnd | TransactionStatus_PP |  |  |  | 10000001831443448127
+28/09/2015 19:30:52:421  INFO - In Progress | session id:mpp-2015271134847-12 | DM:ReportEnd | TransactionAvailable_PP | Return Code | Output_Parameters:returncode |  | 10000001831443448127
+28/09/2015 19:30:52:421  INFO - End | session id:mpp-2015271134847-12 | DM:ReportEnd | TransactionAvailable_PP |  |  |  | 10000001831443448127
+28/09/2015 19:31:20:677  INFO - In Progress | session id:mpp-2015271134847-12 | DM:ReportEnd | Global Prompt Menu Feature Level | Return Code | Output_Parameters:returncode | SUCCESS | 10000001831443448127
+28/09/2015 19:31:20:677  INFO - In Progress | session id:mpp-2015271134847-12 | DM:ReportEnd | Global Prompt Menu Feature Level | Input Type | Output_Parameters:inputType | dtmf | 10000001831443448127
+28/09/2015 19:31:20:677  INFO - In Progress | session id:mpp-2015271134847-12 | DM:ReportEnd | Global Prompt Menu Feature Level | Value | Output_Parameters:value | MainMenu | 10000001831443448127
+28/09/2015 19:31:20:677  INFO - End | session id:mpp-2015271134847-12 | DM:ReportEnd | Global Prompt Menu Feature Level |  |  |  | 10000001831443448127
+28/09/2015 19:31:23:393  INFO - In Progress | session id:mpp-2015271134847-12 | DM:ReportEnd | MainMenu | Return Code | Output_Parameters:returncode | SUCCESS | 10000001831443448127
+28/09/2015 19:31:23:393  INFO - In Progress | session id:mpp-2015271134847-12 | DM:ReportEnd | MainMenu | Input Type | Output_Parameters:inputType | dtmf | 10000001831443448127
+28/09/2015 19:31:23:393  INFO - In Progress | session id:mpp-2015271134847-12 | DM:ReportEnd | MainMenu | Value | Output_Parameters:value | Prepaid | 10000001831443448127
+28/09/2015 19:31:23:393  INFO - End | session id:mpp-2015271134847-12 | DM:ReportEnd | MainMenu |  |  |  | 10000001831443448127
+28/09/2015 19:31:24:767  INFO - In Progress | session id:mpp-2015271134847-12 | DM:ReportEnd | Prepaid_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000001831443448127
+28/09/2015 19:31:24:767  INFO - In Progress | session id:mpp-2015271134847-12 | DM:ReportEnd | Prepaid_MN | Input Type | Output_Parameters:inputType | dtmf | 10000001831443448127
+28/09/2015 19:31:24:767  INFO - In Progress | session id:mpp-2015271134847-12 | DM:ReportEnd | Prepaid_MN | Value | Output_Parameters:value | TransactionStatus | 10000001831443448127
+28/09/2015 19:31:24:767  INFO - End | session id:mpp-2015271134847-12 | DM:ReportEnd | Prepaid_MN |  |  |  | 10000001831443448127
+28/09/2015 19:31:24:876  INFO - In Progress | session id:mpp-2015271134847-12 | DM:ReportEnd | TransactionStatus_PP | Return Code | Output_Parameters:returncode |  | 10000001831443448127
+28/09/2015 19:31:24:876  INFO - End | session id:mpp-2015271134847-12 | DM:ReportEnd | TransactionStatus_PP |  |  |  | 10000001831443448127
+28/09/2015 19:31:25:001  INFO - In Progress | session id:mpp-2015271134847-12 | DM:ReportEnd | TransactionAvailable_PP | Return Code | Output_Parameters:returncode |  | 10000001831443448127
+28/09/2015 19:31:25:001  INFO - End | session id:mpp-2015271134847-12 | DM:ReportEnd | TransactionAvailable_PP |  |  |  | 10000001831443448127
+28/09/2015 19:31:27:404  INFO - In Progress | session id:mpp-2015271134847-12 | DM:ReportEnd | Global Prompt Menu Feature Level | Return Code | Output_Parameters:returncode | SUCCESS | 10000001831443448127
+28/09/2015 19:31:27:404  INFO - In Progress | session id:mpp-2015271134847-12 | DM:ReportEnd | Global Prompt Menu Feature Level | Input Type | Output_Parameters:inputType | dtmf | 10000001831443448127
+28/09/2015 19:31:27:404  INFO - In Progress | session id:mpp-2015271134847-12 | DM:ReportEnd | Global Prompt Menu Feature Level | Value | Output_Parameters:value | Agent | 10000001831443448127
+28/09/2015 19:31:27:404  INFO - End | session id:mpp-2015271134847-12 | DM:ReportEnd | Global Prompt Menu Feature Level |  |  |  | 10000001831443448127
+28/09/2015 19:31:27:513  INFO - In Progress | session id:mpp-2015271134847-12 | DM:ReportEnd | TransferAgent_PP | Return Code | Output_Parameters:returncode |  | 10000001831443448127
+28/09/2015 19:31:27:513  INFO - End | session id:mpp-2015271134847-12 | DM:ReportEnd | TransferAgent_PP |  |  |  | 10000001831443448127
+28/09/2015 19:32:39:791  INFO - In Progress | session id:mpp-2015271135110-15 | DM:ReportEnd | Welcome_PP | Return Code | Output_Parameters:returncode |  | 10000001841443448270
+28/09/2015 19:32:39:791  INFO - End | session id:mpp-2015271135110-15 | DM:ReportEnd | Welcome_PP |  |  |  | 10000001841443448270
+28/09/2015 19:32:49:436  INFO - In Progress | session id:mpp-2015271135110-15 | DM:ReportEnd | SelectLang_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000001841443448270
+28/09/2015 19:32:49:436  INFO - In Progress | session id:mpp-2015271135110-15 | DM:ReportEnd | SelectLang_MN | Input Type | Output_Parameters:inputType | dtmf | 10000001841443448270
+28/09/2015 19:32:49:436  INFO - In Progress | session id:mpp-2015271135110-15 | DM:ReportEnd | SelectLang_MN | Value | Output_Parameters:value | TAM | 10000001841443448270
+28/09/2015 19:32:49:436  INFO - End | session id:mpp-2015271135110-15 | DM:ReportEnd | SelectLang_MN |  |  |  | 10000001841443448270
+28/09/2015 19:32:58:469  INFO - In Progress | session id:mpp-2015271135110-15 | DM:ReportEnd | MainMenu | Return Code | Output_Parameters:returncode | SUCCESS | 10000001841443448270
+28/09/2015 19:32:58:469  INFO - In Progress | session id:mpp-2015271135110-15 | DM:ReportEnd | MainMenu | Input Type | Output_Parameters:inputType | dtmf | 10000001841443448270
+28/09/2015 19:32:58:469  INFO - In Progress | session id:mpp-2015271135110-15 | DM:ReportEnd | MainMenu | Value | Output_Parameters:value | Prepaid | 10000001841443448270
+28/09/2015 19:32:58:469  INFO - End | session id:mpp-2015271135110-15 | DM:ReportEnd | MainMenu |  |  |  | 10000001841443448270
+28/09/2015 19:33:06:552  INFO - In Progress | session id:mpp-2015271135110-15 | DM:ReportEnd | Prepaid_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000001841443448270
+28/09/2015 19:33:06:552  INFO - In Progress | session id:mpp-2015271135110-15 | DM:ReportEnd | Prepaid_MN | Input Type | Output_Parameters:inputType | dtmf | 10000001841443448270
+28/09/2015 19:33:06:552  INFO - In Progress | session id:mpp-2015271135110-15 | DM:ReportEnd | Prepaid_MN | Value | Output_Parameters:value | TransactionStatus | 10000001841443448270
+28/09/2015 19:33:06:552  INFO - End | session id:mpp-2015271135110-15 | DM:ReportEnd | Prepaid_MN |  |  |  | 10000001841443448270
+28/09/2015 19:33:06:646  INFO - In Progress | session id:mpp-2015271135110-15 | DM:ReportEnd | TransactionStatus_PP | Return Code | Output_Parameters:returncode |  | 10000001841443448270
+28/09/2015 19:33:06:646  INFO - End | session id:mpp-2015271135110-15 | DM:ReportEnd | TransactionStatus_PP |  |  |  | 10000001841443448270
+28/09/2015 19:33:06:802  INFO - In Progress | session id:mpp-2015271135110-15 | DM:ReportEnd | LinkDown_PP | Return Code | Output_Parameters:returncode |  | 10000001841443448270
+28/09/2015 19:33:06:802  INFO - End | session id:mpp-2015271135110-15 | DM:ReportEnd | LinkDown_PP |  |  |  | 10000001841443448270
+28/09/2015 19:33:06:880  INFO - In Progress | session id:mpp-2015271135110-15 | DM:ReportEnd | TransferAgent_PP | Return Code | Output_Parameters:returncode |  | 10000001841443448270
+28/09/2015 19:33:06:880  INFO - End | session id:mpp-2015271135110-15 | DM:ReportEnd | TransferAgent_PP |  |  |  | 10000001841443448270
+28/09/2015 19:35:47:226  INFO - In Progress | session id:mpp-2015271135417-14 | DM:ReportEnd | Welcome_PP | Return Code | Output_Parameters:returncode |  | 10000001861443448457
+28/09/2015 19:35:47:226  INFO - End | session id:mpp-2015271135417-14 | DM:ReportEnd | Welcome_PP |  |  |  | 10000001861443448457
+28/09/2015 19:35:54:250  INFO - In Progress | session id:mpp-2015271135417-14 | DM:ReportEnd | SelectLang_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000001861443448457
+28/09/2015 19:35:54:250  INFO - In Progress | session id:mpp-2015271135417-14 | DM:ReportEnd | SelectLang_MN | Input Type | Output_Parameters:inputType | dtmf | 10000001861443448457
+28/09/2015 19:35:54:250  INFO - In Progress | session id:mpp-2015271135417-14 | DM:ReportEnd | SelectLang_MN | Value | Output_Parameters:value | TAM | 10000001861443448457
+28/09/2015 19:35:54:250  INFO - End | session id:mpp-2015271135417-14 | DM:ReportEnd | SelectLang_MN |  |  |  | 10000001861443448457
+28/09/2015 19:35:58:104  INFO - In Progress | session id:mpp-2015271135417-14 | DM:ReportEnd | MainMenu | Return Code | Output_Parameters:returncode | SUCCESS | 10000001861443448457
+28/09/2015 19:35:58:104  INFO - In Progress | session id:mpp-2015271135417-14 | DM:ReportEnd | MainMenu | Input Type | Output_Parameters:inputType | dtmf | 10000001861443448457
+28/09/2015 19:35:58:104  INFO - In Progress | session id:mpp-2015271135417-14 | DM:ReportEnd | MainMenu | Value | Output_Parameters:value | Prepaid | 10000001861443448457
+28/09/2015 19:35:58:104  INFO - End | session id:mpp-2015271135417-14 | DM:ReportEnd | MainMenu |  |  |  | 10000001861443448457
+28/09/2015 19:35:59:743  INFO - In Progress | session id:mpp-2015271135417-14 | DM:ReportEnd | Prepaid_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000001861443448457
+28/09/2015 19:35:59:743  INFO - In Progress | session id:mpp-2015271135417-14 | DM:ReportEnd | Prepaid_MN | Input Type | Output_Parameters:inputType | dtmf | 10000001861443448457
+28/09/2015 19:35:59:743  INFO - In Progress | session id:mpp-2015271135417-14 | DM:ReportEnd | Prepaid_MN | Value | Output_Parameters:value | TransactionStatus | 10000001861443448457
+28/09/2015 19:35:59:743  INFO - End | session id:mpp-2015271135417-14 | DM:ReportEnd | Prepaid_MN |  |  |  | 10000001861443448457
+28/09/2015 19:35:59:852  INFO - In Progress | session id:mpp-2015271135417-14 | DM:ReportEnd | TransactionStatus_PP | Return Code | Output_Parameters:returncode |  | 10000001861443448457
+28/09/2015 19:35:59:852  INFO - End | session id:mpp-2015271135417-14 | DM:ReportEnd | TransactionStatus_PP |  |  |  | 10000001861443448457
+28/09/2015 19:36:00:023  INFO - In Progress | session id:mpp-2015271135417-14 | DM:ReportEnd | TransactionNotAvailable_PP | Return Code | Output_Parameters:returncode |  | 10000001861443448457
+28/09/2015 19:36:00:023  INFO - End | session id:mpp-2015271135417-14 | DM:ReportEnd | TransactionNotAvailable_PP |  |  |  | 10000001861443448457
+28/09/2015 19:36:00:133  INFO - In Progress | session id:mpp-2015271135417-14 | DM:ReportEnd | ThankYou_PP | Return Code | Output_Parameters:returncode |  | 10000001861443448457
+28/09/2015 19:36:00:133  INFO - End | session id:mpp-2015271135417-14 | DM:ReportEnd | ThankYou_PP |  |  |  | 10000001861443448457
+28/09/2015 19:36:21:539  INFO - In Progress | session id:mpp-2015271135452-17 | DM:ReportEnd | Welcome_PP | Return Code | Output_Parameters:returncode |  | 10000001871443448492
+28/09/2015 19:36:21:539  INFO - End | session id:mpp-2015271135452-17 | DM:ReportEnd | Welcome_PP |  |  |  | 10000001871443448492
+28/09/2015 19:36:24:551  INFO - In Progress | session id:mpp-2015271135452-17 | DM:ReportEnd | SelectLang_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000001871443448492
+28/09/2015 19:36:24:551  INFO - In Progress | session id:mpp-2015271135452-17 | DM:ReportEnd | SelectLang_MN | Input Type | Output_Parameters:inputType | dtmf | 10000001871443448492
+28/09/2015 19:36:24:551  INFO - In Progress | session id:mpp-2015271135452-17 | DM:ReportEnd | SelectLang_MN | Value | Output_Parameters:value | TAM | 10000001871443448492
+28/09/2015 19:36:24:551  INFO - End | session id:mpp-2015271135452-17 | DM:ReportEnd | SelectLang_MN |  |  |  | 10000001871443448492
+28/09/2015 19:36:26:065  INFO - In Progress | session id:mpp-2015271135452-17 | DM:ReportEnd | MainMenu | Return Code | Output_Parameters:returncode | SUCCESS | 10000001871443448492
+28/09/2015 19:36:26:065  INFO - In Progress | session id:mpp-2015271135452-17 | DM:ReportEnd | MainMenu | Input Type | Output_Parameters:inputType | dtmf | 10000001871443448492
+28/09/2015 19:36:26:065  INFO - In Progress | session id:mpp-2015271135452-17 | DM:ReportEnd | MainMenu | Value | Output_Parameters:value | Prepaid | 10000001871443448492
+28/09/2015 19:36:26:065  INFO - End | session id:mpp-2015271135452-17 | DM:ReportEnd | MainMenu |  |  |  | 10000001871443448492
+28/09/2015 19:36:27:548  INFO - In Progress | session id:mpp-2015271135452-17 | DM:ReportEnd | Prepaid_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000001871443448492
+28/09/2015 19:36:27:548  INFO - In Progress | session id:mpp-2015271135452-17 | DM:ReportEnd | Prepaid_MN | Input Type | Output_Parameters:inputType | dtmf | 10000001871443448492
+28/09/2015 19:36:27:548  INFO - In Progress | session id:mpp-2015271135452-17 | DM:ReportEnd | Prepaid_MN | Value | Output_Parameters:value | TransactionStatus | 10000001871443448492
+28/09/2015 19:36:27:548  INFO - End | session id:mpp-2015271135452-17 | DM:ReportEnd | Prepaid_MN |  |  |  | 10000001871443448492
+28/09/2015 19:36:27:626  INFO - In Progress | session id:mpp-2015271135452-17 | DM:ReportEnd | TransactionStatus_PP | Return Code | Output_Parameters:returncode |  | 10000001871443448492
+28/09/2015 19:36:27:626  INFO - End | session id:mpp-2015271135452-17 | DM:ReportEnd | TransactionStatus_PP |  |  |  | 10000001871443448492
+28/09/2015 19:36:27:720  INFO - In Progress | session id:mpp-2015271135452-17 | DM:ReportEnd | TransactionNotAvailable_PP | Return Code | Output_Parameters:returncode |  | 10000001871443448492
+28/09/2015 19:36:27:720  INFO - End | session id:mpp-2015271135452-17 | DM:ReportEnd | TransactionNotAvailable_PP |  |  |  | 10000001871443448492
+28/09/2015 19:36:27:829  INFO - In Progress | session id:mpp-2015271135452-17 | DM:ReportEnd | ThankYou_PP | Return Code | Output_Parameters:returncode |  | 10000001871443448492
+28/09/2015 19:36:27:829  INFO - End | session id:mpp-2015271135452-17 | DM:ReportEnd | ThankYou_PP |  |  |  | 10000001871443448492
+28/09/2015 19:43:55:866  INFO - In Progress | session id:mpp-2015271140226-2 | DM:ReportEnd | Welcome_PP | Return Code | Output_Parameters:returncode |  | 10000001881443448946
+28/09/2015 19:43:55:866  INFO - End | session id:mpp-2015271140226-2 | DM:ReportEnd | Welcome_PP |  |  |  | 10000001881443448946
+28/09/2015 19:44:03:279  INFO - In Progress | session id:mpp-2015271140226-2 | DM:ReportEnd | SelectLang_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000001881443448946
+28/09/2015 19:44:03:279  INFO - In Progress | session id:mpp-2015271140226-2 | DM:ReportEnd | SelectLang_MN | Input Type | Output_Parameters:inputType | dtmf | 10000001881443448946
+28/09/2015 19:44:03:279  INFO - In Progress | session id:mpp-2015271140226-2 | DM:ReportEnd | SelectLang_MN | Value | Output_Parameters:value | TAM | 10000001881443448946
+28/09/2015 19:44:03:279  INFO - End | session id:mpp-2015271140226-2 | DM:ReportEnd | SelectLang_MN |  |  |  | 10000001881443448946
+28/09/2015 19:44:05:620  INFO - In Progress | session id:mpp-2015271140226-2 | DM:ReportEnd | MainMenu | Return Code | Output_Parameters:returncode | SUCCESS | 10000001881443448946
+28/09/2015 19:44:05:620  INFO - In Progress | session id:mpp-2015271140226-2 | DM:ReportEnd | MainMenu | Input Type | Output_Parameters:inputType | dtmf | 10000001881443448946
+28/09/2015 19:44:05:620  INFO - In Progress | session id:mpp-2015271140226-2 | DM:ReportEnd | MainMenu | Value | Output_Parameters:value | Prepaid | 10000001881443448946
+28/09/2015 19:44:05:620  INFO - End | session id:mpp-2015271140226-2 | DM:ReportEnd | MainMenu |  |  |  | 10000001881443448946
+28/09/2015 19:44:06:869  INFO - In Progress | session id:mpp-2015271140226-2 | DM:ReportEnd | Prepaid_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000001881443448946
+28/09/2015 19:44:06:869  INFO - In Progress | session id:mpp-2015271140226-2 | DM:ReportEnd | Prepaid_MN | Input Type | Output_Parameters:inputType | dtmf | 10000001881443448946
+28/09/2015 19:44:06:869  INFO - In Progress | session id:mpp-2015271140226-2 | DM:ReportEnd | Prepaid_MN | Value | Output_Parameters:value | TransactionStatus | 10000001881443448946
+28/09/2015 19:44:06:869  INFO - End | session id:mpp-2015271140226-2 | DM:ReportEnd | Prepaid_MN |  |  |  | 10000001881443448946
+28/09/2015 19:44:06:978  INFO - In Progress | session id:mpp-2015271140226-2 | DM:ReportEnd | TransactionStatus_PP | Return Code | Output_Parameters:returncode |  | 10000001881443448946
+28/09/2015 19:44:06:978  INFO - End | session id:mpp-2015271140226-2 | DM:ReportEnd | TransactionStatus_PP |  |  |  | 10000001881443448946
+28/09/2015 19:44:07:118  INFO - In Progress | session id:mpp-2015271140226-2 | DM:ReportEnd | TransactionAvailable_PP | Return Code | Output_Parameters:returncode |  | 10000001881443448946
+28/09/2015 19:44:07:118  INFO - End | session id:mpp-2015271140226-2 | DM:ReportEnd | TransactionAvailable_PP |  |  |  | 10000001881443448946
+28/09/2015 19:44:29:368  INFO - In Progress | session id:mpp-2015271140226-2 | DM:ReportEnd | Global Prompt Menu Feature Level | Return Code | Output_Parameters:returncode | SUCCESS | 10000001881443448946
+28/09/2015 19:44:29:368  INFO - In Progress | session id:mpp-2015271140226-2 | DM:ReportEnd | Global Prompt Menu Feature Level | Input Type | Output_Parameters:inputType | dtmf | 10000001881443448946
+28/09/2015 19:44:29:368  INFO - In Progress | session id:mpp-2015271140226-2 | DM:ReportEnd | Global Prompt Menu Feature Level | Value | Output_Parameters:value | Repeat | 10000001881443448946
+28/09/2015 19:44:29:368  INFO - End | session id:mpp-2015271140226-2 | DM:ReportEnd | Global Prompt Menu Feature Level |  |  |  | 10000001881443448946
+28/09/2015 19:44:29:524  INFO - In Progress | session id:mpp-2015271140226-2 | DM:ReportEnd | TransactionAvailable_PP | Return Code | Output_Parameters:returncode |  | 10000001881443448946
+28/09/2015 19:44:29:524  INFO - End | session id:mpp-2015271140226-2 | DM:ReportEnd | TransactionAvailable_PP |  |  |  | 10000001881443448946
+28/09/2015 19:44:43:081  INFO - In Progress | session id:mpp-2015271140226-2 | DM:ReportEnd | Global Prompt Menu Feature Level | Return Code | Output_Parameters:returncode | SUCCESS | 10000001881443448946
+28/09/2015 19:44:43:081  INFO - In Progress | session id:mpp-2015271140226-2 | DM:ReportEnd | Global Prompt Menu Feature Level | Input Type | Output_Parameters:inputType | dtmf | 10000001881443448946
+28/09/2015 19:44:43:081  INFO - In Progress | session id:mpp-2015271140226-2 | DM:ReportEnd | Global Prompt Menu Feature Level | Value | Output_Parameters:value | Repeat | 10000001881443448946
+28/09/2015 19:44:43:081  INFO - End | session id:mpp-2015271140226-2 | DM:ReportEnd | Global Prompt Menu Feature Level |  |  |  | 10000001881443448946
+28/09/2015 19:44:43:221  INFO - In Progress | session id:mpp-2015271140226-2 | DM:ReportEnd | TransactionAvailable_PP | Return Code | Output_Parameters:returncode |  | 10000001881443448946
+28/09/2015 19:44:43:221  INFO - End | session id:mpp-2015271140226-2 | DM:ReportEnd | TransactionAvailable_PP |  |  |  | 10000001881443448946
+28/09/2015 19:44:55:266  INFO - In Progress | session id:mpp-2015271140226-2 | DM:ReportEnd | Global Prompt Menu Feature Level | Return Code | Output_Parameters:returncode | SUCCESS | 10000001881443448946
+28/09/2015 19:44:55:266  INFO - In Progress | session id:mpp-2015271140226-2 | DM:ReportEnd | Global Prompt Menu Feature Level | Input Type | Output_Parameters:inputType | dtmf | 10000001881443448946
+28/09/2015 19:44:55:266  INFO - In Progress | session id:mpp-2015271140226-2 | DM:ReportEnd | Global Prompt Menu Feature Level | Value | Output_Parameters:value | Repeat | 10000001881443448946
+28/09/2015 19:44:55:266  INFO - End | session id:mpp-2015271140226-2 | DM:ReportEnd | Global Prompt Menu Feature Level |  |  |  | 10000001881443448946
+28/09/2015 19:44:55:360  INFO - In Progress | session id:mpp-2015271140226-2 | DM:ReportEnd | ExceedTries_PP | Return Code | Output_Parameters:returncode |  | 10000001881443448946
+28/09/2015 19:44:55:360  INFO - End | session id:mpp-2015271140226-2 | DM:ReportEnd | ExceedTries_PP |  |  |  | 10000001881443448946
+28/09/2015 19:44:55:422  INFO - In Progress | session id:mpp-2015271140226-2 | DM:ReportEnd | TransferAgent_PP | Return Code | Output_Parameters:returncode |  | 10000001881443448946
+28/09/2015 19:44:55:422  INFO - End | session id:mpp-2015271140226-2 | DM:ReportEnd | TransferAgent_PP |  |  |  | 10000001881443448946
+28/09/2015 20:20:18:603  INFO - In Progress | session id:mpp-2015271143849-6 | DM:ReportEnd | Welcome_PP | Return Code | Output_Parameters:returncode |  | 10000001931443451129
+28/09/2015 20:20:18:619  INFO - End | session id:mpp-2015271143849-6 | DM:ReportEnd | Welcome_PP |  |  |  | 10000001931443451129
+28/09/2015 20:20:31:493  INFO - In Progress | session id:mpp-2015271143849-6 | DM:ReportEnd | SelectLang_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000001931443451129
+28/09/2015 20:20:31:493  INFO - In Progress | session id:mpp-2015271143849-6 | DM:ReportEnd | SelectLang_MN | Input Type | Output_Parameters:inputType | dtmf | 10000001931443451129
+28/09/2015 20:20:31:493  INFO - In Progress | session id:mpp-2015271143849-6 | DM:ReportEnd | SelectLang_MN | Value | Output_Parameters:value | TAM | 10000001931443451129
+28/09/2015 20:20:31:493  INFO - End | session id:mpp-2015271143849-6 | DM:ReportEnd | SelectLang_MN |  |  |  | 10000001931443451129
+28/09/2015 20:20:35:815  INFO - In Progress | session id:mpp-2015271143849-6 | DM:ReportEnd | MainMenu | Return Code | Output_Parameters:returncode | SUCCESS | 10000001931443451129
+28/09/2015 20:20:35:815  INFO - In Progress | session id:mpp-2015271143849-6 | DM:ReportEnd | MainMenu | Input Type | Output_Parameters:inputType | dtmf | 10000001931443451129
+28/09/2015 20:20:35:815  INFO - In Progress | session id:mpp-2015271143849-6 | DM:ReportEnd | MainMenu | Value | Output_Parameters:value | Prepaid | 10000001931443451129
+28/09/2015 20:20:35:815  INFO - End | session id:mpp-2015271143849-6 | DM:ReportEnd | MainMenu |  |  |  | 10000001931443451129
+28/09/2015 20:20:38:732  INFO - In Progress | session id:mpp-2015271143849-6 | DM:ReportEnd | Prepaid_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000001931443451129
+28/09/2015 20:20:38:732  INFO - In Progress | session id:mpp-2015271143849-6 | DM:ReportEnd | Prepaid_MN | Input Type | Output_Parameters:inputType | dtmf | 10000001931443451129
+28/09/2015 20:20:38:732  INFO - In Progress | session id:mpp-2015271143849-6 | DM:ReportEnd | Prepaid_MN | Value | Output_Parameters:value | MobileNum | 10000001931443451129
+28/09/2015 20:20:38:732  INFO - End | session id:mpp-2015271143849-6 | DM:ReportEnd | Prepaid_MN |  |  |  | 10000001931443451129
+28/09/2015 20:20:38:889  INFO - In Progress | session id:mpp-2015271143849-6 | DM:ReportEnd | Transaction_PP | Return Code | Output_Parameters:returncode |  | 10000001931443451129
+28/09/2015 20:20:38:889  INFO - End | session id:mpp-2015271143849-6 | DM:ReportEnd | Transaction_PP |  |  |  | 10000001931443451129
+28/09/2015 20:21:11:763  INFO - In Progress | session id:mpp-2015271143849-6 | DM:ReportEnd | MobileNumber_MN | Return Code | Output_Parameters:returncode | NOMATCH | 10000001931443451129
+28/09/2015 20:21:11:763  INFO - End | session id:mpp-2015271143849-6 | DM:ReportEnd | MobileNumber_MN |  |  |  | 10000001931443451129
+28/09/2015 20:21:11:841  INFO - In Progress | session id:mpp-2015271143849-6 | DM:ReportEnd | TransferAgent_PP | Return Code | Output_Parameters:returncode |  | 10000001931443451129
+28/09/2015 20:21:11:841  INFO - End | session id:mpp-2015271143849-6 | DM:ReportEnd | TransferAgent_PP |  |  |  | 10000001931443451129
+28/09/2015 20:26:19:456  INFO - In Progress | session id:mpp-2015271144450-13 | DM:ReportEnd | Welcome_PP | Return Code | Output_Parameters:returncode |  | 10000001941443451490
+28/09/2015 20:26:19:456  INFO - End | session id:mpp-2015271144450-13 | DM:ReportEnd | Welcome_PP |  |  |  | 10000001941443451490
+28/09/2015 20:26:23:840  INFO - In Progress | session id:mpp-2015271144450-13 | DM:ReportEnd | SelectLang_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000001941443451490
+28/09/2015 20:26:23:840  INFO - In Progress | session id:mpp-2015271144450-13 | DM:ReportEnd | SelectLang_MN | Input Type | Output_Parameters:inputType | dtmf | 10000001941443451490
+28/09/2015 20:26:23:840  INFO - In Progress | session id:mpp-2015271144450-13 | DM:ReportEnd | SelectLang_MN | Value | Output_Parameters:value | TAM | 10000001941443451490
+28/09/2015 20:26:23:840  INFO - End | session id:mpp-2015271144450-13 | DM:ReportEnd | SelectLang_MN |  |  |  | 10000001941443451490
+28/09/2015 20:26:26:025  INFO - In Progress | session id:mpp-2015271144450-13 | DM:ReportEnd | MainMenu | Return Code | Output_Parameters:returncode | SUCCESS | 10000001941443451490
+28/09/2015 20:26:26:025  INFO - In Progress | session id:mpp-2015271144450-13 | DM:ReportEnd | MainMenu | Input Type | Output_Parameters:inputType | dtmf | 10000001941443451490
+28/09/2015 20:26:26:025  INFO - In Progress | session id:mpp-2015271144450-13 | DM:ReportEnd | MainMenu | Value | Output_Parameters:value | Prepaid | 10000001941443451490
+28/09/2015 20:26:26:025  INFO - End | session id:mpp-2015271144450-13 | DM:ReportEnd | MainMenu |  |  |  | 10000001941443451490
+28/09/2015 20:26:27:243  INFO - In Progress | session id:mpp-2015271144450-13 | DM:ReportEnd | Prepaid_MN | Return Code | Output_Parameters:returncode | SUCCESS | 10000001941443451490
+28/09/2015 20:26:27:243  INFO - In Progress | session id:mpp-2015271144450-13 | DM:ReportEnd | Prepaid_MN | Input Type | Output_Parameters:inputType | dtmf | 10000001941443451490
+28/09/2015 20:26:27:243  INFO - In Progress | session id:mpp-2015271144450-13 | DM:ReportEnd | Prepaid_MN | Value | Output_Parameters:value | MobileNum | 10000001941443451490
+28/09/2015 20:26:27:243  INFO - End | session id:mpp-2015271144450-13 | DM:ReportEnd | Prepaid_MN |  |  |  | 10000001941443451490
+28/09/2015 20:26:27:337  INFO - In Progress | session id:mpp-2015271144450-13 | DM:ReportEnd | Transaction_PP | Return Code | Output_Parameters:returncode |  | 10000001941443451490
+28/09/2015 20:26:27:337  INFO - End | session id:mpp-2015271144450-13 | DM:ReportEnd | Transaction_PP |  |  |  | 10000001941443451490

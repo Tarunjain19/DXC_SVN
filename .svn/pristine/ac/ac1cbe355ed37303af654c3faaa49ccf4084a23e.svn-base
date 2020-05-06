@@ -1,0 +1,31 @@
+##################################################################################
+# 
+# GetCAFNumber_PC.properties file
+# 
+##################################################################################
+
+########################
+# Dialog Name
+########################
+
+dialogName = GetCAFNumber_PC
+menuID = DAKC_MN_0035
+isAnnouncement = false
+
+########################
+# Grammars
+########################
+dtmfGrammar = 12DigitSubID.grxml*13DigitSubID.grxml*14DigitCAF.grxml
+
+########################
+# Prompt & Collect
+########################
+initialPrompt = 43981.wav
+rePromptNoInput = 43981.wav
+rePromptNoMatch = 43981.wav
+
+########################
+# Global Grammar
+########################
+dtmfGlobalGrammar = 
+globalPrompt = 

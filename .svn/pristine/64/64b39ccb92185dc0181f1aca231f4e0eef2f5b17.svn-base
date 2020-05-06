@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<ProjectLanguages>
+    <language asr="en-us" localization="en-us" localizationVersion="3.1.2" name="ASM" stdPhrasesInstalled="false" stdPhrasesLocation="LOCAL" tts="en-us"/>
+    <language asr="en-us" localization="en-us" localizationVersion="3.1.2" name="BEN" stdPhrasesInstalled="false" stdPhrasesLocation="LOCAL" tts="en-us"/>
+    <language asr="en-us" localization="en-us" localizationVersion="3.1.2" name="ENG" stdPhrasesInstalled="false" stdPhrasesLocation="LOCAL" tts="en-us"/>
+    <language asr="en-us" localization="en-us" localizationVersion="3.1.2" name="english" stdPhrasesInstalled="false" stdPhrasesLocation="LOCAL" tts="en-us"/>
+    <language asr="en-us" localization="en-us" localizationVersion="3.1.2" name="GUJ" stdPhrasesInstalled="false" stdPhrasesLocation="LOCAL" tts="en-us"/>
+    <language asr="en-us" localization="en-us" localizationVersion="3.1.2" name="HIN" stdPhrasesInstalled="false" stdPhrasesLocation="LOCAL" tts="en-us"/>
+    <language asr="en-us" localization="en-us" localizationVersion="3.1.2" name="KAN" stdPhrasesInstalled="false" stdPhrasesLocation="LOCAL" tts="en-us"/>
+    <language asr="en-us" localization="en-us" localizationVersion="3.1.2" name="MAL" stdPhrasesInstalled="false" stdPhrasesLocation="LOCAL" tts="en-us"/>
+    <language asr="en-us" localization="en-us" localizationVersion="3.1.2" name="MAR" stdPhrasesInstalled="false" stdPhrasesLocation="LOCAL" tts="en-us"/>
+    <language asr="en-us" localization="en-us" localizationVersion="3.1.2" name="ORI" stdPhrasesInstalled="false" stdPhrasesLocation="LOCAL" tts="en-us"/>
+    <language asr="en-us" localization="en-us" localizationVersion="3.1.2" name="PUN" stdPhrasesInstalled="false" stdPhrasesLocation="LOCAL" tts="en-us"/>
+    <language asr="en-us" localization="en-us" localizationVersion="3.1.2" name="TAM" stdPhrasesInstalled="false" stdPhrasesLocation="LOCAL" tts="en-us"/>
+    <language asr="en-us" localization="en-us" localizationVersion="3.1.2" name="TEL" stdPhrasesInstalled="false" stdPhrasesLocation="LOCAL" tts="en-us"/>
+</ProjectLanguages>

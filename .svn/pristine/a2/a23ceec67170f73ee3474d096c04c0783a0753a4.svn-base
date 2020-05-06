@@ -1,0 +1,31 @@
+##################################################################################
+# 
+# Transfer_TELV_PA_0008_TELV_PA_0010.properties file
+# 
+##################################################################################
+
+
+########################
+# Dialog Name
+########################
+
+dialogName = Transfer_TELV_PA_0008_TELV_PA_0010
+isDTMF=DEFAULT
+isAnnouncement = true
+language=DEFAULT
+menuID=Transfer_TELV_PA_0008_TELV_PA_0010
+
+loggingEnabled=true
+loggerName=RCOM_CF_Televerification_IVR
+
+
+initialPrompt = 42313.wav
+
+
+
+
+
+
+
+
+

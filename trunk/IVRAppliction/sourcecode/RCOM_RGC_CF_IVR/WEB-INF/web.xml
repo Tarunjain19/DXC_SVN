@@ -1,0 +1,579 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--
+This XML descriptor is automatically generated and managed by the
+application development environment.  While manual updates to this 
+file may be preserved, it is best to manage this file through the application development environment tool.
+
+Copyright 2004-2011 Avaya Inc.
+--><!DOCTYPE web-app PUBLIC "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN" "http://java.sun.com/dtd/web-app_2_3.dtd">
+<web-app id="WebApp_ID">
+    <context-param>
+        <param-name>sage.startlanguage</param-name>
+        <param-value>english</param-value>
+        <description>The starting language for the application.</description>
+    </context-param>
+    <context-param>
+        <param-name>sage.ic.throwexceptions</param-name>
+        <param-value>true</param-value>
+        <description>IC Throw Runtime Exception on Error{true|false}</description>
+    </context-param>
+    <context-param>
+        <param-name>sage.cti.autoinvoke.callinfo</param-name>
+        <param-value>true</param-value>
+        <description>CTI Auto invoke CallInfo upon app start{true|false}</description>
+    </context-param>
+    <context-param>
+        <param-name>runtime-ASR</param-name>
+        <param-value>Desktop Microsoft Speech SAPI</param-value>
+        <description>Runtime ASR {SRGS-Literals|SRGS-SISR|Nuance OSR|IBM|...}</description>
+    </context-param>
+    <context-param>
+        <param-name>runtime-SSML</param-name>
+        <param-value>true</param-value>
+        <description>Runtime SSML Generation {true|false} - "true" enables SSML generation, "false" disables.</description>
+    </context-param>
+    <context-param>
+        <param-name>runtime-nature</param-name>
+        <param-value>speech</param-value>
+        <description>Application nature, speech or message</description>
+    </context-param>
+    <context-param>
+        <param-name>runtime-Platform</param-name>
+        <param-value>Desktop</param-value>
+        <description>Runtime Platform {Desktop|Voice Portal|Experience Portal|Other|IR|MPS}</description>
+    </context-param>
+    <context-param>
+        <param-name>runtime-VXML-Compatibility</param-name>
+        <param-value>2.1</param-value>
+        <description>2.1 + IVVR, 2.1 Allows VXML 2.1 extensions, 2.0 Uses VXML 2.0 Only</description>
+    </context-param>
+    <context-param>
+        <param-name>runtime-DTMF-Native</param-name>
+        <param-value>LOCAL_SRGS_LITERALS</param-value>
+        <description>(NATIVE|LOCAL_SRGS_SISR|LOCAL_SRGS_LITERALS, NATIVE means DTMF Grammars are in native asr format.</description>
+    </context-param>
+    <context-param>
+        <param-name>CollectionSeparator</param-name>
+        <param-value>|</param-value>
+        <description>Collection Separator Char</description>
+    </context-param>
+    <context-param>
+        <param-name>grammar-caching</param-name>
+        <param-value>none</param-value>
+        <description>Grammar caching mode, none=no caching, default=system default or property setting</description>
+    </context-param>
+    <servlet id="avayadefaultdisconnecthandler-servlet">
+        <servlet-name>AvayaDefaultDisconnectHandler</servlet-name>
+        <servlet-class>com.avaya.sce.runtime.DefaultDisconnect</servlet-class>
+    </servlet>
+    <servlet id="avayadefaultexithandler-servlet">
+        <servlet-name>AvayaDefaultExitHandler</servlet-name>
+        <servlet-class>com.avaya.sce.runtime.DefaultExit</servlet-class>
+    </servlet>
+    <servlet id="avayasessiontermination-servlet">
+        <servlet-name>AvayaSessionTerminationServlet</servlet-name>
+        <servlet-class>com.avaya.sce.runtime.AvayaSessionTerminationServlet</servlet-class>
+    </servlet>
+    <servlet id="avayareturnerrorhandler-servlet">
+        <servlet-name>AvayaReturnErrorHandler</servlet-name>
+        <servlet-class>com.avaya.sce.runtime.ReturnErrorHandlerServlet</servlet-class>
+    </servlet>
+    <servlet id="avayareturnerrorthrow-servlet">
+        <servlet-name>AvayaReturnErrorThrow</servlet-name>
+        <servlet-class>com.avaya.sce.runtime.ReturnErrorThrowServlet</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_1">
+        <servlet-name>AppRoot</servlet-name>
+        <servlet-class>flow.AppRoot</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_0">
+        <servlet-name>Start</servlet-name>
+        <servlet-class>flow.Start</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_71">
+        <servlet-name>DAT_ChkException_Flag</servlet-name>
+        <servlet-class>flow.DAT_ChkException_Flag</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_67">
+        <servlet-name>DAT_SetReportDisconnect</servlet-name>
+        <servlet-class>flow.DAT_SetReportDisconnect</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_16424">
+        <servlet-name>DAT_CallStart</servlet-name>
+        <servlet-class>flow.DAT_CallStart</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_16467">
+        <servlet-name>Call_Disconnect</servlet-name>
+        <servlet-class>flow.Call_Disconnect</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_16483">
+        <servlet-name>DAT_EndCallProcess</servlet-name>
+        <servlet-class>flow.DAT_EndCallProcess</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_16473">
+        <servlet-name>DAT_CallEnd_Transfer</servlet-name>
+        <servlet-class>flow.DAT_CallEnd_Transfer</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_16488">
+        <servlet-name>End</servlet-name>
+        <servlet-class>flow.End</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_16477">
+        <servlet-name>DAT_CallEnd</servlet-name>
+        <servlet-class>flow.DAT_CallEnd</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_16515">
+        <servlet-name>DM_TechDiff_Msg</servlet-name>
+        <servlet-class>flow.DM_TechDiff_Msg</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_16650">
+        <servlet-name>DM_ThankYou</servlet-name>
+        <servlet-class>flow.DM_ThankYou</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_16787">
+        <servlet-name>SubFlow_RGC_Flow</servlet-name>
+        <servlet-class>flow.SubFlow_RGC_Flow</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_RGC_Flow_1">
+        <servlet-name>RGC_Flow-Begin</servlet-name>
+        <servlet-class>flow.subflow.RGC_Flow.Begin</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_RGC_Flow_4">
+        <servlet-name>RGC_Flow-CallEnd</servlet-name>
+        <servlet-class>flow.subflow.RGC_Flow.CallEnd</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_RGC_Flow_5">
+        <servlet-name>RGC_Flow-TechDiffMsg</servlet-name>
+        <servlet-class>flow.subflow.RGC_Flow.TechDiffMsg</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_RGC_Flow_6">
+        <servlet-name>RGC_Flow-Transfer</servlet-name>
+        <servlet-class>flow.subflow.RGC_Flow.Transfer</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_16800">
+        <servlet-name>DNIS_Routing</servlet-name>
+        <servlet-class>flow.DNIS_Routing</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_16816">
+        <servlet-name>DM_WelcomeMessage</servlet-name>
+        <servlet-class>flow.DM_WelcomeMessage</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_RGC_Flow_7">
+        <servlet-name>RGC_Flow-DM_RGC_MainMenu</servlet-name>
+        <servlet-class>flow.subflow.RGC_Flow.DM_RGC_MainMenu</servlet-class>
+    </servlet>
+    
+    <servlet id="SAGE-callflow-servlet_RGC_Flow_281">
+        <servlet-name>RGC_Flow-DM_RGCSignUpMenu</servlet-name>
+        <servlet-class>flow.subflow.RGC_Flow.DM_RGCSignUpMenu</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_RGC_Flow_147">
+        <servlet-name>RGC_Flow-DM_GetRegisteredPhNum_Menu</servlet-name>
+        <servlet-class>flow.subflow.RGC_Flow.DM_GetRegisteredPhNum_Menu</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_RGC_Flow_426">
+        <servlet-name>RGC_Flow-DM_TriesExceeded_Msg</servlet-name>
+        <servlet-class>flow.subflow.RGC_Flow.DM_TriesExceeded_Msg</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_RGC_Flow_560">
+        <servlet-name>RGC_Flow-DM_ThankYouMsg</servlet-name>
+        <servlet-class>flow.subflow.RGC_Flow.DM_ThankYouMsg</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_RGC_Flow_697">
+        <servlet-name>RGC_Flow-DAT_Evaluate_RGC_MM</servlet-name>
+        <servlet-class>flow.subflow.RGC_Flow.DAT_Evaluate_RGC_MM</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_RGC_Flow_715">
+        <servlet-name>RGC_Flow-DAT_Chk_PHNum</servlet-name>
+        <servlet-class>flow.subflow.RGC_Flow.DAT_Chk_PHNum</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_RGC_Flow_719">
+        <servlet-name>RGC_Flow-DAT_SignUp</servlet-name>
+        <servlet-class>flow.subflow.RGC_Flow.DAT_SignUp</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_RGC_Flow_742">
+        <servlet-name>RGC_Flow-DM_ReConfirm_RegPhNumMenu</servlet-name>
+        <servlet-class>flow.subflow.RGC_Flow.DM_ReConfirm_RegPhNumMenu</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_RGC_Flow_878">
+        <servlet-name>RGC_Flow-DAT_Chk_Tries</servlet-name>
+        <servlet-class>flow.subflow.RGC_Flow.DAT_Chk_Tries</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_RGC_Flow_1026">
+        <servlet-name>RGC_Flow-DAT_Get_VDN</servlet-name>
+        <servlet-class>flow.subflow.RGC_Flow.DAT_Get_VDN</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_RGC_Flow_892">
+        <servlet-name>RGC_Flow-DM_Agent_Txfr_Msg</servlet-name>
+        <servlet-class>flow.subflow.RGC_Flow.DM_Agent_Txfr_Msg</servlet-class>
+    </servlet>
+    
+    <servlet id="SAGE-callflow-servlet_RGC_Flow_1067">
+        <servlet-name>RGC_Flow-DAT_ReEnter_PhNum</servlet-name>
+        <servlet-class>flow.subflow.RGC_Flow.DAT_ReEnter_PhNum</servlet-class>
+    </servlet>
+    
+    <servlet id="SAGE-callflow-servlet_RGC_Flow_1063">
+        <servlet-name>RGC_Flow-DAT_Chk_WS_Resp</servlet-name>
+        <servlet-class>flow.subflow.RGC_Flow.DAT_Chk_WS_Resp</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_RGC_Flow_1096">
+        <servlet-name>RGC_Flow-DM_Invalid_PhNUm_Msg</servlet-name>
+        <servlet-class>flow.subflow.RGC_Flow.DM_Invalid_PhNUm_Msg</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_RGC_Flow_1231">
+        <servlet-name>RGC_Flow-DM_RGC_ExistingCust_MainMenu</servlet-name>
+        <servlet-class>flow.subflow.RGC_Flow.DM_RGC_ExistingCust_MainMenu</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_RGC_Flow_1367">
+        <servlet-name>RGC_Flow-DAT_Chk_Tries4</servlet-name>
+        <servlet-class>flow.subflow.RGC_Flow.DAT_Chk_Tries4</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_RGC_Flow_1381">
+        <servlet-name>RGC_Flow-DAT_Chk_Input</servlet-name>
+        <servlet-class>flow.subflow.RGC_Flow.DAT_Chk_Input</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_RGC_Flow_1412">
+        <servlet-name>RGC_Flow-DAT_Chk_Operation</servlet-name>
+        <servlet-class>flow.subflow.RGC_Flow.DAT_Chk_Operation</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_RGC_Flow_1424">
+        <servlet-name>RGC_Flow-DM_Get_PIN</servlet-name>
+        <servlet-class>flow.subflow.RGC_Flow.DM_Get_PIN</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_RGC_Flow_1420">
+        <servlet-name>RGC_Flow-DAT_Got_PIN</servlet-name>
+        <servlet-class>flow.subflow.RGC_Flow.DAT_Got_PIN</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_RGC_Flow_1564">
+        <servlet-name>RGC_Flow-DAT_Store_PIN</servlet-name>
+        <servlet-class>flow.subflow.RGC_Flow.DAT_Store_PIN</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_RGC_Flow_1571">
+        <servlet-name>RGC_Flow-DAT_Validate_PIN</servlet-name>
+        <servlet-class>flow.subflow.RGC_Flow.DAT_Validate_PIN</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_RGC_Flow_1582">
+        <servlet-name>RGC_Flow-DAT_WS_PIN_Validation</servlet-name>
+        <servlet-class>flow.subflow.RGC_Flow.DAT_WS_PIN_Validation</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_RGC_Flow_1587">
+        <servlet-name>RGC_Flow-DAT_Chk_Tries1</servlet-name>
+        <servlet-class>flow.subflow.RGC_Flow.DAT_Chk_Tries1</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_RGC_Flow_1609">
+        <servlet-name>RGC_Flow-DM_Invalid_PIN_Msg</servlet-name>
+        <servlet-class>flow.subflow.RGC_Flow.DM_Invalid_PIN_Msg</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_RGC_Flow_1751">
+        <servlet-name>RGC_Flow-DAT_Chk_Tries5</servlet-name>
+        <servlet-class>flow.subflow.RGC_Flow.DAT_Chk_Tries5</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_RGC_Flow_1761">
+        <servlet-name>RGC_Flow-DAT_WS_PIN_CHANGE</servlet-name>
+        <servlet-class>flow.subflow.RGC_Flow.DAT_WS_PIN_CHANGE</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_RGC_Flow_1765">
+        <servlet-name>RGC_Flow-DAT_WS_AccountBalanceNode</servlet-name>
+        <servlet-class>flow.subflow.RGC_Flow.DAT_WS_AccountBalanceNode</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_RGC_Flow_1813">
+        <servlet-name>RGC_Flow-DAT_Set_AccBal_Value</servlet-name>
+        <servlet-class>flow.subflow.RGC_Flow.DAT_Set_AccBal_Value</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_RGC_Flow_1827">
+        <servlet-name>RGC_Flow-DM_Play_AccBal</servlet-name>
+        <servlet-class>flow.subflow.RGC_Flow.DM_Play_AccBal</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_RGC_Flow_1962">
+        <servlet-name>RGC_Flow-DM_AccountMenu</servlet-name>
+        <servlet-class>flow.subflow.RGC_Flow.DM_AccountMenu</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_RGC_Flow_2097">
+        <servlet-name>RGC_Flow-DAT_Chk</servlet-name>
+        <servlet-class>flow.subflow.RGC_Flow.DAT_Chk</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_RGC_Flow_2117">
+        <servlet-name>RGC_Flow-DM_Play_AccBal_Repeating</servlet-name>
+        <servlet-class>flow.subflow.RGC_Flow.DM_Play_AccBal_Repeating</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_RGC_Flow_2271">
+        <servlet-name>RGC_Flow-DM_PIN_Change_RequestMsg</servlet-name>
+        <servlet-class>flow.subflow.RGC_Flow.DM_PIN_Change_RequestMsg</servlet-class>
+    </servlet>
+    
+    
+    
+    
+    
+    
+    <servlet id="SAGE-callflow-servlet_RGC_Flow_2461">
+        <servlet-name>RGC_Flow-DAT_RegPhNum</servlet-name>
+        <servlet-class>flow.subflow.RGC_Flow.DAT_RegPhNum</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_RGC_Flow_2465">
+        <servlet-name>RGC_Flow-SRV_WS_RegPhNum</servlet-name>
+        <servlet-class>flow.subflow.RGC_Flow.SRV_WS_RegPhNum</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_RGC_Flow_2481">
+        <servlet-name>RGC_Flow-AgentTransfer</servlet-name>
+        <servlet-class>flow.subflow.RGC_Flow.AgentTransfer</servlet-class>
+    </servlet>
+    <servlet-mapping id="avayadefaultdisconnecthandler-servletmapping">
+        <servlet-name>AvayaDefaultDisconnectHandler</servlet-name>
+        <url-pattern>/AvayaDefaultDisconnectHandler</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="avayadefaultexithandler-servletmapping">
+        <servlet-name>AvayaDefaultExitHandler</servlet-name>
+        <url-pattern>/AvayaDefaultExitHandler</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="avayasessiontermination-servletmapping">
+        <servlet-name>AvayaSessionTerminationServlet</servlet-name>
+        <url-pattern>/AvayaSessionTerminationServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="avayareturnerrorhandler-servletmapping">
+        <servlet-name>AvayaReturnErrorHandler</servlet-name>
+        <url-pattern>/AvayaReturnErrorHandler</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="avayareturnerrorthrow-servletmapping">
+        <servlet-name>AvayaReturnErrorThrow</servlet-name>
+        <url-pattern>/AvayaReturnErrorThrow</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_1">
+        <servlet-name>AppRoot</servlet-name>
+        <url-pattern>/AppRoot</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_0">
+        <servlet-name>Start</servlet-name>
+        <url-pattern>/Start</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_71">
+        <servlet-name>DAT_ChkException_Flag</servlet-name>
+        <url-pattern>/DAT_ChkException_Flag</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_67">
+        <servlet-name>DAT_SetReportDisconnect</servlet-name>
+        <url-pattern>/DAT_SetReportDisconnect</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_16424">
+        <servlet-name>DAT_CallStart</servlet-name>
+        <url-pattern>/DAT_CallStart</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_16467">
+        <servlet-name>Call_Disconnect</servlet-name>
+        <url-pattern>/Call_Disconnect</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_16483">
+        <servlet-name>DAT_EndCallProcess</servlet-name>
+        <url-pattern>/DAT_EndCallProcess</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_16473">
+        <servlet-name>DAT_CallEnd_Transfer</servlet-name>
+        <url-pattern>/DAT_CallEnd_Transfer</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_16488">
+        <servlet-name>End</servlet-name>
+        <url-pattern>/End</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_16477">
+        <servlet-name>DAT_CallEnd</servlet-name>
+        <url-pattern>/DAT_CallEnd</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_16515">
+        <servlet-name>DM_TechDiff_Msg</servlet-name>
+        <url-pattern>/DM_TechDiff_Msg</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_16650">
+        <servlet-name>DM_ThankYou</servlet-name>
+        <url-pattern>/DM_ThankYou</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_16787">
+        <servlet-name>SubFlow_RGC_Flow</servlet-name>
+        <url-pattern>/SubFlow_RGC_Flow</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_RGC_Flow_1">
+        <servlet-name>RGC_Flow-Begin</servlet-name>
+        <url-pattern>/RGC_Flow-Begin</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_RGC_Flow_4">
+        <servlet-name>RGC_Flow-CallEnd</servlet-name>
+        <url-pattern>/RGC_Flow-CallEnd</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_RGC_Flow_5">
+        <servlet-name>RGC_Flow-TechDiffMsg</servlet-name>
+        <url-pattern>/RGC_Flow-TechDiffMsg</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_RGC_Flow_6">
+        <servlet-name>RGC_Flow-Transfer</servlet-name>
+        <url-pattern>/RGC_Flow-Transfer</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_16800">
+        <servlet-name>DNIS_Routing</servlet-name>
+        <url-pattern>/DNIS_Routing</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_16816">
+        <servlet-name>DM_WelcomeMessage</servlet-name>
+        <url-pattern>/DM_WelcomeMessage</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_RGC_Flow_7">
+        <servlet-name>RGC_Flow-DM_RGC_MainMenu</servlet-name>
+        <url-pattern>/RGC_Flow-DM_RGC_MainMenu</url-pattern>
+    </servlet-mapping>
+    
+    <servlet-mapping id="SAGE-callflow-servletmapping_RGC_Flow_281">
+        <servlet-name>RGC_Flow-DM_RGCSignUpMenu</servlet-name>
+        <url-pattern>/RGC_Flow-DM_RGCSignUpMenu</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_RGC_Flow_147">
+        <servlet-name>RGC_Flow-DM_GetRegisteredPhNum_Menu</servlet-name>
+        <url-pattern>/RGC_Flow-DM_GetRegisteredPhNum_Menu</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_RGC_Flow_426">
+        <servlet-name>RGC_Flow-DM_TriesExceeded_Msg</servlet-name>
+        <url-pattern>/RGC_Flow-DM_TriesExceeded_Msg</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_RGC_Flow_560">
+        <servlet-name>RGC_Flow-DM_ThankYouMsg</servlet-name>
+        <url-pattern>/RGC_Flow-DM_ThankYouMsg</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_RGC_Flow_697">
+        <servlet-name>RGC_Flow-DAT_Evaluate_RGC_MM</servlet-name>
+        <url-pattern>/RGC_Flow-DAT_Evaluate_RGC_MM</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_RGC_Flow_715">
+        <servlet-name>RGC_Flow-DAT_Chk_PHNum</servlet-name>
+        <url-pattern>/RGC_Flow-DAT_Chk_PHNum</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_RGC_Flow_719">
+        <servlet-name>RGC_Flow-DAT_SignUp</servlet-name>
+        <url-pattern>/RGC_Flow-DAT_SignUp</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_RGC_Flow_742">
+        <servlet-name>RGC_Flow-DM_ReConfirm_RegPhNumMenu</servlet-name>
+        <url-pattern>/RGC_Flow-DM_ReConfirm_RegPhNumMenu</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_RGC_Flow_878">
+        <servlet-name>RGC_Flow-DAT_Chk_Tries</servlet-name>
+        <url-pattern>/RGC_Flow-DAT_Chk_Tries</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_RGC_Flow_1026">
+        <servlet-name>RGC_Flow-DAT_Get_VDN</servlet-name>
+        <url-pattern>/RGC_Flow-DAT_Get_VDN</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_RGC_Flow_892">
+        <servlet-name>RGC_Flow-DM_Agent_Txfr_Msg</servlet-name>
+        <url-pattern>/RGC_Flow-DM_Agent_Txfr_Msg</url-pattern>
+    </servlet-mapping>
+    
+    <servlet-mapping id="SAGE-callflow-servletmapping_RGC_Flow_1067">
+        <servlet-name>RGC_Flow-DAT_ReEnter_PhNum</servlet-name>
+        <url-pattern>/RGC_Flow-DAT_ReEnter_PhNum</url-pattern>
+    </servlet-mapping>
+    
+    <servlet-mapping id="SAGE-callflow-servletmapping_RGC_Flow_1063">
+        <servlet-name>RGC_Flow-DAT_Chk_WS_Resp</servlet-name>
+        <url-pattern>/RGC_Flow-DAT_Chk_WS_Resp</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_RGC_Flow_1096">
+        <servlet-name>RGC_Flow-DM_Invalid_PhNUm_Msg</servlet-name>
+        <url-pattern>/RGC_Flow-DM_Invalid_PhNUm_Msg</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_RGC_Flow_1231">
+        <servlet-name>RGC_Flow-DM_RGC_ExistingCust_MainMenu</servlet-name>
+        <url-pattern>/RGC_Flow-DM_RGC_ExistingCust_MainMenu</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_RGC_Flow_1367">
+        <servlet-name>RGC_Flow-DAT_Chk_Tries4</servlet-name>
+        <url-pattern>/RGC_Flow-DAT_Chk_Tries4</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_RGC_Flow_1381">
+        <servlet-name>RGC_Flow-DAT_Chk_Input</servlet-name>
+        <url-pattern>/RGC_Flow-DAT_Chk_Input</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_RGC_Flow_1412">
+        <servlet-name>RGC_Flow-DAT_Chk_Operation</servlet-name>
+        <url-pattern>/RGC_Flow-DAT_Chk_Operation</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_RGC_Flow_1424">
+        <servlet-name>RGC_Flow-DM_Get_PIN</servlet-name>
+        <url-pattern>/RGC_Flow-DM_Get_PIN</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_RGC_Flow_1420">
+        <servlet-name>RGC_Flow-DAT_Got_PIN</servlet-name>
+        <url-pattern>/RGC_Flow-DAT_Got_PIN</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_RGC_Flow_1564">
+        <servlet-name>RGC_Flow-DAT_Store_PIN</servlet-name>
+        <url-pattern>/RGC_Flow-DAT_Store_PIN</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_RGC_Flow_1571">
+        <servlet-name>RGC_Flow-DAT_Validate_PIN</servlet-name>
+        <url-pattern>/RGC_Flow-DAT_Validate_PIN</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_RGC_Flow_1582">
+        <servlet-name>RGC_Flow-DAT_WS_PIN_Validation</servlet-name>
+        <url-pattern>/RGC_Flow-DAT_WS_PIN_Validation</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_RGC_Flow_1587">
+        <servlet-name>RGC_Flow-DAT_Chk_Tries1</servlet-name>
+        <url-pattern>/RGC_Flow-DAT_Chk_Tries1</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_RGC_Flow_1609">
+        <servlet-name>RGC_Flow-DM_Invalid_PIN_Msg</servlet-name>
+        <url-pattern>/RGC_Flow-DM_Invalid_PIN_Msg</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_RGC_Flow_1751">
+        <servlet-name>RGC_Flow-DAT_Chk_Tries5</servlet-name>
+        <url-pattern>/RGC_Flow-DAT_Chk_Tries5</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_RGC_Flow_1761">
+        <servlet-name>RGC_Flow-DAT_WS_PIN_CHANGE</servlet-name>
+        <url-pattern>/RGC_Flow-DAT_WS_PIN_CHANGE</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_RGC_Flow_1765">
+        <servlet-name>RGC_Flow-DAT_WS_AccountBalanceNode</servlet-name>
+        <url-pattern>/RGC_Flow-DAT_WS_AccountBalanceNode</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_RGC_Flow_1813">
+        <servlet-name>RGC_Flow-DAT_Set_AccBal_Value</servlet-name>
+        <url-pattern>/RGC_Flow-DAT_Set_AccBal_Value</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_RGC_Flow_1827">
+        <servlet-name>RGC_Flow-DM_Play_AccBal</servlet-name>
+        <url-pattern>/RGC_Flow-DM_Play_AccBal</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_RGC_Flow_1962">
+        <servlet-name>RGC_Flow-DM_AccountMenu</servlet-name>
+        <url-pattern>/RGC_Flow-DM_AccountMenu</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_RGC_Flow_2097">
+        <servlet-name>RGC_Flow-DAT_Chk</servlet-name>
+        <url-pattern>/RGC_Flow-DAT_Chk</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_RGC_Flow_2117">
+        <servlet-name>RGC_Flow-DM_Play_AccBal_Repeating</servlet-name>
+        <url-pattern>/RGC_Flow-DM_Play_AccBal_Repeating</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_RGC_Flow_2271">
+        <servlet-name>RGC_Flow-DM_PIN_Change_RequestMsg</servlet-name>
+        <url-pattern>/RGC_Flow-DM_PIN_Change_RequestMsg</url-pattern>
+    </servlet-mapping>
+    
+    
+    
+    
+    <servlet-mapping id="SAGE-callflow-servletmapping_RGC_Flow_2461">
+        <servlet-name>RGC_Flow-DAT_RegPhNum</servlet-name>
+        <url-pattern>/RGC_Flow-DAT_RegPhNum</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_RGC_Flow_2465">
+        <servlet-name>RGC_Flow-SRV_WS_RegPhNum</servlet-name>
+        <url-pattern>/RGC_Flow-SRV_WS_RegPhNum</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_RGC_Flow_2481">
+        <servlet-name>RGC_Flow-AgentTransfer</servlet-name>
+        <url-pattern>/RGC_Flow-AgentTransfer</url-pattern>
+    </servlet-mapping>
+    
+    
+</web-app>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<module category="" descriptorversion="1.0" entrypoint="RCOM_CF_30333333_IVR/Start" forcesubdialogcall="false" frameworkversion="07.01.08.04" iconlarge="icons/defaultapplicationlg.gif" iconsmall="icons/defaultapplicationsm.gif" modifyInputs="false" modifyOutputs="false" nature="com.avaya.sce.core.speechnature" outputmultipart="false" paramasnamelist="false" provider="" submitmethod="get" version="1.0.0" webname="RCOM_CF_30333333_IVR">
+    <description/>
+    <language name="english" root="en-us"/>
+    <language name="HIN" root="en-us"/>
+    <language name="TAM" root="en-us"/>
+    <language name="ENG" root="en-us"/>
+    <language name="MAR" root="en-us"/>
+    <dependencies>
+        <moduleref frameworkversion="07.01.08.04" name="DM" private="false" version="1.0.0">
+            <meta callflow-references="Account_Information,BuyThePack,GlobalPrompt,HotFlash,InternetAndVAS,ServiceManagement,StoreAddress,VAS,main,PostpaidAccountInformation"/>
+        </moduleref>
+    </dependencies>
+</module>

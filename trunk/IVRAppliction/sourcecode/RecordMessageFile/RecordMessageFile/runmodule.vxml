@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<vxml version="2.0" xmlns="http://www.w3.org/2001/vxml" xml:lang="zh-hk">
+<var name="_avayaExitReason" expr="''"/>
+<var name="_avayaExitInfo1" expr="''"/>
+<var name="_avayaExitInfo2" expr="''"/>
+<var name="_avayaExitCustomerId" expr="''"/>
+<var name="_avayaExitPreferredPath" expr="''"/>
+<var name="_avayaExitTopic" expr="''"/>
+<form id="ApplicationTester">
+<subdialog name="TestAppication" src="/RecordMessageFile/Start?sagecall=cantonese&amp;sagecfhport=64208&amp;sagecfhhost=ESI-RND-NB-055&amp;sagerunmodule=true" method="get">
+<filled>
+<prompt>
+Your module completed execution the results are,
+returnState value is <value  expr="TestAppication.returnState"/>,
+</prompt>
+</filled>
+</subdialog>
+<catch event="."> 
+    <assign name="_avayaExitReason" expr="'unhandled event returned when simulating module standalone'"/> 
+    <assign name="_avayaExitInfo1" expr="_event"/> 
+    <if cond="_message != undefined">
+        <assign name="_avayaExitInfo2" expr="_message"/> 
+    </if>
+    <prompt>
+    <value expr="_avayaExitReason"/>
+    <break/>
+    <value expr="_avayaExitInfo1"/>
+    <break/>
+    <value expr="_avayaExitInfo2"/>
+    <break/>
+    </prompt>
+    <exit namelist="_avayaExitReason _avayaExitInfo1 _avayaExitInfo2"/>
+</catch>
+<block>
+    <exit namelist="_avayaExitReason _avayaExitInfo1 _avayaExitInfo2 _avayaExitCustomerId _avayaExitPreferredPath _avayaExitTopic"/>
+</block>
+</form>
+</vxml>

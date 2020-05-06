@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<ProjectLanguages>
+    <language asr="en-us" localization="en-us" localizationVersion="3.1.2" name="ENG" stdPhrasesInstalled="false" stdPhrasesLocation="LOCAL" tts="en-us"/>
+    <language asr="en-us" localization="en-us" localizationVersion="3.1.2" name="english" stdPhrasesInstalled="false" stdPhrasesLocation="LOCAL" tts="en-us"/>
+    <language asr="en-us" localization="hi-in" localizationVersion="1.0.1" name="HIN" stdPhrasesInstalled="false" stdPhrasesLocation="LOCAL" tts="en-us"/>
+    <language asr="en-us" localization="ml-in" localizationVersion="1.0.1" name="MAL" stdPhrasesInstalled="false" stdPhrasesLocation="LOCAL" tts="en-us"/>
+    <language asr="en-us" localization="en-us" localizationVersion="3.1.2" name="MAR" stdPhrasesInstalled="false" stdPhrasesLocation="LOCAL" tts="en-us"/>
+    <language asr="en-us" localization="ta-in" localizationVersion="1.0.1" name="TAM" stdPhrasesInstalled="false" stdPhrasesLocation="LOCAL" tts="en-us"/>
+    <language asr="en-us" localization="te-in" localizationVersion="1.0.1" name="TEL" stdPhrasesInstalled="false" stdPhrasesLocation="LOCAL" tts="en-us"/>
+    <language asr="en-us" localization="kn-in" localizationVersion="1.0.1" name="KAN" stdPhrasesInstalled="false" stdPhrasesLocation="LOCAL" tts="en-us"/>
+</ProjectLanguages>

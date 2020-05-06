@@ -1,0 +1,1150 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<AppFlowDoc>
+    <ApplicationFlow nextObjectId="146" package="flow.subflow.HotFlash" version="5.0">
+        <FlowGraph>
+            <FlowNode class="com.avaya.sce.callflow.internal.appflow.SubEntry" id="1" version="3.1">
+                <Property name="Name" value="Begin"/>
+                <Property name="FlowNodeEditPart.WidgetY" value="129"/>
+                <Property name="FlowNodeEditPart.WidgetX" value="23"/>
+                <FlowItem class="com.avaya.sce.callflow.internal.flowitem.SubEntry" id="2" version="1.2">
+                    <ItemProperties/>
+                    <ChildItems>
+                        <FlowItem class="com.avaya.sce.callflow.internal.flowitem.GoTo" id="3" version="1.2">
+                            <ItemProperties>
+                                <Property name="Name" value="Start"/>
+                                <Property name="LinkedNodeID" value="4"/>
+                            </ItemProperties>
+                            <ChildItems/>
+                        </FlowItem>
+                    </ChildItems>
+                </FlowItem>
+            </FlowNode>
+            <FlowNode class="com.avaya.sce.callflow.internal.appflow.Data" id="4" version="3.1">
+                <Property name="Name" value="Get_HotFlash_Message"/>
+                <Property name="FlowNodeEditPart.WidgetY" value="130"/>
+                <Property name="FlowNodeEditPart.WidgetX" value="149"/>
+                <FlowItem class="com.avaya.sce.callflow.internal.flowitem.Data" id="5" version="1.2">
+                    <ItemProperties/>
+                    <ChildItems>
+                        <FlowItem class="com.avaya.sce.callflow.internal.flowitem.LocalVariables" id="6" version="1.2">
+                            <ItemProperties>
+                                <Property name="Name" value="LocalVariables"/>
+                            </ItemProperties>
+                            <ChildItems/>
+                        </FlowItem>
+                        <FlowItem class="com.avaya.sce.callflow.internal.flowitem.Trace" id="145" version="1.2">
+                            <ItemProperties>
+                                <Property name="trace.text" value="Hot Flash Enable Disable Flag :"/>
+                                <Property name="trace.priority" value="info"/>
+                                <Property name="trace.varId" value="HotFlashInfo"/>
+                                <Property name="trace.fieldId" value="Flag"/>
+                            </ItemProperties>
+                            <ChildItems/>
+                        </FlowItem>
+                        <FlowItem class="com.avaya.sce.callflow.internal.flowitem.IfCondition" id="142" version="1.2">
+                            <ItemProperties>
+                                <Property name="Operator" value="EqualsIgnoreCase"/>
+                                <Property name="LeftOperandFieldID" value="Flag"/>
+                                <Property name="LeftOperandID" value="HotFlashInfo"/>
+                            </ItemProperties>
+                            <ChildItems>
+                                <FlowItem class="com.avaya.sce.callflow.internal.flowitem.Next" id="7" version="1.2">
+                                    <ItemProperties>
+                                        <Property name="LinkedNodeID" value="8"/>
+                                    </ItemProperties>
+                                    <ChildItems/>
+                                </FlowItem>
+                            </ChildItems>
+                        </FlowItem>
+                        <FlowItem class="com.avaya.sce.callflow.internal.flowitem.ElseCondition" id="143" version="1.2">
+                            <ItemProperties/>
+                            <ChildItems>
+                                <FlowItem class="com.avaya.sce.callflow.internal.flowitem.Next" id="144" version="1.2">
+                                    <ItemProperties>
+                                        <Property name="Name" value="Return"/>
+                                        <Property name="LinkedNodeID" value="140"/>
+                                    </ItemProperties>
+                                    <ChildItems/>
+                                </FlowItem>
+                            </ChildItems>
+                        </FlowItem>
+                    </ChildItems>
+                </FlowItem>
+            </FlowNode>
+            <FlowNode class="com.avaya.sce.callflow.internal.appflow.SubReturn" id="140" version="3.1">
+                <Property name="Name" value="Return"/>
+                <Property name="FlowNodeEditPart.WidgetY" value="145"/>
+                <Property name="FlowNodeEditPart.WidgetX" value="487"/>
+            </FlowNode>
+            <FlowNode class="com.avaya.sce.callflow.internal.appflow.Module" id="8" version="3.1">
+                <Property name="Name" value="Start_HotFlash"/>
+                <Property name="ModuleCallType" value="Subdialog"/>
+                <Property name="ModuleTypeID" value="DM"/>
+                <Property name="FlowNodeEditPart.WidgetY" value="91"/>
+                <Property name="FlowNodeEditPart.WidgetX" value="323"/>
+                <FlowItem class="com.avaya.sce.callflow.internal.flowitem.Module" id="9" version="1.2">
+                    <ItemProperties/>
+                    <ChildItems>
+                        <FlowItem class="com.avaya.sce.callflow.internal.flowitem.ModuleParameter" id="10" version="1.2">
+                            <ItemProperties>
+                                <Property name="Name" value="input_propertiesLocation"/>
+                                <Property name="InputVariableFieldId" value="propertyFileLocation"/>
+                                <Property name="IsInput" value="true"/>
+                                <Property name="InputVariableId" value="dmInputParameter"/>
+                                <Property name="ModuleTypeID" value="DM"/>
+                            </ItemProperties>
+                            <ChildItems/>
+                        </FlowItem>
+                        <FlowItem class="com.avaya.sce.callflow.internal.flowitem.ModuleParameter" id="11" version="1.2">
+                            <ItemProperties>
+                                <Property name="Name" value="input_globalPropertyFileName"/>
+                                <Property name="InputVariableFieldId" value="global"/>
+                                <Property name="IsInput" value="true"/>
+                                <Property name="InputVariableId" value="propertyFileName"/>
+                                <Property name="ModuleTypeID" value="DM"/>
+                            </ItemProperties>
+                            <ChildItems/>
+                        </FlowItem>
+                        <FlowItem class="com.avaya.sce.callflow.internal.flowitem.ModuleParameter" id="12" version="1.2">
+                            <ItemProperties>
+                                <Property name="Name" value="input_propertyFileName"/>
+                                <Property name="IsInput" value="true"/>
+                                <Property name="ModuleTypeID" value="DM"/>
+                            </ItemProperties>
+                            <ChildItems/>
+                        </FlowItem>
+                        <FlowItem class="com.avaya.sce.callflow.internal.flowitem.ModuleParameter" id="13" version="1.2">
+                            <ItemProperties>
+                                <Property name="Name" value="input_language"/>
+                                <Property name="IsInput" value="true"/>
+                                <Property name="ModuleTypeID" value="DM"/>
+                            </ItemProperties>
+                            <ChildItems/>
+                        </FlowItem>
+                        <FlowItem class="com.avaya.sce.callflow.internal.flowitem.ModuleParameter" id="14" version="1.2">
+                            <ItemProperties>
+                                <Property name="Name" value="input_isDTMF"/>
+                                <Property name="IsInput" value="true"/>
+                                <Property name="ModuleTypeID" value="DM"/>
+                            </ItemProperties>
+                            <ChildItems/>
+                        </FlowItem>
+                        <FlowItem class="com.avaya.sce.callflow.internal.flowitem.ModuleParameter" id="15" version="1.2">
+                            <ItemProperties>
+                                <Property name="Name" value="input_customAudioLocation"/>
+                                <Property name="IsInput" value="true"/>
+                                <Property name="ModuleTypeID" value="DM"/>
+                            </ItemProperties>
+                            <ChildItems/>
+                        </FlowItem>
+                        <FlowItem class="com.avaya.sce.callflow.internal.flowitem.ModuleParameter" id="16" version="1.2">
+                            <ItemProperties>
+                                <Property name="Name" value="input_standardAudioLocation"/>
+                                <Property name="IsInput" value="true"/>
+                                <Property name="ModuleTypeID" value="DM"/>
+                            </ItemProperties>
+                            <ChildItems/>
+                        </FlowItem>
+                        <FlowItem class="com.avaya.sce.callflow.internal.flowitem.ModuleParameter" id="17" version="1.2">
+                            <ItemProperties>
+                                <Property name="Name" value="input_grammarLocation"/>
+                                <Property name="IsInput" value="true"/>
+                                <Property name="ModuleTypeID" value="DM"/>
+                            </ItemProperties>
+                            <ChildItems/>
+                        </FlowItem>
+                        <FlowItem class="com.avaya.sce.callflow.internal.flowitem.ModuleParameter" id="18" version="1.2">
+                            <ItemProperties>
+                                <Property name="Name" value="input_isAnnouncement"/>
+                                <Property name="IsInput" value="true"/>
+                                <Property name="InputConstant" value="true"/>
+                                <Property name="ModuleTypeID" value="DM"/>
+                            </ItemProperties>
+                            <ChildItems/>
+                        </FlowItem>
+                        <FlowItem class="com.avaya.sce.callflow.internal.flowitem.ModuleParameter" id="19" version="1.2">
+                            <ItemProperties>
+                                <Property name="Name" value="input_specificSlots"/>
+                                <Property name="IsInput" value="true"/>
+                                <Property name="ModuleTypeID" value="DM"/>
+                            </ItemProperties>
+                            <ChildItems/>
+                        </FlowItem>
+                        <FlowItem class="com.avaya.sce.callflow.internal.flowitem.ModuleParameter" id="20" version="1.2">
+                            <ItemProperties>
+                                <Property name="InputVariableFieldId" value="initialPrompt"/>
+                                <Property name="Name" value="input_initialPrompt"/>
+                                <Property name="IsInput" value="true"/>
+                                <Property name="InputVariableId" value="dmInputParameter"/>
+                                <Property name="ModuleTypeID" value="DM"/>
+                            </ItemProperties>
+                            <ChildItems/>
+                        </FlowItem>
+                        <FlowItem class="com.avaya.sce.callflow.internal.flowitem.ModuleParameter" id="21" version="1.2">
+                            <ItemProperties>
+                                <Property name="Name" value="input_maxNoMatchCount"/>
+                                <Property name="IsInput" value="true"/>
+                                <Property name="ModuleTypeID" value="DM"/>
+                            </ItemProperties>
+                            <ChildItems/>
+                        </FlowItem>
+                        <FlowItem class="com.avaya.sce.callflow.internal.flowitem.ModuleParameter" id="22" version="1.2">
+                            <ItemProperties>
+                                <Property name="Name" value="input_maxNoInputCount"/>
+                                <Property name="IsInput" value="true"/>
+                                <Property name="ModuleTypeID" value="DM"/>
+                            </ItemProperties>
+                            <ChildItems/>
+                        </FlowItem>
+                        <FlowItem class="com.avaya.sce.callflow.internal.flowitem.ModuleParameter" id="23" version="1.2">
+                            <ItemProperties>
+                                <Property name="Name" value="input_noMatchPrompt"/>
+                                <Property name="IsInput" value="true"/>
+                                <Property name="ModuleTypeID" value="DM"/>
+                            </ItemProperties>
+                            <ChildItems/>
+                        </FlowItem>
+                        <FlowItem class="com.avaya.sce.callflow.internal.flowitem.ModuleParameter" id="24" version="1.2">
+                            <ItemProperties>
+                                <Property name="Name" value="input_builtInGrammarFlag"/>
+                                <Property name="IsInput" value="true"/>
+                                <Property name="ModuleTypeID" value="DM"/>
+                            </ItemProperties>
+                            <ChildItems/>
+                        </FlowItem>
+                        <FlowItem class="com.avaya.sce.callflow.internal.flowitem.ModuleParameter" id="25" version="1.2">
+                            <ItemProperties>
+                                <Property name="Name" value="input_builtInGrammar"/>
+                                <Property name="IsInput" value="true"/>
+                                <Property name="ModuleTypeID" value="DM"/>
+                            </ItemProperties>
+                            <ChildItems/>
+                        </FlowItem>
+                        <FlowItem class="com.avaya.sce.callflow.internal.flowitem.ModuleParameter" id="26" version="1.2">
+                            <ItemProperties>
+                                <Property name="Name" value="input_noInputPrompt"/>
+                                <Property name="IsInput" value="true"/>
+                                <Property name="ModuleTypeID" value="DM"/>
+                            </ItemProperties>
+                            <ChildItems/>
+                        </FlowItem>
+                        <FlowItem class="com.avaya.sce.callflow.internal.flowitem.ModuleParameter" id="27" version="1.2">
+                            <ItemProperties>
+                                <Property name="Name" value="input_noInputMaxTryPrompt"/>
+                                <Property name="IsInput" value="true"/>
+                                <Property name="ModuleTypeID" value="DM"/>
+                            </ItemProperties>
+                            <ChildItems/>
+                        </FlowItem>
+                        <FlowItem class="com.avaya.sce.callflow.internal.flowitem.ModuleParameter" id="28" version="1.2">
+                            <ItemProperties>
+                                <Property name="Name" value="input_noMatchMaxTryPrompt"/>
+                                <Property name="IsInput" value="true"/>
+                                <Property name="ModuleTypeID" value="DM"/>
+                            </ItemProperties>
+                            <ChildItems/>
+                        </FlowItem>
+                        <FlowItem class="com.avaya.sce.callflow.internal.flowitem.ModuleParameter" id="29" version="1.2">
+                            <ItemProperties>
+                                <Property name="Name" value="input_helpPrompt"/>
+                                <Property name="IsInput" value="true"/>
+                                <Property name="ModuleTypeID" value="DM"/>
+                            </ItemProperties>
+                            <ChildItems/>
+                        </FlowItem>
+                        <FlowItem class="com.avaya.sce.callflow.internal.flowitem.ModuleParameter" id="30" version="1.2">
+                            <ItemProperties>
+                                <Property name="Name" value="input_successPrompt"/>
+                                <Property name="IsInput" value="true"/>
+                                <Property name="ModuleTypeID" value="DM"/>
+                            </ItemProperties>
+                            <ChildItems/>
+                        </FlowItem>
+                        <FlowItem class="com.avaya.sce.callflow.internal.flowitem.ModuleParameter" id="31" version="1.2">
+                            <ItemProperties>
+                                <Property name="Name" value="input_dtmfGlobalGrammar"/>
+                                <Property name="IsInput" value="true"/>
+                                <Property name="ModuleTypeID" value="DM"/>
+                            </ItemProperties>
+                            <ChildItems/>
+                        </FlowItem>
+                        <FlowItem class="com.avaya.sce.callflow.internal.flowitem.ModuleParameter" id="32" version="1.2">
+                            <ItemProperties>
+                                <Property name="Name" value="input_dtmfGrammar"/>
+                                <Property name="IsInput" value="true"/>
+                                <Property name="ModuleTypeID" value="DM"/>
+                            </ItemProperties>
+                            <ChildItems/>
+                        </FlowItem>
+                        <FlowItem class="com.avaya.sce.callflow.internal.flowitem.ModuleParameter" id="33" version="1.2">
+                            <ItemProperties>
+                                <Property name="Name" value="input_voiceGlobalGrammar"/>
+                                <Property name="IsInput" value="true"/>
+                                <Property name="ModuleTypeID" value="DM"/>
+                            </ItemProperties>
+                            <ChildItems/>
+                        </FlowItem>
+                        <FlowItem class="com.avaya.sce.callflow.internal.flowitem.ModuleParameter" id="34" version="1.2">
+                            <ItemProperties>
+                                <Property name="Name" value="input_voiceGrammar"/>
+                                <Property name="IsInput" value="true"/>
+                                <Property name="ModuleTypeID" value="DM"/>
+                            </ItemProperties>
+                            <ChildItems/>
+                        </FlowItem>
+                        <FlowItem class="com.avaya.sce.callflow.internal.flowitem.ModuleParameter" id="35" version="1.2">
+                            <ItemProperties>
+                                <Property name="Name" value="input_confirmationMaxCount"/>
+                                <Property name="IsInput" value="true"/>
+                                <Property name="ModuleTypeID" value="DM"/>
+                            </ItemProperties>
+                            <ChildItems/>
+                        </FlowItem>
+                        <FlowItem class="com.avaya.sce.callflow.internal.flowitem.ModuleParameter" id="36" version="1.2">
+                            <ItemProperties>
+                                <Property name="Name" value="input_confirmationInitialPrompt"/>
+                                <Property name="IsInput" value="true"/>
+                                <Property name="ModuleTypeID" value="DM"/>
+                            </ItemProperties>
+                            <ChildItems/>
+                        </FlowItem>
+                        <FlowItem class="com.avaya.sce.callflow.internal.flowitem.ModuleParameter" id="37" version="1.2">
+                            <ItemProperties>
+                                <Property name="Name" value="input_confirmationMaxTryPrompt"/>
+                                <Property name="IsInput" value="true"/>
+                                <Property name="ModuleTypeID" value="DM"/>
+                            </ItemProperties>
+                            <ChildItems/>
+                        </FlowItem>
+                        <FlowItem class="com.avaya.sce.callflow.internal.flowitem.ModuleParameter" id="38" version="1.2">
+                            <ItemProperties>
+                                <Property name="Name" value="input_confirmationNoInputPrompt"/>
+                                <Property name="IsInput" value="true"/>
+                                <Property name="ModuleTypeID" value="DM"/>
+                            </ItemProperties>
+                            <ChildItems/>
+                        </FlowItem>
+                        <FlowItem class="com.avaya.sce.callflow.internal.flowitem.ModuleParameter" id="39" version="1.2">
+                            <ItemProperties>
+                                <Property name="Name" value="input_confirmationNoMatchPrompt"/>
+                                <Property name="IsInput" value="true"/>
+                                <Property name="ModuleTypeID" value="DM"/>
+                            </ItemProperties>
+                            <ChildItems/>
+                        </FlowItem>
+                        <FlowItem class="com.avaya.sce.callflow.internal.flowitem.ModuleParameter" id="40" version="1.2">
+                            <ItemProperties>
+                                <Property name="Name" value="input_confirmationReprompt"/>
+                                <Property name="IsInput" value="true"/>
+                                <Property name="ModuleTypeID" value="DM"/>
+                            </ItemProperties>
+                            <ChildItems/>
+                        </FlowItem>
+                        <FlowItem class="com.avaya.sce.callflow.internal.flowitem.ModuleParameter" id="41" version="1.2">
+                            <ItemProperties>
+                                <Property name="Name" value="input_confirmationSpecificPrompt"/>
+                                <Property name="IsInput" value="true"/>
+                                <Property name="ModuleTypeID" value="DM"/>
+                            </ItemProperties>
+                            <ChildItems/>
+                        </FlowItem>
+                        <FlowItem class="com.avaya.sce.callflow.internal.flowitem.ModuleParameter" id="42" version="1.2">
+                            <ItemProperties>
+                                <Property name="Name" value="input_confirmationDeniedMaxCount"/>
+                                <Property name="IsInput" value="true"/>
+                                <Property name="ModuleTypeID" value="DM"/>
+                            </ItemProperties>
+                            <ChildItems/>
+                        </FlowItem>
+                        <FlowItem class="com.avaya.sce.callflow.internal.flowitem.ModuleParameter" id="43" version="1.2">
+                            <ItemProperties>
+                                <Property name="Name" value="input_confirmationDeniedApologyRandom"/>
+                                <Property name="IsInput" value="true"/>
+                                <Property name="ModuleTypeID" value="DM"/>
+                            </ItemProperties>
+                            <ChildItems/>
+                        </FlowItem>
+                        <FlowItem class="com.avaya.sce.callflow.internal.flowitem.ModuleParameter" id="44" version="1.2">
+                            <ItemProperties>
+                                <Property name="Name" value="input_confirmationDeniedApology"/>
+                                <Property name="IsInput" value="true"/>
+                                <Property name="ModuleTypeID" value="DM"/>
+                            </ItemProperties>
+                            <ChildItems/>
+                        </FlowItem>
+                        <FlowItem class="com.avaya.sce.callflow.internal.flowitem.ModuleParameter" id="45" version="1.2">
+                            <ItemProperties>
+                                <Property name="Name" value="input_confirmationDeniedMaxTryPrompt"/>
+                                <Property name="IsInput" value="true"/>
+                                <Property name="ModuleTypeID" value="DM"/>
+                            </ItemProperties>
+                            <ChildItems/>
+                        </FlowItem>
+                        <FlowItem class="com.avaya.sce.callflow.internal.flowitem.ModuleParameter" id="46" version="1.2">
+                            <ItemProperties>
+                                <Property name="Name" value="input_confirmationDtmfGrammar"/>
+                                <Property name="IsInput" value="true"/>
+                                <Property name="ModuleTypeID" value="DM"/>
+                            </ItemProperties>
+                            <ChildItems/>
+                        </FlowItem>
+                        <FlowItem class="com.avaya.sce.callflow.internal.flowitem.ModuleParameter" id="47" version="1.2">
+                            <ItemProperties>
+                                <Property name="Name" value="input_confirmationVoiceGrammar"/>
+                                <Property name="IsInput" value="true"/>
+                                <Property name="ModuleTypeID" value="DM"/>
+                            </ItemProperties>
+                            <ChildItems/>
+                        </FlowItem>
+                        <FlowItem class="com.avaya.sce.callflow.internal.flowitem.ModuleParameter" id="48" version="1.2">
+                            <ItemProperties>
+                                <Property name="Name" value="input_rePromptNoInput"/>
+                                <Property name="IsInput" value="true"/>
+                                <Property name="ModuleTypeID" value="DM"/>
+                            </ItemProperties>
+                            <ChildItems/>
+                        </FlowItem>
+                        <FlowItem class="com.avaya.sce.callflow.internal.flowitem.ModuleParameter" id="49" version="1.2">
+                            <ItemProperties>
+                                <Property name="Name" value="input_rePromptNoMatch"/>
+                                <Property name="IsInput" value="true"/>
+                                <Property name="ModuleTypeID" value="DM"/>
+                            </ItemProperties>
+                            <ChildItems/>
+                        </FlowItem>
+                        <FlowItem class="com.avaya.sce.callflow.internal.flowitem.ModuleParameter" id="50" version="1.2">
+                            <ItemProperties>
+                                <Property name="Name" value="input_ss_Number"/>
+                                <Property name="IsInput" value="true"/>
+                                <Property name="ModuleTypeID" value="DM"/>
+                            </ItemProperties>
+                            <ChildItems/>
+                        </FlowItem>
+                        <FlowItem class="com.avaya.sce.callflow.internal.flowitem.ModuleParameter" id="51" version="1.2">
+                            <ItemProperties>
+                                <Property name="Name" value="input_ss_NumberValues"/>
+                                <Property name="IsInput" value="true"/>
+                                <Property name="ModuleTypeID" value="DM"/>
+                            </ItemProperties>
+                            <ChildItems/>
+                        </FlowItem>
+                        <FlowItem class="com.avaya.sce.callflow.internal.flowitem.ModuleParameter" id="52" version="1.2">
+                            <ItemProperties>
+                                <Property name="Name" value="input_ss_Digits"/>
+                                <Property name="IsInput" value="true"/>
+                                <Property name="ModuleTypeID" value="DM"/>
+                            </ItemProperties>
+                            <ChildItems/>
+                        </FlowItem>
+                        <FlowItem class="com.avaya.sce.callflow.internal.flowitem.ModuleParameter" id="53" version="1.2">
+                            <ItemProperties>
+                                <Property name="Name" value="input_ss_DigitsValues"/>
+                                <Property name="IsInput" value="true"/>
+                                <Property name="ModuleTypeID" value="DM"/>
+                            </ItemProperties>
+                            <ChildItems/>
+                        </FlowItem>
+                        <FlowItem class="com.avaya.sce.callflow.internal.flowitem.ModuleParameter" id="54" version="1.2">
+                            <ItemProperties>
+                                <Property name="Name" value="input_ss_Date"/>
+                                <Property name="IsInput" value="true"/>
+                                <Property name="ModuleTypeID" value="DM"/>
+                            </ItemProperties>
+                            <ChildItems/>
+                        </FlowItem>
+                        <FlowItem class="com.avaya.sce.callflow.internal.flowitem.ModuleParameter" id="55" version="1.2">
+                            <ItemProperties>
+                                <Property name="Name" value="input_ss_DateValues"/>
+                                <Property name="IsInput" value="true"/>
+                                <Property name="ModuleTypeID" value="DM"/>
+                            </ItemProperties>
+                            <ChildItems/>
+                        </FlowItem>
+                        <FlowItem class="com.avaya.sce.callflow.internal.flowitem.ModuleParameter" id="56" version="1.2">
+                            <ItemProperties>
+                                <Property name="Name" value="input_ss_Time"/>
+                                <Property name="IsInput" value="true"/>
+                                <Property name="ModuleTypeID" value="DM"/>
+                            </ItemProperties>
+                            <ChildItems/>
+                        </FlowItem>
+                        <FlowItem class="com.avaya.sce.callflow.internal.flowitem.ModuleParameter" id="57" version="1.2">
+                            <ItemProperties>
+                                <Property name="Name" value="input_ss_TimeValues"/>
+                                <Property name="IsInput" value="true"/>
+                                <Property name="ModuleTypeID" value="DM"/>
+                            </ItemProperties>
+                            <ChildItems/>
+                        </FlowItem>
+                        <FlowItem class="com.avaya.sce.callflow.internal.flowitem.ModuleParameter" id="58" version="1.2">
+                            <ItemProperties>
+                                <Property name="Name" value="input_ss_Currency"/>
+                                <Property name="IsInput" value="true"/>
+                                <Property name="ModuleTypeID" value="DM"/>
+                            </ItemProperties>
+                            <ChildItems/>
+                        </FlowItem>
+                        <FlowItem class="com.avaya.sce.callflow.internal.flowitem.ModuleParameter" id="59" version="1.2">
+                            <ItemProperties>
+                                <Property name="Name" value="input_ss_CurrencyValues"/>
+                                <Property name="IsInput" value="true"/>
+                                <Property name="ModuleTypeID" value="DM"/>
+                            </ItemProperties>
+                            <ChildItems/>
+                        </FlowItem>
+                        <FlowItem class="com.avaya.sce.callflow.internal.flowitem.ModuleParameter" id="60" version="1.2">
+                            <ItemProperties>
+                                <Property name="Name" value="input_tts_Number"/>
+                                <Property name="IsInput" value="true"/>
+                                <Property name="ModuleTypeID" value="DM"/>
+                            </ItemProperties>
+                            <ChildItems/>
+                        </FlowItem>
+                        <FlowItem class="com.avaya.sce.callflow.internal.flowitem.ModuleParameter" id="61" version="1.2">
+                            <ItemProperties>
+                                <Property name="Name" value="input_tts_NumberValues"/>
+                                <Property name="IsInput" value="true"/>
+                                <Property name="ModuleTypeID" value="DM"/>
+                            </ItemProperties>
+                            <ChildItems/>
+                        </FlowItem>
+                        <FlowItem class="com.avaya.sce.callflow.internal.flowitem.ModuleParameter" id="62" version="1.2">
+                            <ItemProperties>
+                                <Property name="Name" value="input_tts_Digits"/>
+                                <Property name="IsInput" value="true"/>
+                                <Property name="ModuleTypeID" value="DM"/>
+                            </ItemProperties>
+                            <ChildItems/>
+                        </FlowItem>
+                        <FlowItem class="com.avaya.sce.callflow.internal.flowitem.ModuleParameter" id="63" version="1.2">
+                            <ItemProperties>
+                                <Property name="Name" value="input_tts_DigitsValues"/>
+                                <Property name="IsInput" value="true"/>
+                                <Property name="ModuleTypeID" value="DM"/>
+                            </ItemProperties>
+                            <ChildItems/>
+                        </FlowItem>
+                        <FlowItem class="com.avaya.sce.callflow.internal.flowitem.ModuleParameter" id="64" version="1.2">
+                            <ItemProperties>
+                                <Property name="Name" value="input_tts_Date"/>
+                                <Property name="IsInput" value="true"/>
+                                <Property name="ModuleTypeID" value="DM"/>
+                            </ItemProperties>
+                            <ChildItems/>
+                        </FlowItem>
+                        <FlowItem class="com.avaya.sce.callflow.internal.flowitem.ModuleParameter" id="65" version="1.2">
+                            <ItemProperties>
+                                <Property name="Name" value="input_tts_DateValues"/>
+                                <Property name="IsInput" value="true"/>
+                                <Property name="ModuleTypeID" value="DM"/>
+                            </ItemProperties>
+                            <ChildItems/>
+                        </FlowItem>
+                        <FlowItem class="com.avaya.sce.callflow.internal.flowitem.ModuleParameter" id="66" version="1.2">
+                            <ItemProperties>
+                                <Property name="Name" value="input_tts_Time"/>
+                                <Property name="IsInput" value="true"/>
+                                <Property name="ModuleTypeID" value="DM"/>
+                            </ItemProperties>
+                            <ChildItems/>
+                        </FlowItem>
+                        <FlowItem class="com.avaya.sce.callflow.internal.flowitem.ModuleParameter" id="67" version="1.2">
+                            <ItemProperties>
+                                <Property name="Name" value="input_tts_TimeValues"/>
+                                <Property name="IsInput" value="true"/>
+                                <Property name="ModuleTypeID" value="DM"/>
+                            </ItemProperties>
+                            <ChildItems/>
+                        </FlowItem>
+                        <FlowItem class="com.avaya.sce.callflow.internal.flowitem.ModuleParameter" id="68" version="1.2">
+                            <ItemProperties>
+                                <Property name="Name" value="input_tts_Currency"/>
+                                <Property name="IsInput" value="true"/>
+                                <Property name="ModuleTypeID" value="DM"/>
+                            </ItemProperties>
+                            <ChildItems/>
+                        </FlowItem>
+                        <FlowItem class="com.avaya.sce.callflow.internal.flowitem.ModuleParameter" id="69" version="1.2">
+                            <ItemProperties>
+                                <Property name="Name" value="input_tts_CurrencyValues"/>
+                                <Property name="IsInput" value="true"/>
+                                <Property name="ModuleTypeID" value="DM"/>
+                            </ItemProperties>
+                            <ChildItems/>
+                        </FlowItem>
+                        <FlowItem class="com.avaya.sce.callflow.internal.flowitem.ModuleParameter" id="70" version="1.2">
+                            <ItemProperties>
+                                <Property name="Name" value="input_tts_Name"/>
+                                <Property name="IsInput" value="true"/>
+                                <Property name="ModuleTypeID" value="DM"/>
+                            </ItemProperties>
+                            <ChildItems/>
+                        </FlowItem>
+                        <FlowItem class="com.avaya.sce.callflow.internal.flowitem.ModuleParameter" id="71" version="1.2">
+                            <ItemProperties>
+                                <Property name="Name" value="input_tts_NameValues"/>
+                                <Property name="IsInput" value="true"/>
+                                <Property name="ModuleTypeID" value="DM"/>
+                            </ItemProperties>
+                            <ChildItems/>
+                        </FlowItem>
+                        <FlowItem class="com.avaya.sce.callflow.internal.flowitem.ModuleParameter" id="72" version="1.2">
+                            <ItemProperties>
+                                <Property name="Name" value="input_tts_Telephone"/>
+                                <Property name="IsInput" value="true"/>
+                                <Property name="ModuleTypeID" value="DM"/>
+                            </ItemProperties>
+                            <ChildItems/>
+                        </FlowItem>
+                        <FlowItem class="com.avaya.sce.callflow.internal.flowitem.ModuleParameter" id="73" version="1.2">
+                            <ItemProperties>
+                                <Property name="Name" value="input_tts_TelephoneValues"/>
+                                <Property name="IsInput" value="true"/>
+                                <Property name="ModuleTypeID" value="DM"/>
+                            </ItemProperties>
+                            <ChildItems/>
+                        </FlowItem>
+                        <FlowItem class="com.avaya.sce.callflow.internal.flowitem.ModuleParameter" id="74" version="1.2">
+                            <ItemProperties>
+                                <Property name="Name" value="input_tts_Address"/>
+                                <Property name="IsInput" value="true"/>
+                                <Property name="ModuleTypeID" value="DM"/>
+                            </ItemProperties>
+                            <ChildItems/>
+                        </FlowItem>
+                        <FlowItem class="com.avaya.sce.callflow.internal.flowitem.ModuleParameter" id="75" version="1.2">
+                            <ItemProperties>
+                                <Property name="Name" value="input_tts_AddressValues"/>
+                                <Property name="IsInput" value="true"/>
+                                <Property name="ModuleTypeID" value="DM"/>
+                            </ItemProperties>
+                            <ChildItems/>
+                        </FlowItem>
+                        <FlowItem class="com.avaya.sce.callflow.internal.flowitem.ModuleParameter" id="76" version="1.2">
+                            <ItemProperties>
+                                <Property name="Name" value="input_nbest"/>
+                                <Property name="IsInput" value="true"/>
+                                <Property name="ModuleTypeID" value="DM"/>
+                            </ItemProperties>
+                            <ChildItems/>
+                        </FlowItem>
+                        <FlowItem class="com.avaya.sce.callflow.internal.flowitem.ModuleParameter" id="77" version="1.2">
+                            <ItemProperties>
+                                <Property name="Name" value="input_disallowList"/>
+                                <Property name="IsInput" value="true"/>
+                                <Property name="ModuleTypeID" value="DM"/>
+                            </ItemProperties>
+                            <ChildItems/>
+                        </FlowItem>
+                        <FlowItem class="com.avaya.sce.callflow.internal.flowitem.ModuleParameter" id="78" version="1.2">
+                            <ItemProperties>
+                                <Property name="Name" value="input_menuOptions"/>
+                                <Property name="IsInput" value="true"/>
+                                <Property name="ModuleTypeID" value="DM"/>
+                            </ItemProperties>
+                            <ChildItems/>
+                        </FlowItem>
+                        <FlowItem class="com.avaya.sce.callflow.internal.flowitem.ModuleParameter" id="79" version="1.2">
+                            <ItemProperties>
+                                <Property name="Name" value="input_moreOptionFlag"/>
+                                <Property name="IsInput" value="true"/>
+                                <Property name="ModuleTypeID" value="DM"/>
+                            </ItemProperties>
+                            <ChildItems/>
+                        </FlowItem>
+                        <FlowItem class="com.avaya.sce.callflow.internal.flowitem.ModuleParameter" id="80" version="1.2">
+                            <ItemProperties>
+                                <Property name="Name" value="input_moreOptionCount"/>
+                                <Property name="IsInput" value="true"/>
+                                <Property name="ModuleTypeID" value="DM"/>
+                            </ItemProperties>
+                            <ChildItems/>
+                        </FlowItem>
+                        <FlowItem class="com.avaya.sce.callflow.internal.flowitem.ModuleParameter" id="81" version="1.2">
+                            <ItemProperties>
+                                <Property name="Name" value="input_moreOptionPreviousMenuFlag"/>
+                                <Property name="IsInput" value="true"/>
+                                <Property name="ModuleTypeID" value="DM"/>
+                            </ItemProperties>
+                            <ChildItems/>
+                        </FlowItem>
+                        <FlowItem class="com.avaya.sce.callflow.internal.flowitem.ModuleParameter" id="82" version="1.2">
+                            <ItemProperties>
+                                <Property name="Name" value="input_moreOptionDTMFGrammar"/>
+                                <Property name="IsInput" value="true"/>
+                                <Property name="ModuleTypeID" value="DM"/>
+                            </ItemProperties>
+                            <ChildItems/>
+                        </FlowItem>
+                        <FlowItem class="com.avaya.sce.callflow.internal.flowitem.ModuleParameter" id="83" version="1.2">
+                            <ItemProperties>
+                                <Property name="Name" value="input_moreOptionVoiceGrammar"/>
+                                <Property name="IsInput" value="true"/>
+                                <Property name="ModuleTypeID" value="DM"/>
+                            </ItemProperties>
+                            <ChildItems/>
+                        </FlowItem>
+                        <FlowItem class="com.avaya.sce.callflow.internal.flowitem.ModuleParameter" id="84" version="1.2">
+                            <ItemProperties>
+                                <Property name="Name" value="input_moreOptionDynamicValues"/>
+                                <Property name="IsInput" value="true"/>
+                                <Property name="ModuleTypeID" value="DM"/>
+                            </ItemProperties>
+                            <ChildItems/>
+                        </FlowItem>
+                        <FlowItem class="com.avaya.sce.callflow.internal.flowitem.ModuleParameter" id="85" version="1.2">
+                            <ItemProperties>
+                                <Property name="Name" value="input_dynamicConstraintListValues"/>
+                                <Property name="IsInput" value="true"/>
+                                <Property name="ModuleTypeID" value="DM"/>
+                            </ItemProperties>
+                            <ChildItems/>
+                        </FlowItem>
+                        <FlowItem class="com.avaya.sce.callflow.internal.flowitem.ModuleParameter" id="86" version="1.2">
+                            <ItemProperties>
+                                <Property name="Name" value="input_dynamicConstraintListFlag"/>
+                                <Property name="IsInput" value="true"/>
+                                <Property name="ModuleTypeID" value="DM"/>
+                            </ItemProperties>
+                            <ChildItems/>
+                        </FlowItem>
+                        <FlowItem class="com.avaya.sce.callflow.internal.flowitem.ModuleParameter" id="87" version="1.2">
+                            <ItemProperties>
+                                <Property name="Name" value="input_dynamicConstraintListCounterFlag"/>
+                                <Property name="IsInput" value="true"/>
+                                <Property name="ModuleTypeID" value="DM"/>
+                            </ItemProperties>
+                            <ChildItems/>
+                        </FlowItem>
+                        <FlowItem class="com.avaya.sce.callflow.internal.flowitem.ModuleParameter" id="88" version="1.2">
+                            <ItemProperties>
+                                <Property name="Name" value="input_dynamicConstraintListCounter"/>
+                                <Property name="IsInput" value="true"/>
+                                <Property name="ModuleTypeID" value="DM"/>
+                            </ItemProperties>
+                            <ChildItems/>
+                        </FlowItem>
+                        <FlowItem class="com.avaya.sce.callflow.internal.flowitem.ModuleParameter" id="89" version="1.2">
+                            <ItemProperties>
+                                <Property name="Name" value="input_dynamicConstraintListPrompts"/>
+                                <Property name="IsInput" value="true"/>
+                                <Property name="ModuleTypeID" value="DM"/>
+                            </ItemProperties>
+                            <ChildItems/>
+                        </FlowItem>
+                        <FlowItem class="com.avaya.sce.callflow.internal.flowitem.ModuleParameter" id="90" version="1.2">
+                            <ItemProperties>
+                                <Property name="Name" value="input_oneTimeFlag"/>
+                                <Property name="IsInput" value="true"/>
+                                <Property name="ModuleTypeID" value="DM"/>
+                            </ItemProperties>
+                            <ChildItems/>
+                        </FlowItem>
+                        <FlowItem class="com.avaya.sce.callflow.internal.flowitem.ModuleParameter" id="91" version="1.2">
+                            <ItemProperties>
+                                <Property name="Name" value="input_privateData"/>
+                                <Property name="IsInput" value="true"/>
+                                <Property name="ModuleTypeID" value="DM"/>
+                            </ItemProperties>
+                            <ChildItems/>
+                        </FlowItem>
+                        <FlowItem class="com.avaya.sce.callflow.internal.flowitem.ModuleParameter" id="92" version="1.2">
+                            <ItemProperties>
+                                <Property name="Name" value="input_reEntry"/>
+                                <Property name="IsInput" value="true"/>
+                                <Property name="ModuleTypeID" value="DM"/>
+                            </ItemProperties>
+                            <ChildItems/>
+                        </FlowItem>
+                        <FlowItem class="com.avaya.sce.callflow.internal.flowitem.ModuleParameter" id="93" version="1.2">
+                            <ItemProperties>
+                                <Property name="Name" value="input_menuID"/>
+                                <Property name="IsInput" value="true"/>
+                                <Property name="ModuleTypeID" value="DM"/>
+                            </ItemProperties>
+                            <ChildItems/>
+                        </FlowItem>
+                        <FlowItem class="com.avaya.sce.callflow.internal.flowitem.ModuleParameter" id="94" version="1.2">
+                            <ItemProperties>
+                                <Property name="Name" value="input_AnnounceID"/>
+                                <Property name="InputVariableFieldId" value="annoID"/>
+                                <Property name="IsInput" value="true"/>
+                                <Property name="InputVariableId" value="HotFlashInfo"/>
+                                <Property name="ModuleTypeID" value="DM"/>
+                            </ItemProperties>
+                            <ChildItems/>
+                        </FlowItem>
+                        <FlowItem class="com.avaya.sce.callflow.internal.flowitem.ModuleParameter" id="95" version="1.2">
+                            <ItemProperties>
+                                <Property name="Name" value="input_DialogName"/>
+                                <Property name="IsInput" value="true"/>
+                                <Property name="InputConstant" value="HotFlash"/>
+                                <Property name="ModuleTypeID" value="DM"/>
+                            </ItemProperties>
+                            <ChildItems/>
+                        </FlowItem>
+                        <FlowItem class="com.avaya.sce.callflow.internal.flowitem.ModuleParameter" id="96" version="1.2">
+                            <ItemProperties>
+                                <Property name="Name" value="input_ConfirmationMode"/>
+                                <Property name="IsInput" value="true"/>
+                                <Property name="ModuleTypeID" value="DM"/>
+                            </ItemProperties>
+                            <ChildItems/>
+                        </FlowItem>
+                        <FlowItem class="com.avaya.sce.callflow.internal.flowitem.ModuleParameter" id="97" version="1.2">
+                            <ItemProperties>
+                                <Property name="Name" value="input_NINMCounter"/>
+                                <Property name="IsInput" value="true"/>
+                                <Property name="ModuleTypeID" value="DM"/>
+                            </ItemProperties>
+                            <ChildItems/>
+                        </FlowItem>
+                        <FlowItem class="com.avaya.sce.callflow.internal.flowitem.ModuleParameter" id="98" version="1.2">
+                            <ItemProperties>
+                                <Property name="Name" value="input_LoggerName"/>
+                                <Property name="IsInput" value="true"/>
+                                <Property name="ModuleTypeID" value="DM"/>
+                            </ItemProperties>
+                            <ChildItems/>
+                        </FlowItem>
+                        <FlowItem class="com.avaya.sce.callflow.internal.flowitem.ModuleParameter" id="99" version="1.2">
+                            <ItemProperties>
+                                <Property name="Name" value="input_LoggingEnabled"/>
+                                <Property name="IsInput" value="true"/>
+                                <Property name="ModuleTypeID" value="DM"/>
+                            </ItemProperties>
+                            <ChildItems/>
+                        </FlowItem>
+                        <FlowItem class="com.avaya.sce.callflow.internal.flowitem.ModuleParameter" id="100" version="1.2">
+                            <ItemProperties>
+                                <Property name="Name" value="input_RepeatCounter"/>
+                                <Property name="IsInput" value="true"/>
+                                <Property name="ModuleTypeID" value="DM"/>
+                            </ItemProperties>
+                            <ChildItems/>
+                        </FlowItem>
+                        <FlowItem class="com.avaya.sce.callflow.internal.flowitem.ModuleParameter" id="101" version="1.2">
+                            <ItemProperties>
+                                <Property name="Name" value="input_StaticConstraintList"/>
+                                <Property name="IsInput" value="true"/>
+                                <Property name="ModuleTypeID" value="DM"/>
+                            </ItemProperties>
+                            <ChildItems/>
+                        </FlowItem>
+                        <FlowItem class="com.avaya.sce.callflow.internal.flowitem.ModuleParameter" id="102" version="1.2">
+                            <ItemProperties>
+                                <Property name="Name" value="input_SuccessPromptOnlyForConfirmation"/>
+                                <Property name="IsInput" value="true"/>
+                                <Property name="ModuleTypeID" value="DM"/>
+                            </ItemProperties>
+                            <ChildItems/>
+                        </FlowItem>
+                        <FlowItem class="com.avaya.sce.callflow.internal.flowitem.ModuleParameter" id="103" version="1.2">
+                            <ItemProperties>
+                                <Property name="Name" value="input_DTMFGrammaruseSlots"/>
+                                <Property name="IsInput" value="true"/>
+                                <Property name="ModuleTypeID" value="DM"/>
+                            </ItemProperties>
+                            <ChildItems/>
+                        </FlowItem>
+                        <FlowItem class="com.avaya.sce.callflow.internal.flowitem.ModuleParameter" id="104" version="1.2">
+                            <ItemProperties>
+                                <Property name="Name" value="input_noMatchRandom"/>
+                                <Property name="IsInput" value="true"/>
+                                <Property name="ModuleTypeID" value="DM"/>
+                            </ItemProperties>
+                            <ChildItems/>
+                        </FlowItem>
+                        <FlowItem class="com.avaya.sce.callflow.internal.flowitem.ModuleParameter" id="105" version="1.2">
+                            <ItemProperties>
+                                <Property name="Name" value="input_noInputRandom"/>
+                                <Property name="IsInput" value="true"/>
+                                <Property name="ModuleTypeID" value="DM"/>
+                            </ItemProperties>
+                            <ChildItems/>
+                        </FlowItem>
+                        <FlowItem class="com.avaya.sce.callflow.internal.flowitem.ModuleParameter" id="106" version="1.2">
+                            <ItemProperties>
+                                <Property name="Name" value="input_CompleteTimeout"/>
+                                <Property name="IsInput" value="true"/>
+                                <Property name="ModuleTypeID" value="DM"/>
+                            </ItemProperties>
+                            <ChildItems/>
+                        </FlowItem>
+                        <FlowItem class="com.avaya.sce.callflow.internal.flowitem.ModuleParameter" id="107" version="1.2">
+                            <ItemProperties>
+                                <Property name="Name" value="input_incompleteTimeout"/>
+                                <Property name="IsInput" value="true"/>
+                                <Property name="ModuleTypeID" value="DM"/>
+                            </ItemProperties>
+                            <ChildItems/>
+                        </FlowItem>
+                        <FlowItem class="com.avaya.sce.callflow.internal.flowitem.ModuleParameter" id="108" version="1.2">
+                            <ItemProperties>
+                                <Property name="Name" value="input_interdigitTimeout"/>
+                                <Property name="IsInput" value="true"/>
+                                <Property name="ModuleTypeID" value="DM"/>
+                            </ItemProperties>
+                            <ChildItems/>
+                        </FlowItem>
+                        <FlowItem class="com.avaya.sce.callflow.internal.flowitem.ModuleParameter" id="109" version="1.2">
+                            <ItemProperties>
+                                <Property name="Name" value="input_terminatingTimeout"/>
+                                <Property name="IsInput" value="true"/>
+                                <Property name="ModuleTypeID" value="DM"/>
+                            </ItemProperties>
+                            <ChildItems/>
+                        </FlowItem>
+                        <FlowItem class="com.avaya.sce.callflow.internal.flowitem.ModuleParameter" id="110" version="1.2">
+                            <ItemProperties>
+                                <Property name="Name" value="input_initialTimeout"/>
+                                <Property name="IsInput" value="true"/>
+                                <Property name="ModuleTypeID" value="DM"/>
+                            </ItemProperties>
+                            <ChildItems/>
+                        </FlowItem>
+                        <FlowItem class="com.avaya.sce.callflow.internal.flowitem.ModuleParameter" id="111" version="1.2">
+                            <ItemProperties>
+                                <Property name="Name" value="input_highConfidenceLevel"/>
+                                <Property name="IsInput" value="true"/>
+                                <Property name="ModuleTypeID" value="DM"/>
+                            </ItemProperties>
+                            <ChildItems/>
+                        </FlowItem>
+                        <FlowItem class="com.avaya.sce.callflow.internal.flowitem.ModuleParameter" id="112" version="1.2">
+                            <ItemProperties>
+                                <Property name="Name" value="input_lowConfidenceLevel"/>
+                                <Property name="IsInput" value="true"/>
+                                <Property name="ModuleTypeID" value="DM"/>
+                            </ItemProperties>
+                            <ChildItems/>
+                        </FlowItem>
+                        <FlowItem class="com.avaya.sce.callflow.internal.flowitem.ModuleParameter" id="113" version="1.2">
+                            <ItemProperties>
+                                <Property name="Name" value="input_bargeIn"/>
+                                <Property name="IsInput" value="true"/>
+                                <Property name="ModuleTypeID" value="DM"/>
+                            </ItemProperties>
+                            <ChildItems/>
+                        </FlowItem>
+                        <FlowItem class="com.avaya.sce.callflow.internal.flowitem.ModuleParameter" id="114" version="1.2">
+                            <ItemProperties>
+                                <Property name="Name" value="input_manageRepeat"/>
+                                <Property name="IsInput" value="true"/>
+                                <Property name="ModuleTypeID" value="DM"/>
+                            </ItemProperties>
+                            <ChildItems/>
+                        </FlowItem>
+                        <FlowItem class="com.avaya.sce.callflow.internal.flowitem.ModuleParameter" id="115" version="1.2">
+                            <ItemProperties>
+                                <Property name="Name" value="input_reportEnabled"/>
+                                <Property name="IsInput" value="true"/>
+                                <Property name="ModuleTypeID" value="DM"/>
+                            </ItemProperties>
+                            <ChildItems/>
+                        </FlowItem>
+                        <FlowItem class="com.avaya.sce.callflow.internal.flowitem.ModuleParameter" id="116" version="1.2">
+                            <ItemProperties>
+                                <Property name="Name" value="input_terminatingChar"/>
+                                <Property name="IsInput" value="true"/>
+                                <Property name="ModuleTypeID" value="DM"/>
+                            </ItemProperties>
+                            <ChildItems/>
+                        </FlowItem>
+                        <FlowItem class="com.avaya.sce.callflow.internal.flowitem.ModuleParameter" id="117" version="1.2">
+                            <ItemProperties>
+                                <Property name="Name" value="input_mediaTypeDTMF"/>
+                                <Property name="IsInput" value="true"/>
+                                <Property name="ModuleTypeID" value="DM"/>
+                            </ItemProperties>
+                            <ChildItems/>
+                        </FlowItem>
+                        <FlowItem class="com.avaya.sce.callflow.internal.flowitem.ModuleParameter" id="118" version="1.2">
+                            <ItemProperties>
+                                <Property name="Name" value="input_mediaTypeVoice"/>
+                                <Property name="IsInput" value="true"/>
+                                <Property name="ModuleTypeID" value="DM"/>
+                            </ItemProperties>
+                            <ChildItems/>
+                        </FlowItem>
+                        <FlowItem class="com.avaya.sce.callflow.internal.flowitem.ModuleParameter" id="119" version="1.2">
+                            <ItemProperties>
+                                <Property name="Name" value="input_BargeInType"/>
+                                <Property name="IsInput" value="true"/>
+                                <Property name="ModuleTypeID" value="DM"/>
+                            </ItemProperties>
+                            <ChildItems/>
+                        </FlowItem>
+                        <FlowItem class="com.avaya.sce.callflow.internal.flowitem.ModuleParameter" id="120" version="1.2">
+                            <ItemProperties>
+                                <Property name="Name" value="ReturnCode"/>
+                                <Property name="IsInput" value="false"/>
+                                <Property name="ModuleTypeID" value="DM"/>
+                            </ItemProperties>
+                            <ChildItems/>
+                        </FlowItem>
+                        <FlowItem class="com.avaya.sce.callflow.internal.flowitem.ModuleParameter" id="121" version="1.2">
+                            <ItemProperties>
+                                <Property name="Name" value="Value"/>
+                                <Property name="IsInput" value="false"/>
+                                <Property name="ModuleTypeID" value="DM"/>
+                            </ItemProperties>
+                            <ChildItems/>
+                        </FlowItem>
+                        <FlowItem class="com.avaya.sce.callflow.internal.flowitem.ModuleParameter" id="122" version="1.2">
+                            <ItemProperties>
+                                <Property name="Name" value="Utterance"/>
+                                <Property name="IsInput" value="false"/>
+                                <Property name="ModuleTypeID" value="DM"/>
+                            </ItemProperties>
+                            <ChildItems/>
+                        </FlowItem>
+                        <FlowItem class="com.avaya.sce.callflow.internal.flowitem.ModuleParameter" id="123" version="1.2">
+                            <ItemProperties>
+                                <Property name="Name" value="Recorded_Utterance"/>
+                                <Property name="IsInput" value="false"/>
+                                <Property name="ModuleTypeID" value="DM"/>
+                            </ItemProperties>
+                            <ChildItems/>
+                        </FlowItem>
+                        <FlowItem class="com.avaya.sce.callflow.internal.flowitem.ModuleParameter" id="124" version="1.2">
+                            <ItemProperties>
+                                <Property name="Name" value="OtherSlot"/>
+                                <Property name="IsInput" value="false"/>
+                                <Property name="ModuleTypeID" value="DM"/>
+                            </ItemProperties>
+                            <ChildItems/>
+                        </FlowItem>
+                        <FlowItem class="com.avaya.sce.callflow.internal.flowitem.ModuleParameter" id="125" version="1.2">
+                            <ItemProperties>
+                                <Property name="Name" value="NomatchRemaining"/>
+                                <Property name="IsInput" value="false"/>
+                                <Property name="ModuleTypeID" value="DM"/>
+                            </ItemProperties>
+                            <ChildItems/>
+                        </FlowItem>
+                        <FlowItem class="com.avaya.sce.callflow.internal.flowitem.ModuleParameter" id="126" version="1.2">
+                            <ItemProperties>
+                                <Property name="Name" value="NoinputRemaining"/>
+                                <Property name="IsInput" value="false"/>
+                                <Property name="ModuleTypeID" value="DM"/>
+                            </ItemProperties>
+                            <ChildItems/>
+                        </FlowItem>
+                        <FlowItem class="com.avaya.sce.callflow.internal.flowitem.ModuleParameter" id="127" version="1.2">
+                            <ItemProperties>
+                                <Property name="Name" value="nBestValues"/>
+                                <Property name="IsInput" value="false"/>
+                                <Property name="ModuleTypeID" value="DM"/>
+                            </ItemProperties>
+                            <ChildItems/>
+                        </FlowItem>
+                        <FlowItem class="com.avaya.sce.callflow.internal.flowitem.ModuleParameter" id="128" version="1.2">
+                            <ItemProperties>
+                                <Property name="Name" value="InputType"/>
+                                <Property name="IsInput" value="false"/>
+                                <Property name="ModuleTypeID" value="DM"/>
+                            </ItemProperties>
+                            <ChildItems/>
+                        </FlowItem>
+                        <FlowItem class="com.avaya.sce.callflow.internal.flowitem.ModuleParameter" id="129" version="1.2">
+                            <ItemProperties>
+                                <Property name="Name" value="ConfirmationRemaining"/>
+                                <Property name="IsInput" value="false"/>
+                                <Property name="ModuleTypeID" value="DM"/>
+                            </ItemProperties>
+                            <ChildItems/>
+                        </FlowItem>
+                        <FlowItem class="com.avaya.sce.callflow.internal.flowitem.ModuleParameter" id="130" version="1.2">
+                            <ItemProperties>
+                                <Property name="Name" value="Confidence"/>
+                                <Property name="IsInput" value="false"/>
+                                <Property name="ModuleTypeID" value="DM"/>
+                            </ItemProperties>
+                            <ChildItems/>
+                        </FlowItem>
+                        <FlowItem class="com.avaya.sce.callflow.internal.flowitem.ModuleParameter" id="131" version="1.2">
+                            <ItemProperties>
+                                <Property name="Name" value="MenuID"/>
+                                <Property name="IsInput" value="false"/>
+                                <Property name="ModuleTypeID" value="DM"/>
+                            </ItemProperties>
+                            <ChildItems/>
+                        </FlowItem>
+                        <FlowItem class="com.avaya.sce.callflow.internal.flowitem.ModuleParameter" id="132" version="1.2">
+                            <ItemProperties>
+                                <Property name="Name" value="MenuStartTime"/>
+                                <Property name="IsInput" value="false"/>
+                                <Property name="ModuleTypeID" value="DM"/>
+                            </ItemProperties>
+                            <ChildItems/>
+                        </FlowItem>
+                        <FlowItem class="com.avaya.sce.callflow.internal.flowitem.ModuleParameter" id="133" version="1.2">
+                            <ItemProperties>
+                                <Property name="Name" value="MenuEndTime"/>
+                                <Property name="IsInput" value="false"/>
+                                <Property name="ModuleTypeID" value="DM"/>
+                            </ItemProperties>
+                            <ChildItems/>
+                        </FlowItem>
+                        <FlowItem class="com.avaya.sce.callflow.internal.flowitem.ModuleParameter" id="134" version="1.2">
+                            <ItemProperties>
+                                <Property name="Name" value="SpecificSlot"/>
+                                <Property name="IsInput" value="false"/>
+                                <Property name="ModuleTypeID" value="DM"/>
+                            </ItemProperties>
+                            <ChildItems/>
+                        </FlowItem>
+                        <FlowItem class="com.avaya.sce.callflow.internal.flowitem.ModuleParameter" id="135" version="1.2">
+                            <ItemProperties>
+                                <Property name="Name" value="AnnounceID"/>
+                                <Property name="IsInput" value="false"/>
+                                <Property name="ModuleTypeID" value="DM"/>
+                            </ItemProperties>
+                            <ChildItems/>
+                        </FlowItem>
+                        <FlowItem class="com.avaya.sce.callflow.internal.flowitem.ModuleParameter" id="136" version="1.2">
+                            <ItemProperties>
+                                <Property name="Name" value="DialogName"/>
+                                <Property name="IsInput" value="false"/>
+                                <Property name="ModuleTypeID" value="DM"/>
+                            </ItemProperties>
+                            <ChildItems/>
+                        </FlowItem>
+                        <FlowItem class="com.avaya.sce.callflow.internal.flowitem.Submit" id="137" version="1.2">
+                            <ItemProperties>
+                                <Property name="LinkedNodeID" value="140"/>
+                            </ItemProperties>
+                            <ChildItems/>
+                        </FlowItem>
+                    </ChildItems>
+                </FlowItem>
+            </FlowNode>
+            <NodeConnection id="138" version="1.2">
+                <SourceNode id="4"/>
+                <TargetNode id="8"/>
+                <Property name="Connection.SourceObjectID" value="7"/>
+                <Property name="Connection.TargetObjectID" value="8"/>
+            </NodeConnection>
+            <NodeConnection id="139" version="1.2">
+                <SourceNode id="1"/>
+                <TargetNode id="4"/>
+                <Property name="Connection.SourceObjectID" value="3"/>
+                <Property name="Connection.TargetObjectID" value="4"/>
+            </NodeConnection>
+            <NodeConnection id="141" version="1.2">
+                <SourceNode id="8"/>
+                <TargetNode id="140"/>
+                <Property name="Connection.SourceObjectID" value="137"/>
+                <Property name="Connection.TargetObjectID" value="140"/>
+            </NodeConnection>
+            <NodeConnection id="146" version="1.2">
+                <SourceNode id="4"/>
+                <TargetNode id="140"/>
+                <Property name="Connection.SourceObjectID" value="144"/>
+                <Property name="Connection.TargetObjectID" value="140"/>
+            </NodeConnection>
+        </FlowGraph>
+        <ProjectEventTypes/>
+    </ApplicationFlow>
+</AppFlowDoc>

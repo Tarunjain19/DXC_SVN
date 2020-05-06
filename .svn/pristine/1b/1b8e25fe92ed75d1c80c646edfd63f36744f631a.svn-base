@@ -1,0 +1,8 @@
+log4j.logger.com.servion.rcom.hostinterface=DEBUG,HOST
+
+log4j.appender.HOST=org.apache.log4j.RollingFileAppender
+log4j.appender.HOST.File=${dd.apphome}/data/log/Host.log
+log4j.appender.HOST.MaxFileSize=2000KB
+log4j.appender.HOST.MaxBackupIndex=20
+log4j.appender.HOST.layout=org.apache.log4j.PatternLayout
+log4j.appender.HOST.layout.ConversionPattern=[%d{yyyy-MMM-dd HH:mm:ss},%6.6r]%-5p %6.10r[%t]%x(%F:%L) - %m%n

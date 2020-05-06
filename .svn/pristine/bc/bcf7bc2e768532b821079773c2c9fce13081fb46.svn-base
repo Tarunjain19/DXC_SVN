@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence xmlns="http://java.sun.com/xml/ns/persistence" version="1.0">
+	
+	
+	<persistence-unit name="Test" transaction-type="RESOURCE_LOCAL">
+		<properties>
+			<property name="hibernate.show_sql" value="true" />
+			<property name="hibernate.dialect" value="org.hibernate.dialect.SQLServerDialect" />
+		</properties>
+		<!-- <class>com.rcom.model.IVRRoutingInfo</class>
+		<class>com.rcom.model.HotFlashInfo</class>
+		<class>com.rcom.model.MenuMaster</class>
+		<class>com.rcom.prepaid.model.FetchVasURL</class> -->
+		
+		<!-- <properties>
+ 			 <property name="eclipselink.composite-unit" value="true"/>
+	   		  <property name="hibernate.dialect" value="org.hibernate.dialect.SQLServer2008Dialect"/> 
+	   		 <property name="hibernate.show_sql" value="false"/>
+	   		 <property name="hibernate.flushMode" value="FLUSH_AUTO" />
+	         <property name="javax.persistence.jdbc.url" 
+	                        value="jdbc:sqlserver://172.16.6.44:1433;databaseName=test"/>
+	         <property name="javax.persistence.jdbc.driver" value="com.microsoft.sqlserver.jdbc.SQLServerDriver"/>
+	         <property name="javax.persistence.jdbc.user" value="sa"/>
+	         <property name="javax.persistence.jdbc.password" value="sa"/>
+	         <property name="hibernate.connection.pool_size" value="100" />	           
+	    </properties> -->	
+	</persistence-unit>	
+</persistence>

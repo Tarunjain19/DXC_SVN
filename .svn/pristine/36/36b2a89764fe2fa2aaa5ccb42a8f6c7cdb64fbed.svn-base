@@ -1,0 +1,25 @@
+
+HUB	=	MU
+APPLICATION_NAME	=	RCOM_CF_GPON_IVR
+
+max_no_input	=	2
+max_no_match	=	2
+max_invalid_retry	=	2
+time_out_second	=	2
+
+rcom_static_phrasepath = http://localhost:8080/RCOM_PHRASES/RCOM_GPON_IVR_PHRASES/
+language_wave_filename =1231.wav
+press_wav_filename
+number_wav_filename
+DEFAULT_LANGUAGES	=ENG,HIN
+
+####### Path of the phrases directory
+
+static_phrase_path		= http://10.184.226.111:8080/RCOM_PHRASES/RCOM_GPON_IVR_PHRASES/
+dynamic_phrase_path		= http://10.184.226.111:8080/RCOM_PHRASES/RCOM_GPON_IVR_PHRASES/
+
+####### Language selection phrase name
+
+language_wave_filename = 1231.wav
+press_wave_file_name = 4510
+number_wave_file_name = 4504

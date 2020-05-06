@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<phraseset audiolocation="external" filename="RCOM_TVP_PhraseSetEng" version="1.0">
+    <phrase version="1.0">
+        <displayname>45000</displayname>
+        <talent/>
+        <phrasetext>Welcome to Reliacne Televerification</phrasetext>
+        <basetext/>
+        <searchkeywords/>
+        <comments>Welcome to Reliacne</comments>
+        <audiofile>45000.wav</audiofile>
+    </phrase>
+</phraseset>

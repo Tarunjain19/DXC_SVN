@@ -1,0 +1,26 @@
+##################################################################################
+# 
+# GPFL_MN.properties file
+# 
+##################################################################################
+
+########################
+# Dialog Name
+########################
+
+dialogName = GPFL_MN
+menuID = DAKC_MN_0029
+isAnnouncement = false
+
+########################
+# Grammars
+########################
+dtmfGrammar = GPFL_MN.grxml
+dtmfGlobalGrammar = 
+
+########################
+# Prompt & Collect
+########################
+initialPrompt = 43998.wav*44038.wav*43993.wav*44035.wav*43994.wav*44036.wav*43995.wav*44037.wav
+rePromptNoInput = 43998.wav*44038.wav*43993.wav*44035.wav*43994.wav*44036.wav*43995.wav*44037.wav
+rePromptNoMatch = 43998.wav*44038.wav*43993.wav*44035.wav*43994.wav*44036.wav*43995.wav*44037.wav

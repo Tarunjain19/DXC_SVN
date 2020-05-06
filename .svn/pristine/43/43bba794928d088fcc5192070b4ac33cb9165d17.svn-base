@@ -1,0 +1,33 @@
+##################################################################################
+# 
+# RoamingService_INRS_MN_0002.properties file
+# 
+##################################################################################
+
+
+########################
+# Dialog Name
+########################
+
+dialogName = RoamingService_INRS_MN_0002
+isDTMF=true
+isAnnouncement = false
+language=DEFAULT
+menuID=INRS_MN_0002
+
+########################
+# Grammars
+########################
+
+dtmfGrammar = TwoOption_DTMF.grxml
+dtmfGrammarsUseSlots = false
+mediaTypeDTMF = application/srgs+xml
+
+initialPrompt = 42253.wav*42276.wav*42254.wav*42277.wav
+rePromptNoInput =42253.wav*42276.wav*42254.wav*42277.wav
+rePromptNoMatch = 42253.wav*42276.wav*42254.wav*42277.wav
+
+
+
+
+

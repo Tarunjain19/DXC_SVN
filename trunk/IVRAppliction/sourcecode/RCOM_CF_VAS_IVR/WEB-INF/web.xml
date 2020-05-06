@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--
+This XML descriptor is automatically generated and managed by the
+application development environment.  While manual updates to this 
+file may be preserved, it is best to manage this file through the application development environment tool.
+
+Copyright 2004-2011 Avaya Inc.
+--><!DOCTYPE web-app PUBLIC "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN" "http://java.sun.com/dtd/web-app_2_3.dtd">
+<web-app id="WebApp_ID">
+    <context-param>
+        <param-name>sage.startlanguage</param-name>
+        <param-value>english</param-value>
+        <description>The starting language for the application.</description>
+    </context-param>
+    <context-param>
+        <param-name>sage.ic.throwexceptions</param-name>
+        <param-value>true</param-value>
+        <description>IC Throw Runtime Exception on Error{true|false}</description>
+    </context-param>
+    <context-param>
+        <param-name>sage.cti.autoinvoke.callinfo</param-name>
+        <param-value>true</param-value>
+        <description>CTI Auto invoke CallInfo upon app start{true|false}</description>
+    </context-param>
+    <context-param>
+        <param-name>runtime-ASR</param-name>
+        <param-value>SRGS-Literals</param-value>
+        <description>Runtime ASR {SRGS-Literals|SRGS-SISR|Nuance OSR|IBM|...}</description>
+    </context-param>
+    <context-param>
+        <param-name>runtime-SSML</param-name>
+        <param-value>true</param-value>
+        <description>Runtime SSML Generation {true|false} - "true" enables SSML generation, "false" disables.</description>
+    </context-param>
+    <context-param>
+        <param-name>runtime-nature</param-name>
+        <param-value>speech</param-value>
+        <description>Application nature, speech or message</description>
+    </context-param>
+    <context-param>
+        <param-name>runtime-Platform</param-name>
+        <param-value>Desktop</param-value>
+        <description>Runtime Platform {Desktop|Voice Portal|Experience Portal|Other|IR|MPS}</description>
+    </context-param>
+    <context-param>
+        <param-name>runtime-VXML-Compatibility</param-name>
+        <param-value>2.1</param-value>
+        <description>2.1 + IVVR, 2.1 Allows VXML 2.1 extensions, 2.0 Uses VXML 2.0 Only</description>
+    </context-param>
+    <context-param>
+        <param-name>runtime-DTMF-Native</param-name>
+        <param-value>LOCAL_SRGS_LITERALS</param-value>
+        <description>(NATIVE|LOCAL_SRGS_SISR|LOCAL_SRGS_LITERALS, NATIVE means DTMF Grammars are in native asr format.</description>
+    </context-param>
+    <context-param>
+        <param-name>CollectionSeparator</param-name>
+        <param-value>|</param-value>
+        <description>Collection Separator Char</description>
+    </context-param>
+      <context-param>
+        <param-name>PROPERTY_FILE_PATH</param-name>
+        <param-value>C:\RCOM\OtherFlows\RCOM_CF_VAS\</param-value>
+    </context-param>
+    <context-param>
+        <param-name>VAS_CONFIG</param-name>
+        <param-value>VAS_CONFIG</param-value>
+    </context-param>
+     <context-param>
+        <param-name>webservice</param-name>
+        <param-value>webservice</param-value>
+    </context-param>
+    <context-param>
+        <param-name>VAS_DYN_MENU</param-name>
+        <param-value>VAS_DYN_MENU</param-value>
+        <description>Dynamic Menu Property file name</description>
+    </context-param>
+    <context-param>
+        <param-name>grammar-caching</param-name>
+        <param-value>none</param-value>
+        <description>Grammar caching mode, none=no caching, default=system default or property setting</description>
+    </context-param>
+    <servlet id="avayadefaultdisconnecthandler-servlet">
+        <servlet-name>AvayaDefaultDisconnectHandler</servlet-name>
+        <servlet-class>com.avaya.sce.runtime.DefaultDisconnect</servlet-class>
+    </servlet>
+    <servlet id="avayadefaultexithandler-servlet">
+        <servlet-name>AvayaDefaultExitHandler</servlet-name>
+        <servlet-class>com.avaya.sce.runtime.DefaultExit</servlet-class>
+    </servlet>
+    <servlet id="avayasessiontermination-servlet">
+        <servlet-name>AvayaSessionTerminationServlet</servlet-name>
+        <servlet-class>com.avaya.sce.runtime.AvayaSessionTerminationServlet</servlet-class>
+    </servlet>
+    <servlet id="avayareturnerrorhandler-servlet">
+        <servlet-name>AvayaReturnErrorHandler</servlet-name>
+        <servlet-class>com.avaya.sce.runtime.ReturnErrorHandlerServlet</servlet-class>
+    </servlet>
+    <servlet id="avayareturnerrorthrow-servlet">
+        <servlet-name>AvayaReturnErrorThrow</servlet-name>
+        <servlet-class>com.avaya.sce.runtime.ReturnErrorThrowServlet</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_1">
+        <servlet-name>AppRoot</servlet-name>
+        <servlet-class>flow.AppRoot</servlet-class>
+    </servlet>
+    
+    <servlet id="SAGE-callflow-servlet_main_11">
+        <servlet-name>End</servlet-name>
+        <servlet-class>flow.End</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_0">
+        <servlet-name>Start</servlet-name>
+        <servlet-class>flow.Start</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_3248">
+        <servlet-name>InitializeVariables</servlet-name>
+        <servlet-class>flow.InitializeVariables</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_15">
+        <servlet-name>LoadOnStartUp</servlet-name>
+        <servlet-class>flow.LoadOnStartUp</servlet-class>
+        <load-on-startup>1</load-on-startup>
+    </servlet>
+    
+    <servlet id="SAGE-callflow-servlet_main_3260">
+        <servlet-name>Welcome_Ann</servlet-name>
+        <servlet-class>flow.Welcome_Ann</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_3399">
+        <servlet-name>LikDown</servlet-name>
+        <servlet-class>flow.LikDown</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_3537">
+        <servlet-name>SetLanguageMenu</servlet-name>
+        <servlet-class>flow.SetLanguageMenu</servlet-class>
+    </servlet>
+    
+    <servlet id="SAGE-callflow-servlet_main_3677">
+        <servlet-name>Evaluate_LangMN</servlet-name>
+        <servlet-class>flow.Evaluate_LangMN</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_3734">
+        <servlet-name>SetDisconnectData</servlet-name>
+        <servlet-class>flow.SetDisconnectData</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_3739">
+        <servlet-name>DisconnectCall</servlet-name>
+        <servlet-class>flow.DisconnectCall</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_3743">
+        <servlet-name>CallEndProcess</servlet-name>
+        <servlet-class>flow.CallEndProcess</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_3772">
+        <servlet-name>checkLoop</servlet-name>
+        <servlet-class>flow.checkLoop</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_3787">
+        <servlet-name>HostDown</servlet-name>
+        <servlet-class>flow.HostDown</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_3804">
+        <servlet-name>Dat_getVAS</servlet-name>
+        <servlet-class>flow.Dat_getVAS</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_3811">
+        <servlet-name>SelectLanguage_MN_001</servlet-name>
+        <servlet-class>flow.SelectLanguage_MN_001</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_3957">
+        <servlet-name>Ann_NoPacks</servlet-name>
+        <servlet-class>flow.Ann_NoPacks</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_4094">
+        <servlet-name>SetIVRDisconnect</servlet-name>
+        <servlet-class>flow.SetIVRDisconnect</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_4099">
+        <servlet-name>Ann_Thanks</servlet-name>
+        <servlet-class>flow.Ann_Thanks</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_4236">
+        <servlet-name>Deactivation_MN</servlet-name>
+        <servlet-class>flow.Deactivation_MN</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_4374">
+        <servlet-name>Evaluate_DeactivationMN</servlet-name>
+        <servlet-class>flow.Evaluate_DeactivationMN</servlet-class>
+    </servlet>
+    
+    <servlet id="SAGE-callflow-servlet_main_4394">
+        <servlet-name>SetDeactConfMN</servlet-name>
+        <servlet-class>flow.SetDeactConfMN</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_4402">
+        <servlet-name>DeactivationConf_MN</servlet-name>
+        <servlet-class>flow.DeactivationConf_MN</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_4538">
+        <servlet-name>Evaluate_DeactivationConf_MN</servlet-name>
+        <servlet-class>flow.Evaluate_DeactivationConf_MN</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_4552">
+        <servlet-name>SetDeactivation_MN</servlet-name>
+        <servlet-class>flow.SetDeactivation_MN</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_4560">
+        <servlet-name>Dat_deactivateVAS</servlet-name>
+        <servlet-class>flow.Dat_deactivateVAS</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_4573">
+        <servlet-name>Max_Ann</servlet-name>
+        <servlet-class>flow.Max_Ann</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_4721">
+        <servlet-name>Ann_Success</servlet-name>
+        <servlet-class>flow.Ann_Success</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_4858">
+        <servlet-name>Ann_Failue</servlet-name>
+        <servlet-class>flow.Ann_Failue</servlet-class>
+    </servlet>
+    <servlet-mapping id="avayadefaultdisconnecthandler-servletmapping">
+        <servlet-name>AvayaDefaultDisconnectHandler</servlet-name>
+        <url-pattern>/AvayaDefaultDisconnectHandler</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="avayadefaultexithandler-servletmapping">
+        <servlet-name>AvayaDefaultExitHandler</servlet-name>
+        <url-pattern>/AvayaDefaultExitHandler</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="avayasessiontermination-servletmapping">
+        <servlet-name>AvayaSessionTerminationServlet</servlet-name>
+        <url-pattern>/AvayaSessionTerminationServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="avayareturnerrorhandler-servletmapping">
+        <servlet-name>AvayaReturnErrorHandler</servlet-name>
+        <url-pattern>/AvayaReturnErrorHandler</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="avayareturnerrorthrow-servletmapping">
+        <servlet-name>AvayaReturnErrorThrow</servlet-name>
+        <url-pattern>/AvayaReturnErrorThrow</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_1">
+        <servlet-name>AppRoot</servlet-name>
+        <url-pattern>/AppRoot</url-pattern>
+    </servlet-mapping>
+    
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_11">
+        <servlet-name>End</servlet-name>
+        <url-pattern>/End</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_0">
+        <servlet-name>Start</servlet-name>
+        <url-pattern>/Start</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_3248">
+        <servlet-name>InitializeVariables</servlet-name>
+        <url-pattern>/InitializeVariables</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_15">
+        <servlet-name>LoadOnStartUp</servlet-name>
+        <url-pattern>/LoadOnStartUp</url-pattern>
+    </servlet-mapping>
+    
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_3260">
+        <servlet-name>Welcome_Ann</servlet-name>
+        <url-pattern>/Welcome_Ann</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_3399">
+        <servlet-name>LikDown</servlet-name>
+        <url-pattern>/LikDown</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_3537">
+        <servlet-name>SetLanguageMenu</servlet-name>
+        <url-pattern>/SetLanguageMenu</url-pattern>
+    </servlet-mapping>
+    
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_3677">
+        <servlet-name>Evaluate_LangMN</servlet-name>
+        <url-pattern>/Evaluate_LangMN</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_3734">
+        <servlet-name>SetDisconnectData</servlet-name>
+        <url-pattern>/SetDisconnectData</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_3739">
+        <servlet-name>DisconnectCall</servlet-name>
+        <url-pattern>/DisconnectCall</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_3743">
+        <servlet-name>CallEndProcess</servlet-name>
+        <url-pattern>/CallEndProcess</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_3772">
+        <servlet-name>checkLoop</servlet-name>
+        <url-pattern>/checkLoop</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_3787">
+        <servlet-name>HostDown</servlet-name>
+        <url-pattern>/HostDown</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_3804">
+        <servlet-name>Dat_getVAS</servlet-name>
+        <url-pattern>/Dat_getVAS</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_3811">
+        <servlet-name>SelectLanguage_MN_001</servlet-name>
+        <url-pattern>/SelectLanguage_MN_001</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_3957">
+        <servlet-name>Ann_NoPacks</servlet-name>
+        <url-pattern>/Ann_NoPacks</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_4094">
+        <servlet-name>SetIVRDisconnect</servlet-name>
+        <url-pattern>/SetIVRDisconnect</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_4099">
+        <servlet-name>Ann_Thanks</servlet-name>
+        <url-pattern>/Ann_Thanks</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_4236">
+        <servlet-name>Deactivation_MN</servlet-name>
+        <url-pattern>/Deactivation_MN</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_4374">
+        <servlet-name>Evaluate_DeactivationMN</servlet-name>
+        <url-pattern>/Evaluate_DeactivationMN</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_4394">
+        <servlet-name>SetDeactConfMN</servlet-name>
+        <url-pattern>/SetDeactConfMN</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_4402">
+        <servlet-name>DeactivationConf_MN</servlet-name>
+        <url-pattern>/DeactivationConf_MN</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_4538">
+        <servlet-name>Evaluate_DeactivationConf_MN</servlet-name>
+        <url-pattern>/Evaluate_DeactivationConf_MN</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_4552">
+        <servlet-name>SetDeactivation_MN</servlet-name>
+        <url-pattern>/SetDeactivation_MN</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_4560">
+        <servlet-name>Dat_deactivateVAS</servlet-name>
+        <url-pattern>/Dat_deactivateVAS</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_4573">
+        <servlet-name>Max_Ann</servlet-name>
+        <url-pattern>/Max_Ann</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_4721">
+        <servlet-name>Ann_Success</servlet-name>
+        <url-pattern>/Ann_Success</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_4858">
+        <servlet-name>Ann_Failue</servlet-name>
+        <url-pattern>/Ann_Failue</url-pattern>
+    </servlet-mapping>
+    
+</web-app>
