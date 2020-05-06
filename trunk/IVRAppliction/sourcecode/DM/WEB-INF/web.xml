@@ -1,0 +1,679 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--
+This XML descriptor is automatically generated and managed by the
+application development environment.  While manual updates to this 
+file may be preserved, it is best to manage this file through the application development environment tool.
+
+Copyright 2004-2011 Avaya Inc.
+--><!DOCTYPE web-app PUBLIC "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN" "http://java.sun.com/dtd/web-app_2_3.dtd">
+
+<web-app id="WebApp_ID">
+    <context-param>
+        <param-name>sage.startlanguage</param-name>
+        <param-value>english</param-value>
+        <description>The starting language for the application.</description>
+    </context-param>
+    <context-param>
+        <param-name>sage.ic.throwexceptions</param-name>
+        <param-value>true</param-value>
+        <description>IC Throw Runtime Exception on Error{true|false}</description>
+    </context-param>
+    <context-param>
+        <param-name>sage.cti.autoinvoke.callinfo</param-name>
+        <param-value>true</param-value>
+        <description>CTI Auto invoke CallInfo upon app start{true|false}</description>
+    </context-param>
+    <context-param>
+        <param-name>runtime-ASR</param-name>
+        <param-value>Desktop Microsoft Speech SAPI</param-value>
+        <description>Runtime ASR {SRGS-Literals|SRGS-SISR|Nuance OSR|IBM|...}</description>
+    </context-param>
+    <context-param>
+        <param-name>runtime-SSML</param-name>
+        <param-value>true</param-value>
+        <description>Runtime SSML Generation {true|false} - "true" enables SSML generation, "false" disables.</description>
+    </context-param>
+    <context-param>
+        <param-name>runtime-Platform</param-name>
+        <param-value>Experience Portal</param-value>
+        <description>Runtime Platform {Desktop|Voice Portal|Experience Portal|Other|IR|MPS}</description>
+    </context-param>
+    <context-param>
+        <param-name>runtime-VXML-Compatibility</param-name>
+        <param-value>2.1</param-value>
+        <description>3.0 Uses VXML 3.0, 2.1 Allows VXML 2.1 extensions, 2.0 Uses VXML 2.0 Only</description>
+    </context-param>
+    <context-param>
+        <param-name>runtime-DTMF-Native</param-name>
+        <param-value>LOCAL_SRGS_LITERALS</param-value>
+        <description>(NATIVE|LOCAL_SRGS_SISR|LOCAL_SRGS_LITERALS, NATIVE means DTMF Grammars are in native asr format.</description>
+    </context-param>
+    <context-param>
+        <param-name>CollectionSeparator</param-name>
+        <param-value>|</param-value>
+        <description>Collection Separator Char</description>
+    </context-param>
+    <context-param>
+        <param-name>grammar-caching</param-name>
+        <param-value>none</param-value>
+        <description>Grammar caching mode, none=no caching, default=system default or property setting</description>
+    </context-param>
+    <context-param>
+        <param-name>maxRetryDefault</param-name>
+        <param-value>3</param-value>
+        <description>Maximum No Inputs or No Match allowed</description>
+    </context-param>
+    <context-param>
+        <param-name>english.grammars.gram_validatecollection</param-name>
+        <param-value>http://localhost:8080</param-value>
+        <description>Location for external grammar gram_validatecollection.gram-extrn</description>
+    </context-param>
+	<context-param>
+    	<param-name>maxNoInputCount</param-name>
+    	<param-value>2</param-value>
+    </context-param>
+    <context-param>
+   		<param-name>maxNoMatchCount</param-name>
+        <param-value>2</param-value>
+    </context-param>
+    <context-param>
+     	<param-name>uniqueCounter</param-name>
+        <param-value>true</param-value>
+    </context-param>
+    <context-param>
+    	<param-name>bargeIn</param-name>
+        <param-value>true</param-value>
+    </context-param>
+    <context-param>
+    	<param-name>timeout</param-name>
+        <param-value>8</param-value>
+    </context-param>
+    <context-param>
+    	<param-name>interdigitTimeout</param-name>
+        <param-value>2</param-value>
+    </context-param>
+    <context-param>
+    	<param-name>highConfidenceLevel</param-name>
+        <param-value>0.55</param-value>
+    </context-param>
+    <context-param>
+    	<param-name>lowConfidenceLevel</param-name>
+        <param-value>0.15</param-value>
+    </context-param>
+    <context-param>
+    	<param-name>confirmationMode</param-name>
+        <param-value>1</param-value>
+    </context-param>
+    <context-param>
+    	<param-name>language</param-name>
+        <param-value>en-us</param-value>
+    </context-param>
+ 	<context-param>
+    	<param-name>noMatchRandom</param-name>
+        <param-value>false</param-value>
+    </context-param>
+    <context-param>
+    	<param-name>noInputRandom</param-name>
+        <param-value>false</param-value>
+    </context-param>
+    <context-param>
+    	<param-name>noAnswerMaxCount</param-name>
+    	<param-value>1</param-value>
+    </context-param>
+    <context-param>
+    	<param-name>confirmationMaxCount</param-name>
+    	<param-value>2</param-value>
+    </context-param>
+    <context-param>
+    	<param-name>manageRepeat</param-name>
+        <param-value>true</param-value>
+    </context-param>
+    
+    
+    
+    
+    <context-param>
+        <param-name>avaya.pim.dataconnector.config</param-name>
+        <param-value>|||i5/PolNOtdo=</param-value>
+        <description>PIM Data Connector configuration settings.</description>
+    </context-param>
+    <context-param>
+        <param-name>runtime-nature</param-name>
+        <param-value>speech</param-value>
+        <description>Application nature, speech or message</description>
+    </context-param>
+    
+    
+    <context-param>
+        <param-name>spanish.grammars.gram_validatecollection</param-name>
+        <param-value>http://localhost:8080</param-value>
+        <description>Location for external grammar gram_validatecollection.gram-extrn</description>
+    </context-param>
+    <context-param>
+        <param-name>french.grammars.gram_validatecollection</param-name>
+        <param-value>http://localhost:8080</param-value>
+        <description>Location for external grammar gram_validatecollection.gram-extrn</description>
+    </context-param>
+    <context-param>
+        <param-name>ENG.grammars.gram_validatecollection</param-name>
+        <param-value>http://localhost:8080</param-value>
+        <description>Location for external grammar gram_validatecollection.gram-extrn</description>
+    </context-param>
+    <context-param>
+        <param-name>HIN.grammars.gram_validatecollection</param-name>
+        <param-value>http://localhost:8080</param-value>
+        <description>Location for external grammar gram_validatecollection.gram-extrn</description>
+    </context-param>
+    <context-param>
+        <param-name>MAR.grammars.gram_validatecollection</param-name>
+        <param-value>http://localhost:8080</param-value>
+        <description>Location for external grammar gram_validatecollection.gram-extrn</description>
+    </context-param>
+    <context-param>
+        <param-name>GUJ.grammars.gram_validatecollection</param-name>
+        <param-value>http://localhost:8080</param-value>
+        <description>Location for external grammar gram_validatecollection.gram-extrn</description>
+    </context-param>
+    <context-param>
+        <param-name>TEL.grammars.gram_validatecollection</param-name>
+        <param-value>http://localhost:8080</param-value>
+        <description>Location for external grammar gram_validatecollection.gram-extrn</description>
+    </context-param>
+    <context-param>
+        <param-name>MAL.grammars.gram_validatecollection</param-name>
+        <param-value>http://localhost:8080</param-value>
+        <description>Location for external grammar gram_validatecollection.gram-extrn</description>
+    </context-param>
+    <context-param>
+        <param-name>TAM.grammars.gram_validatecollection</param-name>
+        <param-value>http://localhost:8080</param-value>
+        <description>Location for external grammar gram_validatecollection.gram-extrn</description>
+    </context-param>
+    <context-param>
+        <param-name>BEN.grammars.gram_validatecollection</param-name>
+        <param-value>http://localhost:8080</param-value>
+        <description>Location for external grammar gram_validatecollection.gram-extrn</description>
+    </context-param>
+    <context-param>
+        <param-name>ASM.grammars.gram_validatecollection</param-name>
+        <param-value>http://localhost:8080</param-value>
+        <description>Location for external grammar gram_validatecollection.gram-extrn</description>
+    </context-param>
+    <context-param>
+        <param-name>PUN.grammars.gram_validatecollection</param-name>
+        <param-value>http://localhost:8080</param-value>
+        <description>Location for external grammar gram_validatecollection.gram-extrn</description>
+    </context-param>
+    <context-param>
+        <param-name>KAN.grammars.gram_validatecollection</param-name>
+        <param-value>http://localhost:8080</param-value>
+        <description>Location for external grammar gram_validatecollection.gram-extrn</description>
+    </context-param>
+    <context-param>
+        <param-name>ORI.grammars.gram_validatecollection</param-name>
+        <param-value>http://localhost:80</param-value>
+        <description>Location for external grammar gram_validatecollection.gram-extrn</description>
+    </context-param>
+    <servlet id="avayadefaultdisconnecthandler-servlet">
+        <servlet-name>AvayaDefaultDisconnectHandler</servlet-name>
+        <servlet-class>com.avaya.sce.runtime.DefaultDisconnect</servlet-class>
+    </servlet>
+    <servlet id="avayadefaultexithandler-servlet">
+        <servlet-name>AvayaDefaultExitHandler</servlet-name>
+        <servlet-class>com.avaya.sce.runtime.DefaultExit</servlet-class>
+    </servlet>
+    <servlet id="avayasessiontermination-servlet">
+        <servlet-name>AvayaSessionTerminationServlet</servlet-name>
+        <servlet-class>com.avaya.sce.runtime.AvayaSessionTerminationServlet</servlet-class>
+    </servlet>
+    <servlet id="avayareturnerrorhandler-servlet">
+        <servlet-name>AvayaReturnErrorHandler</servlet-name>
+        <servlet-class>com.avaya.sce.runtime.ReturnErrorHandlerServlet</servlet-class>
+    </servlet>
+    <servlet id="avayareturnerrorthrow-servlet">
+        <servlet-name>AvayaReturnErrorThrow</servlet-name>
+        <servlet-class>com.avaya.sce.runtime.ReturnErrorThrowServlet</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_1">
+        <servlet-name>AppRoot</servlet-name>
+        <servlet-class>flow.AppRoot</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_0">
+        <servlet-name>Start</servlet-name>
+        <servlet-class>flow.Start</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_42">
+        <servlet-name>Exit</servlet-name>
+        <servlet-class>flow.Exit</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_69">
+        <servlet-name>GetInputParams</servlet-name>
+        <servlet-class>flow.GetInputParams</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_74">
+        <servlet-name>SetParams_PromptandCollect</servlet-name>
+        <servlet-class>flow.SetParams_PromptandCollect</servlet-class>
+    </servlet>
+    
+    
+    <servlet id="SAGE-callflow-servlet_main_138">
+        <servlet-name>NoMatch</servlet-name>
+        <servlet-class>flow.NoMatch</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_142">
+        <servlet-name>ConfirmationModeCheck</servlet-name>
+        <servlet-class>flow.ConfirmationModeCheck</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_134">
+        <servlet-name>NoInput</servlet-name>
+        <servlet-class>flow.NoInput</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_247">
+        <servlet-name>PlayNINM</servlet-name>
+        <servlet-class>flow.PlayNINM</servlet-class>
+    </servlet>
+    
+    
+    <servlet id="SAGE-callflow-servlet_main_269">
+        <servlet-name>ReportEnd</servlet-name>
+        <servlet-class>flow.ReportEnd</servlet-class>
+    </servlet>
+    
+    
+    <servlet id="SAGE-callflow-servlet_main_323">
+        <servlet-name>AssignGrammars</servlet-name>
+        <servlet-class>flow.AssignGrammars</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_365">
+        <servlet-name>IsConstraintListAvailable</servlet-name>
+        <servlet-class>flow.IsConstraintListAvailable</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_370">
+        <servlet-name>ConstraintListCheck</servlet-name>
+        <servlet-class>flow.ConstraintListCheck</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_465">
+        <servlet-name>RepromptCheck</servlet-name>
+        <servlet-class>flow.RepromptCheck</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_589">
+        <servlet-name>PromptAndCollect</servlet-name>
+        <servlet-class>flow.PromptAndCollect</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_605">
+        <servlet-name>DisallowCheck</servlet-name>
+        <servlet-class>flow.DisallowCheck</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_611">
+        <servlet-name>PlayHelpPrompt</servlet-name>
+        <servlet-class>flow.PlayHelpPrompt</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_616">
+        <servlet-name>ResetVar</servlet-name>
+        <servlet-class>flow.ResetVar</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_625">
+        <servlet-name>SetOutputParams</servlet-name>
+        <servlet-class>flow.SetOutputParams</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_691">
+        <servlet-name>ConfirmationPromptsCheck</servlet-name>
+        <servlet-class>flow.ConfirmationPromptsCheck</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_721">
+        <servlet-name>CheckSuccessConfirmation</servlet-name>
+        <servlet-class>flow.CheckSuccessConfirmation</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_739">
+        <servlet-name>CheckConfirmationGrammars</servlet-name>
+        <servlet-class>flow.CheckConfirmationGrammars</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_759">
+        <servlet-name>CheckSuccessPrompt</servlet-name>
+        <servlet-class>flow.CheckSuccessPrompt</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_769">
+        <servlet-name>PlaySuccessPrompt</servlet-name>
+        <servlet-class>flow.PlaySuccessPrompt</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_782">
+        <servlet-name>ConfirmationPromptAndCollect</servlet-name>
+        <servlet-class>flow.ConfirmationPromptAndCollect</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_808">
+        <servlet-name>InternalConfirmationPromptandCollect</servlet-name>
+        <servlet-class>flow.InternalConfirmationPromptandCollect</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_826">
+        <servlet-name>ConfirmationNoInput</servlet-name>
+        <servlet-class>flow.ConfirmationNoInput</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_881">
+        <servlet-name>ConfirmationNoMatch</servlet-name>
+        <servlet-class>flow.ConfirmationNoMatch</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_927">
+        <servlet-name>PlayConfirmationRetryPrompt</servlet-name>
+        <servlet-class>flow.PlayConfirmationRetryPrompt</servlet-class>
+    </servlet>
+    
+    <servlet id="SAGE-callflow-servlet_main_952">
+        <servlet-name>ConfirmationRepromptCheck</servlet-name>
+        <servlet-class>flow.ConfirmationRepromptCheck</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_969">
+        <servlet-name>AssignConfirmationValues</servlet-name>
+        <servlet-class>flow.AssignConfirmationValues</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_998">
+        <servlet-name>SetReturnValue</servlet-name>
+        <servlet-class>flow.SetReturnValue</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_1011">
+        <servlet-name>ConfirmationCheck</servlet-name>
+        <servlet-class>flow.ConfirmationCheck</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_1049">
+        <servlet-name>PlayNoAnswerApologies</servlet-name>
+        <servlet-class>flow.PlayNoAnswerApologies</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_1078">
+        <servlet-name>DynamicConstraintListCheck</servlet-name>
+        <servlet-class>flow.DynamicConstraintListCheck</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_1094">
+        <servlet-name>Announce</servlet-name>
+        <servlet-class>flow.Announce</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_1215">
+        <servlet-name>ConstraintListNoMatch</servlet-name>
+        <servlet-class>flow.ConstraintListNoMatch</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_1357">
+        <servlet-name>StaticConstraintCheck</servlet-name>
+        <servlet-class>flow.StaticConstraintCheck</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_1511">
+        <servlet-name>AssignPreviousIniitalPrmt</servlet-name>
+        <servlet-class>flow.AssignPreviousIniitalPrmt</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_1598">
+        <servlet-name>AssignMoreInitialPrmt</servlet-name>
+        <servlet-class>flow.AssignMoreInitialPrmt</servlet-class>
+    </servlet>
+    
+    <servlet id="SAGE-callflow-servlet_main_1699">
+        <servlet-name>CheckValue</servlet-name>
+        <servlet-class>flow.CheckValue</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_1723">
+        <servlet-name>PromptandCollectCheck</servlet-name>
+        <servlet-class>flow.PromptandCollectCheck</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_1797">
+        <servlet-name>SetInitialPrmt</servlet-name>
+        <servlet-class>flow.SetInitialPrmt</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_1865">
+        <servlet-name>LogEnable</servlet-name>
+        <servlet-class>flow.LogEnable</servlet-class>
+    </servlet>
+    
+    
+    
+    <servlet id="SAGE-callflow-servlet_main_1913">
+        <servlet-name>TransactionAudio</servlet-name>
+        <servlet-class>flow.TransactionAudio</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_1987">
+        <servlet-name>SetReport</servlet-name>
+        <servlet-class>flow.SetReport</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_2029">
+        <servlet-name>AssignRepeatInitalPrmt</servlet-name>
+        <servlet-class>flow.AssignRepeatInitalPrmt</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_2081">
+        <servlet-name>AppendGlobalPrmt</servlet-name>
+        <servlet-class>flow.AppendGlobalPrmt</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_2304">
+        <servlet-name>SetReportD</servlet-name>
+        <servlet-class>flow.SetReportD</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_2309">
+        <servlet-name>ThrowDisconnect</servlet-name>
+        <servlet-class>flow.ThrowDisconnect</servlet-class>
+    </servlet>
+    <servlet-mapping id="avayadefaultdisconnecthandler-servletmapping">
+        <servlet-name>AvayaDefaultDisconnectHandler</servlet-name>
+        <url-pattern>/AvayaDefaultDisconnectHandler</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="avayadefaultexithandler-servletmapping">
+        <servlet-name>AvayaDefaultExitHandler</servlet-name>
+        <url-pattern>/AvayaDefaultExitHandler</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="avayasessiontermination-servletmapping">
+        <servlet-name>AvayaSessionTerminationServlet</servlet-name>
+        <url-pattern>/AvayaSessionTerminationServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="avayareturnerrorhandler-servletmapping">
+        <servlet-name>AvayaReturnErrorHandler</servlet-name>
+        <url-pattern>/AvayaReturnErrorHandler</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="avayareturnerrorthrow-servletmapping">
+        <servlet-name>AvayaReturnErrorThrow</servlet-name>
+        <url-pattern>/AvayaReturnErrorThrow</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_1">
+        <servlet-name>AppRoot</servlet-name>
+        <url-pattern>/AppRoot</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_0">
+        <servlet-name>Start</servlet-name>
+        <url-pattern>/Start</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_42">
+        <servlet-name>Exit</servlet-name>
+        <url-pattern>/Exit</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_69">
+        <servlet-name>GetInputParams</servlet-name>
+        <url-pattern>/GetInputParams</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_74">
+        <servlet-name>SetParams_PromptandCollect</servlet-name>
+        <url-pattern>/SetParams_PromptandCollect</url-pattern>
+    </servlet-mapping>
+    
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_138">
+        <servlet-name>NoMatch</servlet-name>
+        <url-pattern>/NoMatch</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_142">
+        <servlet-name>ConfirmationModeCheck</servlet-name>
+        <url-pattern>/ConfirmationModeCheck</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_134">
+        <servlet-name>NoInput</servlet-name>
+        <url-pattern>/NoInput</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_247">
+        <servlet-name>PlayNINM</servlet-name>
+        <url-pattern>/PlayNINM</url-pattern>
+    </servlet-mapping>
+    
+    
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_269">
+        <servlet-name>ReportEnd</servlet-name>
+        <url-pattern>/ReportEnd</url-pattern>
+    </servlet-mapping>
+    
+    
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_323">
+        <servlet-name>AssignGrammars</servlet-name>
+        <url-pattern>/AssignGrammars</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_365">
+        <servlet-name>IsConstraintListAvailable</servlet-name>
+        <url-pattern>/IsConstraintListAvailable</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_370">
+        <servlet-name>ConstraintListCheck</servlet-name>
+        <url-pattern>/ConstraintListCheck</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_465">
+        <servlet-name>RepromptCheck</servlet-name>
+        <url-pattern>/RepromptCheck</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_589">
+        <servlet-name>PromptAndCollect</servlet-name>
+        <url-pattern>/PromptAndCollect</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_605">
+        <servlet-name>DisallowCheck</servlet-name>
+        <url-pattern>/DisallowCheck</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_611">
+        <servlet-name>PlayHelpPrompt</servlet-name>
+        <url-pattern>/PlayHelpPrompt</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_616">
+        <servlet-name>ResetVar</servlet-name>
+        <url-pattern>/ResetVar</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_625">
+        <servlet-name>SetOutputParams</servlet-name>
+        <url-pattern>/SetOutputParams</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_691">
+        <servlet-name>ConfirmationPromptsCheck</servlet-name>
+        <url-pattern>/ConfirmationPromptsCheck</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_721">
+        <servlet-name>CheckSuccessConfirmation</servlet-name>
+        <url-pattern>/CheckSuccessConfirmation</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_739">
+        <servlet-name>CheckConfirmationGrammars</servlet-name>
+        <url-pattern>/CheckConfirmationGrammars</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_759">
+        <servlet-name>CheckSuccessPrompt</servlet-name>
+        <url-pattern>/CheckSuccessPrompt</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_769">
+        <servlet-name>PlaySuccessPrompt</servlet-name>
+        <url-pattern>/PlaySuccessPrompt</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_782">
+        <servlet-name>ConfirmationPromptAndCollect</servlet-name>
+        <url-pattern>/ConfirmationPromptAndCollect</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_808">
+        <servlet-name>InternalConfirmationPromptandCollect</servlet-name>
+        <url-pattern>/InternalConfirmationPromptandCollect</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_826">
+        <servlet-name>ConfirmationNoInput</servlet-name>
+        <url-pattern>/ConfirmationNoInput</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_881">
+        <servlet-name>ConfirmationNoMatch</servlet-name>
+        <url-pattern>/ConfirmationNoMatch</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_927">
+        <servlet-name>PlayConfirmationRetryPrompt</servlet-name>
+        <url-pattern>/PlayConfirmationRetryPrompt</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_952">
+        <servlet-name>ConfirmationRepromptCheck</servlet-name>
+        <url-pattern>/ConfirmationRepromptCheck</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_969">
+        <servlet-name>AssignConfirmationValues</servlet-name>
+        <url-pattern>/AssignConfirmationValues</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_998">
+        <servlet-name>SetReturnValue</servlet-name>
+        <url-pattern>/SetReturnValue</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_1011">
+        <servlet-name>ConfirmationCheck</servlet-name>
+        <url-pattern>/ConfirmationCheck</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_1049">
+        <servlet-name>PlayNoAnswerApologies</servlet-name>
+        <url-pattern>/PlayNoAnswerApologies</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_1078">
+        <servlet-name>DynamicConstraintListCheck</servlet-name>
+        <url-pattern>/DynamicConstraintListCheck</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_1094">
+        <servlet-name>Announce</servlet-name>
+        <url-pattern>/Announce</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_1215">
+        <servlet-name>ConstraintListNoMatch</servlet-name>
+        <url-pattern>/ConstraintListNoMatch</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_1357">
+        <servlet-name>StaticConstraintCheck</servlet-name>
+        <url-pattern>/StaticConstraintCheck</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_1511">
+        <servlet-name>AssignPreviousIniitalPrmt</servlet-name>
+        <url-pattern>/AssignPreviousIniitalPrmt</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_1598">
+        <servlet-name>AssignMoreInitialPrmt</servlet-name>
+        <url-pattern>/AssignMoreInitialPrmt</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_1699">
+        <servlet-name>CheckValue</servlet-name>
+        <url-pattern>/CheckValue</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_1723">
+        <servlet-name>PromptandCollectCheck</servlet-name>
+        <url-pattern>/PromptandCollectCheck</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_1797">
+        <servlet-name>SetInitialPrmt</servlet-name>
+        <url-pattern>/SetInitialPrmt</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_1865">
+        <servlet-name>LogEnable</servlet-name>
+        <url-pattern>/LogEnable</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_1913">
+        <servlet-name>TransactionAudio</servlet-name>
+        <url-pattern>/TransactionAudio</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_1987">
+        <servlet-name>SetReport</servlet-name>
+        <url-pattern>/SetReport</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_2029">
+        <servlet-name>AssignRepeatInitalPrmt</servlet-name>
+        <url-pattern>/AssignRepeatInitalPrmt</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_2081">
+        <servlet-name>AppendGlobalPrmt</servlet-name>
+        <url-pattern>/AppendGlobalPrmt</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_2304">
+        <servlet-name>SetReportD</servlet-name>
+        <url-pattern>/SetReportD</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_2309">
+        <servlet-name>ThrowDisconnect</servlet-name>
+        <url-pattern>/ThrowDisconnect</url-pattern>
+    </servlet-mapping>
+    
+    
+    
+    
+    
+    
+</web-app>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<grammar xmlns="http://www.w3.org/2001/06/grammar" mode="voice" root="yesnoSpeech" tag-format="semantics/1.0-literals" version="1.0" xml:lang="en-us">
+    <rule id="yesnoSpeech" scope="public">
+        <ruleref uri="#Column0"/>
+    </rule>
+    <rule id="Column0" scope="private">
+        <one-of>
+            <item>yes<tag>yes</tag>
+            </item>
+            <item>yes it is<tag>yes</tag>
+            </item>
+            <item>thats correct<tag>yes</tag>
+            </item>
+            <item>that is correct<tag>yes</tag>
+            </item>
+            <item>it is correct<tag>yes</tag>
+            </item>
+            <item>its correct<tag>yes</tag>
+            </item>
+            <item>right<tag>yes</tag>
+            </item>
+            <item>it is right<tag>yes</tag>
+            </item>
+            <item>correct<tag>yes</tag>
+            </item>
+            <item>yep<tag>yes</tag>
+            </item>
+            <item>yup<tag>yes</tag>
+            </item>
+            <item>yes yes<tag>yes</tag>
+            </item>
+            <item>nope<tag>no</tag>
+            </item>
+            <item>wrong<tag>no</tag>
+            </item>
+            <item>no<tag>no</tag>
+            </item>
+            <item>no no<tag>no</tag>
+            </item>
+            <item>it is wrong<tag>no</tag>
+            </item>
+            <item>its wrong<tag>no</tag>
+            </item>
+            <item>no it isnt<tag>no</tag>
+            </item>
+            <item>no it is not<tag>no</tag>
+            </item>
+            <item>no that is not<tag>no</tag>
+            </item>
+            <item>no that isnt<tag>no</tag>
+            </item>
+            <item>no you dint<tag>no</tag>
+            </item>
+        </one-of>
+    </rule>
+</grammar>

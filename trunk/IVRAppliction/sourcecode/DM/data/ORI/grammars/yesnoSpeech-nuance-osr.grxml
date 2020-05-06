@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<grammar xmlns="http://www.w3.org/2001/06/grammar" mode="voice" root="yesnoSpeech" version="1.0" xml:lang="en-us">
+    <rule id="yesnoSpeech" scope="public">
+        <ruleref uri="#Column0"/>
+        <tag>cxtag=Column0.atag;Column0=Column0.atag;</tag>
+    </rule>
+    <rule id="Column0" scope="private">
+        <tag>atag=''</tag>
+        <one-of>
+            <item>yes<tag>atag+='yes'</tag>
+            </item>
+            <item>yes it is<tag>atag+='yes'</tag>
+            </item>
+            <item>thats correct<tag>atag+='yes'</tag>
+            </item>
+            <item>that is correct<tag>atag+='yes'</tag>
+            </item>
+            <item>it is correct<tag>atag+='yes'</tag>
+            </item>
+            <item>its correct<tag>atag+='yes'</tag>
+            </item>
+            <item>right<tag>atag+='yes'</tag>
+            </item>
+            <item>it is right<tag>atag+='yes'</tag>
+            </item>
+            <item>correct<tag>atag+='yes'</tag>
+            </item>
+            <item>yep<tag>atag+='yes'</tag>
+            </item>
+            <item>yup<tag>atag+='yes'</tag>
+            </item>
+            <item>yes yes<tag>atag+='yes'</tag>
+            </item>
+            <item>nope<tag>atag+='no'</tag>
+            </item>
+            <item>wrong<tag>atag+='no'</tag>
+            </item>
+            <item>no<tag>atag+='no'</tag>
+            </item>
+            <item>no no<tag>atag+='no'</tag>
+            </item>
+            <item>it is wrong<tag>atag+='no'</tag>
+            </item>
+            <item>its wrong<tag>atag+='no'</tag>
+            </item>
+            <item>no it isnt<tag>atag+='no'</tag>
+            </item>
+            <item>no it is not<tag>atag+='no'</tag>
+            </item>
+            <item>no that is not<tag>atag+='no'</tag>
+            </item>
+            <item>no that isnt<tag>atag+='no'</tag>
+            </item>
+            <item>no you dint<tag>atag+='no'</tag>
+            </item>
+        </one-of>
+    </rule>
+</grammar>

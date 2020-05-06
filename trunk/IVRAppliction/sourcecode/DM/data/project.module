@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<module category="" descriptorversion="1.0" entrypoint="DM/Start" forcesubdialogcall="false" frameworkversion="07.00.18.01" iconlarge="icons/defaultapplicationlg.gif" iconsmall="icons/defaultapplicationsm.gif" modifyInputs="false" modifyOutputs="false" nature="" outputmultipart="false" paramasnamelist="false" provider="" submitmethod="get" version="1.0.0" webname="DM">
+    <description/>
+    <input defaultvalue="DEFAULT" description="Location of all required Property Files" name="input_propertiesLocation" varreftypesimple="true"/>
+    <input defaultvalue="DEFAULT" description="Contains the FileName of the Global Properties" name="input_globalPropertyFileName" varreftypesimple="true"/>
+    <input defaultvalue="DEFAULT" description="Contains the FileName of a specific Prompt and Collect or a Menu" name="input_propertyFileName" varreftypesimple="true"/>
+    <input defaultvalue="DEFAULT" description="Language selected by the Caller" name="input_language" varreftypesimple="true"/>
+    <input defaultvalue="DEFAULT" description="Check whether it is DTMF Application" name="input_isDTMF" varreftypesimple="true"/>
+    <input defaultvalue="DEFAULT" description="Application's Custom Phrases Location" name="input_customAudioLocation" varreftypesimple="true"/>
+    <input defaultvalue="DEFAULT" description="Standard Phrases Location" name="input_standardAudioLocation" varreftypesimple="true"/>
+    <input defaultvalue="DEFAULT" description="Applicarion Grammar Location" name="input_grammarLocation" varreftypesimple="true"/>
+    <input defaultvalue="DEFAULT" description="Accepts true / false to tell whether it is a announcement or not" name="input_isAnnouncement" varreftypesimple="true"/>
+    <input defaultvalue="DEFAULT" description="Accepts comma separated Values.Other slots specific to the Grammar. For example the Address Grammar has given different slots like street number, city name and zipcode  " name="input_specificSlots" varreftypesimple="true"/>
+    <input defaultvalue="DEFAULT" description="Contains the Initial Wav that is to be Played initially" name="input_initialPrompt" varreftypesimple="true"/>
+    <input defaultvalue="DEFAULT" description="Max No matches" name="input_maxNoMatchCount" varreftypesimple="true"/>
+    <input defaultvalue="DEFAULT" description="Max NoInputs" name="input_maxNoInputCount" varreftypesimple="true"/>
+    <input defaultvalue="DEFAULT" description="contains the No Match wav file" name="input_noMatchPrompt" varreftypesimple="true"/>
+    <input defaultvalue="DEFAULT" description="BuiltIn Grammar  Flag" name="input_builtInGrammarFlag" varreftypesimple="true"/>
+    <input defaultvalue="DEFAULT" description="Built In Grammar Type" name="input_builtInGrammar" varreftypesimple="true"/>
+    <input defaultvalue="DEFAULT" description="contains the NoInput wav File" name="input_noInputPrompt" varreftypesimple="true"/>
+    <input defaultvalue="DEFAULT" description="No input prompt when it has exceeded maximum tries" name="input_noInputMaxTryPrompt" varreftypesimple="true"/>
+    <input defaultvalue="DEFAULT" description="Prompt to be played when the no match exceeds maximum tries" name="input_noMatchMaxTryPrompt" varreftypesimple="true"/>
+    <input defaultvalue="DEFAULT" description="contains a wav file that is to be played when a help is Prompted" name="input_helpPrompt" varreftypesimple="true"/>
+    <input defaultvalue="DEFAULT" description="Global Prompt" name="input_globalPrompt" varreftypesimple="true"/>
+    <input defaultvalue="DEFAULT" description="Optional - Contains the wav File  that is to be played when a option is selected" name="input_successPrompt" varreftypesimple="true"/>
+    <input defaultvalue="DEFAULT" description="Contains the  Global DTMF Grammar file name" name="input_dtmfGlobalGrammar" varreftypesimple="true"/>
+    <input defaultvalue="DEFAULT" description="Contains the Grammar file name specific to that prompt and Collect" name="input_dtmfGrammar" varreftypesimple="true"/>
+    <input defaultvalue="DEFAULT" description="Contains the Speech global Grammar File Name" name="input_voiceGlobalGrammar" varreftypesimple="true"/>
+    <input defaultvalue="DEFAULT" description="Contains the Speech Grammar specific to the prompt and collect or a menu" name="input_voiceGrammar" varreftypesimple="true"/>
+    <input defaultvalue="DEFAULT" description="Number of Maximum Confirmation Count" name="input_confirmationMaxCount" varreftypesimple="true"/>
+    <input defaultvalue="DEFAULT" description="Initial Confirmation Prompt" name="input_confirmationInitialPrompt" varreftypesimple="true"/>
+    <input defaultvalue="DEFAULT" description="Contains the Maxtry Confirmation Prompt" name="input_confirmationMaxTryPrompt" varreftypesimple="true"/>
+    <input defaultvalue="DEFAULT" description="Confirmation NoInput Phrase" name="input_confirmationNoInputPrompt" varreftypesimple="true"/>
+    <input defaultvalue="DEFAULT" description="Confirmation NoMatch Phrase" name="input_confirmationNoMatchPrompt" varreftypesimple="true"/>
+    <input defaultvalue="DEFAULT" description="contains the wav file name for reprompt" name="input_confirmationReprompt" varreftypesimple="true"/>
+    <input defaultvalue="DEFAULT" description="contains the wav file if any specific phrase to be voiced out" name="input_confirmationSpecificPrompt" varreftypesimple="true"/>
+    <input defaultvalue="DEFAULT" description="No Answer Max Count" name="input_confirmationDeniedMaxCount" varreftypesimple="true"/>
+    <input defaultvalue="DEFAULT" description="Confirmation Denied Apology Random" name="input_confirmationDeniedApologyRandom" varreftypesimple="true"/>
+    <input defaultvalue="DEFAULT" description="contains phrases to be played after a negative confirmation from the caller" name="input_confirmationDeniedApology" varreftypesimple="true"/>
+    <input defaultvalue="DEFAULT" description="No Answer Limit Prompt" name="input_confirmationDeniedMaxTryPrompt" varreftypesimple="true"/>
+    <input defaultvalue="DEFAULT" description="Iniital Prompt for Repeat Option" name="input_repeatPrompt" varreftypesimple="true"/>
+    <input defaultvalue="DEFAULT" description="contains the Confirmation DTMF Grammar" name="input_confirmationDtmfGrammar" varreftypesimple="true"/>
+    <input defaultvalue="DEFAULT" description="contains the Voice Grammar for Confirmation" name="input_confirmationVoiceGrammar" varreftypesimple="true"/>
+    <input defaultvalue="DEFAULT" description="No Input Reprompt Wave" name="input_rePromptNoInput" varreftypesimple="true"/>
+    <input defaultvalue="DEFAULT" description="No Match Reprompt Wave" name="input_rePromptNoMatch" varreftypesimple="true"/>
+    <input defaultvalue="DEFAULT" description="Standard Speech number format" name="input_ss_Number" varreftypesimple="true"/>
+    <input defaultvalue="DEFAULT" description="Standard Speech Number Format Values" name="input_ss_NumberValues" varreftypesimple="true"/>
+    <input defaultvalue="DEFAULT" description="Standard Speech Digits Format Keys" name="input_ss_Digits" varreftypesimple="true"/>
+    <input defaultvalue="DEFAULT" description="Standard Speech Digit format Values" name="input_ss_DigitsValues" varreftypesimple="true"/>
+    <input defaultvalue="DEFAULT" description="Standard Speech Date Format Keys" name="input_ss_Date" varreftypesimple="true"/>
+    <input defaultvalue="DEFAULT" description="Standard Speech Date Format Values" name="input_ss_DateValues" varreftypesimple="true"/>
+    <input defaultvalue="DEFAULT" description="Standard Speech Time Format Values" name="input_ss_Time" varreftypesimple="true"/>
+    <input defaultvalue="DEFAULT" description="Standard Speech Time Format Values" name="input_ss_TimeValues" varreftypesimple="true"/>
+    <input defaultvalue="DEFAULT" description="Standard Speech Currency Format Keys" name="input_ss_Currency" varreftypesimple="true"/>
+    <input defaultvalue="DEFAULT" description="Standard Speech Currency Format Values" name="input_ss_CurrencyValues" varreftypesimple="true"/>
+    <input defaultvalue="DEFAULT" description="TTS Number Format Keys" name="input_tts_Number" varreftypesimple="true"/>
+    <input defaultvalue="DEFAULT" description="TTS Number Format Values" name="input_tts_NumberValues" varreftypesimple="true"/>
+    <input defaultvalue="DEFAULT" description="TTS Digit Format Keys" name="input_tts_Digits" varreftypesimple="true"/>
+    <input defaultvalue="DEFAULT" description="TTS Digit Format Values" name="input_tts_DigitsValues" varreftypesimple="true"/>
+    <input defaultvalue="DEFAULT" description="TTS Date Format Keys" name="input_tts_Date" varreftypesimple="true"/>
+    <input defaultvalue="DEFAULT" description="TTS Date Format Values" name="input_tts_DateValues" varreftypesimple="true"/>
+    <input defaultvalue="DEFAULT" description="TTS Time Format Keys" name="input_tts_Time" varreftypesimple="true"/>
+    <input defaultvalue="DEFAULT" description="TTS Time Format Values" name="input_tts_TimeValues" varreftypesimple="true"/>
+    <input defaultvalue="DEFAULT" description="TTS Currency Format Keys" name="input_tts_Currency" varreftypesimple="true"/>
+    <input defaultvalue="DEFAULT" description="TTS Currency Format Values" name="input_tts_CurrencyValues" varreftypesimple="true"/>
+    <input defaultvalue="DEFAULT" description="TTS Name Format Keys" name="input_tts_Name" varreftypesimple="true"/>
+    <input defaultvalue="DEFAULT" description="TTS Name Format Values" name="input_tts_NameValues" varreftypesimple="true"/>
+    <input defaultvalue="DEFAULT" description="TTS Telephone Format Keys" name="input_tts_Telephone" varreftypesimple="true"/>
+    <input defaultvalue="DEFAULT" description="TTS Telephone Format Values" name="input_tts_TelephoneValues" varreftypesimple="true"/>
+    <input defaultvalue="DEFAULT" description="TTS Address Format Keys" name="input_tts_Address" varreftypesimple="true"/>
+    <input defaultvalue="DEFAULT" description="TTS Address Format Values" name="input_tts_AddressValues" varreftypesimple="true"/>
+    <input defaultvalue="DEFAULT" description="nbest values" name="input_nbest" varreftypesimple="true"/>
+    <input defaultvalue="DEFAULT" description="Disallow List" name="input_disallowList" varreftypesimple="true"/>
+    <input defaultvalue="DEFAULT" description="Menu options used in a menu" name="input_menuOptions" varreftypesimple="true"/>
+    <input defaultvalue="DEFAULT" description="Flag to check whether more option is required" name="input_moreOptionFlag" varreftypesimple="true"/>
+    <input defaultvalue="DEFAULT" description="Count for the no of prompts need to be played at once" name="input_moreOptionCount" varreftypesimple="true"/>
+    <input defaultvalue="DEFAULT" description="Value to indicate whether the Previous set need to be played" name="input_moreOptionPreviousMenuFlag" varreftypesimple="true"/>
+    <input defaultvalue="DEFAULT" description="DTMF grammar for the menu" name="input_moreOptionDTMFGrammar" varreftypesimple="true"/>
+    <input defaultvalue="DEFAULT" description="Voice Grammar for the Menu " name="input_moreOptionVoiceGrammar" varreftypesimple="true"/>
+    <input defaultvalue="DEFAULT" description="Dynamic Values for the menu " name="input_moreOptionDynamicValues" varreftypesimple="true"/>
+    <input defaultvalue="DEFAULT" description="will contain a comma seperated values based on the requirement" name="input_dynamicConstraintListValues" varreftypesimple="true"/>
+    <input defaultvalue="false" description="accepts true/ false" name="input_dynamicConstraintListFlag" varreftypesimple="true"/>
+    <input defaultvalue="false" description="this flag tells whether to use a common counter to both NINM and dynamic constraint list" name="input_dynamicConstraintListCounterFlag" varreftypesimple="true"/>
+    <input defaultvalue="DEFAULT" description="will contain the maximum number of tries to be handled for constraint list check" name="input_dynamicConstraintListCounter" varreftypesimple="true"/>
+    <input defaultvalue="DEFAULT" description="will contain the phrases that has to be played if the collected value is not matched  with the dynamic constraint list" name="input_dynamicConstraintListPrompts" varreftypesimple="true"/>
+    <input defaultvalue="DEFAULT" description="One time flag for menu" name="input_oneTimeFlag" varreftypesimple="true"/>
+    <input defaultvalue="DEFAULT" description="Accepts a true / false to tell whether the data is private or not" name="input_privateData" varreftypesimple="true"/>
+    <input defaultvalue="DEFAULT" description="Re Entry" name="input_reEntry" varreftypesimple="true"/>
+    <input defaultvalue="DEFAULT" description="Menu ID for dialogs" name="input_menuID" varreftypesimple="true"/>
+    <input defaultvalue="DEFAULT" description="Announcement ID" name="input_AnnounceID" varreftypesimple="true"/>
+    <input defaultvalue="DEFAULT" description="Name of the Dialog State" name="input_DialogName" varreftypesimple="true"/>
+    <input defaultvalue="DEFAULT" description="Confirmation Mode" name="input_ConfirmationMode" varreftypesimple="true"/>
+    <input defaultvalue="DEFAULT" description="Common Counter for no match and no input" name="input_NINMCounter" varreftypesimple="true"/>
+    <input defaultvalue="DEFAULT" description="Logger Name" name="input_LoggerName" varreftypesimple="true"/>
+    <input defaultvalue="DEFAULT" description="Logging Enabled" name="input_LoggingEnabled" varreftypesimple="true"/>
+    <input defaultvalue="DEFAULT" description="Counter for Repeat option" name="input_RepeatCounter" varreftypesimple="true"/>
+    <input defaultvalue="DEFAULT" description="Static Constraint List" name="input_StaticConstraintList" varreftypesimple="true"/>
+    <input defaultvalue="DEFAULT" description="Success Prompt only after Confirmation" name="input_SuccessPromptOnlyForConfirmation" varreftypesimple="true"/>
+    <input defaultvalue="DEFAULT" description="DTMF Grammar Use Slots" name="input_DTMFGrammaruseSlots" varreftypesimple="true"/>
+    <input defaultvalue="DEFAULT" description="No match Random" name="input_noMatchRandom" varreftypesimple="true"/>
+    <input defaultvalue="DEFAULT" description="No input Random" name="input_noInputRandom" varreftypesimple="true"/>
+    <input defaultvalue="DEFAULT" description="Complete Timeout" name="input_CompleteTimeout" varreftypesimple="true"/>
+    <input defaultvalue="DEFAULT" description="Incomplete Timeout" name="input_incompleteTimeout" varreftypesimple="true"/>
+    <input defaultvalue="DEFAULT" description="InterDigit Timeout" name="input_interdigitTimeout" varreftypesimple="true"/>
+    <input defaultvalue="DEFAULT" description="Terminating Timeout" name="input_terminatingTimeout" varreftypesimple="true"/>
+    <input defaultvalue="DEFAULT" description="Iniital Timeout" name="input_initialTimeout" varreftypesimple="true"/>
+    <input defaultvalue="DEFAULT" description="High Confidence Level" name="input_highConfidenceLevel" varreftypesimple="true"/>
+    <input defaultvalue="DEFAULT" description="Low Confidence Level" name="input_lowConfidenceLevel" varreftypesimple="true"/>
+    <input defaultvalue="DEFAULT" description="Barge In" name="input_bargeIn" varreftypesimple="true"/>
+    <input defaultvalue="DEFAULT" description="Manage Repeat to enable repeat option - true/false" name="input_manageRepeat" varreftypesimple="true"/>
+    <input defaultvalue="DEFAULT" description="Report Enabled" name="input_reportEnabled" varreftypesimple="true"/>
+    <input defaultvalue="DEFAULT" description="Terminating Character" name="input_terminatingChar" varreftypesimple="true"/>
+    <input defaultvalue="DEFAULT" description="Media Type DTMF" name="input_mediaTypeDTMF" varreftypesimple="true"/>
+    <input defaultvalue="DEFAULT" description="Media Type for Voice" name="input_mediaTypeVoice" varreftypesimple="true"/>
+    <input defaultvalue="DEFAULT" description="Max Try Prompt if repeat tries exceeds the maximum limit" name="input_repeatMaxTryPrompt" varreftypesimple="true"/>
+    <input defaultvalue="DEFAULT" description="Barge In Type" name="input_BargeInType" varreftypesimple="true"/>
+    <input defaultvalue="DEFAULT" description="Confirmation Flag - true/false" name="input_confirmationValueFlag" varreftypesimple="true"/>
+    <output defaultvalue="" description="Returns a Success Failure of the State" name="ReturnCode" varreftypesimple="true"/>
+    <output defaultvalue="" description="Returns the Value of the Prompt and Collect" name="Value" varreftypesimple="true"/>
+    <output defaultvalue="" description="Prompt and collect Utterance" name="Utterance" varreftypesimple="true"/>
+    <output defaultvalue="" description="Returns the Recorded utterance of the Prompt and collect" name="Recorded_Utterance" varreftypesimple="true"/>
+    <output defaultvalue="" description="The otherslot Slot of the Prompt and collect" name="OtherSlot" varreftypesimple="true"/>
+    <output defaultvalue="" description="Remaining no match attempts of the prompt and collect" name="NomatchRemaining" varreftypesimple="true"/>
+    <output defaultvalue="" description="Remianing no input attempts of the prompt and collect" name="NoinputRemaining" varreftypesimple="true"/>
+    <output defaultvalue="" description="N best values of the prompt and collect" name="nBestValues" varreftypesimple="true"/>
+    <output defaultvalue="" description="Input type(DTMF or Voice) of the prompt and collect" name="InputType" varreftypesimple="true"/>
+    <output defaultvalue="" description="Remaining Confirmation Attempts" name="ConfirmationRemaining" varreftypesimple="true"/>
+    <output defaultvalue="" description="Confidence value of the prompt and collect" name="Confidence" varreftypesimple="true"/>
+    <output defaultvalue="" description="Menu ID for the Dialog name" name="MenuID" varreftypesimple="true"/>
+    <output defaultvalue="" description="Start time of the Prompt and collect " name="MenuStartTime" varreftypesimple="true"/>
+    <output defaultvalue="" description="End Time of the prompt and collect" name="MenuEndTime" varreftypesimple="true"/>
+    <output defaultvalue="" description="This returns the Specific Slots with the Values thats returned from Grammar" name="SpecificSlot" varreftypesimple="true"/>
+    <output defaultvalue="" description="Announce ID " name="AnnounceID" varreftypesimple="true"/>
+    <output defaultvalue="DEFAULT" description="Menu Description" name="DialogName" varreftypesimple="true"/>
+    <language name="english" root="en-us"/>
+    <language name="ENG" root="en-us"/>
+    <language name="HIN" root="en-us"/>
+    <language name="GUJ" root="gu-in"/>
+    <language name="MAR" root="mr-in"/>
+    <language name="TAM" root="ta-in"/>
+    <language name="TEL" root="te-in"/>
+    <language name="MAL" root="ml-in"/>
+    <language name="PUN" root="pa-in"/>
+    <language name="ASM" root="as-in"/>
+    <language name="BEN" root="be-in"/>
+    <language name="ORI" root="or-in"/>
+    <language name="KAN" root="kn-in"/>
+    <dependencies/>
+</module>

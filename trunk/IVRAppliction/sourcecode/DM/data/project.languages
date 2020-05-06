@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<ProjectLanguages>
+    <language asr="en-us" localization="as-in" localizationVersion="1.0.1" name="ASM" stdPhrasesInstalled="true" stdPhrasesLocation="EXTERNAL" tts="en-us"/>
+    <language asr="en-us" localization="be-in" localizationVersion="1.0.1" name="BEN" stdPhrasesInstalled="true" stdPhrasesLocation="EXTERNAL" tts="en-us"/>
+    <language asr="en-us" localization="en-us" localizationVersion="3.1.2" name="ENG" stdPhrasesInstalled="true" stdPhrasesLocation="EXTERNAL" tts="en-us"/>
+    <language asr="en-us" localization="en-us" localizationVersion="3.1.2" name="english" stdPhrasesInstalled="true" stdPhrasesLocation="EXTERNAL" tts="en-us"/>
+    <language asr="en-us" localization="gu-in" localizationVersion="1.0.1" name="GUJ" stdPhrasesInstalled="true" stdPhrasesLocation="EXTERNAL" tts="en-us"/>
+    <language asr="en-us" localization="hi-in" localizationVersion="1.0.1" name="HIN" stdPhrasesInstalled="true" stdPhrasesLocation="EXTERNAL" tts="en-us"/>
+    <language asr="en-us" localization="kn-in" localizationVersion="1.0.1" name="KAN" stdPhrasesInstalled="true" stdPhrasesLocation="EXTERNAL" tts="en-us"/>
+    <language asr="en-us" localization="ml-in" localizationVersion="1.0.1" name="MAL" stdPhrasesInstalled="true" stdPhrasesLocation="EXTERNAL" tts="en-us"/>
+    <language asr="en-us" localization="mr-in" localizationVersion="1.0.1" name="MAR" stdPhrasesInstalled="true" stdPhrasesLocation="EXTERNAL" tts="en-us"/>
+    <language asr="en-us" localization="or-in" localizationVersion="1.0.1" name="ORI" stdPhrasesInstalled="true" stdPhrasesLocation="EXTERNAL" tts="en-us"/>
+    <language asr="en-us" localization="pa-in" localizationVersion="1.0.1" name="PUN" stdPhrasesInstalled="true" stdPhrasesLocation="EXTERNAL" tts="en-us"/>
+    <language asr="en-us" localization="ta-in" localizationVersion="1.0.1" name="TAM" stdPhrasesInstalled="true" stdPhrasesLocation="EXTERNAL" tts="en-us"/>
+    <language asr="en-us" localization="te-in" localizationVersion="1.0.1" name="TEL" stdPhrasesInstalled="true" stdPhrasesLocation="EXTERNAL" tts="en-us"/>
+</ProjectLanguages>

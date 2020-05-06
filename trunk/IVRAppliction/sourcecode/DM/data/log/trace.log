@@ -1,0 +1,236 @@
+17/10/2013 15:32:45:806  INFO - 65493994D1FDA53571BEDACE0BDB9D61:/Sample1 : SCESession bound to HttpSession A67FA8FC1FA985E886C499F52FE54BCD
+17/10/2013 15:32:45:807  INFO - 65493994D1FDA53571BEDACE0BDB9D61:/Sample1 : Browser Version 2.1.4, terminationURL enabled : true
+17/10/2013 15:32:46:808  WARN - 65493994D1FDA53571BEDACE0BDB9D61:/Sample1 : Problem simulating plaform values (Connection refused: connect)
+17/10/2013 15:32:46:809  INFO - 65493994D1FDA53571BEDACE0BDB9D61:/Sample1 : Using SCESession 65493994D1FDA53571BEDACE0BDB9D61:/Sample1 servlet : Start
+17/10/2013 15:32:46:863  INFO - 65493994D1FDA53571BEDACE0BDB9D61:/Sample1 : ** Pushed Stack Frame [/DM]
+17/10/2013 15:32:46:888 DEBUG - 65493994D1FDA53571BEDACE0BDB9D61:/Sample1 : *** Reply for [/DM/Start] ***
+17/10/2013 15:32:46:890 DEBUG - 65493994D1FDA53571BEDACE0BDB9D61:/Sample1 : 0:<?xml version="1.0" encoding="UTF-8"?> 
+1:<vxml version="2.1" xmlns="http://www.w3.org/2001/vxml" xml:lang="en-us"> 
+2:<meta name="author" content="Avaya Aura Orchestration Designer"/> 
+3:<meta name="runtime-version" content="06.00.09.01"/> 
+4:<meta name="runtimecommon-version" content="06.00.09.01"/> 
+5:<meta name="copyright" content="Copyright (c) 2002-2011, Avaya"/> 
+6:<script> 
+7:function getnbest(  item, nbest ) { 
+8:    var len = application.lastresult$.length; 
+9:    var result = ""; 
+10:     
+11:    if ( len &gt; nbest) { 
+12:        len = nbest; 
+13:    } 
+14:    for (var i = 0; i &lt; len; i++) { 
+15:        if (i &gt; 0) { 
+16:            result += " |"; 
+17:        } 
+18:        var temp  =  "application.lastresult$[" + i + "]." + item; 
+19:        result += extractprops( "", eval(temp)); 
+20:    } 
+21:    return result; 
+22:} 
+23: 
+24:function getnbestnmni(  item, nbest ) { 
+25:    var len = application.lastresult$.length; 
+26:    var result = ""; 
+27:     
+28:    if ( len &gt; nbest) { 
+29:        len = nbest; 
+30:    } 
+31:    for (var i = 0; i &lt; len; i++) { 
+32:        if (i &gt; 0) { 
+33:            result += " |"; 
+34:        } 
+35:        result += item; 
+36:    } 
+37:    return result; 
+38:} 
+39: 
+40:function extractprops ( parent, obj ) { 
+41:    var prop, name, result = ""; 
+42:    var count = 1; 
+43:    if ( typeof ( obj ) == "object" ) { 
+44:        for ( prop in obj ) { 
+45:            name = parent + prop; 
+46:            if ( typeof ( obj [ prop ] ) == "object" ) { 
+47:                result += extractprops( name+".", obj [ prop ] ); 
+48:            } else { 
+49:                if (count == 1) { 
+50:                    result = obj [ prop ]; 
+51:                } else { 
+52:                    result += " " + obj [ prop ]; 
+53:                } 
+54:            } 
+55:            count = count + 1; 
+56:        } 
+57:    } else { 
+58:        if (obj == undefined ) { 
+59:            result +=  "undefined"; 
+60:        } else { 
+61:            result +=  obj; 
+62:        } 
+63:    } 
+64:    return result; 
+65:} 
+66: 
+67:function startswith ( value, startwith ) { 
+68:    var index; 
+69:    index = value.indexOf(startwith, 0); 
+70:    if ( index == 0 ) { 
+71:       return true; 
+72:    } else { 
+73:       return false; 
+74:    } 
+75:} 
+76: 
+77:function containsUndefined ( value ) { 
+78:    var index; 
+79:    index = value.indexOf('undefined', 0); 
+80:    if ( index == -1 ) { 
+81:       return false; 
+82:    } else { 
+83:       return true; 
+84:    } 
+85:} 
+86: 
+87:</script> 
+88:<script> 
+89:function objectToString(  obj ) { 
+90:    try { 
+91:    var result = ""; 
+92:    result += getobjectprops( "", obj); 
+93:    if (result.charAt(0) == '|' ) { 
+94:        result = result.substring(1); 
+95:    }  
+96:    } catch (errMsg) { 
+97:        return("undefined"); 
+98:    } 
+99:    return result; 
+100:} 
+101: 
+102:function getobjectprops ( parent, obj ) { 
+103:    var prop, name, result = ""; 
+104:    if ( typeof ( obj ) == "object" ) {  
+105:        for ( prop in obj ) {  
+106:            name = parent + prop; 
+107:            if ( typeof ( obj [ prop ] ) == "object" ) { 
+108:                result += extractprops( name+".", obj [ prop ] ); 
+109:            } else {  
+110:                result +=   "|"  + obj [ prop ];  
+111:            }  
+112:        }  
+113:    } else {  
+114:        if (obj == undefined ) {  
+115:           result +=  "undefined";  
+116:        } else {  
+117:           result +=  obj;  
+118:        }  
+119:    }  
+120:    return result; 
+121:} 
+122:</script> 
+123:<var name="_avayaExitReason" expr="''"/> 
+124:<var name="_avayaExitInfo1" expr="''"/> 
+125:<var name="_avayaExitInfo2" expr="''"/> 
+126:<var name="_avayaExitCustomerId" expr="''"/> 
+127:<var name="_avayaExitPreferredPath" expr="'1'"/> 
+128:<var name="_avayaExitTopic" expr="''"/> 
+129:<var name="_avayaNoinputCounter" expr="0"/> 
+130:<var name="_avayaNomatchCounter" expr="0"/> 
+131:<catch event="connection.disconnect"> 
+132:<if cond="_message == undefined"> 
+133:    <return eventexpr="_event"/> 
+134:<else/> 
+135:    <return eventexpr="_event" messageexpr="_message"/> 
+136:</if> 
+137:</catch> 
+138:<catch event="error.noresource.asr"> 
+139:<if cond="_message == undefined"> 
+140:    <return eventexpr="_event"/> 
+141:<else/> 
+142:    <return eventexpr="_event" messageexpr="_message"/> 
+143:</if> 
+144:</catch> 
+145:<catch event="error.noresource.tts"> 
+146:<if cond="_message == undefined"> 
+147:    <return eventexpr="_event"/> 
+148:<else/> 
+149:    <return eventexpr="_event" messageexpr="_message"/> 
+150:</if> 
+151:</catch> 
+152:<catch event="error.unsupported"> 
+153:<if cond="_message == undefined"> 
+154:    <return eventexpr="_event"/> 
+155:<else/> 
+156:    <return eventexpr="_event" messageexpr="_message"/> 
+157:</if> 
+158:</catch> 
+159:<catch event="error.semantic"> 
+160:<if cond="_message == undefined"> 
+161:    <return eventexpr="_event"/> 
+162:<else/> 
+163:    <return eventexpr="_event" messageexpr="_message"/> 
+164:</if> 
+165:</catch> 
+166:<meta name="marker" content="Avaya Aura Orchestration Designer Root End"/> 
+167:<form id="Start"> 
+168:<var name="input_propertiesLocation"/> 
+169:<var name="input_globalPropertyFileName"/> 
+170:<var name="input_propertyFileName"/> 
+171:<var name="input_language"/> 
+172:<var name="input_customAudioLocation"/> 
+173:<var name="input_standardAudioLocation"/> 
+174:<var name="input_grammarLocation"/> 
+175:<var name="input_confirmationInitialPrompt"/> 
+176:<var name="input_confirmationMaxTryPrompt"/> 
+177:<var name="input_confirmationMaxCount"/> 
+178:<var name="input_confirmationNoInputPrompt"/> 
+179:<var name="input_confirmationNoMatchPrompt"/> 
+180:<var name="input_confirmationReprompt"/> 
+181:<var name="input_confirmationSpecificPrompt"/> 
+182:<var name="input_initialPrompt"/> 
+183:<var name="input_noMatchPrompt"/> 
+184:<var name="input_noInputPrompt"/> 
+185:<var name="input_maxNoMatchCount"/> 
+186:<var name="input_maxNoInputCount"/> 
+187:<var name="input_isAnnouncement"/> 
+188:<var name="input_noInputMaxTryPrompt"/> 
+189:<var name="input_noMatchMaxTryPrompt"/> 
+190:<var name="input_helpPrompt"/> 
+191:<var name="input_successPrompt"/> 
+192:<var name="input_nbest"/> 
+193:<var name="input_disallowList"/> 
+194:<var name="input_dtmfGlobalGrammar"/> 
+195:<var name="input_dtmfGrammar"/> 
+196:<var name="input_voiceGlobalGrammar"/> 
+197:<var name="input_voiceGrammar"/> 
+198:<var name="input_confirmationDtmfGrammar"/> 
+199:<var name="input_confirmationVoiceGrammar"/> 
+200:<var name="input_dynamicGrammarFlag"/> 
+201:<var name="input_dynamicGrammar"/> 
+202:<var name="input_dynamicConstraintListValues"/> 
+203:<var name="input_dynamicConstraintListFlag"/> 
+204:<var name="input_dynamicConstraintListCounterFlag"/> 
+205:<var name="input_dynamicConstraintListCounter"/> 
+206:<var name="input_dynamicConstraintListPrompts"/> 
+207:<var name="input_confirmationDeniedApology"/> 
+208:<var name="input_confirmationDeniedMaxTryPrompt"/> 
+209:<var name="input_confirmationDeniedMaxCount"/> 
+210:<var name="input_privateData"/> 
+211:<var name="input_reEntry"/> 
+212:<var name="input_rePromptNoInput"/> 
+213:<var name="input_rePromptNoMatch"/> 
+214:<block> 
+215:<submit next="GetInputParams?___DDSESSIONID=65493994D1FDA53571BEDACE0BDB9D61%3A%2FSample1" namelist="input_propertiesLocation input_globalPropertyFileName input_propertyFileName input_language input_customAudioLocation input_standardAudioLocation input_grammarLocation input_confirmationInitialPrompt input_confirmationMaxTryPrompt input_confirmationMaxCount input_confirmationNoInputPrompt input_confirmationNoMatchPrompt input_confirmationReprompt input_confirmationSpecificPrompt input_initialPrompt input_noMatchPrompt input_noInputPrompt input_maxNoMatchCount input_maxNoInputCount input_isAnnouncement input_noInputMaxTryPrompt input_noMatchMaxTryPrompt input_helpPrompt input_successPrompt input_nbest input_disallowList input_dtmfGlobalGrammar input_dtmfGrammar input_voiceGlobalGrammar input_voiceGrammar input_confirmationDtmfGrammar input_confirmationVoiceGrammar input_dynamicGrammarFlag input_dynamicGrammar input_dynamicConstraintListValues input_dynamicConstraintListFlag input_dynamicConstraintListCounterFlag input_dynamicConstraintListCounter input_dynamicConstraintListPrompts input_confirmationDeniedApology input_confirmationDeniedMaxTryPrompt input_confirmationDeniedMaxCount input_privateData input_reEntry input_rePromptNoInput input_rePromptNoMatch" method="post"/> 
+216:</block> 
+217:</form> 
+218:</vxml> 
+219:
+
+17/10/2013 15:32:46:988  INFO - 65493994D1FDA53571BEDACE0BDB9D61:/Sample1 : Using SCESession 65493994D1FDA53571BEDACE0BDB9D61:/Sample1 servlet : AvayaDefaultDisconnectHandler
+17/10/2013 15:32:46:988  INFO - 65493994D1FDA53571BEDACE0BDB9D61:/Sample1 : ** Popped Stack Frame [/DM]
+17/10/2013 15:32:47:070  INFO - 65493994D1FDA53571BEDACE0BDB9D61:/Sample1 : Removing session from AvayaSessionTermination Servlet
+17/10/2013 15:32:47:071  INFO - 65493994D1FDA53571BEDACE0BDB9D61:/Sample1 : Termination URL reply : <?xml version="1.0" encoding="UTF-8"?>
+<vxml version="2.1" xmlns="http://www.w3.org/2001/vxml" xml:lang="en-us">
+</vxml>
+
+17/10/2013 15:32:47:071  INFO - 65493994D1FDA53571BEDACE0BDB9D61:/Sample1 : SCESession Removed
+17/10/2013 15:32:47:071 DEBUG - 65493994D1FDA53571BEDACE0BDB9D61:/Sample1 : Removing 0 session stack frames.

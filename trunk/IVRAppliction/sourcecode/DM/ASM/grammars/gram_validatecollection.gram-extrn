@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<grammar>
+    <properties>
+        <mode value="voice"/>
+        <type value="external"/>
+    </properties>
+    <data>
+        <mediatype value="application/srgs+xml"/>
+        <donotencodequerystring value="false"/>
+        <colid value="RESULT"/>
+        <colid value="CONFIRMATION_MODE"/>
+        <colid value="OTHER_SLOT"/>
+    </data>
+</grammar>

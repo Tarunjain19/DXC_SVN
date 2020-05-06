@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<grammar xmlns="http://www.w3.org/2001/06/grammar" mode="voice" root="yesnoSpeech" tag-format="semantics/1.0" version="1.0" xml:lang="en-us">
+    <rule id="yesnoSpeech" scope="public">
+        <ruleref uri="#Column0"/>
+        <tag>out.cxtag=rules.Column0;out.Column0=rules.Column0;</tag>
+    </rule>
+    <rule id="Column0" scope="private">
+        <tag>out='';</tag>
+        <one-of>
+            <item>yes<tag>out+="yes";</tag>
+            </item>
+            <item>yes it is<tag>out+="yes";</tag>
+            </item>
+            <item>thats correct<tag>out+="yes";</tag>
+            </item>
+            <item>that is correct<tag>out+="yes";</tag>
+            </item>
+            <item>it is correct<tag>out+="yes";</tag>
+            </item>
+            <item>its correct<tag>out+="yes";</tag>
+            </item>
+            <item>right<tag>out+="yes";</tag>
+            </item>
+            <item>it is right<tag>out+="yes";</tag>
+            </item>
+            <item>correct<tag>out+="yes";</tag>
+            </item>
+            <item>yep<tag>out+="yes";</tag>
+            </item>
+            <item>yup<tag>out+="yes";</tag>
+            </item>
+            <item>yes yes<tag>out+="yes";</tag>
+            </item>
+            <item>nope<tag>out+="no";</tag>
+            </item>
+            <item>wrong<tag>out+="no";</tag>
+            </item>
+            <item>no<tag>out+="no";</tag>
+            </item>
+            <item>no no<tag>out+="no";</tag>
+            </item>
+            <item>it is wrong<tag>out+="no";</tag>
+            </item>
+            <item>its wrong<tag>out+="no";</tag>
+            </item>
+            <item>no it isnt<tag>out+="no";</tag>
+            </item>
+            <item>no it is not<tag>out+="no";</tag>
+            </item>
+            <item>no that is not<tag>out+="no";</tag>
+            </item>
+            <item>no that isnt<tag>out+="no";</tag>
+            </item>
+            <item>no you dint<tag>out+="no";</tag>
+            </item>
+        </one-of>
+    </rule>
+</grammar>

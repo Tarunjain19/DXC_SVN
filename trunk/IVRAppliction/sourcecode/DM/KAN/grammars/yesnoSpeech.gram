@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<grammar>
+    <properties>
+        <mode value="voice"/>
+        <type value="static"/>
+    </properties>
+    <data>
+        <column id="Column0" repeat="-1" width="150">
+            <item repeat="-1" repeat-prob="-1" tag="yes" value="yes" weight="-1"/>
+            <item repeat="-1" repeat-prob="-1" tag="yes" value="yes it is" weight="-1"/>
+            <item repeat="-1" repeat-prob="-1" tag="yes" value="thats correct" weight="-1"/>
+            <item repeat="-1" repeat-prob="-1" tag="yes" value="that is correct" weight="-1"/>
+            <item repeat="-1" repeat-prob="-1" tag="yes" value="it is correct" weight="-1"/>
+            <item repeat="-1" repeat-prob="-1" tag="yes" value="its correct" weight="-1"/>
+            <item repeat="-1" repeat-prob="-1" tag="yes" value="right" weight="-1"/>
+            <item repeat="-1" repeat-prob="-1" tag="yes" value="it is right" weight="-1"/>
+            <item repeat="-1" repeat-prob="-1" tag="yes" value="correct" weight="-1"/>
+            <item repeat="-1" repeat-prob="-1" tag="yes" value="yep" weight="-1"/>
+            <item repeat="-1" repeat-prob="-1" tag="yes" value="yup" weight="-1"/>
+            <item repeat="-1" repeat-prob="-1" tag="yes" value="yes yes" weight="-1"/>
+            <item repeat="-1" repeat-prob="-1" tag="no" value="nope" weight="-1"/>
+            <item repeat="-1" repeat-prob="-1" tag="no" value="wrong" weight="-1"/>
+            <item repeat="-1" repeat-prob="-1" tag="no" value="no" weight="-1"/>
+            <item repeat="-1" repeat-prob="-1" tag="no" value="no no" weight="-1"/>
+            <item repeat="-1" repeat-prob="-1" tag="no" value="it is wrong" weight="-1"/>
+            <item repeat="-1" repeat-prob="-1" tag="no" value="its wrong" weight="-1"/>
+            <item repeat="-1" repeat-prob="-1" tag="no" value="no it isnt" weight="-1"/>
+            <item repeat="-1" repeat-prob="-1" tag="no" value="no it is not" weight="-1"/>
+            <item repeat="-1" repeat-prob="-1" tag="no" value="no that is not" weight="-1"/>
+            <item repeat="-1" repeat-prob="-1" tag="no" value="no that isnt" weight="-1"/>
+            <item repeat="-1" repeat-prob="-1" tag="no" value="no you dint" weight="-1"/>
+        </column>
+    </data>
+</grammar>
